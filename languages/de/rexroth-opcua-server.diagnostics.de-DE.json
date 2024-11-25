@@ -1,0 +1,111 @@
+{
+  "product": "UAS-V-0206",
+  "mainDiagnostics": {
+    "0D0A0000": {
+      "text": "Trace Nachricht OPC UA",
+      "version": 1
+    },
+    "0D0A0100": {
+      "text": "OPC UA Server Meldung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C761000": {
+          "text": "Server App initialisiert",
+          "version": 2
+        },
+        "0C761001": {
+          "text": "Server App wird ausgeführt",
+          "version": 2
+        },
+        "0C761002": {
+          "text": "Server App wird heruntergefahren",
+          "version": 2
+        },
+        "0C761003": {
+          "text": "Server Shutdown ist beendet und App ist gestoppt",
+          "version": 2
+        },
+        "0C761007": {
+          "text": "OPC UA Server hört auf:",
+          "version": 1
+        },
+        "0C761009": {
+          "text": "OPC UA Server kann nicht starten",
+          "version": 1
+        },
+        "0C761011": {
+          "text": "Server-Lizenz wurde erfolgreich geprüft",
+          "version": 1
+        },
+        "0C761013": {
+          "text": "Server SDK interner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "0D0A0400": {
+      "text": "Trace Nachricht comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0E0000": {
+      "text": "Trace Warnung OPC UA",
+      "version": 1
+    },
+    "0D0E0100": {
+      "text": "OPC UA Server Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C761008": {
+          "text": "Benutzer hat nicht die erforderliche Berechtigung",
+          "version": 1
+        }
+      }
+    },
+    "0D0E0400": {
+      "text": "Trace Warnung comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0F0000": {
+      "text": "Trace Fehler OPC UA",
+      "version": 1
+    },
+    "0D0F0100": {
+      "text": "OPC UA Server Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C761004": {
+          "text": "Initialisierung der OPC UA Server-Applikation ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C761005": {
+          "text": "Initialisierung des OPC UA Servers ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C761006": {
+          "text": "Initialisierung der OPC UA Server-Applikation fehlgeschlagen, Datei nicht gefunden",
+          "version": 1
+        },
+        "0C761009": {
+          "text": "Server App konnte nicht gestartet werden",
+          "version": 2
+        },
+        "0C761010": {
+          "text": "Data Layer Provider der OPC UA Server App kann nicht starten",
+          "version": 1
+        },
+        "0C761012": {
+          "text": "Server-Lizenz fehlt",
+          "version": 1
+        },
+        "0C761013": {
+          "text": "Server SDK interner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "0D0F0400": {
+      "text": "Trace Fehler comm.datalayer.util.flatbuffers",
+      "version": 1
+    }
+  }
+}

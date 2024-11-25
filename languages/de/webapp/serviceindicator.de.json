@@ -1,0 +1,105 @@
+{
+  "failureProbLow": "Keine erhöhte Ausfallwahrscheinlichkeit",
+  "failureProbMedium": "Erhöhte Ausfallwahrscheinlichkeit",
+  "failureProbHigh": "Hohe Ausfallwahrscheinlichkeit",
+  "info": {
+    "qrCodesDCA": "QR-Codes (für die Digital Service Assistant App)",
+    "contactTable": {
+      "contactUs": "Kontaktieren Sie uns",
+      "DSA.app.top": "Digital Service Assistant App",
+      "DSA.app.bottom": "Herunterladen der",
+      "export.text": "Exportieren Sie die Tabelle und senden Sie sie per Mail an",
+      "export.button": "Export als Excel",
+      "service": "Rufen Sie unseren Service 24/7 an"
+    }
+  },
+  "driveTable": {
+    "heading": "Drive-Übersicht",
+    "qrCodes": "QR-Code",
+    "Axisname": "Achsname",
+    "Drivetype": "Drivetyp",
+    "Serialnumber Drive": "Serialnummer Drive",
+    "IP": "IP",
+    "Diagnosis": "Diagnose",
+    "Failure Prob. Drive": "Ausfall-Wahrsch. Drive",
+    "Histogram": "Histogramm",
+    "Motortype": "Motortyp",
+    "Serialnumber Motor": "Serialnummer Motor",
+    "Failure Prob. Motor": "Ausfall-Wahrsch. Motor",
+    "Lifetime Estimator": "Used Lifetime Est. Motor",
+    "emptyState": "Keine anzuzeigenden Elemente"
+  },
+  "selectorWindow": {
+    "header": "Spalten zum Ausblenden/Anzeigen wählen",
+    "headerSource": "Spalten ausgeblendet:",
+    "sourceFilter": "Suche",
+    "headerTarget": "Spalten angezeigt:",
+    "targetFilter": "Suche",
+    "addSelected": "Auswahl hinzufügen",
+    "addAll": "Alles hinzufügen",
+    "removeSelected": "Auswahl zurücksetzen",
+    "removeAll": "Alles zurücksetzen",
+    "dropPlaceholder": "Items hier hineinziehen",
+    "cancelButton": "Abbrechen",
+    "saveButton": "Speichern",
+    "selectAll": "Alles auswählen",
+    "deselectAll": "Alles abwählen"
+  },
+  "messages": {
+    "success": "Kein Drive oder Motor hat eine erhöhte Ausfallwahrscheinlichkeit.",
+    "warning": "Ein oder mehrere Drives oder Motoren haben erhöhte Ausfallwahrscheinlichkeit. Bitte kontaktieren Sie Ihren Bosch Rexroth Service.",
+    "error": "Ein oder mehrere Drives oder Motoren haben eine hohe Ausfallwahrscheinlichkeit. Bitte kontaktieren Sie Ihren Bosch Rexroth Service."
+  },
+  "bannerMessages": {
+    "serviceMode": "Achtung! Der <i>Service Mode</i> ist gerade aktiv, daher ist eine Verbindung zu den Drives nicht möglich.",
+    "DCAUninstalled": "Achtung! Die <i>Drive Connect App</i> ist nicht installiert. Gehen Sie zum <a href=\"/package-manager/packages\"><u> Apps manager</u></a>, installieren Sie die App und versuchen es erneut.",
+    "DCAInactive": "Achtung! Die <i>Drive Connect App</i> ist gerade nicht aktiv. Gehen Sie zum <a href=\"/package-manager/packages\"><u> Apps manager</u></a>, aktivieren Sie die App und versuchen es erneut.",
+    "notAuthorized": "Achtung! Sie sind nicht authorisiert diese Applikation zu verwenden. Gehen Sie zum <a href=\"/identity-manager/permissions\"><u> Berechtigungs-Management</u></a> und ändern die Rechte.",
+    "noDrivesFound": "Warnung! Es können keine Drives gefunden werden. Stellen Sie sicher, dass die Drives korrekt angeschlossen und erreichbar sind."
+  },
+  "commandBar": {
+    "hideColumns.hidden": "Spalte(n) sind ausgeblendet",
+    "hideColumns.nohidden": "Blende statische Spalten aus",
+    "addDeviceTooltip": "Remote device hinzufügen",
+    "loggingConfigTooltip": "Logging konfigurieren"
+  },
+  "export": {
+    "headline": "Achsen als Excel-Datei exportieren",
+    "stepAxes": "Achsen",
+    "stepOptions": "Optionen",
+    "descriptionAxes": "Zu exportierende Achsen wählen",
+    "selectAll": "Alles auswählen",
+    "deselectAll": "Alles abwählen",
+    "descriptionHistogram": "Histogramm-Werte in den Export einbeziehen",
+    "exportHistogram": "Histogramm-Werte exportieren",
+    "back": "Zurück",
+    "next": "Weiter",
+    "export": "Exportieren",
+    "cancel": "Abbrechen"
+  },
+  "addDevice": {
+    "headline": "Remote device hinzufügen",
+    "IP": "IP-Adresse",
+    "port": "Port",
+    "subdeviceid": "Subdevice-ID",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "errorInvalidIP": "IP-Adresse hat ungültiges Format",
+    "errorInvalidPort": "Port muss eine Zahl sein",
+    "errorInvalidSubdeviceID": "Subdevice-ID muss eine Zahl sein",
+    "toastSuccessfullyAdded": "Device erfolgreich im Data Layer erzeugt. Es wird in Kürze in der Tabelle angezeigt, sobald es online ist."
+  },
+  "configModal": {
+    "headline": "Konfiguration",
+    "activateLogging": "Logging aktivieren",
+    "activateRecording": "Datarecording aktivieren",
+    "storagePath": "Speicherort",
+    "placeholder": "Bitte wählen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "successful": "Konfiguration erfolgreich gespeichert"
+  },
+  "drives.filters-dialog": {
+    "wanttosave": "Do you want to save your changes?"
+  }
+}

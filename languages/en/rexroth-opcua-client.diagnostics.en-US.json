@@ -1,0 +1,105 @@
+{
+  "product": "UAC-V-0206",
+  "mainDiagnostics": {
+    "0D0A0200": {
+      "text": "OPC UA Client message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C762000": {
+          "text": "Client initialized",
+          "version": 2
+        },
+        "0C762001": {
+          "text": "Client is running",
+          "version": 2
+        },
+        "0C762002": {
+          "text": "Client starts shutdown",
+          "version": 2
+        },
+        "0C762003": {
+          "text": "Client stopped",
+          "version": 2
+        },
+        "0C762004": {
+          "text": "<Placeholder for OPC UA Client Diagnosis>",
+          "version": 1
+        },
+        "0C762007": {
+          "text": "Client App initialized",
+          "version": 2
+        },
+        "0C762008": {
+          "text": "Client App is running",
+          "version": 2
+        },
+        "0C762009": {
+          "text": "Client shutdown is finished and App is stopped",
+          "version": 2
+        },
+        "0C762011": {
+          "text": "Client App deinitialization is completed",
+          "version": 2
+        },
+        "0C762012": {
+          "text": "Client App starts shutdown",
+          "version": 1
+        },
+        "0C762013": {
+          "text": "Client license acquired",
+          "version": 1
+        },
+        "0C762015": {
+          "text": "Client SDK: Internal error",
+          "version": 1
+        }
+      }
+    },
+    "0D0A0201": {
+      "text": "OPC UA status code of connected server",
+      "version": 1
+    },
+    "0D0A0400": {
+      "text": "Trace message comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0E0200": {
+      "text": "OPC UA Client warning",
+      "version": 1
+    },
+    "0D0E0400": {
+      "text": "Trace warning comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0F0200": {
+      "text": "OPC UA Client error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C762005": {
+          "text": "Failed to create Client configuration",
+          "version": 2
+        },
+        "0C762006": {
+          "text": "OPC UA Client App: Failed to create new client",
+          "version": 1
+        },
+        "0C762010": {
+          "text": "Client App could not be started",
+          "version": 2
+        },
+        "0C762014": {
+          "text": "Client license missing",
+          "version": 1
+        },
+        "0C762015": {
+          "text": "Client SDK: Internal error",
+          "version": 1
+        }
+      }
+    },
+    "0D0F0400": {
+      "text": "Trace error comm.datalayer.util.flatbuffers",
+      "version": 1
+    }
+  }
+}

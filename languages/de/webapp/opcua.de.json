@@ -1,0 +1,57 @@
+{
+  "ua": {
+    "common": {
+      "yes.button": "Ja",
+      "no.button": "Nein",
+      "cancel.button": "Abbrechen",
+      "ok.button": "OK",
+      "licenseStatus.text": "Lizenz ist nicht verfügbar",
+      "viewLicense.text": "Aktuelle Lizenzen anzeigen"
+
+    },
+
+    "overview": {
+      "opcUa.header": "OPC UA",
+      "opcUaPageInfo.text": "Übersicht über alle installierten Apps der OPC UA",
+      "opcUaAppNotAvailable.text": "Die Apps der OPC UA sind momentan nicht verfügbar.",
+      "mostLikelyReasons.text": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+      "serviceModeAvailable.text": "Der Service-Modus ist gerade aktiv. Bitte gehen sie zu 'Einstellungen ➔ Apps.'",
+      "switchToOperationMode.text": "Wechseln Sie in den Operation-Modus und versuchen Sie es erneut.",
+      "appIsInitialized.text": "Die Apps werden gerade initialisiert. Dies kann eine Weile dauern. Bitte aktualisieren Sie die Seite.",
+      "noRequiredPermissions.text": "Erforderliche Berechtigungen sind nicht verfügbar.",
+      "minimalRequiredPermissions.text": "Erforderliche Mindestberechtigungen für diese Seite:"
+    },
+
+    "client": {
+      "opcUaClient.title": "OPC UA Client",
+      "configuration/status.button": "Konfiguration/Status",
+      "opcUaClientSubtitle.text": "OPC UA Client verwalten",
+      "clientStatus.title": "OPC UA Client-Status öffnen",
+      "clientConnections.text": "Client-Verbindungen"
+    },
+
+    "server": {
+      "opcUaServer.title": "OPC UA Server",
+      "configuration/status.button": "Konfiguration/Status",
+      "certificateConfig.title": "Zertifikatskonfiguration",
+      "opcUaServerSubtitle.text": "OPC UA Server verwalten",
+      "serverStatus.title": "OPC UA Server-Status öffnen",
+      "status.text": "Status",
+      "startTime.text": "Startzeit",
+      "sessionsConnected.text": "Aktive Sitzungen"
+    },
+
+    "pubsub": {
+      "opcUaPubSub.title": "OPC UA Pub/Sub",
+      "configuration/status.button": "Konfiguration/Status",
+      "opcUaPubSubSubtitle.text": "OPC UA Pub/Sub verwalten",
+      "pubsubStatus.title": "OPC UA Pub/Sub-Status öffnen",
+      "publishMessages.text": "Gesendete Nachrichten",
+      "receiveMessages.text": "Empfangene Nachrichten"
+    },
+
+    "datalayer":{
+      "datalayerBrowser.title": "Data Layer Browser"
+    }
+  }
+}

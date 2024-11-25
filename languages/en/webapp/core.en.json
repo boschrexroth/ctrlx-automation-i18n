@@ -1,0 +1,105 @@
+{
+  "core.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "close.button": "Close",
+    "save.button": "Save",
+    "discard.button": "Discard",
+    "refresh.button": "Refresh"
+  },
+  "core.fileselect": {
+    "accepted": "Only files of type {{param}} are accepted"
+  },
+  "core.header": {
+    "lock.tooltip": "You do not have all the necessary permissions for full functionality",
+    "appData.tooltip": "Manages app data",
+    "userPassword.menu": "Change password",
+    "userLogout.menu": "Log out",
+    "helpManual.menu": "Application manual",
+    "helpCurrentPage.menu": "Current page help",
+    "helpHowto.menu": "How-tos",
+    "helpForum.menu": "Forum",
+    "helpApi.menu": "API reference",
+    "ctrlxCoreSystemReport.menu": "ctrlX OS system report",
+    "ctrlxWorksSystemReport.menu": "ctrlX WORKS system report"
+  },
+  "core.sidebar": {
+    "settings.menu": "Settings",
+    "system.menu": "System",
+    "about.menu": "About ctrlX OS"
+  },
+  "core.notfound": {
+    "title": "Page not found",
+    "message": "There is no page available under the path {{param}}.",
+    "back.button": "Go back"
+  },
+  "core.fossinfo": {
+    "title": "Open Source Components",
+    "name.header": "Name",
+    "version.header": "Version",
+    "licenses.header": "License(s)",
+    "copyright.header": "Copyright",
+    "homepage.header": "Homepage",
+    "writtenOffer.title": "Written offer for source code"
+  },
+  "core.commandbar": {
+    "item": "item",
+    "items": "items"
+  },
+  "core.permissions": {
+    "noPermissions": "You do not have the required permissions"
+  },
+  "core.about": {
+    "version": "Version",
+    "copyright": "Copyright",
+    "copyrightWithProduct": "Copyright of {{product}}",
+    "copyrightText": "{{param}}. All rights reserved.",
+    "more.title": "See also",
+    "foss.button": "Open source components",
+    "terms.button": "General Terms of Use"
+  },
+  "core.login": {
+    "welcome": "Welcome to ctrlX OS",
+    "operationalUse": "The usage of the {{param}} is limited to development, evaluation and simulation. Operative usage is not intended.",
+    "title": "Login",
+    "user": "Username",
+    "initUser": "The initial username is:",
+    "userRequired": "Please enter your username.",
+    "pwd": "Password",
+    "initPwd": "The initial password is:",
+    "pwdRequired": "Please enter your password.",
+    "forceLocalAuth": "Force local authentication",
+    "acceptTerms": "I accept the {{param}}.",
+    "login.button": "Log in",
+    "authFailed": "Authentication failed",
+    "workingOnUpdates": "Currently updating...",
+    "complete": "{{param}} completed",
+    "dontTurnOff": "Do not switch off the device",
+    "restartHint": "The device might restart several times",
+    "starting": "Starting...",
+    "restarting": "Restarting...",
+    "errorsOccured": "Some errors occured",
+    "applyingSetup": "Applying setup...",
+    "applySetupWithWarnings": "Setup applied with warnings",
+    "applySetupFailed": "Applying setup failed",
+    "applySetupReportHint": "After logging in, click 'Report' in the drop down menu on the upper right to view the {{param}}.",
+    "applySetupParamWarnings": "warnings",
+    "applySetupParamErrors": "errors"
+  },
+  "core.unsavedMessage": {
+    "title": "Unsaved changes on {{param}}",
+    "item": "item",
+    "desc": "You made changes to {{param}}.",
+    "descSave": "You can save or discard your changes or cancel to continue editing.",
+    "descNoSave": "You can discard your changes or cancel to continue editing."
+  },
+  "core.disconnected": {
+    "title": "Disconnection",
+    "message": "The server is not responding"
+  },
+  "core.dashboard.errorContent": {
+    "noDataAvailable": "No data available (Error: {{errorCode}})",
+    "noPermissions": "You do not have the required permissions.",
+    "appInitializing": "Most likely the app is currently being initialized. This may take a while. This widget refreshes automatically."
+  }
+}

@@ -1,0 +1,369 @@
+﻿{
+    "app": {
+        "title": "ctrlX Oszilloskop",
+        "name": "Oszilloskop",
+        "addOsci": "Hinzufügen einer Oszilloskop-Instanz",
+        "noOsciConfigured": "Kein Oszilloskop konfiguriert",
+        "readOnlyPermission": "Sie haben keine Berechtigung diese Operation durchzuführen"
+    },
+    "overview": {
+        "instance": {
+            "subtitle1": "Oszilloskop ist nicht konfiguriert",
+            "subtitle2": "Verwalten Sie Ihr Oszilloskop",
+            "subtitle3": "Open Konfiguration",
+            "text": {
+                "configstatus": "Konfiguration",
+                "configure": "Oszilloskop konfigurieren",
+                "numbers": "Anzahl der OSCI Instanzen",
+                "drive": "Antreiben-Typ",
+                "datalayer": "ctrlX CORE-Typ"
+            },
+            "title": "Oszilloskop"
+        },
+        "nopermission": {
+            "p1": "Sie haben nicht die erforderlichen Berechtigungen.",
+            "p2": "Minimale erforderliche Berechtigungen für diese Seite:"
+        },
+        "notavailable": {
+            "li1": "Der Servicemodus ist aktiv. Wechseln Sie auf der Seite | Apps | in den Betriebsmodus.",
+            "li2": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte | refresh | the page.",
+            "p1": "Keine Daten verfügbar (Fehler: {{errorCode}})",
+            "p2": "Mögliche Gründe:"
+        }
+    },
+    "noAccess": {
+        "error.header": "Die App Oszilloskop ist momentan nicht verfügbar.",
+        "description": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+        "servicemode": "Der 'Service-Modus' ist gerade aktiv. wechseln Sie in den 'Operation-Modus' und versuchen Sie es erneut.",
+        "servicemode.appManagerLink": "Apps-Manager",
+        "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte Aktualisieren Sie die Seite",
+        "refresh": "Aktualisieren",
+        "noPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen."
+    },
+    "button": {
+        "cancel": "Abbrechen",
+        "add": "Hinzufügen",
+        "delete": "Löschen",
+        "discard": "Verwerfen",
+        "save": "Speichern",
+        "reset": "Zurücksetzen",
+        "manual": "Handbuch",
+        "continue": "fortsetzen "
+    },
+    "tooltip": {
+        "add": "Füge Oszilloskop hinzu",
+        "delete": "Löscht Oszilloskop",
+        "edit": "Bearbeitet Konfiguration",
+        "load": "Importieren Aufzeichnung oder Konfiguration",
+        "load_signal": "Lädt Konfiguration",
+        "more": "Mehr...",
+        "open": "Öffnet Diagramm",
+        "save": "Export Aufzeichnung oder Konfiguration",
+        "save_signal": "Speichert Signalkonfiguration",
+        "save_all": "Speichert alle Konfigurationen",
+        "start": "Startet Aufzeichnung",
+        "stop": "Stoppt Aufzeichnung",
+        "refresh": "Aktualisiert Liste",
+        "trigger": "Löst Aufzeichnung aus",
+        "show_cursors": "Zeigt Cursor",
+        "hide_cursors": "Blendet Cursor aus",
+        "couple_cursors": "Koppelt Cursor",
+        "decouple_cursors": "Entkoppelt Cursor",
+        "zoom_to_cursors": "Zoom entsprechend dem Cursorbereich.",
+        "zoom_to_intercept": "Vergrößert auf Abfangbereich",
+        "configure_diagram": "Diagrammkonfiguration",
+        "analyze_signal": "Signalanalysekonfiguration",
+        "storage_setting": "Editiert aufgezeichnete Datenspeicherkonfigurationen"
+    },
+    "error": {
+        "signal_remove": "Signale neu konfigurieren(über 20 in der Länge, alle entfernt)",
+        "no_drive_signal": "Keine verfügbaren Antriebssignale, Bitte überprüfen Sie den Status {{name}}.",
+        "signal_limit_20": "Kann nicht mehr als 20 Signale hinzufügen",
+        "signal_limit_10": "Kann nicht mehr als 10 Signale hinzufügen",
+        "signal_limit_8": "Kann nicht mehr als 8 Signale hinzufügen",
+        "signal_limit_100": "Kann nicht mehr als 100 Signale hinzufügen",
+        "signal_limit_axis": "Mehrachssignal kann nicht hinzugefügt werden",
+        "instance_limit": "Kann nicht mehr als 10 Oszilloskop",
+        "config_incomplete": "Konfigurationsinformationen unvollständig",
+        "config_invalid": "Konfiguration ungültig",
+        "unable_to_delete": "Kann Oszilloskop während des Aufzeichnens nicht löschen",
+        "unable_to_edit": "Kann Konfiguration während einer laufenden Aufzeichnung nicht bearbeiten",
+        "no_task": "Kein Task verfügbar. Bitte installieren Sie die SPS oder die Motion-App",
+        "not_exist": "{{name}} nicht vorhanden",
+        "record_failed": "{{name}}-Aufzeichnung fehlgeschlagen",
+        "osci_add_failed": "{{name}} hinzufügen fehlgeschlagen",
+        "state_change_failed": "{{name}}-Zustand hat sich geändert",
+        "state_started": "{{name}} wurde gestartet",
+        "state_triggered": "{{name}} wurde ausgelöst",
+        "cycle_time_multiple": "Der Zeitraum muss ein ganzzahliges Vielfaches der Scheduler-Zykluszeit sein",
+        "signal_add_error": "Die Signale für den richtigen Pfad wurden hinzugefügt, die Signale für den falschen Pfad wurden nicht verarbeitet!",
+        "no_drive_manual": "Es ist kein Antriebssignal ausgewählt, nur der manuelle Modus wird unterstützt"
+    },
+    "zoom": {
+        "adjust_signal": "Signale im Anzeigebereich einstellen",
+        "adjust_unit": "Signale entsprechend den Einheiten einstellen",
+        "scale_signal": "Alle Signale identisch skalieren",
+        "scale_unit": "Skalierung aller Signale identisch nach Einheiten",
+        "scale_center_unit": "Skalierung aller Signale identisch mit Totpunkt entsprechend der Einheit",
+        "max_signal": "Maximierung des Signals",
+        "max_display": "Maximierung des Signals im Anzeigebereich"
+    },
+    "information": {
+        "load": "Lade Oszilloskopinstanz: {{name}}",
+        "offline": "Zeige Offline-Instanz",
+        "saved": "Konfiguration gespeichert",
+        "osci_deleted": "Gelöschtes Oszilloskop {{name}}",
+        "osci_add_success": "Hinzugefügtes Oszilloskop {{name}}"
+    },
+    "state": {
+        "no_cfg": "Nicht konfiguriert",
+        "ready": "Aufzeichnungsbereit",
+        "starting": "Starte",
+        "savedata": "Speichern von Daten",
+        "recording": "Aufzeichnung",
+        "wait_for_trigger": "Warte auf Auslöser",
+        "triggered": "Ausgelöst",
+        "completed": "Aufzeichnung abgeschlossen",
+        "offline": "Offline",
+        "error": "Error",
+        "unknown": "Unbekannter Zustand",
+        "ongoing_title": "Startet die Laufwerksinstanz",
+        "ongoing_des": "Das Drive-Gerät führt derzeit Messvorgänge auf einer anderen Plattform durch. Bitte entscheiden Sie, ob Sie fortfahren möchten. Wenn ja, wird die laufende Messung abgebrochen."
+    },
+    "main": {
+        "header": {
+            "name": "Name",
+            "type": "Type",
+            "state": "Zustand",
+            "actions": "Aktionen"
+        },
+        "text": {
+            "no_osci_1": "Kein Oszilloskop konfiguriert. Um einen Oszilloskop hinzuzufügen, drücken Sie auf die",
+            "no_osci_2": "Schaltfläche oben rechts.",
+            "run_Need_Signal": "Messung kann nur nach dem Konfigurieren der Signale gestartet werden."
+        }
+    },
+    "table": {
+        "signal": {
+            "name": "Signal"
+        },
+        "zoom": {
+            "name": "Zoom"
+        }
+    },
+    "add": {
+        "title": "Hinzufügen einer Oszilloskop-Instanz",
+        "header": {
+            "name": "Name",
+            "type": "Type"
+        },
+        "error": {
+            "exists": "Der Instanzname existiert bereits",
+            "drive": "Wenn die Seite aktualisiert wird, verschwindet diese Instanz",
+            "required": "Der Name der Instanz ist erforderlich"
+        }
+    },
+    "delete": {
+        "title": "Oszilloskop löschen",
+        "description": "Sind Sie sicher, dass Sie {{name}} löschen möchten?"
+    },
+    "diagram": {
+        "title": "Diagrammkonfiguration",
+        "options": "{{currentDiagram}}-Signaloptionen"
+    },
+    "channel": {
+        "title": "Konfiguration ansehen",
+        "color": "Farbe",
+        "visible": {
+            "title": "Sichtbar",
+            "hide": "Ausblenden",
+            "show": "Einblenden"
+        }
+    },
+    "config": {
+        "error": {
+            "no_drive_signal": "Antriebssignal nicht ausgewählt, Konfiguration nicht aktiv",
+            "Drive_to_Datalayer": "Die Laufwerksinstanz unterstützt das Hinzufügen von ctrlX CORE-Signalen nicht",
+            "Datalayer_to_Drive": "Die ctrlX CORE-Typ-Instanz unterstützt das Hinzufügen von Drive-Signalen nicht",
+            "Type_not_match": "Signaltyp stimmt nicht überein",
+            "path_err": "Signalpfadfehler",
+            "unique_err": "Signal vorhanden"
+        },
+        "tabs": {
+            "signal_selection": "Signalauswahl",
+            "recording": "Aufzeichnung",
+            "trigger": "Auslöser"
+        },
+        "signals": {
+            "selected": "Ausgewählte Signale",
+            "search": "Suche",
+            "drive": "Bitte prüfen Sie, ob die DRIVE Connect app and EtherCAT Master app korrekt installiert und konfiguriert ist",
+            "RT": "Echtzeit signal",
+            "NRT": "Nicht-Echtzeit signal",
+            "addPath": "Signalpfad hinzufügen",
+            "signalPath": "Signalpfad"
+        },
+        "storage": {
+            "text": {
+                "local": "Lokale Speicherung",
+                "influx": "InfluxDB Speicherung(Unterstützt nur den Typ „ctrlX CORE“)",
+                "localInfo": "automatisch lokal speichern",
+                "influxInfo": "automatisches speichern in InfluxDB"
+            },
+            "error": {
+                "no_app": "Bitte installieren Sie die InfluxDB App!",
+                "no_config": "Bitte konfigurieren Sie die InfluxDB!",
+                "restart_infor": "Lokaler Speicher und InfluxDB Speicher würden nach dem Neustart des Geräts in den inaktiven Zustand zurückgesetzt!"
+            },
+            "user": {
+                "header": "Benutzername",
+                "error": "Bitte geben Sie Ihren Benutzernamen ein."
+            },
+            "password": {
+                "header": "Passwort",
+                "error": "Bitte geben Sie Ihr Passwort ein.",
+                "loginErr": "Authentifizierung fehlgeschlagen"
+            },
+            "button": {
+                "sign_in": "Anmelden",
+                "edit": "Bewerken"
+            },
+            "host": {
+                "header": "Host",
+                "hint": "Nur den aktuellen Kern unterstützen."
+            },
+            "organization": {
+                "header": "Organisation"
+            },
+            "token": {
+                "header": "Token",
+                "hint": " Wenn die Tokenliste leer ist, erstellen Sie bitte in der InfluxDB App!"
+            },
+            "bucket": {
+                "header": "Bucket"
+            }
+        },
+        "recording": {
+            "time": {
+                "header": "Aufzeichnungsdauer (ms)",
+                "hint1": "Erlaubte Aufzeichnungsdauer: ",
+                "hint2": ". Nur der Zeitraum kleiner 2ms wird durch die Signalnummer begrenzt",
+                "requiredErr": "Die Aufnahmezeit ist erforderlich",
+                "minErr": "Die Aufnahmezeit ist zu kurz",
+                "maxErr": "Die Aufnahmezeit ist zu lang",
+                "validErr": "Die Aufnahmezeit ist nicht gültig"
+            },
+            "period": {
+                "header": "Zeitraum (ms)",
+                "hint1": "Zulässiger Zeitraum: ",
+                "hint2": ", nur gültig für RT-Signale, ganzzahliges Vielfaches der Scheduler-Zykluszeit",
+                "periodErr": "Der Zeitraum muss ein ganzzahliges Vielfaches des Scheduler-Zyklusses sein",
+                "requiredErr": "Der Zeitraum ist erforderlich",
+                "minErr": "Der Zeitraum ist zu kurz",
+                "maxErr": "Der Zeitraum ist zu lang",
+                "validErr": "Der Zeitraum ist nicht gültig"
+            },
+            "depth": {
+                "header": "Speichertiefe (Aufzeichnungsdauer / Zeitraum)",
+                "hint": "Zulässige Speichertiefe: ",
+                "requiredErr": "Die Speichertiefe ist erforderlich",
+                "minErr": "Die Speichertiefe ist zu kurz",
+                "maxErr": "Die Speichertiefe ist zu lang",
+                "validErr": "Die Speichertiefe ist nicht gültig"
+            },
+            "type": {
+                "header": "Puffertyp"
+            }
+        },
+        "trigger": {
+            "mode": {
+                "header": "Trigger-Modus",
+                "hint": "Nur Signale des Typs Integer sind als Auslöser in diesem Modus erlaubt.",
+                "list": {
+                    "manual": "Manuell",
+                    "rising_edge": "Steigende Flanke",
+                    "falling_edge": "Fallende Flanke",
+                    "rising_or_falling_edge": "Steigende Flanke/Fallende Flanke",
+                    "value": "Wert"
+                }
+            },
+            "signal": {
+                "header": "Signal",
+                "placeholder": "Ein Signal auswählen",
+                "error": {
+                    "no_signal": "Kein Signal vorhanden",
+                    "no_selection": "Ein Signal auswählen"
+                }
+            },
+            "level": {
+                "header": "Level",
+                "placeholder": "Signal-Level eingeben",
+                "error": {
+                    "no_value": "Niveau erforderlich ist",
+                    "type_err": "Typfehler"
+                }
+            },
+            "pretrigger": {
+                "header": "Vortrigger"
+            }
+        },
+        "save": {
+            "title": "Aktuelles Oszilloskop deaktivieren?",
+            "description": "Oszilloskopkonfiguration geändert. Die aufgezeichneten Signal werden gelöscht.",
+            "error": {
+                "config_invalid": "Aufzeichnungskonfiguration ungültig",
+                "trigger_invalid": "Auslöserkonfiguration ungültig"
+            }
+        },
+        "cancel": {
+            "title": "Gibt es nicht gespeicherte Änderungen in der Messkonfiguration?",
+            "description": "Messparameter geändert. Änderungen verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
+        },
+        "recovery": {
+            "title": "Instanzkonfiguration zurücksetzen?",
+            "description": "Derzeit gibt es mehr als 20 Signale, und der ausgewählte Modus unterstützt nur 20 Signale. Es wird empfohlen, die Instanz zurückzusetzen oder die Signale manuell zu löschen"
+        },
+        "bulk_read": {
+            "title": "Bitte verwenden Sie BULKREAD mit Vorsicht!",
+            "description": "Aus Gründen der Leistungseinschränkung können zu viele Signale dazu führen, dass der Scheduler-Watchdog abläuft, und die Obergrenze der Signalanzahl ist 100."
+        }
+    },
+    "analyze": {
+        "title": "Analysieren",
+        "mode": {
+            "title": "Analysemodus",
+            "header": "Modus",
+            "list": {
+                "Addition": "Addition",
+                "Subtraction": "Subtraktion",
+                "Multiplication": "Multiplikation",
+                "Division": "Division"
+            }
+        },
+        "constants": {
+            "title": "Konstanten (c1/c2)",
+            "header1": "c1",
+            "header2": "c2"
+        },
+        "signal": {
+            "title": "Signale analysieren(Echtzeitsignale an gleicher Adresse)",
+            "header1": "Signal 1",
+            "header2": "Signal 2",
+            "placeholder": "Ein Signal auswählen",
+            "error": {
+                "no_signal": "Kein Signal vorhanden",
+                "no_selection": "Ein Signal auswählen"
+            }
+        },
+        "error": {
+            "sameUnit": "Die ausgewählten Signaleinheiten müssen gleich sein",
+            "sameType": "Der gewählte Signaltyp muss gleich sein",
+            "no_zero": "Division durch 0 ist nicht zulässig",
+            "no_range": "Der Wert c1/c2 liegt nicht im gültigen Wertebereich: Min: -1000000, Max: 1000000",
+            "no_value": "Konstante kann nicht leer sein"
+        }
+    },
+    "svg": {
+        "time_axis": "Zeitachse [s]"
+    }
+}

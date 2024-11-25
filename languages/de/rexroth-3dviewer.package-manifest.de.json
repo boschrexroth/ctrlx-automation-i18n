@@ -1,0 +1,14 @@
+{
+	"sidebar.3dviewer.model-library.title": "Modellbibliothek",
+	"sidebar.3dviewer.my-model.title": "Mein Modell",
+	"licenses.SWL-XCx-3DV-3DVIEWERxxxxx-NNNN.title": "ctrlX OS License - 3D Viewer",
+    "licenses.SWL-XCx-3DV-3DVIEWERxxxxx-NNNN.description": "Browser-basierte 3D-Kinematiksimulation",
+	"scopes-declaration.rexroth-3dviewer.web.name" :"3D Viewer",
+	"scopes-declaration.rexroth-3dviewer.web.description" :"Berechtigungen",
+	"scopes-declaration.rexroth-3dviewer.models.r.name":"Modelle einsehen",
+	"scopes-declaration.rexroth-3dviewer.models.r.description":"Modellbibliothek einsehen",
+	"scopes-declaration.rexroth-3dviewer.models.rw.name":"Modelle hochladen",
+	"scopes-declaration.rexroth-3dviewer.models.rw.description":"Modelle in die ctrlX hochladen",
+	"scopes-declaration.rexroth-3dviewer.axis.rw.name":"Achsen konfigurieren",
+	"scopes-declaration.rexroth-3dviewer.axis.rw.description":"Achskonfiguration einsehen und ändern"
+}

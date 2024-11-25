@@ -1,0 +1,105 @@
+﻿{
+  "core.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "close.button": "Schließen",
+    "save.button": "Speichern",
+    "discard.button": "Verwerfen",
+    "refresh.button": "Aktualisieren"
+  },
+  "core.fileselect": {
+    "accepted": "Nur Dateien vom Typ {{param}} werden akzeptiert"
+  },
+  "core.header": {
+    "lock.tooltip": "Sie haben nicht die notwendigen Berechtigungen für die volle Funktionalität",
+    "appData.tooltip": "Verwaltet App-Daten",
+    "userPassword.menu": "Passwort ändern",
+    "userLogout.menu": "Abmelden",
+    "helpManual.menu": "Anwendungsbeschreibung",
+    "helpCurrentPage.menu": "Aktuelle Hilfeseite",
+    "helpHowto.menu": "Vorgehensweisen",
+    "helpForum.menu": "Forum",
+    "helpApi.menu": "API-Referenz",
+    "ctrlxCoreSystemReport.menu": "ctrlX OS Systembericht",
+    "ctrlxWorksSystemReport.menu": "ctrlX WORKS Systembericht"
+  },
+  "core.sidebar": {
+    "settings.menu": "Einstellungen",
+    "system.menu": "System",
+    "about.menu": "Über ctrlX OS"
+  },
+  "core.notfound": {
+    "title": "Seite nicht gefunden",
+    "message": "Unter dem angegebenen Pfad {{param}} wurde keine Seite gefunden.",
+    "back.button": "Zurück"
+  },
+  "core.fossinfo": {
+    "title": "Open-Source-Komponenten",
+    "name.header": "Name",
+    "version.header": "Version",
+    "licenses.header": "Lizenz(en)",
+    "copyright.header": "Copyright",
+    "homepage.header": "Homepage",
+    "writtenOffer.title": "Schriftliches Angebot für den Quellcode"
+  },
+  "core.commandbar": {
+    "item": "Element",
+    "items": "Elemente"
+  },
+  "core.permissions": {
+    "noPermissions": "Sie haben nicht die erforderlichen Berechtigungen"
+  },
+  "core.about": {
+    "version": "Version",
+    "copyright": "Copyright",
+    "copyrightWithProduct": "Copyright an {{product}}",
+    "copyrightText": "{{param}}. Alle Rechte vorbehalten.",
+    "more.title": "Siehe auch",
+    "foss.button": "Open-Source-Komponenten",
+    "terms.button": "Allgemeine Nutzungsbedingungen"
+  },
+  "core.login": {
+    "welcome": "Willkommen bei ctrlX OS",
+    "operationalUse": "Die Verwendung von {{param}} beschränkt sich auf Entwicklung, Evaluierung und Simulation. Eine operative Verwendung ist nicht vorgesehen.",
+    "title": "Anmeldung",
+    "user": "Benutzername",
+    "initUser": "Initialbenutzername:",
+    "userRequired": "Bitte geben Sie Ihren Benutzernamen ein.",
+    "pwd": "Passwort",
+    "initPwd": "Initialpasswort:",
+    "pwdRequired": "Bitte geben Sie Ihr Passwort ein.",
+    "forceLocalAuth": "Lokale Authentifizierung erzwingen",
+    "acceptTerms": "Ich stimme den {{param}} zu.",
+    "login.button": "Anmelden",
+    "authFailed": "Authentifizierung fehlgeschlagen",
+    "workingOnUpdates": "Wird aktualisiert...",
+    "complete": "{{param}} beendet",
+    "dontTurnOff": "Schalten Sie das Gerät nicht aus",
+    "restartHint": "Das Gerät startet möglicherweise mehrere Male neu",
+    "starting": "Starte...",
+    "restarting": "Starte neu...",
+    "errorsOccured": "Mehrere Fehler sind aufgetreten",
+    "applyingSetup": "Setup wird angewendet...",
+    "applySetupWithWarnings": "Anwenden des Setups erfolgreich, jedoch mit Warnungen",
+    "applySetupFailed": "Anwenden des Setups fehlgeschlagen",
+    "applySetupReportHint": "Nach dem Einloggen können die {{param}} rechts oben im Drop-Down-Menü unter 'Report' eingesehen werden.",
+    "applySetupParamWarnings": "Warnungen",
+    "applySetupParamErrors": "Fehler"
+  },
+  "core.unsavedMessage": {
+    "title": "Nicht gespeicherte Änderungen an {{param}}",
+    "item": "Element",
+    "desc": "Sie haben Änderungen an {{param}} vorgenommen.",
+    "descSave": "Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen.",
+    "descNoSave": "Sie können Ihre Änderungen verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
+  },
+  "core.disconnected": {
+    "title": "Verbindungsunterbrechung",
+    "message": "Der Server antwortet nicht"
+  },
+  "core.dashboard.errorContent": {
+    "noDataAvailable": "Keine Daten verfügbar (Fehler: {{errorCode}})",
+    "noPermissions": "Sie haben nicht die erforderlichen Berechtigungen.",
+    "appInitializing": "Sehr wahrscheinlich wird die App gerade initialisiert. Dies kann eine Weile dauern. Dieses Widget aktualisiert sich automatisch."
+  }
+}

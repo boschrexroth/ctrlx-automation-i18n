@@ -1,0 +1,7 @@
+{
+    "certificatestores.backup.description": "Authentifizierungsschlüssel für die automatische Ausführung von Dateien externer Datenträger",
+    "documentation.backup.description": "Stellt Funktionalitäten zum Erstellen und Wiederherstellen von Backups für ctrlX OS Geräte bereit.",
+    "overview.backup.title": "Backup wiederherstellen",
+    "settings.backup.title": "Sichern & Wiederherstellen",
+    "settings.backup.description": "ctrlX OS sichern und wiederherstellen \u00b7 Einstellungen und Ressourcen speichern und übertragen"
+}

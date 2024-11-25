@@ -1,0 +1,57 @@
+{
+  "ua": {
+    "common": {
+      "yes.button": "Yes",
+      "no.button": "No",
+      "cancel.button": "Cancel",
+      "ok.button": "Ok",
+      "licenseStatus.text": "License is not available",
+      "viewLicense.text": "View current licenses"
+
+    },
+
+    "overview": {
+      "opcUa.header": "OPC UA",
+      "opcUaPageInfo.text": "Overview on all installed OPC UA apps",
+      "opcUaAppNotAvailable.text": "The OPC UA apps are currently not available.",
+      "mostLikelyReasons.text": "This is most likely due to one of the following reasons:",
+      "serviceModeAvailable.text": "The Service mode is currently active. Please go to the 'Settings ➔ Apps.'",
+      "switchToOperationMode.text": "Switch to Operation mode and try again.",
+      "appIsInitialized.text": "The apps are currently initialized. This may take a while. Please refresh the page.",
+      "noRequiredPermissions.text": "Required permissions are not available.",
+      "minimalRequiredPermissions.text": "Minimal required permissions for this page:"
+    },
+
+    "client": {
+      "opcUaClient.title": "OPC UA Client",
+      "configuration/status.button": "Configuration/ Status",
+      "opcUaClientSubtitle.text": "Manage OPC UA Client",
+      "clientStatus.title": "Open OPC UA Client status",
+      "clientConnections.text": "Client connections"
+    },
+
+    "server": {
+      "opcUaServer.title": "OPC UA Server",
+      "configuration/status.button": "Configuration/ Status",
+      "certificateConfig.title": "Certificate configuration",
+      "opcUaServerSubtitle.text": "Manage OPC UA Server",
+      "serverStatus.title": "Open OPC UA Server status",
+      "status.text": "Status",
+      "startTime.text": "Start time",
+      "sessionsConnected.text": "Active sessions"
+    },
+
+    "pubsub": {
+      "opcUaPubSub.title": "OPC UA Pub/Sub",
+      "configuration/status.button": "Configuration/ Status",
+      "opcUaPubSubSubtitle.text": "Manage OPC UA Pub/Sub",
+      "pubsubStatus.title": "Open OPC UA Pub/Sub status",
+      "publishMessages.text": "Sent messages",
+      "receiveMessages.text": "Received messages"
+    },
+
+    "datalayer":{
+      "datalayerBrowser.title": "Data layer browser"
+    }
+  }
+}

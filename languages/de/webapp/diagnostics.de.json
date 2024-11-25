@@ -1,0 +1,222 @@
+﻿{
+  "diag": {
+    "logbook": {
+      "command": {
+        "refresh": "Aktualisiert Daten",
+        "resetAll": "Alles zurücksetzen",
+        "deleteAllFilters": "Löscht alle Filter",
+        "deleteAllBookmarks": "Löscht alle Lesezeichen",
+        "nextBookmark": "Nächstes Lesezeichen",
+        "previousBookmark": "Vorhergehendes Lesezeichen",
+        "setBookmark": "Setzt Lesezeichen",
+        "deleteBookmark": "Löscht Lesezeichen",
+        "showColumns": "Spalten ein-/ausblenden",
+        "collapsAll": "Klappt alle zu",
+        "expandAll": "Klappt alle auf",
+        "addMessageType": "Zusätzliche Meldungstypen",
+        "msgTypeNone": "Keine",
+        "msgTypeTrace": "Trace",
+        "msgTypeSystem": "System",
+        "msgTypeSystemTrace": "System und Trace",
+        "download": "Lädt Daten herunter",
+        "downloadFilter": "Lädt gefilterte Daten herunter",
+        "downloadAll": "Lädt alle Daten herunter"
+      },
+      "title": {
+        "alarms": "Alarme",
+        "logs": "Verlauf",
+        "console": "Konsole"
+      },
+      "filter": {
+        "notSet": "Kein Filter gesetzt",
+        "selectAll": "Alle auswählen",
+        "isActive": "Filter is aktiv",
+        "level": {
+          "emerg": "Notfall",
+          "alert": "Alarm",
+          "crit": "Kritisch",
+          "err": "Fehler",
+          "warning": "Warnung",
+          "notice": "Hinweis",
+          "info": "Information",
+          "debug": "Debug"
+        },
+        "date": {
+          "title": "Geben Sie das Suchdatum ein",
+          "placeholderDate": "Datum eingeben",
+          "placeholderDateTime": "Datum und Uhrzeit eingeben",
+          "placeholderTimespan": "Zeitspanne eingeben",
+          "equal": "Ist gleich",
+          "before": "Vor",
+          "after": "Nach",
+          "between": "Zwischen",
+          "reset": "Filter zurücksetzen",
+          "labDate": "Datum",
+          "labDateTime": "Datum/Zeit",
+          "labDateTimeRange": "Datums-/Zeitbereich"
+        },
+        "text": {
+          "label": "Filter",
+          "placeholder": "Text eingeben"
+        },
+        "complex": {
+          "placeholder": "Beliebige Optionen auswählen oder Text eingeben" ,
+          "combineWith": "Verknüpfe Felder mit: ",
+          "tooltipCombineInfo": "Suchbegriffe innerhalb eines Eingabefeldes sind mit 'OR' verknüpft"
+        }
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "devView": "Entwickleransicht",
+        "devViewInfo": "(Weitere Diagnosen, Trace-Meldungen, erweiterte Filter,...)",
+        "setPersistentInfo": "(Speichern Sie alle Protokolleinträge dauerhaft)",
+        "selectTimezone": "Zeitzonenverwendung von",
+        "browser": "Browser",
+        "device": "Gerät",
+        "setLogPers": "Logbuchmeldungen dauerhaft speichern",
+        "logPersActWarn": "Nur vorübergehend aktivieren!\nBei Ausführung auf einer ctrlX CORE verkürzt diese Funktion die Lebensdauer des Gerätespeichers.\n\nStarten Sie das Gerät neu, um die dauerhafte Speicherung von Logbuchmeldungen zu aktivieren.",
+        "logPersDeactWarn": "Bei Deaktivierung dieser Funktion gehen aktuelle Logbuchmeldungen vollständig verloren.\nSie können vor der Deaktivierung aktuelle Logbuchmeldungen herunterladen.\n\nStarten Sie das Gerät neu, um die dauerhafte Speicherung von Logbuchmeldungen zu deaktivieren."
+      },
+      "columnsDialog": {
+        "title": "Spalten auswählen",
+        "availableHeader": "Verfügbare Spalten",
+        "selectedHeader": "Ausgewählte Spalten"
+      },
+      "status": {
+        "occured": "kommt",
+        "solved": "geht",
+        "tofix": "zu beheben",
+        "toclear": "zu quittieren"
+      },
+      "msg": {
+        "noNextBookmark": "Es existiert kein nächstes Lesezeichen",
+        "noPreviousBookmark": "Es existiert kein vorheriges Lesezeichen",
+        "callout": "{{cnt}} Datei(en) wurden heruntergeladen",
+        "calloutNoData": "Keine Daten verfügbar"
+      }
+    },
+    "common": {
+      "button": {
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "reset": "Zurücksetzen",
+        "apply": "Übernehmen",
+        "confirm": "Löscht Fehler",
+        "confirmAll": "Setzt alle Fehler zurück und löscht sie",
+        "confirmNot": "Fehler löschen nicht möglich",
+        "navigateTo": "Navigiert zum Alarm in der Verlaufsansicht",
+        "navigateToAlarmPage": "Navigiert zur Alarmansicht des Logbuchs",
+        "navigateToHistoryPage": "Navigiert zum Alarm in der Verlaufsansicht des Logbuchs",
+        "alarmNotExist": "Alarm ist nicht mehr im Logbuch"
+      },
+      "text": {
+        "settings": "Zeigt Einstellungen an",
+        "timeoffset": "Datums-/Zeitangabe stimmen nicht überein: {{offset}}! Um diese Diskrepanz zu beheben, gehen Sie zu <a href='/system/datetime'> Settings > Date & Time</a>\"",
+        "noDataTitle": "Mit diesen Filtereinstellungen sind keine Daten verfügbar!",
+        "noDataDescDef": "Bitte wählen Sie andere Filtereinstellungen aus.",
+        "noDataDescDev": "Bitte wählen Sie andere Filtereinstellungen und/oder einen anderen Meldungstyp aus.",
+        "noPermission": "Sie haben keine Benutzerberechtigungen zum Lesen von Log-Meldungen!",
+        "noitems": "Derzeit stehen keine Alarme an",
+        "mainDiag": "Hauptdiagnosecode",
+        "detailDiag": "Detaildiagnosecode",
+        "remoteLogging": "Remote-Protokollierung",
+        "filterTitle": "Geben Sie ein Suchtext in der Kategorie '{{colName}}' ein"
+      },
+      "attr": {
+        "pos": "Pos",
+        "level": "Level",
+        "status": "Status",
+        "date": "Datum",
+        "code": "Code",
+        "desc": "Beschreibung",
+        "entity": "Entität",
+        "source": "Quelle",
+        "actions": "Aktionen",
+        "userId": "Benutzer-ID",
+        "devInfo": "Entwicklerinformation",
+        "bookmark": "Lesezeichen",
+        "mainDiagnosisCode": "Hauptdiagnosecode",
+        "detailedDiagnosisCode": "Detaildiagnosecode",
+        "mainTitle": "Haupttext",
+        "detailedTitle": "Ausführlicher Text",
+        "dynamicDescription": "Dynamische Beschreibung",
+        "dynamicSourceOrigin": "Ursprung",
+        "systemUnit": "Einheit",
+        "dynamicSourceUnitname": "Einheit",
+        "dynamicSourceFilename": "Dateiname",
+        "dynamicSourceFunctionname": "Funktionsname",
+        "dynamicSourceLinenumber": "Zeilennummer"
+      }
+    },
+    "remote": {
+      "name": "Name",
+      "ipaddress": "Host/IP-Adresse/Domäne",
+      "port": "Port",
+      "protocol": "Protokoll",
+      "enabled": "Aktiviert",
+      "status": "Status",
+      "certificate": "Akzeptiert selbstsignierte Zertifikate",
+      "actions": "Aktionen",
+      "noItems": "Kein Remote-Server konfiguriert",
+      "addItem": "Hinzufügen",
+      "addTarget": "Remote-Protokollierungsserver hinzufügen",
+      "addTargetInfo": "Hier können Sie Remote-Servergeräte konfigurieren. Eine Kopie jeder Log-Meldung wird an jedes Gerät geschickt.",
+      "editTitle" : "Server-Einstellungen",
+      "tooltipEdit": "Bearbeitet Server",
+      "tooltipExamples": "Beispiele:",
+      "tooltipDelete": "Löscht Server",
+      "tooltipConnect": "Aktiviert Remote-Protokollierung",
+      "tooltipConnected": "Server ist verbunden",
+      "tooltipDisconnect": "Deaktiviert Remote-Protokollierung",
+      "tooltipDisconnected": "Server ist nicht verbunden",
+      "tooltipNA": "Verbindungsstatus ist nicht verfügbar",
+      "tooltipFilter": "Ausgewählte Filter für '{{filter}}':",
+      "queryDeleteText": "Wollen Sie den Server '{{name}}' wirklich löschen?",
+      "queryDeleteTitle": "Remote-Protokollierungsserver löschen?",
+      "queryDeleteFilterText": "Wollen Sie den Meldungsfilter '{{name}}' wirklich löschen?",
+      "queryDeleteFilterTitle": "Meldungsfilter löschen?",
+      "noReadPermission": "Sie haben nicht die erforderlichen Berechtigungen die Remote-Protokollierungsserver anzuzeigen.",
+      "noWritePermission": "Sie haben nicht die erforderlichen Berechtigungen die Remote-Protokollierungsserver zu bearbeiten.",
+      "serverSettings": "Server-Einstellungen",
+      "messageFilter": "Meldungsfilter",
+      "tlsSettings": "TLS-Verschlüsselung",
+      "tls": {
+        "useTls": "Transport Layer Security (TLS) verwenden",
+        "caCert": "Server- oder CA-Zertifikat",
+        "clientCert": "Client-Zertifikat",
+        "clientKey": "Client-Schlüssel",
+        "uploadCaCert": "Server- oder CA-Zertifikat hochladen",
+        "uploadClientCert": "Client-Zertifikat hochladen",
+        "uploadClientKey": "Client-Schlüssel hochladen",
+        "skipServerCertVerification": "Überprüfung des Server-Zertifikats überspringen",
+        "selectCert": "Wählen Sie ein Zertifikat aus",
+        "certNotLongerExists": "Das ausgewählte Zertifikat '{{param}}' existiert nicht mehr. Wählen Sie ein anderes Zertifikat.",
+        "selectKey": "Wählen Sie einen Schlüssel aus",
+        "keyNotLongerExists": "Der ausgewählte Schlüssel '{{param}}' existiert nicht mehr. Wählen Sie einen anderen Schlüssel."
+      },
+      "error" : {
+        "ipRequired": "Host, IP-Adresse oder Domäne sind erforderlich",
+        "nameRequired": "Name ist erforderlich",
+        "nameInvalid": "Ungültiger Name",
+        "tagInvalid": "Ungültiger Tag",
+        "portRequired": "Port ist erforderlich",
+        "protocolRequired": "Protokoll ist erforderlich",
+        "ipInvalid": "Ungültige Server-Adresse (IPv4, IPv6 oder Servername)",
+        "portInvalid": "Ungültiger Port (0 - 65535)",
+        "isRequired": "{{param}} ist erforderlich"
+      },
+      "warning" : {
+        "noConnection" : "Keine Verbindung zum Server {{name}}'"
+      },
+      "message" : {
+        "createServerSuccess": "Server erfolgreich hinzugefügt!",
+        "saveServerSuccess": "Server erfolgreich gespeichert!",
+        "saveFilterSuccess": "Filter erfolgreich gespeichert!",
+        "saveFilterError": "Speichern des Filters fehlgeschlagen!",
+        "deleteFilterSuccess": "Filter erfolgreich gelöscht!",
+        "deleteFilterError": "Löschen des Filters fehlgeschlagen!"
+      }
+		}
+  }
+}

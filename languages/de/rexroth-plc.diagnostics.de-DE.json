@@ -1,0 +1,4651 @@
+{
+  "product": "PLC-V-0206",
+  "mainDiagnostics": {
+    "080F0E00": {
+      "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280100": {
+          "text": "Laden der Konfiguration im Zustand \"RUN\" nicht erlaubt",
+          "version": 2
+        }
+      }
+    },
+    "0A0A0001": {
+      "text": "SPS: Information",
+      "version": 1
+    },
+    "0A0A0115": {
+      "text": "PLC IEC Info",
+      "version": 1
+    },
+    "0A0A0FF0": {
+      "text": "Trace Nachricht plc.cmp.datalayer",
+      "version": 1
+    },
+    "0A0A0FFF": {
+      "text": "Trace Nachricht plc.system",
+      "version": 1
+    },
+    "0A0E0001": {
+      "text": "SPS: Warnung",
+      "version": 1
+    },
+    "0A0E0002": {
+      "text": "SPS: Fehler",
+      "version": 1
+    },
+    "0A0E0115": {
+      "text": "PLC IEC Warnung",
+      "version": 1
+    },
+    "0A0E0FF0": {
+      "text": "Trace Warnung plc.cmp.datalayer",
+      "version": 1
+    },
+    "0A0E0FFF": {
+      "text": "Trace Warnung plc.system",
+      "version": 1
+    },
+    "0A0F0001": {
+      "text": "SPS: Fehler",
+      "version": 1
+    },
+    "0A0F0002": {
+      "text": "SPS: Ausnahmefehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C281010": {
+          "text": "Der Software-Watchdog einer IEC-Task ist abgelaufen.",
+          "version": 1
+        },
+        "0C281011": {
+          "text": "Hardware-Watchdog ist abgelaufen.",
+          "version": 1
+        },
+        "0C281012": {
+          "text": "Fehlerhafte I/O-Konfiguration.",
+          "version": 1
+        },
+        "0C281013": {
+          "text": "Checksummenfehler des IEC-Programms nach Laden des Programms.",
+          "version": 1
+        },
+        "0C281014": {
+          "text": "Ein Feldbus meldet einen Fehler.",
+          "version": 1
+        },
+        "0C281015": {
+          "text": "Fehler beim I/O-Austausch mit einem Feldbus.",
+          "version": 1
+        },
+        "0C281016": {
+          "text": "Zykluszeit überschritten.",
+          "version": 1
+        },
+        "0C281017": {
+          "text": "Die Zeit für einen \"Online-Change\" wurde überschritten.",
+          "version": 1
+        },
+        "0C281018": {
+          "text": "Das IEC-Programm enthält unaufgelöste Referenzen.",
+          "version": 1
+        },
+        "0C281019": {
+          "text": "Das Laden des IEC-Programms wird von der Steuerung nicht zugelassen.",
+          "version": 1
+        },
+        "0C28101A": {
+          "text": "Das Laden des IEC-Programms wird verhindert, da die Retaindaten nicht allokiert werden können.",
+          "version": 1
+        },
+        "0C28101B": {
+          "text": "Bootprojekt kann nicht geladen werden und wird gelöscht.",
+          "version": 1
+        },
+        "0C28101C": {
+          "text": "Kein Arbeitsspeicher mehr vorhanden.",
+          "version": 1
+        },
+        "0C28101D": {
+          "text": "Retainspeicher ist korrupt oder aufgebraucht.",
+          "version": 1
+        },
+        "0C28101E": {
+          "text": "Bootprojekt konnte geladen werden, erzeugt jedoch einen späteren Absturz.",
+          "version": 1
+        },
+        "0C281021": {
+          "text": "Bootprojekt kann nicht geladen werden, da das IEC-Programm nicht zum Steuerungstyp passt.",
+          "version": 1
+        },
+        "0C281022": {
+          "text": "IEC-Task kann nicht vom Scheduler gestartet werden.",
+          "version": 1
+        },
+        "0C281023": {
+          "text": "Checksummen-Fehler des Bootprojekts.",
+          "version": 1
+        },
+        "0C281024": {
+          "text": "Retaindaten stimmen nicht mit dem Bootprojekt überein.",
+          "version": 1
+        },
+        "0C281025": {
+          "text": "IEC-Taskkonfiguration ist fehlgeschlagen.",
+          "version": 1
+        },
+        "0C281026": {
+          "text": "Applikation läuft auf falschem Steuerungstyp. Kann zum Schutz der Bibliothek verwendet werden!",
+          "version": 1
+        },
+        "0C281050": {
+          "text": "Illegaler Befehl.",
+          "version": 1
+        },
+        "0C281051": {
+          "text": "Zugriffsfehler",
+          "version": 1
+        },
+        "0C281052": {
+          "text": "Geschützte Operation.",
+          "version": 1
+        },
+        "0C281053": {
+          "text": "Zugriff auf fehlerhafte \"Page\"",
+          "version": 1
+        },
+        "0C281054": {
+          "text": "Stack-Überlauf",
+          "version": 1
+        },
+        "0C281055": {
+          "text": "Ungültige Disposition",
+          "version": 1
+        },
+        "0C281056": {
+          "text": "Ungültiges Handle",
+          "version": 1
+        },
+        "0C281057": {
+          "text": "Geschützte Seite",
+          "version": 1
+        },
+        "0C281058": {
+          "text": "Doppelter Fehler",
+          "version": 1
+        },
+        "0C281059": {
+          "text": "Ungültiger Befehl",
+          "version": 1
+        },
+        "0C281100": {
+          "text": "Falsches \"Alignment\" des Datentyps",
+          "version": 1
+        },
+        "0C281101": {
+          "text": "Array-Grenzen überschritten.",
+          "version": 1
+        },
+        "0C281102": {
+          "text": "Division durch Null.",
+          "version": 1
+        },
+        "0C281103": {
+          "text": "Überlauf",
+          "version": 1
+        },
+        "0C281104": {
+          "text": "\"SIGABRT\"",
+          "version": 1
+        },
+        "0C281105": {
+          "text": "Prozessor-Last-Watchdog aller IEC-Tasks erkannt.",
+          "version": 1
+        },
+        "0C281150": {
+          "text": "FPU-Ausnahmefehler",
+          "version": 1
+        },
+        "0C281151": {
+          "text": "FPU-Ausnahmefehler: Denormalisierte Gleitkommazahl.",
+          "version": 1
+        },
+        "0C281152": {
+          "text": "FPU-Ausnahmefehler: Division durch NULL.",
+          "version": 1
+        },
+        "0C281153": {
+          "text": "FPU-Ausnahmefehler: Ungenaues Fließkommaergebnis.",
+          "version": 1
+        },
+        "0C281154": {
+          "text": "FPU-Ausnahmefehler: Ungültige Operation.",
+          "version": 1
+        },
+        "0C281155": {
+          "text": "FPU-Ausnahmefehler: Überlauf",
+          "version": 1
+        },
+        "0C281156": {
+          "text": "FPU-Ausnahmefehler: Stack-Check",
+          "version": 1
+        },
+        "0C281157": {
+          "text": "FPU-Ausnahmefehler: Unterlauf",
+          "version": 1
+        },
+        "0C281200": {
+          "text": "Hardware-Haltepunkt erreicht.",
+          "version": 1
+        },
+        "0C281201": {
+          "text": "Ungültige Lizenz bzw. keine Lizenz vorhanden",
+          "version": 1
+        },
+        "0C281202": {
+          "text": "Ausgelassener Zyklus Watchdog",
+          "version": 1
+        },
+        "0C281203": {
+          "text": "Herstellerspezifischer Ausnahmefehler",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0010": {
+      "text": "SPS-Lizenz Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280010": {
+          "text": "Interner Fehler beim Prüfen der Lizenzen",
+          "version": 1
+        },
+        "0C280011": {
+          "text": "Lizenz \"PLC Basic\" fehlt",
+          "version": 1
+        },
+        "0C280012": {
+          "text": "Lizenz \"PLC Standard\" fehlt",
+          "version": 1
+        },
+        "0C280013": {
+          "text": "Lizenz \"PLC Advanced\" fehlt",
+          "version": 1
+        },
+        "0C280014": {
+          "text": "Lizenz \"PLC Performance\" fehlt",
+          "version": 1
+        },
+        "0C280015": {
+          "text": "Fehlende Lizenzen",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0020": {
+      "text": "Fehler in der PLC-Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280100": {
+          "text": "Laden der Konfiguration im Zustand \"RUN\" nicht erlaubt",
+          "version": 1
+        },
+        "0C280101": {
+          "text": "Sichern der Konfiguration im Zustand \"RUN\" nicht erlaubt",
+          "version": 1
+        },
+        "0C280102": {
+          "text": "Größe des Retain-Speichers in der Konfiguration stimmt nicht mit der aktuellen Größe überein",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0030": {
+      "text": "PLC Zustandsfehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280130": {
+          "text": "Es ist nicht erlaubt eine PLC-Applikation in \"RUN\" zu schalten, wenn das System im Status \"SERVICE\" ist",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0040": {
+      "text": "Fehler im SPS Retain-Speicher",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280140": {
+          "text": "Interner Fehler beim Allokieren vom Retain-Speicher",
+          "version": 2
+        },
+        "0C280141": {
+          "text": "Nicht genug freier Retain-Speicher vorhanden",
+          "version": 2
+        }
+      }
+    },
+    "0A0F0050": {
+      "text": "Security Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280150": {
+          "text": "Unautorisierter Zugriff",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0100": {
+      "text": "Fehler in der Bibliothek CXA_Utilities",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230000": {
+          "text": "Interner Fehler",
+          "version": 1
+        },
+        "0C230001": {
+          "text": "Eingangswerte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "Ungültiger Zustand des Funktionsbausteins",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "Ungültiger Eingang \"DataAddress\": Nullpointer",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Ungültiger Wert von Eingang \"DataSize\": 0",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "Eingangswerte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "Ungültiger Zustand des Funktionsbausteins",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "Inkonsistenz der Winterzeiteinstellungen",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "Zeitwert WinterDiffUtc ist größer als 24 Stunden",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "Wert von SwiWinterMonth ist größer als 12",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "Wert von SwiWinterWeek ist größer als 5",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "Wert von SwiWinterWeekday ist größer als 7",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "Wert von SwiWinterDayYear ist größer als 365",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "Wert von SummerDiffUtc ist größer als 24",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "Eingangswerte sind außerhalb des gültigen Bereiches",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "Wert von SwiSummerMonth ist größer als 12",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "Wert von SwiSummerWeek ist größer als 5",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "Wert von SwiSummerWeekday ist größer als 7",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "Wert von SwiSummerDayYear ist größer als 365",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "Fehler bei Zeitkonvertierung aufgrund fehlerhafter Zeitzoneninformationen",
+          "version": 1
+        },
+        "0C230051": {
+          "text": "Der Eingang \"Index\" liegt außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "Ungültiger Eingang \"Link\": Nullpointer",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "Interner Fehler: Obwohl die Liste leer ist, ist ein Index noch verlinkt",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "Element soll aus einer leeren Liste gelöscht werden",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "In der Liste ist kein Platz mehr vorhanden",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "Eingang \"Mode\" hat einen ungültigen Wert",
+          "version": 1
+        },
+        "0C230057": {
+          "text": "Der Wert des Eingangs \"Size\" wurde nach der Initialisierung geändert (z.B. durch Online-Change)",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0101": {
+      "text": "Fehler in der Bibliothek CXA_SocketComm",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C231000": {
+          "text": "Fehler in der  Zustandsmaschine während des initialen UDP-Sockets",
+          "version": 1
+        },
+        "0C231001": {
+          "text": "Socket konnte nicht erstellt werden",
+          "version": 1
+        },
+        "0C231002": {
+          "text": "E/A-Modus konnte nicht eingestellt werden",
+          "version": 1
+        },
+        "0C231003": {
+          "text": "Socket konnte nicht verbunden werden",
+          "version": 1
+        },
+        "0C231004": {
+          "text": "Socket konnte nicht in den Modus \"Listening\" geschaltet werden",
+          "version": 1
+        },
+        "0C231005": {
+          "text": "Eingehende Verbindung konnte nicht angenommen werden",
+          "version": 1
+        },
+        "0C231006": {
+          "text": "Es konnte keine Verbindung zum Remote-Host hergestellt werden",
+          "version": 1
+        },
+        "0C231007": {
+          "text": "Ungültige Portnummer",
+          "version": 1
+        },
+        "0C231008": {
+          "text": "Grenze der Datenlänge von \"SendDataAdr/RecvDataAdr\" erreicht, max. 1400 Bytes",
+          "version": 1
+        },
+        "0C231009": {
+          "text": "Falscher Modus ausgewählt",
+          "version": 1
+        },
+        "0C23100A": {
+          "text": "Fehler in der Zustandsmaschine während des TFTP-Betriebs",
+          "version": 1
+        },
+        "0C23100B": {
+          "text": "Eingabe \"RemoteFile\" ist ungültig",
+          "version": 1
+        },
+        "0C23100C": {
+          "text": "Eingabe \"LocalFile\" ist ungültig",
+          "version": 1
+        },
+        "0C23100F": {
+          "text": "Remote-Datei nicht gefunden",
+          "version": 1
+        },
+        "0C231010": {
+          "text": "Zugriffsverletzung auf Remote-Host",
+          "version": 1
+        },
+        "0C231012": {
+          "text": "Ungültiger TFTP-Vorgang",
+          "version": 1
+        },
+        "0C231013": {
+          "text": "Unbekannte Übertragungs-ID",
+          "version": 1
+        },
+        "0C231015": {
+          "text": "Unbekannter Benutzer",
+          "version": 1
+        },
+        "0C231016": {
+          "text": "Unbekannter Fehler auf Remote-Host",
+          "version": 1
+        },
+        "0C231017": {
+          "text": "Fehler beim Verbinden mit dem Remote-Host",
+          "version": 1
+        },
+        "0C231018": {
+          "text": "Zeitüberschreitung während der Datenübertragung",
+          "version": 1
+        },
+        "0C231019": {
+          "text": "Inkompatibles Protokoll",
+          "version": 1
+        },
+        "0C23101A": {
+          "text": "\"SizeOfRecvData\" ist kleiner als die Menge der empfangenen Daten",
+          "version": 1
+        },
+        "0C232001": {
+          "text": "Eingabe \"RemoteFile\" ist ungültig",
+          "version": 1
+        },
+        "0C232002": {
+          "text": "Zielpuffer zu klein für die zu übertragende Datei",
+          "version": 1
+        },
+        "0C23FFFE": {
+          "text": "Unerwartete Antwort vom FTP-Server",
+          "version": 1
+        },
+        "0C23FFFF": {
+          "text": "Unbekannte Antwort vom FTP-Server",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0102": {
+      "text": "Fehler in der Bibliothek CXA_FileAsync",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C231001": {
+          "text": "Fehler beim Hinzufügen des Jobs durch die asynchrone Task",
+          "version": 1
+        },
+        "0C231002": {
+          "text": "Fehler bei der Ausführung der asynchronen Task",
+          "version": 1
+        },
+        "0C231003": {
+          "text": "Zeitüberschreitung bei asynchroner Task",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0103": {
+      "text": "Fehler in der Bibliothek CXA_PLCOpen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C238004": {
+          "text": "Vorabanfrage für Tippen nicht verfügbar",
+          "version": 1
+        },
+        "0C238005": {
+          "text": "Stellen Sie Override nur für die Achse ein, die Achse sollte nicht zur Gruppe hinzugefügt werden oder als Slave arbeiten",
+          "version": 1
+        },
+        "0C238006": {
+          "text": "Vorabanfrage für \"CyclicSetPoint\" nicht verfügbar",
+          "version": 1
+        },
+        "0C238007": {
+          "text": "Befehl zum Aktivieren von \"CyclicSetPoint\" fehlgeschlagen",
+          "version": 1
+        },
+        "0C238008": {
+          "text": "Fehler externe Sollwertvorgabe Achse setzen",
+          "version": 1
+        },
+        "0C238009": {
+          "text": "Befehl \"AxsCyclicSetPoint\" wird abgebrochen",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0104": {
+      "text": "Fehler in der Bibliothek  CXA_LoopControl",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Eingangswert \"LowLimit\" ist größer als Eingangswert \"HighLimit\"",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "Die Auswahl des Steuerungstyps wird nicht unterstützt. Überprüfen Sie die Eingaben für \"PControl\", \"IControl\" und \"DControl\"",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "Der Eingang \"DControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "Der Eingang \"IControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "Die Abtastzeit ist für 5 Zyklen ungültig",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "Der Eingang  \"bControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "Der Eingang  \"cControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "Der Eingang \"Buffer\" ist nicht belegt",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "Der Eingang \"Delay\" ist ungültig",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "Der Eingang \"BufferSize\" ist zu klein",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "Negativer X-Wert in \"ResponseCurve\"",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "X-Wert in \"ResponseCurve\" nicht in aufsteigender Reihenfolge",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "Mehr als ein Wert für eine X-Position in \"ResponseCurve\"",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "Der Eingang \"FeedbackTControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "Der Eingang \"TvControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "Der Eingang  \"T1Control\" ist ungültig",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "Der Eingang  \"DControl\" ist ungültig",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "Der Eintrag \"NumberOfCoeffs\" des Eingangs \"Coefficients\" ist ungültig",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Der am Eingang \"FilterType\" angegebene Wert ist ungültig",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "Der Eingang \"DampingFactor\" ist ungültig",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "Ausgang ist \"Infinity\" oder \"NaN\"",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "\"Amplitude\" ist kleiner als 0,0",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "Eingang \"Sigma\" ist kleiner oder gleich 0,0",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "Der Eingang \"RegisterLength\" ist ungültig",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "\"Frequency\" ist kleiner als 0,0 oder größer als 1/(2*ActScanTime)",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "\"Angle\" ist kleiner als 0° oder größer als 360°",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "\"PhaseShiftSetpoint\" ist kleiner als -180 oder größer als 180",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "\"PhaseShiftFeedback\" ist kleiner als -180 oder größer als 180",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "\"IControl\" ist negativ",
+          "version": 1
+        },
+        "0C23003A": {
+          "text": "\"PControl\" ist negativ",
+          "version": 1
+        },
+        "0C23003C": {
+          "text": "\"Window\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "\"Signal\" ist kleiner als -1,0 oder größer als 1,0",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "\"Angle\" ist kleiner als 0° oder größer als 360°",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "\"AmpControl.Target\" ist negativ",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "\"AmpControl.Ramp\" ist kleiner als 0,0001",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "\"AmpControl.Init\" ist negativ",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "\"AmpControl.Window\" ist negativ",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "\"AmpControl.IControl\" ist negativ",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "\"AmpControl.PControl\" ist negativ",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "\"AmpControl.LowLimit\" ist größer als \"AmpControl.HighLimit\"",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "\"CenterlineControl.Ramp\" ist kleiner als 0,0001",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "\"CenterlineControl.Window\" ist negativ",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "\"CenterlineControl.IControl\" ist negativ",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "\"CenterlineControl.PControl\" ist negativ",
+          "version": 1
+        },
+        "0C23004E": {
+          "text": "\"CenterlineControl.LowLimit\" ist größer als \"CenterlineControl.HighLimit\"",
+          "version": 1
+        },
+        "0C23004F": {
+          "text": "\"CenterlineControl.Init\" ist negativ",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "\"CurveType\" ist ungültig",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "\"Duty\" liegt außerhalb des zulässigen Bereichs",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "\"DutyRamp\" ist kleiner als 0,0001",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "\"Rounding\" ist negativ oder größer als 100",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "\"RoundingRamp\" ist kleiner als 0,0001",
+          "version": 1
+        },
+        "0C230061": {
+          "text": "\"MinValue\" ist größer als \"MaxValue\"",
+          "version": 1
+        },
+        "0C230062": {
+          "text": "\"CategoryCount\" ist 0",
+          "version": 1
+        },
+        "0C230063": {
+          "text": "\"HistogramData\" ist 0",
+          "version": 1
+        },
+        "0C230064": {
+          "text": "Wert von \"MeanFilterTControl\" < (2 x \"ActScanTime\")",
+          "version": 1
+        },
+        "0C230065": {
+          "text": "Wert von \"SuppressionLimitHigh\" ist kleiner als 0,0",
+          "version": 1
+        },
+        "0C230066": {
+          "text": "Wert von  \"SuppressionLimitLow\" ist kleiner als 0,0",
+          "version": 1
+        },
+        "0C230067": {
+          "text": "Wert von \"MeanFilterTControl\" ist kleiner als 0,0",
+          "version": 1
+        },
+        "0C230068": {
+          "text": "Wert von \"MeanFilterTControl\" ist kleiner als (2 x \"ActScanTime\"), nur im Modus \"Statistical\" relevant",
+          "version": 1
+        },
+        "0C230071": {
+          "text": "Eingabewerte für maximalen Ausgabewert (\"OutputPowerMax\") außerhalb des gültigen Bereichs. Wert muss größer 0 [%] bis max. 100 [%] sein",
+          "version": 1
+        },
+        "0C230072": {
+          "text": "Eingabewerte für Alarmschranken ungültig (Bedingung: Limits.UpperAlarm > Limits.LowerAlarm)",
+          "version": 1
+        },
+        "0C230073": {
+          "text": "Eingabewert für manuelle Stellgröße (\"ManContrValue\") ungültig. Wert muss im Bereich von  0[%] und 100[%] liegen",
+          "version": 1
+        },
+        "0C230074": {
+          "text": "Reglerparameter ungültig. Es liegen entweder keine Reglerparameter vor, oder die Reglerparameter sind ungültig",
+          "version": 1
+        },
+        "0C230075": {
+          "text": "Streckenzeitkonstante ungültig. Die Zeitkonstante \"ModelParam.Ts\" oder \"ContrParam.Tt\" ist ungültig",
+          "version": 1
+        },
+        "0C230076": {
+          "text": "Eingabewert \"OblivionFactor\" ist ungültig. Wert muss im Bereich von 0,9 und 1 liegen",
+          "version": 1
+        },
+        "0C230077": {
+          "text": "Eingabewert \"MinDelayTime\" ist ungültig. Wert muss größer T#0s sein",
+          "version": 1
+        },
+        "0C230078": {
+          "text": "Eingabewert \"IdentAccuracy\" ist ungültig. Wert muss größer 0 [%/s] sein",
+          "version": 1
+        },
+        "0C230079": {
+          "text": "Eingabewert \"DampingFactor\" ist ungültig. Wert muss im Bereich von 20 und 200 liegen",
+          "version": 1
+        },
+        "0C23007A": {
+          "text": "Eingabewert \"SetPointGradient\" ist ungültig. Wert muss größer als 0 [u/s] sein",
+          "version": 1
+        },
+        "0C23007B": {
+          "text": "Eingabewerte für Statusschranken ungültig (Bedingung: (Setpoint + Limits.UpperAtSetpoint) > (Setpoint - Limits.LowerAtSetpoint)",
+          "version": 1
+        },
+        "0C23007C": {
+          "text": "Eingabewert \"ContrMode\" ist ungültig",
+          "version": 1
+        },
+        "0C23007D": {
+          "text": "Eingabewert \"AutoTuneMaxPower\" ist ungültig. Wert muss im Bereich von  0[%] bis 100[%] liegen",
+          "version": 1
+        },
+        "0C23007E": {
+          "text": "Eingabewert \"ExtendedSettings.ControlType\" ist ungültig",
+          "version": 1
+        },
+        "0C230082": {
+          "text": "Gradient des Istwertes zu groß, möglicherweise Sensorfehler",
+          "version": 1
+        },
+        "0C230083": {
+          "text": "Identifizierte Streckenparameter ungültig, Streckenselbstidentifikation",
+          "version": 1
+        },
+        "0C230085": {
+          "text": "Eingänge \"HysteresisHi\" oder \"HysteresisLo\" sind ungültig",
+          "version": 1
+        },
+        "0C231000": {
+          "text": "Laufzeitfehler im Funktionsbaustein: Ungültiger Zustand der Zustandsmaschine",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0107": {
+      "text": "Fehler in der Bibliothek CXA_MotionInterface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230101": {
+          "text": "MB_AxisInit: AxisName ist zu kurz oder zu lang",
+          "version": 1
+        },
+        "0C230103": {
+          "text": "MB_AxisInit: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230110": {
+          "text": "MB_AxisInterfaceBase: Eingang nicht initialisiert",
+          "version": 1
+        },
+        "0C230111": {
+          "text": "MB_AxisInterfaceBase: Antrieb ist im ErrorStop",
+          "version": 1
+        },
+        "0C230113": {
+          "text": "MB_AxisInterfaceBase: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230115": {
+          "text": "MB_AxisInterfaceBase: Antrieb ist nicht in AH/AF bei Ctrl.Admin.PowerOn = FALSE",
+          "version": 1
+        },
+        "0C230116": {
+          "text": "MB_AxisInterfaceBase: Ctrl.Admin.mTriggerMoveCmd() aufgerufen in ModeAb",
+          "version": 1
+        },
+        "0C230117": {
+          "text": "MB_AxisInterfaceBase: OpMode wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230118": {
+          "text": "MB_AxisInterfaceBase - Power: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230119": {
+          "text": "MB_AxisInterfaceBase - Reset: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C23011A": {
+          "text": "MB_AxisInterfaceBase - Stop: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230140": {
+          "text": "MB_KinematicsInit: KinName ist zu kurz oder zu lang",
+          "version": 1
+        },
+        "0C230141": {
+          "text": "MB_KinematicsInit: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230142": {
+          "text": "MB_KinematicsInit: zu viele Achsen für eine Kinematik konfiguriert",
+          "version": 1
+        },
+        "0C230143": {
+          "text": "MB_KinematicsInit: Eingang KinIndex ist zu klein oder zu groß",
+          "version": 1
+        },
+        "0C230144": {
+          "text": "MB_KinematicsInit: Ungültige Achs-Pointer",
+          "version": 1
+        },
+        "0C230150": {
+          "text": "MB_KinematicsInterfaceBase: Eingang nicht initialisiert",
+          "version": 1
+        },
+        "0C230151": {
+          "text": "MB_KinematicsInterfaceBase: Kinematik ist im ErrorStop",
+          "version": 1
+        },
+        "0C230153": {
+          "text": "MB_KinematicsInterfaceBase: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230154": {
+          "text": "MB_KinematicsInterfaceBase: GroupNo ist zu klein oder zu groß",
+          "version": 1
+        },
+        "0C230155": {
+          "text": "MB_KinematicsInterfaceBase: Fehler bei der Zuordnung der Achsen zur Kinematik",
+          "version": 1
+        },
+        "0C230156": {
+          "text": "MB_KinematicsInterfaceBase: mTriggerMoveCmd() aufgerufen in ModeCoordUngrouped",
+          "version": 1
+        },
+        "0C230157": {
+          "text": "MB_KinematicsInterfaceBase: OpMode wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230158": {
+          "text": "MB_KinematicsInterfaceBase: Ungültiger Achs-Pointer",
+          "version": 1
+        },
+        "0C230159": {
+          "text": "MB_KinematicsInterfaceBase - Reset: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C23015A": {
+          "text": "MB_KinematicsInterfaceBase - Stop: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230180": {
+          "text": "TE_AxisInitAllAxes: Zuviele Achsen konfiguriert",
+          "version": 1
+        },
+        "0C230181": {
+          "text": " TE_AxisInitAllAxes: Konfigurationsmode wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230182": {
+          "text": "TE_AxisInitAllAxes: Pointer AxisCfgIdx ist ungültig",
+          "version": 1
+        },
+        "0C230183": {
+          "text": "TE_AxisInitAllAxes: Achs-Index außerhalb des gültigen Bereiches",
+          "version": 1
+        },
+        "0C230184": {
+          "text": "TE_AxisInitAllAxes: Doppelter Achs-Index",
+          "version": 1
+        },
+        "0C230185": {
+          "text": "TE_AxisInitAllAxes: Doppelter Achs-Name",
+          "version": 1
+        },
+        "0C230186": {
+          "text": "TE_AxisInitAllAxes: File konnte nicht geöffnet werden",
+          "version": 1
+        },
+        "0C230187": {
+          "text": "TE_AxisInitAllAxes: File enthält fehlerhafte Daten",
+          "version": 1
+        },
+        "0C230188": {
+          "text": "TE_AxisInitAllAxes: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C230190": {
+          "text": "TE_AxisInterfaceMainProg: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C2301A0": {
+          "text": "TE_AxisInterface: SetupMode bei aktiver Betriebsart",
+          "version": 1
+        },
+        "0C2301B0": {
+          "text": "TE_ExportAxIfDebug: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C2301C0": {
+          "text": "TE_KinematicsInitAllKinematics: Zuviele Kinematiken konfiguriert",
+          "version": 1
+        },
+        "0C2301C1": {
+          "text": "TE_KinematicsInitAllKinematics: Konfigurationsmode nicht unterstützt",
+          "version": 1
+        },
+        "0C2301C2": {
+          "text": "TE_KinematicsInitAllKinematics: Pointer KinCfgIdx ist ungültig",
+          "version": 1
+        },
+        "0C2301C3": {
+          "text": "TE_KinematicsInitAllKinematics: GroupNo außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C2301C4": {
+          "text": "TE_KinematicsInitAllKinematics: Doppelter Kinematik-Index",
+          "version": 1
+        },
+        "0C2301C5": {
+          "text": "TE_KinematicsInitAllKinematics: Doppelter Kinematikname",
+          "version": 1
+        },
+        "0C2301C6": {
+          "text": "TE_KinematicsInitAllKinematics: File konnte nicht geöffnet werden",
+          "version": 1
+        },
+        "0C2301C7": {
+          "text": "TE_KinematicsInitAllKinematics: File enthält korrupte Daten",
+          "version": 1
+        },
+        "0C2301C8": {
+          "text": "TE_KinematicsInitAllKinematics: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C2301C9": {
+          "text": "TE_KinematicsInitAllKinematics: MAX_AXIS_INDEX zu groß",
+          "version": 1
+        },
+        "0C2301D0": {
+          "text": "TE_KinInterfaceMainProg: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C2301E0": {
+          "text": "TE_KinematicsInterface:  SetupMode bei aktiver Betriebsart",
+          "version": 1
+        },
+        "0C2301F0": {
+          "text": "TE_ExportKinIfDebug: Fehler im Ablauf",
+          "version": 1
+        }
+      }
+    },
+    "0A0F010A": {
+      "text": "Fehler in der Bibliothek CXA_DriveUtil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230201": {
+          "text": "PowerSupply FBs: Eingang TargetMode ist ungültig",
+          "version": 1
+        },
+        "0C230202": {
+          "text": "PowerSupply FBs:  Eingang OperationModeSelection ist ungültig",
+          "version": 1
+        },
+        "0C230203": {
+          "text": "PowerSupply FBs: Eingang ErrorMode ist ungültig",
+          "version": 1
+        },
+        "0C230204": {
+          "text": "PowerSupply FBs: Zeitüberschreitung (Actual mode -> Target mode)",
+          "version": 1
+        },
+        "0C230205": {
+          "text": "PowerSupply FBs: ActualMode des Gerätes ist ungültig",
+          "version": 1
+        },
+        "0C230206": {
+          "text": "MB_ECATSoEPowerSupplyXxx FBs: Referenz des Eingangs MasterName ist nicht gesetzt",
+          "version": 1
+        },
+        "0C230207": {
+          "text": "MB_ECATSoEPowerSupplyDcDcIslandGrid: Eingang PowerSupplyFunction ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "0A0F010B": {
+      "text": "Fehler in der Bibliothek CXA_S20",
+      "version": 1
+    },
+    "0A0F010D": {
+      "text": "Fehler in der Bibliothek CXA_OpcUaClient",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Unsicher",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "UncertainReferenceOutOfServer: Einer der im relativen Pfad zu folgenden Verweise zeigt auf einen Node im Adressraum eines anderen Servers",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "UncertainNoCommunicationLastUsableValue: Kommunikation mit der Datenquelle ist fehlgeschlagen. Der Variablenwert ist der letzte Wert, der eine gute Qualität hatte",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "UncertainLastUsableValue: Die Aktualisierung dieses Werts wurde eingestellt",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "UncertainSubstituteValue: Der Wert ist ein Betriebswert, der manuell überschrieben wurde",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "UncertainInitialValue: Der Wert ist ein Initialwert für eine Variable, die ihren Wert normalerweise von einer anderen Variablen erhält",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "UncertainSensorNotAccurate: Der Wert liegt an einem der Sensorgrenzwerte",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "UncertainEngineeringUnitsExceeded: Der Wert liegt außerhalb des für diesen Parameter definierten Wertebereichs",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "UncertainSubNormal: Der Wert stammt aus mehreren Quellen und hat weniger als die erforderliche Anzahl von \"ofGood\"-Quellen",
+          "version": 1
+        },
+        "0C23000A": {
+          "text": "UncertainDataSubNormal: Der Wert ist von mehreren Werten abgeleitet und hat weniger als die erforderliche Anzahl von of\"Good\"-Werten",
+          "version": 1
+        },
+        "0C23000B": {
+          "text": "UncertainReferenceNotDeleted: Der Server war nicht in der Lage, alle Zielreferenzen zu löschen",
+          "version": 1
+        },
+        "0C23000C": {
+          "text": "UncertainNotAllNodesAvailable: Die Liste der Referenzen ist möglicherweise nicht vollständig, da das zugrunde liegende System nicht verfügbar ist",
+          "version": 1
+        },
+        "0C23000D": {
+          "text": "UncertainDominantValueChanged: Die zugehörige technische Einheit wurde geändert, aber der Variablenwert wird weiterhin auf der Grundlage der vorherigen Einheit angegeben",
+          "version": 1
+        },
+        "0C23000E": {
+          "text": "UncertainDependentValueChanged: Ein abhängiger Wert wurde geändert, aber die Änderung wurde noch nicht auf das Gerät angewendet. Die Qualität der dominanten Variable ist unsicher",
+          "version": 1
+        },
+        "0C23000F": {
+          "text": "UncertainTransducerInManual: Der Wert ist möglicherweise nicht genau, weil sich der Transducer im manuellen Modus befindet",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "UncertainSimulatedValue: Der Wert ist simuliert",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "UncertainSensorCalibration: Der Wert ist aufgrund eines Fehlers in der Sensorkalibrierung möglicherweise nicht genau",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "UncertainConfigurationError: Der Wert ist aufgrund eines Konfigurationsproblems möglicherweise nicht korrekt",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "PLCopenUA_Uncertain_RedundantDisconnect: Anfrage zum Trennen einer nicht laufenden Verbindung",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "BadError: Ein unerwarteter Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "BadUnexpectedError: Ein unerwarteter Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "BadInternalError: Ein interner Fehler ist aufgetreten aufgrund eines Programmier- oder Konfigurationsfehlers",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "BadOutOfMemory: Nicht genug Speicher, um den Vorgang abzuschließen",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "BadResourceUnavailable: Eine Ressource des Betriebssystems ist nicht verfügbar",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "BadCommunicationError: Ein Low-Level-Kommunikationsfehler ist aufgetreten",
+          "version": 1
+        },
+        "0C23001A": {
+          "text": "BadEncodingError: Kodierung wurde wegen ungültiger Daten in den zu serialisierenden Objekten abgebrochen",
+          "version": 1
+        },
+        "0C23001B": {
+          "text": "BadDecodingError: Dekodierung wegen ungültiger Daten im Stream abgebrochen",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "BadEncodingLimitsExceeded: Die vom Stack festgelegten Grenzen für die Kodierung/Dekodierung von Nachrichten wurden überschritten",
+          "version": 1
+        },
+        "0C23001D": {
+          "text": "BadUnknownResponse: Es wurde eine unbekannte Antwort vom Server empfangen",
+          "version": 1
+        },
+        "0C23001E": {
+          "text": "BadTimeout: Zeitüberschreitung bei der Bearbeitung",
+          "version": 1
+        },
+        "0C23001F": {
+          "text": "BadServiceUnsupported: Der Server unterstützt den angeforderten Dienst nicht",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "BadShutdown: Der Vorgang wurde abgebrochen, weil die Anwendung heruntergefahren wird",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "BadServerNotConnected: Der Vorgang konnte nicht abgeschlossen werden, weil der Client nicht mit dem Server verbunden ist",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "BadServerHalted: Der Server ist gestoppt und kann keine Anfragen verarbeiten",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "BadNothingToDo: Keine Aktion möglich, weil der Client eine Liste von Vorgängen ohne Elemente übergeben hat",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "BadTooManyOperations: Die Anfrage konnte nicht bearbeitet werden, da sie zu viele Vorgänge enthielt",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "BadDataTypeIdUnknown: Das Erweiterungsobjekt kann nicht (de)serialisiert werden, da der Datentyp ID nicht erkannt wird",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "BadCertificateInvalid: Das als Parameter übergebene Zertifikat ist nicht gültig",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "BadSecurityChecksFailed: Bei der Sicherheitsüberprüfung ist ein Fehler aufgetreten, z. B. ist das Client/Server-Zertifikat noch nicht gültig",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "BadCertificateTimeInvalid: Das Zertifikat ist abgelaufen oder noch nicht gültig - prüfen Sie auch die Systemzeit des Servers",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "BadCertificateIssuerTimeInvalid: Ein Issuer-Zertifikat ist abgelaufen oder noch nicht gültig",
+          "version": 1
+        },
+        "0C23002A": {
+          "text": "BadCertificateHostNameInvalid: Der für die Verbindung mit einem Server verwendete Host-Name stimmt nicht mit einem Host-Namen im Zertifikat überein",
+          "version": 1
+        },
+        "0C23002B": {
+          "text": "BadCertificateUriInvalid: Die in der Anwendungsbeschreibung angegebene URI stimmt nicht mit der URI im Zertifikat überein",
+          "version": 1
+        },
+        "0C23002C": {
+          "text": "BadCertificateUseNotAllowed: Das Zertifikat darf nicht für den angeforderten Vorgang verwendet werden",
+          "version": 1
+        },
+        "0C23002D": {
+          "text": "BadCertificateIssuerUseNotAllowed: Das Issuer-Zertifikat kann für den angeforderten Vorgang nicht verwendet werden",
+          "version": 1
+        },
+        "0C23002E": {
+          "text": "BadCertificateUntrusted: Das Zertifikat ist nicht vertrauenswürdig",
+          "version": 1
+        },
+        "0C23002F": {
+          "text": "BadCertificateRevocationUnknown: Es konnte nicht festgestellt werden, ob das Zertifikat widerrufen wurde",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "BadCertificateIssuerRevocationUnknown: Es konnte nicht ermittelt werden, ob das Issuer-Zertifikat widerrufen wurde",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "BadCertificateRevoked: Das Zertifikat wurde widerrufen",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "BadCertificateIssuerRevoked: Das Issuer-Zertifikat wurde widerrufen",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "BadUserAccessDenied: Der Benutzer hat keine Berechtigung, den angeforderten Vorgang auszuführen",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "BadIdentityTokenInvalid: Das Benutzeridentitäts-Token ist ungültig, z. B. stimmen Benutzer und/oder Passwort nicht überein",
+          "version": 1
+        },
+        "0C230035": {
+          "text": "BadIdentityTokenRejected: Das Benutzeridentitäts-Token ist gültig, aber der Server hat es abgelehnt",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "BadSecureChannelIdInvalid: Der angegebene sichere Kanal ist nicht mehr gültig",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "BadInvalidTimestamp: Der Zeitstempel liegt außerhalb des vom Server erlaubten Bereichs",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "BadNonceInvalid: \"Nonce\" scheint kein Zufallswert zu sein oder hat nicht die richtige Länge",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "BadSessionIdInvalid: Die Session-ID ist ungültig",
+          "version": 1
+        },
+        "0C23003A": {
+          "text": "BadSessionClosed: Die Session wurde vom Client geschlossen",
+          "version": 1
+        },
+        "0C23003B": {
+          "text": "BadSessionNotActivated: Die Session kann nicht verwendet werden, da ActivateSession nicht aufgerufen wurde",
+          "version": 1
+        },
+        "0C23003C": {
+          "text": "BadSubscriptionIdInvalid: Die Subscription-ID ist ungültig",
+          "version": 1
+        },
+        "0C23003D": {
+          "text": "BadRequestHeaderInvalid: Der Header für die Anfrage fehlt oder ist ungültig",
+          "version": 1
+        },
+        "0C23003E": {
+          "text": "BadTimestampsToReturnInvalid: Der Parameter \"Timestamps to return\" ist ungültig",
+          "version": 1
+        },
+        "0C23003F": {
+          "text": "BadRequestCancelledByClient: Die Anfrage wurde vom Client abgebrochen",
+          "version": 1
+        },
+        "0C230040": {
+          "text": "BadNoCommunication: Die Kommunikation mit der Datenquelle ist definiert, aber nicht hergestellt, und es ist kein letzter bekannter Wert verfügbar",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "BadWaitingForInitialData: Warten auf den Server, um Werte aus der zugrunde liegenden Datenquelle zu erhalten",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "BadNodeIdInvalid: Die Syntax der Node-ID ist ungültig",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "BadNodeIdUnknown: Die Node-ID bezieht sich auf einen Node, der im Server-Adressraum nicht existiert",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "BadAttributeIdInvalid: Das Attribut wird für den angegebenen Node nicht unterstützt",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "BadIndexRangeInvalid: Die Syntax des Parameters für den Indexbereich ist ungültig",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "BadIndexRangeNoData: Innerhalb des angegebenen Indexbereichs sind keine Daten vorhanden",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "BadDataEncodingInvalid: Die Datenkodierung ist ungültig",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "BadDataEncodingUnsupported: Der Server unterstützt die angeforderte Datenkodierung für den Node nicht",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "BadNotReadable: Die Zugriffsebene erlaubt kein Lesen oder Abonnieren des Nodes",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "BadNotWritable: Die Zugriffsstufe erlaubt kein Schreiben auf den Node",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "BadOutOfRange: Der Wert lag außerhalb des Bereichs",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "BadNotSupported: Der angeforderte Vorgang wird nicht unterstützt, z. B. nicht unterstützte SecurityPolicy",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "BadNotFound: Ein angefordertes Element wurde nicht gefunden oder ein Suchvorgang wurde ohne Erfolg beendet, z. B. nicht unterstützte SecurityPolicy",
+          "version": 1
+        },
+        "0C23004E": {
+          "text": "BadObjectDeleted: Das Objekt kann nicht verwendet werden, da es gelöscht wurde",
+          "version": 1
+        },
+        "0C23004F": {
+          "text": "BadNotImplemented: Angeforderter Vorgang ist nicht implementiert",
+          "version": 1
+        },
+        "0C230050": {
+          "text": "BadMonitoringModeInvalid: Der Überwachungsmodus ist ungültig",
+          "version": 1
+        },
+        "0C230051": {
+          "text": "BadMonitoredItemIdInvalid: Die Monitored Item-ID verweist nicht auf ein gültiges Monitored Item",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "BadMonitoredItemFilterInvalid: Der Parameter für den Monitored Item-Filter ist ungültig",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "BadMonitoredItemFilterUnsupported: Der Server unterstützt den angeforderten Monitored Item-Filter nicht",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "BadFilterNotAllowed: Ein Überwachungsfilter kann nicht in Kombination mit dem angegebenen Attribut verwendet werden",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "BadStructureMissing: Ein obligatorischer strukturierter Parameter fehlte oder war null",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "BadEventFilterInvalid: Der Ereignisfilter ist ungültig",
+          "version": 1
+        },
+        "0C230057": {
+          "text": "BadContentFilterInvalid: Der Inhaltsfilter ist nicht gültig",
+          "version": 1
+        },
+        "0C230058": {
+          "text": "BadFilterOperandInvalid: Der in einem Inhaltsfilter verwendete Operand ist ungültig",
+          "version": 1
+        },
+        "0C230059": {
+          "text": "BadContinuationPointInvalid: Der angegebene Fortsetzungspunkt ist nicht mehr gültig",
+          "version": 1
+        },
+        "0C23005A": {
+          "text": "BadNoContinuationPoints: Der Vorgang konnte nicht verarbeitet werden, da alle Fortsetzungspunkte zugewiesen wurden",
+          "version": 1
+        },
+        "0C23005B": {
+          "text": "BadReferenceTypeIdInvalid: Der Vorgang konnte nicht verarbeitet werden, da alle Fortsetzungspunkte zugewiesen wurden",
+          "version": 1
+        },
+        "0C23005C": {
+          "text": "BadBrowseDirectionInvalid: Die Browse-Richtung ist ungültig",
+          "version": 1
+        },
+        "0C23005D": {
+          "text": "BadNodeNotInView: Der Node ist nicht Teil der Ansicht",
+          "version": 1
+        },
+        "0C23005E": {
+          "text": "BadServerUriUngültig: Die Server-URI ist keine gültige URI",
+          "version": 1
+        },
+        "0C23005F": {
+          "text": "BadServerNameMissing: Es wurde kein ServerName angegeben",
+          "version": 1
+        },
+        "0C230060": {
+          "text": "BadDiscoveryUrlMissing: Es wurde keine DiscoveryUrl angegeben",
+          "version": 1
+        },
+        "0C230061": {
+          "text": "BadSempahoreFileMissing: Die vom Client angegebene Semaphore-Datei ist ungültig",
+          "version": 1
+        },
+        "0C230062": {
+          "text": "BadRequestTypeInvalid: Der Anforderungstyp des Sicherheits-Tokens ist nicht gültig",
+          "version": 1
+        },
+        "0C230063": {
+          "text": "BadSecurityModeRejected: Der Sicherheitsmodus entspricht nicht den vom Server festgelegten Anforderungen",
+          "version": 1
+        },
+        "0C230064": {
+          "text": "BadSecurityPolicyRejected: Die Sicherheitsrichtlinie erfüllt nicht die vom Server festgelegten Anforderungen",
+          "version": 1
+        },
+        "0C230065": {
+          "text": "BadTooManySessions: Der Server hat seine maximale Anzahl von Sitzungen erreicht",
+          "version": 1
+        },
+        "0C230066": {
+          "text": "BadUserSignatureInvalid: Die Signatur des Benutzer-Tokens fehlt oder ist ungültig",
+          "version": 1
+        },
+        "0C230067": {
+          "text": "BadApplicationSignatureInvalid: Die mit dem Client-Zertifikat erzeugte Signatur fehlt oder ist ungültig",
+          "version": 1
+        },
+        "0C230068": {
+          "text": "BadNoValidCertificates: Der Client hat nicht mindestens ein Software-Zertifikat bereitgestellt, das gültig ist und die Profilanforderungen für den Server erfüllt",
+          "version": 1
+        },
+        "0C230069": {
+          "text": "BadRequestCancelledByRequest: Die Anfrage wurde vom Client mit dem Cancel-Dienst abgebrochen",
+          "version": 1
+        },
+        "0C23006A": {
+          "text": "BadParentNodeIdInvalid: Die übergeordnete Node-ID verweist nicht auf einen gültigen Node",
+          "version": 1
+        },
+        "0C23006B": {
+          "text": "BadReferenceNotAllowed: Der Verweis konnte nicht erstellt werden, da er gegen vom Datenmodell auferlegte Einschränkungen verstößt",
+          "version": 1
+        },
+        "0C23006C": {
+          "text": "BadNodeIdRejected: Die angeforderte Node-ID wurde zurückgewiesen, weil sie entweder ungültig war oder der Server die Angabe von Node-IDs durch den Client nicht zulässt",
+          "version": 1
+        },
+        "0C23006D": {
+          "text": "BadNodeIdExists: Die angeforderte Node-ID wird bereits von einem anderen Node verwendet",
+          "version": 1
+        },
+        "0C23006E": {
+          "text": "BadNodeClassInvalid: Die Node-Klasse ist ungültig",
+          "version": 1
+        },
+        "0C23006F": {
+          "text": "BadBrowseNameInvalid: Der Browse-Name ist ungültig",
+          "version": 1
+        },
+        "0C230070": {
+          "text": "BadBrowseNameDuplicated: Der Browse-Name zwischen den Nodes, die die gleiche Beziehung zum übergeordneten Node haben, ist nicht eindeutig",
+          "version": 1
+        },
+        "0C230071": {
+          "text": "BadNodeAttributesInvalid: Die Node-Attribute sind für die Node-Klasse nicht gültig",
+          "version": 1
+        },
+        "0C230072": {
+          "text": "BadTypeDefinitionInvalid: Die Node-ID der Typdefinition verweist nicht auf einen geeigneten Typ-Node",
+          "version": 1
+        },
+        "0C230073": {
+          "text": "BadSourceNodeIdInvalid: Die Source-Node-Id verweist nicht auf einen gültigen Node",
+          "version": 1
+        },
+        "0C230074": {
+          "text": "BadTargetNodeIdInvalid: Die Ziel-Node-ID verweist nicht auf einen gültigen Node",
+          "version": 1
+        },
+        "0C230075": {
+          "text": "BadDuplicateReferenceNotAllowed: Der Referenztyp zwischen den Nodes ist bereits definiert",
+          "version": 1
+        },
+        "0C230076": {
+          "text": "BadInvalidSelfReference: Der Server lässt diese Art von Selbstreferenz für diesen Node nicht zu",
+          "version": 1
+        },
+        "0C230077": {
+          "text": "BadReferenceLocalOnly: Der Referenztyp ist für eine Referenz auf einen Remote-Server nicht gültig",
+          "version": 1
+        },
+        "0C230078": {
+          "text": "BadNoDeleteRights: Der Server erlaubt nicht, dass der Node gelöscht wird",
+          "version": 1
+        },
+        "0C230079": {
+          "text": "BadServerIndexInvalid: Der Server-Index ist ungültig",
+          "version": 1
+        },
+        "0C23007A": {
+          "text": "BadViewIdUnknown: Die Ansichts-ID verweist nicht auf einen gültigen Ansichts-Node",
+          "version": 1
+        },
+        "0C23007B": {
+          "text": "BadTooManyMatches: Die angeforderte Operation hat zu viele Treffer, um zu antworten",
+          "version": 1
+        },
+        "0C23007C": {
+          "text": "BadQueryTooComplex: Die angeforderte Operation erfordert zu viele Ressourcen auf dem Server",
+          "version": 1
+        },
+        "0C23007D": {
+          "text": "BadNoMatch: Die angeforderte Operation kann keine Übereinstimmung zurückgeben",
+          "version": 1
+        },
+        "0C23007E": {
+          "text": "BadMaxAgeInvalid: Der Parameter \"max age\" ist ungültig",
+          "version": 1
+        },
+        "0C23007F": {
+          "text": "BadHistoryOperationInvalid: Der Parameter \"history details\" ist ungültig",
+          "version": 1
+        },
+        "0C230080": {
+          "text": "BadHistoryOperationUnsupported: Der Server unterstützt die angeforderte  Operation nicht",
+          "version": 1
+        },
+        "0C230081": {
+          "text": "BadWriteNotSupported: Der Server unterstützt das Schreiben der angegebenen Kombination von Wert, Status und Zeitstempel nicht",
+          "version": 1
+        },
+        "0C230082": {
+          "text": "BadTypeMismatch: Der für das Attribut gelieferte Wert ist nicht vom gleichen Typ wie der Wert des Attributs",
+          "version": 1
+        },
+        "0C230083": {
+          "text": "BadMethodInvalid: Die Methoden-ID verweist nicht auf eine Methode für das angegebene Objekt",
+          "version": 1
+        },
+        "0C230084": {
+          "text": "BadArgumentsMissing: Der Client hat nicht alle Eingabeargumente für die Methode angegeben",
+          "version": 1
+        },
+        "0C230085": {
+          "text": "BadTooManySubscriptions: Der Server hat seine maximale Anzahl von Subscriptions erreicht",
+          "version": 1
+        },
+        "0C230086": {
+          "text": "BadTooManyPublishRequests: Der Server hat die maximale Anzahl von Veröffentlichungsanfragen in der Warteschlange erreicht",
+          "version": 1
+        },
+        "0C230087": {
+          "text": "BadNoSubscription: Es ist keine Subscription für diese Session  verfügbar",
+          "version": 1
+        },
+        "0C230088": {
+          "text": "BadSequenceNumberUnknown: Die Sequenznummer ist dem Server unbekannt",
+          "version": 1
+        },
+        "0C230089": {
+          "text": "BadMessageNotAvailable: Die angeforderte Benachrichtigung ist nicht mehr verfügbar",
+          "version": 1
+        },
+        "0C23008A": {
+          "text": "BadInsufficientClientProfile: Der Client der aktuellen Session unterstützt ein oder mehrere Profile nicht, die für die Subscription notwendig sind",
+          "version": 1
+        },
+        "0C23008B": {
+          "text": "BadTcpServerTooBusy: Der Server kann die Anfrage nicht bearbeiten, weil er zu beschäftigt ist",
+          "version": 1
+        },
+        "0C23008C": {
+          "text": "BadTcpMessageTypeInvalid: Der Typ der im Header angegebenen Nachricht ist ungültig",
+          "version": 1
+        },
+        "0C23008D": {
+          "text": "BadTcpSecureChannelUnknown: Die SecureChannelId und/oder TokenId werden derzeit nicht verwendet",
+          "version": 1
+        },
+        "0C23008E": {
+          "text": "BadTcpMessageTooLarge: Die Größe der im Header angegebenen Nachricht ist zu groß",
+          "version": 1
+        },
+        "0C23008F": {
+          "text": "BadTcpNotEnoughResources: Es gibt nicht genügend Ressourcen, um die Anfrage zu bearbeiten",
+          "version": 1
+        },
+        "0C230090": {
+          "text": "BadTcpInternalError: Ein interner Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C230091": {
+          "text": "BadTcpEndpointUrlInvalid: Der Server erkennt den angegebenen QueryString nicht",
+          "version": 1
+        },
+        "0C230092": {
+          "text": "BadRequestInterrupted: Die Anfrage konnte wegen einer Netzwerkunterbrechung nicht gesendet werden",
+          "version": 1
+        },
+        "0C230093": {
+          "text": "BadRequestTimeout: Bei der Verarbeitung der Anfrage ist eine Zeitüberschreitung aufgetreten",
+          "version": 1
+        },
+        "0C230094": {
+          "text": "BadSecureChannelClosed: Der sichere Kanal wurde geschlossen",
+          "version": 1
+        },
+        "0C230095": {
+          "text": "BadSecureChannelTokenUnknown: Das Token ist abgelaufen oder wird nicht erkannt",
+          "version": 1
+        },
+        "0C230096": {
+          "text": "BadSequenceNumberInvalid: Die Sequenznummer ist ungültig",
+          "version": 1
+        },
+        "0C230097": {
+          "text": "BadConfigurationError: Es gibt ein Problem mit der Konfiguration, das die Verwendbarkeit  des Wertes beeinträchtigt",
+          "version": 1
+        },
+        "0C230098": {
+          "text": "BadNotConnected: Die Variable sollte ihren Wert von einer anderen Variable erhalten, wurde aber nie dafür konfiguriert",
+          "version": 1
+        },
+        "0C230099": {
+          "text": "BadDeviceFailure: Bei dem Gerät/der Datenquelle, das/die den Wert erzeugt, ist ein Fehler aufgetreten, der sich auf den Wert ausgewirkt hat",
+          "version": 1
+        },
+        "0C23009A": {
+          "text": "BadSensorFailure: Der Sensor, von dem das Gerät/die Datenquelle den Wert ableitet, ist ausgefallen",
+          "version": 1
+        },
+        "0C23009B": {
+          "text": "BadOutOfService: Die Quelle der Daten ist nicht betriebsbereit",
+          "version": 1
+        },
+        "0C23009C": {
+          "text": "BadDeadbandFilterInvalid: Der Deadband-Filter ist nicht gültig",
+          "version": 1
+        },
+        "0C23009D": {
+          "text": "BadRefreshInProgress: Diese Aktualisierung der Bedingung ist fehlgeschlagen, da bereits eine Aktualisierung einer  Bedingung läuft",
+          "version": 1
+        },
+        "0C23009E": {
+          "text": "BadConditionAlreadyDisabled: Diese Bedingung wurde bereits deaktiviert",
+          "version": 1
+        },
+        "0C23009F": {
+          "text": "BadConditionDisabled: Eigenschaft nicht verfügbar, diese Bedingung ist deaktiviert",
+          "version": 1
+        },
+        "0C2300A0": {
+          "text": "BadEventIdUnknown: Die angegebene Ereignis-ID ist nicht bekannt",
+          "version": 1
+        },
+        "0C2300A1": {
+          "text": "BadNoData: Für den angeforderten Zeitbereich oder Ereignisfilter sind keine Daten vorhanden",
+          "version": 1
+        },
+        "0C2300A2": {
+          "text": "BadDataLost: Daten fehlen aufgrund einer gestarteten/gestoppten/verlorenen Sammlung",
+          "version": 1
+        },
+        "0C2300A3": {
+          "text": "BadDataUnavailable: Die erwarteten Daten sind für den angeforderten Zeitraum nicht verfügbar, da ein Datenträger nicht gemountet ist, ein Archiv oder Band offline ist oder ein ähnlicher Grund für eine vorübergehende Nichtverfügbarkeit vorliegt",
+          "version": 1
+        },
+        "0C2300A4": {
+          "text": "BadEntryExists: Die Daten oder das Ereignis wurden nicht erfolgreich eingefügt, da ein passender Eintrag vorhanden ist",
+          "version": 1
+        },
+        "0C2300A5": {
+          "text": "BadNoEntryExists: Die Daten oder das Ereignis wurden nicht erfolgreich aktualisiert, da kein passender Eintrag vorhanden ist",
+          "version": 1
+        },
+        "0C2300A6": {
+          "text": "BadTimestampNotSupported: Der Client hat die Historie in einem Zeitstempelformat angefordert, das der Server nicht unterstützt (d. h. er hat ServerTimestamp angefordert, obwohl der Server nur SourceTimestamp unterstützt)",
+          "version": 1
+        },
+        "0C2300A7": {
+          "text": "BadInvalidArgument: Ein oder mehrere Argumente sind ungültig - siehe Logbuch für weitere Details",
+          "version": 1
+        },
+        "0C2300A8": {
+          "text": "BadConnectionRejected: Es konnte keine Netzwerkverbindung zum Remote-Server hergestellt werden",
+          "version": 1
+        },
+        "0C2300A9": {
+          "text": "BadDisconnect: Der Server hat die Verbindung zum Client getrennt",
+          "version": 1
+        },
+        "0C2300AA": {
+          "text": "BadConnectionClosed: Die Netzwerkverbindung wurde getrennt",
+          "version": 1
+        },
+        "0C2300AB": {
+          "text": "BadInvalidState: Der Vorgang kann nicht abgeschlossen werden, weil das Objekt ohne Initialisierung geschlossen wurde oder sich in einem anderen ungültigen Zustand befindet",
+          "version": 1
+        },
+        "0C2300AC": {
+          "text": "BadEndOfStream: Kann nicht über das Ende des Streams hinausgehen",
+          "version": 1
+        },
+        "0C2300AD": {
+          "text": "BadNoDataAvailable: Es sind derzeit keine Daten zum Lesen aus einem nicht blockierenden Stream verfügbar",
+          "version": 1
+        },
+        "0C2300AE": {
+          "text": "BadWaitingForResponse: Die asynchrone Operation wartet auf eine Antwort",
+          "version": 1
+        },
+        "0C2300AF": {
+          "text": "BadOperationAbandoned: Die asynchrone Operation wurde vom Aufrufer abgebrochen",
+          "version": 1
+        },
+        "0C2300B0": {
+          "text": "BadExpectedStreamToBlock: Der Stream hat nicht alle angeforderten Daten zurückgegeben (möglicherweise, weil es sich um einen nicht blockierenden Stream handelt)",
+          "version": 1
+        },
+        "0C2300B1": {
+          "text": "BadWouldBlock: Nicht blockierendes Verhalten ist erforderlich und der Vorgang würde blockieren",
+          "version": 1
+        },
+        "0C2300B2": {
+          "text": "BadSyntaxError: Ein Wert hatte eine ungültige Syntax",
+          "version": 1
+        },
+        "0C2300B3": {
+          "text": "BadMaxConnectionsReached: Der Vorgang konnte nicht beendet werden, da alle verfügbaren Verbindungen belegt sind",
+          "version": 1
+        },
+        "0C2300B4": {
+          "text": "BadRequestTooLarge: Die Größe der Anforderungsnachricht überschreitet die vom Server festgelegten Grenzen",
+          "version": 1
+        },
+        "0C2300B5": {
+          "text": "BadResponseTooLarge: Die Größe der Antwortnachricht überschreitet die vom Client festgelegten Grenzen",
+          "version": 1
+        },
+        "0C2300B6": {
+          "text": "BadEventNotAcknowledgeable: Das Ereignis kann nicht quittiert werden",
+          "version": 1
+        },
+        "0C2300B7": {
+          "text": "BadInvalidTimestampArgument: Der definierte Zeitstempel, der zurückgegeben werden soll, war ungültig",
+          "version": 1
+        },
+        "0C2300B8": {
+          "text": "BadProtocolVersionUnsupported: Die Anwendungen haben keine kompatiblen Protokollversionen",
+          "version": 1
+        },
+        "0C2300B9": {
+          "text": "BadStateNotActive: Die Sub-State Machine ist derzeit nicht aktiv",
+          "version": 1
+        },
+        "0C2300BA": {
+          "text": "BadFilterOperatorInvalid: Ein nicht anerkannter Operator wurde in einem Filter bereitgestellt",
+          "version": 1
+        },
+        "0C2300BB": {
+          "text": "BadFilterOperatorUnsupported: Es wurde ein gültiger Operator angegeben, aber der Server bietet keine Unterstützung für diesen Filteroperator",
+          "version": 1
+        },
+        "0C2300BC": {
+          "text": "BadFilterOperandCountMismatch: Die Anzahl der für den Filteroperator angegebenen Operanden war geringer als für den angegebenen Operanden erwartet",
+          "version": 1
+        },
+        "0C2300BD": {
+          "text": "BadFilterElementInvalid: Das referenzierte Element ist kein gültiges Element im Inhaltsfilter",
+          "version": 1
+        },
+        "0C2300BE": {
+          "text": "BadFilterLiteralInvalid: Das referenzierte Literal ist kein gültiger Wert",
+          "version": 1
+        },
+        "0C2300BF": {
+          "text": "BadIdentityChangeNotSupported: Der Server unterstützt die Änderung der einer Session zugewiesenen Benutzeridentität nicht",
+          "version": 1
+        },
+        "0C2300C0": {
+          "text": "BadNotTypeDefinition: Die angegebene NodeId war keine Typdefinition NodeId",
+          "version": 1
+        },
+        "0C2300C1": {
+          "text": "BadViewTimestampInvalid: Der Zeitstempel der Ansicht ist nicht verfügbar oder wird nicht unterstützt",
+          "version": 1
+        },
+        "0C2300C2": {
+          "text": "BadViewParameterMismatch: Die Parameter der Ansicht sind untereinander nicht konsistent",
+          "version": 1
+        },
+        "0C2300C3": {
+          "text": "BadViewVersionInvalid: Die Version der Ansicht ist nicht verfügbar oder wird nicht unterstützt",
+          "version": 1
+        },
+        "0C2300C4": {
+          "text": "BadConditionAlreadyEnabled: Diese Bedingung wurde bereits aktiviert",
+          "version": 1
+        },
+        "0C2300C5": {
+          "text": "BadDialogNotActive: Die Dialogbedingung ist nicht aktiv",
+          "version": 1
+        },
+        "0C2300C6": {
+          "text": "BadDialogResponseInvalid: Die Antwort ist für den Dialog nicht gültig",
+          "version": 1
+        },
+        "0C2300C7": {
+          "text": "BadConditionBranchAlreadyAcked: Der Bedingungszweig wurde bereits quittiert",
+          "version": 1
+        },
+        "0C2300C8": {
+          "text": "BadConditionBranchAlreadyConfirmed: Der Bedingungszweig wurde bereits bestätigt",
+          "version": 1
+        },
+        "0C2300C9": {
+          "text": "BadConditionAlreadyShelved: Die Bedingung wurde bereits zurückgestellt",
+          "version": 1
+        },
+        "0C2300CA": {
+          "text": "BadConditionNotShelved: Die Bedingung wird derzeit nicht zurückgestellt",
+          "version": 1
+        },
+        "0C2300CB": {
+          "text": "BadShelvingTimeOutOfRange: Die Standzeit liegt nicht innerhalb eines akzeptablen Bereichs",
+          "version": 1
+        },
+        "0C2300CC": {
+          "text": "BadAggregateListMismatch: Die angeforderte Anzahl von Aggregaten stimmt nicht mit der angeforderten Anzahl von NodeIds überein",
+          "version": 1
+        },
+        "0C2300CD": {
+          "text": "BadAggregateNotSupported: Das angeforderte Aggregat wird vom Server nicht unterstützt",
+          "version": 1
+        },
+        "0C2300CE": {
+          "text": "BadAggregateInvalidInputs: Der Aggregatwert konnte aufgrund ungültiger Dateneingaben nicht abgeleitet werden",
+          "version": 1
+        },
+        "0C2300CF": {
+          "text": "BadBoundNotFound: Keine Daten gefunden, um oberen oder unteren Grenzwert zu liefern",
+          "version": 1
+        },
+        "0C2300D0": {
+          "text": "BadBoundNotSupported: Der Server kann keine Begrenzung für die Variable abrufen",
+          "version": 1
+        },
+        "0C2300D1": {
+          "text": "BadAggregateConfigurationRejected: Die Aggregatkonfiguration ist für den angegebenen Node nicht gültig",
+          "version": 1
+        },
+        "0C2300D2": {
+          "text": "BadTooManyMonitoredItems: Die Anfrage konnte nicht bearbeitet werden, weil zu viele Monitored Items in der  Subscription vorhanden sind",
+          "version": 1
+        },
+        "0C2300D3": {
+          "text": "BadDominantValueChanged: Die zugehörige EngineeringUnit wurde geändert, die Änderung wurde aber nicht auf das Gerät angewandt, so dass der Variablenwert immer noch von der vorherigen Einheit abhängt  und der Status derzeit \"Bad\" ist",
+          "version": 1
+        },
+        "0C2300D4": {
+          "text": "BadDependentValueChanged: Ein abhängiger Wert wurde geändert, aber die Änderung wurde nicht auf das Gerät angewendet. Die Qualität der dominanten Variable ist \"Bad\"",
+          "version": 1
+        },
+        "0C2300D5": {
+          "text": "BadRequestNotAllowed: Die Anfrage wurde vom Server abgelehnt, weil sie die vom Server festgelegten Kriterien nicht erfüllte",
+          "version": 1
+        },
+        "0C2300D6": {
+          "text": "BadTooManyArguments: Es wurden zu viele Argumente bereitgestellt",
+          "version": 1
+        },
+        "0C2300D7": {
+          "text": "BadSecurityModeInsufficient: Der Vorgang ist über den aktuellen sicheren Kanal nicht zulässig",
+          "version": 1
+        },
+        "0C2300D8": {
+          "text": "BadDataSetIdInvald: Das für die Erstellung von DataSetWriter angegebene DataSet ist ungültig",
+          "version": 1
+        },
+        "0C2300D9": {
+          "text": "StartOfStackStatusCodes: Beginn der Statusmeldungen intern auf den Stack",
+          "version": 1
+        },
+        "0C2300DA": {
+          "text": "BadSignatureInvalid: Die Signatur der Nachricht ist ungültig",
+          "version": 1
+        },
+        "0C2300DB": {
+          "text": "BadExtensibleParameterInvalid: Der angegebene erweiterbare Parameter ist für den Dienst nicht gültig",
+          "version": 1
+        },
+        "0C2300DC": {
+          "text": "BadExtensibleParameterUnsupported: Der angegebene erweiterbare Parameter ist gültig, aber der Server unterstützt ihn nicht",
+          "version": 1
+        },
+        "0C2300DD": {
+          "text": "BadHostUnknown: Der Hostname konnte nicht aufgelöst werden",
+          "version": 1
+        },
+        "0C2300DE": {
+          "text": "BadTooManyPosts: Es wurden zu viele Beiträge an ein Semaphore gesendet",
+          "version": 1
+        },
+        "0C2300DF": {
+          "text": "BadSecurityConfig: Die Sicherheitskonfiguration ist ungültig",
+          "version": 1
+        },
+        "0C2300E0": {
+          "text": "BadFileNotFound: Ungültiger Dateiname angegeben",
+          "version": 1
+        },
+        "0C2300E1": {
+          "text": "BadContinue: Schlechtes Ergebnis akzeptieren und trotzdem fortfahren",
+          "version": 1
+        },
+        "0C2300E2": {
+          "text": "BadHttpMethodNotAllowed: Schlechtes Ergebnis akzeptieren und trotzdem fortfahren",
+          "version": 1
+        },
+        "0C2300E3": {
+          "text": "BadFileExists: Datei existiert",
+          "version": 1
+        },
+        "0C2300E4": {
+          "text": "BadCertificateChainIncomplete: Die Zertifikatskette ist unvollständig",
+          "version": 1
+        },
+        "0C2300E5": {
+          "text": "BadLicenseExpired: Der Server benötigt eine Lizenz für den allgemeinen Betrieb oder für die Ausführung eines Dienstes oder Vorgangs",
+          "version": 1
+        },
+        "0C2300E6": {
+          "text": "BadLicenseLimitsExceeded: Der Server hat Grenzen für die Anzahl der erlaubten Operationen/Objekte",
+          "version": 1
+        },
+        "0C2300E7": {
+          "text": "BadLicenseNotAvailable: Der Server verfügt nicht über eine Lizenz, die für den allgemeinen Betrieb oder für die Ausführung eines Dienstes oder Vorgangs erforderlich ist",
+          "version": 1
+        },
+        "0C2300E8": {
+          "text": "BadNotExecutable: Das ausführbare Attribut erlaubt die Ausführung der Methode nicht",
+          "version": 1
+        },
+        "0C2300E9": {
+          "text": "BadNumericOverflow: Die Zahl wurde wegen eines numerischen Überlaufs nicht akzeptiert",
+          "version": 1
+        },
+        "0C2300EA": {
+          "text": "BadRequestNotComplete: Die Anfrage wurde vom Server noch nicht bearbeitet",
+          "version": 1
+        },
+        "0C2300EB": {
+          "text": "BadCertificatePolicyCheckFailes: Das Zertifikat erfüllt nicht die Anforderungen der Sicherheitsrichtlinie",
+          "version": 1
+        },
+        "0C2300EC": {
+          "text": "BadAlreadyExists: Eine entsprechende Regel existiert bereits",
+          "version": 1
+        },
+        "0C2300ED": {
+          "text": "BadEditedOutOfRange: Wird mit einem Wert \"Variable\" geliefert, wenn sich \"Variable\" geändert hat, der Wert aber nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300EE": {
+          "text": "BadInitialValueOutOfRange: Wird mit einem Wert \"Variable\" geliefert, wenn sich eine Quell-\"Variable\" geändert hat, der Wert aber nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300EF": {
+          "text": "BadOutOfRangeDominantValueChanged: Wird mit einem abhängigen Wert \"Variable\"  geliefert, wenn sich eine dominante \"Variable\" geändert hat, der Wert aber nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300F0": {
+          "text": "BadEditedOutOfRangeDominantValueChanged: Wird mit einem abhängigen Wert \"Variable\" geliefert, wenn sich eine dominante \"Variable\" geändert hat, der Wert aber nicht zulässig ist und die Änderung nicht übernommen wurde",
+          "version": 1
+        },
+        "0C2300F1": {
+          "text": "BadOutOfRangeDominantValueChangedDependentValueChanged: Wird mit einem abhängigen Wert \"Variable\" geliefert, wenn sich eine dominante oder abhängige \"Variable\" geändert hat und der Wert nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300F2": {
+          "text": "BadEditedOutOfRangeDominantValueChangedDependentValueChanged: Wird mit einem abhängigen Wert \"Variable\" geliefert, wenn sich dominante oder abhängige \"Variable\" geändert hat, der Wert nicht zulässig ist und Änderung nicht übernommen wurde",
+          "version": 1
+        },
+        "0C2300F3": {
+          "text": "BadTicketRequired: Die Geräteidentität benötigt ein Ticket, bevor sie akzeptiert werden kann",
+          "version": 1
+        },
+        "0C2300F4": {
+          "text": "BadTicketInvalid: Die Geräteidentität benötigt ein Ticket, bevor sie akzeptiert werden kann",
+          "version": 1
+        },
+        "0C2300F5": {
+          "text": "PLCopenUA_Bad_FW_PermanentError: Interner, permanenter Fehler",
+          "version": 1
+        },
+        "0C2300F6": {
+          "text": "PLCopenUA_Bad_FW_TempError: Temporärer Fehler. FB konnte erneut versuchen, FW zu erreichen",
+          "version": 1
+        },
+        "0C2300F7": {
+          "text": "PLCopenUA_Bad_ConnectionError: Verbindung konnte nicht hergestellt werden",
+          "version": 1
+        },
+        "0C2300F8": {
+          "text": "PLCopenUA_Bad_HostNotFound: Der angeforderte Hostname konnte nicht gefunden werden",
+          "version": 1
+        },
+        "0C2300F9": {
+          "text": "PLCopenUA_Bad_AlreadyConnected: Verbindung wurde bereits hergestellt",
+          "version": 1
+        },
+        "0C2300FA": {
+          "text": "PLCopenUA_Bad_SecurityFailed: Verbindung ist aufgrund von Sicherheitseinstellungen fehlgeschlagen",
+          "version": 1
+        },
+        "0C2300FB": {
+          "text": "PLCopenUA_Bad_Suspended: Verbindung ist unterbrochen",
+          "version": 1
+        },
+        "0C2300FC": {
+          "text": "PLCopenUA_Bad_ConnectionInvalidHdl: Bereitgestellte ConnectionHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C2300FD": {
+          "text": "PLCopenUA_Bad_NSNotFound: Ein Namespace mit dem angeforderten Namen kann auf dem Server nicht gefunden werden",
+          "version": 1
+        },
+        "0C2300FE": {
+          "text": "PLCopenUA_Bad_ResultTooLong: Ziel-SPS-Variable ist zu kurz für abgefragte Daten",
+          "version": 1
+        },
+        "0C2300FF": {
+          "text": "PLCopenUA_Bad_InvalidType: Ungültiger oder nicht unterstützter Typ",
+          "version": 1
+        },
+        "0C230100": {
+          "text": "PLCopenUA_Bad_NodeInvalidHdl: Die angegebene NodeHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C230101": {
+          "text": "PLCopenUA_Bad_MethodInvalidHdl: Bereitgestellte MethodHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C230102": {
+          "text": "PLCopenUA_Bad_ReadFailed: Lesen aus unbekanntem Grund fehlgeschlagen",
+          "version": 1
+        },
+        "0C230103": {
+          "text": "PLCopenUA_Bad_WriteFailed: Schreiben aus unbekanntem Grund fehlgeschlagen",
+          "version": 1
+        },
+        "0C230104": {
+          "text": "PLCopenUA_Bad_CallFailed: Methodenaufruf aus unbekanntem Grund fehlgeschlagen",
+          "version": 1
+        },
+        "0C230105": {
+          "text": "PLCopenUA_Bad_InParamFailed: Konvertierung Methodenaufruf-Eingabeparameter fehlgeschlagen",
+          "version": 1
+        },
+        "0C230106": {
+          "text": "PLCopenUA_Bad_OutParamFailed: Konvertierung Methodenaufruf-Ausgabeparameter fehlgeschlagen. ACHTUNG: Dies bedeutet, dass der MethodCall erfolgreich ausgeführt wurde, aber die zurückgegebenen Werte nicht konvertiert werden konnten",
+          "version": 1
+        },
+        "0C230107": {
+          "text": "PLCopenUA_Bad_AttributeIdUnknown: Wird in UA_NodeGetInformation für Elemente verwendet, die nicht in dieser NodeClass vorhanden sind",
+          "version": 1
+        },
+        "0C230108": {
+          "text": "PLCopenUA_Bad_AttributeIdInvalid: Wird in UA_NodeGetInformation für Elemente verwendet, die existieren sollten, es aber nicht tun",
+          "version": 1
+        },
+        "0C230109": {
+          "text": "PLCopenUA_Bad_SubscriptionInvalidHdl: Bereitgestellte SubscriptionHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C23010A": {
+          "text": "PLCopenUA_Bad_MonitoredItemInvalidHdl: Übergebene MonitoredItemHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C23010B": {
+          "text": "PLCopenUA_Bad_MonitoredItemSyncMismatch: Gemischte Controller-Synchronisation und Firmware-Synchronisation in derselben Liste",
+          "version": 1
+        },
+        "0C23010C": {
+          "text": "PLCopenUA_Bad_SyncModeInvalid: Synchronisationsmodus ungültig",
+          "version": 1
+        },
+        "0C23010D": {
+          "text": "SystemNotReady: Operation fehlgeschlagen wegen Ressourcenbeschränkung",
+          "version": 1
+        },
+        "0C23010E": {
+          "text": "StateInvalidOperation: Operation fehlgeschlagen, weil die vorangegangene Operation noch nicht beendet ist",
+          "version": 1
+        },
+        "0C23010F": {
+          "text": "FeatureNotSupported: Das Feature wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230110": {
+          "text": "SecurityNotSupported: Security wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230111": {
+          "text": "TransportProfileNotSupported: Das angeforderte Transportprofil wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230112": {
+          "text": "UnexpectedResults: Es wurden unerwartete Ergebnisse geliefert (Statuscode, Datentyp, Wert)",
+          "version": 1
+        },
+        "0C230113": {
+          "text": "RessourceLimitError: Operation fehlgeschlagen aufgrund von Ressourcenbeschränkung",
+          "version": 1
+        },
+        "0C230114": {
+          "text": "NothingTodo: Es gibt nichts zu tun, Anfrageparameter prüfen",
+          "version": 1
+        },
+        "0C230115": {
+          "text": "StringArraysNotSupported: STRING-Arrays werden für diesen Vorgang nicht unterstützt",
+          "version": 1
+        },
+        "0C230116": {
+          "text": "ErrorInSubservice: Einer der Subdienste ist fehlgeschlagen, siehe Ausgang NodeErrorIDs",
+          "version": 1
+        },
+        "0C230117": {
+          "text": "NoOfOutArguments: Anzahl der zurückgegebenen Ausgabeargumente stimmt NICHT mit der Anzahl der Ausgänge der Methode überein",
+          "version": 1
+        },
+        "0C230118": {
+          "text": "ErrorVariableSizeDoesNotFit: Die Speichergröße der SPS-Variable passt nicht zur Speichergröße, die der Node benötigt",
+          "version": 1
+        },
+        "0C230119": {
+          "text": "ErrorMaxNumberOfSessionsReached: Die maximale Anzahl von Sessions wurde erreicht",
+          "version": 1
+        },
+        "0C23011A": {
+          "text": "ErrorInvalidStateOfStateMachine: Ungültiger Zustand der Zustandsmaschine des Funktionsbausteins",
+          "version": 1
+        },
+        "0C23011B": {
+          "text": "ErrorFunctionBlocTimeout: Der Baustein konnte innerhalb des eingestellten Timeouts nicht fertig bearbeitet werden",
+          "version": 1
+        },
+        "0C23011C": {
+          "text": "ErrorInvalidInputOfFunctionBlock: An einem Eingang liegt ein ungültiger Wert an",
+          "version": 1
+        },
+        "0C23011D": {
+          "text": "ErrorDataTypeNotSupported: Der Datentyp wird zurzeit nicht unterstützt",
+          "version": 1
+        },
+        "0C23011E": {
+          "text": "ErrorInvalidFlatbufferAccess: Ungültiger Zugriff auf den Flatbuffer",
+          "version": 1
+        },
+        "0C23011F": {
+          "text": "ErrorInvalidTaskContext: Ungültiger IEC-Taskkontext",
+          "version": 1
+        },
+        "0C230120": {
+          "text": "ErrorInvalidSyntaxOfNodeId: Die Syntax der angegebenen NodeId ist ungültig",
+          "version": 1
+        },
+        "0C230121": {
+          "text": "ErrorInvalidAdressOfPlcVariable: Die Adresse der IEC-Variable ist ungültig, z. B. Nullpointer",
+          "version": 1
+        },
+        "0C230122": {
+          "text": "ErrorNotYetImplemented: Diese Funktionalität wurde noch nicht implementiert",
+          "version": 1
+        },
+        "0C230123": {
+          "text": "ErrorAppOpcUaClientNotInstalled: Die OPC UA Client App (UAC) wurde nicht installiert oder wurde deaktiviert",
+          "version": 1
+        },
+        "0C230124": {
+          "text": "ErrorAppOpcUaServerNotInstalled: Die OPC UA Server App (UAS) wurde nicht installiert oder wurde deaktiviert",
+          "version": 1
+        },
+        "0C230125": {
+          "text": "ErrorSameSessionNameAlreadyUsedByAnotherInstance: Eine weitere Instanz des Funktionsbausteins \"UA_Connect\" verwendet diesen Session-Namen bereits",
+          "version": 1
+        },
+        "0C230126": {
+          "text": "ErrorFlatbufferAccesReturnsNULL: Der Zugriff auf einen Flatbuffer liefert einen Nullpointer zurück",
+          "version": 1
+        },
+        "0C230127": {
+          "text": "ErrorFlatbufferAccesReturnsSizeZero: Der Zugriff auf einen Flatbuffer liefert die Größe 0 zurück",
+          "version": 1
+        },
+        "0C230128": {
+          "text": "ErrorInconsistentCounterValue: Der Zählerstand ist inkonsistent, z. B.  von uiNoOfPlcCreatedInstances",
+          "version": 1
+        },
+        "0C230129": {
+          "text": "ErrorTypeMismatch: Die Typen beider Variablen passen nicht zusammen, z. B. SPS-Variable und Methodenparameter",
+          "version": 1
+        },
+        "0C23012A": {
+          "text": "ErrorTypeOfMethodNotSupported: Der Typ der aufzurufenden Methode wird nicht unterstützt, z. B. hat die Methode zu viele Parameter",
+          "version": 1
+        },
+        "0C23012B": {
+          "text": "ErrorAllocateMemory: Es konnte kein dynamischer Speicher angefordert werden",
+          "version": 1
+        },
+        "0C23012C": {
+          "text": "ErrorFunctionBlockTimeout: Timeout des Funktionsbausteins aufgetreten - ggfs. Eingang \"Timeout\" erhöhen",
+          "version": 1
+        },
+        "0C23012D": {
+          "text": "ErrorInvalidMethodHdl: Ungültiges Methoden-Handle (0 oder -1)",
+          "version": 1
+        },
+        "0C23012F": {
+          "text": "ErrorUnequalNumbersOfOutputArguments: Die Anzahl der erwarteten Ausgangsargumente entspricht nicht dem Eingang OutputArgumentsCount",
+          "version": 1
+        },
+        "0C230130": {
+          "text": "ErrorDataTypeMismatchOfInputArguments: Der Datentyp eines Eingangsarguments passt nicht mit dem Typ der IEC-Variablen zusammen",
+          "version": 1
+        },
+        "0C230131": {
+          "text": "ErrorDataTypeMismatchOfOutputArguments: Der Datentyp eines Ausgangsarguments passt nicht mit dem Typ der IEC-Variablen zusammen",
+          "version": 1
+        },
+        "0C230132": {
+          "text": "ErrorInvalidReferenceType: Ungültiger Referenztyp der Methode. Erwartet werden \"readInType\" oder \"readOutType\"",
+          "version": 1
+        },
+        "0C230133": {
+          "text": "ErrorMetadataGetReference: Ungültige Referenz der Metadaten, z. B. Nullpointer",
+          "version": 1
+        },
+        "0C230134": {
+          "text": "ErrorInvalidNumberOfReferences: Die Methode enthält mehr als zwei Referenzen, was nicht unterstützt wird",
+          "version": 1
+        },
+        "0C230135": {
+          "text": "ErrorInvalidNodeClass: Die NodeClass der Methode ist nicht \"Method\"",
+          "version": 1
+        },
+        "0C230136": {
+          "text": "ErrorInvalidOperations: Die erwartete Eigenschaft \"operations\" der Methode ist nicht lesbar oder schreibbar",
+          "version": 1
+        },
+        "0C230137": {
+          "text": "ErrorEncodingToFlatbuffer: Das Encoding der Eingänge zum Flatbuffer ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C230138": {
+          "text": "ErrorDecodingFromFlatbuffer: Das Decoding des Flatbuffers auf die Ausgänge ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C230139": {
+          "text": "ErrorUnequalNumbersOfInputArguments: Die Anzahl der gültigen Elemente in \"InputArguments\" stimmt nicht mit dem Wert \"InputArgumentsCount\" überein",
+          "version": 1
+        },
+        "0C23013A": {
+          "text": "ErrorReadingMetadata: Die Metadaten des Node konnten nicht gelesen werden",
+          "version": 1
+        },
+        "0C23013B": {
+          "text": "ErrorInternalError: Ein interner Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C23013C": {
+          "text": "ErrorSysTaskWaitSleepUs: Der Funktionsaufruf SysTaskWaitSleepUs liefert einen Fehler zurück",
+          "version": 1
+        },
+        "0C23013D": {
+          "text": "ErrorOneNodeError: Genau ein Node liefert einen Fehler zurück, der in den Listen \"NodeErrorIDs\" und \"NodeErrorIDString\" eingetragen ist",
+          "version": 1
+        },
+        "0C23013E": {
+          "text": "ErrorMultipleNodeErrors: Mehr als ein Node liefert einen Fehler zurück, die in den Listen \"NodeErrorIDs\" und \"NodeErrorIDString\" eingetragen sind",
+          "version": 1
+        },
+        "0C23013F": {
+          "text": "ErrorDataLayerUNKNOWN: Es wurde ein unbekannter Fehlercode geliefert",
+          "version": 1
+        },
+        "0C230140": {
+          "text": "ErrorDataLayerDL_OK: Erfolgreicher Funktionsaufruf",
+          "version": 1
+        },
+        "0C230141": {
+          "text": "ErrorDataLayerDL_FAILED: Nur vorübergehend zu verwenden",
+          "version": 1
+        },
+        "0C230142": {
+          "text": "ErrorDataLayerDL_INVALID_ADDRESS: Ungültige Adresse im Data Layer",
+          "version": 1
+        },
+        "0C230143": {
+          "text": "ErrorDataLayerDL_UNSUPPORTED: Funktionalität nicht implementiert",
+          "version": 1
+        },
+        "0C230144": {
+          "text": "ErrorDataLayerDL_OUT_OF_MEMORY: Kein Speicher verfügbar (RAM, Sockets, Handles, Festplattenspeicher,.... )",
+          "version": 1
+        },
+        "0C230145": {
+          "text": "ErrorDataLayerDL_LIMIT_MIN: Das Minimum einer Begrenzung wurde unterschritten",
+          "version": 1
+        },
+        "0C230146": {
+          "text": "ErrorDataLayerDL_LIMIT_MAX: Das Maximum einer Begrenzung wurde überschritten",
+          "version": 1
+        },
+        "0C230147": {
+          "text": "ErrorDataLayerDL_TYPE_MISMATCH: Falscher Typ für Flatbuffer oder Datentyp",
+          "version": 1
+        },
+        "0C230148": {
+          "text": "ErrorDataLayerDL_SIZE_MISMATCH: Größenabweichung, vorhandene Größe stimmt nicht mit der gewünschten Größe überein",
+          "version": 1
+        },
+        "0C230149": {
+          "text": "ErrorDataLayerDL_INVALID_FLOATINGPOINT: Ungültige Gleitkommazahl",
+          "version": 1
+        },
+        "0C23014A": {
+          "text": "ErrorDataLayerDL_INVALID_HANDLE: Ungültiges Handle-Argument oder NULL-Zeiger-Argument",
+          "version": 1
+        },
+        "0C23014B": {
+          "text": "ErrorDataLayerDL_INVALID_OPERATION_MODE: Nicht erreichbar wegen ungültiger Betriebsart (z. B. Schreiben nicht möglich)",
+          "version": 1
+        },
+        "0C23014C": {
+          "text": "ErrorDataLayerDL_INVALID_CONFIGURATION: Abweichung dieses Wertes von anderen konfigurierten Werten",
+          "version": 1
+        },
+        "0C23014D": {
+          "text": "ErrorDataLayerDL_INVALID_VALUE: Ungültger Wert",
+          "version": 1
+        },
+        "0C23014E": {
+          "text": "ErrorDataLayerDL_SUBMODULE_FAILURE: Fehler in unterlagertem Modul aufgetreten",
+          "version": 1
+        },
+        "0C23014F": {
+          "text": "ErrorDataLayerDL_TIMEOUT:  Anfrage-Timeout",
+          "version": 1
+        },
+        "0C230150": {
+          "text": "ErrorDataLayerDL_ALREADY_EXISTS: Anlegen eines Objekts nicht möglich, da es bereits existiert",
+          "version": 1
+        },
+        "0C230151": {
+          "text": "ErrorDataLayerDL_CREATION_FAILED: Objekt kann nicht angelegt werden",
+          "version": 1
+        },
+        "0C230152": {
+          "text": "ErrorDataLayerDL_VERSION_MISMATCH: Versionskonflikt",
+          "version": 1
+        },
+        "0C230153": {
+          "text": "ErrorDataLayerDL_DEPRECATED: Veraltete Funktionalität: Wird nicht mehr unterstützt",
+          "version": 1
+        },
+        "0C230154": {
+          "text": "ErrorDataLayerDL_PERMISSION_DENIED: Anfrage wegen unzureichender Zugriffsrechte abgelehnt",
+          "version": 1
+        },
+        "0C230155": {
+          "text": "ErrorDataLayerDL_NOT_INITIALIZED: Objekt noch nicht initialisiert",
+          "version": 1
+        },
+        "0C230156": {
+          "text": "ErrorDataLayerDL_COMM_PROTOCOL_ERROR: Interner Protokollfehler",
+          "version": 1
+        },
+        "0C230157": {
+          "text": "ErrorDataLayerDL_COMM_INVALID_HEADER: Interner Fehler im Header",
+          "version": 1
+        },
+        "0C230158": {
+          "text": "ErrorDataLayerDL_CLIENT_NOT_CONNECTED: Client ist nicht verbunden",
+          "version": 1
+        },
+        "0C230159": {
+          "text": "ErrorDataLayerDL_RT_NOTOPEN: Nicht offen",
+          "version": 1
+        },
+        "0C23015A": {
+          "text": "ErrorDataLayerDL_RT_INVALIDOBJECT: Ungültiges Objekt",
+          "version": 1
+        },
+        "0C23015B": {
+          "text": "ErrorDataLayerDL_RT_WRONGREVISON: Falsche Version des Speichers",
+          "version": 1
+        },
+        "0C23015C": {
+          "text": "ErrorDataLayerDL_RT_NOVALIDDATA: Keine gültigen Daten",
+          "version": 1
+        },
+        "0C23015D": {
+          "text": "ErrorDataLayerDL_RT_MEMORYLOCKED: Speicher bereits gelockt",
+          "version": 1
+        },
+        "0C23015E": {
+          "text": "ErrorDataLayerDL_RT_INVALID_MEMORYMAP: Ungültiges Speicher-Mapping",
+          "version": 1
+        },
+        "0C23015F": {
+          "text": "ErrorDataLayerDL_RT_INVALID_RETAIN: Ungültiges Speicher-Mapping von Retain-Daten",
+          "version": 1
+        },
+        "0C230160": {
+          "text": "ErrorDataLayerDL_RT_INTERNAL_ERROR: Interner Runtime-Fehler",
+          "version": 1
+        },
+        "0C230161": {
+          "text": "ErrorDataLayerDL_SEC_NO_TOKEN: Kein Token gefunden",
+          "version": 1
+        },
+        "0C230162": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_SESSION: Token ungültig (Session nicht gefunden)",
+          "version": 1
+        },
+        "0C230163": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_TOKEN_CONTENT: Token hat falschen Inhalt",
+          "version": 1
+        },
+        "0C230164": {
+          "text": "ErrorDataLayerDL_SEC_UNAUTHORIZED: Unberechtigt",
+          "version": 1
+        },
+        "0C230165": {
+          "text": "ErrorDataLayerDL_SEC_PAYMENT_REQUIRED: Zahlung erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "0A0F010F": {
+      "text": "Fehler in der Bibliothek CXA_OpcUaServer",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Unsicher",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "UncertainReferenceOutOfServer: Einer der im relativen Pfad zu folgenden Verweise zeigt auf einen Node im Adressraum eines anderen Servers",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "UncertainNoCommunicationLastUsableValue: Kommunikation mit der Datenquelle ist fehlgeschlagen. Der Variablenwert ist der letzte Wert, der eine gute Qualität hatte",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "UncertainLastUsableValue: Die Aktualisierung dieses Werts wurde eingestellt",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "UncertainSubstituteValue: Der Wert ist ein Betriebswert, der manuell überschrieben wurde",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "UncertainInitialValue: Der Wert ist ein Initialwert für eine Variable, die ihren Wert normalerweise von einer anderen Variablen erhält",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "UncertainSensorNotAccurate: Der Wert liegt an einem der Sensorgrenzwerte",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "UncertainEngineeringUnitsExceeded: Der Wert liegt außerhalb des für diesen Parameter definierten Wertebereichs",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "UncertainSubNormal: Der Wert stammt aus mehreren Quellen und hat weniger als die erforderliche Anzahl von \"ofGood\"-Quellen",
+          "version": 1
+        },
+        "0C23000A": {
+          "text": "UncertainDataSubNormal: Der Wert ist von mehreren Werten abgeleitet und hat weniger als die erforderliche Anzahl von of\"Good\"-Werten",
+          "version": 1
+        },
+        "0C23000B": {
+          "text": "UncertainReferenceNotDeleted: Der Server war nicht in der Lage, alle Zielreferenzen zu löschen",
+          "version": 1
+        },
+        "0C23000C": {
+          "text": "UncertainNotAllNodesAvailable: Die Liste der Referenzen ist möglicherweise nicht vollständig, da das zugrunde liegende System nicht verfügbar ist",
+          "version": 1
+        },
+        "0C23000D": {
+          "text": "UncertainDominantValueChanged: Die zugehörige technische Einheit wurde geändert, aber der Variablenwert wird weiterhin auf der Grundlage der vorherigen Einheit angegeben",
+          "version": 1
+        },
+        "0C23000E": {
+          "text": "UncertainDependentValueChanged: Ein abhängiger Wert wurde geändert, aber die Änderung wurde noch nicht auf das Gerät angewendet. Die Qualität der dominanten Variable ist unsicher",
+          "version": 1
+        },
+        "0C23000F": {
+          "text": "UncertainTransducerInManual: Der Wert ist möglicherweise nicht genau, weil sich der Transducer im manuellen Modus befindet",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "UncertainSimulatedValue: Der Wert ist simuliert",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "UncertainSensorCalibration: Der Wert ist aufgrund eines Fehlers in der Sensorkalibrierung möglicherweise nicht genau",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "UncertainConfigurationError: Der Wert ist aufgrund eines Konfigurationsproblems möglicherweise nicht korrekt",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "PLCopenUA_Uncertain_RedundantDisconnect: Anfrage zum Trennen einer nicht laufenden Verbindung",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "BadError: Ein unerwarteter Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "BadUnexpectedError: Ein unerwarteter Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "BadInternalError: Ein interner Fehler ist aufgetreten aufgrund eines Programmier- oder Konfigurationsfehlers",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "BadOutOfMemory: Nicht genug Speicher, um den Vorgang abzuschließen",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "BadResourceUnavailable: Eine Ressource des Betriebssystems ist nicht verfügbar",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "BadCommunicationError: Ein Low-Level-Kommunikationsfehler ist aufgetreten",
+          "version": 1
+        },
+        "0C23001A": {
+          "text": "BadEncodingError: Kodierung wurde wegen ungültiger Daten in den zu serialisierenden Objekten abgebrochen",
+          "version": 1
+        },
+        "0C23001B": {
+          "text": "BadDecodingError: Dekodierung wegen ungültiger Daten im Stream abgebrochen",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "BadEncodingLimitsExceeded: Die vom Stack festgelegten Grenzen für die Kodierung/Dekodierung von Nachrichten wurden überschritten",
+          "version": 1
+        },
+        "0C23001D": {
+          "text": "BadUnknownResponse: Es wurde eine unbekannte Antwort vom Server empfangen",
+          "version": 1
+        },
+        "0C23001E": {
+          "text": "BadTimeout: Zeitüberschreitung bei der Bearbeitung",
+          "version": 1
+        },
+        "0C23001F": {
+          "text": "BadServiceUnsupported: Der Server unterstützt den angeforderten Dienst nicht",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "BadShutdown: Der Vorgang wurde abgebrochen, weil die Anwendung heruntergefahren wird",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "BadServerNotConnected: Der Vorgang konnte nicht abgeschlossen werden, weil der Client nicht mit dem Server verbunden ist",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "BadServerHalted: Der Server ist gestoppt und kann keine Anfragen verarbeiten",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "BadNothingToDo: Keine Aktion möglich, weil der Client eine Liste von Vorgängen ohne Elemente übergeben hat",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "BadTooManyOperations: Die Anfrage konnte nicht bearbeitet werden, da sie zu viele Vorgänge enthielt",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "BadDataTypeIdUnknown: Das Erweiterungsobjekt kann nicht (de)serialisiert werden, da der Datentyp ID nicht erkannt wird",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "BadCertificateInvalid: Das als Parameter übergebene Zertifikat ist nicht gültig",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "BadSecurityChecksFailed: Bei der Sicherheitsüberprüfung ist ein Fehler aufgetreten, z. B. ist das Client/Server-Zertifikat noch nicht gültig",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "BadCertificateTimeInvalid: Das Zertifikat ist abgelaufen oder noch nicht gültig - prüfen Sie auch die Systemzeit des Servers",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "BadCertificateIssuerTimeInvalid: Ein Issuer-Zertifikat ist abgelaufen oder noch nicht gültig",
+          "version": 1
+        },
+        "0C23002A": {
+          "text": "BadCertificateHostNameInvalid: Der für die Verbindung mit einem Server verwendete Host-Name stimmt nicht mit einem Host-Namen im Zertifikat überein",
+          "version": 1
+        },
+        "0C23002B": {
+          "text": "BadCertificateUriInvalid: Die in der Anwendungsbeschreibung angegebene URI stimmt nicht mit der URI im Zertifikat überein",
+          "version": 1
+        },
+        "0C23002C": {
+          "text": "BadCertificateUseNotAllowed: Das Zertifikat darf nicht für den angeforderten Vorgang verwendet werden",
+          "version": 1
+        },
+        "0C23002D": {
+          "text": "BadCertificateIssuerUseNotAllowed: Das Issuer-Zertifikat kann für den angeforderten Vorgang nicht verwendet werden",
+          "version": 1
+        },
+        "0C23002E": {
+          "text": "BadCertificateUntrusted: Das Zertifikat ist nicht vertrauenswürdig",
+          "version": 1
+        },
+        "0C23002F": {
+          "text": "BadCertificateRevocationUnknown: Es konnte nicht festgestellt werden, ob das Zertifikat widerrufen wurde",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "BadCertificateIssuerRevocationUnknown: Es konnte nicht ermittelt werden, ob das Issuer-Zertifikat widerrufen wurde",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "BadCertificateRevoked: Das Zertifikat wurde widerrufen",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "BadCertificateIssuerRevoked: Das Issuer-Zertifikat wurde widerrufen",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "BadUserAccessDenied: Der Benutzer hat keine Berechtigung, den angeforderten Vorgang auszuführen",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "BadIdentityTokenInvalid: Das Benutzeridentitäts-Token ist ungültig, z. B. stimmen Benutzer und/oder Passwort nicht überein",
+          "version": 1
+        },
+        "0C230035": {
+          "text": "BadIdentityTokenRejected: Das Benutzeridentitäts-Token ist gültig, aber der Server hat es abgelehnt",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "BadSecureChannelIdInvalid: Der angegebene sichere Kanal ist nicht mehr gültig",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "BadInvalidTimestamp: Der Zeitstempel liegt außerhalb des vom Server erlaubten Bereichs",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "BadNonceInvalid: \"Nonce\" scheint kein Zufallswert zu sein oder hat nicht die richtige Länge",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "BadSessionIdInvalid: Die Session-ID ist ungültig",
+          "version": 1
+        },
+        "0C23003A": {
+          "text": "BadSessionClosed: Die Session wurde vom Client geschlossen",
+          "version": 1
+        },
+        "0C23003B": {
+          "text": "BadSessionNotActivated: Die Session kann nicht verwendet werden, da ActivateSession nicht aufgerufen wurde",
+          "version": 1
+        },
+        "0C23003C": {
+          "text": "BadSubscriptionIdInvalid: Die Subscription-ID ist ungültig",
+          "version": 1
+        },
+        "0C23003D": {
+          "text": "BadRequestHeaderInvalid: Der Header für die Anfrage fehlt oder ist ungültig",
+          "version": 1
+        },
+        "0C23003E": {
+          "text": "BadTimestampsToReturnInvalid: Der Parameter \"Timestamps to return\" ist ungültig",
+          "version": 1
+        },
+        "0C23003F": {
+          "text": "BadRequestCancelledByClient: Die Anfrage wurde vom Client abgebrochen",
+          "version": 1
+        },
+        "0C230040": {
+          "text": "BadNoCommunication: Die Kommunikation mit der Datenquelle ist definiert, aber nicht hergestellt, und es ist kein letzter bekannter Wert verfügbar",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "BadWaitingForInitialData: Warten auf den Server, um Werte aus der zugrunde liegenden Datenquelle zu erhalten",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "BadNodeIdInvalid: Die Syntax der Node-ID ist ungültig",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "BadNodeIdUnknown: Die Node-ID bezieht sich auf einen Node, der im Server-Adressraum nicht existiert",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "BadAttributeIdInvalid: Das Attribut wird für den angegebenen Node nicht unterstützt",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "BadIndexRangeInvalid: Die Syntax des Parameters für den Indexbereich ist ungültig",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "BadIndexRangeNoData: Innerhalb des angegebenen Indexbereichs sind keine Daten vorhanden",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "BadDataEncodingInvalid: Die Datenkodierung ist ungültig",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "BadDataEncodingUnsupported: Der Server unterstützt die angeforderte Datenkodierung für den Node nicht",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "BadNotReadable: Die Zugriffsebene erlaubt kein Lesen oder Abonnieren des Nodes",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "BadNotWritable: Die Zugriffsstufe erlaubt kein Schreiben auf den Node",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "BadOutOfRange: Der Wert lag außerhalb des Bereichs",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "BadNotSupported: Der angeforderte Vorgang wird nicht unterstützt, z. B. nicht unterstützte SecurityPolicy",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "BadNotFound: Ein angefordertes Element wurde nicht gefunden oder ein Suchvorgang wurde ohne Erfolg beendet, z. B. nicht unterstützte SecurityPolicy",
+          "version": 1
+        },
+        "0C23004E": {
+          "text": "BadObjectDeleted: Das Objekt kann nicht verwendet werden, da es gelöscht wurde",
+          "version": 1
+        },
+        "0C23004F": {
+          "text": "BadNotImplemented: Angeforderter Vorgang ist nicht implementiert",
+          "version": 1
+        },
+        "0C230050": {
+          "text": "BadMonitoringModeInvalid: Der Überwachungsmodus ist ungültig",
+          "version": 1
+        },
+        "0C230051": {
+          "text": "BadMonitoredItemIdInvalid: Die Monitored Item-ID verweist nicht auf ein gültiges Monitored Item",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "BadMonitoredItemFilterInvalid: Der Parameter für den Monitored Item-Filter ist ungültig",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "BadMonitoredItemFilterUnsupported: Der Server unterstützt den angeforderten Monitored Item-Filter nicht",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "BadFilterNotAllowed: Ein Überwachungsfilter kann nicht in Kombination mit dem angegebenen Attribut verwendet werden",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "BadStructureMissing: Ein obligatorischer strukturierter Parameter fehlte oder war null",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "BadEventFilterInvalid: Der Ereignisfilter ist ungültig",
+          "version": 1
+        },
+        "0C230057": {
+          "text": "BadContentFilterInvalid: Der Inhaltsfilter ist nicht gültig",
+          "version": 1
+        },
+        "0C230058": {
+          "text": "BadFilterOperandInvalid: Der in einem Inhaltsfilter verwendete Operand ist ungültig",
+          "version": 1
+        },
+        "0C230059": {
+          "text": "BadContinuationPointInvalid: Der angegebene Fortsetzungspunkt ist nicht mehr gültig",
+          "version": 1
+        },
+        "0C23005A": {
+          "text": "BadNoContinuationPoints: Der Vorgang konnte nicht verarbeitet werden, da alle Fortsetzungspunkte zugewiesen wurden",
+          "version": 1
+        },
+        "0C23005B": {
+          "text": "BadReferenceTypeIdInvalid: Der Vorgang konnte nicht verarbeitet werden, da alle Fortsetzungspunkte zugewiesen wurden",
+          "version": 1
+        },
+        "0C23005C": {
+          "text": "BadBrowseDirectionInvalid: Die Browse-Richtung ist ungültig",
+          "version": 1
+        },
+        "0C23005D": {
+          "text": "BadNodeNotInView: Der Node ist nicht Teil der Ansicht",
+          "version": 1
+        },
+        "0C23005E": {
+          "text": "BadServerUriUngültig: Die Server-URI ist keine gültige URI",
+          "version": 1
+        },
+        "0C23005F": {
+          "text": "BadServerNameMissing: Es wurde kein ServerName angegeben",
+          "version": 1
+        },
+        "0C230060": {
+          "text": "BadDiscoveryUrlMissing: Es wurde keine DiscoveryUrl angegeben",
+          "version": 1
+        },
+        "0C230061": {
+          "text": "BadSempahoreFileMissing: Die vom Client angegebene Semaphore-Datei ist ungültig",
+          "version": 1
+        },
+        "0C230062": {
+          "text": "BadRequestTypeInvalid: Der Anforderungstyp des Sicherheits-Tokens ist nicht gültig",
+          "version": 1
+        },
+        "0C230063": {
+          "text": "BadSecurityModeRejected: Der Sicherheitsmodus entspricht nicht den vom Server festgelegten Anforderungen",
+          "version": 1
+        },
+        "0C230064": {
+          "text": "BadSecurityPolicyRejected: Die Sicherheitsrichtlinie erfüllt nicht die vom Server festgelegten Anforderungen",
+          "version": 1
+        },
+        "0C230065": {
+          "text": "BadTooManySessions: Der Server hat seine maximale Anzahl von Sitzungen erreicht",
+          "version": 1
+        },
+        "0C230066": {
+          "text": "BadUserSignatureInvalid: Die Signatur des Benutzer-Tokens fehlt oder ist ungültig",
+          "version": 1
+        },
+        "0C230067": {
+          "text": "BadApplicationSignatureInvalid: Die mit dem Client-Zertifikat erzeugte Signatur fehlt oder ist ungültig",
+          "version": 1
+        },
+        "0C230068": {
+          "text": "BadNoValidCertificates: Der Client hat nicht mindestens ein Software-Zertifikat bereitgestellt, das gültig ist und die Profilanforderungen für den Server erfüllt",
+          "version": 1
+        },
+        "0C230069": {
+          "text": "BadRequestCancelledByRequest: Die Anfrage wurde vom Client mit dem Cancel-Dienst abgebrochen",
+          "version": 1
+        },
+        "0C23006A": {
+          "text": "BadParentNodeIdInvalid: Die übergeordnete Node-ID verweist nicht auf einen gültigen Node",
+          "version": 1
+        },
+        "0C23006B": {
+          "text": "BadReferenceNotAllowed: Der Verweis konnte nicht erstellt werden, da er gegen vom Datenmodell auferlegte Einschränkungen verstößt",
+          "version": 1
+        },
+        "0C23006C": {
+          "text": "BadNodeIdRejected: Die angeforderte Node-ID wurde zurückgewiesen, weil sie entweder ungültig war oder der Server die Angabe von Node-IDs durch den Client nicht zulässt",
+          "version": 1
+        },
+        "0C23006D": {
+          "text": "BadNodeIdExists: Die angeforderte Node-ID wird bereits von einem anderen Node verwendet",
+          "version": 1
+        },
+        "0C23006E": {
+          "text": "BadNodeClassInvalid: Die Node-Klasse ist ungültig",
+          "version": 1
+        },
+        "0C23006F": {
+          "text": "BadBrowseNameInvalid: Der Browse-Name ist ungültig",
+          "version": 1
+        },
+        "0C230070": {
+          "text": "BadBrowseNameDuplicated: Der Browse-Name zwischen den Nodes, die die gleiche Beziehung zum übergeordneten Node haben, ist nicht eindeutig",
+          "version": 1
+        },
+        "0C230071": {
+          "text": "BadNodeAttributesInvalid: Die Node-Attribute sind für die Node-Klasse nicht gültig",
+          "version": 1
+        },
+        "0C230072": {
+          "text": "BadTypeDefinitionInvalid: Die Node-ID der Typdefinition verweist nicht auf einen geeigneten Typ-Node",
+          "version": 1
+        },
+        "0C230073": {
+          "text": "BadSourceNodeIdInvalid: Die Source-Node-Id verweist nicht auf einen gültigen Node",
+          "version": 1
+        },
+        "0C230074": {
+          "text": "BadTargetNodeIdInvalid: Die Ziel-Node-ID verweist nicht auf einen gültigen Node",
+          "version": 1
+        },
+        "0C230075": {
+          "text": "BadDuplicateReferenceNotAllowed: Der Referenztyp zwischen den Nodes ist bereits definiert",
+          "version": 1
+        },
+        "0C230076": {
+          "text": "BadInvalidSelfReference: Der Server lässt diese Art von Selbstreferenz für diesen Node nicht zu",
+          "version": 1
+        },
+        "0C230077": {
+          "text": "BadReferenceLocalOnly: Der Referenztyp ist für eine Referenz auf einen Remote-Server nicht gültig",
+          "version": 1
+        },
+        "0C230078": {
+          "text": "BadNoDeleteRights: Der Server erlaubt nicht, dass der Node gelöscht wird",
+          "version": 1
+        },
+        "0C230079": {
+          "text": "BadServerIndexInvalid: Der Server-Index ist ungültig",
+          "version": 1
+        },
+        "0C23007A": {
+          "text": "BadViewIdUnknown: Die Ansichts-ID verweist nicht auf einen gültigen Ansichts-Node",
+          "version": 1
+        },
+        "0C23007B": {
+          "text": "BadTooManyMatches: Die angeforderte Operation hat zu viele Treffer, um zu antworten",
+          "version": 1
+        },
+        "0C23007C": {
+          "text": "BadQueryTooComplex: Die angeforderte Operation erfordert zu viele Ressourcen auf dem Server",
+          "version": 1
+        },
+        "0C23007D": {
+          "text": "BadNoMatch: Die angeforderte Operation kann keine Übereinstimmung zurückgeben",
+          "version": 1
+        },
+        "0C23007E": {
+          "text": "BadMaxAgeInvalid: Der Parameter \"max age\" ist ungültig",
+          "version": 1
+        },
+        "0C23007F": {
+          "text": "BadHistoryOperationInvalid: Der Parameter \"history details\" ist ungültig",
+          "version": 1
+        },
+        "0C230080": {
+          "text": "BadHistoryOperationUnsupported: Der Server unterstützt die angeforderte  Operation nicht",
+          "version": 1
+        },
+        "0C230081": {
+          "text": "BadWriteNotSupported: Der Server unterstützt das Schreiben der angegebenen Kombination von Wert, Status und Zeitstempel nicht",
+          "version": 1
+        },
+        "0C230082": {
+          "text": "BadTypeMismatch: Der für das Attribut gelieferte Wert ist nicht vom gleichen Typ wie der Wert des Attributs",
+          "version": 1
+        },
+        "0C230083": {
+          "text": "BadMethodInvalid: Die Methoden-ID verweist nicht auf eine Methode für das angegebene Objekt",
+          "version": 1
+        },
+        "0C230084": {
+          "text": "BadArgumentsMissing: Der Client hat nicht alle Eingabeargumente für die Methode angegeben",
+          "version": 1
+        },
+        "0C230085": {
+          "text": "BadTooManySubscriptions: Der Server hat seine maximale Anzahl von Subscriptions erreicht",
+          "version": 1
+        },
+        "0C230086": {
+          "text": "BadTooManyPublishRequests: Der Server hat die maximale Anzahl von Veröffentlichungsanfragen in der Warteschlange erreicht",
+          "version": 1
+        },
+        "0C230087": {
+          "text": "BadNoSubscription: Es ist keine Subscription für diese Session  verfügbar",
+          "version": 1
+        },
+        "0C230088": {
+          "text": "BadSequenceNumberUnknown: Die Sequenznummer ist dem Server unbekannt",
+          "version": 1
+        },
+        "0C230089": {
+          "text": "BadMessageNotAvailable: Die angeforderte Benachrichtigung ist nicht mehr verfügbar",
+          "version": 1
+        },
+        "0C23008A": {
+          "text": "BadInsufficientClientProfile: Der Client der aktuellen Session unterstützt ein oder mehrere Profile nicht, die für die Subscription notwendig sind",
+          "version": 1
+        },
+        "0C23008B": {
+          "text": "BadTcpServerTooBusy: Der Server kann die Anfrage nicht bearbeiten, weil er zu beschäftigt ist",
+          "version": 1
+        },
+        "0C23008C": {
+          "text": "BadTcpMessageTypeInvalid: Der Typ der im Header angegebenen Nachricht ist ungültig",
+          "version": 1
+        },
+        "0C23008D": {
+          "text": "BadTcpSecureChannelUnknown: Die SecureChannelId und/oder TokenId werden derzeit nicht verwendet",
+          "version": 1
+        },
+        "0C23008E": {
+          "text": "BadTcpMessageTooLarge: Die Größe der im Header angegebenen Nachricht ist zu groß",
+          "version": 1
+        },
+        "0C23008F": {
+          "text": "BadTcpNotEnoughResources: Es gibt nicht genügend Ressourcen, um die Anfrage zu bearbeiten",
+          "version": 1
+        },
+        "0C230090": {
+          "text": "BadTcpInternalError: Ein interner Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C230091": {
+          "text": "BadTcpEndpointUrlInvalid: Der Server erkennt den angegebenen QueryString nicht",
+          "version": 1
+        },
+        "0C230092": {
+          "text": "BadRequestInterrupted: Die Anfrage konnte wegen einer Netzwerkunterbrechung nicht gesendet werden",
+          "version": 1
+        },
+        "0C230093": {
+          "text": "BadRequestTimeout: Bei der Verarbeitung der Anfrage ist eine Zeitüberschreitung aufgetreten",
+          "version": 1
+        },
+        "0C230094": {
+          "text": "BadSecureChannelClosed: Der sichere Kanal wurde geschlossen",
+          "version": 1
+        },
+        "0C230095": {
+          "text": "BadSecureChannelTokenUnknown: Das Token ist abgelaufen oder wird nicht erkannt",
+          "version": 1
+        },
+        "0C230096": {
+          "text": "BadSequenceNumberInvalid: Die Sequenznummer ist ungültig",
+          "version": 1
+        },
+        "0C230097": {
+          "text": "BadConfigurationError: Es gibt ein Problem mit der Konfiguration, das die Verwendbarkeit  des Wertes beeinträchtigt",
+          "version": 1
+        },
+        "0C230098": {
+          "text": "BadNotConnected: Die Variable sollte ihren Wert von einer anderen Variable erhalten, wurde aber nie dafür konfiguriert",
+          "version": 1
+        },
+        "0C230099": {
+          "text": "BadDeviceFailure: Bei dem Gerät/der Datenquelle, das/die den Wert erzeugt, ist ein Fehler aufgetreten, der sich auf den Wert ausgewirkt hat",
+          "version": 1
+        },
+        "0C23009A": {
+          "text": "BadSensorFailure: Der Sensor, von dem das Gerät/die Datenquelle den Wert ableitet, ist ausgefallen",
+          "version": 1
+        },
+        "0C23009B": {
+          "text": "BadOutOfService: Die Quelle der Daten ist nicht betriebsbereit",
+          "version": 1
+        },
+        "0C23009C": {
+          "text": "BadDeadbandFilterInvalid: Der Deadband-Filter ist nicht gültig",
+          "version": 1
+        },
+        "0C23009D": {
+          "text": "BadRefreshInProgress: Diese Aktualisierung der Bedingung ist fehlgeschlagen, da bereits eine Aktualisierung einer  Bedingung läuft",
+          "version": 1
+        },
+        "0C23009E": {
+          "text": "BadConditionAlreadyDisabled: Diese Bedingung wurde bereits deaktiviert",
+          "version": 1
+        },
+        "0C23009F": {
+          "text": "BadConditionDisabled: Eigenschaft nicht verfügbar, diese Bedingung ist deaktiviert",
+          "version": 1
+        },
+        "0C2300A0": {
+          "text": "BadEventIdUnknown: Die angegebene Ereignis-ID ist nicht bekannt",
+          "version": 1
+        },
+        "0C2300A1": {
+          "text": "BadNoData: Für den angeforderten Zeitbereich oder Ereignisfilter sind keine Daten vorhanden",
+          "version": 1
+        },
+        "0C2300A2": {
+          "text": "BadDataLost: Daten fehlen aufgrund einer gestarteten/gestoppten/verlorenen Sammlung",
+          "version": 1
+        },
+        "0C2300A3": {
+          "text": "BadDataUnavailable: Die erwarteten Daten sind für den angeforderten Zeitraum nicht verfügbar, da ein Datenträger nicht gemountet ist, ein Archiv oder Band offline ist oder ein ähnlicher Grund für eine vorübergehende Nichtverfügbarkeit vorliegt",
+          "version": 1
+        },
+        "0C2300A4": {
+          "text": "BadEntryExists: Die Daten oder das Ereignis wurden nicht erfolgreich eingefügt, da ein passender Eintrag vorhanden ist",
+          "version": 1
+        },
+        "0C2300A5": {
+          "text": "BadNoEntryExists: Die Daten oder das Ereignis wurden nicht erfolgreich aktualisiert, da kein passender Eintrag vorhanden ist",
+          "version": 1
+        },
+        "0C2300A6": {
+          "text": "BadTimestampNotSupported: Der Client hat die Historie in einem Zeitstempelformat angefordert, das der Server nicht unterstützt (d. h. er hat ServerTimestamp angefordert, obwohl der Server nur SourceTimestamp unterstützt)",
+          "version": 1
+        },
+        "0C2300A7": {
+          "text": "BadInvalidArgument: Ein oder mehrere Argumente sind ungültig - siehe Logbuch für weitere Details",
+          "version": 1
+        },
+        "0C2300A8": {
+          "text": "BadConnectionRejected: Es konnte keine Netzwerkverbindung zum Remote-Server hergestellt werden",
+          "version": 1
+        },
+        "0C2300A9": {
+          "text": "BadDisconnect: Der Server hat die Verbindung zum Client getrennt",
+          "version": 1
+        },
+        "0C2300AA": {
+          "text": "BadConnectionClosed: Die Netzwerkverbindung wurde getrennt",
+          "version": 1
+        },
+        "0C2300AB": {
+          "text": "BadInvalidState: Der Vorgang kann nicht abgeschlossen werden, weil das Objekt ohne Initialisierung geschlossen wurde oder sich in einem anderen ungültigen Zustand befindet",
+          "version": 1
+        },
+        "0C2300AC": {
+          "text": "BadEndOfStream: Kann nicht über das Ende des Streams hinausgehen",
+          "version": 1
+        },
+        "0C2300AD": {
+          "text": "BadNoDataAvailable: Es sind derzeit keine Daten zum Lesen aus einem nicht blockierenden Stream verfügbar",
+          "version": 1
+        },
+        "0C2300AE": {
+          "text": "BadWaitingForResponse: Die asynchrone Operation wartet auf eine Antwort",
+          "version": 1
+        },
+        "0C2300AF": {
+          "text": "BadOperationAbandoned: Die asynchrone Operation wurde vom Aufrufer abgebrochen",
+          "version": 1
+        },
+        "0C2300B0": {
+          "text": "BadExpectedStreamToBlock: Der Stream hat nicht alle angeforderten Daten zurückgegeben (möglicherweise, weil es sich um einen nicht blockierenden Stream handelt)",
+          "version": 1
+        },
+        "0C2300B1": {
+          "text": "BadWouldBlock: Nicht blockierendes Verhalten ist erforderlich und der Vorgang würde blockieren",
+          "version": 1
+        },
+        "0C2300B2": {
+          "text": "BadSyntaxError: Ein Wert hatte eine ungültige Syntax",
+          "version": 1
+        },
+        "0C2300B3": {
+          "text": "BadMaxConnectionsReached: Der Vorgang konnte nicht beendet werden, da alle verfügbaren Verbindungen belegt sind",
+          "version": 1
+        },
+        "0C2300B4": {
+          "text": "BadRequestTooLarge: Die Größe der Anforderungsnachricht überschreitet die vom Server festgelegten Grenzen",
+          "version": 1
+        },
+        "0C2300B5": {
+          "text": "BadResponseTooLarge: Die Größe der Antwortnachricht überschreitet die vom Client festgelegten Grenzen",
+          "version": 1
+        },
+        "0C2300B6": {
+          "text": "BadEventNotAcknowledgeable: Das Ereignis kann nicht quittiert werden",
+          "version": 1
+        },
+        "0C2300B7": {
+          "text": "BadInvalidTimestampArgument: Der definierte Zeitstempel, der zurückgegeben werden soll, war ungültig",
+          "version": 1
+        },
+        "0C2300B8": {
+          "text": "BadProtocolVersionUnsupported: Die Anwendungen haben keine kompatiblen Protokollversionen",
+          "version": 1
+        },
+        "0C2300B9": {
+          "text": "BadStateNotActive: Die Sub-State Machine ist derzeit nicht aktiv",
+          "version": 1
+        },
+        "0C2300BA": {
+          "text": "BadFilterOperatorInvalid: Ein nicht anerkannter Operator wurde in einem Filter bereitgestellt",
+          "version": 1
+        },
+        "0C2300BB": {
+          "text": "BadFilterOperatorUnsupported: Es wurde ein gültiger Operator angegeben, aber der Server bietet keine Unterstützung für diesen Filteroperator",
+          "version": 1
+        },
+        "0C2300BC": {
+          "text": "BadFilterOperandCountMismatch: Die Anzahl der für den Filteroperator angegebenen Operanden war geringer als für den angegebenen Operanden erwartet",
+          "version": 1
+        },
+        "0C2300BD": {
+          "text": "BadFilterElementInvalid: Das referenzierte Element ist kein gültiges Element im Inhaltsfilter",
+          "version": 1
+        },
+        "0C2300BE": {
+          "text": "BadFilterLiteralInvalid: Das referenzierte Literal ist kein gültiger Wert",
+          "version": 1
+        },
+        "0C2300BF": {
+          "text": "BadIdentityChangeNotSupported: Der Server unterstützt die Änderung der einer Session zugewiesenen Benutzeridentität nicht",
+          "version": 1
+        },
+        "0C2300C0": {
+          "text": "BadNotTypeDefinition: Die angegebene NodeId war keine Typdefinition NodeId",
+          "version": 1
+        },
+        "0C2300C1": {
+          "text": "BadViewTimestampInvalid: Der Zeitstempel der Ansicht ist nicht verfügbar oder wird nicht unterstützt",
+          "version": 1
+        },
+        "0C2300C2": {
+          "text": "BadViewParameterMismatch: Die Parameter der Ansicht sind untereinander nicht konsistent",
+          "version": 1
+        },
+        "0C2300C3": {
+          "text": "BadViewVersionInvalid: Die Version der Ansicht ist nicht verfügbar oder wird nicht unterstützt",
+          "version": 1
+        },
+        "0C2300C4": {
+          "text": "BadConditionAlreadyEnabled: Diese Bedingung wurde bereits aktiviert",
+          "version": 1
+        },
+        "0C2300C5": {
+          "text": "BadDialogNotActive: Die Dialogbedingung ist nicht aktiv",
+          "version": 1
+        },
+        "0C2300C6": {
+          "text": "BadDialogResponseInvalid: Die Antwort ist für den Dialog nicht gültig",
+          "version": 1
+        },
+        "0C2300C7": {
+          "text": "BadConditionBranchAlreadyAcked: Der Bedingungszweig wurde bereits quittiert",
+          "version": 1
+        },
+        "0C2300C8": {
+          "text": "BadConditionBranchAlreadyConfirmed: Der Bedingungszweig wurde bereits bestätigt",
+          "version": 1
+        },
+        "0C2300C9": {
+          "text": "BadConditionAlreadyShelved: Die Bedingung wurde bereits zurückgestellt",
+          "version": 1
+        },
+        "0C2300CA": {
+          "text": "BadConditionNotShelved: Die Bedingung wird derzeit nicht zurückgestellt",
+          "version": 1
+        },
+        "0C2300CB": {
+          "text": "BadShelvingTimeOutOfRange: Die Standzeit liegt nicht innerhalb eines akzeptablen Bereichs",
+          "version": 1
+        },
+        "0C2300CC": {
+          "text": "BadAggregateListMismatch: Die angeforderte Anzahl von Aggregaten stimmt nicht mit der angeforderten Anzahl von NodeIds überein",
+          "version": 1
+        },
+        "0C2300CD": {
+          "text": "BadAggregateNotSupported: Das angeforderte Aggregat wird vom Server nicht unterstützt",
+          "version": 1
+        },
+        "0C2300CE": {
+          "text": "BadAggregateInvalidInputs: Der Aggregatwert konnte aufgrund ungültiger Dateneingaben nicht abgeleitet werden",
+          "version": 1
+        },
+        "0C2300CF": {
+          "text": "BadBoundNotFound: Keine Daten gefunden, um oberen oder unteren Grenzwert zu liefern",
+          "version": 1
+        },
+        "0C2300D0": {
+          "text": "BadBoundNotSupported: Der Server kann keine Begrenzung für die Variable abrufen",
+          "version": 1
+        },
+        "0C2300D1": {
+          "text": "BadAggregateConfigurationRejected: Die Aggregatkonfiguration ist für den angegebenen Node nicht gültig",
+          "version": 1
+        },
+        "0C2300D2": {
+          "text": "BadTooManyMonitoredItems: Die Anfrage konnte nicht bearbeitet werden, weil zu viele Monitored Items in der  Subscription vorhanden sind",
+          "version": 1
+        },
+        "0C2300D3": {
+          "text": "BadDominantValueChanged: Die zugehörige EngineeringUnit wurde geändert, die Änderung wurde aber nicht auf das Gerät angewandt, so dass der Variablenwert immer noch von der vorherigen Einheit abhängt  und der Status derzeit \"Bad\" ist",
+          "version": 1
+        },
+        "0C2300D4": {
+          "text": "BadDependentValueChanged: Ein abhängiger Wert wurde geändert, aber die Änderung wurde nicht auf das Gerät angewendet. Die Qualität der dominanten Variable ist \"Bad\"",
+          "version": 1
+        },
+        "0C2300D5": {
+          "text": "BadRequestNotAllowed: Die Anfrage wurde vom Server abgelehnt, weil sie die vom Server festgelegten Kriterien nicht erfüllte",
+          "version": 1
+        },
+        "0C2300D6": {
+          "text": "BadTooManyArguments: Es wurden zu viele Argumente bereitgestellt",
+          "version": 1
+        },
+        "0C2300D7": {
+          "text": "BadSecurityModeInsufficient: Der Vorgang ist über den aktuellen sicheren Kanal nicht zulässig",
+          "version": 1
+        },
+        "0C2300D8": {
+          "text": "BadDataSetIdInvald: Das für die Erstellung von DataSetWriter angegebene DataSet ist ungültig",
+          "version": 1
+        },
+        "0C2300D9": {
+          "text": "StartOfStackStatusCodes: Beginn der Statusmeldungen intern auf den Stack",
+          "version": 1
+        },
+        "0C2300DA": {
+          "text": "BadSignatureInvalid: Die Signatur der Nachricht ist ungültig",
+          "version": 1
+        },
+        "0C2300DB": {
+          "text": "BadExtensibleParameterInvalid: Der angegebene erweiterbare Parameter ist für den Dienst nicht gültig",
+          "version": 1
+        },
+        "0C2300DC": {
+          "text": "BadExtensibleParameterUnsupported: Der angegebene erweiterbare Parameter ist gültig, aber der Server unterstützt ihn nicht",
+          "version": 1
+        },
+        "0C2300DD": {
+          "text": "BadHostUnknown: Der Hostname konnte nicht aufgelöst werden",
+          "version": 1
+        },
+        "0C2300DE": {
+          "text": "BadTooManyPosts: Es wurden zu viele Beiträge an ein Semaphore gesendet",
+          "version": 1
+        },
+        "0C2300DF": {
+          "text": "BadSecurityConfig: Die Sicherheitskonfiguration ist ungültig",
+          "version": 1
+        },
+        "0C2300E0": {
+          "text": "BadFileNotFound: Ungültiger Dateiname angegeben",
+          "version": 1
+        },
+        "0C2300E1": {
+          "text": "BadContinue: Schlechtes Ergebnis akzeptieren und trotzdem fortfahren",
+          "version": 1
+        },
+        "0C2300E2": {
+          "text": "BadHttpMethodNotAllowed: Schlechtes Ergebnis akzeptieren und trotzdem fortfahren",
+          "version": 1
+        },
+        "0C2300E3": {
+          "text": "BadFileExists: Datei existiert",
+          "version": 1
+        },
+        "0C2300E4": {
+          "text": "BadCertificateChainIncomplete: Die Zertifikatskette ist unvollständig",
+          "version": 1
+        },
+        "0C2300E5": {
+          "text": "BadLicenseExpired: Der Server benötigt eine Lizenz für den allgemeinen Betrieb oder für die Ausführung eines Dienstes oder Vorgangs",
+          "version": 1
+        },
+        "0C2300E6": {
+          "text": "BadLicenseLimitsExceeded: Der Server hat Grenzen für die Anzahl der erlaubten Operationen/Objekte",
+          "version": 1
+        },
+        "0C2300E7": {
+          "text": "BadLicenseNotAvailable: Der Server verfügt nicht über eine Lizenz, die für den allgemeinen Betrieb oder für die Ausführung eines Dienstes oder Vorgangs erforderlich ist",
+          "version": 1
+        },
+        "0C2300E8": {
+          "text": "BadNotExecutable: Das ausführbare Attribut erlaubt die Ausführung der Methode nicht",
+          "version": 1
+        },
+        "0C2300E9": {
+          "text": "BadNumericOverflow: Die Zahl wurde wegen eines numerischen Überlaufs nicht akzeptiert",
+          "version": 1
+        },
+        "0C2300EA": {
+          "text": "BadRequestNotComplete: Die Anfrage wurde vom Server noch nicht bearbeitet",
+          "version": 1
+        },
+        "0C2300EB": {
+          "text": "BadCertificatePolicyCheckFailes: Das Zertifikat erfüllt nicht die Anforderungen der Sicherheitsrichtlinie",
+          "version": 1
+        },
+        "0C2300EC": {
+          "text": "BadAlreadyExists: Eine entsprechende Regel existiert bereits",
+          "version": 1
+        },
+        "0C2300ED": {
+          "text": "BadEditedOutOfRange: Wird mit einem Wert \"Variable\" geliefert, wenn sich \"Variable\" geändert hat, der Wert aber nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300EE": {
+          "text": "BadInitialValueOutOfRange: Wird mit einem Wert \"Variable\" geliefert, wenn sich eine Quell-\"Variable\" geändert hat, der Wert aber nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300EF": {
+          "text": "BadOutOfRangeDominantValueChanged: Wird mit einem abhängigen Wert \"Variable\"  geliefert, wenn sich eine dominante \"Variable\" geändert hat, der Wert aber nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300F0": {
+          "text": "BadEditedOutOfRangeDominantValueChanged: Wird mit einem abhängigen Wert \"Variable\" geliefert, wenn sich eine dominante \"Variable\" geändert hat, der Wert aber nicht zulässig ist und die Änderung nicht übernommen wurde",
+          "version": 1
+        },
+        "0C2300F1": {
+          "text": "BadOutOfRangeDominantValueChangedDependentValueChanged: Wird mit einem abhängigen Wert \"Variable\" geliefert, wenn sich eine dominante oder abhängige \"Variable\" geändert hat und der Wert nicht zulässig ist",
+          "version": 1
+        },
+        "0C2300F2": {
+          "text": "BadEditedOutOfRangeDominantValueChangedDependentValueChanged: Wird mit einem abhängigen Wert \"Variable\" geliefert, wenn sich dominante oder abhängige \"Variable\" geändert hat, der Wert nicht zulässig ist und Änderung nicht übernommen wurde",
+          "version": 1
+        },
+        "0C2300F3": {
+          "text": "BadTicketRequired: Die Geräteidentität benötigt ein Ticket, bevor sie akzeptiert werden kann",
+          "version": 1
+        },
+        "0C2300F4": {
+          "text": "BadTicketInvalid: Die Geräteidentität benötigt ein Ticket, bevor sie akzeptiert werden kann",
+          "version": 1
+        },
+        "0C2300F5": {
+          "text": "PLCopenUA_Bad_FW_PermanentError: Interner, permanenter Fehler",
+          "version": 1
+        },
+        "0C2300F6": {
+          "text": "PLCopenUA_Bad_FW_TempError: Temporärer Fehler. FB konnte erneut versuchen, FW zu erreichen",
+          "version": 1
+        },
+        "0C2300F7": {
+          "text": "PLCopenUA_Bad_ConnectionError: Verbindung konnte nicht hergestellt werden",
+          "version": 1
+        },
+        "0C2300F8": {
+          "text": "PLCopenUA_Bad_HostNotFound: Der angeforderte Hostname konnte nicht gefunden werden",
+          "version": 1
+        },
+        "0C2300F9": {
+          "text": "PLCopenUA_Bad_AlreadyConnected: Verbindung wurde bereits hergestellt",
+          "version": 1
+        },
+        "0C2300FA": {
+          "text": "PLCopenUA_Bad_SecurityFailed: Verbindung ist aufgrund von Sicherheitseinstellungen fehlgeschlagen",
+          "version": 1
+        },
+        "0C2300FB": {
+          "text": "PLCopenUA_Bad_Suspended: Verbindung ist unterbrochen",
+          "version": 1
+        },
+        "0C2300FC": {
+          "text": "PLCopenUA_Bad_ConnectionInvalidHdl: Bereitgestellte ConnectionHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C2300FD": {
+          "text": "PLCopenUA_Bad_NSNotFound: Ein Namespace mit dem angeforderten Namen kann auf dem Server nicht gefunden werden",
+          "version": 1
+        },
+        "0C2300FE": {
+          "text": "PLCopenUA_Bad_ResultTooLong: Ziel-SPS-Variable ist zu kurz für abgefragte Daten",
+          "version": 1
+        },
+        "0C2300FF": {
+          "text": "PLCopenUA_Bad_InvalidType: Ungültiger oder nicht unterstützter Typ",
+          "version": 1
+        },
+        "0C230100": {
+          "text": "PLCopenUA_Bad_NodeInvalidHdl: Die angegebene NodeHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C230101": {
+          "text": "PLCopenUA_Bad_MethodInvalidHdl: Bereitgestellte MethodHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C230102": {
+          "text": "PLCopenUA_Bad_ReadFailed: Lesen aus unbekanntem Grund fehlgeschlagen",
+          "version": 1
+        },
+        "0C230103": {
+          "text": "PLCopenUA_Bad_WriteFailed: Schreiben aus unbekanntem Grund fehlgeschlagen",
+          "version": 1
+        },
+        "0C230104": {
+          "text": "PLCopenUA_Bad_CallFailed: Methodenaufruf aus unbekanntem Grund fehlgeschlagen",
+          "version": 1
+        },
+        "0C230105": {
+          "text": "PLCopenUA_Bad_InParamFailed: Konvertierung Methodenaufruf-Eingabeparameter fehlgeschlagen",
+          "version": 1
+        },
+        "0C230106": {
+          "text": "PLCopenUA_Bad_OutParamFailed: Konvertierung Methodenaufruf-Ausgabeparameter fehlgeschlagen. ACHTUNG: Dies bedeutet, dass der MethodCall erfolgreich ausgeführt wurde, aber die zurückgegebenen Werte nicht konvertiert werden konnten",
+          "version": 1
+        },
+        "0C230107": {
+          "text": "PLCopenUA_Bad_AttributeIdUnknown: Wird in UA_NodeGetInformation für Elemente verwendet, die nicht in dieser NodeClass vorhanden sind",
+          "version": 1
+        },
+        "0C230108": {
+          "text": "PLCopenUA_Bad_AttributeIdInvalid: Wird in UA_NodeGetInformation für Elemente verwendet, die existieren sollten, es aber nicht tun",
+          "version": 1
+        },
+        "0C230109": {
+          "text": "PLCopenUA_Bad_SubscriptionInvalidHdl: Bereitgestellte SubscriptionHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C23010A": {
+          "text": "PLCopenUA_Bad_MonitoredItemInvalidHdl: Übergebene MonitoredItemHdl ist nicht bekannt",
+          "version": 1
+        },
+        "0C23010B": {
+          "text": "PLCopenUA_Bad_MonitoredItemSyncMismatch: Gemischte Controller-Synchronisation und Firmware-Synchronisation in derselben Liste",
+          "version": 1
+        },
+        "0C23010C": {
+          "text": "PLCopenUA_Bad_SyncModeInvalid: Synchronisationsmodus ungültig",
+          "version": 1
+        },
+        "0C23010D": {
+          "text": "SystemNotReady: Operation fehlgeschlagen wegen Ressourcenbeschränkung",
+          "version": 1
+        },
+        "0C23010E": {
+          "text": "StateInvalidOperation: Operation fehlgeschlagen, weil die vorangegangene Operation noch nicht beendet ist",
+          "version": 1
+        },
+        "0C23010F": {
+          "text": "FeatureNotSupported: Das Feature wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230110": {
+          "text": "SecurityNotSupported: Security wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230111": {
+          "text": "TransportProfileNotSupported: Das angeforderte Transportprofil wird nicht unterstützt",
+          "version": 1
+        },
+        "0C230112": {
+          "text": "UnexpectedResults: Es wurden unerwartete Ergebnisse geliefert (Statuscode, Datentyp, Wert)",
+          "version": 1
+        },
+        "0C230113": {
+          "text": "RessourceLimitError: Operation fehlgeschlagen aufgrund von Ressourcenbeschränkung",
+          "version": 1
+        },
+        "0C230114": {
+          "text": "NothingTodo: Es gibt nichts zu tun, Anfrageparameter prüfen",
+          "version": 1
+        },
+        "0C230115": {
+          "text": "StringArraysNotSupported: STRING-Arrays werden für diesen Vorgang nicht unterstützt",
+          "version": 1
+        },
+        "0C230116": {
+          "text": "ErrorInSubservice: Einer der Subdienste ist fehlgeschlagen, siehe Ausgang NodeErrorIDs",
+          "version": 1
+        },
+        "0C230117": {
+          "text": "NoOfOutArguments: Anzahl der zurückgegebenen Ausgabeargumente stimmt NICHT mit der Anzahl der Ausgänge der Methode überein",
+          "version": 1
+        },
+        "0C230118": {
+          "text": "ErrorVariableSizeDoesNotFit: Die Speichergröße der SPS-Variable passt nicht zur Speichergröße, die der Node benötigt",
+          "version": 1
+        },
+        "0C230119": {
+          "text": "ErrorMaxNumberOfSessionsReached: Die maximale Anzahl von Sessions wurde erreicht",
+          "version": 1
+        },
+        "0C23011A": {
+          "text": "ErrorInvalidStateOfStateMachine: Ungültiger Zustand der Zustandsmaschine des Funktionsbausteins",
+          "version": 1
+        },
+        "0C23011B": {
+          "text": "ErrorFunctionBlocTimeout: Der Baustein konnte innerhalb des eingestellten Timeouts nicht fertig bearbeitet werden",
+          "version": 1
+        },
+        "0C23011C": {
+          "text": "ErrorInvalidInputOfFunctionBlock: An einem Eingang liegt ein ungültiger Wert an",
+          "version": 1
+        },
+        "0C23011D": {
+          "text": "ErrorDataTypeNotSupported: Der Datentyp wird zurzeit nicht unterstützt",
+          "version": 1
+        },
+        "0C23011E": {
+          "text": "ErrorInvalidFlatbufferAccess: Ungültiger Zugriff auf den Flatbuffer",
+          "version": 1
+        },
+        "0C23011F": {
+          "text": "ErrorInvalidTaskContext: Ungültiger IEC-Taskkontext",
+          "version": 1
+        },
+        "0C230120": {
+          "text": "ErrorInvalidSyntaxOfNodeId: Die Syntax der angegebenen NodeId ist ungültig",
+          "version": 1
+        },
+        "0C230121": {
+          "text": "ErrorInvalidAdressOfPlcVariable: Die Adresse der IEC-Variable ist ungültig, z. B. Nullpointer",
+          "version": 1
+        },
+        "0C230122": {
+          "text": "ErrorNotYetImplemented: Diese Funktionalität wurde noch nicht implementiert",
+          "version": 1
+        },
+        "0C230123": {
+          "text": "ErrorAppOpcUaClientNotInstalled: Die OPC UA Client App (UAC) wurde nicht installiert oder wurde deaktiviert",
+          "version": 1
+        },
+        "0C230124": {
+          "text": "ErrorAppOpcUaServerNotInstalled: Die OPC UA Server App (UAS) wurde nicht installiert oder wurde deaktiviert",
+          "version": 1
+        },
+        "0C230125": {
+          "text": "ErrorSameSessionNameAlreadyUsedByAnotherInstance: Eine weitere Instanz des Funktionsbausteins \"UA_Connect\" verwendet diesen Session-Namen bereits",
+          "version": 1
+        },
+        "0C230126": {
+          "text": "ErrorFlatbufferAccesReturnsNULL: Der Zugriff auf einen Flatbuffer liefert einen Nullpointer zurück",
+          "version": 1
+        },
+        "0C230127": {
+          "text": "ErrorFlatbufferAccesReturnsSizeZero: Der Zugriff auf einen Flatbuffer liefert die Größe 0 zurück",
+          "version": 1
+        },
+        "0C230128": {
+          "text": "ErrorInconsistentCounterValue: Der Zählerstand ist inkonsistent, z. B.  von uiNoOfPlcCreatedInstances",
+          "version": 1
+        },
+        "0C230129": {
+          "text": "ErrorTypeMismatch: Die Typen beider Variablen passen nicht zusammen, z. B. SPS-Variable und Methodenparameter",
+          "version": 1
+        },
+        "0C23012A": {
+          "text": "ErrorTypeOfMethodNotSupported: Der Typ der aufzurufenden Methode wird nicht unterstützt, z. B. hat die Methode zu viele Parameter",
+          "version": 1
+        },
+        "0C23012B": {
+          "text": "ErrorAllocateMemory: Es konnte kein dynamischer Speicher angefordert werden",
+          "version": 1
+        },
+        "0C23012C": {
+          "text": "ErrorFunctionBlockTimeout: Timeout des Funktionsbausteins aufgetreten - ggfs. Eingang \"Timeout\" erhöhen",
+          "version": 1
+        },
+        "0C23012E": {
+          "text": "ErrorInvalidNodeHdl: Ungültiges Nodehandle (0 or -1)",
+          "version": 1
+        },
+        "0C23012F": {
+          "text": "ErrorUnequalNumbersOfOutputArguments: Die Anzahl der erwarteten Ausgangsargumente entspricht nicht dem Eingang OutputArgumentsCount",
+          "version": 1
+        },
+        "0C230130": {
+          "text": "ErrorDataTypeMismatchOfInputArguments: Der Datentyp eines Eingangsarguments passt nicht mit dem Typ der IEC-Variablen zusammen",
+          "version": 1
+        },
+        "0C230131": {
+          "text": "ErrorDataTypeMismatchOfOutputArguments: Der Datentyp eines Ausgangsarguments passt nicht mit dem Typ der IEC-Variablen zusammen",
+          "version": 1
+        },
+        "0C230132": {
+          "text": "ErrorInvalidReferenceType: Ungültiger Referenztyp der Methode. Erwartet werden \"readInType\" oder \"readOutType\"",
+          "version": 1
+        },
+        "0C230133": {
+          "text": "ErrorMetadataGetReference: Ungültige Referenz der Metadaten, z. B. Nullpointer",
+          "version": 1
+        },
+        "0C230134": {
+          "text": "ErrorInvalidNumberOfReferences: Die Methode enthält mehr als zwei Referenzen, was nicht unterstützt wird",
+          "version": 1
+        },
+        "0C230135": {
+          "text": "ErrorInvalidNodeClass: Die NodeClass der Methode ist nicht \"Method\"",
+          "version": 1
+        },
+        "0C230136": {
+          "text": "ErrorInvalidOperations: Die erwartete Eigenschaft \"operations\" der Methode ist nicht lesbar oder schreibbar",
+          "version": 1
+        },
+        "0C230137": {
+          "text": "ErrorEncodingToFlatbuffer: Das Encoding der Eingänge zum Flatbuffer ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C230138": {
+          "text": "ErrorDecodingFromFlatbuffer: Das Decoding des Flatbuffers auf die Ausgänge ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C230139": {
+          "text": "ErrorUnequalNumbersOfInputArguments: Die Anzahl der gültigen Elemente in \"InputArguments\" stimmt nicht mit dem Wert \"InputArgumentsCount\" überein",
+          "version": 1
+        },
+        "0C23013A": {
+          "text": "ErrorReadingMetadata: Die Metadaten des Node konnten nicht gelesen werden",
+          "version": 1
+        },
+        "0C23013B": {
+          "text": "ErrorInternalError: Ein interner Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C23013C": {
+          "text": "ErrorSysTaskWaitSleepUs: Der Funktionsaufruf SysTaskWaitSleepUs liefert einen Fehler zurück",
+          "version": 1
+        },
+        "0C23013D": {
+          "text": "ErrorOneNodeError: Genau ein Node liefert einen Fehler zurück, der in den Listen \"NodeErrorIDs\" und \"NodeErrorIDString\" eingetragen ist",
+          "version": 1
+        },
+        "0C23013E": {
+          "text": "ErrorMultipleNodeErrors: Mehr als ein Node liefert einen Fehler zurück, die in den Listen \"NodeErrorIDs\" und \"NodeErrorIDString\" eingetragen sind",
+          "version": 1
+        },
+        "0C23013F": {
+          "text": "ErrorDataLayerUNKNOWN: Es wurde ein unbekannter Fehlercode geliefert",
+          "version": 1
+        },
+        "0C230140": {
+          "text": "ErrorDataLayerDL_OK: Erfolgreicher Funktionsaufruf",
+          "version": 1
+        },
+        "0C230141": {
+          "text": "ErrorDataLayerDL_FAILED: Nur vorübergehend zu verwenden",
+          "version": 1
+        },
+        "0C230142": {
+          "text": "ErrorDataLayerDL_INVALID_ADDRESS: Ungültige Adresse im Data Layer",
+          "version": 1
+        },
+        "0C230143": {
+          "text": "ErrorDataLayerDL_UNSUPPORTED: Funktionalität nicht implementiert",
+          "version": 1
+        },
+        "0C230144": {
+          "text": "ErrorDataLayerDL_OUT_OF_MEMORY: Kein Speicher verfügbar (RAM, Sockets, Handles, Festplattenspeicher,.... )",
+          "version": 1
+        },
+        "0C230145": {
+          "text": "ErrorDataLayerDL_LIMIT_MIN: Das Minimum einer Begrenzung wurde unterschritten",
+          "version": 1
+        },
+        "0C230146": {
+          "text": "ErrorDataLayerDL_LIMIT_MAX: Das Maximum einer Begrenzung wurde überschritten",
+          "version": 1
+        },
+        "0C230147": {
+          "text": "ErrorDataLayerDL_TYPE_MISMATCH: Falscher Typ für Flatbuffer oder Datentyp",
+          "version": 1
+        },
+        "0C230148": {
+          "text": "ErrorDataLayerDL_SIZE_MISMATCH: Größenabweichung, vorhandene Größe stimmt nicht mit der gewünschten Größe überein",
+          "version": 1
+        },
+        "0C230149": {
+          "text": "ErrorDataLayerDL_INVALID_FLOATINGPOINT: Ungültige Gleitkommazahl",
+          "version": 1
+        },
+        "0C23014A": {
+          "text": "ErrorDataLayerDL_INVALID_HANDLE: Ungültiges Handle-Argument oder NULL-Zeiger-Argument",
+          "version": 1
+        },
+        "0C23014B": {
+          "text": "ErrorDataLayerDL_INVALID_OPERATION_MODE: Nicht erreichbar wegen ungültiger Betriebsart (z. B. Schreiben nicht möglich)",
+          "version": 1
+        },
+        "0C23014C": {
+          "text": "ErrorDataLayerDL_INVALID_CONFIGURATION: Abweichung dieses Wertes von anderen konfigurierten Werten",
+          "version": 1
+        },
+        "0C23014D": {
+          "text": "ErrorDataLayerDL_INVALID_VALUE: Ungültger Wert",
+          "version": 1
+        },
+        "0C23014E": {
+          "text": "ErrorDataLayerDL_SUBMODULE_FAILURE: Fehler in unterlagertem Modul aufgetreten",
+          "version": 1
+        },
+        "0C23014F": {
+          "text": "ErrorDataLayerDL_TIMEOUT:  Anfrage-Timeout",
+          "version": 1
+        },
+        "0C230150": {
+          "text": "ErrorDataLayerDL_ALREADY_EXISTS: Anlegen eines Objekts nicht möglich, da es bereits existiert",
+          "version": 1
+        },
+        "0C230151": {
+          "text": "ErrorDataLayerDL_CREATION_FAILED: Objekt kann nicht angelegt werden",
+          "version": 1
+        },
+        "0C230152": {
+          "text": "ErrorDataLayerDL_VERSION_MISMATCH: Versionskonflikt",
+          "version": 1
+        },
+        "0C230153": {
+          "text": "ErrorDataLayerDL_DEPRECATED: Veraltete Funktionalität: Wird nicht mehr unterstützt",
+          "version": 1
+        },
+        "0C230154": {
+          "text": "ErrorDataLayerDL_PERMISSION_DENIED: Anfrage wegen unzureichender Zugriffsrechte abgelehnt",
+          "version": 1
+        },
+        "0C230155": {
+          "text": "ErrorDataLayerDL_NOT_INITIALIZED: Objekt noch nicht initialisiert",
+          "version": 1
+        },
+        "0C230156": {
+          "text": "ErrorDataLayerDL_COMM_PROTOCOL_ERROR: Interner Protokollfehler",
+          "version": 1
+        },
+        "0C230157": {
+          "text": "ErrorDataLayerDL_COMM_INVALID_HEADER: Interner Fehler im Header",
+          "version": 1
+        },
+        "0C230158": {
+          "text": "ErrorDataLayerDL_CLIENT_NOT_CONNECTED: Client ist nicht verbunden",
+          "version": 1
+        },
+        "0C230159": {
+          "text": "ErrorDataLayerDL_RT_NOTOPEN: Nicht offen",
+          "version": 1
+        },
+        "0C23015A": {
+          "text": "ErrorDataLayerDL_RT_INVALIDOBJECT: Ungültiges Objekt",
+          "version": 1
+        },
+        "0C23015B": {
+          "text": "ErrorDataLayerDL_RT_WRONGREVISON: Falsche Version des Speichers",
+          "version": 1
+        },
+        "0C23015C": {
+          "text": "ErrorDataLayerDL_RT_NOVALIDDATA: Keine gültigen Daten",
+          "version": 1
+        },
+        "0C23015D": {
+          "text": "ErrorDataLayerDL_RT_MEMORYLOCKED: Speicher bereits gelockt",
+          "version": 1
+        },
+        "0C23015E": {
+          "text": "ErrorDataLayerDL_RT_INVALID_MEMORYMAP: Ungültiges Speicher-Mapping",
+          "version": 1
+        },
+        "0C23015F": {
+          "text": "ErrorDataLayerDL_RT_INVALID_RETAIN: Ungültiges Speicher-Mapping von Retain-Daten",
+          "version": 1
+        },
+        "0C230160": {
+          "text": "ErrorDataLayerDL_RT_INTERNAL_ERROR: Interner Runtime-Fehler",
+          "version": 1
+        },
+        "0C230161": {
+          "text": "ErrorDataLayerDL_SEC_NO_TOKEN: Kein Token gefunden",
+          "version": 1
+        },
+        "0C230162": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_SESSION: Token ungültig (Session nicht gefunden)",
+          "version": 1
+        },
+        "0C230163": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_TOKEN_CONTENT: Token hat falschen Inhalt",
+          "version": 1
+        },
+        "0C230164": {
+          "text": "ErrorDataLayerDL_SEC_UNAUTHORIZED: Unberechtigt",
+          "version": 1
+        },
+        "0C230165": {
+          "text": "ErrorDataLayerDL_SEC_PAYMENT_REQUIRED: Zahlung erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0111": {
+      "text": "Fehler in der Bibliothek CXA_ModbusRTU",
+      "version": 1
+    },
+    "0A0F0112": {
+      "text": "Fehler in der Bibliothek CXA_KNX",
+      "version": 1
+    },
+    "0A0F0113": {
+      "text": "Fehler in der Bibliothek CXA_DALI",
+      "version": 1
+    },
+    "0A0F0115": {
+      "text": "PLC IEC F0-Fehler",
+      "version": 1
+    },
+    "0A0F0116": {
+      "text": "Fehler in der Bibliothek CXA_RegisterControl",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Korrekturweg kleiner als Korrekturstarthysterese (0,25 % des Modulowerts)",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "\"correction start\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "\"correction end\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "\"ModuloValue\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "\"RecordedPosition\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "\"CorrectionStart\" ist größer als \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "\"CorrectionEnd\" ist größer als \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "\"RecordedPosition\" ist größer als \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "Korrekturpfad (\"CorrectionEnd\" - \"CorrectionStart\") ist größer als \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "Ungültiger Korrekturmodus",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "\"CorrectionStart\" ist gleich \"CorrectionEnd\"",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "Achsformat ist absolut",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "\"ProbeDistance\" ist kleiner als 0 oder größer als CONST_SHIFT_REGISTER(60)",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "\"Setpoint\" ist größer als \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "\"Setpoint\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "\"Feedback\" ist größer als \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "\"Feedback\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "\"ModuloValue\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "\"MarkGating\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "\"HighLimit\" ist kleiner als \"LowLimit\"",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "\"Pcontrol\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Achse wurde nicht gefunden",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "\"SetPointWidth\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "\"RecordedPositionWidth\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "\"TriangleTangent\" außerhalb des Bereichs",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "\"FormatLength\" außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C231000": {
+          "text": "Fehler in der Zustandsmaschine",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0117": {
+      "text": "Fehler in der Bibliothek CXA_Winder",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "\"HighLimitControl\" ist kleiner als \"LowLimitControl\"",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "\"Formatlength\" ist negativ",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "\"ReferenceDiameter\" negativ",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "\"WindowDancer“ ist negativ",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "\"HighLimitControl\" ist negativ",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "\"LowLimitControl\" ist negativ",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "\"VelocityHighLimit\" ist negativ",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "\"Pcontrol\" ist negativ",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "\"setpoint\" ist negativ",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "\"MinDancerFeedback\" ist negativ",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "\"MaxDancerFeedback\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "\"MaxDancerFeedback\" ist kleiner als \"MinDancerFeedback\"",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "\"HighLimitDiameter\" ist kleiner als \"LowLimitDiameter\"",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "\"WebWidth\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "\"Density\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "\"CoreDiameter\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "\"DiamCalcRange\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "\"PresetDiameter\" ist nicht größer als 0",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "\"MinDiameter\" ist nicht größer als 0",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "\"MaxDiameter\" ist nicht größer als 0",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "\"DiamCalcMode\" ist ungültig",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "\"MechanicInertia\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "\"PreControlWeighting\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "\"TensionCtrl.HighLimit\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "\"TensionCtrl.HighLimit\" ist kleiner als \"TensionCtrl.LowLimit\"",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "\"Friction.StandstillTorque\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "\"Friction.MaxTorque\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "\"Friction.MinTorque\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "\"Friction.MinTorqueVelocity\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "\"WindowTension\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "\"MinTension\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "\"MaxTension\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "\"SetpointStandstill\" ist kleiner 0",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "\"SetpointOpMode\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230035": {
+          "text": "\"DefaultTorqueLimit\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "\"TorqueLimits.MinTorqueLimit\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "\"TorqueLimits.TorqueLimitFactor\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "\"TorqueLimits.DefaultTorqueLimit\" ist größer als 400",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "\"TorqueLimits.MinTorqueLimit\" ist größer als 400",
+          "version": 1
+        },
+        "0C230040": {
+          "text": "\"TorqueLimits.TorqueLimitFactor\" ist größer als 400",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "\"PControlMax\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "\"PControlMin\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "\"InertiaMax\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "\"CurrentInertia\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "\"InertiaMin\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "\"PControlMax\" ist größer als \"PControlMin\"",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "\"InertiaMax\" ist größer als \"InertiaMin\"",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "\"MaxDiameter\" ist kleiner als \"CoreDiameter\"",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "\"TensionSpeed\" ist kleiner als 0",
+          "version": 1
+        },
+        "0C231000": {
+          "text": "Fehler in der Zustandsmaschine",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0118": {
+      "text": "Fehler in der Bibliothek CXA_Winder",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "\"MasterVelocityLow\" ist negativ",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "\"MasterVelocityHigh\" ist negativ",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "\"MasterVelocityHigh\" ist gleich \"MasterVelocityLow\"",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "\"MasterVelocityHigh\" ist kleiner als \"MasterVelocityLow\"",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "\"LowLimit\" ist kleiner als -95",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "\"PControlLowVel\" oder \"PControlHighVel\" ist negativ",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0119": {
+      "text": "Fehler in der Bibliothek CXA_ModbusTCP",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230208": {
+          "text": "Die angegebene Adresse ist auf diesem Computer nicht verfügbar",
+          "version": 1
+        },
+        "0C23020A": {
+          "text": "Zeitüberschreitung des Vorgangs",
+          "version": 1
+        },
+        "0C23020E": {
+          "text": "Das Socket ist nicht verbunden",
+          "version": 1
+        },
+        "0C231805": {
+          "text": "TCP-Port kann nicht geöffnet werden",
+          "version": 1
+        },
+        "0C231810": {
+          "text": "Keine Verbindung zum Funktionsbaustein IL_ModBusTCPClient",
+          "version": 1
+        },
+        "0C231811": {
+          "text": "Eingang \"DataAddr\" ist 0",
+          "version": 1
+        },
+        "0C231812": {
+          "text": "Eingang \"SizeOfData\" ist 0",
+          "version": 1
+        },
+        "0C231813": {
+          "text": "Eingang \"Quantity\" ist 0",
+          "version": 1
+        },
+        "0C231814": {
+          "text": "Eingang \"Quantity\" ist größer als 2000",
+          "version": 1
+        },
+        "0C231815": {
+          "text": "Eingang \"Quantity\" ist größer als 125",
+          "version": 1
+        },
+        "0C231816": {
+          "text": "Eingang \"Quantity\"  ist größer als Eingang \" SizeOfData\"",
+          "version": 1
+        },
+        "0C231817": {
+          "text": "Eingang \"Quantity\"*2 ist größer als Eingang \"SizeOfData\"",
+          "version": 1
+        },
+        "0C231821": {
+          "text": "Eingang \"WriteDataAddr\" ist 0",
+          "version": 1
+        },
+        "0C231822": {
+          "text": "Eingang \"SizeOfWriteData\" ist 0",
+          "version": 1
+        },
+        "0C231823": {
+          "text": "Eingang \"WriteQuantity\" ist 0",
+          "version": 1
+        },
+        "0C231825": {
+          "text": "Eingang \"WriteQuantity\" ist größer als 125",
+          "version": 1
+        },
+        "0C231826": {
+          "text": "Eingang \"WriteQuantity\" ist größer als Eingang \"SizeOfWriteData\"",
+          "version": 1
+        },
+        "0C231850": {
+          "text": "Fehler am Modbus",
+          "version": 1
+        }
+      }
+    },
+    "0A0F011A": {
+      "text": "Fehler in der Bibliothek CXA_ctrlXIO",
+      "version": 1
+    },
+    "0A0F011B": {
+      "text": "Fehler in der Bibliothek CXA_Crosscut",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Ungültige Zustandsmaschine",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "Ungültiger Berechnungsschritt",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "Der Eingabewert von \"ModuloValue\" ist kleiner oder gleich 0,0.",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "Der Eingabewert von \"FormatRatio\" ist kleiner als 0,02 oder größer als 30,0.",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "Der Eingabewert von \"CutAngle\" ist kleiner als 0,0 oder größer als \"ModuloValue\".",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "Der Eingabewert von \"PendulumFactor\" ist kleiner oder gleich 0,0, oder größer oder gleich 100,0.",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "\"CORR_PROFIL\" ist ungültig",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "Der Eingabewert von \"Overspeed\" ist kleiner als -50,0 oder größer als 100,0, wenn CorrProfile CORR_PROFILE_OVERSPEED ist.",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "Der Eingabewert von \"CutAngle\" ist größer oder gleich 180,0, wenn CorrProfile CORR_PROFILE_COS_COMP oder CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist.",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "Der Eingabewert von \"PushOutBegin\" ist größer oder gleich der Hälfte von  \"CutAngle\", oder gleich 0,0, wenn CorrProfile CORR_PROFILE_PUSH_OUT oder CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist.",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "100,0 <= ABS(Overspeed_at_Cut) oder Overspeed_at_Cut = 0,0, wenn CorrProfile CORR_PROFILE_PUSH_OUT oder  CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "Overspeed_max <= 0.0 oder 100.0 < Overspeed_max, wenn CorrProfile CORR_PROFILE_PUSH_OUT oder CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "Overspeed_max <= Overspeed_at_cut nach Vorberechnung, wenn CorrProfile  CORR_PROFILE_PUSH_OUT oder CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "0,0 < PushOutBegin und 0,0 < Overspeed_At_Cut, oder PushOutBegin < 0,0 und Overspeed_At_Cut < 0,0, wenn CorrProfile CORR_PROFILE_PUSH_OUT oder CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "CutAngle/2.0 < X2, wenn CorrProfile CORR_PROFILE_PUSH_OUT oder CORR_PROFILE_COS_COMP_AND_PUSH_OUT ist",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "Eingabewert von \"Resolution\" ist ungültig",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "Pointer von MasterAxisInitialPosAdr, DistanceAdr, StepLawAdr oder PointTableAdr ist ungültig",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "ProductsPerCut < 1 oder 32 < ProductsPerCut",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "StartProduct < 1 oder 32 < StartProduct",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "NumberOfKnives < 1 oder 8 < NumberOfKnives",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "Der Eingabewert von \"KnifeDistance\" ist kleiner oder gleich 0.",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "(FormatLength < 0.02*KnifeDistance) oder (FormatLength > 30*KnifeDistance)",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "CutSealArea <= 0,0, oder 360,0 <= CutSealArea (Modus CrossCutter), KnifeDistance <= CutSealArea (Modus CrossSeal)",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "Der Eingabewert von \"PendulumFactor\" ist kleiner als 0,0 oder größer als 100,0.",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "Funktionsbaustein wurde unterbrochen",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "Slave-Achse ist nicht synchronisiert",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "Master-Achse zu schnell",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "Fehler beim Abrufen von Flexprofil-Informationen",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "Anzahl der Elemente ist ungültig",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "Anzahl der Schritte ist ungültig",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "Nullzeiger",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0FF0": {
+      "text": "Trace Fehler plc.cmp.datalayer",
+      "version": 1
+    },
+    "0A0F0FFF": {
+      "text": "Trace Fehler plc.system",
+      "version": 1
+    },
+    "0A0F2115": {
+      "text": "PLC IEC F2-Fehler ->  Stoppen einer Achse",
+      "version": 1
+    },
+    "0A0F6115": {
+      "text": "PLC IEC F6-Fehler -> Stoppen aller Achsen",
+      "version": 1
+    },
+    "0A0F8115": {
+      "text": "PLC IEC F8-Fehler -> Systemfehler/Stoppen der App",
+      "version": 1
+    },
+    "0A0F9115": {
+      "text": "PLC IEC F9-Fehler -> Systemfehler/Stop des Systems",
+      "version": 1
+    },
+    "0D0A0400": {
+      "text": "Trace Nachricht comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0E0400": {
+      "text": "Trace Warnung comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0F0400": {
+      "text": "Trace Fehler comm.datalayer.util.flatbuffers",
+      "version": 1
+    }
+  }
+}

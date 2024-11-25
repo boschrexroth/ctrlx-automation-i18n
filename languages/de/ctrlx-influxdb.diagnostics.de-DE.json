@@ -1,0 +1,27 @@
+{
+  "product": "IDB-V-0202",
+  "mainDiagnostics": {
+    "0B0A0200": {
+      "text": "InfluxDB Agent: Information",
+      "version": 1
+    },
+    "0B0E0200": {
+      "text": "InfluxDB Agent: Warnung",
+      "version": 1
+    },
+    "0B0F0200": {
+      "text": "InfluxDB Agent: Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C080001": {
+          "text": "Externer Speicher nicht verfügbar",
+          "version": 1
+        },
+        "0C080002": {
+          "text": "Ungültige Konfiguration der App-Daten",
+          "version": 1
+        }
+      }
+    }
+  }
+}

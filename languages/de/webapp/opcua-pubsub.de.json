@@ -1,0 +1,130 @@
+{
+    "pubsub.common": {
+        "yes.button": "Ja",
+        "no.button": "Nein",
+        "cancel.button": "Abbrechen",
+        "ok.button":"Ok",
+        "save.button":"Retten",
+        "Actions.label" : "Aktionen",
+        "Edit.label" : "Redigieren",
+        "Delete.label" : "Löschen",
+        "Enable.label": "Ermöglichen"
+    },
+    "pubsub.addPubsub": {
+        "AddPubsub.label":"Publisher hinzufügen",
+        "Connection.label": "Verbindung",
+        "WriterGroup.label": "Autorengruppe",
+        "Writer.label": "Schriftsteller",
+        "DataSet.label": "Datensatz",
+        "Setup.label": "Einrichtung"
+    },
+    "pubsub.config":{
+        "Publisher.label":"Verlag",
+        "Subscriber.label":"Abonnent",
+        "Connection.label":"Verbindung"
+    },
+    "pubsub.publisher":{
+        "AddPublisher.label":"Publisher hinzufügen",
+        "NoPublisher.label":"Kein Publisher konfiguriert",
+        "Name.label":"Name",
+        "Connection.label":"Anschluss",
+        "PublishingInertval.label":"Veröffentlichung Inertval",
+        "Address.label":"Adresse",
+        "Interface.label":"Schnittstelle",
+        "PublishedMessages.label":"Veröffentlichte Meldungen",
+        "State.label":"Zustand",
+        "Status.label":"Status",
+        "Actions.label":"Aktionen",
+        "PublisherId.label":"Herausgeber-ID",
+        "delete.label":"Löschen",
+        "enable.label":"Ermöglichen",
+        "edit.label":"Bearbeiten",
+        "FieldName.label":"Feldname",
+        "PublishNodePath.label":"Knotenpfad veröffentlichen",
+        "DataType.label":"Datentyp",
+        "delete.Confirmation":"Möchten Sie wirklich löschen {{value}}?",
+        "deletePublisher":"Publisher löschen",
+        "enable.Confirmation":"Sind Sie sicher, dass Sie aktivieren möchten {{value}}?",
+        "enablePublisher":"Publisher aktivieren",
+        "pubsubConfiguration.title": "OPC UA Pub/Sub Konfiguration",
+        "readOnlyPermission": "Sie haben keine Berechtigung diese Operation durchzuführen"
+    },
+    "pubsub.addConnection": {
+        "AddConnection.label":"Verbindung hinzufügen",
+        "Connection.label": "Verbindung",
+        "PublisherIDType.label": "Publisher-ID-Typ",
+        "PublisherID.label": "Herausgeber-ID",
+        "CommunicationType.label": "Communication Type",
+        "Address.label": "Adresse",
+        "AddressNetworkInterface.label": "Netzwerkschnittstelle adressieren",
+        "ExpertProperties.label": "Experteneigenschaften"
+    },
+    "pubsub.calloutNotification":{
+        
+    },
+    "pubsub.addPublisher": {
+        "AddPubsub.label":"Publisher hinzufügen",
+        "Connection.label": "Verbindungsname",
+        "WriterName.label": "Name des Autors",
+        "Address.label": "Adresse"
+    },
+    "pubsub.writerGroup": {
+        "WriterGroupName.label":"Name der Autorengruppe",
+        "WriterGroupId.label":"Writer-Gruppen-ID",
+        "PublishingInterval.label":"Veröffentlichungsintervall",
+        "SecurityMode.label":"Sicherheitsmodus",
+        "MaxNetworkMessageSize.label":"Maximale Netzwerknachrichtengröße",
+        "KeepAliveTime.label":"Keep-Alive-Zeit",
+        "HeaderLayout.label":"Kopfzeilenlayout",
+        "AddWriterGroup.label":"WriterGroup hinzufügen"
+    },
+    "pubsub.writer": {
+        "WriterName.label":"Name des Autors",
+        "DataSetWriterId.label":"Datensatz-Writer-ID",
+        "DataSetEncoding.label":"Datensatzkodierung"
+    },
+    "pubsub.dataSet":{
+        "NoDataSetConfigured.label" : "Kein DataSet konfiguriert",
+        "AddDataSet.label" : "DataSet hinzufügen",
+        "FieldName.label" : "Feldname",
+        "PublishedNodePath.label" : "Veröffentlichter Knotenpfad",
+        "DataType.label" : "Datentyp"
+        
+    },
+    "pubsub.AdddataSet":{
+        "AddDataSet.label":"Datensatz hinzufügen",
+        "EditDataSet.label":"Datensatz bearbeiten",
+        "PathError.label":"Der Pfad ist obligatorisch",
+        "Path.label":"Weg;"
+    },
+    "pubsub.Subscriber":{
+        "NoSubscriber.label":"Kein Teilnehmer konfiguriert",
+        "AddSubscriber.label":"Abonnent hinzufügen",
+        "Name.label":"Name",
+        "TargetedPublisherId.label":"Ausgerichtete Publisher-ID",
+        "TargetedWriterGroupId.label":"Gezielte Writer-Gruppen-ID",
+        "TargetedDataSetWriterId.label":"Gezielte DataSet Writer-ID",
+        "Address.label":"Adresse",
+        "ReceivedMessages.label":"Empfangene Nachrichten",
+        "State.label":"Zustand",
+        "Status.label":"Status",
+        "TargetNodePath.label":"Zielknotenpfad",
+        "DataType.label":"Datentyp",
+        "delete.Confirmation":"Möchten Sie wirklich löschen {{value}}?",
+        "deleteSubscriber":"Abonnenten löschen",
+        "enable.Confirmation":"Sind Sie sicher, dass Sie aktivieren möchten {{value}}?",
+        "enableSubscriber":"Abonnenten aktivieren"
+    },
+    "pubsub.appNotInit": {
+        "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{value}} Sie die Seite",
+        "description": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+        "error.header": "Die App OPC UA Pub-Sub ist momentan nicht verfügbar.",
+        "noPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen.",
+        "refresh": "Aktualisieren",
+        "servicemode": "Der 'Service-Modus' ist gerade aktiv. Bitte gehen Sie zu {{value}}, wechseln Sie in den 'Operation-Modus' und versuchen Sie es erneut.",
+        "servicemode.appManagerLink": "Apps-Manager",
+        "details_1":"Bitte überprüfen Sie die ",
+        "details_2":" für mehr Details",
+        "Logbook":"Logbuch"
+    }
+}

@@ -1,0 +1,222 @@
+{
+  "diag": {
+    "logbook": {
+      "command": {
+        "refresh": "Refreshes data",
+        "resetAll": "Resets all",
+        "deleteAllFilters": "Deletes all filters",
+        "deleteAllBookmarks": "Deletes all bookmarks",
+        "nextBookmark": "Next bookmark",
+        "previousBookmark": "Previous bookmark",
+        "setBookmark": "Sets bookmark",
+        "deleteBookmark": "Deletes bookmark",
+        "showColumns": "Show/hide columns",
+        "collapsAll": "Collapses all",
+        "expandAll": "Expands all",
+        "addMessageType": "Additional message types",
+        "msgTypeNone": "None",
+        "msgTypeTrace": "Trace",
+        "msgTypeSystem": "System",
+        "msgTypeSystemTrace": "System and trace",
+        "download": "Downloads data",
+        "downloadFilter": "Downloads filtered data",
+        "downloadAll": "Downloads all data"
+      },
+      "title": {
+        "alarms": "Alarms",
+        "logs": "History",
+        "console": "Console"
+      },
+      "filter": {
+        "notSet": "No filter set",
+        "selectAll": "Select all",
+        "isActive": "Filter is active",
+        "level": {
+          "emerg": "Emergency",
+          "alert": "Alert",
+          "crit": "Critical",
+          "err": "Error",
+          "warning": "Warning",
+          "notice": "Notice",
+          "info": "Information",
+          "debug": "Debug"
+        },
+        "date": {
+          "title": "Enter search date",
+          "placeholderDate": "Set date",
+          "placeholderDateTime": "Set date & time",
+          "placeholderTimespan": "Set time span",
+          "equal": "Is equal",
+          "before": "Before",
+          "after": "After",
+          "between": "Between",
+          "reset": "Reset filter",
+          "labDate": "Date",
+          "labDateTime": "Date/Time",
+          "labDateTimeRange": "Date/Time range"
+        },
+        "text": {
+          "label": "Filter",
+          "placeholder": "Enter text"
+        },
+        "complex": {
+          "placeholder": "Select any options or enter text",
+          "combineWith": "Combine fields with: ",
+          "tooltipCombineInfo": "Search terms within an input field are linked with 'OR'"
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "devView": "Developer view",
+        "devViewInfo": "(Further diagnostics, trace messages, advanced filters, ...)",
+        "setPersistentInfo": "(Save all log entries persistent)",
+        "selectTimezone": "Time zone use from",
+        "browser": "Browser",
+        "device": "Device",
+        "setLogPers": "Permanently store messages",
+        "logPersActWarn": "Activate temporarily only!\nWhen running on ctrlX CORE this function shortens the lifetime of the devices storage.\n\nReboot the device to enable permanent storage of messages.",
+        "logPersDeactWarn": "Current logbook messages are completely lost when deactivating this function.\nYou might download current messages before deactivating.\n\nReboot the device to disable permanent storage of messages."
+      },
+      "columnsDialog": {
+        "title": "Select columns",
+        "availableHeader": "Available columns",
+        "selectedHeader": "Selected columns"
+      },
+      "status": {
+        "occured": "occured",
+        "solved": "solved",
+        "tofix": "to fix",
+        "toclear": "to clear"
+      },
+      "msg": {
+        "noNextBookmark": "No next bookmark exists",
+        "noPreviousBookmark": "No previous bookmark exists",
+        "callout": "{{cnt}} file(s) were downloaded",
+        "calloutNoData": "No data available"
+      }
+    },
+    "common": {
+      "button": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "reset": "Reset",
+        "apply": "Apply",
+        "confirm": "Clears error",
+        "confirmAll": "Resets and clears all errors",
+        "confirmNot": "Clearing error not possible",
+        "navigateTo": "Navigates to alarm in history page",
+        "navigateToAlarmPage": "Navigates to alarm page of the logbook",
+        "navigateToHistoryPage": "Navigates to the alarm in the history page of the logbook",
+        "alarmNotExist": "Alarm no longer in Logbook"
+      },
+      "text": {
+        "settings": "Shows settings",
+        "timeoffset": "Date/Time mismatch: {{offset}}! To solve this mismatch, go to  <a href='/system/datetime'> Settings > Date & Time</a>",
+        "noDataTitle": "With this filter settings, no data is available!",
+        "noDataDescDef": "Please select other filter settings.",
+        "noDataDescDev": "Please select other filter settings and/or another message type.",
+        "noPermission": "You have no user permissions to read any log messages!",
+        "noitems": "Currently, there are no alarms",
+        "mainDiag": "Main diagnostic code",
+        "detailDiag": "Detailed diagnostic code",
+        "remoteLogging": "Remote Logging",
+        "filterTitle": "Enter search text in the '{{colName}}' category"
+      },
+      "attr": {
+        "pos": "Pos",
+        "level": "Level",
+        "status": "Status",
+        "date": "Date",
+        "code": "Code",
+        "desc": "Description",
+        "entity": "Entity",
+        "source": "Source",
+        "actions": "Actions",
+        "userId": "User ID",
+        "devInfo": "Developer information",
+        "bookmark": "Bookmark",
+        "mainDiagnosisCode": "Main diagnostic code",
+        "detailedDiagnosisCode": "Detailed diagnostic code",
+        "mainTitle": "Main text",
+        "detailedTitle": "Detailed text",
+        "dynamicDescription": "Dynamic description",
+        "dynamicSourceOrigin": "Origin",
+        "systemUnit": "Unit",
+        "dynamicSourceUnitname": "Unit",
+        "dynamicSourceFilename": "File name",
+        "dynamicSourceFunctionname": "Function name",
+        "dynamicSourceLinenumber": "Line number"
+      }
+    },
+    "remote": {
+      "name": "Name",
+      "ipaddress": "Host / IP address / Domain",
+      "port": "Port",
+      "protocol": "Protocol",
+      "enabled": "Enabled",
+      "status": "Status",
+      "certificate": "Accepts self-signed certificates",
+      "actions": "Actions",
+      "noItems": "No remote servers configured",
+      "addItem": "Add",
+      "addTarget": "Add remote logging server",
+      "addTargetInfo": "Here you can configure remote server devices. A copy of each log message is sent to each device.",
+      "editTitle" : "Server settings",
+      "tooltipEdit": "Edits server",
+      "tooltipExamples": "Examples:",
+      "tooltipDelete": "Deletes server",
+      "tooltipConnect": "Activates remote logging",
+      "tooltipConnected": "Server is connected",
+      "tooltipDisconnect": "Deactivates remote logging",
+      "tooltipDisconnected": "Server is disconnected",
+      "tooltipNA": "Connection status is not available",
+      "tooltipFilter": "Selected filters for '{{filter}}':",
+      "queryDeleteText": "Do you really want to delete the server '{{name}}' ?",
+      "queryDeleteTitle": "Delete remote logging server?",
+      "queryDeleteFilterText": "Do you really want to delete the message filter '{{name}}' ?",
+      "queryDeleteFilterTitle": "Delete message filter?",
+      "noReadPermission": "You do not have the permission to show remote logging servers.",
+      "noWritePermission": "You do not have the permission to edit remote logging servers.",
+      "serverSettings": "Server settings",
+      "messageFilter": "Message filter",
+      "tlsSettings": "TLS encryption",
+      "tls": {
+        "useTls": "Use transport layer security (TLS)",
+        "caCert": "Server or CA certificate",
+        "clientCert": "Client certificate",
+        "clientKey": "Client key",
+        "uploadCaCert": "Upload server or CA certificate",
+        "uploadClientCert": "Upload client certificate",
+        "uploadClientKey": "Upload client key",
+        "skipServerCertVerification": "Skip verification of server certificate",
+        "selectCert": "Select a certificate",
+        "certNotLongerExists": "The selected certificate '{{param}}' no longer exists. Select another certificate.",
+        "selectKey": "Select a key",
+        "keyNotLongerExists": "The selected key '{{param}}' no longer exists. Select another key."
+          },
+      "error" : {
+        "ipRequired": "Host, IP address or domain is required",
+        "nameRequired": "Name is required",
+        "nameInvalid": "Invalid name",
+        "tagInvalid": "Invalid tag",
+        "portRequired": "Port is required",
+        "protocolRequired": "Protocol is required",
+        "ipInvalid": "Invalid server address (IPv4, IPv6 or server name)",
+        "portInvalid": "Invalid port (0 - 65535)",
+        "isRequired": "{{param}} is required"
+      },
+      "warning" : {
+        "noConnection" : "No connection to server '{{name}}'"
+      },
+      "message" : {
+        "createServerSuccess": "Server added successfully!",
+        "saveServerSuccess": "Server saved successfully!",
+        "saveFilterSuccess": "Filter saved successfully!",
+        "saveFilterError": "Saving filter failed!",
+        "deleteFilterSuccess": "Filter deleted successfully!",
+        "deleteFilterError": "Deleting filter failed!"
+      }
+		}
+  }
+}

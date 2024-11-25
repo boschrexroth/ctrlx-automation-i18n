@@ -1,0 +1,38 @@
+﻿{
+  "ssh.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "delete.menu": "Löschen",
+
+    "actions": "Aktionen"
+  },
+
+  "ssh.ssh": {
+    "sshProtocolStatus": "SSH-Protokollstatus",
+    "activated": "Aktiv (Zugriff benötigt \"system user\" Konto)",
+    "deactivated": "Inaktiv",
+    "maxSessionsPerConnection": "Maximale Anzahl offener Sitzungen pro Verbindung",
+    "maxAuthAttemptsPerConnection": "Maximale Anzahl an Anmeldeversuchen pro Verbindung",
+    "maxConcurrentUnauthConnections": "Maximale Anzahl gleichzeitiger nicht authentifizierter Verbindungen",
+    "logoutAfterMinutes": "Abmeldung nach Sitzungsdauer in Minuten (0 für unbegrenzt)",
+    "bannerText": "Bannertext",
+    "enterValueFromToMsg": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein"
+  },
+
+  "ssh.notification": {
+    "error": "Fehler: {{param}}",
+    "changesSavedMsg": "Die Änderungen wurden gespeichert. Die Änderungen werden erst beim nächsten Anmelden übernommen.",
+    "missingPermissionsMsg": "Sie haben nicht die erforderlichen Berechtigungen."
+  }
+
+}

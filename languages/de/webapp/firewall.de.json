@@ -1,0 +1,159 @@
+﻿{
+  "frw.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "actions": "Aktionen"
+  },
+
+  "frw.appGlobalService": {
+    "inputFiltering": "Eingangsfilter",
+    "forwardFiltering": "Weiterleitungsfilter",
+    "outputFiltering": "Ausgangsfilter",
+    "destinationNat": "Ziel-NAT",
+    "sourceNat": "Quell-NAT"
+  },
+
+  "frw.addChainDialog": {
+    "title": "Kette hinzufügen",
+    "name": "Name",
+    "priority": "Priorität",
+    "defaultPolicy": "Standardrichtlinie",
+    "add.button": "Kette hinzufügen",
+    "errorNameMustNotBeEmpty": "Name darf nicht leer sein",
+    "errorNameMustStartWithCharacters": "Name muss mit einem der folgenden Zeichen beginnen: A-Z, a-z, _",
+    "errorNameMayContainCharacters": "Name darf die Zeichen: A-Z, a-z, 0-9, -, _ enthalten",
+    "errorEnterANumber": "Geben Sie eine Zahl ein",
+    "error": "Fehler"
+  },
+
+  "frw.configStartPage": {
+    "svg.input": "Eingang",
+    "svg.destNat": "Ziel-NAT",
+    "svg.inputFilter1": "Eingangs-",
+    "svg.inputFilter2": "filter",
+    "svg.forwardFilter1": "Weiterleitungs-",
+    "svg.forwardFilter2": "filter",
+    "svg.outputFilter1": "Ausgangs-",
+    "svg.outputFilter2": "filter",
+    "svg.localProcess1": "Lokaler",
+    "svg.localProcess2": "Prozess",
+    "svg.sourceNat": "Quell-NAT",
+    "svg.output": "Ausgang",
+
+    "storeHint": "Beachten Sie, dass alle Änderungen sofort wirksam werden. Um die Änderungen persistent zu übernehmen, klicken Sie auf die Schaltfläche 'Firewall-Konfiguration speichern'.",
+    "packetFlowOverview": "Übersicht über den Paketfluss",
+    "configurePacketFiltering": "Paketfilter konfigurieren",
+    "inputFilter.title": "Eingangsfilter",
+    "inputFilter.description": "Eingehende Pakete filtern, die dieses Gerät adressieren",
+    "inputFilter.details": "Eingangsfilter konfigurieren...",
+    "forwardFilter.title": "Weiterleitungsfilter",
+    "forwardFilter.description": "Eingehende Pakete filtern, die andere Ziele adressieren und dieses Gerät passieren",
+    "forwardFilter.details": "Weiterleitungsfilter konfigurieren...",
+    "outputFilter.title": "Ausgangsfilter",
+    "outputFilter.description": "Ausgehende Pakete filtern, die von diesem Gerät erzeugt wurden",
+    "outputFilter.details": "Ausgangsfilter konfigurieren...",
+
+    "configureNat": "Netzwerkadressübersetzung (NAT) konfigurieren",
+    "destinationNat.title": "Ziel-NAT",
+    "destinationNat.description": "Portweiterleitung, DMZ, usw.",
+    "destinationNat.details": "Ziel-NAT konfigurieren...",
+    "sourceNat.title": "Quell-NAT",
+    "sourceNat.description": "IP-Netzwerke zusammenschalten",
+    "sourceNat.details": "Quell-NAT konfigurieren...",
+
+    "save.button": "Firewall-Konfiguration speichern"
+  },
+
+  "frw.chainList": {
+    "chains": "Regelketten",
+    "priority": "Priorität",
+    "name": "Name",
+    "defaultPolicy": "Standardrichtlinie",
+    "deleteChain.title": "Kette löschen",
+    "noChainsMsg": "Keine Ketten konfiguriert",
+    "addChain.button": "Kette hinzufügen",
+    "addItemInfoTextInput": "Eingehende Netzwerkpakete filtern, die dieses Gerät adressieren",
+    "addItemInfoTextOutput": "Ausgehende Netzwerkpakete filtern, die von diesem Gerät erzeugt wurden",
+    "addItemInfoTextForward": "Eingehende Netzwerkpakete filtern, die andere Ziele adressieren und durch dieses Gerät geleitet werden",
+    "addItemInfoTextPrerouting": "Ziel-NAT ersetzt die Zieladresse von Netzwerkpaketen durch die Adresse des eigentlichen Empfängers.",
+    "addItemInfoTextPostrouting": "Quell-NAT ersetzt die Quelladresse von Netzwerkpaketen durch die Adresse dieses Gerätes."
+  },
+
+  "frw.chainPage": {
+    "priority": "Priorität",
+    "name": "Name",
+    "newRuleName": "Neue Regel",
+    "defaultPolicy": "Standardrichtlinie",
+    "acceptHint": "Wenn Sie eine Kette mit der Standardrichtlinie 'Accept' erstellen, sollten Ihre Regeln passende Pakete ablehnen oder verwerfen.",
+    "dropHint": "Wenn Sie eine Kette mit der Standardrichtlinie 'Drop' erstellen, sollten Ihre Regeln passende Pakete akzeptieren.",
+    "rules": "Regeln",
+    "watchCounters.tooltip": "Zähler beobachten",
+    "stopWatchingCounters.tooltip": "Zähler nicht weiter beobachten",
+    "ruleName": "Name",
+    "expressions": "Ausdrücke",
+    "actionIfMatch": "Aktion bei Übereinstimmung",
+    "reorderRulesHint": "Um Regeln neu anzuordnen, ziehen Sie die entsprechenden Zeilen per Drag & Drop",
+    "noRulesMsg": "Keine Regeln konfiguriert",
+    "addRule.button": "Regel hinzufügen",
+    "errorNameMustNotBeEmpty": "Name darf nicht leer sein",
+    "errorNameMustStartWithCharacters": "Name muss mit einem der folgenden Zeichen beginnen: A-Z, a-z, _",
+    "errorNameMayContainCharacters": "Name darf die Zeichen: A-Z, a-z, 0-9, -, _ enthalten",
+    "errorEnterANumber": "Geben Sie eine Zahl ein",
+    "error": "Fehler",
+    "deleteRule.title": "Regel löschen",
+    "selectDropPolicy.title": "Standardrichtline 'Drop' auswählen",
+    "refuseSelectDropPolicyMsg": "Diese Kette enthält derzeit keine Regel mit einer 'Accept'-Aktion. Wenn Sie die Standardrichtlinie auf 'Drop' umstellen, wäre das System nicht mehr erreichbar. Die Standardrichtlinie wird nicht geändert.",
+    "selectDropPolicy.confirmation": "Sind Sie sicher, dass Sie 'Drop' als Standardrichtlinie auswählen möchten? Wenn die Regeln nicht korrekt konfiguriert sind, ist das System danach möglicherweise nicht mehr erreichbar.",
+    "selectDropPolicy.button": "'Drop' auswählen"
+  },
+
+  "frw.ruleEditorDialog": {
+    "title": "Regel",
+    "name": "Name",
+    "comment": "Kommentar",
+    "expressions": "Ausdrücke",
+    "addExpression.tooltip": "Ausdruck hinzufügen",
+    "type": "Typ",
+    "condition": "Bedingung",
+    "reorderExpressionsHint": "Um Ausdrücke neu anzuordnen, ziehen Sie die entsprechenden Zeilen per Drag & Drop",
+    "noExpressionsMsg": "Keine Ausdrücke vorhanden.",
+    "noExpressionsActionCreateMsg": "Um einen Ausdruck hinzuzufügen, klicken Sie auf",
+    "actionIfMatch": "Aktion bei Übereinstimmung",
+    "actions": "Aktionen",
+    "errorNameMustNotBeEmpty": "Name darf nicht leer sein",
+    "errorNameMayContainCharacters": "Name darf die Zeichen A-Z, a-z, 0-9, -, _ und Leerzeichen dazwischen enthalten",
+    "error": "Fehler",
+    "minExpressionWarning": "Eine Regel muss mindestens einen Ausdruck enthalten.",
+    "errorCommentMayNotContainCharacters": "Kommentar darf folgende Zeichen nicht enthalten: '\\[]{}'"
+  },
+
+  "frw.canLeaveAppGuard": {
+    "title": "Nicht gespeicherte Änderungen an der Firewall-Konfiguration",
+    "description": "Sie haben Änderungen an der Firewall-Konfiguration vorgenommen. Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
+  },
+
+  "frw.matchPayloadExprEditorDialog": {
+    "specifyRange": "Bereich angeben",
+    "enterValidValue": "Geben Sie einen gültigen Wert ein"
+  },
+
+  "frw.matchMetaExprEditorDialog": {
+    "enterValidValue": "Geben Sie einen gültigen Wert ein"
+  },
+
+  "frw.notification": {
+    "changesSavedMsg": "Die Änderungen wurden gespeichert.",
+    "errorMissingPermissions": "Sie haben nicht die erforderlichen Berechtigungen."
+  }
+
+}

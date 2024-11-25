@@ -1,0 +1,10 @@
+{
+  "help-settings.helpurl": "Help url",
+  "help-settings.reset.button": "Reset",
+  "help-settings.reset.tooltip": "Reset online help url",
+  "help-settings.offline.button": "Use Offline Help",
+  "help-settings.offline.tooltip": "Set help url using the locally installed help system",
+  "help-settings.urlerror": "Please enter a valid URL. The protocol is required ('http://' or 'https://''), terminated by '/'.",
+  "context-help.tooltip": "Show help",
+  "page-help.tooltip": "Show help"
+}

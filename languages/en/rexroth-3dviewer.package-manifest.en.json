@@ -1,0 +1,14 @@
+{
+	"sidebar.3dviewer.model-library.title": "Model Library",
+	"sidebar.3dviewer.my-model.title": "My Model",
+	"licenses.SWL-XCx-3DV-3DVIEWERxxxxx-NNNN.title": "ctrlX OS License - 3D Viewer",
+    "licenses.SWL-XCx-3DV-3DVIEWERxxxxx-NNNN.description": "Browser-based 3D kinematics simulation",
+	"scopes-declaration.rexroth-3dviewer.web.name" :"3D Viewer",
+	"scopes-declaration.rexroth-3dviewer.web.description" :"Permissions",
+	"scopes-declaration.rexroth-3dviewer.models.r.name":"View Models",
+	"scopes-declaration.rexroth-3dviewer.models.r.description":"View Model Library",
+	"scopes-declaration.rexroth-3dviewer.models.rw.name":"Upload Models",
+	"scopes-declaration.rexroth-3dviewer.models.rw.description":"Upload Models into ctrlX",
+	"scopes-declaration.rexroth-3dviewer.axis.rw.name":"Configure Axis",
+	"scopes-declaration.rexroth-3dviewer.axis.rw.description":"View and modify Axis configuration"
+}

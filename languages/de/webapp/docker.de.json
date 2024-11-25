@@ -1,0 +1,54 @@
+{
+  "doc": {
+    "common": {
+      "license": "Es wurde keine Lizenz gefunden. Bitte fügen Sie die Lizenz für 'Container Engine' hinzu.",
+      "noViewPermission": "Sie haben keine Berechtigung, um die Container-Ansicht zu öffnen.",
+      "howTo": "Weitere Informationen finden Sie in folgendem Dokument: <a href='https://developer.community.boschrexroth.com/t5/Store-and-How-to/Deploy-Docker-Image-to-Container-Engine-App/ba-p/72439' target='_blank'>How-To</a>."
+    },
+    "container": {
+      "actions": "Aktionen",
+      "details": "Details",
+      "created": "Erstellt",
+      "detailsTitle": "Weitere Informationen",
+      "ipAddress": "IP-Adresse",
+      "logsTitle": "Log-Meldungen",
+      "name": "Name",
+      "noWritePermission": "Sie haben keine Berechtigung, um den Status des Containers zu ändern.",
+      "ports": "Ports",
+      "image": "Image",
+      "state": "Zustand",
+      "status": "Status",
+      "tooltipInfo": "Weitere Informationen",
+      "tooltipKill": "Beenden",
+      "tooltipLogs": "Öffnen Log-Meldungen",
+      "tooltipPause": "Pause",
+      "tooltipRestart": "Neustart",
+      "tooltipStart": "Starten",
+      "tooltipStop": "Stoppen",
+      "tooltipUnpause": "Anhalten",
+      "tooltipExpand": "Alle Ebenen expandieren",
+      "tooltipCollapse": "Alle Ebenen kollabieren",
+      "tooltipRefresh": "Aktualisieren",
+      "version": "Version",
+      "noData": "Kein Daten. Wenn Sie eine <a href='/package-manager/packages'>Container App</a> installieren, werden hier die entsprechenden Container angezeigt."
+    },
+    "image": {
+      "details": "Details",
+      "created": "Erstellt",
+      "description": "Name",
+      "detailsTitle": "Weitere Informationen",
+      "maintainer": "Herausgeber",
+      "name": "Name",
+      "noWritePermission": "Sie haben keine Berechtigung, um den Status des Images zu ändern.",
+      "repoTags": "Stichworte",
+      "size": "Größe",
+      "tooltipInfo": "Weitere Informationen",
+      "virtualSize": "Virtuelle Größe",
+      "tooltipExpand": "Alle Ebenen expandieren",
+      "tooltipCollapse": "Alle Ebenen kollabieren",
+      "tooltipRefresh": "Aktualisieren",
+      "version": "Version",
+      "noData": "Kein Daten. Wenn Sie eine <a href='/package-manager/packages'>Container App</a> installieren, werden hier die entsprechenden Images angezeigt."
+    }
+  }
+}

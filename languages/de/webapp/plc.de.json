@@ -1,0 +1,135 @@
+﻿{
+	"plc.common": {
+		"ok.button": "OK",
+		"cancel.button": "Abbrechen",
+		"save.button": "Speichern",
+		"delete.button": "Löschen",
+		"yes.button": "Ja",
+		"no.button": "Nein",
+		"readOnlyPermission": "Sie sind nicht berechtigt, diesen Vorgang auszuführen.",
+		"start": "starten",
+		"stop": "stoppen",
+		"close.button": "Schliessen",
+		"licenseerrortitle": "Lizenzinformationen lesen",
+		"licenseerrordetail": "Die Kommunikation mit dem Data Layer ist fehlgeschlagen.",
+		"applications": "Applikationen"
+	},
+	"plc.editretain": {
+		"restarttooltip": "Neustart erforderlich, um die Änderungen zu übernehmen",
+		"info": "{{allocated}} Bytes von {{total}} werden der SPS als remanenter Speicher zugewiesen",
+		"edittooltip": "Retain-Speicher bearbeiten",
+		"title": "Remanenten Speicher der SPS zuweisen (Bytes)",
+		"available": "{{available}} verfügbar",
+		"inputerror": "Geben Sie eine gültige Zahl ein",
+		"maximumerror": "Der eingegebene Wert muss kleiner sein als der verfügbare Speicher",
+		"minimumerror": "Der eingegebene Wert muss größer als {{minimumInputLimit}} Bytes sein",
+		"minimuminfo": "{{minimumInputLimit}} Bytes ist der minimal zuzuweisende Speicher",
+		"roundinfo": "Der Eingabewert wird auf ein Vielfaches von 8 aufgerundet",
+		"rebootinfo": "Ein Neustart der Steuerung ist erforderlich"
+	},
+	"plc.apps": {
+		"title": "Applikationen",
+		"noactiveprogram": "Keine PLC Applikation konfiguriert",
+		"startengineering": "ctrlX PLC Engineering starten",
+		"engineeringinfo": "ctrlX PLC Engineering ist eine Windows-Anwendung, mit der Programme in IEC 61131 erstellt und auf ein ctrlX OS-Gerät geladen werden können. ctrlX PLC Engineering kann von der ctrlX WORKS-Seite im {{ ctrlXStore }} heruntergeladen werden. ",
+		"startalltooltip": "Applikationen starten",
+		"stopalltooltip": "Applikationen stoppen",
+		"disableallstart": "Nur aktiv, wenn kein Ausnahmefehler oder „Retain Mismatch“ für die Applikationen gemeldet ist",
+		"starttooltip": "Startet Applikation",
+		"disablestart": "Nur aktiviert, wenn sich die Applikation nicht im Zustand 'Exception' oder 'Retain Mismatch' befindet",
+		"stoptooltip": "Stoppt Applikation",
+		"resettooltip": "Klicken Sie hier, um die Reset-Optionen auszuwählen",
+		"resetwarm": "Reset warm",
+		"disableresetwarm": "Nur aktiviert, wenn sich die Applikation nicht im Zustand 'Retain Mismatch' befindet",
+		"resetcold": "Reset kalt",
+		"resetorigin": "Reset Ursprung",
+		"resetallwarm": "Reset warm (alle Applikationen)",
+		"disableallresetwarm": "Nur aktiv, wenn kein „Retain Mismatch“ für die Applikationen gemeldet ist",
+		"resetallcold": "Reset kalt (alle Applikationen)",
+		"resetallorigin": "Reset Ursprung (alle Applikationen)",
+		"startengineeringtooltip": "Öffnet ctrlX PLC Engineering",
+		"columnruntimestatetitle": "Zustand",
+		"columnnametitle": "Name",
+		"columnactiontitle": "Aktionen",
+		"columnoperationstatetitle": "Diagnosen",
+		"exceptionstate": "Die Applikation ist im Fehlerzustand. Weitere Details sind in ctrlX PLC Engineering über den 'PLC Log' und die 'Aufrufliste' verfügbar. ",
+		"flowcontrolstate": "Der “Ablaufkontrollmodus” ist in der Applikation aktiv. Um diesen abzuschalten führen Sie bitte in ctrlX PLC Engineering das Kommando 'Ablaufkontrollmodus umschalten' aus.",
+		"forcevariablestate": "'Werte forcen' ist in der Applikation aktiv. Um das Forcen zu beenden, führen Sie bitte das Kommando 'Forcen für alle Werte aufheben’ in ctrlX PLC Engineering aus. ",
+		"retainmismatchstate": "Applikation mit Retain-Mismatch geladen. Zum Ausführen der Applikation ist ein “Reset kalt” erforderlich!",
+		"preconditions": "Stellen Sie sicher, dass alle Bedingungen erfüllt sind!",
+		"coldwarmdescription": "Das Kommando führt zu einem {{actionText}} der Applikation auf der Steuerung",
+		"origindescription": "Das Kommando löscht die Applikation auf der Steuerung",
+		"startstoptitle": "Wollen Sie die Applikation {{actionText}}?",
+		"resettitle": "Wollen Sie die Operation {{actionText}} durchführen?",
+		"resetorigindesc": "reset ursprung",
+		"warmstartdesc": "Warmstart",
+		"coldstartdesc": "Kaltstart",
+		"bootApplication": "Boot-Applikationen",
+		"projectInformation": "Projektinformationen"
+	},
+	"plc.bootApplication": {
+		"name": "Name",
+		"created": "Erstellt",
+		"noPermission": "Sie verfügen nicht über die erforderlichen Berechtigung(en), die Daten der Boot-Applikation(en) einzusehen.",
+		"noBootAppFound": "Boot-Applikationen nicht verfügbar"
+	},
+	"plc.projectInfo": {
+		"name": "Name",
+		"synchronization": "Projektsynchronisation",
+		"lastChange": "Letzte Änderung",
+		"machineName": "Maschinenname",
+		"userName": "Benutzername",
+		"noPermission": "Sie verfügen nicht über die erforderlichen Berechtigung(en), die Daten der Projektinformation(en) einzusehen.",
+		"noHistoryFound": "Projektinformationen nicht verfügbar",
+		"synchronizationActive": "Aktiv",
+		"synchronizationNotActive": "Nicht aktiv",
+		"sources": "Quellen",
+		"lastloaded": "Zuletzt Geladen",
+		"projectsync": "Synchronisation"
+	},
+	"plc.appNotInit": {
+		"error.header": "Die App PLC ist momentan nicht verfügbar (Fehler: {{availabilityErrorCode}})",
+		"description": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+		"servicemode": "Der Service-Modus ist gerade aktiv. Bitte gehen Sie zu {{value}}, wechseln Sie in den Operation-Modus und versuchen Sie es erneut.",
+		"servicemode.appManagerLink": "Apps-manager",
+		"appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{value}} Sie die Seite",
+		"refresh": "aktualisieren",
+		"noPermission": "Sie haben nicht die erforderliche Berechtigung, auf diese Seite zuzugreifen.",
+		"permission.title": "Erforderliche Mindestberechtigungen für diese Seite:",
+		"permission.list1": "Data Layer scopes: Data Layer View"
+	},
+	"auto": {
+		"common": {
+			"text": {
+				"refresh": "Aktualisieren",
+				"config": "Konfiguration"
+			}
+		},
+		"overview": {
+			"notavailable": {
+				"p1": "Keine Daten verfügbar (Fehler: {{errorCode}})",
+				"p2": "Mögliche Ursachen:",
+				"li1": "Service-Modus ist aktiv. Wechseln Sie auf der | App-Seite | in den Operation-Modus.",
+				"li2": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte | aktualisieren | Sie die Seite."
+			},
+			"nopermission": {
+				"p1": "Sie haben nicht die erforderlichen Berechtigungen.",
+				"p2": "Erforderliche Mindestberechtigungen für diese Seite:"
+			},
+			"plc": {
+				"title": "SPS",
+				"subtitle1": "SPS-Applikationen nicht konfiguriert",
+				"subtitle2": "Verwalten Sie Ihre SPS-Applikationen",
+				"text": {
+					"configure": "SPS-Applikationen konfigurieren",
+					"status": "Status",
+					"numbers": "Anzahl der Applikationen",
+					"stateRun": "Zustand RUN",
+					"stateStop": "Zustand STOP",
+					"stateDebug": "Zustand DEBUG",
+					"plcStatus": "Status SPS öffnen"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,4889 @@
+{
+  "product": "MOT-V-0206",
+  "mainDiagnostics": {
+    "080F0E00": {
+      "text": "Loading configuration not possible in current state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560224": {
+          "text": "Content of JSON configuration file is not valid for this load operation",
+          "version": 1
+        },
+        "0C56022B": {
+          "text": "Cannot create/delete motion object for loading configuration in \"RUNNING\" state.",
+          "version": 1
+        },
+        "0C56022C": {
+          "text": "Changing or deleting point tables to load the configuration is not possible when they are in use.",
+          "version": 1
+        },
+        "0C56022D": {
+          "text": "Changing or deleting FlexProfiles to load the configuration is not possible when they are in use.",
+          "version": 1
+        },
+        "0C580040": {
+          "text": "Axis profile settings can only be loaded in the configuration state.",
+          "version": 1
+        },
+        "0C580041": {
+          "text": "Axis profile settings can only be saved in the configuration state.",
+          "version": 1
+        }
+      }
+    },
+    "090A0000": {
+      "text": "Commanded dynamic parameters exceed axis limits",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        },
+        "0C550531": {
+          "text": "Axis limits exceeded",
+          "version": 1
+        },
+        "0C550532": {
+          "text": "SyncCmdMode was changed",
+          "version": 1
+        }
+      }
+    },
+    "090A0001": {
+      "text": "Commanded dynamic parameters exceed kinematic limits",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        }
+      }
+    },
+    "090A0002": {
+      "text": "Configuration modified booting",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560450": {
+          "text": "Configured axis profiles were ignored",
+          "version": 1
+        }
+      }
+    },
+    "090A0003": {
+      "text": "Motion object error level set by application",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570006": {
+          "text": "Error level set by calling command SetErrorLevel",
+          "version": 1
+        }
+      }
+    },
+    "090A0004": {
+      "text": "Waiting for motion license",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560275": {
+          "text": "Wait for motion basic license",
+          "version": 1
+        }
+      }
+    },
+    "090A0010": {
+      "text": "Message in the jog command of the axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550147": {
+          "text": "Jog motion ended, as the limit value of the position was reached",
+          "version": 1
+        }
+      }
+    },
+    "090A0011": {
+      "text": "Message in the jog command of the kinematics",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550147": {
+          "text": "Jog motion ended, as the limit value of the position was reached",
+          "version": 1
+        }
+      }
+    },
+    "090A0012": {
+      "text": "Message in the axis configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C56024A": {
+          "text": "Axis jerk limit only partly set",
+          "version": 1
+        }
+      }
+    },
+    "090A0013": {
+      "text": "Message in the kinematic configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560262": {
+          "text": "Jerk limits of the path only partly set",
+          "version": 1
+        }
+      }
+    },
+    "090A0020": {
+      "text": "No actual position is available in this axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Function not yet implemented in the control",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Error in the axis profile",
+          "version": 1
+        }
+      }
+    },
+    "090A0021": {
+      "text": "No actual velocity is available in this axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Function not yet implemented in the control",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Error in the axis profile",
+          "version": 1
+        }
+      }
+    },
+    "090A0022": {
+      "text": "No actual acceleration is available in this axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Function not yet implemented in the control",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Error in the axis profile",
+          "version": 1
+        }
+      }
+    },
+    "090A0023": {
+      "text": "No actual torque is available in this axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Function not yet implemented in the control",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Error in the axis profile",
+          "version": 1
+        }
+      }
+    },
+    "090A0024": {
+      "text": "No extrapolation of actual values available",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550244": {
+          "text": "No actual position available",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        }
+      }
+    },
+    "090A0025": {
+      "text": "No interpolated values are available in this axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550245": {
+          "text": "Axis type does not support any interpolation",
+          "version": 1
+        }
+      }
+    },
+    "090A0030": {
+      "text": "Axis does not follow command values (setpoints)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C57010F": {
+          "text": "Axis cannot (or can no longer) follow the command values of the control.",
+          "version": 1
+        }
+      }
+    },
+    "090A0200": {
+      "text": "General AxisProfile message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580006": {
+          "text": "Profile not found",
+          "version": 1
+        }
+      }
+    },
+    "090A0201": {
+      "text": "AxisProfile booting message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580700": {
+          "text": "Waiting for required field bus master instances",
+          "version": 1
+        },
+        "0C580701": {
+          "text": "All required field bus master instances are available",
+          "version": 1
+        },
+        "0C580702": {
+          "text": "Wait until fieldbus master instances have reached operating mode (OP)",
+          "version": 1
+        },
+        "0C580703": {
+          "text": "All field bus master instances in correct operating mode",
+          "version": 1
+        },
+        "0C580704": {
+          "text": "Waiting for field bus master realt-time memory to be available",
+          "version": 1
+        },
+        "0C580705": {
+          "text": "Real-time memory of the field bus master is available",
+          "version": 1
+        },
+        "0C580706": {
+          "text": "Wait until the task's callable unit \"axisprofile adaption\" is in the state \"RUN\"",
+          "version": 1
+        },
+        "0C580707": {
+          "text": "Validating the mapping configuration",
+          "version": 1
+        },
+        "0C580708": {
+          "text": "Wait until the profile manager is available",
+          "version": 1
+        },
+        "0C580709": {
+          "text": "Profile manager now available",
+          "version": 1
+        },
+        "0C58070A": {
+          "text": "Waiting for profile initialization finished",
+          "version": 1
+        },
+        "0C58070B": {
+          "text": "Profile initialization finished",
+          "version": 1
+        }
+      }
+    },
+    "090A02FF": {
+      "text": "Trace message common.axisprofile",
+      "version": 1
+    },
+    "090A04FF": {
+      "text": "Trace message plc.cmp.motion",
+      "version": 1
+    },
+    "090A0500": {
+      "text": "Axis limits exceeded",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550531": {
+          "text": "Axis limits exceeded",
+          "version": 1
+        }
+      }
+    },
+    "090A0501": {
+      "text": "Command message for the synchronized position motion",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550532": {
+          "text": "SyncCmdMode was changed",
+          "version": 1
+        }
+      }
+    },
+    "090A0FFC": {
+      "text": "Trace message motion.sync",
+      "version": 1
+    },
+    "090A0FFD": {
+      "text": "Trace message motion.script",
+      "version": 1
+    },
+    "090A0FFE": {
+      "text": "Trace message motion.collisionavoidance",
+      "version": 1
+    },
+    "090A0FFF": {
+      "text": "Trace message motion.core",
+      "version": 1
+    },
+    "090E0000": {
+      "text": "Commanded dynamic parameters exceed axis limits",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550530": {
+          "text": "Axis limits exceeded",
+          "version": 1
+        },
+        "0C560100": {
+          "text": "Velocity limit exceeded",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Jerk acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Jerk deceleration limit exceeded",
+          "version": 1
+        }
+      }
+    },
+    "090E0001": {
+      "text": "Commanded dynamic parameters exceed kinematic limits",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560100": {
+          "text": "Velocity limit exceeded",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Jerk acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Jerk deceleration limit exceeded",
+          "version": 1
+        }
+      }
+    },
+    "090E0002": {
+      "text": "Gantry configuration inconsistent",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560242": {
+          "text": "Gantry: Multiple brake dynamic configuration is inconsistent",
+          "version": 1
+        },
+        "0C560243": {
+          "text": "Error reaction: Braking delay time is not supported by the device",
+          "version": 1
+        },
+        "0C560244": {
+          "text": "Error reaction: Braking delay time is disabled in the device",
+          "version": 1
+        },
+        "0C560245": {
+          "text": "Error reaction: Reading the device settings for the braking delay time failed",
+          "version": 1
+        },
+        "0C560246": {
+          "text": "Error reaction: Reading of the device settings to the dynamic limitations of the braking deceleration failed",
+          "version": 1
+        },
+        "0C560247": {
+          "text": "Gantry multiple brake dynamic limitation is not equal between axis and device",
+          "version": 1
+        },
+        "0C560248": {
+          "text": "Error reaction: Lower limit of the device braking delay time undershot",
+          "version": 1
+        },
+        "0C560249": {
+          "text": "Error reaction: Upper limit of the device braking delay time exceeded",
+          "version": 1
+        }
+      }
+    },
+    "090E0003": {
+      "text": "Configured kinematic limit value reached.",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C56010B": {
+          "text": "The command buffers were consumed for look-ahead.",
+          "version": 1
+        }
+      }
+    },
+    "090E0010": {
+      "text": "Warning in jog command of the axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        }
+      }
+    },
+    "090E0011": {
+      "text": "Warning in the jog command of the kinematics",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        }
+      }
+    },
+    "090E0030": {
+      "text": "Axis does not follow command values (setpoints)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C57010F": {
+          "text": "Axis cannot (or can no longer) follow the command values of the control.",
+          "version": 1
+        }
+      }
+    },
+    "090E0200": {
+      "text": "General AxisProfile warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580035": {
+          "text": "Function not supported",
+          "version": 1
+        }
+      }
+    },
+    "090E0201": {
+      "text": "AxisProfile booting warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580500": {
+          "text": "Booting aborted",
+          "version": 1
+        },
+        "0C580501": {
+          "text": "Time exceeded when booting the axis profile",
+          "version": 1
+        },
+        "0C580502": {
+          "text": "Field bus master not available when booting the axis profile",
+          "version": 1
+        },
+        "0C580503": {
+          "text": "Error in the status of the field bus master when booting the axis profile",
+          "version": 1
+        },
+        "0C580504": {
+          "text": "Slave device not available when booting the axis profile",
+          "version": 1
+        },
+        "0C580505": {
+          "text": "Error in the status of the slave device when booting the axis profile",
+          "version": 1
+        },
+        "0C580506": {
+          "text": "The task's callable unit \"axisprofile adaption\" could not be switched to the state \"RUN\"",
+          "version": 1
+        }
+      }
+    },
+    "090E02FF": {
+      "text": "Trace warning common.axisprofile",
+      "version": 1
+    },
+    "090E04FF": {
+      "text": "Trace warning plc.cmp.motion",
+      "version": 1
+    },
+    "090E0500": {
+      "text": "Warning: Axis limits exceeded",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550530": {
+          "text": "Axis limits exceeded",
+          "version": 1
+        }
+      }
+    },
+    "090E0512": {
+      "text": "Warning during dynamic synchronization",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550540": {
+          "text": "The dynamic limits during dynamic synchronization exceed the configured axis limits. The dynamic limits are adapted to the axis limits.",
+          "version": 1
+        }
+      }
+    },
+    "090E0FFC": {
+      "text": "Trace warning motion.sync",
+      "version": 1
+    },
+    "090E0FFD": {
+      "text": "Trace warning motion.script",
+      "version": 1
+    },
+    "090E0FFE": {
+      "text": "Trace warning motion.collisionavoidance",
+      "version": 1
+    },
+    "090E0FFF": {
+      "text": "Trace warning motion.core",
+      "version": 1
+    },
+    "090F0000": {
+      "text": "General axis profile error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580001": {
+          "text": "Invalid value",
+          "version": 1
+        },
+        "0C580002": {
+          "text": "Null pointer detected",
+          "version": 1
+        },
+        "0C580402": {
+          "text": "Scaling type error",
+          "version": 1
+        },
+        "0C580403": {
+          "text": "Scaling value error",
+          "version": 1
+        }
+      }
+    },
+    "090F0001": {
+      "text": "Axis profile configuration error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580030": {
+          "text": "Invalid device name",
+          "version": 1
+        },
+        "0C580061": {
+          "text": "\"Create profile\" was called with an invalid name",
+          "version": 1
+        },
+        "0C580062": {
+          "text": "\"Create profile\" was called with an invalid type",
+          "version": 1
+        },
+        "0C580063": {
+          "text": "\"Create profile\" failed because the requested profile already exists",
+          "version": 1
+        },
+        "0C580064": {
+          "text": "Creating the profile failed due to lack of memory",
+          "version": 1
+        },
+        "0C580065": {
+          "text": "Creating the profile failed, as the maximum number of profiles already reached",
+          "version": 1
+        },
+        "0C580071": {
+          "text": "Invalid name when deleting the profile",
+          "version": 1
+        },
+        "0C580072": {
+          "text": "Deleting the profile failed, as the profile could not be found",
+          "version": 1
+        },
+        "0C580073": {
+          "text": "Deleting the profile failed, as the profile is currently used",
+          "version": 1
+        },
+        "0C580080": {
+          "text": "Connecting profile failed",
+          "version": 1
+        },
+        "0C580081": {
+          "text": "Invalid name when connecting to a profile",
+          "version": 1
+        },
+        "0C580082": {
+          "text": "Connecting the profile failed, as the requested profile could not be found",
+          "version": 1
+        },
+        "0C580083": {
+          "text": "Connecting the profile failed, as the requested profile is currently used",
+          "version": 1
+        },
+        "0C580090": {
+          "text": "Initialization of realtime input mapping failed",
+          "version": 1
+        },
+        "0C580091": {
+          "text": "Initialization of realtime output mapping failed",
+          "version": 1
+        },
+        "0C580097": {
+          "text": "Profile variable not assigned",
+          "version": 1
+        }
+      }
+    },
+    "090F0002": {
+      "text": "Profile error in axis profile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580098": {
+          "text": "Desired operating mode cannot be set because it is not assigned",
+          "version": 1
+        },
+        "0C580100": {
+          "text": "Another command is currently processed",
+          "version": 1
+        },
+        "0C580101": {
+          "text": "Timeout in command execution",
+          "version": 1
+        }
+      }
+    },
+    "090F0003": {
+      "text": "Data Layer provider error in axis profile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580000": {
+          "text": "Function not implemented",
+          "version": 1
+        },
+        "0C580001": {
+          "text": "Invalid value",
+          "version": 1
+        },
+        "0C580003": {
+          "text": "Inconsistent system",
+          "version": 1
+        },
+        "0C580004": {
+          "text": "Invalid profile name",
+          "version": 1
+        },
+        "0C580005": {
+          "text": "An attempt was made to write an invalid device address",
+          "version": 1
+        },
+        "0C580006": {
+          "text": "Profile not found",
+          "version": 1
+        },
+        "0C580030": {
+          "text": "Invalid device name",
+          "version": 1
+        },
+        "0C580031": {
+          "text": "Failed to retrieve the maximum booting timeout",
+          "version": 1
+        },
+        "0C580032": {
+          "text": "Invalid profile category data",
+          "version": 1
+        },
+        "0C580050": {
+          "text": "Request to the axis profile state failed",
+          "version": 1
+        },
+        "0C580051": {
+          "text": "Querying the name of the current axis profile state failed",
+          "version": 1
+        },
+        "0C580052": {
+          "text": "Querying all names of the axis profile states failed",
+          "version": 1
+        },
+        "0C580060": {
+          "text": "Creating profile failed",
+          "version": 1
+        },
+        "0C580070": {
+          "text": "Deleting profile failed",
+          "version": 1
+        },
+        "0C580071": {
+          "text": "Invalid name when deleting the profile",
+          "version": 1
+        },
+        "0C580092": {
+          "text": "Configuring input value failed",
+          "version": 1
+        },
+        "0C580093": {
+          "text": "Configuring output value failed",
+          "version": 1
+        },
+        "0C580094": {
+          "text": "Backup and restore operation failed",
+          "version": 1
+        },
+        "0C580095": {
+          "text": "Accessing profile input/output buffer failed",
+          "version": 1
+        },
+        "0C580096": {
+          "text": "Setting profile input/output buffer failed",
+          "version": 1
+        },
+        "0C580200": {
+          "text": "Invalid flat buffer",
+          "version": 1
+        }
+      }
+    },
+    "090F0004": {
+      "text": "Switching the operation mode failed",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C580053": {
+          "text": "Switch axis profile state to \"Running\" failed",
+          "version": 1
+        },
+        "0C580054": {
+          "text": "Axis profile is in error state",
+          "version": 1
+        }
+      }
+    },
+    "090F0005": {
+      "text": "AxisProfile error on connected device",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580300": {
+          "text": "Operation mode not configured correctly",
+          "version": 1
+        },
+        "0C580301": {
+          "text": "The device series is not defined",
+          "version": 1
+        }
+      }
+    },
+    "090F0006": {
+      "text": "Error in axis profile of the touch probe",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580350": {
+          "text": "Touch probe selection not available",
+          "version": 1
+        },
+        "0C580351": {
+          "text": "Executing the touch probe failed",
+          "version": 1
+        },
+        "0C580352": {
+          "text": "Time measurement of the touch probe beyond the limit value",
+          "version": 1
+        }
+      }
+    },
+    "090F0007": {
+      "text": "Error when scaling axis profile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580400": {
+          "text": "Torque/force scaling type error",
+          "version": 1
+        },
+        "0C580401": {
+          "text": "Inconsistent scaling type on drive and control side",
+          "version": 1
+        },
+        "0C580404": {
+          "text": "FPU exception detected during the calculation of scaling data.",
+          "version": 1
+        }
+      }
+    },
+    "090F0008": {
+      "text": "Axis profile field bus error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580033": {
+          "text": "Master status error",
+          "version": 1
+        },
+        "0C580034": {
+          "text": "Error in slave status",
+          "version": 1
+        }
+      }
+    },
+    "090F0009": {
+      "text": "Command error for axis profile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580102": {
+          "text": "Failed to execute the axis profile command",
+          "version": 1
+        },
+        "0C580302": {
+          "text": "There might be a configuration error on the device.",
+          "version": 1
+        }
+      }
+    },
+    "090F0010": {
+      "text": "Booting error for axis profile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580302": {
+          "text": "There might be a configuration error on the device.",
+          "version": 1
+        },
+        "0C580506": {
+          "text": "The task's callable unit \"axisprofile adaption\" could not be switched to the state \"RUN\"",
+          "version": 1
+        }
+      }
+    },
+    "090F0050": {
+      "text": "License for current configuration missing",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55052E": {
+          "text": "License for the \"Cam\" functionality is missing",
+          "version": 1
+        },
+        "0C55052F": {
+          "text": "License for the \"Flex Profile\" functionality is missing",
+          "version": 1
+        },
+        "0C56020F": {
+          "text": "Current motion configuration invalid - License missing",
+          "version": 1
+        },
+        "0C560210": {
+          "text": "Motion basic license missing",
+          "version": 1
+        }
+      }
+    },
+    "090F0051": {
+      "text": "Axis configuration error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550501": {
+          "text": "Invalid Flatbuffer structure",
+          "version": 1
+        },
+        "0C550541": {
+          "text": "Negative values are not permitted for dynamic synchronization limit value settings.",
+          "version": 1
+        },
+        "0C560200": {
+          "text": "Detected a motion object with unknown type",
+          "version": 1
+        },
+        "0C560230": {
+          "text": "Parameter value is too low",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameter value is too big",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameter value is outside of limit",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Linear unit is required",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotary unit is required",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Specified unit does match the unit type",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Specified unit is not supported",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Parameter position minimum is greater than position maximum",
+          "version": 1
+        },
+        "0C560241": {
+          "text": "Configured axis type does not fit to the device configuration",
+          "version": 1
+        },
+        "0C56024A": {
+          "text": "Axis jerk limit only partly set",
+          "version": 1
+        },
+        "0C56024B": {
+          "text": "Configured axis format does not match the device format (modulo/absolute)",
+          "version": 1
+        },
+        "0C56024C": {
+          "text": "Axis category is invalid",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standard unit for a kinematic position (XYZ) has to be a linear position unit",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standard unit for a kinematic orientation has to be a rotary position unit",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standard unit for an additional kinematic axis has to be a position unit",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Motion object (axis or kinematics) command failed",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0052": {
+      "text": "Kinematic configuration error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550272": {
+          "text": "Error while configuring the encoder axis",
+          "version": 1
+        },
+        "0C560230": {
+          "text": "Parameter value is too low",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameter value is too big",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameter value is outside of limit",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Linear unit is required",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotary unit is required",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Specified unit does match the unit type",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Specified unit is not supported",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Parameter position minimum is greater than position maximum",
+          "version": 1
+        },
+        "0C560250": {
+          "text": "Kinematic has no assigned axes",
+          "version": 1
+        },
+        "0C560253": {
+          "text": "Assigned axis received an error",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standard unit for a kinematic position (XYZ) has to be a linear position unit",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standard unit for a kinematic orientation has to be a rotary position unit",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standard unit for an additional kinematic axis has to be a position unit",
+          "version": 1
+        },
+        "0C560257": {
+          "text": "Standard units for the position of kinematic axes have to be the same if they are assigned to the same index",
+          "version": 1
+        },
+        "0C560258": {
+          "text": "Configured axis transformation is unknown",
+          "version": 1
+        },
+        "0C560259": {
+          "text": "Invalid coordinate system for safe zone",
+          "version": 1
+        },
+        "0C560260": {
+          "text": "Invalid type for safe zone",
+          "version": 1
+        },
+        "0C560261": {
+          "text": "Invalid dimension for safe zone in this coordinate system",
+          "version": 1
+        },
+        "0C560262": {
+          "text": "Jerk limits of the path only partly set",
+          "version": 1
+        },
+        "0C560263": {
+          "text": "Invalid parameter group name in the axis transformation data",
+          "version": 1
+        },
+        "0C560264": {
+          "text": "Invalid parameter name in the axis transformation data",
+          "version": 1
+        },
+        "0C560265": {
+          "text": "Invalid parameters in the axis transformation",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Motion object (axis or kinematics) command failed",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0053": {
+      "text": "Error in configuration of the Motion system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion object with given name was not found",
+          "version": 1
+        },
+        "0C560203": {
+          "text": "Creating and deleting motion objects is allowed only in the \"Configuration\" state",
+          "version": 1
+        },
+        "0C560204": {
+          "text": "Creation of motion object failed, out of memory",
+          "version": 1
+        },
+        "0C560205": {
+          "text": "Creation of motion object failed, object with same name exists",
+          "version": 1
+        },
+        "0C560206": {
+          "text": "Floating point error during the motion command execution",
+          "version": 1
+        },
+        "0C560207": {
+          "text": "Initialization of system failed",
+          "version": 1
+        },
+        "0C560208": {
+          "text": "Switching the system to the \"Running\" state failed",
+          "version": 1
+        },
+        "0C560209": {
+          "text": "System boot failed",
+          "version": 1
+        },
+        "0C56020A": {
+          "text": "Clear error of field device failed during bootup",
+          "version": 1
+        },
+        "0C56020B": {
+          "text": "Clear field device error during booting failed because of timeout",
+          "version": 1
+        },
+        "0C56020C": {
+          "text": "No additional axis can be created, this app has a maximum limit",
+          "version": 1
+        },
+        "0C56020D": {
+          "text": "The task's callable unit \"motion\" has not reached \"RUN\" state during bootup",
+          "version": 1
+        },
+        "0C56020E": {
+          "text": "The high priority task's callable unit \"motion-high-prio-prep\" has not reached \"RUN\" state during bootup",
+          "version": 1
+        },
+        "0C560211": {
+          "text": "The attempt to change the axis category failed, as the axis is not in the correct state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0054": {
+      "text": "Error during backup or restoration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550606": {
+          "text": "The specified profile name is invalid.",
+          "version": 1
+        },
+        "0C560201": {
+          "text": "Motion object with given name was not found",
+          "version": 1
+        },
+        "0C560202": {
+          "text": "Metadata could not be read",
+          "version": 1
+        },
+        "0C560220": {
+          "text": "Could not save a motion object to JSON file",
+          "version": 1
+        },
+        "0C560222": {
+          "text": "File could not be read",
+          "version": 1
+        },
+        "0C560223": {
+          "text": "File could not be written",
+          "version": 1
+        },
+        "0C560224": {
+          "text": "Content of JSON configuration file is not valid for this load operation",
+          "version": 1
+        },
+        "0C560225": {
+          "text": "Could not read the configuration folder",
+          "version": 1
+        },
+        "0C560226": {
+          "text": "Could not delete the configuration folder",
+          "version": 1
+        },
+        "0C560227": {
+          "text": "Not able to write single configuration to \"Data Layer\" node",
+          "version": 1
+        },
+        "0C560228": {
+          "text": "No configuration could be read on the \"Data Layer\" node",
+          "version": 1
+        },
+        "0C560229": {
+          "text": "A partial configuration cannot be loaded if it is not in the “CONFIGURATION” state",
+          "version": 1
+        },
+        "0C56022A": {
+          "text": "Not able to save while motion system is in \"BOOTING\" state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0070": {
+      "text": "Error during extrapolation of the actual values",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550220": {
+          "text": "Internal error - extrapolation disabled",
+          "version": 1
+        },
+        "0C550221": {
+          "text": "No ACTUAL position available - extrapolation disabled",
+          "version": 1
+        }
+      }
+    },
+    "090F0080": {
+      "text": "General error of the encoder axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550272": {
+          "text": "Error while configuring the encoder axis",
+          "version": 1
+        }
+      }
+    },
+    "090F0081": {
+      "text": "Error in the function of the encoder axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
+          "version": 1
+        },
+        "0C550360": {
+          "text": "Positioning mode is not supported",
+          "version": 1
+        },
+        "0C550361": {
+          "text": "Velocity mode is not supported",
+          "version": 1
+        },
+        "0C550362": {
+          "text": "Torque mode is not supported",
+          "version": 1
+        }
+      }
+    },
+    "090F02FF": {
+      "text": "Trace error common.axisprofile",
+      "version": 1
+    },
+    "090F0400": {
+      "text": "Error in plc data",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570450": {
+          "text": "The plc application pointer is invalid",
+          "version": 1
+        }
+      }
+    },
+    "090F04FF": {
+      "text": "Trace error plc.cmp.motion",
+      "version": 1
+    },
+    "090F0500": {
+      "text": "Error when loading the calculation pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550501": {
+          "text": "Invalid Flatbuffer structure",
+          "version": 1
+        },
+        "0C550502": {
+          "text": "Name of the calculation pipeline is not provided",
+          "version": 1
+        },
+        "0C550503": {
+          "text": "Error when adding a calculation step to the pipeline",
+          "version": 1
+        },
+        "0C550504": {
+          "text": "Type of a calculation pipeline step does not exist",
+          "version": 1
+        },
+        "0C550505": {
+          "text": "The defined type of the calculation step does not exist",
+          "version": 1
+        },
+        "0C550506": {
+          "text": "The number of defined inputs does not match the number of inputs of the calculation step",
+          "version": 1
+        },
+        "0C550507": {
+          "text": "Inputs for the calculation step do not exist",
+          "version": 1
+        },
+        "0C550508": {
+          "text": "The defined value of the inputs of the master is invalid for the calculation step",
+          "version": 1
+        },
+        "0C550509": {
+          "text": "The defined value is invalid for the input of the calculation step",
+          "version": 1
+        },
+        "0C55050A": {
+          "text": "The name of the calculation step parameter is not defined",
+          "version": 1
+        },
+        "0C55050B": {
+          "text": "The name of the calculation step parameter does not exist",
+          "version": 1
+        },
+        "0C55050C": {
+          "text": "Invalid type of the calculation step parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0501": {
+      "text": "Error when configuring the calculation pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550501": {
+          "text": "Invalid Flatbuffer structure",
+          "version": 1
+        },
+        "0C550502": {
+          "text": "Name of the calculation pipeline is not provided",
+          "version": 1
+        },
+        "0C550503": {
+          "text": "Error when adding a calculation step to the pipeline",
+          "version": 1
+        },
+        "0C550504": {
+          "text": "Type of a calculation pipeline step does not exist",
+          "version": 1
+        },
+        "0C550505": {
+          "text": "The defined type of the calculation step does not exist",
+          "version": 1
+        },
+        "0C550506": {
+          "text": "The number of defined inputs does not match the number of inputs of the calculation step",
+          "version": 1
+        },
+        "0C550507": {
+          "text": "Inputs for the calculation step do not exist",
+          "version": 1
+        },
+        "0C550508": {
+          "text": "The defined value of the inputs of the master is invalid for the calculation step",
+          "version": 1
+        },
+        "0C550509": {
+          "text": "The defined value is invalid for the input of the calculation step",
+          "version": 1
+        },
+        "0C55050A": {
+          "text": "The name of the calculation step parameter is not defined",
+          "version": 1
+        },
+        "0C55050B": {
+          "text": "The name of the calculation step parameter does not exist",
+          "version": 1
+        },
+        "0C55050C": {
+          "text": "Invalid type of the calculation step parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0502": {
+      "text": "Non-fatal error when validating the calculation pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55050D": {
+          "text": "Calculation pipeline cannot be locked for editing",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "The input of the calculation step is not connected to a source",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "The source connected to the calculation step input is of a different type",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameter value of the calculation step is invalid",
+          "version": 1
+        },
+        "0C550511": {
+          "text": "At least two calculation step parameters are set. These parameters mutually exclude each other",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Mandatory parameter is not defined for the calculation step",
+          "version": 1
+        },
+        "0C550513": {
+          "text": "Calculation pipeline is not assigned to any output",
+          "version": 1
+        },
+        "0C550514": {
+          "text": "More than one output is assigned to the calculation pipeline",
+          "version": 1
+        },
+        "0C550515": {
+          "text": "Existing circular dependency in the steps of the calculation pipeline",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Not all masters are defined for the calculation pipeline",
+          "version": 1
+        }
+      }
+    },
+    "090F0503": {
+      "text": "Non-fatal error in axis command \"GearInPos\"",
+      "version": 1
+    },
+    "090F0504": {
+      "text": "Non-fatal error in calculation pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550522": {
+          "text": "Calculation pipeline step is not validated",
+          "version": 1
+        },
+        "0C550535": {
+          "text": "Multiple master input is not yet supported",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "The absolute entry position in the FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "The absolute entry position into the FlexProfile is ambiguous because a change of master (axis or time) occurred.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "The negative master axis velocity is not allowed in the FlexProfile with conditions or time master axes.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "The FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "There is no \"single\" execution of the FlexProfile. There is only a \"cyclic\" execution.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "There is no \"cyclic\" execution of the FlexProfile. There is only a \"single\" execution.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "The specified profile name is invalid.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "The angleAdjust is invalid.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "An error occurred in the firmware while calculating the FlexProfile.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "No motion steps are configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "An invalid master axis range was configured with the value 0 or with a negative value.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "The boundary values of a motion step cannot be combined with the boundary values of the subsequent motion step.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "The boundary values of a motion step are not allowed for the selected motion law.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "An invalid distance was configured, which is not allowed in the selected motion law.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "An invalid inflection point displacement - that is not allowed in the selected motion law - was configured.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "An invalid straight slope was configured. The specified start and end velocities do not coincide with the velocity resulting from the distance and the master axis range of the motion step.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "An invalid cam table was configured. It is possible that the cam does not contain any points.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "An invalid master type was configured.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "The configured end velocity of this motion segment does not match the start velocity of the next motion segment.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "There is an acceleration jump in the FlexProfile. The configured end acceleration of a motion step does not match the start acceleration of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "There is a jerk jump in the FlexProfile. The configured end jerk of a motion step does not match the start jerk of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "A traversing velocity that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "A traversing acceleration that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "A traversing jerk that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "An invalid motion law was configured.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "An invalid motion step type was configured.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In a motion step configured as Flex step, the selected motion law is invalid.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Motion limit values that are too low (traversing velocity, traversing acceleration and/or traversing jerk) were configured for the selected motion law.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Several Flex steps were configured consecutively.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "A FlexProfile event was configured with an invalid trigger mode.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "A FlexProfile event was configured with an invalid action mode.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "A FlexProfile event was configured with a motion step that is not present in the FlexProfile.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "The FlexProfile is edited. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "The FlexProfile is executed. Editing is not allowed in this state.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "The FlexProfile is not validated. Execution is not permitted in this state.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "The FlexProfile is being validated. Execution or editing is not permitted in this state.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "The FlexProfile is invalid. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "The denominator of the gear ratio is invalid with the value 0",
+          "version": 1
+        }
+      }
+    },
+    "090F0505": {
+      "text": "Error when calling calculation step by the Data Layer",
+      "version": 1
+    },
+    "090F0506": {
+      "text": "Error when calling calculation step param by the Data Layer",
+      "version": 1
+    },
+    "090F0507": {
+      "text": "MAIN_DIAG_MOTION_CORE_GEARINVEL_CMD_ERROR_F0",
+      "version": 1
+    },
+    "090F0510": {
+      "text": "Error in FlexProfile configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550602": {
+          "text": "The negative master axis velocity is not allowed in the FlexProfile with conditions or time master axes.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "The specified profile name is invalid.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "No motion steps are configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "An invalid master axis range was configured with the value 0 or with a negative value.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "The boundary values of a motion step cannot be combined with the boundary values of the subsequent motion step.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "The boundary values of a motion step are not allowed for the selected motion law.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "An invalid distance was configured, which is not allowed in the selected motion law.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "An invalid inflection point displacement - that is not allowed in the selected motion law - was configured.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "An invalid straight slope was configured. The specified start and end velocities do not coincide with the velocity resulting from the distance and the master axis range of the motion step.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "An invalid cam table was configured. It is possible that the cam does not contain any points.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "An invalid master type was configured.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "The configured end velocity of this motion segment does not match the start velocity of the next motion segment.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "There is an acceleration jump in the FlexProfile. The configured end acceleration of a motion step does not match the start acceleration of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "There is a jerk jump in the FlexProfile. The configured end jerk of a motion step does not match the start jerk of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "A traversing velocity that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "A traversing acceleration that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "A traversing jerk that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "An invalid motion law was configured.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "An invalid motion step type was configured.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In a motion step configured as Flex step, the selected motion law is invalid.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Motion limit values that are too low (traversing velocity, traversing acceleration and/or traversing jerk) were configured for the selected motion law.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Several Flex steps were configured consecutively.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "A FlexProfile event was configured with an invalid trigger mode.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "A FlexProfile event was configured with an invalid action mode.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "A FlexProfile event was configured with a motion step that is not present in the FlexProfile.",
+          "version": 1
+        },
+        "0C550625": {
+          "text": "More FlexProfile events than allowed were configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C550626": {
+          "text": "More motion steps than allowed were configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C550629": {
+          "text": "The referenced cam does not exist.",
+          "version": 1
+        }
+      }
+    },
+    "090F0511": {
+      "text": "Wrong state in FlexProfile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550620": {
+          "text": "The FlexProfile is edited. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "The FlexProfile is executed. Editing is not allowed in this state.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "The FlexProfile is not validated. Execution is not permitted in this state.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "The FlexProfile is being validated. Execution or editing is not permitted in this state.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "The FlexProfile is invalid. Execution or validation is not permitted in this state.",
+          "version": 1
+        }
+      }
+    },
+    "090F0512": {
+      "text": "Error in the \"CamIn\" axis command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550629": {
+          "text": "The referenced cam does not exist.",
+          "version": 1
+        },
+        "0C550631": {
+          "text": "Waiting for the switching position. No further CamIn command can be executed in the meantime.",
+          "version": 1
+        }
+      }
+    },
+    "090F0FFC": {
+      "text": "Trace error motion.sync",
+      "version": 1
+    },
+    "090F0FFD": {
+      "text": "Trace error motion.script",
+      "version": 1
+    },
+    "090F0FFE": {
+      "text": "Trace error motion.collisionavoidance",
+      "version": 1
+    },
+    "090F0FFF": {
+      "text": "Trace error motion.core",
+      "version": 1
+    },
+    "090F2000": {
+      "text": "Device error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550001": {
+          "text": "Field device error",
+          "version": 1
+        },
+        "0C550102": {
+          "text": "Device error - Determining position data failed",
+          "version": 1
+        },
+        "0C560245": {
+          "text": "Error reaction: Reading the device settings for the braking delay time failed",
+          "version": 1
+        },
+        "0C560246": {
+          "text": "Error reaction: Reading of the device settings to the dynamic limitations of the braking deceleration failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2001": {
+      "text": "General command error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570000": {
+          "text": "Command not in state \"active\" or \"done\"",
+          "version": 1
+        },
+        "0C570003": {
+          "text": "Command could not be executed, as this version is not subject to export approval and as more than 4 axes should be interpolated",
+          "version": 1
+        },
+        "0C570004": {
+          "text": "FPU exception detected in the JobList execution",
+          "version": 1
+        },
+        "0C570005": {
+          "text": "Axis position limit exceeded",
+          "version": 1
+        },
+        "0C570008": {
+          "text": "Command preparation takes too long and active command is completed with velocity <> 0",
+          "version": 1
+        },
+        "0C570009": {
+          "text": "Commanded jerk limit only partly set",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C57010B": {
+          "text": "Function not implemented",
+          "version": 1
+        }
+      }
+    },
+    "090F2002": {
+      "text": "General axis command error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550100": {
+          "text": "Reset of device failed",
+          "version": 1
+        },
+        "0C550101": {
+          "text": "Device error - power failed",
+          "version": 1
+        },
+        "0C550270": {
+          "text": "General error of the axis of the encoder",
+          "version": 1
+        },
+        "0C550271": {
+          "text": "Command for encoder axis not permitted",
+          "version": 1
+        },
+        "0C560000": {
+          "text": "Axis for axis command was not found",
+          "version": 1
+        },
+        "0C560001": {
+          "text": "Not enough memory for command (or too many non-buffered commands)",
+          "version": 1
+        },
+        "0C560278": {
+          "text": "FPU exception detected during check of the limit switches.",
+          "version": 1
+        },
+        "0C560279": {
+          "text": "FPU exception detected during the transmission of setpoints to the device.",
+          "version": 1
+        },
+        "0C56027A": {
+          "text": "FPU exception detected during value adaption from the device.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C570103": {
+          "text": "Initialization of command failed",
+          "version": 1
+        },
+        "0C570105": {
+          "text": "Command during error reaction is not allowed",
+          "version": 1
+        },
+        "0C570106": {
+          "text": "No add_cmd during reset",
+          "version": 1
+        },
+        "0C570107": {
+          "text": "Command is not allowed",
+          "version": 1
+        },
+        "0C570108": {
+          "text": "Command without a frame",
+          "version": 1
+        },
+        "0C57010F": {
+          "text": "Axis cannot (or can no longer) follow the command values of the control.",
+          "version": 1
+        },
+        "0C570153": {
+          "text": "FPU exception detected in the execution of an additional command.",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2003": {
+      "text": "Error in axis command \"AddToKin\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550110": {
+          "text": "Parameter error - Requested kinematic does not exist",
+          "version": 1
+        },
+        "0C550112": {
+          "text": "Slave axis configuration is missing",
+          "version": 1
+        },
+        "0C550113": {
+          "text": "Invalid configuration detected",
+          "version": 1
+        },
+        "0C550114": {
+          "text": "Multiple axis assignment",
+          "version": 1
+        },
+        "0C550120": {
+          "text": "Axis or kinematic is still moving",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C57010A": {
+          "text": "Another command is still active",
+          "version": 1
+        },
+        "0C57010C": {
+          "text": "Invalid axis type",
+          "version": 1
+        }
+      }
+    },
+    "090F2004": {
+      "text": "Error in axis command \"RemoveFromKin\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550110": {
+          "text": "Parameter error - Requested kinematic does not exist",
+          "version": 1
+        },
+        "0C550120": {
+          "text": "Axis or kinematic is still moving",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        }
+      }
+    },
+    "090F2005": {
+      "text": "Error in axis command \"AddToMaster\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550130": {
+          "text": "Axis is already a slave of a master axis",
+          "version": 1
+        }
+      }
+    },
+    "090F2006": {
+      "text": "Axis limit exceeded",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560100": {
+          "text": "Velocity limit exceeded",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Jerk acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Jerk deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560105": {
+          "text": "\"TargetPos\" limit exceeded",
+          "version": 1
+        },
+        "0C560106": {
+          "text": "\"TargetPos\" minimum limit exceeded",
+          "version": 1
+        },
+        "0C560107": {
+          "text": "TargetPos max limit exceeded",
+          "version": 1
+        },
+        "0C56024A": {
+          "text": "Axis jerk limit only partly set",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570161": {
+          "text": "Invalid unit configured for the commanded velocity limit value",
+          "version": 1
+        },
+        "0C570162": {
+          "text": "Invalid unit configured for the commanded acceleration/deceleration limit value",
+          "version": 1
+        },
+        "0C570163": {
+          "text": "Invalid unit for the configured commanded jerk limit value",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2007": {
+      "text": "Error in axis jog command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550140": {
+          "text": "Jog increment is invalid",
+          "version": 1
+        },
+        "0C550141": {
+          "text": "Continuous jog has a set increment parameter",
+          "version": 1
+        },
+        "0C550142": {
+          "text": "Direction vector has length 0",
+          "version": 1
+        },
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2008": {
+      "text": "Error in axis Gantry command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550150": {
+          "text": "Gantry commands are only allowed, when the axis is configured to be a gantry object",
+          "version": 1
+        },
+        "0C550151": {
+          "text": "Given command is not allowed for a gantry master axis (when slave axis is connected)",
+          "version": 1
+        },
+        "0C550152": {
+          "text": "Given command is not allowed for a gantry slave axis (when slave axis is connected)",
+          "version": 1
+        },
+        "0C550153": {
+          "text": "Given command is not allowed for a gantry object when not connected",
+          "version": 1
+        },
+        "0C550154": {
+          "text": "Given command is not allowed for a gantry object when not connected (even when independent motion is allowed)",
+          "version": 1
+        },
+        "0C550156": {
+          "text": "Gantry slave axis has an error which is copied to the gantry master axis",
+          "version": 1
+        },
+        "0C550157": {
+          "text": "Gantry master axis has an error which is copied to the gantry slave axis",
+          "version": 1
+        },
+        "0C550159": {
+          "text": "Gantry master axis does not (or no longer) follow the command values of the control",
+          "version": 1
+        },
+        "0C55015A": {
+          "text": "Gantry slave axis does not (or no longer) follow the command values of the control",
+          "version": 1
+        }
+      }
+    },
+    "090F2009": {
+      "text": "Error in axis command \"AddToGantry\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550155": {
+          "text": "Requested gantry master axis does not exist",
+          "version": 1
+        },
+        "0C550158": {
+          "text": "Axis or gantry is still moving",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C57010A": {
+          "text": "Another command is still active",
+          "version": 1
+        },
+        "0C57010C": {
+          "text": "Invalid axis type",
+          "version": 1
+        }
+      }
+    },
+    "090F200A": {
+      "text": "Error in axis command \"RemoveFromGantry\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550158": {
+          "text": "Axis or gantry is still moving",
+          "version": 1
+        },
+        "0C55015B": {
+          "text": "Parameter error - Requested gantry master axis does not exist",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        }
+      }
+    },
+    "090F200B": {
+      "text": "Axis configuration error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560200": {
+          "text": "Detected a motion object with unknown type",
+          "version": 1
+        },
+        "0C560230": {
+          "text": "Parameter value is too low",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameter value is too big",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameter value is outside of limit",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Linear unit is required",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotary unit is required",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Specified unit does match the unit type",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Specified unit is not supported",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Parameter position minimum is greater than position maximum",
+          "version": 1
+        },
+        "0C560241": {
+          "text": "Configured axis type does not fit to the device configuration",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standard unit for a kinematic position (XYZ) has to be a linear position unit",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standard unit for a kinematic orientation has to be a rotary position unit",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standard unit for an additional kinematic axis has to be a position unit",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Motion object (axis or kinematics) command failed",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F200C": {
+      "text": "General axis command error",
+      "version": 1
+    },
+    "090F200D": {
+      "text": "Error in abort command of the axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Jerk deceleration limit exceeded",
+          "version": 1
+        },
+        "0C57010D": {
+          "text": "Error when computing the interpolation parameters",
+          "version": 1
+        }
+      }
+    },
+    "090F200E": {
+      "text": "Error in axis reset command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550100": {
+          "text": "Reset of device failed",
+          "version": 1
+        },
+        "0C550160": {
+          "text": "Timeout while waiting for the command preparation",
+          "version": 1
+        },
+        "0C550161": {
+          "text": "Timeout while clearing the device error",
+          "version": 1
+        },
+        "0C550162": {
+          "text": "Timeout while clearing the Motion diagnostic",
+          "version": 1
+        },
+        "0C550163": {
+          "text": "Timeout while resetting the axis motion object",
+          "version": 1
+        },
+        "0C550164": {
+          "text": "Axis cannot be reset as a system-wide error (F6 or worse) is pending",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        }
+      }
+    },
+    "090F200F": {
+      "text": "Error in axis command MoveVelocity",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Operation mode velocity not supported by commanded drive",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Cyclic data for operation mode Velocity in the axis profile not configured",
+          "version": 1
+        },
+        "0C550172": {
+          "text": "Commanded target velocity greater than configured axis limit",
+          "version": 1
+        },
+        "0C550173": {
+          "text": "Commanded target velocity greater than commanded limit",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2010": {
+      "text": "Kinematic configuration error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560230": {
+          "text": "Parameter value is too low",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameter value is too big",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameter value is outside of limit",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Linear unit is required",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotary unit is required",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Specified unit does match the unit type",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Specified unit is not supported",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Parameter position minimum is greater than position maximum",
+          "version": 1
+        },
+        "0C560250": {
+          "text": "Kinematic has no assigned axes",
+          "version": 1
+        },
+        "0C560253": {
+          "text": "Assigned axis received an error",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standard unit for a kinematic position (XYZ) has to be a linear position unit",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standard unit for a kinematic orientation has to be a rotary position unit",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standard unit for an additional kinematic axis has to be a position unit",
+          "version": 1
+        },
+        "0C560257": {
+          "text": "Standard units for the position of kinematic axes have to be the same if they are assigned to the same index",
+          "version": 1
+        },
+        "0C560258": {
+          "text": "Configured axis transformation is unknown",
+          "version": 1
+        },
+        "0C560259": {
+          "text": "Invalid coordinate system for safe zone",
+          "version": 1
+        },
+        "0C560260": {
+          "text": "Invalid type for safe zone",
+          "version": 1
+        },
+        "0C560261": {
+          "text": "Invalid dimension for safe zone in this coordinate system",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Motion object (axis or kinematics) command failed",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2011": {
+      "text": "General kinematic command error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560001": {
+          "text": "Not enough memory for command (or too many non-buffered commands)",
+          "version": 1
+        },
+        "0C560050": {
+          "text": "Kinematics for kinematics command was not found",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C570102": {
+          "text": "Failed to register outputs",
+          "version": 1
+        },
+        "0C570103": {
+          "text": "Initialization of command failed",
+          "version": 1
+        },
+        "0C570105": {
+          "text": "Command during error reaction is not allowed",
+          "version": 1
+        },
+        "0C570108": {
+          "text": "Command without a frame",
+          "version": 1
+        },
+        "0C570109": {
+          "text": "Adding command to command preparation failed",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        },
+        "0C5701A1": {
+          "text": "Adding command to command execution failed",
+          "version": 1
+        },
+        "0C5701A2": {
+          "text": "The kinematic Motion object has an error copied to the kinematic axis",
+          "version": 1
+        }
+      }
+    },
+    "090F2012": {
+      "text": "Kinematic limit exceeded",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560100": {
+          "text": "Velocity limit exceeded",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Jerk acceleration limit exceeded",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Jerk deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560105": {
+          "text": "\"TargetPos\" limit exceeded",
+          "version": 1
+        },
+        "0C560106": {
+          "text": "\"TargetPos\" minimum limit exceeded",
+          "version": 1
+        },
+        "0C560107": {
+          "text": "TargetPos max limit exceeded",
+          "version": 1
+        },
+        "0C560108": {
+          "text": "PreCornerDistance limit exceeded",
+          "version": 1
+        },
+        "0C560109": {
+          "text": "PostCornerDistance limit exceeded",
+          "version": 1
+        },
+        "0C56010A": {
+          "text": "Maximum permissible tolerance limit (EPS) exceeded",
+          "version": 1
+        },
+        "0C560262": {
+          "text": "Jerk limits of the path only partly set",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570161": {
+          "text": "Invalid unit configured for the commanded velocity limit value",
+          "version": 1
+        },
+        "0C570162": {
+          "text": "Invalid unit configured for the commanded acceleration/deceleration limit value",
+          "version": 1
+        },
+        "0C570163": {
+          "text": "Invalid unit for the configured commanded jerk limit value",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2013": {
+      "text": "Error in kinematic jog command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550120": {
+          "text": "Axis or kinematic is still moving",
+          "version": 1
+        },
+        "0C550141": {
+          "text": "Continuous jog has a set increment parameter",
+          "version": 1
+        },
+        "0C550142": {
+          "text": "Direction vector has length 0",
+          "version": 1
+        },
+        "0C550143": {
+          "text": "Increment is 0 (or less)",
+          "version": 1
+        },
+        "0C550144": {
+          "text": "Increment is more than 100m",
+          "version": 1
+        },
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        },
+        "0C550146": {
+          "text": "Jog command is not allowed, when the active command has not has not been completed",
+          "version": 1
+        },
+        "0C550148": {
+          "text": "Jog direction vector contains only non-existing axes/coordinates.",
+          "version": 1
+        },
+        "0C550230": {
+          "text": "Positioning axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Additional axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientation was commanded multiple times",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Different orientations were commanded",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Commanded axis meaning is not supported for the kinematics",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Commanded additional axis is not assigned to the kinematics",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Commanded positioning axis is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Commanded orientation is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Commanded positioning axis is not supported by the axis transformation",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variant of the additional axis is not supported",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Commanded orientation is not supported",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        },
+        "0C5701A0": {
+          "text": "Preparation of command failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2014": {
+      "text": "Error in kinematic raw ipo command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560120": {
+          "text": "Raw interpolator was not init",
+          "version": 1
+        },
+        "0C560121": {
+          "text": "Error during initialization of the raw interpolator",
+          "version": 1
+        },
+        "0C560122": {
+          "text": "Math error in the raw interpolator",
+          "version": 1
+        },
+        "0C560123": {
+          "text": "Raw interpolator did not converge",
+          "version": 1
+        },
+        "0C560124": {
+          "text": "Error in the raw interpolator when creating the zones.",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2015": {
+      "text": "Error in additional command channel",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570150": {
+          "text": "Active command could not be aborted by a parallel additional command",
+          "version": 1
+        },
+        "0C570151": {
+          "text": "Additonal execution command is undefined (nullptr)",
+          "version": 1
+        },
+        "0C570152": {
+          "text": "Additional execution command is already in use",
+          "version": 1
+        }
+      }
+    },
+    "090F2016": {
+      "text": "General command error",
+      "version": 1
+    },
+    "090F2017": {
+      "text": "Override error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550400": {
+          "text": "Set override: Given value is not a number",
+          "version": 1
+        },
+        "0C550401": {
+          "text": "Set override: Given value is not in range [0; 1]",
+          "version": 1
+        }
+      }
+    },
+    "090F2018": {
+      "text": "Error in kinematic command \"Group\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550200": {
+          "text": "GroupEnable: Connected axis has no power",
+          "version": 1
+        }
+      }
+    },
+    "090F2019": {
+      "text": "Error in kinematic command \"Move\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550210": {
+          "text": "The kinematics must not move because the gantry master axis of the kinematics axis has no slave axis",
+          "version": 1
+        },
+        "0C550211": {
+          "text": "Invalid coordinate system for the target position",
+          "version": 1
+        },
+        "0C550230": {
+          "text": "Positioning axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Additional axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientation was commanded multiple times",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Different orientations were commanded",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Commanded axis meaning is not supported for the kinematics",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Commanded additional axis is not assigned to the kinematics",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Commanded positioning axis is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Commanded orientation is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Commanded positioning axis is not supported by the axis transformation",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variant of the additional axis is not supported",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Commanded orientation is not supported",
+          "version": 1
+        },
+        "0C550340": {
+          "text": "Commanded path too long very close to kinematic singularity for automatic bypassing",
+          "version": 1
+        },
+        "0C550341": {
+          "text": "Automatic handling of a kinematic singularity causes a large path deviation",
+          "version": 1
+        },
+        "0C570003": {
+          "text": "Command could not be executed, as this version is not subject to export approval and as more than 4 axes should be interpolated",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F201A": {
+      "text": "Error in kinematic command \"Contour\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570220": {
+          "text": "Contour \"start\" is commanded twice",
+          "version": 1
+        },
+        "0C570221": {
+          "text": "Contour \"end\" without prior contour \"start\" commanded",
+          "version": 1
+        }
+      }
+    },
+    "090F201B": {
+      "text": "Error in the geometry object of the kinematics",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550230": {
+          "text": "Positioning axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Additional axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientation was commanded multiple times",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Different orientations were commanded",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Commanded axis meaning is not supported for the kinematics",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Commanded additional axis is not assigned to the kinematics",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Commanded positioning axis is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Commanded orientation is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Commanded positioning axis is not supported by the axis transformation",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variant of the additional axis is not supported",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Commanded orientation is not supported",
+          "version": 1
+        },
+        "0C55023B": {
+          "text": "Multiple commanding of a direction attribute for the orientation motion.",
+          "version": 1
+        },
+        "0C55023C": {
+          "text": "Direction attribute is not allowed for 2D/3D orientation motion.",
+          "version": 1
+        }
+      }
+    },
+    "090F201C": {
+      "text": "Error in the kinematic command \"PreWait\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560490": {
+          "text": "Command \"PreWait\" not possible, as the command \"KinContour\" is active",
+          "version": 1
+        }
+      }
+    },
+    "090F201D": {
+      "text": "Error in the job list of the backward transformation",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604A1": {
+          "text": "Position limit value of the axis transformation",
+          "version": 1
+        },
+        "0C5604A2": {
+          "text": "Intermediate position of the axis transformation cannot be reached",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "General error",
+          "version": 1
+        }
+      }
+    },
+    "090F201E": {
+      "text": "Error in the job list of the forward transformation",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604A1": {
+          "text": "Position limit value of the axis transformation",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "General error",
+          "version": 1
+        }
+      }
+    },
+    "090F201F": {
+      "text": "Error in the kinematic command \"Circular\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604B1": {
+          "text": "2D circle requires an active plane.",
+          "version": 1
+        },
+        "0C5604B2": {
+          "text": "2D circle does not support the kinematic command type.",
+          "version": 1
+        },
+        "0C5604B3": {
+          "text": "Commanded circle parameters are mutually exclusive.",
+          "version": 1
+        },
+        "0C5604B4": {
+          "text": "Invalid circle parameter programmed.",
+          "version": 1
+        },
+        "0C5604B5": {
+          "text": "Invalid radius commanded.",
+          "version": 1
+        },
+        "0C5604B6": {
+          "text": "Invalid center point commanded.",
+          "version": 1
+        },
+        "0C5604B7": {
+          "text": "Invalid value for revolutions commanded.",
+          "version": 1
+        },
+        "0C5604B8": {
+          "text": "Start point and end point are identical: Radius programming not allowed.",
+          "version": 1
+        },
+        "0C5604B9": {
+          "text": "Points commanded on a straight line.",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2020": {
+      "text": "Error in configuration of the Motion system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion object with given name was not found",
+          "version": 1
+        },
+        "0C560203": {
+          "text": "Creating and deleting motion objects is allowed only in the \"Configuration\" state",
+          "version": 1
+        },
+        "0C560204": {
+          "text": "Creation of motion object failed, out of memory",
+          "version": 1
+        },
+        "0C560205": {
+          "text": "Creation of motion object failed, object with same name exists",
+          "version": 1
+        },
+        "0C560206": {
+          "text": "Floating point error during the motion command execution",
+          "version": 1
+        },
+        "0C560207": {
+          "text": "Initialization of system failed",
+          "version": 1
+        },
+        "0C560208": {
+          "text": "Switching the system to the \"Running\" state failed",
+          "version": 1
+        },
+        "0C560209": {
+          "text": "System boot failed",
+          "version": 1
+        },
+        "0C56020A": {
+          "text": "Clear error of field device failed during bootup",
+          "version": 1
+        },
+        "0C56020B": {
+          "text": "Clear field device error during booting failed because of timeout",
+          "version": 1
+        },
+        "0C56020C": {
+          "text": "No additional axis can be created, this app has a maximum limit",
+          "version": 1
+        },
+        "0C56020D": {
+          "text": "The task's callable unit \"motion\" has not reached \"RUN\" state during bootup",
+          "version": 1
+        },
+        "0C56020E": {
+          "text": "The high priority task's callable unit \"motion-high-prio-prep\" has not reached \"RUN\" state during bootup",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2021": {
+      "text": "Error during backup or restoration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion object with given name was not found",
+          "version": 1
+        },
+        "0C560202": {
+          "text": "Metadata could not be read",
+          "version": 1
+        },
+        "0C560220": {
+          "text": "Could not save a motion object to JSON file",
+          "version": 1
+        },
+        "0C560222": {
+          "text": "File could not be read",
+          "version": 1
+        },
+        "0C560223": {
+          "text": "File could not be written",
+          "version": 1
+        },
+        "0C560224": {
+          "text": "Content of JSON configuration file is not valid for this load operation",
+          "version": 1
+        },
+        "0C560225": {
+          "text": "Could not read the configuration folder",
+          "version": 1
+        },
+        "0C560226": {
+          "text": "Could not delete the configuration folder",
+          "version": 1
+        },
+        "0C560227": {
+          "text": "Not able to write single configuration to \"Data Layer\" node",
+          "version": 1
+        },
+        "0C560228": {
+          "text": "No configuration could be read on the \"Data Layer\" node",
+          "version": 1
+        },
+        "0C560229": {
+          "text": "A partial configuration cannot be loaded if it is not in the “CONFIGURATION” state",
+          "version": 1
+        },
+        "0C56022A": {
+          "text": "Not able to save while motion system is in \"BOOTING\" state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2022": {
+      "text": "Error in kinematic interpolator IVAJ.",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604C0": {
+          "text": "Error in the preparation of the interpolator.",
+          "version": 1
+        },
+        "0C5604C1": {
+          "text": "Error in the execution of the interpolator.",
+          "version": 1
+        }
+      }
+    },
+    "090F2030": {
+      "text": "Error in command options",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C5701B0": {
+          "text": "Error in command option processing",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Given parameter for command option is invalid",
+          "version": 1
+        },
+        "0C5701B2": {
+          "text": "Another command option with the same identifier is active, but the data could not be read",
+          "version": 1
+        }
+      }
+    },
+    "090F2031": {
+      "text": "Error in command option \"Blending\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550300": {
+          "text": "Command option \"Blending\" - negative values for Distance 1/Distance 2",
+          "version": 1
+        },
+        "0C550301": {
+          "text": "Command option \"Blending\" - error in calculation",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Given parameter for command option is invalid",
+          "version": 1
+        }
+      }
+    },
+    "090F2032": {
+      "text": "Error in command option product coordinate system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5502E0": {
+          "text": "Command option \"PCS\" - set or group not found in configuration",
+          "version": 1
+        }
+      }
+    },
+    "090F2033": {
+      "text": "Error in command option of machine coordinate system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550310": {
+          "text": "Command option \"MCS\" - Set in configuration not found",
+          "version": 1
+        },
+        "0C550311": {
+          "text": "Command option \"MCS\" - Selected axis transformation not available",
+          "version": 1
+        },
+        "0C550312": {
+          "text": "Command option \"MCS\" - The working point of the selected axis transformation is not defined",
+          "version": 1
+        },
+        "0C550313": {
+          "text": "The axis required by the axis transformation is not assigned to the kinematics.",
+          "version": 1
+        },
+        "0C550314": {
+          "text": "The axis required by the axis transformation has the wrong axis type.",
+          "version": 1
+        }
+      }
+    },
+    "090F2034": {
+      "text": "Error in cmd opt \"SafeZones\" (safe zones and working areas)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550330": {
+          "text": "Command option \"SafeZones\" - Invalid zone type configured",
+          "version": 1
+        },
+        "0C550331": {
+          "text": "Command option \"SafeZones\" - A part of the commanded motion is not covered by any active inclusive work areas",
+          "version": 1
+        },
+        "0C550332": {
+          "text": "Command option \"SafeZones\" - The commanded motion violates a safe zone",
+          "version": 1
+        },
+        "0C550333": {
+          "text": "Command option \"SafeZones\" - Commanded motion left one of the exclusive work areas",
+          "version": 1
+        },
+        "0C550334": {
+          "text": "Command option \"SafeZones\" - Couldn't transform the position into the coordinate system of the safe zone/work area",
+          "version": 1
+        },
+        "0C550335": {
+          "text": "Command option \"SafeZones\" - Safe zone/work area not found in configuration",
+          "version": 1
+        }
+      }
+    },
+    "090F2035": {
+      "text": "Error in command option \"PolyTrans\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5701B1": {
+          "text": "Given parameter for command option is invalid",
+          "version": 1
+        },
+        "0C5701B3": {
+          "text": "Program either EPS or L1/L2, not both. Ununsed parameters must be left out or set to zero",
+          "version": 1
+        }
+      }
+    },
+    "090F2040": {
+      "text": "System error in the Motion system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560270": {
+          "text": "Internal error occurred",
+          "version": 1
+        },
+        "0C560271": {
+          "text": "Global request to motion state is declined, because the error reaction of the axis/kinematics is still not finished",
+          "version": 1
+        },
+        "0C560272": {
+          "text": "Global request to motion state is declined, because the axis/kinematics is still moving",
+          "version": 1
+        },
+        "0C560273": {
+          "text": "Global request to motion state is declined, because the axis/kinematics is in an invalid state",
+          "version": 1
+        },
+        "0C560274": {
+          "text": "Global request to motion state is declined, because the axis/kinematics has an active command",
+          "version": 1
+        },
+        "0C560276": {
+          "text": "Position gap in the interpolation of the kinematics detected",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2050": {
+      "text": "Error while running script",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270600": {
+          "text": "Internal error: \"nullptr\" found",
+          "version": 1
+        },
+        "0C270601": {
+          "text": "Internal error: Request data is no FlatBuffer",
+          "version": 1
+        },
+        "0C270602": {
+          "text": "Internal error: Unexpected request data type (expected string)",
+          "version": 1
+        },
+        "0C270603": {
+          "text": "Internal error: Unexpected request data type (expected array of string)",
+          "version": 1
+        },
+        "0C270604": {
+          "text": "Internal error: Requested data is of unexpected FlatBuffer type",
+          "version": 1
+        },
+        "0C270605": {
+          "text": "Motion system is not installed",
+          "version": 1
+        },
+        "0C270606": {
+          "text": "Motion object is already attached to an instance",
+          "version": 1
+        },
+        "0C270607": {
+          "text": "Motion object is not attached to the instance and may not be commanded",
+          "version": 1
+        }
+      }
+    },
+    "090F2051": {
+      "text": "Error in task/request comm. between script manager/instance",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270608": {
+          "text": "Stopping the Motion object attached to the script",
+          "version": 1
+        }
+      }
+    },
+    "090F2052": {
+      "text": "Error in the configuration of the Motion system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270609": {
+          "text": "Motion object with specified name was not found",
+          "version": 1
+        },
+        "0C27060A": {
+          "text": "Error in handling a motion request",
+          "version": 1
+        }
+      }
+    },
+    "090F2060": {
+      "text": "Error in axis command \"EStop\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2061": {
+      "text": "Error in axis command \"PosAbs/PosRel/PosAdd\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2062": {
+      "text": "Error in axis command \"Power\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2063": {
+      "text": "Error in axis command \"Homing\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560460": {
+          "text": "No support to check the homed status of the axis",
+          "version": 1
+        },
+        "0C560461": {
+          "text": "Homing command limit switch reached",
+          "version": 1
+        },
+        "0C560462": {
+          "text": "Homing command: Reference switch not found",
+          "version": 1
+        },
+        "0C560463": {
+          "text": "Error during execution of the homing command",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2064": {
+      "text": "Error in the Motion touch probe command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560480": {
+          "text": "Invalid general parameter for the touch probe command",
+          "version": 1
+        },
+        "0C560481": {
+          "text": "Invalid signal source for the touch probe command",
+          "version": 1
+        },
+        "0C560482": {
+          "text": "Invalid touch probe index for the touch probe command",
+          "version": 1
+        },
+        "0C560483": {
+          "text": "Invalid measuring type for the touch probe command",
+          "version": 1
+        },
+        "0C560484": {
+          "text": "Invalid expectation window for the touch probe command",
+          "version": 1
+        },
+        "0C560485": {
+          "text": "Invalid evaluated edge for the touch probe command",
+          "version": 1
+        },
+        "0C560486": {
+          "text": "Invalid signal type for the touch probe command",
+          "version": 1
+        },
+        "0C560487": {
+          "text": "Device does not support any touch probe function",
+          "version": 1
+        },
+        "0C560488": {
+          "text": "Device reports an error while configuring the touch probe",
+          "version": 1
+        },
+        "0C560489": {
+          "text": "Device reports an error while reading the result",
+          "version": 1
+        },
+        "0C56048A": {
+          "text": "Error while converting the touch probe value",
+          "version": 1
+        },
+        "0C56048B": {
+          "text": "Request to the touch probe state failed",
+          "version": 1
+        }
+      }
+    },
+    "090F2065": {
+      "text": "Error in stop command of the axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Deceleration limit exceeded",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Jerk deceleration limit exceeded",
+          "version": 1
+        },
+        "0C57010D": {
+          "text": "Error when computing the interpolation parameters",
+          "version": 1
+        }
+      }
+    },
+    "090F2500": {
+      "text": "Error in axis command \"GearInPos\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Operation mode velocity not supported by commanded drive",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Cyclic data for operation mode Velocity in the axis profile not configured",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "No actual position available",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Axis type does not support any interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Invalid synchronization mode",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Calculation pipeline cannot be locked for editing",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "The input of the calculation step is not connected to a source",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "The source connected to the calculation step input is of a different type",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameter value of the calculation step is invalid",
+          "version": 1
+        },
+        "0C550511": {
+          "text": "At least two calculation step parameters are set. These parameters mutually exclude each other",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Mandatory parameter is not defined for the calculation step",
+          "version": 1
+        },
+        "0C550513": {
+          "text": "Calculation pipeline is not assigned to any output",
+          "version": 1
+        },
+        "0C550514": {
+          "text": "More than one output is assigned to the calculation pipeline",
+          "version": 1
+        },
+        "0C550515": {
+          "text": "Existing circular dependency in the steps of the calculation pipeline",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Not all masters are defined for the calculation pipeline",
+          "version": 1
+        },
+        "0C550517": {
+          "text": "Invalid value for the offset parameter",
+          "version": 1
+        },
+        "0C550518": {
+          "text": "Error when attaching the slave axis to the master",
+          "version": 1
+        },
+        "0C550519": {
+          "text": "Invalid axis type",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Error when executing the calculation pipeline",
+          "version": 1
+        },
+        "0C550521": {
+          "text": "Calculation pipeline was not found",
+          "version": 1
+        },
+        "0C550522": {
+          "text": "Calculation pipeline step is not validated",
+          "version": 1
+        },
+        "0C550523": {
+          "text": "Calculation pipeline is not in RUN mode",
+          "version": 1
+        },
+        "0C550524": {
+          "text": "Synchronization between slave axis and master axis was interrupted",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Real-time input index of the Data Layer is beyond the valid range",
+          "version": 1
+        },
+        "0C550526": {
+          "text": "Error when reading the real-time input from the Data Layer",
+          "version": 1
+        },
+        "0C550528": {
+          "text": "Differences in the slave axis positions are larger than half of the modulo range during dynamic synchronization",
+          "version": 1
+        },
+        "0C550529": {
+          "text": "Mathematical error detected during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Invalid parameter value detected during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefined error during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052C": {
+          "text": "While executing a command for the synchronized motion, an invalid state transition occurred",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master for the synchronized motion was not found",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "The value read from the RT Data Layer from the calculation pipeline is invalid",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Error when converting the value by the calculation step of the RT Data Layer to an applicable unit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "The slave axis cannot be its own master axis",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "One-step dynamic synchronization cannot be used with relative synchronization modes.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2501": {
+      "text": "Error in axis command \"SyncPosGeneric\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Invalid synchronization mode",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Not all masters are defined for the calculation pipeline",
+          "version": 1
+        },
+        "0C550521": {
+          "text": "Calculation pipeline was not found",
+          "version": 1
+        },
+        "0C550522": {
+          "text": "Calculation pipeline step is not validated",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master for the synchronized motion was not found",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "The value read from the RT Data Layer from the calculation pipeline is invalid",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Error when converting the value by the calculation step of the RT Data Layer to an applicable unit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "The slave axis cannot be its own master axis",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "One-step dynamic synchronization cannot be used with relative synchronization modes.",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "The absolute entry position in the FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "The absolute entry position into the FlexProfile is ambiguous because a change of master (axis or time) occurred.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "The negative master axis velocity is not allowed in the FlexProfile with conditions or time master axes.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "The FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "There is no \"single\" execution of the FlexProfile. There is only a \"cyclic\" execution.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "There is no \"cyclic\" execution of the FlexProfile. There is only a \"single\" execution.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "The specified profile name is invalid.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "The angleAdjust is invalid.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "An error occurred in the firmware while calculating the FlexProfile.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "No motion steps are configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "An invalid master axis range was configured with the value 0 or with a negative value.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "The boundary values of a motion step cannot be combined with the boundary values of the subsequent motion step.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "The boundary values of a motion step are not allowed for the selected motion law.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "An invalid distance was configured, which is not allowed in the selected motion law.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "An invalid inflection point displacement - that is not allowed in the selected motion law - was configured.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "An invalid straight slope was configured. The specified start and end velocities do not coincide with the velocity resulting from the distance and the master axis range of the motion step.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "An invalid cam table was configured. It is possible that the cam does not contain any points.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "An invalid master type was configured.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "The configured end velocity of this motion segment does not match the start velocity of the next motion segment.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "There is an acceleration jump in the FlexProfile. The configured end acceleration of a motion step does not match the start acceleration of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "There is a jerk jump in the FlexProfile. The configured end jerk of a motion step does not match the start jerk of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "A traversing velocity that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "A traversing acceleration that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "A traversing jerk that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "An invalid motion law was configured.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "An invalid motion step type was configured.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In a motion step configured as Flex step, the selected motion law is invalid.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Motion limit values that are too low (traversing velocity, traversing acceleration and/or traversing jerk) were configured for the selected motion law.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Several Flex steps were configured consecutively.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "A FlexProfile event was configured with an invalid trigger mode.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "A FlexProfile event was configured with an invalid action mode.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "A FlexProfile event was configured with a motion step that is not present in the FlexProfile.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "The FlexProfile is edited. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "The FlexProfile is executed. Editing is not allowed in this state.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "The FlexProfile is not validated. Execution is not permitted in this state.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "The FlexProfile is being validated. Execution or editing is not permitted in this state.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "The FlexProfile is invalid. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "The denominator of the gear ratio is invalid with the value 0",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2502": {
+      "text": "Error in the synchronized Motion command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550537": {
+          "text": "The slave axis in the error state LIGHT",
+          "version": 1
+        }
+      }
+    },
+    "090F2503": {
+      "text": "Error in the axis command \"gearInVel\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Operation mode velocity not supported by commanded drive",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Cyclic data for operation mode Velocity in the axis profile not configured",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "No actual position available",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Axis type does not support any interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Invalid synchronization mode",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Calculation pipeline cannot be locked for editing",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "The input of the calculation step is not connected to a source",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "The source connected to the calculation step input is of a different type",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameter value of the calculation step is invalid",
+          "version": 1
+        },
+        "0C550511": {
+          "text": "At least two calculation step parameters are set. These parameters mutually exclude each other",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Mandatory parameter is not defined for the calculation step",
+          "version": 1
+        },
+        "0C550513": {
+          "text": "Calculation pipeline is not assigned to any output",
+          "version": 1
+        },
+        "0C550514": {
+          "text": "More than one output is assigned to the calculation pipeline",
+          "version": 1
+        },
+        "0C550515": {
+          "text": "Existing circular dependency in the steps of the calculation pipeline",
+          "version": 1
+        },
+        "0C550517": {
+          "text": "Invalid value for the offset parameter",
+          "version": 1
+        },
+        "0C550518": {
+          "text": "Error when attaching the slave axis to the master",
+          "version": 1
+        },
+        "0C550519": {
+          "text": "Invalid axis type",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Error when executing the calculation pipeline",
+          "version": 1
+        },
+        "0C550521": {
+          "text": "Calculation pipeline was not found",
+          "version": 1
+        },
+        "0C550522": {
+          "text": "Calculation pipeline step is not validated",
+          "version": 1
+        },
+        "0C550523": {
+          "text": "Calculation pipeline is not in RUN mode",
+          "version": 1
+        },
+        "0C550524": {
+          "text": "Synchronization between slave axis and master axis was interrupted",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Real-time input index of the Data Layer is beyond the valid range",
+          "version": 1
+        },
+        "0C550526": {
+          "text": "Error when reading the real-time input from the Data Layer",
+          "version": 1
+        },
+        "0C550529": {
+          "text": "Mathematical error detected during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Invalid parameter value detected during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefined error during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052C": {
+          "text": "While executing a command for the synchronized motion, an invalid state transition occurred",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master for the synchronized motion was not found",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "The value read from the RT Data Layer from the calculation pipeline is invalid",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Error when converting the value by the calculation step of the RT Data Layer to an applicable unit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "The slave axis cannot be its own master axis",
+          "version": 1
+        },
+        "0C550539": {
+          "text": "The dynamic synchronization in one step is not possible for commands that use the velocity mode.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Unsupported unit configured for command parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2504": {
+      "text": "Error in the axis command \"SyncVelGeneric\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Invalid synchronization mode",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Not all masters are defined for the calculation pipeline",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master for the synchronized motion was not found",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "The value read from the RT Data Layer from the calculation pipeline is invalid",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Error when converting the value by the calculation step of the RT Data Layer to an applicable unit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "The slave axis cannot be its own master axis",
+          "version": 1
+        },
+        "0C550539": {
+          "text": "The dynamic synchronization in one step is not possible for commands that use the velocity mode.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2505": {
+      "text": "Error in the axis command \"FlexProfile\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Operation mode velocity not supported by commanded drive",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Cyclic data for operation mode Velocity in the axis profile not configured",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "No actual position available",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Axis type does not support any interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Invalid synchronization mode",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Calculation pipeline cannot be locked for editing",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "The input of the calculation step is not connected to a source",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "The source connected to the calculation step input is of a different type",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameter value of the calculation step is invalid",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Mandatory parameter is not defined for the calculation step",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Not all masters are defined for the calculation pipeline",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Error when executing the calculation pipeline",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Real-time input index of the Data Layer is beyond the valid range",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Invalid parameter value detected during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefined error during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052F": {
+          "text": "License for the \"Flex Profile\" functionality is missing",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "One-step dynamic synchronization cannot be used with relative synchronization modes.",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "The absolute entry position in the FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "The absolute entry position into the FlexProfile is ambiguous because a change of master (axis or time) occurred.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "The negative master axis velocity is not allowed in the FlexProfile with conditions or time master axes.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "The FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "There is no \"single\" execution of the FlexProfile. There is only a \"cyclic\" execution.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "There is no \"cyclic\" execution of the FlexProfile. There is only a \"single\" execution.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "The specified profile name is invalid.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "The angleAdjust is invalid.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "An error occurred in the firmware while calculating the FlexProfile.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "No motion steps are configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "An invalid master axis range was configured with the value 0 or with a negative value.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "The boundary values of a motion step cannot be combined with the boundary values of the subsequent motion step.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "The boundary values of a motion step are not allowed for the selected motion law.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "An invalid distance was configured, which is not allowed in the selected motion law.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "An invalid inflection point displacement - that is not allowed in the selected motion law - was configured.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "An invalid straight slope was configured. The specified start and end velocities do not coincide with the velocity resulting from the distance and the master axis range of the motion step.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "An invalid cam table was configured. It is possible that the cam does not contain any points.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "An invalid master type was configured.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "The configured end velocity of this motion segment does not match the start velocity of the next motion segment.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "There is an acceleration jump in the FlexProfile. The configured end acceleration of a motion step does not match the start acceleration of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "There is a jerk jump in the FlexProfile. The configured end jerk of a motion step does not match the start jerk of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "A traversing velocity that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "A traversing acceleration that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "A traversing jerk that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "An invalid motion law was configured.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "An invalid motion step type was configured.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In a motion step configured as Flex step, the selected motion law is invalid.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Motion limit values that are too low (traversing velocity, traversing acceleration and/or traversing jerk) were configured for the selected motion law.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Several Flex steps were configured consecutively.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "A FlexProfile event was configured with an invalid trigger mode.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "A FlexProfile event was configured with an invalid action mode.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "A FlexProfile event was configured with a motion step that is not present in the FlexProfile.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "The FlexProfile is edited. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "The FlexProfile is executed. Editing is not allowed in this state.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "The FlexProfile is not validated. Execution is not permitted in this state.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "The FlexProfile is being validated. Execution or editing is not permitted in this state.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "The FlexProfile is invalid. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550627": {
+          "text": "Negative start position of the master axis is not supported for the FlexProfile",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "The denominator of the gear ratio is invalid with the value 0",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2506": {
+      "text": "Error in the \"CamIn\" axis command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Operation mode velocity not supported by commanded drive",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Cyclic data for operation mode Velocity in the axis profile not configured",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Axis profile variable not mapped to field bus data",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Error in the field bus master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Error in the field bus device",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Actual values beyond the valid range",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "No actual position available",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Axis type does not support any interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Invalid synchronization mode",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Calculation pipeline cannot be locked for editing",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "The input of the calculation step is not connected to a source",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "The source connected to the calculation step input is of a different type",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameter value of the calculation step is invalid",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Mandatory parameter is not defined for the calculation step",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Not all masters are defined for the calculation pipeline",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Error when executing the calculation pipeline",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Real-time input index of the Data Layer is beyond the valid range",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Invalid parameter value detected during the dynamic synchronization",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefined error during the dynamic synchronization",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "One-step dynamic synchronization cannot be used with relative synchronization modes.",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "The absolute entry position in the FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "The absolute entry position into the FlexProfile is ambiguous because a change of master (axis or time) occurred.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "The negative master axis velocity is not allowed in the FlexProfile with conditions or time master axes.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "The FlexProfile is invalid.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "There is no \"single\" execution of the FlexProfile. There is only a \"cyclic\" execution.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "There is no \"cyclic\" execution of the FlexProfile. There is only a \"single\" execution.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "The specified profile name is invalid.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "The angleAdjust is invalid.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "An error occurred in the firmware while calculating the FlexProfile.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "No motion steps are configured in the FlexProfile.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "An invalid master axis range was configured with the value 0 or with a negative value.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "The boundary values of a motion step cannot be combined with the boundary values of the subsequent motion step.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "The boundary values of a motion step are not allowed for the selected motion law.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "An invalid distance was configured, which is not allowed in the selected motion law.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "An invalid inflection point displacement - that is not allowed in the selected motion law - was configured.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "An invalid straight slope was configured. The specified start and end velocities do not coincide with the velocity resulting from the distance and the master axis range of the motion step.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "An invalid cam table was configured. It is possible that the cam does not contain any points.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "An invalid master type was configured.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "The configured end velocity of this motion segment does not match the start velocity of the next motion segment.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "There is an acceleration jump in the FlexProfile. The configured end acceleration of a motion step does not match the start acceleration of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "There is a jerk jump in the FlexProfile. The configured end jerk of a motion step does not match the start jerk of the subsequent motion step.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "A traversing velocity that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "A traversing acceleration that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "A traversing jerk that was too low or invalid was configured for the selected motion law.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "An invalid motion law was configured.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "An invalid motion step type was configured.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In a motion step configured as Flex step, the selected motion law is invalid.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Motion limit values that are too low (traversing velocity, traversing acceleration and/or traversing jerk) were configured for the selected motion law.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Several Flex steps were configured consecutively.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "A FlexProfile event was configured with an invalid trigger mode.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "A FlexProfile event was configured with an invalid action mode.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "A FlexProfile event was configured with a motion step that is not present in the FlexProfile.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "The FlexProfile is edited. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "The FlexProfile is executed. Editing is not allowed in this state.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "The FlexProfile is not validated. Execution is not permitted in this state.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "The FlexProfile is being validated. Execution or editing is not permitted in this state.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "The FlexProfile is invalid. Execution or validation is not permitted in this state.",
+          "version": 1
+        },
+        "0C550627": {
+          "text": "Negative start position of the master axis is not supported for the FlexProfile",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "The denominator of the gear ratio is invalid with the value 0",
+          "version": 1
+        },
+        "0C550630": {
+          "text": "Internal error: No access to FlexProfile data.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "License for command missing",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2512": {
+      "text": "Error during dynamic synchronization",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550541": {
+          "text": "Negative values are not permitted for dynamic synchronization limit value settings.",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F6000": {
+      "text": "Error when resolving motion calculation dependencies",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560470": {
+          "text": "A circular dependency between two or more axes/kinematics is detected",
+          "version": 1
+        }
+      }
+    },
+    "090F6001": {
+      "text": "Forced stop of the Motion system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560300": {
+          "text": "Forced stop of all axes and kinematics by user input or critical error",
+          "version": 1
+        }
+      }
+    },
+    "090F6010": {
+      "text": "PLC detected error event",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570300": {
+          "text": "PLC event stop occurred! All motion objects are set to light error",
+          "version": 1
+        },
+        "0C570301": {
+          "text": "PLC event reset occurred! All motion objects are set to light error",
+          "version": 1
+        },
+        "0C570302": {
+          "text": "Unexpected exception inside a plc application occurred! All motion objects are set to light error",
+          "version": 1
+        }
+      }
+    },
+    "090F8011": {
+      "text": "General error in CXA_Motion",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570400": {
+          "text": "Null pointer in an internal structure (could be motion system missing or damaged)",
+          "version": 1
+        }
+      }
+    }
+  }
+}

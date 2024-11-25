@@ -1,0 +1,12 @@
+{
+    "scopes.telegraf.description": "Permissions to access Telegraf configuration",
+    "scopes.telegraf.manage.name": "Manage configuration",
+    "scopes.telegraf.manage.description": "Enables manage and modify of the telegraf configuration",
+    "scopes.telegraf.start-stop.name": "Start/Stop/View configuration",
+    "scopes.telegraf.start-stop.description": "Enables start, stop and view the telegraf configuration",
+    "scopes.telegraf.view.name": "View configuration",
+    "scopes.telegraf.view.description": "Enables view of the telegraf configuration",
+    "licenses.SWL-XCx-TSA-TELEGRAFxxxxx-NNNN.title": "ctrlX OS License - Telegraf",
+    "licenses.SWL-XCx-TSA-TELEGRAFxxxxx-NNNN.description": "Server Agent for collecting and sending data based on Telegraf® optimized for ctrlX OS",
+    "configuration.telegraf.description" : "Telegraf configuration"
+}

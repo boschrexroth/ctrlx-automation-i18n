@@ -1,0 +1,9 @@
+{
+    "scopes.rexroth-kvd.web.name": "Key Value Database",
+    "scopes.rexroth-kvd.web.description": "Key Value Database Berechtigungen",
+    "scopes.manage-rexroth-kvd.web.name": "Manage configuration",
+    "scopes.manage-rexroth-kvd.web.description": "Enables manage and modify of the configuration",
+    "licenses.SWL-XCx-KVD-KEYVALUExDBxx-NNNN.title": "ctrlX OS License - Key Value Database License",
+    "licenses.SWL-XCx-KVD-KEYVALUExDBxx-NNNN.description": "Unlock the Key Value Database App",
+    "configuration-rexroth-kvd.web.description": "Key Value Database configuration"
+}

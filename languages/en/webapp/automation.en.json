@@ -1,0 +1,170 @@
+{
+  "auto": {
+    "common": {
+      "button": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "read": "Read",
+        "write": "Write",
+        "discard": "Discard",
+        "create": "Create",
+        "delete": "Delete",
+        "apply": "Apply",
+        "reset": "Reset",
+        "proceed": "Continue",
+        "navigateTo": "Navigate to",
+        "download": "Downlaod",
+        "upload": "Upload"
+      }
+    },
+    "datalayer":{
+      "title": "Data Layer",
+      "titleTree": "Data Layer tree",
+      "selectNode": "Select node...",
+      
+      "error": {
+        "checkMetadata": "Node has no metadata",
+        "checkOperationState": "{{nodeclass}} operation for {{operation}} has to be {{state}}",
+        "checkReferences": "{{nodeclass}} must have a reference to the type definitions",
+        "checkReadWrite": "{{nodeclass}} has neither read nor write operation",
+        "checkReadAndWrite": "{{nodeclass}} has read and write operation",
+        "checkRead": "{{nodeclass}} operation for 'read' has to be 'true', as 'write' is 'true'",
+        "schemaUndefined": "The schema {{schema}} was not defined for the node",
+        "schemaNotexist": "No schema type was defined"
+      },
+
+      "settings": {
+        "title": "Settings",
+        "showLastNode": "Show last tree node when opening",
+        "useTreeWidth": "Use last tree width when opening",
+        "showDisplayname": "Show displayname in tree",
+        "showWarnings": "Show incomplete configuration from Data Layer node",
+        "animateValues": "Animate dynamic changes in values of nodes",
+        "rangeSubnodes": "Possible subnodes (min: {{min}} - max: {{max}})"
+      },
+
+      "dialogs": {
+        "createTitle": "Create a child node",
+        "deleteTitle": "Delete {{nodename}}",
+        "deleteInfo": "Delete this node and all its child nodes?",
+        "deleteError": "Failed to delete node",
+        "createSuccessfull": "Create child node was successful"
+      },
+
+      "cmdbar": {
+        "back": "Back to...",
+        "up": "Up to...",
+        "refresh": "Refreshes selected node",
+        "home": "Top level node",
+        "copypath": "Copies address",
+        "addToWatchlist": "Adds to watchlist",
+        "openViewer": "Opens watchlist",
+        "showSettings": "Shows settings",
+        "createChildnode": "Creates child node",
+        "deleteNode": "Deletes node",
+        "navigateTo": "Navigate to address",
+        "path": "Address",
+        "navigationFailed": "Navigation to address '{{path}}' failed"
+      },
+
+      "bigdata": {
+        "title": "Filter subnodes from '{{name}}'",
+        "nextRange": "Next range",
+        "prevRange": "Previous range",
+        "nodes": "Nodes",
+        "selInfo": "Selected nodes: {{cntSel}} of {{cntTotal}}"
+      },
+
+      "detailview": {
+         "label": {
+           "input": "Variable",
+           "read": "Read",
+           "write": "Write"
+         },
+
+         "common": {
+           "success": "Successful: {{date}}",
+           "error": "Error: {{date}}",
+           "labInput": "Input parameter - Type: {{type}}",
+           "labOut": "Result"
+         },
+
+         "header": {
+           "info": "No description available"
+         },
+
+         "input": {
+           "unknown": "Unknown output type: ",
+           "title": "Value ({{type}})",
+           "success": "Data has been changed",
+           "copyvalue": "Copy value to clipboard",
+           "hasCopied": "Value has been copied to clipboard",
+           "showDatetime": "Show timestamp in datetime format",
+           "showTimestamp": "Show plain timestamp format"
+         },
+         "method": {
+          "hideProperties": "Hide optional properties",
+          "showProperties": "Show all properties"
+         },
+         "child": {
+           "title": "Child nodes",
+           "colName": "Name",
+           "colValue": "Value",
+           "colUnit": "Unit",
+           "colType": "Type"
+         },
+
+         "attribute": {
+           "title": "Metadata",
+           "colName": "Name",
+           "colValue": "Value",
+           "noData": "Node has no metadata",
+           "showAttributes": "Shows unavailable attributes",
+           "hideAttributes": "Hides unavailable attributes"
+         }
+      },
+
+      "watchlist": {
+        "title": "Watchlist",
+        "addSuccess": "Item has been added to watchlist '{{name}}'",
+        "deleteSuccess": "Item has been deleted from watchlist '{{name}}'",
+        "deleteError": "Item '{{name}}' could not deleted from watchlist",
+        
+        "attribute": {
+          "colName": "Name",
+          "colPath": "Address",
+          "colValue": "Value",
+          "colAction": "Actions"
+        },
+
+        "tooltips": {
+          "ttAdd": "Adds item to watchlist",
+          "ttDelete": "Deletes item",
+          "ttCopy": "Copies item",
+          "ttEdit": "Edits item",
+          "ttHideActions": "Hides actions",
+          "ttShowActions": "Shows actions",
+          "ttInvalidPath": "Invalid address: Address does not exist in datalayer"
+        },
+        
+        "viewer": {
+          "dialogs": {
+            "addTitle": "Add item to watchlist",
+            "deleteTitle": "Delete watchlist item '{{name}}'",
+            "editTitle": "Edit watchlist item '{{name}}'",
+            "copyTitle": "Copy watchlist item '{{name}}'"
+          }
+        }
+
+      }
+    }
+  },
+  
+  "widgets": {
+    "confirmdialog": {
+      "title": "Switching to '{{state}}' state",
+      "desc": "Ensure that appliances are in a safe state before proceeding"
+    }
+  }
+}
+

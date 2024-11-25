@@ -1,0 +1,12 @@
+{
+  "certificatestores.rexroth-opcua-client.description": "Stores keys and certificates for the OPC UA Client",
+  "configuration.appDirectories.opcuaclient.description": "OPC UA Client: Session configuration and general app configuration",
+  "licenses.SWL-XCx-UAC-OPCUACLIENTxx-NNNN.title": "ctrlX OS License - OPC UA Client",
+  "licenses.SWL-XCx-UAC-OPCUACLIENTxx-NNNN.description": "OPC UA Client for communication with OPC UA Server for ctrlX OS",
+  "scopes-declaration.rexroth-opcua-client.name": "OPC UA Client",
+  "scopes-declaration.rexroth-opcua-client.description": "Permissions for the OPC UA Client app",
+  "scopes-declaration.rexroth-opcua-client.opcua.x.name": "OPC UA Client access",
+  "scopes-declaration.rexroth-opcua-client.opcua.x.description": "Access to data provided by the OPC UA Client app via Data Layer",
+  "sidebar.opcua.1-Overview.title": "Overview",
+  "sidebar.opcua.2-Client.title": "Client"
+}

@@ -1,0 +1,363 @@
+﻿{
+  "idm.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+    "copy.tooltip": "Kopieren",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "actions": "Aktionen",
+
+    "systemUserExt": "(Systembenutzer)",
+    "remoteUserExt": "(Remote)",
+    "confirmationDoesNotMatchPassword": "Die Bestätigung stimmt nicht mit dem Passwort überein"
+  },
+
+  "idm.startpage": {
+    "usersTileTitle": "Benutzer",
+    "usersTileDescription": "Benutzer anlegen, bearbeiten und verwalten.",
+    "usersDetailsButtonLabel": "Benutzer anzeigen...",
+
+    "groupsTileTitle": "Gruppen",
+    "groupsTileDescription": "Gruppen anlegen, bearbeiten and verwalten.",
+    "groupsDetailsButtonLabel": "Gruppen anzeigen...",
+
+    "permissionsTileTitle": "Berechtigungen",
+    "permissionsTileDescription": "Berechtigungen an Benutzer und Gruppen zuweisen.",
+    "permissionsDetailsButtonLabel": "Berechtigungen anzeigen...",
+
+    "sessionsTileTitle": "Sitzungen",
+    "sessionsTileDescription": "Laufende Sitzungen anzeigen und beenden.",
+    "sessionsDetailsButtonLabel": "Sitzungen anzeigen...",
+
+    "moreSettingsTileTitle": "Weitere Einstellungen",
+    "moreSettingsTileDescription": "Richtlinien, Banner, Remote-Authentifizierung, Service-Zugang",
+    "moreSettingsDetailsButtonLabel": "Weitere Einstellungen"
+  },
+
+  "idm.settingsBottomMenu": {
+    "passwordPoliciesTitle": "Passwortrichtlinien",
+    "passwordPoliciesDescription": "Passwortregeln bearbeiten",
+    "sessionPoliciesTitle": "Sitzungsrichtlinien",
+    "sessionPoliciesDescription": "Sitzungsregeln bearbeiten",
+    "loginBannerTitle": "Anmelde-Banner",
+    "loginBannerDescription": "Text des Anmelde-Banners konfigurieren",
+    "remoteAuthSetupTitle": "Remote-Authentifizierung",
+    "remoteAuthSetupDescription": "Remote-Authentifizierungseinstellungen bearbeiten",
+    "easyServiceAccessTitle": "Einfacher Service-Zugang",
+    "easyServiceAccessDescription": "Einfache Service-Zugangseinstellungen bearbeiten"
+  },
+
+  "idm.addGroupDialog": {
+    "title": "Gruppe hinzufügen",
+    "groupName": "Gruppenname",
+    "addGroup.button": "Gruppe hinzufügen"
+  },
+
+  "idm.addUserDialog": {
+    "title": "Benutzer hinzufügen",
+    "username": "Benutzername",
+    "passwordPolicy": "Passwortrichtlinie",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "addUser.button": "Benutzer hinzufügen"
+  },
+
+  "idm.userNameValidator": {
+    "userNameMustHaveAtLeastXCharacters": "Der Benutzername muss mindestens {{param}} Zeichen haben.",
+    "userNameMayNotExceedXCharacters": "Der Benutzername darf {{param}} Zeichen nicht überschreiten.",
+    "userNameMustStartWith": "Der Benutzername muss mit einem Kleinbuchstaben [a-z] oder mit '_' beginnen.",
+    "userNameMayContain": "Der Benutzername darf Kleinbuchstaben [a-z], Ziffern [0-9], '_' oder '-' enthalten. Er darf mit '$‘ enden.",
+    "userNameAlreadyExisting": "Dieser Benutzername ist reserviert.",
+    "userNameReserved": "Dieser Benutzername ist reserviert.",
+    "errGroupWithThisNameExists": "Eine Gruppe mit diesem Namen existiert bereits."
+  },
+
+  "idm.passwordValidator": {
+    "passwordMustBeAtLeastXLong": "Das Passwort muss mindestens {{param}} Zeichen lang sein",
+    "passwordMustNotContainUsername": "Das Passwort darf den Benutzernamen nicht beinhalten",
+    "passwordMustContainXLowercase": "Das Passwort muss mindestens {{param}} Kleinbuchstaben (a-z) enthalten",
+    "passwordMustContainXUppercase": "Das Passwort muss mindestens {{param}} Großbuchstaben (A-Z) enthalten",
+    "passwordMustContainXDigits": "Das Passwort muss mindestens {{param}} Ziffern (0-9) enthalten",
+    "passwordMustContainXSpecial": "Das Passwort muss mindestens {{param}} Sonderzeichen enthalten (!§$%&/()=? etc.)"
+  },
+
+  "idm.groupNameValidator": {
+    "groupNameMustHaveAtLeastXCharacters": "Der Gruppenname muss mindestens {{param}} Zeichen enthalten.",
+    "groupNameMayNotExceedXCharacters": "Der Gruppenname darf {{param}} Zeichen nicht überschreiten.",
+    "groupNameMustStartWith": "Der Gruppenname muss mit einem Kleinbuchstaben [a-z] oder mit '_' beginnen.",
+    "groupNameMayContain": "Der Gruppenname darf Kleinbuchstaben [a-z], Ziffern [0-9], '_' oder '-' enthalten. Er darf mit '$‘ enden.",
+    "groupNameAlreadyExisting": "Dieser Gruppenname ist bereits vorhanden.",
+    "groupNameReserved": "Dieser Gruppenname ist reserviert.",
+    "groupNameReservedInternal": "Dieser Gruppenname ist für den internen Gebrauch reserviert."
+  },
+
+  "idm.changePasswordDialog": {
+    "title": "Passwort ändern",
+    "username": "Benutzername",
+    "oldPassword": "Altes Passwort",
+    "newPassword": "Neues Passwort",
+    "enterOldPassword": "Geben Sie das alte Passwort ein",
+    "confirmNewPassword": "Neues Passwort bestätigen",
+    "changePassword.button": "Passwort ändern",
+
+    "passwordChangeRequired": "Passwortänderung erforderlich."
+  },
+
+  "idm.groupDetailsDialog": {
+    "usersTab": "Benutzer",
+    "permissionsTab": "Berechtigungen"
+  },
+
+  "idm.permissionDetails": {
+    "fullAccess": "Vollzugriff (Dadurch werden alle Berechtigungen sowie zusätzlicher administrativer Zugriff auf das System gewährt)",
+    "category": "Kategorie",
+    "permission": "Berechtigung",
+    "identifier": "Scope-Bezeichner",
+    "showScopeIds.tooltip": "Scope-Bezeichner anzeigen",
+    "hideScopeIds.tooltip": "Scope-Bezeichner verbergen"
+  },
+
+  "idm.groups": {
+    "title": "Gruppen",
+    "name": "Name",
+    "deleteGroup.title": "Gruppe löschen"
+  },
+
+  "idm.notification": {
+    "error": "Fehler: {{param}}",
+    "changesSavedMsg": "Änderungen wurden gespeichert. Manche Änderungen werden erst beim nächsten Anmelden übernommen.",
+    "passwordChangedMsg": "Das Passwort wurde geändert.",
+    "missingPermissionsMsg": "Sie haben nicht die erforderlichen Berechtigungen."
+  },
+
+  "idm.remoteAuthSettings": {
+    "title": "Remote-Authentifizierung",
+    "enableRemoteAuth": "Remote-Authentifizierung aktivieren",
+    "authServiceType": "Authentifizierungsdienst"
+  },
+
+  "idm.ldapAuthSettings": {
+    "serverIpOrHostname": "Server IP-Adresse oder Host-Name",
+    "serverPort": "Server-Port",
+    "useTls": "Transport Layer Security (TLS) verwenden",
+    "caCert": "CA-Zertifikat",
+    "clientCert": "Client-Zertifikat",
+    "clientKey": "Client-Schlüssel",
+    "uploadCaCert": "CA-Zertifikat hochladen",
+    "uploadClientCert": "Client-Zertifikat hochladen",
+    "uploadClientKey": "Client-Schlüssel hochladen",
+    "caCertsNotShownDueToPermissions": "Installierte CA-Zertifikate werden aufgrund fehlender Berechtigungen nicht angezeigt",
+    "clientCertsNotShownDueToPermissions": "Installierte Client-Zertifikate werden aufgrund fehlender Berechtigungen nicht angezeigt",
+    "clientKeysNotShownDueToPermissions": "Installierte Client-Schlüssel werden aufgrund fehlender Berechtigungen nicht angezeigt",
+    "skipServerCertVerification": "Überprüfung des Server-Zertifikats überspringen",
+    "serverType": "Server-Typ",
+    "baseDn": "Basis-DN",
+    "readonlyUser": "Schreibgeschützter Benutzer",
+    "readonlyPassword": "Schreibgeschütztes Passwort",
+    "userFilter": "User-Filter",
+    "groupFilter": "Group-Filter",
+    "userNameAttribute": "Username-Attribut",
+    "groupMembersAttribute": "Groupmembers-Attribut",
+
+    "enterValidIpV4Address": "Geben Sie eine gültige IPv4-Adresse ein",
+    "enterValidPortNumber": "Geben Sie eine gültige Port-Nummer ein",
+    "enterBaseDn": "Geben Sie eine Basis-DN ein",
+    "enterPassword": "Geben Sie ein Passwort ein",
+    "enterUserFilter": "Geben Sie einen User-Filter ein",
+    "enterGroupFilter": "Geben Sie einen Group-Filter ein",
+    "enterUserNameAttribute": "Geben Sie das Username-Attribut ein",
+    "enterGroupMembersAttribute": "Geben Sie ein Groupmembers-Attribut ein",
+    "selectCert": "Wählen Sie ein Zertifikat aus",
+    "certNotLongerExists": "Das ausgewählte Zertifikat existiert nicht mehr. Wählen Sie ein anderes Zertifikat.",
+    "selectKey": "Wählen Sie einen Schlüssel aus",
+    "keyNotLongerExists": "Der ausgewählte Schlüssel existiert nicht mehr. Wählen Sie einen anderen Schlüssel."
+  },
+
+  "idm.radiusAuthSettings": {
+
+    "serverIpAddress": "Server IP-Adresse",
+    "serverPort": "Server-Port",
+    "transportLayerProtocol": "Transportschichtprotokoll",
+    "clientSecret": "Client-Geheimnis",
+    "authenticationProtocol": "Authentifizierungsprotokoll",
+    "vendorId": "Hersteller-ID",
+    "groupsAttributeId": "Gruppenattribut-ID",
+
+    "enterValidIpV4Address": "Geben Sie eine gültige IPv4-Adresse ein",
+    "enterValidPortNumber": "Geben Sie eine gültige Port-Nummer ein",
+    "enterClientSecret": "Client-Geheimnis",
+    "enterPositiveNumber": "Geben Sie eine positive Zahl ein"
+  },
+
+  "idm.loginBannerDialog": {
+    "title": "Anmelde-Banner",
+    "enterText": "Geben Sie einen Text ein, der als Banner im Anmeldedialog angezeigt werden wird"
+  },
+
+  "idm.namedPasswordPoliciesDialog": {
+    "title": "Passwortrichtlinien",
+    "policy": "Richtlinie",
+    "deletePolicy.title": "Passwortrichtlinie löschen"
+  },
+
+  "idm.namedPasswordPolicyDialog": {
+    "title": "Passwortrichtlinie",
+    "name": "Name",
+    "idInput": "Kennung (automatisch erzeugt, falls nicht angegeben)",
+    "minPasswordLength": "Minimale Passwortlänge",
+    "minLowercaseChars": "Mindestanzahl an Kleinbuchstaben (a-z)",
+    "minUppercaseChars": "Mindestanzahl an Großbuchstaben (A-Z)",
+    "minNumericChars": "Mindestanzahl an Ziffern (0-9)",
+    "minSpecialChars": "Mindestanzahl an Sonderzeichen (!§$%&/()=? etc.)",
+    "passwordMustNotContainUsername": "Das Passwort darf den Benutzernamen nicht beinhalten",
+    "enforcePasswordHistory": "Länge des Passwortverlaufs",
+    "passwordExpriationTimeDays": "Ablaufzeit des Passwortes in Tagen (0 für unbegrenzt)",
+    "enterValueFromXToYMessage": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein",
+    "enterNameMessage": "Geben Sie einen Namen ein",
+    "nameAlreadyExistsMessage": "Dieser Name existiert bereits",
+    "idMinLengthMessage": "Id muss mindestens 6 Zeichen enthalten",
+    "idMaxLengthMessage": "Id darf maximal 64 Zeichen enthalten",
+    "idFirstCharMessage": "Id darf nicht mit '-' oder '_' beginnen",
+    "idLastCharMessage": "Id darf nicht mit '-' oder '_' enden",
+    "idPatternMessage": "Id kann die folgenden Zeichen enthalten: A-Z, a-z, 0-9, '-', '_'",
+    "idExistingMessage": "Diese Id existiert bereits",
+    "nameStartsOrdEndsWithSpace": "Name darf nicht mit einem Leerzeichen beginnen oder enden"
+  },
+
+  "idm.permissionDetailsDialog": {
+    "authorizedUsers": "Berechtigte Benutzer",
+    "authorizedGroups": "Berechtigte Gruppen"
+  },
+
+  "idm.permissions": {
+    "title": "Berechtigungen",
+    "category": "Kategorie",
+    "permission": "Berechtigung",
+    "identifier": "Scope-Bezeichner",
+    "showScopeIds.tooltip": "Scope-Bezeichner anzeigen",
+    "hideScopeIds.tooltip": "Scope-Bezeichner verbergen"
+  },
+
+  "idm.sessionDetailDialog": {
+    "title": "Sitzungsdetails",
+    "id": "ID",
+    "type": "Typ",
+    "typeDetails": "Typdetails",
+    "username": "Benutzername",
+    "creationDate": "Erstellungsdatum",
+    "expirationDate": "Ablaufdatum",
+    "timeoutDuration": "Timeout-Dauer",
+    "lastAccessDate": "Letztes Zugriffsdatum",
+    "clientIp": "Client IP",
+    "permissions": "Berechtigungen:",
+    "unlimited": "unbegrenzt"
+  },
+
+  "idm.sessionSettingsDialog": {
+    "title": "Sitzungsrichtlinien",
+    "logoutAfterMinutes": "Abmeldung nach Inaktivität in Minuten (0 für unbegrenzt)",
+    "logoutUnconditionallyAfterMinutes": "Abmeldung nach Sitzungsdauer in Minuten (0 für unbegrenzt)",
+    "maxSessionsPerUser": "Maximale Anzahl an Sitzungen pro Benutzer (0 für unbegrenzt)",
+    "maxSubsequentLoginFailsWithoutWai": "Anzahl an Anmeldeversuchen ohne nachfolgende Wartezeit (0 für unbegrenzt)",
+    "waitingTimeAfterLoginFails": "Wartezeit nach fehlgeschlagener Anmeldung (Sekunden)",
+    "enterPositiveValueIncluding0": "Geben Sie einen positiven Wert - einschließlich 0 - ein",
+    "enterPositiveValueExcluding0": "Geben Sie eine positive Zahl - außer 0 - ein",
+    "enterValueFromXToYMessage": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein"
+  },
+
+  "idm.sessions": {
+    "title": "Sitzungen",
+    "username": "Name",
+    "clientIp": "Client IP",
+    "creationDateUtc": "Erstellungsdatum (UTC)",
+    "expirationDateUtc": "Ablaufdatum (UTC)",
+    "type": "Typ",
+    "terminate.tooltip": "Beendet eine Sitzung",
+    "terminateSession.title": "Sitzung beenden",
+    "terminateSession.confirmation": "Sind Sie sicher, dass Sie die Sitzung von Benutzer {{param}} beenden möchten?",
+    "terminate.button": "Beenden"
+  },
+
+  "idm.totalPermissions": {
+    "fullAccess": "Vollzugriff (damit werden alle Berechtigungen für alle Kategorien gewährt)",
+    "category": "Kategorie",
+    "permission": "Berechtigung",
+    "providedBy": "Erhalten von",
+    "individualPermissionAndGroups": "Individuelle Berechtigung und Gruppe(n):",
+    "individualPermission": "Individuelle Berechtigung",
+    "groups": "Gruppe(n):"
+  },
+
+  "idm.uploadSystemUserAssertionDialog": {
+    "title": "\"system user assertion\" hochladen",
+    "filename": "Dateiname",
+    "upload.button": "Hochladen"
+  },
+
+  "idm.userDetails": {
+    "state": "Zustand",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "autoDeleteAtUtc": "Automatisch löschen um (UTC)",
+    "passwordPolicy": "Passwortrichtlinie",
+    "oldPassword": "Altes Passwort",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "forcePwdChgOnNextLogin": "Passwortänderung beim nächsten Anmelden erzwingen",
+    "specifyIndivSessionSettings": "Individuelle Sitzungseinstellungen",
+    "logoutAfterInactivity": "Abmeldung nach Inaktivität in Minuten (0 für unbegrenzt)",
+    "logoutUnconditionally": "Abmeldung nach Sitzungsdauer in Minuten (0 für unbegrenzt)",
+    "maxSessionsPerUser": "Maximale Anzahl an Sitzungen pro Benutzer (0 für unbegrenzt)",
+    "maxSubseqLoginFailsWithoutWait": "Anzahl an Anmeldeversuchen ohne nachfolgende Wartezeit (0 für unbegrenzt)",
+    "waitingTimeAfterSubseqLoginFails": "Wartezeit nach fehlgeschlagener Anmeldung (Sekunden)",
+    "enterValueGreaterOrEqual0": "Geben Sie einen Wert größer gleich 0 ein",
+    "enterValueGreater0": "Geben Sie einen Wert größer 0 ein",
+    "enterValueFromXToYMessage": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein",
+    "enterOldPasswordMessage": "Geben Sie das alte Passwort ein"
+  },
+
+  "idm.userDetailsDialog": {
+    "details": "Details",
+    "groups": "Gruppen",
+    "individualPermissions": "Individuelle Berechtigungen",
+    "overallPermissions": "Gesamtberechtigungen"
+  },
+
+  "idm.userMenuService": {
+    "title": "Abmelden",
+    "logoutConfirmationQuery": "Sind Sie sicher, dass Sie sich abmelden möchten?",
+    "logout.button": "Abmelden"
+  },
+
+  "idm.users": {
+    "title": "Benutzer",
+    "name": "Name",
+    "state": "Zustand",
+    "terminateLoginWait": "Wartezeit für Anmeldung beenden",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "deleteUser.title": "Benutzer löschen",
+    "uploadUserAssertionFile.tooltip": "Lädt \"system user assertion\" hoch"
+  },
+
+  "idm.alertBoxFactoryService": {
+    "title": "Nicht gespeicherte Änderungen an {{param}}",
+    "saveDiscardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen.",
+    "discardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
+  },
+
+  "idm.easyServiceAccessSettingsDialog": {
+    "title": "Einfacher Service-Zugang",
+    "grantEasyServiceAccess": "Einfachen Servicezugang gestatten",
+    "grantEasyServiceAccessHint": "Aktivieren Sie die Option \"Einfachen Servicezugang gestatten\", um unserem Kundenservice zu ermöglichen, einen Systembenutzer ohne vorherige Authentifizierung anzulegen."
+  }
+
+}

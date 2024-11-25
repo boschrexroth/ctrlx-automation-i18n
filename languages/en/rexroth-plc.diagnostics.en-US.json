@@ -1,0 +1,4651 @@
+{
+  "product": "PLC-V-0206",
+  "mainDiagnostics": {
+    "080F0E00": {
+      "text": "Loading configuration not possible in current state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280100": {
+          "text": "Loading the configuration in the “RUN” state is not permitted",
+          "version": 2
+        }
+      }
+    },
+    "0A0A0001": {
+      "text": "PLC: Message",
+      "version": 1
+    },
+    "0A0A0115": {
+      "text": "PLC IEC info",
+      "version": 1
+    },
+    "0A0A0FF0": {
+      "text": "Trace message plc.cmp.datalayer",
+      "version": 1
+    },
+    "0A0A0FFF": {
+      "text": "Trace message plc.system",
+      "version": 1
+    },
+    "0A0E0001": {
+      "text": "PLC: Warning",
+      "version": 1
+    },
+    "0A0E0002": {
+      "text": "PLC: Errors",
+      "version": 1
+    },
+    "0A0E0115": {
+      "text": "PLC IEC warning",
+      "version": 1
+    },
+    "0A0E0FF0": {
+      "text": "Trace warning plc.cmp.datalayer",
+      "version": 1
+    },
+    "0A0E0FFF": {
+      "text": "Trace warning plc.system",
+      "version": 1
+    },
+    "0A0F0001": {
+      "text": "PLC: Error",
+      "version": 1
+    },
+    "0A0F0002": {
+      "text": "PLC: Exception",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C281010": {
+          "text": "Software watchdog of an IEC task expired.",
+          "version": 1
+        },
+        "0C281011": {
+          "text": "Hardware watchdog expired.",
+          "version": 1
+        },
+        "0C281012": {
+          "text": "Incorrect I/O configuration.",
+          "version": 1
+        },
+        "0C281013": {
+          "text": "Checksum error of the IEC program after loading the program.",
+          "version": 1
+        },
+        "0C281014": {
+          "text": "A field bus reports an error.",
+          "version": 1
+        },
+        "0C281015": {
+          "text": "Error during I/O exchange with a field bus.",
+          "version": 1
+        },
+        "0C281016": {
+          "text": "Cycle time exceeded.",
+          "version": 1
+        },
+        "0C281017": {
+          "text": "The time for an \"online change\" exceeded.",
+          "version": 1
+        },
+        "0C281018": {
+          "text": "The IEC program contains unresolved references.",
+          "version": 1
+        },
+        "0C281019": {
+          "text": "Loading the IEC program is not permitted by the control.",
+          "version": 1
+        },
+        "0C28101A": {
+          "text": "Loading the IEC program is impeded, as retain data cannot be allocated.",
+          "version": 1
+        },
+        "0C28101B": {
+          "text": "Boot project cannot be loaded and is deleted.",
+          "version": 1
+        },
+        "0C28101C": {
+          "text": "Out of working memory.",
+          "version": 1
+        },
+        "0C28101D": {
+          "text": "Retain memory is corrupt or consumed.",
+          "version": 1
+        },
+        "0C28101E": {
+          "text": "Boot project could be loaded, but causes a subsequent crash.",
+          "version": 1
+        },
+        "0C281021": {
+          "text": "Boot project cannot be loaded, as the IEC program does not match the control type.",
+          "version": 1
+        },
+        "0C281022": {
+          "text": "Scheduler cannot start IEC task.",
+          "version": 1
+        },
+        "0C281023": {
+          "text": "Checksum error of the boot project.",
+          "version": 1
+        },
+        "0C281024": {
+          "text": "Retain data does not match the boot project.",
+          "version": 1
+        },
+        "0C281025": {
+          "text": "IEC task configuration failed.",
+          "version": 1
+        },
+        "0C281026": {
+          "text": "Application running on wrong control type. Can be used to protect the library!",
+          "version": 1
+        },
+        "0C281050": {
+          "text": "Illegal command.",
+          "version": 1
+        },
+        "0C281051": {
+          "text": "Access error",
+          "version": 1
+        },
+        "0C281052": {
+          "text": "Privileged operation.",
+          "version": 1
+        },
+        "0C281053": {
+          "text": "Access to faulty page",
+          "version": 1
+        },
+        "0C281054": {
+          "text": "Stack overflow",
+          "version": 1
+        },
+        "0C281055": {
+          "text": "Invalid disposition",
+          "version": 1
+        },
+        "0C281056": {
+          "text": "Invalid handle",
+          "version": 1
+        },
+        "0C281057": {
+          "text": "Guard page",
+          "version": 1
+        },
+        "0C281058": {
+          "text": "Double fault",
+          "version": 1
+        },
+        "0C281059": {
+          "text": "Invalid command",
+          "version": 1
+        },
+        "0C281100": {
+          "text": "Incorrect data type alignment",
+          "version": 1
+        },
+        "0C281101": {
+          "text": "Array limits exceeded.",
+          "version": 1
+        },
+        "0C281102": {
+          "text": "Division by zero",
+          "version": 1
+        },
+        "0C281103": {
+          "text": "Overflow",
+          "version": 1
+        },
+        "0C281104": {
+          "text": "\"SIGABRT\"",
+          "version": 1
+        },
+        "0C281105": {
+          "text": "Processor load watchdog of all IEC tasks detected.",
+          "version": 1
+        },
+        "0C281150": {
+          "text": "FPU exception",
+          "version": 1
+        },
+        "0C281151": {
+          "text": "FPU error: Denormalized floating point number.",
+          "version": 1
+        },
+        "0C281152": {
+          "text": "FPU error: Division by zero.",
+          "version": 1
+        },
+        "0C281153": {
+          "text": "FPU error: Inaccurate floating point result.",
+          "version": 1
+        },
+        "0C281154": {
+          "text": "FPU error: Invalid operation.",
+          "version": 1
+        },
+        "0C281155": {
+          "text": "FPU error: Overflow",
+          "version": 1
+        },
+        "0C281156": {
+          "text": "FPU error: Stack check",
+          "version": 1
+        },
+        "0C281157": {
+          "text": "FPU error: Underflow",
+          "version": 1
+        },
+        "0C281200": {
+          "text": "Hardware breakpoint reached.",
+          "version": 1
+        },
+        "0C281201": {
+          "text": "Invalid license or no license available",
+          "version": 1
+        },
+        "0C281202": {
+          "text": "Omitted cycle watchdog",
+          "version": 1
+        },
+        "0C281203": {
+          "text": "Vendor-specific exception",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0010": {
+      "text": "PLC license error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280010": {
+          "text": "Internal error on check of licences",
+          "version": 1
+        },
+        "0C280011": {
+          "text": "License \"PLC Basic\" is missing",
+          "version": 1
+        },
+        "0C280012": {
+          "text": "License \"PLC Standard\" is missing",
+          "version": 1
+        },
+        "0C280013": {
+          "text": "License \"PLC Advanced\" is missing",
+          "version": 1
+        },
+        "0C280014": {
+          "text": "License \"PLC Performance\" missing",
+          "version": 1
+        },
+        "0C280015": {
+          "text": "Missing licenses",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0020": {
+      "text": "Error in PLC configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280100": {
+          "text": "Loading the configuration in the “RUN” state is not permitted",
+          "version": 1
+        },
+        "0C280101": {
+          "text": "Backing up the configuration in the “RUN” state is not permitted",
+          "version": 1
+        },
+        "0C280102": {
+          "text": "Size of retain memory in the configuration does not match the current size",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0030": {
+      "text": "PLC state error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280130": {
+          "text": "It is not permitted to switch a PLC application to \"RUN\", if the system is in state \"SERVICE\"",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0040": {
+      "text": "Error in PLC retain memory",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280140": {
+          "text": "Internal error when allocating from retain memory",
+          "version": 2
+        },
+        "0C280141": {
+          "text": "Insufficient free retain memory available",
+          "version": 2
+        }
+      }
+    },
+    "0A0F0050": {
+      "text": "Security error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280150": {
+          "text": "Unauthorized access",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0100": {
+      "text": "Error in library CXA_Utilities",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230000": {
+          "text": "Internal error",
+          "version": 1
+        },
+        "0C230001": {
+          "text": "Input values beyond the valid range",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "Invalid status of the function block",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "Invalid input \"DataAddress\": Nullpointer",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Invalid value of input \"DataSize\": 0",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "Input values are outside the valid range",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "Invalid state of the function block",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "Inconsistency of winter time settings",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "Time value WinterDiffUtc is greater than 24 hours",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "Value of SwiWinterMonth is greater than 12",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "Value of SwiWinterWeek is greater than 5",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "Value of SwiWinterWeekday is greater than 7",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "Value of SwiWinterDayYear is greater than 365",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "Value of SummerDiffUtc is greater than 24",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "Input values are outside the valid range",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "Value of SwiSummerMonth is greater than 12",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "Value of SwiSummerWeek is greater than 5",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "value of SwiSummerWeekday is greater than 7",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "Value of SwiSummerDayYear is greater than 365",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "Time conversion error due to incorrect time zone information",
+          "version": 1
+        },
+        "0C230051": {
+          "text": "Input \"Index\" is not in the valid range",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "Invalid input \"Link\": Nullpointer",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "Internal error: An index is still linked in the list, although it is empty",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "Element to be cleared from an empty list",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "List is full",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "Input \"Mode\" has an invalid value",
+          "version": 1
+        },
+        "0C230057": {
+          "text": "After initialization, the value of input \"Size\" has been changed (e.g. by online change)",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0101": {
+      "text": "Error in the library CXA_SocketComm",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C231000": {
+          "text": "Error in the state machine during the initial UDP socket",
+          "version": 1
+        },
+        "0C231001": {
+          "text": "Could not create socket",
+          "version": 1
+        },
+        "0C231002": {
+          "text": "I/O mode could not be set",
+          "version": 1
+        },
+        "0C231003": {
+          "text": "Socket could not be connected",
+          "version": 1
+        },
+        "0C231004": {
+          "text": "Socket could not be switched to the \"Listening\" mode",
+          "version": 1
+        },
+        "0C231005": {
+          "text": "Incoming connection could not be accepted",
+          "version": 1
+        },
+        "0C231006": {
+          "text": "Could not connect to the remote host",
+          "version": 1
+        },
+        "0C231007": {
+          "text": "Invalid port number",
+          "version": 1
+        },
+        "0C231008": {
+          "text": "Data length limit of \"SendDataAdr/RecvDataAdr\" reached, 1400 bytes max.",
+          "version": 1
+        },
+        "0C231009": {
+          "text": "Wrong mode selected",
+          "version": 1
+        },
+        "0C23100A": {
+          "text": "Error the state machine during TFTP operation",
+          "version": 1
+        },
+        "0C23100B": {
+          "text": "Input \"RemoteFile\" is invalid",
+          "version": 1
+        },
+        "0C23100C": {
+          "text": "Input \"LocalFile\" is invalid",
+          "version": 1
+        },
+        "0C23100F": {
+          "text": "Remote file not found",
+          "version": 1
+        },
+        "0C231010": {
+          "text": "Access violation on remote host",
+          "version": 1
+        },
+        "0C231012": {
+          "text": "Invalid TFTP operation",
+          "version": 1
+        },
+        "0C231013": {
+          "text": "Unknown transmission ID",
+          "version": 1
+        },
+        "0C231015": {
+          "text": "Unknown user",
+          "version": 1
+        },
+        "0C231016": {
+          "text": "Unknown error on remote host",
+          "version": 1
+        },
+        "0C231017": {
+          "text": "Error while connecting to the remote host",
+          "version": 1
+        },
+        "0C231018": {
+          "text": "Timeout during data transmission",
+          "version": 1
+        },
+        "0C231019": {
+          "text": "Incompatible protocol",
+          "version": 1
+        },
+        "0C23101A": {
+          "text": "\"SizeOfRecvData\" is smaller than the amount of data received",
+          "version": 1
+        },
+        "0C232001": {
+          "text": "Input \"RemoteFile\" is invalid",
+          "version": 1
+        },
+        "0C232002": {
+          "text": "Target buffer too small for the file to be transferred",
+          "version": 1
+        },
+        "0C23FFFE": {
+          "text": "Unexpected response from FTP server",
+          "version": 1
+        },
+        "0C23FFFF": {
+          "text": "Unexpected response from FTP server",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0102": {
+      "text": "Error in the library CXA_FileAsync",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C231001": {
+          "text": "Error when adding jobs by the asynchronous task",
+          "version": 1
+        },
+        "0C231002": {
+          "text": "Error when executing the asynchronous task",
+          "version": 1
+        },
+        "0C231003": {
+          "text": "Timeout in asynchronous task",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0103": {
+      "text": "Error in the library CXA_PLCOpen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C238004": {
+          "text": "Prerequest not available for jogging",
+          "version": 1
+        },
+        "0C238005": {
+          "text": "Set the override only for the axis. The axis should not be added to the group or run as slave",
+          "version": 1
+        },
+        "0C238006": {
+          "text": "Prerequest not available for \"CyclicSetPoint\"",
+          "version": 1
+        },
+        "0C238007": {
+          "text": "Command to enable \"CyclicSetPoint\" failed",
+          "version": 1
+        },
+        "0C238008": {
+          "text": "Error external command value specification axis set",
+          "version": 1
+        },
+        "0C238009": {
+          "text": "Command \"AxsCyclicSetPoint\" is aborted",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0104": {
+      "text": "Error in the library CXA_LoopControl",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "\"LowLimit\" input value is greater than the \"HighLimit\" input value",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "The selection of the control type is not supported. Check the inputs for \"PControl\", \"IControl\" and \"DControl\"",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "The \"DControl\" input is invalid",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "The \"IControl\" input is invalid",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "The sampling (scan) time is invalid for 5 cycles",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "The \"bControl\" input is invalid",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "The \"cControl\" input is invalid",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "The \"Buffer\" input is not assigned",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "The \"Delay\" input is invalid",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "The \"BufferSize\" input is too small",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "Negative X-value in \"ResponseCurve\"",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "X-value in \"ResponseCurve\" not in ascending order",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "More than one value for an X-position in \"ResponseCurve\"",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "The \"FeedbackTControl\" input is invalid",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "The \"TvControl\" input is invalid",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "The \"T1Control\" input is invalid",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "The \"DControl\" input is invalid",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "The \"NumberOfCoeffs\" entry of the \"Coefficients\" input is invalid",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "The value specified at the \"FilterType\" input is invalid",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "The \"DampingFactor\" input is invalid",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "Output is \"Infinity\" or \"NaN\"",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "\"Amplitude\" is smaller than 0.0",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "Input \"Sigma\" is smaller than or equal to 0.0",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "The \"RegisterLength\" input is invalid",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "\"Frequency\" is smaller than 0.0 or greater than 1/(2*ActScanTime)",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "\"Angle\" is smaller than 0° or greater than 360°",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "\"PhaseShiftSetpoint\" is smaller than -180 or greater than 180",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "\"PhaseShiftFeedback\" is smaller than -180 or greater than 180",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "\"IControl\" is negative",
+          "version": 1
+        },
+        "0C23003A": {
+          "text": "\"PControl\" is negative",
+          "version": 1
+        },
+        "0C23003C": {
+          "text": "\"Window\" is smaller than 0",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "\"Signal\" is smaller than -1.0 or greater than 1.0",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "\"Angle\" is smaller than 0° or greater than 360°",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "\"AmpControl.Target\" is negative",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "\"AmpControl.Ramp\" is smaller than 0.0001",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "\"AmpControl.Init\" is negative",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "\"AmpControl.Window\" is negative",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "\"AmpControl.IControl\" is negative",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "\"AmpControl.PControl\" is negative",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "\"AmpControl.LowLimit\" is greater than \"AmpControl.HighLimit\"",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "\"CenterlineControl.Ramp\" is smaller than 0.0001",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "\"CenterlineControl.Window\" is negative",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "\"CenterlineControl.IControl\" is negative",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "\"CenterlineControl.IControl\" is negative",
+          "version": 1
+        },
+        "0C23004E": {
+          "text": "\"CenterlineControl.LowLimit\" is greater than \"CenterlineControl.HighLimit\"",
+          "version": 1
+        },
+        "0C23004F": {
+          "text": "\"CenterlineControl.Init\" is negative",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "\"CurveType\" is invalid",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "\"Duty\" is beyond the valid range",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "\"DutyRamp\" is smaller than 0.0001",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "\"Rounding\" is negative or greater than 100",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "\"RoundingRamp\" is smaller than 0.0001",
+          "version": 1
+        },
+        "0C230061": {
+          "text": "\"MinValue\" is greater than \"MaxValue\"",
+          "version": 1
+        },
+        "0C230062": {
+          "text": "\"CategoryCount\" is 0",
+          "version": 1
+        },
+        "0C230063": {
+          "text": "\"HistogramData\" is 0",
+          "version": 1
+        },
+        "0C230064": {
+          "text": "\"MeanFilterTControl\" value < (2 x \"ActScanTime\")",
+          "version": 1
+        },
+        "0C230065": {
+          "text": "\"SuppressionLimitHigh\" value is smaller than 0.0",
+          "version": 1
+        },
+        "0C230066": {
+          "text": "\"SuppressionLimitLow\" value is smaller than 0.0",
+          "version": 1
+        },
+        "0C230067": {
+          "text": "\"MeanFilterTControl\" value is smaller than 0.0",
+          "version": 1
+        },
+        "0C230068": {
+          "text": "\"MeanFilterTControl\" value is smaller than (2 x \"ActScanTime\"); only in mode \"Statistical\"",
+          "version": 1
+        },
+        "0C230071": {
+          "text": "Input values for the maximum output value (\"OutputPowerMax\") beyond the valid range. Value has to be greater than 0 [%] up to 100 [%] max.",
+          "version": 1
+        },
+        "0C230072": {
+          "text": "Input values for alarm limits invalid (Condition: Limits.UpperAlarm > Limits.LowerAlarm)",
+          "version": 1
+        },
+        "0C230073": {
+          "text": "Input value for manual control variable (\"ManContrValue\") invalid. Value has to be in the range from 0[%] to 100[%]",
+          "version": 1
+        },
+        "0C230074": {
+          "text": "Controller parameters invalid. Either there are no controller parameters or the controller parameters are invalid",
+          "version": 1
+        },
+        "0C230075": {
+          "text": "Controlled system constant invalid. The time constant \"ModelParam.Ts\" or \"ContrParam.Tt\" is invalid",
+          "version": 1
+        },
+        "0C230076": {
+          "text": "Input value \"OblivionFactor\" is invalid. Value has to be in the range from 0.9 to 1",
+          "version": 1
+        },
+        "0C230077": {
+          "text": "Input value \"MinDelayTime\" is invalid. Value has to be greater than T#0s",
+          "version": 1
+        },
+        "0C230078": {
+          "text": "Input value \"IdentAccuracy\" is invalid. Value has to be greater than 0 [%/s]",
+          "version": 1
+        },
+        "0C230079": {
+          "text": "Input value \"DampingFactor\" is invalid. Value has to be in the range from 20 to 200",
+          "version": 1
+        },
+        "0C23007A": {
+          "text": "Input value \"SetPointGradient\" is invalid. Value has to be greater than 0 [u/s]",
+          "version": 1
+        },
+        "0C23007B": {
+          "text": "Input values for status limits invalid (condition: (Setpoint + Limits.UpperAtSetpoint) > (Setpoint - Limits.LowerAtSetpoint)",
+          "version": 1
+        },
+        "0C23007C": {
+          "text": "Input value \"ContrMode\" is invalid",
+          "version": 1
+        },
+        "0C23007D": {
+          "text": "Input value \"AutoTuneMaxPower\" is invalid. Value has to be in the range from 0[%] to 100[%]",
+          "version": 1
+        },
+        "0C23007E": {
+          "text": "Input value \"ExtendedSettings.ControlType\" is invalid",
+          "version": 1
+        },
+        "0C230082": {
+          "text": "Gradient of actual value too large, there might be a sensor error",
+          "version": 1
+        },
+        "0C230083": {
+          "text": "Identified controlled system parameters invalid, self-identification failed",
+          "version": 1
+        },
+        "0C230085": {
+          "text": "Inputs \"HysteresisHi\" or \"HysteresisLo\" are invalid",
+          "version": 1
+        },
+        "0C231000": {
+          "text": "Runtime error in the function block: Invalid state of the state machine",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0107": {
+      "text": "Error in CXA_MotionInterface library",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230101": {
+          "text": "MB_AxisInit: AxisName too short or too long",
+          "version": 1
+        },
+        "0C230103": {
+          "text": "MB_AxisInit: Sequence error",
+          "version": 1
+        },
+        "0C230110": {
+          "text": "MB_AxisInterfaceBase: Input not initialized",
+          "version": 1
+        },
+        "0C230111": {
+          "text": "MB_AxisInterfaceBase: Drive in ErrorStop",
+          "version": 1
+        },
+        "0C230113": {
+          "text": "MB_AxisInterfaceBase: Sequence error",
+          "version": 1
+        },
+        "0C230115": {
+          "text": "MB_AxisInterfaceBase: Drive not in AH/AF for Ctrl.Admin.PowerOn = FALSE",
+          "version": 1
+        },
+        "0C230116": {
+          "text": "MB_AxisInterfaceBase: Ctrl.Admin.mTriggerMoveCmd() called in ModeAb",
+          "version": 1
+        },
+        "0C230117": {
+          "text": "MB_AxisInterfaceBase: OpMode not supported",
+          "version": 1
+        },
+        "0C230118": {
+          "text": "MB_AxisInterfaceBase - Power: Sequence error",
+          "version": 1
+        },
+        "0C230119": {
+          "text": "MB_AxisInterfaceBase - Reset: Sequence error",
+          "version": 1
+        },
+        "0C23011A": {
+          "text": "MB_AxisInterfaceBase - Stop: Sequence error",
+          "version": 1
+        },
+        "0C230140": {
+          "text": "MB_KinematicsInit: KinName too short or too long",
+          "version": 1
+        },
+        "0C230141": {
+          "text": "MB_KinematicsInit: Sequence error",
+          "version": 1
+        },
+        "0C230142": {
+          "text": "MB_KinematicsInit: Too many axes configured for one kinematics",
+          "version": 1
+        },
+        "0C230143": {
+          "text": "MB_KinematicsInit: KinIndex input too small or too large",
+          "version": 1
+        },
+        "0C230144": {
+          "text": "MB_KinematicsInit: Invalid axes pointer",
+          "version": 1
+        },
+        "0C230150": {
+          "text": "MB_KinematicsInterfaceBase: Input not initialized",
+          "version": 1
+        },
+        "0C230151": {
+          "text": "MB_KinematicsInterfaceBase: Kinematics in ErrorStop",
+          "version": 1
+        },
+        "0C230153": {
+          "text": "MB_KinematicsInterfaceBase: Sequence error",
+          "version": 1
+        },
+        "0C230154": {
+          "text": "MB_KinematicsInterfaceBase: GroupNo too small or too large",
+          "version": 1
+        },
+        "0C230155": {
+          "text": "MB_KinematicsInterfaceBase: Error when assigning axes to kinematics",
+          "version": 1
+        },
+        "0C230156": {
+          "text": "MB_KinematicsInterfaceBase: mTriggerMoveCmd() called in ModeCoordUngrouped",
+          "version": 1
+        },
+        "0C230157": {
+          "text": "MB_KinematicsInterfaceBase: OpMode is not supported",
+          "version": 1
+        },
+        "0C230158": {
+          "text": "MB_KinematicsInterfaceBase: Invalid axis pointer",
+          "version": 1
+        },
+        "0C230159": {
+          "text": "MB_KinematicsInterfaceBase - Reset: Sequence error",
+          "version": 1
+        },
+        "0C23015A": {
+          "text": "MB_KinematicsInterfaceBase - Stop: Sequence error",
+          "version": 1
+        },
+        "0C230180": {
+          "text": "TE_AxisInitAllAxes:  Too many axes configured",
+          "version": 1
+        },
+        "0C230181": {
+          "text": "TE_AxisInitAllAxes: Configuration mode is not supported",
+          "version": 1
+        },
+        "0C230182": {
+          "text": "TE_AxisInitAllAxes: Pointer AxisCfgIdx is invalid",
+          "version": 1
+        },
+        "0C230183": {
+          "text": "TE_AxisInitAllAxes: Axis index beyond the valid range",
+          "version": 1
+        },
+        "0C230184": {
+          "text": "TE_AxisInitAllAxes: Axis index used twice",
+          "version": 1
+        },
+        "0C230185": {
+          "text": "TE_AxisInitAllAxes: Axis name used twice",
+          "version": 1
+        },
+        "0C230186": {
+          "text": "TE_AxisInitAllAxes: Could not open file",
+          "version": 1
+        },
+        "0C230187": {
+          "text": "TE_AxisInitAllAxes: Corrupt data in file",
+          "version": 1
+        },
+        "0C230188": {
+          "text": "TE_AxisInitAllAxes: Sequence error",
+          "version": 1
+        },
+        "0C230190": {
+          "text": "TE_AxisInterfaceMainProg: Sequence error",
+          "version": 1
+        },
+        "0C2301A0": {
+          "text": "TE_AxisInterface: SetupMode with active operation mode",
+          "version": 1
+        },
+        "0C2301B0": {
+          "text": "TE_ExportAxIfDebug: Sequence error",
+          "version": 1
+        },
+        "0C2301C0": {
+          "text": "TE_KinematicsInitAllKinematics: Too many kinematics configured",
+          "version": 1
+        },
+        "0C2301C1": {
+          "text": "TE_KinematicsInitAllKinematics: Configuration mode not supported",
+          "version": 1
+        },
+        "0C2301C2": {
+          "text": "TE_KinematicsInitAllKinematics: Pointer KinCfgIdx is invalid",
+          "version": 1
+        },
+        "0C2301C3": {
+          "text": "TE_KinematicsInitAllKinematics: GroupNo beyond the valid range",
+          "version": 1
+        },
+        "0C2301C4": {
+          "text": "TE_KinematicsInitAllKinematics: Kinematic index used twice",
+          "version": 1
+        },
+        "0C2301C5": {
+          "text": "TE_KinematicsInitAllKinematics: Kinematic name used twice",
+          "version": 1
+        },
+        "0C2301C6": {
+          "text": "TE_KinematicsInitAllKinematics: Could not open file",
+          "version": 1
+        },
+        "0C2301C7": {
+          "text": "TE_KinematicsInitAllKinematics: Corrupt data in file",
+          "version": 1
+        },
+        "0C2301C8": {
+          "text": "TE_KinematicsInitAllKinematics: Sequence error",
+          "version": 1
+        },
+        "0C2301C9": {
+          "text": "TE_KinematicsInitAllKinematics: MAX_AXIS_INDEX too large",
+          "version": 1
+        },
+        "0C2301D0": {
+          "text": "TE_KinInterfaceMainProg: Sequence error",
+          "version": 1
+        },
+        "0C2301E0": {
+          "text": "TE_KinematicsInterface: SetupMode with active operation mode",
+          "version": 1
+        },
+        "0C2301F0": {
+          "text": "TE_ExportKinIfDebug: Sequence error",
+          "version": 1
+        }
+      }
+    },
+    "0A0F010A": {
+      "text": "Error in library CXA_DriveUtil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230201": {
+          "text": "PowerSupply FBs: TargetMode input invalid",
+          "version": 1
+        },
+        "0C230202": {
+          "text": "PowerSupply FBs:  OperationModeSelection input invalid",
+          "version": 1
+        },
+        "0C230203": {
+          "text": "PowerSupply FBs: ErrorMode input invalid",
+          "version": 1
+        },
+        "0C230204": {
+          "text": "PowerSupply FBs: Timeout (actual mode -> target mode)",
+          "version": 1
+        },
+        "0C230205": {
+          "text": "PowerSupply FBs:  ActualMode of device is invalid",
+          "version": 1
+        },
+        "0C230206": {
+          "text": "MB_ECATSoEPowerSupplyXxx FBs:  Reference of MasterName input not set",
+          "version": 1
+        },
+        "0C230207": {
+          "text": "MB_ECATSoEPowerSupplyDcDcIslandGrid: PowerSupplyFunction input invalid",
+          "version": 1
+        }
+      }
+    },
+    "0A0F010B": {
+      "text": "Error in library CXA_S20",
+      "version": 1
+    },
+    "0A0F010D": {
+      "text": "Error in the library CXA_OpcUaClient",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Uncertain",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "UncertainReferenceOutOfServer: One of the references to be followed in the relative path points to a node in the address space of another server",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "UncertainNoCommunicationLastUsableValue: Communication with the data source failed. The variable value is the last value of good quality",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "UncertainLastUsableValue: Updating this value was stopped",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "UncertainSubstituteValue: The value is an operational value that was overwritten manually",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "UncertainInitialValue: The value is an initial value for a variable that normally obtains its value from another variable",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "UncertainSensorNotAccurate: The value is at one of the sensor limit values",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "UncertainEngineeringUnitsExceeded: The value is beyond the value range defined for this parameter",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "UncertainSubNormal: The value originates from multiple sources and has less than the required number of \"ofGood\" sources",
+          "version": 1
+        },
+        "0C23000A": {
+          "text": "UncertainDataSubNormal: The value originates from multiple values and has less than the required number of \"Good\" sources",
+          "version": 1
+        },
+        "0C23000B": {
+          "text": "UncertainReferenceNotDeleted: The server was not able to delete all target references",
+          "version": 1
+        },
+        "0C23000C": {
+          "text": "UncertainNotAllNodesAvailable: The list of references may not be complete, as the underlying system is not available",
+          "version": 1
+        },
+        "0C23000D": {
+          "text": "UncertainDominantValueChanged: The respective engineering unit was changed, but the variable value is still specified based on the previous unit",
+          "version": 1
+        },
+        "0C23000E": {
+          "text": "UncertainDependentValueChanged: A dependent value was changed, but the change has not yet been applied to the device. The quality of the dominant variable is uncertain",
+          "version": 1
+        },
+        "0C23000F": {
+          "text": "UncertainTransducerInManual: The value may not be accurate, as the transducer is in manual mode",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "UncertainSimulatedValue: The value is simulated",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "UncertainSensorCalibration: The value may not be accurate due to an error in the sensor calibration",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "UncertainConfigurationError: The value may not be accurate due to a configuration problem",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "PLCopenUA_Uncertain_RedundantDisconnect: Request to disconnect a connection that is not running",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "BadError: An unexpected error occurred",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "BadUnexpectedError: An unexpected error occurred",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "BadInternalError: An internal error occurred due to a programming or configuration error",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "BadOutOfMemory: Insufficient memory to complete the operation",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "BadResourceUnavailable: A resource of the operating system is not available",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "BadCommunicationError: An low-level communication error occurred",
+          "version": 1
+        },
+        "0C23001A": {
+          "text": "BadEncodingError: Coding was aborted due to invalid data in the objects to be serialized",
+          "version": 1
+        },
+        "0C23001B": {
+          "text": "BadDecodingError: Decoding aborted due to invalid data in the stream",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "BadEncodingLimitsExceeded: The limits set by the stack for encoding/decoding messages was exceeded",
+          "version": 1
+        },
+        "0C23001D": {
+          "text": "BadUnknownResponse: An unknown response was received from the server",
+          "version": 1
+        },
+        "0C23001E": {
+          "text": "BadTimeout: Timeout during processing",
+          "version": 1
+        },
+        "0C23001F": {
+          "text": "BadServiceUnsupported: The server does not support the requested service",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "BadShutdown: The operation was canceled, as the application is shut down",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "BadServerNotConnected: The operation could not be completed, as the client is not connected to the server",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "BadServerHalted: The server is stopped and cannot process any requests",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "BadNothingToDo: No action possible, as the client transferred a list of operations without elements",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "BadTooManyOperations: The request could not be processed, as it contained too many transactions",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "BadDataTypeIdUnknown: The extension object cannot be (de)serialized, as the data type ID is not identified",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "BadCertificateInvalid: The certificate provided as parameter is invalid",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "BadSecurityChecksFailed: An error occurred during the security check, e.g. the client/server certificate is not yet valid",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "BadCertificateTimeInvalid: The certificate has expired or is not yet valid - also check the system time of the server",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "BadCertificateIssuerTimeInvalid: An Issuer certificate has expired or is not yet valid",
+          "version": 1
+        },
+        "0C23002A": {
+          "text": "BadCertificateHostNameInvalid: The hostname used to connect to a server does not match a hostname in the certificate",
+          "version": 1
+        },
+        "0C23002B": {
+          "text": "BadCertificateUriInvalid: The URI specified in the application description does not match the URI in the certificate",
+          "version": 1
+        },
+        "0C23002C": {
+          "text": "BadCertificateUseNotAllowed: The certificate must not be used for the requested operation",
+          "version": 1
+        },
+        "0C23002D": {
+          "text": "BadCertificateIssuerUseNotAllowed: The Issuer certificate cannot be used for the requested operation",
+          "version": 1
+        },
+        "0C23002E": {
+          "text": "BadCertificateUntrusted: The certificate is not trustworthy",
+          "version": 1
+        },
+        "0C23002F": {
+          "text": "BadCertificateRevocationUnknown: It could not be detected whether the certificate was revoked",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "BadCertificateIssuerRevocationUnknown: It could not be detected whether the Issuer certificate was revoked",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "BadCertificateRevoked: The certificate was revoked",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "BadCertificateIssuerRevoked: The Issuer certificate was revoked",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "BadUserAccessDenied: The user does not have permission to perform the requested operation",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "BadIdentityTokenInvalid: The user identity token is invalid, e.g. user and/or password do not match",
+          "version": 1
+        },
+        "0C230035": {
+          "text": "BadIdentityTokenRejected: The user identity token is valid, but the server rejected it",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "BadSecureChannelIdInvalid: The specified secure channel is no longer valid",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "BadInvalidTimestamp: The timestamp is beyond the range permitted by the server",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "BadNonceInvalid: \"Nonce\" does not appear to be a random value or does not have the correct length",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "BadSessionIdInvalid: The session ID is invalid",
+          "version": 1
+        },
+        "0C23003A": {
+          "text": "BadSessionClosed: The session was closed by the client",
+          "version": 1
+        },
+        "0C23003B": {
+          "text": "BadSessionNotActivated: The session cannot be used, as ActivateSession was called",
+          "version": 1
+        },
+        "0C23003C": {
+          "text": "BadSubscriptionIdInvalid: The subscription ID is invalid",
+          "version": 1
+        },
+        "0C23003D": {
+          "text": "BadRequestHeaderInvalid: The header for the request is missing or invalid",
+          "version": 1
+        },
+        "0C23003E": {
+          "text": "BadTimestampsToReturnInvalid: The \"Timestamps to return\" parameter is invalid",
+          "version": 1
+        },
+        "0C23003F": {
+          "text": "BadRequestCancelledByClient: The request was canceled by the client",
+          "version": 1
+        },
+        "0C230040": {
+          "text": "BadNoCommunication: Communication with the data source is defined, but not established and no last known value is available",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "BadWaitingForInitialData: Waiting for the server to obtain values from the underlying data source",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "BadNodeIdInvalid: The syntax of the node ID is invalid",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "BadNodeIdUnknown: The node ID refers to a node that does not exist in the server address space",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "BadAttributeIdInvalid: The attribute is not supported for the specified node",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "BadIndexRangeInvalid: The syntax of the parameter for the index range is invalid",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "BadIndexRangeNoData: No data is available within the specified index range",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "BadDataEncodingInvalid: Data encoding is invalid",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "BadDataEncodingUnsupported: The server does not support the requested data encoding for the node",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "BadNotReadable: The access level does not allow reading or subscribing to the node",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "BadNotWritable: The access level does not allow writing to the node",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "BadOutOfRange: The value was beyond the range",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "BadNotSupported: The requested operation is not supported, e.g. unsupported SecurityPolicy",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "BadNotFound: A requested element was not found or a search was terminated without success, e.g. unsupported SecurityPolicy",
+          "version": 1
+        },
+        "0C23004E": {
+          "text": "BadObjectDeleted: The object cannot be used, as it was deleted",
+          "version": 1
+        },
+        "0C23004F": {
+          "text": "BadNotImplemented: Requested operation is not implemented",
+          "version": 1
+        },
+        "0C230050": {
+          "text": "BadMonitoringModeInvalid: The monitoring mode is invalid",
+          "version": 1
+        },
+        "0C230051": {
+          "text": "BadMonitoredItemIdInvalid: The Monitored Item ID does not refer to a valid Monitored Item",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "BadMonitoredItemFilterInvalid: The parameter for the Monitored Item filter is invalid",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "BadMonitoredItemFilterUnsupported: The server does not support the requested Monitored Item filter",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "BadFilterNotAllowed: A monitoring filter cannot be used together with the specified attribute",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "BadStructureMissing: A mandatory structured parameter was missing or null",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "BadEventFilterInvalid: The event filter is invalid",
+          "version": 1
+        },
+        "0C230057": {
+          "text": "BadContentFilterInvalid: The content filter is invalid",
+          "version": 1
+        },
+        "0C230058": {
+          "text": "BadFilterOperandInvalid: The operand used in a content filter is invalid",
+          "version": 1
+        },
+        "0C230059": {
+          "text": "BadContinuationPointInvalid: The specified continuation point is no longer valid",
+          "version": 1
+        },
+        "0C23005A": {
+          "text": "BadNoContinuationPoints: The operation could not be processed, as all continuation points were assigned",
+          "version": 1
+        },
+        "0C23005B": {
+          "text": "BadReferenceTypeIdInvalid: The operation could not be processed, as all continuation points were assigned",
+          "version": 1
+        },
+        "0C23005C": {
+          "text": "BadBrowseDirectionInvalid: The browse direction is invalid",
+          "version": 1
+        },
+        "0C23005D": {
+          "text": "BadNodeNotInView: The node is not part of the view",
+          "version": 1
+        },
+        "0C23005E": {
+          "text": "BadServerUriInvalid: The server URI is not a valid URI",
+          "version": 1
+        },
+        "0C23005F": {
+          "text": "BadServerNameMissing: No ServerName was specified",
+          "version": 1
+        },
+        "0C230060": {
+          "text": "BadDiscoveryUrlMissing: No DiscoveryUrl was specified",
+          "version": 1
+        },
+        "0C230061": {
+          "text": "BadSempahoreFileMissing: The semaphore file specified by the client is invalid",
+          "version": 1
+        },
+        "0C230062": {
+          "text": "BadRequestTypeInvalid: The request type of the security token is invalid",
+          "version": 1
+        },
+        "0C230063": {
+          "text": "BadSecurityModeRejected: The security mode does not meet the requirements specified by the server",
+          "version": 1
+        },
+        "0C230064": {
+          "text": "BadSecurityPolicyRejected: The security policy does not meet the requirements specified by the server",
+          "version": 1
+        },
+        "0C230065": {
+          "text": "BadTooManySessions: The server reached its maximum number of sessions",
+          "version": 1
+        },
+        "0C230066": {
+          "text": "BadUserSignatureInvalid: The signature of the user token is missing or invalid",
+          "version": 1
+        },
+        "0C230067": {
+          "text": "BadApplicationSignatureInvalid: The signature generated with the client certificate is missing or invalid",
+          "version": 1
+        },
+        "0C230068": {
+          "text": "BadNoValidCertificates: The client has not provided at least one software certificate that is valid and meets the profile requirements for the server",
+          "version": 1
+        },
+        "0C230069": {
+          "text": "BadRequestCancelledByRequest: The request was canceled by the client using the Cancel service",
+          "version": 1
+        },
+        "0C23006A": {
+          "text": "BadParentNodeIdInvalid: The parent node ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C23006B": {
+          "text": "BadReferenceNotAllowed: The reference could not be created, as it violates restrictions imposed by the data model",
+          "version": 1
+        },
+        "0C23006C": {
+          "text": "BadNodeIdRejected: The requested node ID was rejected, as it was either invalid or the server does not allow the client to specify node IDs",
+          "version": 1
+        },
+        "0C23006D": {
+          "text": "BadNodeIdExists: The requested node ID is already used by another node",
+          "version": 1
+        },
+        "0C23006E": {
+          "text": "BadNodeClassInvalid: The node class is invalid",
+          "version": 1
+        },
+        "0C23006F": {
+          "text": "BadBrowseNameInvalid: The browse name is invalid",
+          "version": 1
+        },
+        "0C230070": {
+          "text": "BadBrowseNameDuplicated: The browse name between the nodes with the same relationship to the parent node is not unique",
+          "version": 1
+        },
+        "0C230071": {
+          "text": "BadNodeAttributesInvalid: The node attributes are invalid for the node class",
+          "version": 1
+        },
+        "0C230072": {
+          "text": "BadTypeDefinitionInvalid: The node ID of the type definition does not reference to a suitable type node",
+          "version": 1
+        },
+        "0C230073": {
+          "text": "BadSourceNodeIdInvalid: The source node ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C230074": {
+          "text": "BadTargetNodeIdInvalid: The target node ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C230075": {
+          "text": "BadDuplicateReferenceNotAllowed: The reference type between the nodes is already defined",
+          "version": 1
+        },
+        "0C230076": {
+          "text": "BadInvalidSelfReference: The server does not allow this type of self-reference for this node",
+          "version": 1
+        },
+        "0C230077": {
+          "text": "BadReferenceLocalOnly: The reference type is invalid for a reference to a remote server",
+          "version": 1
+        },
+        "0C230078": {
+          "text": "BadNoDeleteRights: The server does not allow the node to be deleted",
+          "version": 1
+        },
+        "0C230079": {
+          "text": "BadServerIndexInvalid: The server index is invalid",
+          "version": 1
+        },
+        "0C23007A": {
+          "text": "BadViewIdUnknown: The view ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C23007B": {
+          "text": "BadTooManyMatches: The requested operation has too many matches to respond",
+          "version": 1
+        },
+        "0C23007C": {
+          "text": "BadQueryTooComplex: The requested operation requires too many resources on the server",
+          "version": 1
+        },
+        "0C23007D": {
+          "text": "BadNoMatch: The requested operation cannot return a match",
+          "version": 1
+        },
+        "0C23007E": {
+          "text": "BadMaxAgeInvalid: The \"max age\" parameter is invalid",
+          "version": 1
+        },
+        "0C23007F": {
+          "text": "BadHistoryOperationInvalid: The \"history details\" parameter is invalid",
+          "version": 1
+        },
+        "0C230080": {
+          "text": "BadHistoryOperationUnsupported: The server does not support the requested operation",
+          "version": 1
+        },
+        "0C230081": {
+          "text": "BadWriteNotSupported: The server does not support writing the specified combination of value, status and timestamp",
+          "version": 1
+        },
+        "0C230082": {
+          "text": "BadTypeMismatch: The value provided for the attribute is not of the same type as the value of the attribute",
+          "version": 1
+        },
+        "0C230083": {
+          "text": "BadMethodInvalid: The method ID does not reference to a method for the specified object",
+          "version": 1
+        },
+        "0C230084": {
+          "text": "BadArgumentsMissing: The client did not specify all input arguments for the method",
+          "version": 1
+        },
+        "0C230085": {
+          "text": "BadTooManySubscriptions: The server reached its maximum number of subscriptions",
+          "version": 1
+        },
+        "0C230086": {
+          "text": "BadTooManyPublishRequests: The server reached the maximum number of publishing requests in the queue",
+          "version": 1
+        },
+        "0C230087": {
+          "text": "BadNoSubscription: There is no subscription available for this session",
+          "version": 1
+        },
+        "0C230088": {
+          "text": "BadSequenceNumberUnknown: The sequence number is unknown to the server",
+          "version": 1
+        },
+        "0C230089": {
+          "text": "BadMessageNotAvailable: The requested notification is no longer available",
+          "version": 1
+        },
+        "0C23008A": {
+          "text": "BadInsufficientClientProfile: The client of the current session does not support one or more profiles required for the subscription",
+          "version": 1
+        },
+        "0C23008B": {
+          "text": "BadTcpServerTooBusy: The server cannot process the request, as it is too busy",
+          "version": 1
+        },
+        "0C23008C": {
+          "text": "BadTcpMessageTypeInvalid: The type of message specified in the header is invalid",
+          "version": 1
+        },
+        "0C23008D": {
+          "text": "BadTcpSecureChannelUnknown: The SecureChannelId and/or TokenId are currently not used",
+          "version": 1
+        },
+        "0C23008E": {
+          "text": "BadTcpMessageTooLarge: The size of the message specified in the header is too large",
+          "version": 1
+        },
+        "0C23008F": {
+          "text": "BadTcpNotEnoughResources: There are not sufficient resources to process the request",
+          "version": 1
+        },
+        "0C230090": {
+          "text": "BadTcpInternalError: An internal error occurred",
+          "version": 1
+        },
+        "0C230091": {
+          "text": "BadTcpEndpointUrlInvalid: The server does not detect the specified QueryString",
+          "version": 1
+        },
+        "0C230092": {
+          "text": "BadRequestInterrupted: The request could not be sent due to a network interruption",
+          "version": 1
+        },
+        "0C230093": {
+          "text": "BadRequestTimeout: A timeout occurred while processing the request",
+          "version": 1
+        },
+        "0C230094": {
+          "text": "BadSecureChannelClosed: The secure channel was closed",
+          "version": 1
+        },
+        "0C230095": {
+          "text": "BadSecureChannelTokenUnknown: The token expired or is not detected",
+          "version": 1
+        },
+        "0C230096": {
+          "text": "BadSequenceNumberInvalid: The sequence number is invalid",
+          "version": 1
+        },
+        "0C230097": {
+          "text": "BadConfigurationError: There is a problem with the configuration that affects the usability of the value",
+          "version": 1
+        },
+        "0C230098": {
+          "text": "BadNotConnected: The variable should receive its value from another variable, but was never configured for it",
+          "version": 1
+        },
+        "0C230099": {
+          "text": "BadDeviceFailure: An error occurred in the device/data source that generates the value that affected the value",
+          "version": 1
+        },
+        "0C23009A": {
+          "text": "BadSensorFailure: The sensor - from which the device/data source derives the value - failed",
+          "version": 1
+        },
+        "0C23009B": {
+          "text": "BadOutOfService: The data source is not operational",
+          "version": 1
+        },
+        "0C23009C": {
+          "text": "BadDeadbandFilterInvalid: The deadband filter is not valid",
+          "version": 1
+        },
+        "0C23009D": {
+          "text": "BadRefreshInProgress: Refreshing this condition failed, as a refreshment of a condition is already running",
+          "version": 1
+        },
+        "0C23009E": {
+          "text": "BadConditionAlreadyDisabled: This condition has already been disabled",
+          "version": 1
+        },
+        "0C23009F": {
+          "text": "BadConditionDisabled: Property not available, this condition is disabled",
+          "version": 1
+        },
+        "0C2300A0": {
+          "text": "BadEventIdUnknown: The specified event ID is not known",
+          "version": 1
+        },
+        "0C2300A1": {
+          "text": "BadNoData: No data is available for the requested time range or event filter",
+          "version": 1
+        },
+        "0C2300A2": {
+          "text": "BadDataLost: Data missing due to a started/stopped/lost collection",
+          "version": 1
+        },
+        "0C2300A3": {
+          "text": "BadDataUnavailable: The expected data is not available for the requested period, as a data carrier is not mounted, an archive or tape is offline or there is a similar reason for temporary unavailability",
+          "version": 1
+        },
+        "0C2300A4": {
+          "text": "BadEntryExists: The data or event was not successfully inserted, as a matching entry exists",
+          "version": 1
+        },
+        "0C2300A5": {
+          "text": "BadNoEntryExists: The data or event was not successfully updated, as there is no matching entry",
+          "version": 1
+        },
+        "0C2300A6": {
+          "text": "BadTimestampNotSupported: The client requested the history in a timestamp format that the server does not support (i.e. it has requested ServerTimestamp although the server only supports SourceTimestamp)",
+          "version": 1
+        },
+        "0C2300A7": {
+          "text": "BadInvalidArgument: One or more arguments are invalid - see logbook for more details",
+          "version": 1
+        },
+        "0C2300A8": {
+          "text": "BadConnectionRejected: No network connection could be established to the remote server",
+          "version": 1
+        },
+        "0C2300A9": {
+          "text": "BadDisconnect: The server closed the connection to the client",
+          "version": 1
+        },
+        "0C2300AA": {
+          "text": "BadConnectionClosed: The network connection was closed",
+          "version": 1
+        },
+        "0C2300AB": {
+          "text": "BadInvalidState: The operation cannot be completed, as the object was closed without initialization or is in another invalid state",
+          "version": 1
+        },
+        "0C2300AC": {
+          "text": "BadEndOfStream: Cannot move beyond the end of the stream",
+          "version": 1
+        },
+        "0C2300AD": {
+          "text": "BadNoDataAvailable: There is currently no data available to read from a non-blocking stream",
+          "version": 1
+        },
+        "0C2300AE": {
+          "text": "BadWaitingForResponse: The asynchronous operation waits for a response",
+          "version": 1
+        },
+        "0C2300AF": {
+          "text": "BadOperationAbandoned: The asynchronous operation was canceled by the caller",
+          "version": 1
+        },
+        "0C2300B0": {
+          "text": "BadExpectedStreamToBlock: The stream has not returned all requested data (possibly because it is a non-blocking stream)",
+          "version": 1
+        },
+        "0C2300B1": {
+          "text": "BadWouldBlock: Non-blocking behavior is required and the process would block",
+          "version": 1
+        },
+        "0C2300B2": {
+          "text": "BadSyntaxError: One value had an invalid syntax",
+          "version": 1
+        },
+        "0C2300B3": {
+          "text": "BadMaxConnectionsReached: The operation could not be completed, as all available connections are busy",
+          "version": 1
+        },
+        "0C2300B4": {
+          "text": "BadRequestTooLarge: The size of the request message exceeds the limits set by the server",
+          "version": 1
+        },
+        "0C2300B5": {
+          "text": "BadResponseTooLarge: The size of the response message exceeds the limits set by the client",
+          "version": 1
+        },
+        "0C2300B6": {
+          "text": "BadEventNotAcknowledgeable: The event cannot be acknowledged",
+          "version": 1
+        },
+        "0C2300B7": {
+          "text": "BadInvalidTimestampArgument: The defined timestamp to be returned was invalid",
+          "version": 1
+        },
+        "0C2300B8": {
+          "text": "BadProtocolVersionUnsupported: The applications do not have compatible protocol versions",
+          "version": 1
+        },
+        "0C2300B9": {
+          "text": "BadStateNotActive: The sub-state machine is currently not active",
+          "version": 1
+        },
+        "0C2300BA": {
+          "text": "BadFilterOperatorInvalid: An invalid operator was provided in a filter",
+          "version": 1
+        },
+        "0C2300BB": {
+          "text": "BadFilterOperatorUnsupported: A valid operator was specified, but the server does not support this filter operator",
+          "version": 1
+        },
+        "0C2300BC": {
+          "text": "BadFilterOperandCountMismatch: The number of operands specified for the filter operator was less than expected for the specified operand",
+          "version": 1
+        },
+        "0C2300BD": {
+          "text": "BadFilterElementInvalid: The referenced element is not a valid element in the content filter",
+          "version": 1
+        },
+        "0C2300BE": {
+          "text": "BadFilterLiteralInvalid: The referenced literal is an invalid value",
+          "version": 1
+        },
+        "0C2300BF": {
+          "text": "BadIdentityChangeNotSupported: The server does not support changing the user identity assigned to a session",
+          "version": 1
+        },
+        "0C2300C0": {
+          "text": "BadNotTypeDefinition: The specified NodeId was not a type definition NodeId",
+          "version": 1
+        },
+        "0C2300C1": {
+          "text": "BadViewTimestampInvalid: The timestamp of the view is not available or not supported",
+          "version": 1
+        },
+        "0C2300C2": {
+          "text": "BadViewParameterMismatch: The parameters of the view are inconsistent among each other",
+          "version": 1
+        },
+        "0C2300C3": {
+          "text": "BadViewVersionInvalid: The version of the view is either not available or not supported",
+          "version": 1
+        },
+        "0C2300C4": {
+          "text": "BadConditionAlreadyEnabled: This condition has already been enabled",
+          "version": 1
+        },
+        "0C2300C5": {
+          "text": "BadDialogNotActive: The dialog condition is not active",
+          "version": 1
+        },
+        "0C2300C6": {
+          "text": "BadDialogResponseInvalid: The response is invalid for the dialog",
+          "version": 1
+        },
+        "0C2300C7": {
+          "text": "BadConditionBranchAlreadyAcked: The condition branch has already been acknowledged",
+          "version": 1
+        },
+        "0C2300C8": {
+          "text": "BadConditionBranchAlreadyConfirmed: The conditional branch has already been confirmed",
+          "version": 1
+        },
+        "0C2300C9": {
+          "text": "BadConditionAlreadyShelved: The condition has already been shelved",
+          "version": 1
+        },
+        "0C2300CA": {
+          "text": "BadConditionNotShelved: The condition is currently not shelved",
+          "version": 1
+        },
+        "0C2300CB": {
+          "text": "BadShelvingTimeOutOfRange: The shelving time is not beyond an acceptable range",
+          "version": 1
+        },
+        "0C2300CC": {
+          "text": "BadAggregateListMismatch: The requested number of aggregates does not match the requested number of NodeIds",
+          "version": 1
+        },
+        "0C2300CD": {
+          "text": "BadAggregateNotSupported: The requested aggregate is not supported by the server",
+          "version": 1
+        },
+        "0C2300CE": {
+          "text": "BadAggregateInvalidInputs: The aggregate value could not be derived due to invalid data entries",
+          "version": 1
+        },
+        "0C2300CF": {
+          "text": "BadBoundNotFound: No data found to provide upper or lower limit value",
+          "version": 1
+        },
+        "0C2300D0": {
+          "text": "BadBoundNotSupported: The server cannot retrieve a limit for the variable",
+          "version": 1
+        },
+        "0C2300D1": {
+          "text": "BadAggregateConfigurationRejected: The aggregate configuration is not valid for the specified node",
+          "version": 1
+        },
+        "0C2300D2": {
+          "text": "BadTooManyMonitoredItems: The request could not be processed, as there are too many Monitored Items in the subscription",
+          "version": 1
+        },
+        "0C2300D3": {
+          "text": "BadDominantValueChanged: The associated EngineeringUnit was changed, but the change was not applied to the device. Thus, the variable value still depends on the previous unit and the status is currently \"Bad\"",
+          "version": 1
+        },
+        "0C2300D4": {
+          "text": "BadDependentValueChanged: A dependent value was changed, but the change was not applied to the device. The quality of the dominant variable is \"Bad\"",
+          "version": 1
+        },
+        "0C2300D5": {
+          "text": "BadRequestNotAllowed: The request was rejected by the server, as it did not meet the criteria set by the server",
+          "version": 1
+        },
+        "0C2300D6": {
+          "text": "BadTooManyArguments: Too many arguments were provided",
+          "version": 1
+        },
+        "0C2300D7": {
+          "text": "BadSecurityModeInsufficient: The operation is not permitted via the current secure channel",
+          "version": 1
+        },
+        "0C2300D8": {
+          "text": "BadDataSetIdInvald: The DataSet specified to create the DataSetWriter is invalid",
+          "version": 1
+        },
+        "0C2300D9": {
+          "text": "StartOfStackStatusCodes: Start of the status messages internally on the stack",
+          "version": 1
+        },
+        "0C2300DA": {
+          "text": "BadSignatureInvalid: The signature of the message is invalid",
+          "version": 1
+        },
+        "0C2300DB": {
+          "text": "BadExtensibleParameterInvalid: The specified extendable parameter is invalid for the service",
+          "version": 1
+        },
+        "0C2300DC": {
+          "text": "BadExtensibleParameterUnsupported: The specified extendable parameter is valid, but the server does not support it",
+          "version": 1
+        },
+        "0C2300DD": {
+          "text": "BadHostUnknown: The hostname could not be resolved",
+          "version": 1
+        },
+        "0C2300DE": {
+          "text": "BadTooManyPosts: Too many posts were sent to one semaphore",
+          "version": 1
+        },
+        "0C2300DF": {
+          "text": "BadSecurityConfig: The security configuration is invalid",
+          "version": 1
+        },
+        "0C2300E0": {
+          "text": "BadFileNotFound: Invalid file name specified",
+          "version": 1
+        },
+        "0C2300E1": {
+          "text": "BadContinue: Accept bad result and continue",
+          "version": 1
+        },
+        "0C2300E2": {
+          "text": "BadHttpMethodNotAllowed: Accept bad result and continue",
+          "version": 1
+        },
+        "0C2300E3": {
+          "text": "BadFileExists: File exists",
+          "version": 1
+        },
+        "0C2300E4": {
+          "text": "BadCertificateChainIncomplete: The certificate chain is incomplete",
+          "version": 1
+        },
+        "0C2300E5": {
+          "text": "BadLicenseExpired: The server requires a license for general operation or to execute a service or operation",
+          "version": 1
+        },
+        "0C2300E6": {
+          "text": "BadLicenseLimitsExceeded: The server has limits for the number of permitted operations/objects",
+          "version": 1
+        },
+        "0C2300E7": {
+          "text": "BadLicenseNotAvailable: The server does not have a license required for general operation or to execute a service or operation",
+          "version": 1
+        },
+        "0C2300E8": {
+          "text": "BadNotExecutable: The executable attribute does not allow the method to be executed",
+          "version": 1
+        },
+        "0C2300E9": {
+          "text": "BadNumericOverflow: The number was not accepted due to a numerical overflow",
+          "version": 1
+        },
+        "0C2300EA": {
+          "text": "BadRequestNotComplete: The request has not yet been processed by the server",
+          "version": 1
+        },
+        "0C2300EB": {
+          "text": "BadCertificatePolicyCheckFailes: The certificate does not meet the requirements of the security policy",
+          "version": 1
+        },
+        "0C2300EC": {
+          "text": "BadAlreadyExists: A respective rule already exists",
+          "version": 1
+        },
+        "0C2300ED": {
+          "text": "BadEditedOutOfRange: Provided with a \"Variable\" value if \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300EE": {
+          "text": "BadInitialValueOutOfRange: Provided with a \"Variable\" value if a source \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300EF": {
+          "text": "BadOutOfRangeDominantValueChanged: Provided with a dependent \"Variable\" value if a dominant \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300F0": {
+          "text": "BadEditedOutOfRangeDominantValueChanged: Provided with a dependent \"Variable\" value if a dominant \"Variable\" has changed, but the value is not permitted and the change was not applied",
+          "version": 1
+        },
+        "0C2300F1": {
+          "text": "BadOutOfRangeDominantValueChangedDependentValueChanged: Provided with a dependent \"Variable\" value if a dominant or dependent \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300F2": {
+          "text": "BadEditedOutOfRangeDominantValueChangedDependentValueChanged: Provided with a dependent \"Variable\" value if a dominant or dependent \"Variable\" has changed, the value is not permitted and the change was not applied",
+          "version": 1
+        },
+        "0C2300F3": {
+          "text": "BadTicketRequired: The device identity requires a ticket before it can be accepted",
+          "version": 1
+        },
+        "0C2300F4": {
+          "text": "BadTicketInvalid: The device identity requires a ticket before it can be accepted",
+          "version": 1
+        },
+        "0C2300F5": {
+          "text": "PLCopenUA_Bad_FW_PermanentError: Internal, permanent error",
+          "version": 1
+        },
+        "0C2300F6": {
+          "text": "PLCopenUA_Bad_FW_TempError: Temporary error. Function block could try again to reach firmware",
+          "version": 1
+        },
+        "0C2300F7": {
+          "text": "PLCopenUA_Bad_ConnectionError: Connection could not be established",
+          "version": 1
+        },
+        "0C2300F8": {
+          "text": "PLCopenUA_Bad_HostNotFound: The requested hostname could not be found",
+          "version": 1
+        },
+        "0C2300F9": {
+          "text": "PLCopenUA_Bad_AlreadyConnected: Connection already established",
+          "version": 1
+        },
+        "0C2300FA": {
+          "text": "PLCopenUA_Bad_SecurityFailed: Connection failed due to security settings",
+          "version": 1
+        },
+        "0C2300FB": {
+          "text": "PLCopenUA_Bad_Suspended: Connection is suspended",
+          "version": 1
+        },
+        "0C2300FC": {
+          "text": "PLCopenUA_Bad_ConnectionInvalidHdl: Provided ConnectionHdl is not known",
+          "version": 1
+        },
+        "0C2300FD": {
+          "text": "PLCopenUA_Bad_NSNotFound: A namespace with the requested name cannot be found on the server",
+          "version": 1
+        },
+        "0C2300FE": {
+          "text": "PLCopenUA_Bad_ResultTooLong: Target PLC variable is too short for queried data",
+          "version": 1
+        },
+        "0C2300FF": {
+          "text": "PLCopenUA_Bad_InvalidType: Invalid or unsupported type",
+          "version": 1
+        },
+        "0C230100": {
+          "text": "PLCopenUA_Bad_NodeInvalidHdl: The specified NodeHdl is not known",
+          "version": 1
+        },
+        "0C230101": {
+          "text": "PLCopenUA_Bad_MethodInvalidHdl: Provided MethodHdl is not known",
+          "version": 1
+        },
+        "0C230102": {
+          "text": "PLCopenUA_Bad_ReadFailed: Reading failed for unknown reason",
+          "version": 1
+        },
+        "0C230103": {
+          "text": "PLCopenUA_Bad_WriteFailed: Writing failed for unknown reason",
+          "version": 1
+        },
+        "0C230104": {
+          "text": "PLCopenUA_Bad_CallFailed: Method call failed for unknown reason",
+          "version": 1
+        },
+        "0C230105": {
+          "text": "PLCopenUA_Bad_InParamFailed: Converting method call input parameter failed",
+          "version": 1
+        },
+        "0C230106": {
+          "text": "PLCopenUA_Bad_OutParamFailed: Converting method call output parameter failed. CAUTION: This means that the MethodCall was executed successfully, but the returned values could not be converted",
+          "version": 1
+        },
+        "0C230107": {
+          "text": "PLCopenUA_Bad_AttributeIdUnknown: Used in UA_NodeGetInformation for elements that are not present in this NodeClass",
+          "version": 1
+        },
+        "0C230108": {
+          "text": "PLCopenUA_Bad_AttributeIdInvalid: Used in UA_NodeGetInformation for elements that should exist, but do not exist",
+          "version": 1
+        },
+        "0C230109": {
+          "text": "PLCopenUA_Bad_SubscriptionInvalidHdl: Provided SubscriptionHdl is not known",
+          "version": 1
+        },
+        "0C23010A": {
+          "text": "PLCopenUA_Bad_MonitoredItemInvalidHdl: Provided MonitoredItemHdl is not known",
+          "version": 1
+        },
+        "0C23010B": {
+          "text": "PLCopenUA_Bad_MonitoredItemSyncMismatch: Mixed controller synchronization and firmware synchronization in the same list",
+          "version": 1
+        },
+        "0C23010C": {
+          "text": "PLCopenUA_Bad_SyncModeInvalid: Synchronization mode invalid",
+          "version": 1
+        },
+        "0C23010D": {
+          "text": "SystemNotReady: Operation failed due to resource limitation",
+          "version": 1
+        },
+        "0C23010E": {
+          "text": "StateInvalidOperation: Operation failed, as the previous operation has not yet been completed",
+          "version": 1
+        },
+        "0C23010F": {
+          "text": "FeatureNotSupported: The feature is not supported",
+          "version": 1
+        },
+        "0C230110": {
+          "text": "SecurityNotSupported: Security is not supported",
+          "version": 1
+        },
+        "0C230111": {
+          "text": "TransportProfileNotSupported: The requested transport profile is not supported",
+          "version": 1
+        },
+        "0C230112": {
+          "text": "UnexpectedResults: Unexpected results were returned (status code, data type, value)",
+          "version": 1
+        },
+        "0C230113": {
+          "text": "RessourceLimitError: Operation failed due to resource limitation",
+          "version": 1
+        },
+        "0C230114": {
+          "text": "NothingTodo: There is nothing to do, check request parameters",
+          "version": 1
+        },
+        "0C230115": {
+          "text": "StringArraysNotSupported: STRING arrays are not supported for this operation",
+          "version": 1
+        },
+        "0C230116": {
+          "text": "ErrorInSubservice: One of the sub-services failed, see NodeErrorIDs output",
+          "version": 1
+        },
+        "0C230117": {
+          "text": "NoOfOutArguments: Number of returned output arguments does NOT match the number of outputs of the method",
+          "version": 1
+        },
+        "0C230118": {
+          "text": "ErrorVariableSizeDoesNotFit: The memory size of the PLC variable does not match the memory size required by the node",
+          "version": 1
+        },
+        "0C230119": {
+          "text": "ErrorMaxNumberOfSessionsReached: The maximum number of sessions was reached",
+          "version": 1
+        },
+        "0C23011A": {
+          "text": "ErrorInvalidStateOfStateMachine: Invalid state of the state machine of the function block",
+          "version": 1
+        },
+        "0C23011B": {
+          "text": "ErrorFunctionBlocTimeout: The function block could not be completed within the set timeout",
+          "version": 1
+        },
+        "0C23011C": {
+          "text": "ErrorInvalidInputOfFunctionBlock: An invalid value is present at an input",
+          "version": 1
+        },
+        "0C23011D": {
+          "text": "ErrorDataTypeNotSupported: The data type is currently not supported",
+          "version": 1
+        },
+        "0C23011E": {
+          "text": "ErrorInvalidFlatbufferAccess: Invalid access to the FlatBuffers",
+          "version": 1
+        },
+        "0C23011F": {
+          "text": "ErrorInvalidTaskContext: Invalid IEC task context",
+          "version": 1
+        },
+        "0C230120": {
+          "text": "ErrorInvalidSyntaxOfNodeId: The syntax of the specified NodeId is invalid",
+          "version": 1
+        },
+        "0C230121": {
+          "text": "ErrorInvalidAdressOfPlcVariable: The address of the IEC variable is invalid, e.g. null pointer",
+          "version": 1
+        },
+        "0C230122": {
+          "text": "ErrorNotYetImplemented: This functionality has not yet been implemented",
+          "version": 1
+        },
+        "0C230123": {
+          "text": "ErrorAppOpcUaClientNotInstalled: The OPC UA Client App (UAC) was not installed or disabled",
+          "version": 1
+        },
+        "0C230124": {
+          "text": "ErrorAppOpcUaServerNotInstalled: The OPC UA Server app (UAS) was not installed or disabled",
+          "version": 1
+        },
+        "0C230125": {
+          "text": "ErrorSameSessionNameAlreadyUsedByAnotherInstance: Another instance of the \"UA_Connect\" function block already uses this session name",
+          "version": 1
+        },
+        "0C230126": {
+          "text": "ErrorFlatbufferAccesReturnsNULL: Accessing a FlatBuffers returns a null pointer",
+          "version": 1
+        },
+        "0C230127": {
+          "text": "ErrorFlatbufferAccesReturnsSizeZero: Accessing a FlatBuffers returns 0",
+          "version": 1
+        },
+        "0C230128": {
+          "text": "ErrorInconsistentCounterValue: The counter value is inconsistent, e.g. from uiNoOfPlcCreatedInstances",
+          "version": 1
+        },
+        "0C230129": {
+          "text": "ErrorTypeMismatch: The types of both variables do not match, e.g. PLC variable and method parameter",
+          "version": 1
+        },
+        "0C23012A": {
+          "text": "ErrorTypeOfMethodNotSupported: The type of the method to be called is not supported, e.g. the method has too many parameters",
+          "version": 1
+        },
+        "0C23012B": {
+          "text": "ErrorAllocateMemory: No dynamic memory could be requested",
+          "version": 1
+        },
+        "0C23012C": {
+          "text": "ErrorFunctionBlockTimeout: Timeout of the function block occurred - increase \"Timeout\" input if required",
+          "version": 1
+        },
+        "0C23012D": {
+          "text": "ErrorInvalidMethodHdl: Invalid method handle (0 or -1)",
+          "version": 1
+        },
+        "0C23012F": {
+          "text": "ErrorUnequalNumbersOfOutputArguments: The number of expected output arguments does not correspond to the OutputArgumentsCount input",
+          "version": 1
+        },
+        "0C230130": {
+          "text": "ErrorDataTypeMismatchOfInputArguments: The data type of an input argument does not match the type of the IEC variable",
+          "version": 1
+        },
+        "0C230131": {
+          "text": "ErrorDataTypeMismatchOfOutputArguments: The data type of an input argument does not match the type of the IEC variable",
+          "version": 1
+        },
+        "0C230132": {
+          "text": "ErrorInvalidReferenceType: Invalid reference type of the method. Expected is \"readInType\" or \"readOutType\"",
+          "version": 1
+        },
+        "0C230133": {
+          "text": "ErrorMetadataGetReference: Invalid metadata reference, e.g. null pointer",
+          "version": 1
+        },
+        "0C230134": {
+          "text": "ErrorInvalidNumberOfReferences: The method contains more than two references. This is not supported",
+          "version": 1
+        },
+        "0C230135": {
+          "text": "ErrorInvalidNodeClass: The NodeClass of the method is not \"Method\"",
+          "version": 1
+        },
+        "0C230136": {
+          "text": "ErrorInvalidOperations: The expected property \"operations\" of the method is not readable or writable",
+          "version": 1
+        },
+        "0C230137": {
+          "text": "ErrorEncodingToFlatbuffer: Encoding the inputs to the FlatBuffers",
+          "version": 1
+        },
+        "0C230138": {
+          "text": "ErrorDecodingFromFlatbuffer: Decoding the FlatBuffers to the outputs failed",
+          "version": 1
+        },
+        "0C230139": {
+          "text": "ErrorUnequalNumbersOfInputArguments: The number of valid elements in \"InputArguments\" does not match the value \"InputArgumentsCount\"",
+          "version": 1
+        },
+        "0C23013A": {
+          "text": "ErrorReadingMetadata: Metadata of the node could be not be read",
+          "version": 1
+        },
+        "0C23013B": {
+          "text": "ErrorInternalError: An internal error occurred",
+          "version": 1
+        },
+        "0C23013C": {
+          "text": "ErrorSysTaskWaitSleepUs: The function call SysTaskWaitSleepUs returns an error",
+          "version": 1
+        },
+        "0C23013D": {
+          "text": "ErrorOneNodeError: Exactly one node returns an error that is entered into the \"NodeErrorIDs\" and \"NodeErrorIDString\" lists",
+          "version": 1
+        },
+        "0C23013E": {
+          "text": "ErrorMultipleNodeErrors: More than one node returns an error that are entered into the \"NodeErrorIDs\" and \"NodeErrorIDString\" lists",
+          "version": 1
+        },
+        "0C23013F": {
+          "text": "ErrorDataLayerUNKNOWN: An unknown error code was issued",
+          "version": 1
+        },
+        "0C230140": {
+          "text": "ErrorDataLayerDL_OK: Successful function call",
+          "version": 1
+        },
+        "0C230141": {
+          "text": "ErrorDataLayerDL_FAILED: For temporary use only",
+          "version": 1
+        },
+        "0C230142": {
+          "text": "ErrorDataLayerDL_INVALID_ADDRESS: Invalid address in the Data Layer",
+          "version": 1
+        },
+        "0C230143": {
+          "text": "ErrorDataLayerDL_UNSUPPORTED: Functionality not implemented",
+          "version": 1
+        },
+        "0C230144": {
+          "text": "ErrorDataLayerDL_OUT_OF_MEMORY: No memory available (RAM, sockets, handles, hard disk space,....)",
+          "version": 1
+        },
+        "0C230145": {
+          "text": "ErrorDataLayerDL_LIMIT_MIN: It was fallen below the minimum of a limit",
+          "version": 1
+        },
+        "0C230146": {
+          "text": "ErrorDataLayerDL_LIMIT_MAX: The maximum of a limit was exceeded",
+          "version": 1
+        },
+        "0C230147": {
+          "text": "ErrorDataLayerDL_TYPE_MISMATCH: Incorrect type for FlatBuffers or data type",
+          "version": 1
+        },
+        "0C230148": {
+          "text": "ErrorDataLayerDL_SIZE_MISMATCH: Size mismatch; the existing size does not match requested size",
+          "version": 1
+        },
+        "0C230149": {
+          "text": "ErrorDataLayerDL_INVALID_FLOATINGPOINT: Invalid floating point number",
+          "version": 1
+        },
+        "0C23014A": {
+          "text": "ErrorDataLayerDL_INVALID_HANDLE: Invalid handle argument or NULL pointer argument",
+          "version": 1
+        },
+        "0C23014B": {
+          "text": "ErrorDataLayerDL_INVALID_OPERATION_MODE: Not reachable due to invalid operation mode (e.g writing not possible)",
+          "version": 1
+        },
+        "0C23014C": {
+          "text": "ErrorDataLayerDL_INVALID_CONFIGURATION: This value deviates from other configured values",
+          "version": 1
+        },
+        "0C23014D": {
+          "text": "ErrorDataLayerDL_INVALID_VALUE: Invalid value",
+          "version": 1
+        },
+        "0C23014E": {
+          "text": "ErrorDataLayerDL_SUBMODULE_FAILURE: Error occurred in child module",
+          "version": 1
+        },
+        "0C23014F": {
+          "text": "ErrorDataLayerDL_TIMEOUT: Request timeout",
+          "version": 1
+        },
+        "0C230150": {
+          "text": "ErrorDataLayerDL_ALREADY_EXISTS: Object cannot be created, as it already exists",
+          "version": 1
+        },
+        "0C230151": {
+          "text": "ErrorDataLayerDL_CREATION_FAILED: Object cannot be created",
+          "version": 1
+        },
+        "0C230152": {
+          "text": "ErrorDataLayerDL_VERSION_MISMATCH: Version conflict",
+          "version": 1
+        },
+        "0C230153": {
+          "text": "ErrorDataLayerDL_DEPRECATED: Outdated functionality: Is not supported anymore",
+          "version": 1
+        },
+        "0C230154": {
+          "text": "ErrorDataLayerDL_PERMISSION_DENIED: Request rejected due to insufficient access rights",
+          "version": 1
+        },
+        "0C230155": {
+          "text": "ErrorDataLayerDL_NOT_INITIALIZED: Object not yet initialized",
+          "version": 1
+        },
+        "0C230156": {
+          "text": "ErrorDataLayerDL_COMM_PROTOCOL_ERROR: Internal protocol error",
+          "version": 1
+        },
+        "0C230157": {
+          "text": "ErrorDataLayerDL_COMM_INVALID_HEADER: Internal error in the header",
+          "version": 1
+        },
+        "0C230158": {
+          "text": "ErrorDataLayerDL_CLIENT_NOT_CONNECTED: Client is not connected",
+          "version": 1
+        },
+        "0C230159": {
+          "text": "ErrorDataLayerDL_RT_NOTOPEN: Not open",
+          "version": 1
+        },
+        "0C23015A": {
+          "text": "ErrorDataLayerDL_RT_INVALIDOBJECT: Invalid object",
+          "version": 1
+        },
+        "0C23015B": {
+          "text": "ErrorDataLayerDL_RT_WRONGREVISON: Wrong version of the memory",
+          "version": 1
+        },
+        "0C23015C": {
+          "text": "ErrorDataLayerDL_RT_NOVALIDDATA: Invalid data",
+          "version": 1
+        },
+        "0C23015D": {
+          "text": "ErrorDataLayerDL_RT_MEMORYLOCKED: Memory already locked",
+          "version": 1
+        },
+        "0C23015E": {
+          "text": "ErrorDataLayerDL_RT_INVALID_MEMORYMAP: Invalid memory mapping",
+          "version": 1
+        },
+        "0C23015F": {
+          "text": "ErrorDataLayerDL_RT_INVALID_RETAIN: Invalid memory mapping of Retain data",
+          "version": 1
+        },
+        "0C230160": {
+          "text": "ErrorDataLayerDL_RT_INTERNAL_ERROR: Internal Runtime error",
+          "version": 1
+        },
+        "0C230161": {
+          "text": "ErrorDataLayerDL_SEC_NO_TOKEN: No token found",
+          "version": 1
+        },
+        "0C230162": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_SESSION: Token invalid (session not found)",
+          "version": 1
+        },
+        "0C230163": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_TOKEN_CONTENT: Token has incorrect content",
+          "version": 1
+        },
+        "0C230164": {
+          "text": "ErrorDataLayerDL_SEC_UNAUTHORIZED: Unauthorized",
+          "version": 1
+        },
+        "0C230165": {
+          "text": "ErrorDataLayerDL_SEC_PAYMENT_REQUIRED: Payment required",
+          "version": 1
+        }
+      }
+    },
+    "0A0F010F": {
+      "text": "Error in the library CXA_OpcUaServer",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Uncertain",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "UncertainReferenceOutOfServer: One of the references to be followed in the relative path points to a node in the address space of another server",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "UncertainNoCommunicationLastUsableValue: Communication with the data source failed. The variable value is the last value of good quality",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "UncertainLastUsableValue: Updating this value was stopped",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "UncertainSubstituteValue: The value is an operational value that was overwritten manually",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "UncertainInitialValue: The value is an initial value for a variable that normally obtains its value from another variable",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "UncertainSensorNotAccurate: The value is at one of the sensor limit values",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "UncertainEngineeringUnitsExceeded: The value is beyond the value range defined for this parameter",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "UncertainSubNormal: The value originates from multiple sources and has less than the required number of \"ofGood\" sources",
+          "version": 1
+        },
+        "0C23000A": {
+          "text": "UncertainDataSubNormal: The value originates from multiple values and has less than the required number of \"Good\" sources",
+          "version": 1
+        },
+        "0C23000B": {
+          "text": "UncertainReferenceNotDeleted: The server was not able to delete all target references",
+          "version": 1
+        },
+        "0C23000C": {
+          "text": "UncertainNotAllNodesAvailable: The list of references may not be complete, as the underlying system is not available",
+          "version": 1
+        },
+        "0C23000D": {
+          "text": "UncertainDominantValueChanged: The respective engineering unit was changed, but the variable value is still specified based on the previous unit",
+          "version": 1
+        },
+        "0C23000E": {
+          "text": "UncertainDependentValueChanged: A dependent value was changed, but the change has not yet been applied to the device. The quality of the dominant variable is uncertain",
+          "version": 1
+        },
+        "0C23000F": {
+          "text": "UncertainTransducerInManual: The value may not be accurate, as the transducer is in manual mode",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "UncertainSimulatedValue: The value is simulated",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "UncertainSensorCalibration: The value may not be accurate due to an error in the sensor calibration",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "UncertainConfigurationError: The value may not be accurate due to a configuration problem",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "PLCopenUA_Uncertain_RedundantDisconnect: Request to disconnect a connection that is not running",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "BadError: An unexpected error occurred",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "BadUnexpectedError: An unexpected error occurred",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "BadInternalError: An internal error occurred due to a programming or configuration error",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "BadOutOfMemory: Insufficient memory to complete the operation",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "BadResourceUnavailable: A resource of the operating system is not available",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "BadCommunicationError: An low-level communication error occurred",
+          "version": 1
+        },
+        "0C23001A": {
+          "text": "BadEncodingError: Coding was aborted due to invalid data in the objects to be serialized",
+          "version": 1
+        },
+        "0C23001B": {
+          "text": "BadDecodingError: Decoding aborted due to invalid data in the stream",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "BadEncodingLimitsExceeded: The limits set by the stack for encoding/decoding messages was exceeded",
+          "version": 1
+        },
+        "0C23001D": {
+          "text": "BadUnknownResponse: An unknown response was received from the server",
+          "version": 1
+        },
+        "0C23001E": {
+          "text": "BadTimeout: Timeout during processing",
+          "version": 1
+        },
+        "0C23001F": {
+          "text": "BadServiceUnsupported: The server does not support the requested service",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "BadShutdown: The operation was canceled, as the application is shut down",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "BadServerNotConnected: The operation could not be completed, as the client is not connected to the server",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "BadServerHalted: The server is stopped and cannot process any requests",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "BadNothingToDo: No action possible, as the client transferred a list of operations without elements",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "BadTooManyOperations: The request could not be processed, as it contained too many transactions",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "BadDataTypeIdUnknown: The extension object cannot be (de)serialized, as the data type ID is not identified",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "BadCertificateInvalid: The certificate provided as parameter is invalid",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "BadSecurityChecksFailed: An error occurred during the security check, e.g. the client/server certificate is not yet valid",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "BadCertificateTimeInvalid: The certificate has expired or is not yet valid - also check the system time of the server",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "BadCertificateIssuerTimeInvalid: An Issuer certificate has expired or is not yet valid",
+          "version": 1
+        },
+        "0C23002A": {
+          "text": "BadCertificateHostNameInvalid: The hostname used to connect to a server does not match a hostname in the certificate",
+          "version": 1
+        },
+        "0C23002B": {
+          "text": "BadCertificateUriInvalid: The URI specified in the application description does not match the URI in the certificate",
+          "version": 1
+        },
+        "0C23002C": {
+          "text": "BadCertificateUseNotAllowed: The certificate must not be used for the requested operation",
+          "version": 1
+        },
+        "0C23002D": {
+          "text": "BadCertificateIssuerUseNotAllowed: The Issuer certificate cannot be used for the requested operation",
+          "version": 1
+        },
+        "0C23002E": {
+          "text": "BadCertificateUntrusted: The certificate is not trustworthy",
+          "version": 1
+        },
+        "0C23002F": {
+          "text": "BadCertificateRevocationUnknown: It could not be detected whether the certificate was revoked",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "BadCertificateIssuerRevocationUnknown: It could not be detected whether the Issuer certificate was revoked",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "BadCertificateRevoked: The certificate was revoked",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "BadCertificateIssuerRevoked: The Issuer certificate was revoked",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "BadUserAccessDenied: The user does not have permission to perform the requested operation",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "BadIdentityTokenInvalid: The user identity token is invalid, e.g. user and/or password do not match",
+          "version": 1
+        },
+        "0C230035": {
+          "text": "BadIdentityTokenRejected: The user identity token is valid, but the server rejected it",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "BadSecureChannelIdInvalid: The specified secure channel is no longer valid",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "BadInvalidTimestamp: The timestamp is beyond the range permitted by the server",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "BadNonceInvalid: \"Nonce\" does not appear to be a random value or does not have the correct length",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "BadSessionIdInvalid: The session ID is invalid",
+          "version": 1
+        },
+        "0C23003A": {
+          "text": "BadSessionClosed: The session was closed by the client",
+          "version": 1
+        },
+        "0C23003B": {
+          "text": "BadSessionNotActivated: The session cannot be used, as ActivateSession was called",
+          "version": 1
+        },
+        "0C23003C": {
+          "text": "BadSubscriptionIdInvalid: The subscription ID is invalid",
+          "version": 1
+        },
+        "0C23003D": {
+          "text": "BadRequestHeaderInvalid: The header for the request is missing or invalid",
+          "version": 1
+        },
+        "0C23003E": {
+          "text": "BadTimestampsToReturnInvalid: The \"Timestamps to return\" parameter is invalid",
+          "version": 1
+        },
+        "0C23003F": {
+          "text": "BadRequestCancelledByClient: The request was canceled by the client",
+          "version": 1
+        },
+        "0C230040": {
+          "text": "BadNoCommunication: Communication with the data source is defined, but not established and no last known value is available",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "BadWaitingForInitialData: Waiting for the server to obtain values from the underlying data source",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "BadNodeIdInvalid: The syntax of the node ID is invalid",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "BadNodeIdUnknown: The node ID refers to a node that does not exist in the server address space",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "BadAttributeIdInvalid: The attribute is not supported for the specified node",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "BadIndexRangeInvalid: The syntax of the parameter for the index range is invalid",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "BadIndexRangeNoData: No data is available within the specified index range",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "BadDataEncodingInvalid: Data encoding is invalid",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "BadDataEncodingUnsupported: The server does not support the requested data encoding for the node",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "BadNotReadable: The access level does not allow reading or subscribing to the node",
+          "version": 1
+        },
+        "0C23004A": {
+          "text": "BadNotWritable: The access level does not allow writing to the node",
+          "version": 1
+        },
+        "0C23004B": {
+          "text": "BadOutOfRange: The value was beyond the range",
+          "version": 1
+        },
+        "0C23004C": {
+          "text": "BadNotSupported: The requested operation is not supported, e.g. unsupported SecurityPolicy",
+          "version": 1
+        },
+        "0C23004D": {
+          "text": "BadNotFound: A requested element was not found or a search was terminated without success, e.g. unsupported SecurityPolicy",
+          "version": 1
+        },
+        "0C23004E": {
+          "text": "BadObjectDeleted: The object cannot be used, as it was deleted",
+          "version": 1
+        },
+        "0C23004F": {
+          "text": "BadNotImplemented: Requested operation is not implemented",
+          "version": 1
+        },
+        "0C230050": {
+          "text": "BadMonitoringModeInvalid: The monitoring mode is invalid",
+          "version": 1
+        },
+        "0C230051": {
+          "text": "BadMonitoredItemIdInvalid: The Monitored Item ID does not refer to a valid Monitored Item",
+          "version": 1
+        },
+        "0C230052": {
+          "text": "BadMonitoredItemFilterInvalid: The parameter for the Monitored Item filter is invalid",
+          "version": 1
+        },
+        "0C230053": {
+          "text": "BadMonitoredItemFilterUnsupported: The server does not support the requested Monitored Item filter",
+          "version": 1
+        },
+        "0C230054": {
+          "text": "BadFilterNotAllowed: A monitoring filter cannot be used together with the specified attribute",
+          "version": 1
+        },
+        "0C230055": {
+          "text": "BadStructureMissing: A mandatory structured parameter was missing or null",
+          "version": 1
+        },
+        "0C230056": {
+          "text": "BadEventFilterInvalid: The event filter is invalid",
+          "version": 1
+        },
+        "0C230057": {
+          "text": "BadContentFilterInvalid: The content filter is invalid",
+          "version": 1
+        },
+        "0C230058": {
+          "text": "BadFilterOperandInvalid: The operand used in a content filter is invalid",
+          "version": 1
+        },
+        "0C230059": {
+          "text": "BadContinuationPointInvalid: The specified continuation point is no longer valid",
+          "version": 1
+        },
+        "0C23005A": {
+          "text": "BadNoContinuationPoints: The operation could not be processed, as all continuation points were assigned",
+          "version": 1
+        },
+        "0C23005B": {
+          "text": "BadReferenceTypeIdInvalid: The operation could not be processed, as all continuation points were assigned",
+          "version": 1
+        },
+        "0C23005C": {
+          "text": "BadBrowseDirectionInvalid: The browse direction is invalid",
+          "version": 1
+        },
+        "0C23005D": {
+          "text": "BadNodeNotInView: The node is not part of the view",
+          "version": 1
+        },
+        "0C23005E": {
+          "text": "BadServerUriInvalid: The server URI is not a valid URI",
+          "version": 1
+        },
+        "0C23005F": {
+          "text": "BadServerNameMissing: No ServerName was specified",
+          "version": 1
+        },
+        "0C230060": {
+          "text": "BadDiscoveryUrlMissing: No DiscoveryUrl was specified",
+          "version": 1
+        },
+        "0C230061": {
+          "text": "BadSempahoreFileMissing: The semaphore file specified by the client is invalid",
+          "version": 1
+        },
+        "0C230062": {
+          "text": "BadRequestTypeInvalid: The request type of the security token is invalid",
+          "version": 1
+        },
+        "0C230063": {
+          "text": "BadSecurityModeRejected: The security mode does not meet the requirements specified by the server",
+          "version": 1
+        },
+        "0C230064": {
+          "text": "BadSecurityPolicyRejected: The security policy does not meet the requirements specified by the server",
+          "version": 1
+        },
+        "0C230065": {
+          "text": "BadTooManySessions: The server reached its maximum number of sessions",
+          "version": 1
+        },
+        "0C230066": {
+          "text": "BadUserSignatureInvalid: The signature of the user token is missing or invalid",
+          "version": 1
+        },
+        "0C230067": {
+          "text": "BadApplicationSignatureInvalid: The signature generated with the client certificate is missing or invalid",
+          "version": 1
+        },
+        "0C230068": {
+          "text": "BadNoValidCertificates: The client has not provided at least one software certificate that is valid and meets the profile requirements for the server",
+          "version": 1
+        },
+        "0C230069": {
+          "text": "BadRequestCancelledByRequest: The request was canceled by the client using the Cancel service",
+          "version": 1
+        },
+        "0C23006A": {
+          "text": "BadParentNodeIdInvalid: The parent node ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C23006B": {
+          "text": "BadReferenceNotAllowed: The reference could not be created, as it violates restrictions imposed by the data model",
+          "version": 1
+        },
+        "0C23006C": {
+          "text": "BadNodeIdRejected: The requested node ID was rejected, as it was either invalid or the server does not allow the client to specify node IDs",
+          "version": 1
+        },
+        "0C23006D": {
+          "text": "BadNodeIdExists: The requested node ID is already used by another node",
+          "version": 1
+        },
+        "0C23006E": {
+          "text": "BadNodeClassInvalid: The node class is invalid",
+          "version": 1
+        },
+        "0C23006F": {
+          "text": "BadBrowseNameInvalid: The browse name is invalid",
+          "version": 1
+        },
+        "0C230070": {
+          "text": "BadBrowseNameDuplicated: The browse name between the nodes with the same relationship to the parent node is not unique",
+          "version": 1
+        },
+        "0C230071": {
+          "text": "BadNodeAttributesInvalid: The node attributes are invalid for the node class",
+          "version": 1
+        },
+        "0C230072": {
+          "text": "BadTypeDefinitionInvalid: The node ID of the type definition does not reference to a suitable type node",
+          "version": 1
+        },
+        "0C230073": {
+          "text": "BadSourceNodeIdInvalid: The source node ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C230074": {
+          "text": "BadTargetNodeIdInvalid: The target node ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C230075": {
+          "text": "BadDuplicateReferenceNotAllowed: The reference type between the nodes is already defined",
+          "version": 1
+        },
+        "0C230076": {
+          "text": "BadInvalidSelfReference: The server does not allow this type of self-reference for this node",
+          "version": 1
+        },
+        "0C230077": {
+          "text": "BadReferenceLocalOnly: The reference type is invalid for a reference to a remote server",
+          "version": 1
+        },
+        "0C230078": {
+          "text": "BadNoDeleteRights: The server does not allow the node to be deleted",
+          "version": 1
+        },
+        "0C230079": {
+          "text": "BadServerIndexInvalid: The server index is invalid",
+          "version": 1
+        },
+        "0C23007A": {
+          "text": "BadViewIdUnknown: The view ID does not reference to a valid node",
+          "version": 1
+        },
+        "0C23007B": {
+          "text": "BadTooManyMatches: The requested operation has too many matches to respond",
+          "version": 1
+        },
+        "0C23007C": {
+          "text": "BadQueryTooComplex: The requested operation requires too many resources on the server",
+          "version": 1
+        },
+        "0C23007D": {
+          "text": "BadNoMatch: The requested operation cannot return a match",
+          "version": 1
+        },
+        "0C23007E": {
+          "text": "BadMaxAgeInvalid: The \"max age\" parameter is invalid",
+          "version": 1
+        },
+        "0C23007F": {
+          "text": "BadHistoryOperationInvalid: The \"history details\" parameter is invalid",
+          "version": 1
+        },
+        "0C230080": {
+          "text": "BadHistoryOperationUnsupported: The server does not support the requested operation",
+          "version": 1
+        },
+        "0C230081": {
+          "text": "BadWriteNotSupported: The server does not support writing the specified combination of value, status and timestamp",
+          "version": 1
+        },
+        "0C230082": {
+          "text": "BadTypeMismatch: The value provided for the attribute is not of the same type as the value of the attribute",
+          "version": 1
+        },
+        "0C230083": {
+          "text": "BadMethodInvalid: The method ID does not reference to a method for the specified object",
+          "version": 1
+        },
+        "0C230084": {
+          "text": "BadArgumentsMissing: The client did not specify all input arguments for the method",
+          "version": 1
+        },
+        "0C230085": {
+          "text": "BadTooManySubscriptions: The server reached its maximum number of subscriptions",
+          "version": 1
+        },
+        "0C230086": {
+          "text": "BadTooManyPublishRequests: The server reached the maximum number of publishing requests in the queue",
+          "version": 1
+        },
+        "0C230087": {
+          "text": "BadNoSubscription: There is no subscription available for this session",
+          "version": 1
+        },
+        "0C230088": {
+          "text": "BadSequenceNumberUnknown: The sequence number is unknown to the server",
+          "version": 1
+        },
+        "0C230089": {
+          "text": "BadMessageNotAvailable: The requested notification is no longer available",
+          "version": 1
+        },
+        "0C23008A": {
+          "text": "BadInsufficientClientProfile: The client of the current session does not support one or more profiles required for the subscription",
+          "version": 1
+        },
+        "0C23008B": {
+          "text": "BadTcpServerTooBusy: The server cannot process the request, as it is too busy",
+          "version": 1
+        },
+        "0C23008C": {
+          "text": "BadTcpMessageTypeInvalid: The type of message specified in the header is invalid",
+          "version": 1
+        },
+        "0C23008D": {
+          "text": "BadTcpSecureChannelUnknown: The SecureChannelId and/or TokenId are currently not used",
+          "version": 1
+        },
+        "0C23008E": {
+          "text": "BadTcpMessageTooLarge: The size of the message specified in the header is too large",
+          "version": 1
+        },
+        "0C23008F": {
+          "text": "BadTcpNotEnoughResources: There are not sufficient resources to process the request",
+          "version": 1
+        },
+        "0C230090": {
+          "text": "BadTcpInternalError: An internal error occurred",
+          "version": 1
+        },
+        "0C230091": {
+          "text": "BadTcpEndpointUrlInvalid: The server does not detect the specified QueryString",
+          "version": 1
+        },
+        "0C230092": {
+          "text": "BadRequestInterrupted: The request could not be sent due to a network interruption",
+          "version": 1
+        },
+        "0C230093": {
+          "text": "BadRequestTimeout: A timeout occurred while processing the request",
+          "version": 1
+        },
+        "0C230094": {
+          "text": "BadSecureChannelClosed: The secure channel was closed",
+          "version": 1
+        },
+        "0C230095": {
+          "text": "BadSecureChannelTokenUnknown: The token expired or is not detected",
+          "version": 1
+        },
+        "0C230096": {
+          "text": "BadSequenceNumberInvalid: The sequence number is invalid",
+          "version": 1
+        },
+        "0C230097": {
+          "text": "BadConfigurationError: There is a problem with the configuration that affects the usability of the value",
+          "version": 1
+        },
+        "0C230098": {
+          "text": "BadNotConnected: The variable should receive its value from another variable, but was never configured for it",
+          "version": 1
+        },
+        "0C230099": {
+          "text": "BadDeviceFailure: An error occurred in the device/data source that generates the value that affected the value",
+          "version": 1
+        },
+        "0C23009A": {
+          "text": "BadSensorFailure: The sensor - from which the device/data source derives the value - failed",
+          "version": 1
+        },
+        "0C23009B": {
+          "text": "BadOutOfService: The data source is not operational",
+          "version": 1
+        },
+        "0C23009C": {
+          "text": "BadDeadbandFilterInvalid: The deadband filter is not valid",
+          "version": 1
+        },
+        "0C23009D": {
+          "text": "BadRefreshInProgress: Refreshing this condition failed, as a refreshment of a condition is already running",
+          "version": 1
+        },
+        "0C23009E": {
+          "text": "BadConditionAlreadyDisabled: This condition has already been disabled",
+          "version": 1
+        },
+        "0C23009F": {
+          "text": "BadConditionDisabled: Property not available, this condition is disabled",
+          "version": 1
+        },
+        "0C2300A0": {
+          "text": "BadEventIdUnknown: The specified event ID is not known",
+          "version": 1
+        },
+        "0C2300A1": {
+          "text": "BadNoData: No data is available for the requested time range or event filter",
+          "version": 1
+        },
+        "0C2300A2": {
+          "text": "BadDataLost: Data missing due to a started/stopped/lost collection",
+          "version": 1
+        },
+        "0C2300A3": {
+          "text": "BadDataUnavailable: The expected data is not available for the requested period, as a data carrier is not mounted, an archive or tape is offline or there is a similar reason for temporary unavailability",
+          "version": 1
+        },
+        "0C2300A4": {
+          "text": "BadEntryExists: The data or event was not successfully inserted, as a matching entry exists",
+          "version": 1
+        },
+        "0C2300A5": {
+          "text": "BadNoEntryExists: The data or event was not successfully updated, as there is no matching entry",
+          "version": 1
+        },
+        "0C2300A6": {
+          "text": "BadTimestampNotSupported: The client requested the history in a timestamp format that the server does not support (i.e. it has requested ServerTimestamp although the server only supports SourceTimestamp)",
+          "version": 1
+        },
+        "0C2300A7": {
+          "text": "BadInvalidArgument: One or more arguments are invalid - see logbook for more details",
+          "version": 1
+        },
+        "0C2300A8": {
+          "text": "BadConnectionRejected: No network connection could be established to the remote server",
+          "version": 1
+        },
+        "0C2300A9": {
+          "text": "BadDisconnect: The server closed the connection to the client",
+          "version": 1
+        },
+        "0C2300AA": {
+          "text": "BadConnectionClosed: The network connection was closed",
+          "version": 1
+        },
+        "0C2300AB": {
+          "text": "BadInvalidState: The operation cannot be completed, as the object was closed without initialization or is in another invalid state",
+          "version": 1
+        },
+        "0C2300AC": {
+          "text": "BadEndOfStream: Cannot move beyond the end of the stream",
+          "version": 1
+        },
+        "0C2300AD": {
+          "text": "BadNoDataAvailable: There is currently no data available to read from a non-blocking stream",
+          "version": 1
+        },
+        "0C2300AE": {
+          "text": "BadWaitingForResponse: The asynchronous operation waits for a response",
+          "version": 1
+        },
+        "0C2300AF": {
+          "text": "BadOperationAbandoned: The asynchronous operation was canceled by the caller",
+          "version": 1
+        },
+        "0C2300B0": {
+          "text": "BadExpectedStreamToBlock: The stream has not returned all requested data (possibly because it is a non-blocking stream)",
+          "version": 1
+        },
+        "0C2300B1": {
+          "text": "BadWouldBlock: Non-blocking behavior is required and the process would block",
+          "version": 1
+        },
+        "0C2300B2": {
+          "text": "BadSyntaxError: One value had an invalid syntax",
+          "version": 1
+        },
+        "0C2300B3": {
+          "text": "BadMaxConnectionsReached: The operation could not be completed, as all available connections are busy",
+          "version": 1
+        },
+        "0C2300B4": {
+          "text": "BadRequestTooLarge: The size of the request message exceeds the limits set by the server",
+          "version": 1
+        },
+        "0C2300B5": {
+          "text": "BadResponseTooLarge: The size of the response message exceeds the limits set by the client",
+          "version": 1
+        },
+        "0C2300B6": {
+          "text": "BadEventNotAcknowledgeable: The event cannot be acknowledged",
+          "version": 1
+        },
+        "0C2300B7": {
+          "text": "BadInvalidTimestampArgument: The defined timestamp to be returned was invalid",
+          "version": 1
+        },
+        "0C2300B8": {
+          "text": "BadProtocolVersionUnsupported: The applications do not have compatible protocol versions",
+          "version": 1
+        },
+        "0C2300B9": {
+          "text": "BadStateNotActive: The sub-state machine is currently not active",
+          "version": 1
+        },
+        "0C2300BA": {
+          "text": "BadFilterOperatorInvalid: An invalid operator was provided in a filter",
+          "version": 1
+        },
+        "0C2300BB": {
+          "text": "BadFilterOperatorUnsupported: A valid operator was specified, but the server does not support this filter operator",
+          "version": 1
+        },
+        "0C2300BC": {
+          "text": "BadFilterOperandCountMismatch: The number of operands specified for the filter operator was less than expected for the specified operand",
+          "version": 1
+        },
+        "0C2300BD": {
+          "text": "BadFilterElementInvalid: The referenced element is not a valid element in the content filter",
+          "version": 1
+        },
+        "0C2300BE": {
+          "text": "BadFilterLiteralInvalid: The referenced literal is an invalid value",
+          "version": 1
+        },
+        "0C2300BF": {
+          "text": "BadIdentityChangeNotSupported: The server does not support changing the user identity assigned to a session",
+          "version": 1
+        },
+        "0C2300C0": {
+          "text": "BadNotTypeDefinition: The specified NodeId was not a type definition NodeId",
+          "version": 1
+        },
+        "0C2300C1": {
+          "text": "BadViewTimestampInvalid: The timestamp of the view is not available or not supported",
+          "version": 1
+        },
+        "0C2300C2": {
+          "text": "BadViewParameterMismatch: The parameters of the view are inconsistent among each other",
+          "version": 1
+        },
+        "0C2300C3": {
+          "text": "BadViewVersionInvalid: The version of the view is either not available or not supported",
+          "version": 1
+        },
+        "0C2300C4": {
+          "text": "BadConditionAlreadyEnabled: This condition has already been enabled",
+          "version": 1
+        },
+        "0C2300C5": {
+          "text": "BadDialogNotActive: The dialog condition is not active",
+          "version": 1
+        },
+        "0C2300C6": {
+          "text": "BadDialogResponseInvalid: The response is invalid for the dialog",
+          "version": 1
+        },
+        "0C2300C7": {
+          "text": "BadConditionBranchAlreadyAcked: The condition branch has already been acknowledged",
+          "version": 1
+        },
+        "0C2300C8": {
+          "text": "BadConditionBranchAlreadyConfirmed: The conditional branch has already been confirmed",
+          "version": 1
+        },
+        "0C2300C9": {
+          "text": "BadConditionAlreadyShelved: The condition has already been shelved",
+          "version": 1
+        },
+        "0C2300CA": {
+          "text": "BadConditionNotShelved: The condition is currently not shelved",
+          "version": 1
+        },
+        "0C2300CB": {
+          "text": "BadShelvingTimeOutOfRange: The shelving time is not beyond an acceptable range",
+          "version": 1
+        },
+        "0C2300CC": {
+          "text": "BadAggregateListMismatch: The requested number of aggregates does not match the requested number of NodeIds",
+          "version": 1
+        },
+        "0C2300CD": {
+          "text": "BadAggregateNotSupported: The requested aggregate is not supported by the server",
+          "version": 1
+        },
+        "0C2300CE": {
+          "text": "BadAggregateInvalidInputs: The aggregate value could not be derived due to invalid data entries",
+          "version": 1
+        },
+        "0C2300CF": {
+          "text": "BadBoundNotFound: No data found to provide upper or lower limit value",
+          "version": 1
+        },
+        "0C2300D0": {
+          "text": "BadBoundNotSupported: The server cannot retrieve a limit for the variable",
+          "version": 1
+        },
+        "0C2300D1": {
+          "text": "BadAggregateConfigurationRejected: The aggregate configuration is not valid for the specified node",
+          "version": 1
+        },
+        "0C2300D2": {
+          "text": "BadTooManyMonitoredItems: The request could not be processed, as there are too many Monitored Items in the subscription",
+          "version": 1
+        },
+        "0C2300D3": {
+          "text": "BadDominantValueChanged: The associated EngineeringUnit was changed, but the change was not applied to the device. Thus, the variable value still depends on the previous unit and the status is currently \"Bad\"",
+          "version": 1
+        },
+        "0C2300D4": {
+          "text": "BadDependentValueChanged: A dependent value was changed, but the change was not applied to the device. The quality of the dominant variable is \"Bad\"",
+          "version": 1
+        },
+        "0C2300D5": {
+          "text": "BadRequestNotAllowed: The request was rejected by the server, as it did not meet the criteria set by the server",
+          "version": 1
+        },
+        "0C2300D6": {
+          "text": "BadTooManyArguments: Too many arguments were provided",
+          "version": 1
+        },
+        "0C2300D7": {
+          "text": "BadSecurityModeInsufficient: The operation is not permitted via the current secure channel",
+          "version": 1
+        },
+        "0C2300D8": {
+          "text": "BadDataSetIdInvald: The DataSet specified to create the DataSetWriter is invalid",
+          "version": 1
+        },
+        "0C2300D9": {
+          "text": "StartOfStackStatusCodes: Start of the status messages internally on the stack",
+          "version": 1
+        },
+        "0C2300DA": {
+          "text": "BadSignatureInvalid: The signature of the message is invalid",
+          "version": 1
+        },
+        "0C2300DB": {
+          "text": "BadExtensibleParameterInvalid: The specified extendable parameter is invalid for the service",
+          "version": 1
+        },
+        "0C2300DC": {
+          "text": "BadExtensibleParameterUnsupported: The specified extendable parameter is valid, but the server does not support it",
+          "version": 1
+        },
+        "0C2300DD": {
+          "text": "BadHostUnknown: The hostname could not be resolved",
+          "version": 1
+        },
+        "0C2300DE": {
+          "text": "BadTooManyPosts: Too many posts were sent to one semaphore",
+          "version": 1
+        },
+        "0C2300DF": {
+          "text": "BadSecurityConfig: The security configuration is invalid",
+          "version": 1
+        },
+        "0C2300E0": {
+          "text": "BadFileNotFound: Invalid file name specified",
+          "version": 1
+        },
+        "0C2300E1": {
+          "text": "BadContinue: Accept bad result and continue",
+          "version": 1
+        },
+        "0C2300E2": {
+          "text": "BadHttpMethodNotAllowed: Accept bad result and continue",
+          "version": 1
+        },
+        "0C2300E3": {
+          "text": "BadFileExists: File exists",
+          "version": 1
+        },
+        "0C2300E4": {
+          "text": "BadCertificateChainIncomplete: The certificate chain is incomplete",
+          "version": 1
+        },
+        "0C2300E5": {
+          "text": "BadLicenseExpired: The server requires a license for general operation or to execute a service or operation",
+          "version": 1
+        },
+        "0C2300E6": {
+          "text": "BadLicenseLimitsExceeded: The server has limits for the number of permitted operations/objects",
+          "version": 1
+        },
+        "0C2300E7": {
+          "text": "BadLicenseNotAvailable: The server does not have a license required for general operation or to execute a service or operation",
+          "version": 1
+        },
+        "0C2300E8": {
+          "text": "BadNotExecutable: The executable attribute does not allow the method to be executed",
+          "version": 1
+        },
+        "0C2300E9": {
+          "text": "BadNumericOverflow: The number was not accepted due to a numerical overflow",
+          "version": 1
+        },
+        "0C2300EA": {
+          "text": "BadRequestNotComplete: The request has not yet been processed by the server",
+          "version": 1
+        },
+        "0C2300EB": {
+          "text": "BadCertificatePolicyCheckFailes: The certificate does not meet the requirements of the security policy",
+          "version": 1
+        },
+        "0C2300EC": {
+          "text": "BadAlreadyExists: A respective rule already exists",
+          "version": 1
+        },
+        "0C2300ED": {
+          "text": "BadEditedOutOfRange: Provided with a \"Variable\" value if \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300EE": {
+          "text": "BadInitialValueOutOfRange: Provided with a \"Variable\" value if a source \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300EF": {
+          "text": "BadOutOfRangeDominantValueChanged: Provided with a dependent \"Variable\" value if a dominant \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300F0": {
+          "text": "BadEditedOutOfRangeDominantValueChanged: Provided with a dependent \"Variable\" value if a dominant \"Variable\" has changed, but the value is not permitted and the change was not applied",
+          "version": 1
+        },
+        "0C2300F1": {
+          "text": "BadOutOfRangeDominantValueChangedDependentValueChanged: Provided with a dependent \"Variable\" value if a dominant or dependent \"Variable\" has changed, but the value is not permitted",
+          "version": 1
+        },
+        "0C2300F2": {
+          "text": "BadEditedOutOfRangeDominantValueChangedDependentValueChanged: Provided with a dependent \"Variable\" value if a dominant or dependent \"Variable\" has changed, the value is not permitted and the change was not applied",
+          "version": 1
+        },
+        "0C2300F3": {
+          "text": "BadTicketRequired: The device identity requires a ticket before it can be accepted",
+          "version": 1
+        },
+        "0C2300F4": {
+          "text": "BadTicketInvalid: The device identity requires a ticket before it can be accepted",
+          "version": 1
+        },
+        "0C2300F5": {
+          "text": "PLCopenUA_Bad_FW_PermanentError: Internal, permanent error",
+          "version": 1
+        },
+        "0C2300F6": {
+          "text": "PLCopenUA_Bad_FW_TempError: Temporary error. Function block could try again to reach firmware",
+          "version": 1
+        },
+        "0C2300F7": {
+          "text": "PLCopenUA_Bad_ConnectionError: Connection could not be established",
+          "version": 1
+        },
+        "0C2300F8": {
+          "text": "PLCopenUA_Bad_HostNotFound: The requested hostname could not be found",
+          "version": 1
+        },
+        "0C2300F9": {
+          "text": "PLCopenUA_Bad_AlreadyConnected: Connection already established",
+          "version": 1
+        },
+        "0C2300FA": {
+          "text": "PLCopenUA_Bad_SecurityFailed: Connection failed due to security settings",
+          "version": 1
+        },
+        "0C2300FB": {
+          "text": "PLCopenUA_Bad_Suspended: Connection is suspended",
+          "version": 1
+        },
+        "0C2300FC": {
+          "text": "PLCopenUA_Bad_ConnectionInvalidHdl: Provided ConnectionHdl is not known",
+          "version": 1
+        },
+        "0C2300FD": {
+          "text": "PLCopenUA_Bad_NSNotFound: A namespace with the requested name cannot be found on the server",
+          "version": 1
+        },
+        "0C2300FE": {
+          "text": "PLCopenUA_Bad_ResultTooLong: Target PLC variable is too short for queried data",
+          "version": 1
+        },
+        "0C2300FF": {
+          "text": "PLCopenUA_Bad_InvalidType: Invalid or unsupported type",
+          "version": 1
+        },
+        "0C230100": {
+          "text": "PLCopenUA_Bad_NodeInvalidHdl: The specified NodeHdl is not known",
+          "version": 1
+        },
+        "0C230101": {
+          "text": "PLCopenUA_Bad_MethodInvalidHdl: Provided MethodHdl is not known",
+          "version": 1
+        },
+        "0C230102": {
+          "text": "PLCopenUA_Bad_ReadFailed: Reading failed for unknown reason",
+          "version": 1
+        },
+        "0C230103": {
+          "text": "PLCopenUA_Bad_WriteFailed: Writing failed for unknown reason",
+          "version": 1
+        },
+        "0C230104": {
+          "text": "PLCopenUA_Bad_CallFailed: Method call failed for unknown reason",
+          "version": 1
+        },
+        "0C230105": {
+          "text": "PLCopenUA_Bad_InParamFailed: Converting method call input parameter failed",
+          "version": 1
+        },
+        "0C230106": {
+          "text": "PLCopenUA_Bad_OutParamFailed: Converting method call output parameter failed. CAUTION: This means that the MethodCall was executed successfully, but the returned values could not be converted",
+          "version": 1
+        },
+        "0C230107": {
+          "text": "PLCopenUA_Bad_AttributeIdUnknown: Used in UA_NodeGetInformation for elements that are not present in this NodeClass",
+          "version": 1
+        },
+        "0C230108": {
+          "text": "PLCopenUA_Bad_AttributeIdInvalid: Used in UA_NodeGetInformation for elements that should exist, but do not exist",
+          "version": 1
+        },
+        "0C230109": {
+          "text": "PLCopenUA_Bad_SubscriptionInvalidHdl: Provided SubscriptionHdl is not known",
+          "version": 1
+        },
+        "0C23010A": {
+          "text": "PLCopenUA_Bad_MonitoredItemInvalidHdl: Provided MonitoredItemHdl is not known",
+          "version": 1
+        },
+        "0C23010B": {
+          "text": "PLCopenUA_Bad_MonitoredItemSyncMismatch: Mixed controller synchronization and firmware synchronization in the same list",
+          "version": 1
+        },
+        "0C23010C": {
+          "text": "PLCopenUA_Bad_SyncModeInvalid: Synchronization mode invalid",
+          "version": 1
+        },
+        "0C23010D": {
+          "text": "SystemNotReady: Operation failed due to resource limitation",
+          "version": 1
+        },
+        "0C23010E": {
+          "text": "StateInvalidOperation: Operation failed, as the previous operation has not yet been completed",
+          "version": 1
+        },
+        "0C23010F": {
+          "text": "FeatureNotSupported: The feature is not supported",
+          "version": 1
+        },
+        "0C230110": {
+          "text": "SecurityNotSupported: Security is not supported",
+          "version": 1
+        },
+        "0C230111": {
+          "text": "TransportProfileNotSupported: The requested transport profile is not supported",
+          "version": 1
+        },
+        "0C230112": {
+          "text": "UnexpectedResults: Unexpected results were returned (status code, data type, value)",
+          "version": 1
+        },
+        "0C230113": {
+          "text": "RessourceLimitError: Operation failed due to resource limitation",
+          "version": 1
+        },
+        "0C230114": {
+          "text": "NothingTodo: There is nothing to do, check request parameters",
+          "version": 1
+        },
+        "0C230115": {
+          "text": "StringArraysNotSupported: STRING arrays are not supported for this operation",
+          "version": 1
+        },
+        "0C230116": {
+          "text": "ErrorInSubservice: One of the sub-services failed, see NodeErrorIDs output",
+          "version": 1
+        },
+        "0C230117": {
+          "text": "NoOfOutArguments: Number of returned output arguments does NOT match the number of outputs of the method",
+          "version": 1
+        },
+        "0C230118": {
+          "text": "ErrorVariableSizeDoesNotFit: The memory size of the PLC variable does not match the memory size required by the node",
+          "version": 1
+        },
+        "0C230119": {
+          "text": "ErrorMaxNumberOfSessionsReached: The maximum number of sessions was reached",
+          "version": 1
+        },
+        "0C23011A": {
+          "text": "ErrorInvalidStateOfStateMachine: Invalid state of the state machine of the function block",
+          "version": 1
+        },
+        "0C23011B": {
+          "text": "ErrorFunctionBlocTimeout: The function block could not be completed within the set timeout",
+          "version": 1
+        },
+        "0C23011C": {
+          "text": "ErrorInvalidInputOfFunctionBlock: An invalid value is present at an input",
+          "version": 1
+        },
+        "0C23011D": {
+          "text": "ErrorDataTypeNotSupported: The data type is currently not supported",
+          "version": 1
+        },
+        "0C23011E": {
+          "text": "ErrorInvalidFlatbufferAccess: Invalid access to the FlatBuffers",
+          "version": 1
+        },
+        "0C23011F": {
+          "text": "ErrorInvalidTaskContext: Invalid IEC task context",
+          "version": 1
+        },
+        "0C230120": {
+          "text": "ErrorInvalidSyntaxOfNodeId: The syntax of the specified NodeId is invalid",
+          "version": 1
+        },
+        "0C230121": {
+          "text": "ErrorInvalidAdressOfPlcVariable: The address of the IEC variable is invalid, e.g. null pointer",
+          "version": 1
+        },
+        "0C230122": {
+          "text": "ErrorNotYetImplemented: This functionality has not yet been implemented",
+          "version": 1
+        },
+        "0C230123": {
+          "text": "ErrorAppOpcUaClientNotInstalled: The OPC UA Client App (UAC) was not installed or disabled",
+          "version": 1
+        },
+        "0C230124": {
+          "text": "ErrorAppOpcUaServerNotInstalled: The OPC UA Server app (UAS) was not installed or disabled",
+          "version": 1
+        },
+        "0C230125": {
+          "text": "ErrorSameSessionNameAlreadyUsedByAnotherInstance: Another instance of the \"UA_Connect\" function block already uses this session name",
+          "version": 1
+        },
+        "0C230126": {
+          "text": "ErrorFlatbufferAccesReturnsNULL: Accessing a FlatBuffers returns a null pointer",
+          "version": 1
+        },
+        "0C230127": {
+          "text": "ErrorFlatbufferAccesReturnsSizeZero: Accessing a FlatBuffers returns 0",
+          "version": 1
+        },
+        "0C230128": {
+          "text": "ErrorInconsistentCounterValue: The counter value is inconsistent, e.g. from uiNoOfPlcCreatedInstances",
+          "version": 1
+        },
+        "0C230129": {
+          "text": "ErrorTypeMismatch: The types of both variables do not match, e.g. PLC variable and method parameter",
+          "version": 1
+        },
+        "0C23012A": {
+          "text": "ErrorTypeOfMethodNotSupported: The type of the method to be called is not supported, e.g. the method has too many parameters",
+          "version": 1
+        },
+        "0C23012B": {
+          "text": "ErrorAllocateMemory: No dynamic memory could be requested",
+          "version": 1
+        },
+        "0C23012C": {
+          "text": "ErrorFunctionBlockTimeout: Timeout of the function block occurred - increase \"Timeout\" input if required",
+          "version": 1
+        },
+        "0C23012E": {
+          "text": "ErrorInvalidNodeHdl: Invalid node handle, e.g. 0 or -1",
+          "version": 1
+        },
+        "0C23012F": {
+          "text": "ErrorUnequalNumbersOfOutputArguments: The number of expected output arguments does not correspond to the OutputArgumentsCount input",
+          "version": 1
+        },
+        "0C230130": {
+          "text": "ErrorDataTypeMismatchOfInputArguments: The data type of an input argument does not match the type of the IEC variable",
+          "version": 1
+        },
+        "0C230131": {
+          "text": "ErrorDataTypeMismatchOfOutputArguments: The data type of an input argument does not match the type of the IEC variable",
+          "version": 1
+        },
+        "0C230132": {
+          "text": "ErrorInvalidReferenceType: Invalid reference type of the method. Expected is \"readInType\" or \"readOutType\"",
+          "version": 1
+        },
+        "0C230133": {
+          "text": "ErrorMetadataGetReference: Invalid metadata reference, e.g. null pointer",
+          "version": 1
+        },
+        "0C230134": {
+          "text": "ErrorInvalidNumberOfReferences: The method contains more than two references. This is not supported",
+          "version": 1
+        },
+        "0C230135": {
+          "text": "ErrorInvalidNodeClass: The NodeClass of the method is not \"Method\"",
+          "version": 1
+        },
+        "0C230136": {
+          "text": "ErrorInvalidOperations: The expected property \"operations\" of the method is not readable or writable",
+          "version": 1
+        },
+        "0C230137": {
+          "text": "ErrorEncodingToFlatbuffer: Encoding the inputs to the FlatBuffers",
+          "version": 1
+        },
+        "0C230138": {
+          "text": "ErrorDecodingFromFlatbuffer: Decoding the FlatBuffers to the outputs failed",
+          "version": 1
+        },
+        "0C230139": {
+          "text": "ErrorUnequalNumbersOfInputArguments: The number of valid elements in \"InputArguments\" does not match the value \"InputArgumentsCount\"",
+          "version": 1
+        },
+        "0C23013A": {
+          "text": "ErrorReadingMetadata: Metadata of the node could be not be read",
+          "version": 1
+        },
+        "0C23013B": {
+          "text": "ErrorInternalError: An internal error occurred",
+          "version": 1
+        },
+        "0C23013C": {
+          "text": "ErrorSysTaskWaitSleepUs: The function call SysTaskWaitSleepUs returns an error",
+          "version": 1
+        },
+        "0C23013D": {
+          "text": "ErrorOneNodeError: Exactly one node returns an error that is entered into the \"NodeErrorIDs\" and \"NodeErrorIDString\" lists",
+          "version": 1
+        },
+        "0C23013E": {
+          "text": "ErrorMultipleNodeErrors: More than one node returns an error that are entered into the \"NodeErrorIDs\" and \"NodeErrorIDString\" lists",
+          "version": 1
+        },
+        "0C23013F": {
+          "text": "ErrorDataLayerUNKNOWN: An unknown error code was issued",
+          "version": 1
+        },
+        "0C230140": {
+          "text": "ErrorDataLayerDL_OK: Successful function call",
+          "version": 1
+        },
+        "0C230141": {
+          "text": "ErrorDataLayerDL_FAILED: For temporary use only",
+          "version": 1
+        },
+        "0C230142": {
+          "text": "ErrorDataLayerDL_INVALID_ADDRESS: Invalid address in the Data Layer",
+          "version": 1
+        },
+        "0C230143": {
+          "text": "ErrorDataLayerDL_UNSUPPORTED: Functionality not implemented",
+          "version": 1
+        },
+        "0C230144": {
+          "text": "ErrorDataLayerDL_OUT_OF_MEMORY: No memory available (RAM, sockets, handles, hard disk space,....)",
+          "version": 1
+        },
+        "0C230145": {
+          "text": "ErrorDataLayerDL_LIMIT_MIN: It was fallen below the minimum of a limit",
+          "version": 1
+        },
+        "0C230146": {
+          "text": "ErrorDataLayerDL_LIMIT_MAX: The maximum of a limit was exceeded",
+          "version": 1
+        },
+        "0C230147": {
+          "text": "ErrorDataLayerDL_TYPE_MISMATCH: Incorrect type for FlatBuffers or data type",
+          "version": 1
+        },
+        "0C230148": {
+          "text": "ErrorDataLayerDL_SIZE_MISMATCH: Size mismatch; the existing size does not match requested size",
+          "version": 1
+        },
+        "0C230149": {
+          "text": "ErrorDataLayerDL_INVALID_FLOATINGPOINT: Invalid floating point number",
+          "version": 1
+        },
+        "0C23014A": {
+          "text": "ErrorDataLayerDL_INVALID_HANDLE: Invalid handle argument or NULL pointer argument",
+          "version": 1
+        },
+        "0C23014B": {
+          "text": "ErrorDataLayerDL_INVALID_OPERATION_MODE: Not reachable due to invalid operation mode (e.g writing not possible)",
+          "version": 1
+        },
+        "0C23014C": {
+          "text": "ErrorDataLayerDL_INVALID_CONFIGURATION: This value deviates from other configured values",
+          "version": 1
+        },
+        "0C23014D": {
+          "text": "ErrorDataLayerDL_INVALID_VALUE: Invalid value",
+          "version": 1
+        },
+        "0C23014E": {
+          "text": "ErrorDataLayerDL_SUBMODULE_FAILURE: Error occurred in child module",
+          "version": 1
+        },
+        "0C23014F": {
+          "text": "ErrorDataLayerDL_TIMEOUT: Request timeout",
+          "version": 1
+        },
+        "0C230150": {
+          "text": "ErrorDataLayerDL_ALREADY_EXISTS: Object cannot be created, as it already exists",
+          "version": 1
+        },
+        "0C230151": {
+          "text": "ErrorDataLayerDL_CREATION_FAILED: Object cannot be created",
+          "version": 1
+        },
+        "0C230152": {
+          "text": "ErrorDataLayerDL_VERSION_MISMATCH: Version conflict",
+          "version": 1
+        },
+        "0C230153": {
+          "text": "ErrorDataLayerDL_DEPRECATED: Outdated functionality: Is not supported anymore",
+          "version": 1
+        },
+        "0C230154": {
+          "text": "ErrorDataLayerDL_PERMISSION_DENIED: Request rejected due to insufficient access rights",
+          "version": 1
+        },
+        "0C230155": {
+          "text": "ErrorDataLayerDL_NOT_INITIALIZED: Object not yet initialized",
+          "version": 1
+        },
+        "0C230156": {
+          "text": "ErrorDataLayerDL_COMM_PROTOCOL_ERROR: Internal protocol error",
+          "version": 1
+        },
+        "0C230157": {
+          "text": "ErrorDataLayerDL_COMM_INVALID_HEADER: Internal error in the header",
+          "version": 1
+        },
+        "0C230158": {
+          "text": "ErrorDataLayerDL_CLIENT_NOT_CONNECTED: Client is not connected",
+          "version": 1
+        },
+        "0C230159": {
+          "text": "ErrorDataLayerDL_RT_NOTOPEN: Not open",
+          "version": 1
+        },
+        "0C23015A": {
+          "text": "ErrorDataLayerDL_RT_INVALIDOBJECT: Invalid object",
+          "version": 1
+        },
+        "0C23015B": {
+          "text": "ErrorDataLayerDL_RT_WRONGREVISON: Wrong version of the memory",
+          "version": 1
+        },
+        "0C23015C": {
+          "text": "ErrorDataLayerDL_RT_NOVALIDDATA: Invalid data",
+          "version": 1
+        },
+        "0C23015D": {
+          "text": "ErrorDataLayerDL_RT_MEMORYLOCKED: Memory already locked",
+          "version": 1
+        },
+        "0C23015E": {
+          "text": "ErrorDataLayerDL_RT_INVALID_MEMORYMAP: Invalid memory mapping",
+          "version": 1
+        },
+        "0C23015F": {
+          "text": "ErrorDataLayerDL_RT_INVALID_RETAIN: Invalid memory mapping of Retain data",
+          "version": 1
+        },
+        "0C230160": {
+          "text": "ErrorDataLayerDL_RT_INTERNAL_ERROR: Internal Runtime error",
+          "version": 1
+        },
+        "0C230161": {
+          "text": "ErrorDataLayerDL_SEC_NO_TOKEN: No token found",
+          "version": 1
+        },
+        "0C230162": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_SESSION: Token invalid (session not found)",
+          "version": 1
+        },
+        "0C230163": {
+          "text": "ErrorDataLayerDL_SEC_INVALID_TOKEN_CONTENT: Token has incorrect content",
+          "version": 1
+        },
+        "0C230164": {
+          "text": "ErrorDataLayerDL_SEC_UNAUTHORIZED: Unauthorized",
+          "version": 1
+        },
+        "0C230165": {
+          "text": "ErrorDataLayerDL_SEC_PAYMENT_REQUIRED: Payment required",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0111": {
+      "text": "Error in library CXA_ModbusRTU",
+      "version": 1
+    },
+    "0A0F0112": {
+      "text": "Error in library CXA_KNX",
+      "version": 1
+    },
+    "0A0F0113": {
+      "text": "Error in library CXA_DALI",
+      "version": 1
+    },
+    "0A0F0115": {
+      "text": "PLC IEC F0 error",
+      "version": 1
+    },
+    "0A0F0116": {
+      "text": "Error in the library CXA_RegisterControl",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Correction path smaller than correction start hysteresis (0.25 % of the modulo value)",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "\"correction start\" is smaller than 0",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "\"correction end\" is smaller than 0",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "\"ModuloValue\" is smaller than 0",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "\"RecordedPosition\" is smaller than 0",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "\"CorrectionStart\" is greater than \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "\"CorrectionEnd\" is greater than \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "\"RecordedPosition\" is greater than \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "Correction path (\"CorrectionEnd\" - \"CorrectionStart\") is greater than \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "Invalid correction mode",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "\"CorrectionStart\" is equal to \"CorrectionEnd\"",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "Axis format is absolute",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "\"ProbeDistance\" is smaller than 0 or greater than CONST_SHIFT_REGISTER(60)",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "\"Setpoint\" is greater than \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "\"Setpoint\" is smaller than 0",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "\"Feedback\" is greater than \"ModuloValue\"",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "\"Feedback\" is smaller than 0",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "\"ModuloValue\" is smaller than 0",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "\"MarkGating\" is smaller than 0",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "\"HighLimit\" is smaller than \"LowLimit\"",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "\"Pcontrol\" is smaller than 0",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Axis was not found",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "\"SetPointWidth\" is smaller than 0",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "\"RecordedPositionWidth\" is smaller than 0",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "\"TriangleTangent\" beyond the range",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "\"FormatLength\" is beyond the valid range",
+          "version": 1
+        },
+        "0C231000": {
+          "text": "Error in state machine",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0117": {
+      "text": "Error in the library CXA_Winder",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "\"HighLimitControl\" is smaller than \"LowLimitControl\"",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "\"Formatlength\" is negative",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "\"ReferenceDiameter\" negative",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "\"WindowDancer\" is negative",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "\"HighLimitControl\" is negative",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "\"LowLimitControl\" is negative",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "\"VelocityHighLimit\" is negative",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "\"PControl\" is negative",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "\"setpoint\" is negative",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "\"MinDancerFeedback\" is negative",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "\"MaxDancerFeedback\" is smaller than 0",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "\"MaxDancerFeedback\" is smaller than \"MinDancerFeedback\"",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "\"HighLimitDiameter\" is smaller than \"LowLimitDiameter\"",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "\"WebWidth\" is smaller than 0",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "\"Density\" is smaller than 0",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "\"CoreDiameter\" is smaller than 0",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "\"DiamCalcRange\" is smaller than 0",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "\"PresetDiameter\" is not greater than 0",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "\"MinDiameter\" is not greater than 0",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "\"MaxDiameter\" is not greater than 0",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "\"DiamCalcMode\" is invalid",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "\"MechanicInertia\" is smaller than 0",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "\"PreControlWeighting\" is smaller than 0",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "\"TensionCtrl.HighLimit\" is smaller than 0",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "\"TensionCtrl.HighLimit\" is smaller than \"TensionCtrl.LowLimit\"",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "\"Friction.StandstillTorque\" is smaller than 0",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "\"Friction.MaxTorque\" is smaller than 0",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "\"Friction.MinTorque\" is smaller than 0",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "\"Friction.MinTorqueVelocity\" is smaller than 0",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "\"WindowTension\" is smaller than 0",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "\"MinTension\" is smaller than 0",
+          "version": 1
+        },
+        "0C230032": {
+          "text": "\"MaxTension\" is smaller than 0",
+          "version": 1
+        },
+        "0C230033": {
+          "text": "\"SetpointStandstill\" is smaller than 0",
+          "version": 1
+        },
+        "0C230034": {
+          "text": "\"SetpointOpMode\" is smaller than 0",
+          "version": 1
+        },
+        "0C230035": {
+          "text": "\"DefaultTorqueLimit\" is smaller than 0",
+          "version": 1
+        },
+        "0C230036": {
+          "text": "\"TorqueLimits.MinTorqueLimit\" is smaller than 0",
+          "version": 1
+        },
+        "0C230037": {
+          "text": "\"TorqueLimits.TorqueLimitFactor\" is smaller than 0",
+          "version": 1
+        },
+        "0C230038": {
+          "text": "\"TorqueLimits.DefaultTorqueLimit\" is greater than 400",
+          "version": 1
+        },
+        "0C230039": {
+          "text": "\"TorqueLimits.MinTorqueLimit\" is greater than 400",
+          "version": 1
+        },
+        "0C230040": {
+          "text": "\"TorqueLimits.TorqueLimitFactor\" is greater than 400",
+          "version": 1
+        },
+        "0C230041": {
+          "text": "\"PControlMax\" is smaller than 0",
+          "version": 1
+        },
+        "0C230042": {
+          "text": "\"PControlMin\" is smaller than 0",
+          "version": 1
+        },
+        "0C230043": {
+          "text": "\"InertiaMax\" is smaller than 0",
+          "version": 1
+        },
+        "0C230044": {
+          "text": "\"CurrentInertia\" is smaller than 0",
+          "version": 1
+        },
+        "0C230045": {
+          "text": "\"InertiaMin\" is smaller than 0",
+          "version": 1
+        },
+        "0C230046": {
+          "text": "\"PControlMax\" is greater than \"PControlMin\"",
+          "version": 1
+        },
+        "0C230047": {
+          "text": "\"InertiaMax\" is greater than \"InertiaMin\"",
+          "version": 1
+        },
+        "0C230048": {
+          "text": "\"MaxDiameter\" is smaller than \"CoreDiameter\"",
+          "version": 1
+        },
+        "0C230049": {
+          "text": "\"TensionSpeed\" is smaller than 0",
+          "version": 1
+        },
+        "0C231000": {
+          "text": "Error in state machine",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0118": {
+      "text": "Error in the library CXA_Winder",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "\"MasterVelocityLow\" is negative",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "\"MasterVelocityHigh\" is negative",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "\"MasterVelocityHigh\" is equal to \"MasterVelocityLow\"",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "\"MasterVelocityHigh\" is smaller than \"MasterVelocityLow\"",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "\"LowLimit\" is smaller than -95",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "\"PControlLowVel\" or \"PControlHighVel\" is negative",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0119": {
+      "text": "Error in the library CXA_ModbusTCP",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230208": {
+          "text": "The specified address is not available on this computer",
+          "version": 1
+        },
+        "0C23020A": {
+          "text": "Operation timeout",
+          "version": 1
+        },
+        "0C23020E": {
+          "text": "The socket is not connected",
+          "version": 1
+        },
+        "0C231805": {
+          "text": "TCP port cannot be opened",
+          "version": 1
+        },
+        "0C231810": {
+          "text": "Could not connect to the IL_ModBusTCPClient function block",
+          "version": 1
+        },
+        "0C231811": {
+          "text": "Input \"DataAddr\" is 0",
+          "version": 1
+        },
+        "0C231812": {
+          "text": "Input \"SizeOfData\" is 0",
+          "version": 1
+        },
+        "0C231813": {
+          "text": "Input \"Quantity\" is 0",
+          "version": 1
+        },
+        "0C231814": {
+          "text": "Input \"Quantity\" is greater than 2000",
+          "version": 1
+        },
+        "0C231815": {
+          "text": "Input \"Quantity\" is greater than 125",
+          "version": 1
+        },
+        "0C231816": {
+          "text": "Input \"Quantity\" is greater than the input \"SizeOfData\"",
+          "version": 1
+        },
+        "0C231817": {
+          "text": "Input \"Quantity\"*2 is greater than the input \"SizeOfData\"",
+          "version": 1
+        },
+        "0C231821": {
+          "text": "Input \"WriteDataAddr\" is 0",
+          "version": 1
+        },
+        "0C231822": {
+          "text": "Input \"SizeOfWriteData\" is 0",
+          "version": 1
+        },
+        "0C231823": {
+          "text": "Input \"WriteQuantity\" is 0",
+          "version": 1
+        },
+        "0C231825": {
+          "text": "Input \"WriteQuantity\" is greater than 125",
+          "version": 1
+        },
+        "0C231826": {
+          "text": "Input \"Quantity\" is greater than the input \"SizeOfWriteData\"",
+          "version": 1
+        },
+        "0C231850": {
+          "text": "Error at Modbus",
+          "version": 1
+        }
+      }
+    },
+    "0A0F011A": {
+      "text": "Error in the CXA_ctrlXIO library",
+      "version": 1
+    },
+    "0A0F011B": {
+      "text": "Error in the CXA_Crosscut library",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Invalid state machine",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "Invalid calculation step",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "The input value of \"ModuloValue\" is smaller than or equal to 0,0.",
+          "version": 1
+        },
+        "0C230004": {
+          "text": "The input value of \"FormatRatio\" is smaller than 0.02 or greater than 30.0.",
+          "version": 1
+        },
+        "0C230005": {
+          "text": "The input value of \"CutAngle\" is smaller than 0.0 or greater than \"ModuloValue\".",
+          "version": 1
+        },
+        "0C230006": {
+          "text": "The input value of \"PendulumFactor\" is smaller than or equal to 0.0 or greater than or equal to 100.0.",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "\"CORR_PROFIL\" is invalid",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "The input value of \"Overspeed\" is smaller than -50.0 or greater than 100.0 if CorrProfile is CORR_PROFILE_OVERSPEED.",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "The input value of \"CutAngle\" is greater than or equal to 180.0 if CorrProfile is CORR_PROFILE_COS_COMP or CORR_PROFILE_COS_COMP_AND_PUSH_OUT.",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "The input value of \"PushOutBegin\" is greater than or equal to half of the \"CutAngle\", or equal to 0.0 if CorrProfile is CORR_PROFILE_PUSH_OUT or CORR_PROFILE_COS_COMP_AND_PUSH_OUT.",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "100.0 <= ABS(Overspeed_at_Cut) or Overspeed_at_Cut = 0.0 if CorrProfile is CORR_PROFILE_PUSH_OUT or CORR_PROFILE_COS_COMP_AND_PUSH_OUT",
+          "version": 1
+        },
+        "0C230012": {
+          "text": "Overspeed_max <= 0.0 or 100.0 < Overspeed_max if CorrProfile is CORR_PROFILE_PUSH_OUT or CORR_PROFILE_COS_COMP_AND_PUSH_OUT",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "Overspeed_max <= Overspeed_at_cut after pre-calculation if CorrProfile is CORR_PROFILE_PUSH_OUT or CORR_PROFILE_COS_COMP_AND_PUSH_OUT",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "0.0 < PushOutBegin and 0.0 < Overspeed_At_Cut, or PushOutBegin < 0.0 and Overspeed_At_Cut < 0.0 if CorrProfile is CORR_PROFILE_PUSH_OUT or CORR_PROFILE_COS_COMP_AND_PUSH_OUT",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "CutAngle/2.0CutAngle/2.0 < X2 if CorrProfile is CORR_PROFILE_PUSH_OUT or CORR_PROFILE_COS_COMP_AND_PUSH_OUT",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "Input value of \"Resolution\" is invalid",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "Pointer of MasterAxisInitialPosAdr, DistanceAdr, StepLawAdr or PointTableAdr is invalid",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "ProductsPerCut < 1 or 32 < ProductsPerCut",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "StartProduct < 1 or 32 < StartProduct",
+          "version": 1
+        },
+        "0C230020": {
+          "text": "NumberOfKnives < 1 or 8 < NumberOfKnives",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "The input value of \"KnifeDistance\" is smaller than or equal to 0.",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "(FormatLength < 0.02*KnifeDistance) or (FormatLength > 30*KnifeDistance)",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "CutSealArea <= 0.0, or 360.0 <= CutSealArea (CrossCutter mode), KnifeDistance <= CutSealArea (CrossSeal mode)",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "The input value of \"PendulumFactor\" is smaller than 0.0 or greater than 100.0.",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "Function block was interrupted",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "Slave axis is not synchronized",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "Master axis too fast",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "Error retrieving FlexProfile information",
+          "version": 1
+        },
+        "0C230029": {
+          "text": "Number of elements invalid",
+          "version": 1
+        },
+        "0C230030": {
+          "text": "Number of steps invalid",
+          "version": 1
+        },
+        "0C230031": {
+          "text": "Null pointer",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0FF0": {
+      "text": "Trace error plc.cmp.datalayer",
+      "version": 1
+    },
+    "0A0F0FFF": {
+      "text": "Trace error plc.system",
+      "version": 1
+    },
+    "0A0F2115": {
+      "text": "PLC IEC F2 error -> Stopping single axis",
+      "version": 1
+    },
+    "0A0F6115": {
+      "text": "PLC IEC F6 error -> Stopping all axes",
+      "version": 1
+    },
+    "0A0F8115": {
+      "text": "PLC IEC F8 error -> System error/stopping the app",
+      "version": 1
+    },
+    "0A0F9115": {
+      "text": "PLC IEC F9 error -> System error/system stop",
+      "version": 1
+    },
+    "0D0A0400": {
+      "text": "Trace message comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0E0400": {
+      "text": "Trace warning comm.datalayer.util.flatbuffers",
+      "version": 1
+    },
+    "0D0F0400": {
+      "text": "Trace error comm.datalayer.util.flatbuffers",
+      "version": 1
+    }
+  }
+}

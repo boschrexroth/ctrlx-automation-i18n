@@ -1,0 +1,91 @@
+{
+  "product": "UAP-V-0206",
+  "mainDiagnostics": {
+    "0D0A0300": {
+      "text": "OPC UA PubSub Meldung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C763000": {
+          "text": "PubSub App initialisiert",
+          "version": 1
+        },
+        "0C763001": {
+          "text": "PubSub App wird ausgeführt",
+          "version": 1
+        },
+        "0C763003": {
+          "text": "PubSub Shutdown ist beendet und App ist gestoppt",
+          "version": 1
+        },
+        "0C763005": {
+          "text": "PubSub App Deinitialisierung ist abgeschlossen",
+          "version": 1
+        },
+        "0C763009": {
+          "text": "PubSub App wird heruntergefahren",
+          "version": 1
+        },
+        "0C763010": {
+          "text": "Die neue Konfiguration wurde erfolgreich geladen",
+          "version": 2
+        },
+        "0C763012": {
+          "text": "PubSub-Lizenz wurde erfolgreich geprüft",
+          "version": 1
+        },
+        "0C763014": {
+          "text": "UaPubSub SDK: Interner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "0D0E0300": {
+      "text": "OPC UA PubSub Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C763015": {
+          "text": "UaPubSub: Interne Warnung",
+          "version": 1
+        }
+      }
+    },
+    "0D0F0300": {
+      "text": "OPC UA PubSub Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C763002": {
+          "text": "PubSub App konnte nicht gestartet werden",
+          "version": 1
+        },
+        "0C763004": {
+          "text": "PubSub App wurde nicht erfolgreich gestoppt",
+          "version": 1
+        },
+        "0C763006": {
+          "text": "PubSub App Deinitialisierung ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C763007": {
+          "text": "Platzhalter",
+          "version": 2
+        },
+        "0C763008": {
+          "text": "UaPubSub interner Fehler",
+          "version": 1
+        },
+        "0C763011": {
+          "text": "Fehler in PubSub-Konfiguration",
+          "version": 1
+        },
+        "0C763013": {
+          "text": "PubSub-Lizenz fehlt",
+          "version": 1
+        },
+        "0C763014": {
+          "text": "UaPubSub SDK: Interner Fehler",
+          "version": 1
+        }
+      }
+    }
+  }
+}

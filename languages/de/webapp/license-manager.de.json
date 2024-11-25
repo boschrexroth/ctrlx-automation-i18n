@@ -1,0 +1,140 @@
+﻿{
+  "lcm.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+    "accept.button": "Zustimmen",
+    "deny.button": "Ablehnen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+    "showDetails.tooltip": "Details anzeigen",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "actions": "Aktionen",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktivert"
+  },
+
+  "lcm.licenses": {
+    "title": "Lizenzen",
+    "product": "Produkt",
+    "count": "Anzahl",
+    "licenseServer": "Lizenz-Server",
+    "app": "App",
+    "description": "Beschreibung",
+    "origin": "Quelle",
+    "device": "Gerät",
+    "dongle": "Dongle",
+    "permanent": "Permanent",
+    "expirationDate": "Läuft ab (UTC)",
+    "unlimited": "Unbegrenzt",
+    "noLicenseMsg": "Keine Lizenzen verfügbar",
+    "sources": "Quellen",
+    "type": "Typ",
+    "serialnumber": "Kennung",
+    "available": "Verfügbar",
+    "registerDevice.tooltip": "Öffnet Geräteseite im Lizenz-Center",
+    "goToLicensePortal.tooltip": "Öffnet ctrlX Device Portal",
+    "uploadLicenseFile.tooltip": "Lädt Lizenzdatei hoch (Capability Response)",
+    "downloadLicenseReturnFile.tooltip": "Lädt eine Lizenz-Rückgabe-Datei herunter (Capability Request)",
+    "registerDevice.button": "Diesen PC registrieren (Device)",
+    "goToLicensePortal.button": "ctrlX CORE Apps & Lizenzen",
+    "uploadLicenseFile.button": "Lizenzdatei hochladen (Capability Response)",
+    "settings.tooltip": "Einstellungen",
+    "settings.button": "Einstellungen",
+    "tmpUsageEnabled": "Temporäre Nutzungsrechte: Aktiviert (verbleibende Zeit: {{param}})",
+    "licenseDonglePluggedIn.callout": "Lizenzdongle ist gesteckt",
+    "licenseDongleRemoved.callout": "Lizenzdongle wurde entfernt",
+    "allApps": "Alle Apps",
+    "notInstalled": "App nicht installiert",
+    "noTrustAnchorHeader": "Kein sicherer Vertrauensanker verfügbar",
+    "noTrustAnchorLine1": "Der Lizenzmanager wurde nicht initialisiert, da kein sicherer Vertrauensanker auf dem System gefunden werden konnte.",
+    "noTrustAnchorLine2": "Wie bekommt man einen Vertrauensanker?",
+    "noTrustAnchorLine3": "Benutzen Sie einen Lizenzdongle",
+    "noTrustAnchorLine4": "Wenden Sie sich an Ihren Gerätehersteller, um eine gültige ctrlX Device-ID zu erhalten",
+    "noTrustAnchorLine5": "Bitte beachten Sie, dass nach der Anwendung einer der vorgeschlagenen Lösungen das System neu gestartet werden muss.",
+    "serverSettings.tooltip": "Server-Einstellungen",
+    "serverSettings.button": "Server-Einstellungen",
+    "clients": "Clients",
+    "name": "Name",
+    "id": "Id",
+    "licenses": "Lizenzen",
+    "reservations": "Reservierungen"
+  },
+
+  "lcm.servedDeviceDetails": {
+    "details.tab": "Details",
+    "property": "Eigentschaft",
+    "value": "Wert",
+    "name": "Name",
+    "id": "Id",
+    "licenses.tab": "Lizenzen",
+    "product": "Produkt",
+    "quantity": "Anzahl",
+    "description": "Beschreibung",
+    "expiresUtc": "Läuft ab (UTC)",
+    "unlimited": "Unbegrenzt",
+    "reservations.tab":"Reservierungen"
+  },
+
+  "lcm.settingsDialog": {
+    "title": "Einstellungen",
+    "temporaryUsageRights.title": "Temporäre Nutzungsrechte",
+    "enableTemporaryUsageRights.button": "Temporäre Nutzungsrechte aktivieren",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "expired": "Abgelaufen",
+    "tmpUsageRemainingTime": "Verbleibende Zeit: {{param}}"
+  },
+
+  "lcm.serverSettingsDialog": {
+    "title": "Server-Einstellungen",
+    "borrowInterval": "Ausleihintervall (Stunden)",
+    "renewalInterval": "Erneuerungsintervall (Stunden, 80% des Ausleihintervall empfohlen)",
+    "enterValueFromXToYMessage": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein",
+    "renewalMustBeSmallerThanBorrow": "Das Erneuerungsintervall muss kleiner sein als das Ausleihintervall"
+
+  },
+
+  "lcm.tempUsageConfirmDialog": {
+    "title": "Temporäre Nutzungsrechte",
+    "temporaryUsageRightsText": "Die \"temporären Nutzungsrechte\" dürfen nur für einen Gerätetausch im Fall eines defekten Gerätes aktiviert werden. Sie sind für 10 Tage gültig und können nur einmal aktiviert werden. Im Übrigen gelten die Lizenzbedingungen der Bosch Rexroth AG {{param}}. Nach Ablauf dieser Frist werden die Apps ohne gültige Lizenz nicht neu starten. Bitte kontaktieren Sie ihren Service Ansprechpartner um die Lizenzen auf das neue Gerät umzuziehen.",
+    "generalTermsAndConditions": "Allgemeine Bedingungen für Lieferungen und Leistungen"
+  },
+
+  "lcm.notification": {
+    "error": "Fehler: {{param}}",
+    "changesSavedMsg": "Die Änderungen wurden gespeichert.",
+    "errorMissingPermissions": "Sie haben nicht die erforderlichen Berechtigungen."
+  },
+
+  "lcm.licenseRequired": {
+    "title": "Lizenz erforderlich",
+    "license": "Lizenz",
+    "licenseFor": "Lizenz für {{param}}",
+    "status": "Status",
+    "buyLicense.button": "Lizenz kaufen",
+    "viewLicenses.button": "Aktuelle Lizenzen ansehen",
+    "goBack.button": "Zurück",
+    "NotAvailable": "Nicht vorhanden",
+    "NotSufficient": "Nicht ausreichend"
+  },
+
+  "lcm.licenseChangeReportDialog": {
+    "title": "Lizenz-Änderungen",
+    "addedLicenses": "Hinzugefügte Lizenzen",
+    "removedLicenses": "Entfernte Lizenzen",
+    "downloadLicenseReturnFile.button": "Lizenz-Rückgabe-Datei herunterladen",
+    "note": "Hinweis:",
+    "returnLicenseNotePart1": "Um das Entfernen von Lizenzen zu bestätigen, laden Sie die Lizenz-Rückgabe-Datei im Licensing Center hoch",
+    "returnLicenseNotePart2": "Dieser Schritt ist zwingend erforderlich, um die entfernten Lizenzen wieder verfügbar zu machen.",
+    "licenseFileAlreadyProcessedMsg": "Die hochgeladene Lizenzdatei (Capability Response) wurde bereits verarbeitet.",
+    "noLicensesAddedOrRemovedMsg": "Es wurden keine Lizenzen hinzugefügt oder entfernt."
+  }
+
+}

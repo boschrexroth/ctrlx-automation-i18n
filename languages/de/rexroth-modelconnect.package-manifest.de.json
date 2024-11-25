@@ -1,0 +1,20 @@
+{
+  "overview.modelconnect.title": "Model Connect",
+  "sidebar.modelconnect.title": "Model Connect",
+  "configuration.modelconnect.description": "Model Connect: Konfiguration",
+  "documentation.modelconnect.description": "Stellt Funktionalität zum Installieren und Verwalten von Modellen auf einem ctrlX OS bereit.",
+  "licenses.SWL-XCx-MOC-SIMULINKxxxxx-BANN.title": "ctrlX OS Lizenz - Model Connect Basic",
+  "licenses.SWL-XCx-MOC-SIMULINKxxxxx-BANN.description": "Target Runtime für Simulink® Code mit max. 3 Inputs, ohne Synchronmodus.",
+  "licenses.SWL-XCx-MOC-SIMULINKxxxxx-PRNN.title": "ctrlX OS Lizenz - Model Connect Performance",
+  "licenses.SWL-XCx-MOC-SIMULINKxxxxx-PRNN.description": "Target Runtime für Simulink® Code mit unlimitierten Inputs und Synchronmodus.",
+  "licenses.SWL-XCx-MOC-SIMULINKxEDUx-NNNN.title": "ctrlX OS Lizenz - Model Connect Basic (Education)",
+  "licenses.SWL-XCx-MOC-SIMULINKxEDUx-NNNN.description": "Target Runtime für Simulink® Code mit max. 3 Inputs, ohne Synchronmodus. (EDU)",
+  "scopes-declaration.modelconnect.web.name": "Model Connect",
+  "scopes-declaration.modelconnect.web.description": "Verwaltung der Berechtigungen",
+  "scopes-declaration.modelconnect.picture.r.name": "Anzeige der Modellstruktur",
+  "scopes-declaration.modelconnect.picture.r.description": "Anzeige der Modellstruktur",
+  "scopes-declaration.modelconnect.models.r.name": "Anzeige der Modelle/Funktionen",
+  "scopes-declaration.modelconnect.models.r.description": "Anzeige der Modelle/Funktionen",
+  "scopes-declaration.modelconnect.models.rwx.name": "Verwaltung von Modellen/Funktionen",
+  "scopes-declaration.modelconnect.models.rwx.description": "Verwaltung von Modellen/Funktionen"
+}

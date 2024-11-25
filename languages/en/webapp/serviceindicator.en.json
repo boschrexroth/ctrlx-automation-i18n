@@ -1,0 +1,105 @@
+{
+  "failureProbLow": "No increased failure probability",
+  "failureProbMedium": "Increased failure probability",
+  "failureProbHigh": "Strongly increased failure probability",
+  "info": {
+    "qrCodesDCA": "QR-Codes (for the Digital Service Assistant App)",
+    "contactTable": {
+      "contactUs": "Contact us",
+      "DSA.app.top": "Digital Service Assistant App",
+      "DSA.app.bottom": "Download the",
+      "export.text": "Export the table below and send per mail to",
+      "export.button": "Export as Excel",
+      "service": "Call our service hotline 24/7"
+    }
+  },
+  "driveTable": {
+    "heading": "Drive overview",
+    "qrCodes": "QR-Code",
+    "Axisname": "Axisname",
+    "Drivetype": "Drivetype",
+    "Serialnumber Drive": "Serialnumber Drive",
+    "IP": "IP",
+    "Diagnosis": "Diagnosis",
+    "Failure Prob. Drive": "Failure Prob. Drive",
+    "Histogram": "Histogram",
+    "Motortype": "Motortype",
+    "Serialnumber Motor": "Serialnumber Motor",
+    "Failure Prob. Motor": "Failure Prob. Motor",
+    "Lifetime Estimator": "Used Lifetime Est. Motor",
+    "emptyState": "No items to display"
+  },
+  "selectorWindow": {
+    "header": "Select columns to hide/display",
+    "headerSource": "Columns hidden:",
+    "sourceFilter": "Search",
+    "headerTarget": "Columns displayed:",
+    "targetFilter": "Search",
+    "addSelected": "Add selection",
+    "addAll": "Add all",
+    "removeSelected": "Remove selection",
+    "removeAll": "Remove all",
+    "dropPlaceholder": "Drop items here",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all"
+  },
+  "messages": {
+    "success": "No drive or motor reports an increased failure probability",
+    "warning": "One or more drives or motors report an increased failure probability. Please contact your Bosch Rexroth service.",
+    "error": "One or more drives or motors report a strongly increased failure probability. Please contact your Bosch Rexroth service."
+  },
+  "bannerMessages": {
+    "serviceMode": "Attention! The <i>Service Mode</i> is currently active, therefore a connection to drives is not possible.",
+    "DCAUninstalled": "Attention! The <i>Drive Connect App</i> is currently not installed. Please go to the <a href=\"/package-manager/packages\"><u> Apps manager</u></a>, install the app and try again.",
+    "DCAInactive": "Attention! The <i>Drive Connect App</i> is currently not activated. Please go to the <a href=\"/package-manager/packages\"><u> Apps manager</u></a>, activate the app and try again.",
+    "notAuthorized": "Attention! You are not authorized to use this application. Please go to the <a href=\"/identity-manager/permissions\"><u> User management</u></a> and apply the permission.",
+    "noDrivesFound": "Warning! Service Indicator cannot detect any drives. Please make sure that the drives are correctly attached and reachable."
+  },
+  "commandBar": {
+    "hideColumns.hidden": "column(s) are hidden",
+    "hideColumns.nohidden": "Hide static columns",
+    "addDeviceTooltip": "Add Remote Device",
+    "loggingConfigTooltip": "Configure logging"
+  },
+  "export": {
+    "headline": "Export axes to Excel",
+    "stepAxes": "Axes",
+    "stepOptions": "Options",
+    "descriptionAxes": "Select the axes to export",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "descriptionHistogram": "Include histogram values in the export",
+    "exportHistogram": "Export histogram values",
+    "back": "Back",
+    "next": "Next",
+    "export": "Export",
+    "cancel": "Cancel"
+  },
+  "addDevice": {
+    "headline": "Add Remote Device",
+    "IP": "IP",
+    "port": "Port",
+    "subdeviceid": "Subdevice-ID",
+    "save": "Save",
+    "cancel": "Cancel",
+    "errorInvalidIP": "IP address has invalid format",
+    "errorInvalidPort": "Port must be a number",
+    "errorInvalidSubdeviceID": "Subdevice-ID must be a number",
+    "toastSuccessfullyAdded": "Device successfully created on the data layer. It will be shown in the table shortly if it is online."
+  },
+  "configModal": {
+    "headline": "Configuration",
+    "activateLogging": "Activate logging",
+    "activateRecording": "Activate data recording",
+    "storagePath": "Storage path",
+    "placeholder": "Please select",
+    "save": "Save",
+    "cancel": "Cancel",
+    "successful": "Configuration saved successfully"
+  },
+  "drives.filters-dialog": {
+    "wanttosave": "Do you want to save your changes?"
+  }
+}

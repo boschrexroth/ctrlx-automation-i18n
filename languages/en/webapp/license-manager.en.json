@@ -1,0 +1,139 @@
+{
+  "lcm.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+    "accept.button": "Accept",
+    "deny.button": "Deny",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+    "showDetails.tooltip": "Show details",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "actions": "Actions",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+
+  "lcm.licenses": {
+    "title": "Licenses",
+    "product": "Product",
+    "count": "Quantity",
+    "licenseServer": "License server",
+    "app": "App",
+    "description": "Description",
+    "origin": "Source",
+    "device": "Device",
+    "dongle": "Dongle",
+    "permanent": "Permanent",
+    "expirationDate": "Expires (UTC)",
+    "unlimited": "Unlimited",
+    "noLicenseMsg": "No licenses available",
+    "sources": "Sources",
+    "type": "Type",
+    "serialnumber": "Identifier",
+    "available": "Available",
+    "registerDevice.tooltip": "Opens create device page in licensing center",
+    "goToLicensePortal.tooltip": "Opens ctrlX Device Portal",
+    "uploadLicenseFile.tooltip": "Uploads license file (Capability Response)",
+    "downloadLicenseReturnFile.tooltip": "Downloads license return file (Capability Request)",
+    "registerDevice.button": "Register this PC (Device)",
+    "goToLicensePortal.button": "ctrlX CORE Apps & Licenses",
+    "uploadLicenseFile.button": "Upload license file (Capability Response)",
+    "settings.tooltip": "Settings",
+    "settings.button": "Settings",
+    "tmpUsageEnabled": "Temporary usage rights: Enabled (remaining time: {{param}})",
+    "licenseDonglePluggedIn.callout": "License dongle is plugged in",
+    "licenseDongleRemoved.callout": "License dongle has been removed",
+    "allApps": "All apps",
+    "notInstalled": "App not installed",
+    "noTrustAnchorHeader": "No secure trust anchor available",
+    "noTrustAnchorLine1": "The license manager was not initialized as no secure trust anchor could be found on the system.",
+    "noTrustAnchorLine2": "How to get a trust anchor?",
+    "noTrustAnchorLine3": "Use a license dongle",
+    "noTrustAnchorLine4": "Contact your device supplier on how to get a valid ctrlX Device ID",
+    "noTrustAnchorLine5": "Please note that after applying any of the proposed solutions, the system needs to be rebooted.",
+    "serverSettings.tooltip": "Server settings",
+    "serverSettings.button": "Server settings",
+    "clients": "Clients",
+    "name": "Name",
+    "id": "Id",
+    "licenses": "Licenses",
+    "reservations": "Reservations"
+  },
+
+  "lcm.servedDeviceDetails": {
+    "details.tab": "Details",
+    "property": "Property",
+    "value": "Value",
+    "name": "Name",
+    "id": "Id",
+    "licenses.tab": "Licenses",
+    "product": "Product",
+    "quantity": "Quantity",
+    "description": "Description",
+    "expiresUtc": "Expires (UTC)",
+    "unlimited": "Unlimited",
+    "reservations.tab":"Reservations"
+  },
+
+  "lcm.settingsDialog": {
+    "title": "Settings",
+    "temporaryUsageRights.title": "Temporary usage rights",
+    "enableTemporaryUsageRights.button": "Enable temporary usage rights",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "expired": "Expired",
+    "tmpUsageRemainingTime": "Remaining time: {{param}}"
+  },
+
+  "lcm.serverSettingsDialog": {
+    "title": "Server settings",
+    "borrowInterval": "Borrow interval (hours)",
+    "renewalInterval": "Renewal interval (hours, recommended 80% of borrow interval)",
+    "enterValueFromXToYMessage": "Enter a value between {{param1}} and {{param2}}",
+    "renewalMustBeSmallerThanBorrow": "Renewal interval must be smaller than borrow interval"
+  },
+
+  "lcm.tempUsageConfirmDialog": {
+    "title": "Temporary usage rights",
+    "temporaryUsageRightsText": "The \"temporary usage rights\" may only be activated for a device replacement in case of a defective device. They are valid for 10 days and can only be activated once. In addition, the license conditions of Bosch Rexroth AG apply {{param}}. After this period has expired, the apps will not restart without a valid license. Please contact your service contact person to transfer the licenses to the new device.",
+    "generalTermsAndConditions": "General Terms and Conditions of Deliveries and Services"
+  },
+
+  "lcm.notification": {
+    "error": "Error:  {{param}}",
+    "changesSavedMsg": "Changes have been saved.",
+    "errorMissingPermissions": "You do not have the required permissions."
+  },
+
+  "lcm.licenseRequired": {
+    "title": "License required",
+    "license": "License",
+    "licenseFor": "License for {{param}}",
+    "status": "Status",
+    "buyLicense.button": "Buy license",
+    "viewLicenses.button": "View current licenses",
+    "goBack.button": "Go back",
+    "NotAvailable": "Not available",
+    "NotSufficient": "Not sufficient"
+  },
+
+  "lcm.licenseChangeReportDialog": {
+    "title": "License changes",
+    "addedLicenses": "Licenses added",
+    "removedLicenses": "Licenses removed",
+    "downloadLicenseReturnFile.button": "Download license return file",
+    "note": "Note:",
+    "returnLicenseNotePart1": "To confirm the removal of the Licenses, upload the License Return File in the Licensing Center",
+    "returnLicenseNotePart2": "This step is mandatory in order to make the removed Licenses available again.",
+    "licenseFileAlreadyProcessedMsg": "The uploaded license file (Capability Response) has already been processed.",
+    "noLicensesAddedOrRemovedMsg": "No licenses have been added or removed."
+  }
+
+}

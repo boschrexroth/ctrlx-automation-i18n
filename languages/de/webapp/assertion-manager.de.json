@@ -1,0 +1,123 @@
+{
+  "asm.common": {
+    "assertionManager": "Assertion-Manager",
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+    "accept.button": "Zustimmen",
+    "deny.button": "Ablehnen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+    "showDetails.tooltip": "Details anzeigen",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "actions": "Aktionen"
+  },
+
+  "asm.notification": {
+    "changesSavedMsg": "Änderungen wurden gespeichert"
+  },
+
+  "asm.startPage": {
+    "systemUserAssertions": "System-User-Assertions",
+    "deviceCategories": "Gerätekategorien",
+    "authorities": "Authorities"
+  },
+
+  "asm.usernameValidatorLinux": {
+    "minCharacterMessage": "Benutzername muss mindestens {{param}} Zeichen lang sein",
+    "maxCharacterMessage": "Benutzername darf {{param}} Zeichen nicht überschreiten",
+    "startCharacterMessage": "Benutzername muss mit [a-z] oder mit '_' beginnen",
+    "invalidCharacterMessage": "Benutzername darf Kleinbuchstaben [a-z], Zahlen [0-9], '_' oder '-' enthalten. Er darf mit '$' enden",
+    "reservedMessage": "Dieser Benutzername ist reserviert"
+  },
+
+  "asm.assertions": {
+    "comment": "Kommentar / Verwendungszweck",
+    "requester": "Anforderer",
+    "creationDateUtc": "Erstellungsdatum (UTC)",
+    "deviceCategory": "Zielgerätekategorie",
+    "deviceSerialNo": "Seriennummer des Zielgerätes",
+    "authority": "Authority",
+    "targetUserName": "Benutzername auf dem Zielgerät",
+    "expriationDateUtc": "Ablaufdatum (UTC)",
+    "noAssertionsMsg": "Keine System-User-Assertions vorhanden",
+    "add.button": "System-User-Assertion hinzufügen",
+    "cannotCreateAssertionMessagePart1": "Momentan können Sie keine System-User-Assertions hinzufügen.",
+    "cannotCreateAssertionMessagePart2": "Bitte wenden Sie sich an Ihren Administrator.",
+    "noDeviceCategoriesMessagePart1": "Momentan können Sie keine System-User-Assertions hinzufügen, weil keine Gerätekategorien vorhanden sind.",
+    "noDeviceCategoriesMessagePart2": "Gehen Sie zuerst zur Registerkarte Authorities und fügen Sie eine oder mehrere Authorities hinzu.",
+    "noDeviceCategoriesMessagePart3": "Gehen Sie dann zur Registerkarte Gerätekategorien und fügen Sie eine oder mehrere Gerätekategorien hinzu."
+  },
+
+  "asm.deviceCategories": {
+    "deviceCategory": "Gerätekategorie",
+    "modelId": "Modell-Id",
+    "comment": "Kommentar",
+    "noDeviceCategoriesMsg": "Keine Gerätekategorien vorhanden",
+    "add.button": "Gerätekategorie hinzufügen",
+    "deleteDeviceCategory.title": "Gerätekategorie löschen",
+    "noAuthoritiesMessagePart1": "Momentan können Sie keine Gerätekategorien hinzufügen, weil keine vertrauenswürdigen Authorities vorhanden sind.",
+    "noAuthoritiesMessagePart2": "Gehen Sie zuerst zur Registerkarte Authorities und fügen Sie eine oder mehrere Authorities hinzu."
+  },
+
+  "asm.deviceCategoryEditor": {
+    "displayName": "Anzeigename",
+    "modelId": "Modell-Id",
+    "authority": "Authority",
+    "comment": "Kommentar",
+    "newDeviceCategory": "Neue Gerätekategorie",
+    "enterDisplayNameMessage": "Geben Sie einen Anzeigenamen ein",
+    "displayNameAlreadyExistsMessage": "Dieser Anzeigename existiert bereits",
+    "enterModelIdMessage": "Geben Sie eine Modell-Id ein",
+    "modelIdAlreadyExistsMessage": "Diese Modell-Id existiert bereits"
+  },
+
+  "asm.authorities": {
+    "authority": "Authority",
+    "accountId": "Account-Id",
+    "trusted": "Vertrauenswürdig",
+    "noAuthoritiesMsg": "Keine Authorities vorhanden",
+    "add.button": "Authority hinzufügen",
+    "deleteAuthority.title": "Authority löschen"
+  },
+
+  "asm.authorityEditor": {
+    "newAuthority": "Neue Authority",
+    "displayName": "Anzeigename",
+    "accountId": "Account-Id",
+    "untrustedCalloutPart1": "Diese Authority ist momentan nicht vertrauenswürdig.",
+    "untrustedCalloutPart2": "Um diese Authority vertrauenswürdig zu machen, wählen Sie eine GPG-Schlüsseldatei aus, geben Sie ein Passwort ein und klicken Sie dann auf Speichern.",
+    "gpgKeyFile": "GPG-Schlüsseldatei",
+    "chooseFile": "Datei auswählen",
+    "password": "Passwort",
+    "enterDisplayNameMessage": "Geben Sie einen Anzeigenamen ein",
+    "displayNameAlreadyExistsMessage": "Dieser Anzeigename existiert bereits",
+    "enterAccountIdMessage": "Geben Sie eine Account-Id ein",
+    "accountIdAlreadyExistsMessage": "Diese Account-Id existiert bereits",
+    "choseGpgFileMessage": "Wählen Sie eine GPG Schlüsseldatei aus",
+    "enterPasswordMessage": "Geben Sie ein Passwort ein"
+  },
+
+  "asm.addSystemUserAssertionDialog": {
+    "title": "System-User-Assertion erstellen",
+    "targetDeviceCategory": "Zielgerätekategorie",
+    "serialNoOfTargetDevice": "Seriennummer des Zielgerätes",
+    "usernameOnTargetDevice": "Benutzername auf dem Zielgerät",
+    "passwordOnTargetDevice": "Passwort auf dem Zielgerät",
+    "confirmPassword": "Passwort bestätigen",
+    "expirationDate": "Ablaufdatum",
+    "comment": "Kommentar / Verwendungszweck",
+    "createAssertion": "Assertion erstellen",
+    "enterSerialNumberOfDeviceMessage": "Geben Sie die Seriennummer des Zielgerätes ein",
+    "enterPasswordMessage": "Geben Sie ein Passwort ein",
+    "confirmPasswordMessage": "Bestätigen Sie das Passwort",
+    "confirmationDoesNotMatchPasswordMessage": "Die Passwortbestätigung stimmt nicht mit dem Passwort überein",
+    "enterComment": "Geben Sie einen Kommentar ein"
+  }
+}

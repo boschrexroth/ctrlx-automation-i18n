@@ -1,0 +1,54 @@
+{
+  "doc": {
+    "common": {
+      "license": "No license was found. Please add the license for 'Container Engine'.",
+      "noViewPermission": "You do not have the permission to open the container view.",
+      "howTo": "You can find further information in this document: <a href='https://developer.community.boschrexroth.com/t5/Store-and-How-to/Deploy-Docker-Image-to-Container-Engine-App/ba-p/72439' target='_blank'>How-To</a>."
+    },
+    "container": {
+      "actions": "Actions",
+      "details": "Details",
+      "created": "Created",
+      "detailsTitle": "Further information",
+      "ipAddress": "IP address",
+      "logsTitle": "Diagnosis log",
+      "name": "Name",
+      "noWritePermission": "You do not have the permission to change the status of the container.",
+      "ports": "Ports",
+      "image": "Image",
+      "state": "State",
+      "status": "Status",
+      "tooltipInfo": "Further information",
+      "tooltipKill": "Kill",
+      "tooltipLogs": "Open diagnosis log window",
+      "tooltipPause": "Pause",
+      "tooltipRestart": "Restart",
+      "tooltipStart": "Start",
+      "tooltipStop": "Stop",
+      "tooltipUnpause": "Unpause",
+      "tooltipExpand": "Expand all levels",
+      "tooltipCollapse": "Collapse all levels",
+      "tooltipRefresh": "Refresh",
+      "version": "Version",
+      "noData": "No data available. If you install a <a href='/package-manager/packages' target='_blank'>Container App</a>, the provided containers will be displayed here."
+    },
+    "image": {
+      "details": "Details",
+      "created": "Created",
+      "description": "Name",
+      "detailsTitle": "Further information",
+      "maintainer": "Maintainer",
+      "name": "Name",
+      "noWritePermission": "You do not have the permission to change the status of the image.",
+      "repoTags": "Tags",
+      "size": "Size",
+      "tooltipInfo": "Further information",
+      "virtualSize": "Virtual Size",
+      "tooltipExpand": "Expand all levels",
+      "tooltipCollapse": "Collapse all levels",
+      "tooltipRefresh": "Refresh",
+      "version": "Version",
+      "noData": "No data available. If you install a <a href='/package-manager/packages'>Container App</a>, the provided images will be displayed here."
+    }
+  }
+}

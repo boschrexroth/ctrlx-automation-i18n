@@ -1,0 +1,222 @@
+{
+  "sched": {
+    "common": {
+      "button": {
+        "ok": "OK",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "yes": "Yes",
+        "no": "No",
+        "add": "Add",
+        "finish": "Finish",
+        "next": "Next",
+        "back": "Back",
+        "continue": "Continue"
+      },
+      "text": {
+        "tabpage.overview": "Overview",
+        "tabpage.setup": "Configuration",
+        "settings": "Shows settings",
+        "debugmode.active": "Debug mode is active",
+        "debugmode.activated": "Debug mode was activated",
+        "debugmode.deactivated": "Debug mode was deactivated"
+      },
+      "attr": {
+        "actions": "Actions",
+        "arguments": "Arguments",
+        "callable": "Callable",
+        "class": "Class",
+        "config": "Configuration",
+        "counter": "Counter",
+        "cpucore": "CPU core",
+        "cycletime": "Cycle time",
+        "errorcount": "Error count",
+        "event": "Event",
+        "id": "ID",
+        "maxerror": "Max. consecutive errors",
+        "name": "Name",
+        "priority": "Priority",
+        "runindex": "Run-Index",
+        "stacksize": "Stack size",
+        "state": "State",
+        "type": "Type",
+        "wdog": "Watchdog",
+        "alias": "Alias",
+        "wdgerror": "Wdg error counter",
+        "wdgerrorclass": "Wdg error class",
+        "wdgmaxerror": "Wdg max. errors",
+        "wdgerrorconfig": "Wdg task behavior",
+        "before": "Before SyncPoints",
+        "after": "After SyncPoints",
+        "min": "Minimum",
+        "max": "Maximum",
+        "avg": "Average",
+        "resetalltimer": "Reset all timers",
+        "stopalltimer": "Stop all timers"
+      },
+      "validator": {
+        "numbers": "Only numbers are valid",
+        "cycletime1": "Please select a value between 500 - 1.000.000",
+        "cycletime2": "Only integer multiples of 1 ms are valid",
+        "priority": "Please select a value between {{min}} (high) - {{max}} (low)",
+        "stacksize": "Please select a value between 16.384 - 2.097.152",
+        "name": "The name is invalid",
+        "name15": "The name has more than 15 characters"
+      }
+    },
+    "main": {
+      "edit": {
+        "trigger.title": "The trigger source for the Scheduler task can be configured:",
+        "trigger.timer": "Timer",
+        "trigger.timer.info": "Timers of the operating system are used to trigger the Scheduler.",
+        "trigger.interrupt": "Interrupt",
+        "trigger.interrupt.info": "An internal interrupt is used to trigger the Scheduler."
+      }
+    }, 
+    "task": {
+      "tooltip": {
+        "wd0": "No watchdog configured",
+        "wd1": "Watchdog has no error",
+        "wd2": "Watchdog has an error",
+        "inactiv": "To activate this function, switch to CONFIG state",
+        "type.plc": "PLC task",
+        "type.auto": "Automation task",
+        "type.main": "System task",
+        "type.callable": "Callable",
+        "type.duration": "Duration",
+        "edit.show": "Shows task parameters",
+        "edit.edit": "Edits task parameters",
+        "add": "Adds a callable to the program",
+        "delete": "Deletes task",
+        "expand": "Program has no callables",
+        "showcall": "Shows parameters of the callable",
+        "deletecall": "Deletes a callable from the program",
+        "reset": "Resets scheduler configuration",
+        "reset.disabled": "To reset the scheduler configuration to default, first switch to the state 'Setup' in the header",
+        "switchautomatic": "Automatic program configuration",
+        "switchautomatic.disabled":"To switch the automatic mode, first switch to the state 'Setup' in the header",
+
+        "collapse.task": "Collapses task",
+        "expand.task": "Expands task",
+        "collapse.alltasks": "Collapses all tasks",
+        "expand.alltasks": "Expands all tasks",
+        "collapse.timer": "Collapses timer",
+        "expand.timer": "Expands timer",
+        "collapse.alltimer": "Collapses all timers",
+        "expand.alltimer": "Expands all timers",
+        "expand.parameters": "Expands extended parameters",
+        "collapse.parameters": "Collapses extended parameters",
+
+        "start.timer": "Starts timer",
+        "stop.timer": "Stops timer",
+        "reset.timer": "Resets timer",
+        "start.alltimer": "Starts all timers from task",
+        "stop.alltimer": "Stops all timers from task",
+        "reset.alltimer": "Resets all timers from task"
+      },
+      "info": {
+        "callout": "Automatic program configuration\nUpon app installation tasks are adjusted by the system. Only a few count of parameters can be changed individually.\nDisable the feature for a full custom configuration."
+      },
+      "reset": {
+        "title": "Resets the scheduler configuration to default",
+        "desc": "The scheduler configuration will be reseted to the default configuration. The current configuration will be lost",
+        "info": "The Scheduler configuration has been reseted to default"
+      },
+      "progConfigMode": {
+        "auto": "Automatic",
+        "switchToAutoTitle": "Switch on automatic program configuration",
+        "switchToAutoDesc": "Tasks and callables will be adjusted automatically. The current task configuration will be lost.",
+        "switchToManualTitle": "Switch off automatic program configuration",
+        "switchToManualDesc": "Any changes to tasks and callables will have to be made by hand. Switching back to automatic program configuration will reset all configuration changes.",
+        "infoText": "You might create an archive within app data management before."
+      },
+      "edit": {
+        "label.prop": "Properties",
+        "label.wdog": "Watchdog",
+        "wdog.enabled": "Watchdog enabled",
+        "wdog.disabled": "Watchdog disabled",
+        "wdog.class.title": "Response to the system about the criticality:",
+        "wdog.class.f0": "Minor error (F0)",
+        "wdog.class.f0.info": "Informs the system that a watchdog has been triggered with a minor error." ,
+        "wdog.class.f6": "Critical error (F6)",
+        "wdog.class.f6.info": "Informs the system that a wachtdog has been triggered with a critical error.",
+        "wdog.config.title": "Task behavior:",
+        "wdog.config.disable": "Disable",
+        "wdog.config.disable.info": "The task is not triggered anymore after triggering the watchdog.",
+        "wdog.config.continue": "Continue",
+        "wdog.config.continue.info": "The task is triggered even after the watchdog is triggered until the maximum nunber of consecutive errors is reached.",
+        "wdog.maxerror.info": "The task is disabled when the max. number of consecutive errors is reached."
+      },
+      "add": {
+        "title": "Add task",
+        "extmode": "Advanced mode",
+        "success": "Task was added",
+        "error": "Error when adding task",
+        "prio.error1": "Please select a value between 11 (high) - 139 (low)",
+        "name.error1": "The name has more then 15 characters",
+        "name.error2": "The name is invalid"
+      },
+      "delete": {
+        "title": "Delete task '{{name}}'",
+        "desc": "Are you sure you want to delete task '{{name}}'?",
+        "success": "Task was deleted",
+        "error": "Error when deleting task"
+      },
+      "empty": {
+        "title": "No tasks configured",
+        "info": "'Add task' allows to add a task to the Scheduler."
+      }
+    },
+    "callable": {
+      "add": {
+        "title": "Add callable to '{{name}}'",
+        "error.callable": "Select callable",
+        "error.runindex": "Valid index: Number >= 0",
+        "hint.arguments": "Enter arguments (not required)",
+                
+        "step.defineCallable": "Define callable",
+        "step.setRunindex": "Set Run-Index",
+
+        "button.syncpoints.title": "SyncPoints (recommended)",
+        "button.syncpoints.info": "Call sequence by placing SyncPoints",
+        "button.runindex.title": "Run-Index",
+        "button.runindex.info": "Run this callable via call sequence",
+
+        "runindex.title": "Set 'Run-Index' for callable '{{callablename}}'",
+        "panel.title": "Currently active call sequence",
+
+        "syncpoint.before.title": "Before which SyncPoints is the callable '{{callablename}}' called:",
+        "syncpoint.after.title": "After which SyncPoints is the callable '{{callablename}}' called:",
+        "syncpoint.available": "Available SyncPoints"
+      },
+      "edit": {
+        "error.runindex": "Please enter a number < 4294967295"
+      },
+      "delete": {
+        "title": "Delete callable '{{name}} - {{cid}}'",
+        "desc": "Are you sure you want to delete '{{name}} - {{cid}}'?",
+        "success": "Callable was deleted",
+        "error": "Error when deleting callable"
+      }
+    },
+    "settings": {
+      "title": "Scheduler settings",
+      "tabStartup": "Startup",
+      "tabDebug": "Debug",
+      "state.title": "State - Specifies to which target state the Scheduler should switch after switching on",
+      "state.operating.info": "Tasks are called and callables are ready to operate",
+      "state.setup.info": "Tasks are called and callables can be configured",
+      "state.service.info": "Tasks are not called, callables are inactive and apps can be installed",
+      "timeout.title": "Timeout - Specifies the time how long the Scheduler waits for additional components during startup",
+      "timeout": "Timeout",
+      "reaction.title": "Error reaction - Specifies how the Scheduler reacts to a timeout during startup",
+      "reaction.stop": "Stop",
+      "reaction.stop.info": "The Scheduler aborts further startup",
+      "reaction.continue": "Continue",
+      "reaction.continue.info": "The Scheduler continues the startup without the missing components",
+      "debug": "Debug mode",
+      "debug.info": "The hardware watchdog is deactivated when the Debug mode is active"
+    }
+  }
+}

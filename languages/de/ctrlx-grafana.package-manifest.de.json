@@ -1,0 +1,12 @@
+{
+    "scopes.grafana.description": "Berechtigungen für den Zugriff auf IoT-Dashboard-Ressourcen",
+    "scopes.grafana.admin.name": "IoT-Dashboard Organization Administrator",
+    "scopes.grafana.admin.description": "Ermöglicht den Zugriff auf alle Ressourcen der Organisation, einschließlich Dashboards, Benutzer und Teams",
+    "scopes.grafana.editor.name": "IoT-Dashboard Editor",
+    "scopes.grafana.editor.description": "Ermöglicht das Anzeigen und Bearbeiten von Dashboards, Ordnern und Wiedergabelisten",
+    "scopes.grafana.viewer.name": "IoT-Dashboard Viewer",
+    "scopes.grafana.viewer.description": "Ermöglicht das Anzeigen von Dashboards und Wiedergabelisten",
+    "licenses.SWL-XCx-GDB-GRAFANAxDBxxx-NNNN.title": "ctrlX OS Lizenz - IoT-Dashboard",
+    "licenses.SWL-XCx-GDB-GRAFANAxDBxxx-NNNN.description": "Dynamische IoT Dashboards basierend auf Grafana® angepasst für ctrlX OS",
+    "configuration.grafana.description" : "IoT-Dashboard Konfiguration"
+}

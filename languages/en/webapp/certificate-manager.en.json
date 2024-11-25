@@ -1,0 +1,395 @@
+{
+    "ctm.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "delete.menu": "Delete",
+
+    "actions": "Actions",
+
+    "certKeys.breadcrumb": "Certificates & Keys",
+    "pkis.breadcrumb": "PKIs",
+
+    "noneSkipVerification": "none, skip verification"
+  },
+
+  "ctm.applications": {
+    "name": "Service",
+    "description": "Description",
+    "pki.tooltip": "Manage PKIs"
+  },
+
+  "ctm.certSignReqDialog": {
+    "title": "Certificate signing requests",
+    "titleSingular": "Certificate signing request",
+    "name": "Name",
+    "createdBy": "Created by",
+    "createdOn": "Created on",
+    "downloadAsPem.tooltip": "Download as *.pem",
+    "downloadAsDer.tooltip": "Download as *.der",
+    "copyToClipboard.tooltip": "Copy to clipboard",
+    "deleteCsr.title": "Delete certificate signing request"
+  },
+
+  "ctm.certKeyTabPanel": {
+    "certificates": "Certificates",
+    "keys": "Keys",
+    "revocationLists": "Revocation lists",
+    "pkcs12Containers": "PKCS12 containers",
+    "enrollments": "Certificate enrollments"
+  },
+
+  "ctm.certificates": {
+    "uploadCertFile.tooltip": "Upload certificate file",
+    "name": "Name",
+    "category": "Category",
+    "subject": "Issued for",
+    "validFrom": "Valid from (UTC)",
+    "validTo": "Valid until (UTC)",
+    "renewal": "Renewal",
+    "loading": "loading",
+    "notconfigured": "not configured",
+    "automatic": "automatic",
+    "paused": "paused",
+    "more.tooltip": "More...",
+    "showDetails.menu": "Show details",
+    "rename.menu": "Rename",
+    "trust.menu": "Trust",
+    "reject.menu": "Reject",
+    "renewal.menu": "Renewal",
+    "extract.menu": "Extract",
+    "download.menu": "Download",
+    "noCertsMsg": "No certificates available",
+    "uploadCertFile.button": "Upload certificate file",
+    "renameCertificate.title": "Rename certificate",
+    "deleteCertificate.title": "Delete certificate",
+    "na": "n.a."
+  },
+
+  "ctm.keys": {
+    "uploadKeyFile.tooltip": "Upload key file",
+    "name": "Name",
+    "category": "Category",
+    "type": "Type",
+    "algorithm": "Algorithm",
+    "length": "Length",
+    "hsmSecured": "HSM secured",
+    "yes": "Yes",
+    "no": "No",
+    "status": "Status",
+    "more.tooltip": "More...",
+    "rename.menu": "Rename",
+    "trust.menu": "Trust",
+    "reject.menu": "Reject",
+    "decrypt.menu": "Decrypt",
+    "generateCsr.menu": "Generate certificate signing request",
+    "showCsrs.menu": "Show certificate signing requests",
+    "generateSelfsignedCert.menu":"Generate self signed certificate",
+    "enrollCert.menu": "Enroll certificate",
+    "downloadAsPem.menu": "Download as *.pem",
+    "downloadPubKeyPartAsPem.menu": "Download public part as *.pem",
+    "downloadPrivKeyAsPem.menu": "Download as *.pem",
+    "downloadAsDer.menu": "Download as *.der",
+    "downloadPubKeyPartAsDer.menu": "Download public part as *.der",
+    "downloadPrivKeyAsDer.menu": "Download as *.der",
+    "downloadKeyBundleAsZip.menu": "Download key bundle as *.zip",
+    "renameKey.title": "Rename key",
+    "deleteKey.title": "Delete key",
+    "noKeysMsg": "No keys available",
+    "uploadKeyFile.button": "Upload key file",
+    "generateKey.button": "Generate key"
+  },
+
+  "ctm.pkiDetails": {
+    "uri": "URI",
+    "serverCert": "Server certificate",
+    "enterUri": "Enter a valid URI",
+    "selectCertificate": "Select a certificate",
+    "uriAlreadyExisting": "A PKI with this URI already exists",
+    "protocol": "Protocol",
+    "scepProtocolOptions": "SCEP protocol options",
+    "scepGenerateNewKey": "Generate new key on renewal",
+    "scepSignRequestByNewKey": "Sign request by new key on renewal",
+    "scepUsePkcsRequestOnRenewal": "Use PKCS request on renewal",
+    "authentication": "Authentication",
+    "scepAuthenticationOptions": "SCEP authentication options",
+    "authNone": "None",
+    "authChallenge": "Challenge",
+    "challenge": "Challenge",
+    "enterChallenge": "Enter a challenge",
+    "newPki": "New PKI",
+    "uploadServerCert.tooltip": "Upload server certificate"
+  },
+
+  "ctm.pkis": {
+    "uri": "URI",
+    "protocol": "Protocol",
+    "serverCert": "Server certificate",
+    "authentication": "Authentication",
+    "certsKeys.tooltip": "Certificates & Keys",
+    "noPkisMsg": "No PKIs available",
+    "addPki.button": "Add PKI",
+    "deletePki.title": "Delete PKI"
+  },
+
+  "ctm.createCsrDialog": {
+    "title": "Create certificate signing request",
+    "commonName.label": "Common name or fully qualified domain name",
+    "organizationOrCompanyName": "Organization or company",
+    "departmentOrDivisionName": "Department or division",
+    "country": "Country",
+    "stateOrProvince": "State or province",
+    "postalCode": "Postal code",
+    "city": "City",
+    "streetAddress": "Street address",
+    "create.button": "Create",
+    "enterCommonName": "Enter a common name or a fully qualified domain name",
+    "enterCountryCode": "Enter a 2-letter country code",
+    "enterValidityPeriod": "Enter a validity periode",
+    "enterMaxChars": "Enter maximum {{param}} characters"
+  },
+
+  "ctm.notification": {
+    "error": "Error:  {{param}}",
+    "changesSavedMsg": "Changes have been saved.",
+    "errorMissingPermissions": "You do not have the required permissions.",
+    "csrCopiedToClipboardMsg": "{{param}} has been copied to clipboard.",
+    "certRenewalFailedMsg": "The certificate renewal failed!",
+    "pkcs12ExportFailedMsg": "PKCS12 export has failed!",
+    "pkcs12ImportFailedMsg": "PKCS12 import has failed!",
+    "pkcs12ImportSucceededMsg": "The PKCS12 import was successful. You can find the imported items under the 'Certificates' and 'Keys' tabs.",
+    "generateSelfSignedCertFailedMsg": "Certificate generation has failed.",
+    "generateSelfSignedCertSucceededMsg": "Certificate generation was successful. You can find the created certificate under the 'Certificates' tab.",
+    "createEnrollmentSucceededMsg": "The enrollment has been created. You can find the created enrollment under the 'Certificate enrollments' tab."
+  },
+
+  "ctm.decryptDialog": {
+    "title": "Decrypt key",
+    "keyPassword": "Key password",
+    "nameOfDecryptedKey": "Name of decrypted key",
+    "decryptKey.button": "Decrypt",
+    "enterAPassword": "Enter a password"
+  },
+
+  "ctm.generateKeyDialog": {
+    "title": "Generate key",
+    "name": "Name",
+    "extShort": "Extension",
+    "algorithm": "Algorithm",
+    "keyLength": "Key length",
+    "secureKeyByHsm": "Secure key by HSM",
+    "generateKey.button": "Generate"
+  },
+
+  "ctm.importCertFileDialog": {
+    "title": "Upload certificate file",
+    "fileName": "File name",
+    "category": "Category",
+    "upload.button": "Upload",
+    "selectCategory": "Select a category"
+  },
+
+  "ctm.importKeyFileDialog": {
+    "title": "Upload key file",
+    "fileName": "File name",
+    "category": "Category",
+    "upload.button": "Upload",
+    "selectCategory": "Select a category"
+  },
+
+  "ctm.renameDialog": {
+    "name": "Name",
+    "rename.button": "Rename"
+  },
+
+  "ctm.certValidityPipe": {
+    "expired": "Expired",
+    "notYetValid": "Not yet valid",
+    "Valid": "Valid"
+  },
+
+  "ctm.distNameShortPipe": {
+    "commonName": "Common name: {{param}}",
+    "organization": "Organization: {{param}}"
+  },
+
+  "ctm.keyTypePipe": {
+    "private": "Private",
+    "public": "Public"
+  },
+
+  "ctm.keyStatusPipe": {
+    "available": "Available",
+    "generating": "Generating",
+    "encrypted": "Encrypted"
+  },
+
+  "ctm.certRenewalDialog": {
+    "title": "Certificate renewal",
+    "certificate": "Certificate:",
+    "validUntil": "Valid until:",
+    "pki": "PKI",
+    "privateKey": "Private key",
+    "renewalPeriode": "Renewal period before end of validity (days)",
+    "enterRenewalPeriode": "Renewal period must be at least 1 day",
+    "renewalEnabled": "Enable automatic certificate renewal",
+    "renewNow.button": "Renew now",
+    "renewCertificate.title": "Renew now",
+    "renewCertificate.confirmation": "Are you sure you want to renew {{param}} now?",
+    "renew.button": "Renew",
+    "renewalInProgress": "renewal in progress...",
+    "selectPki": "Select a PKI",
+    "selectPrivateKey": "Select a private key"
+  },
+
+  "ctm.keyNameValidator": {
+    "nameMustBeMinXChars": "Name must be at least {{param}} character.",
+    "nameMayNotExcceedXChars": "Name may not exceed {{param}} characters.",
+    "nameMayContainLetters": "Name may contain letters [A-Z][a-z], digits [0-9], '_' or '-'.",
+    "keyXIsAlreadyExisting": "A key {{param}} is already existing."
+  },
+
+  "ctm.revocationLists": {
+    "name": "Name",
+    "issuer": "Issued by",
+    "validSince": "Valid since (UTC)",
+    "nextUpdate": "Next update (UTC)",
+    "showDetails.menu": "Show details",
+    "more.tooltip": "More...",
+    "uploadCrlFile.tooltip": "Upload revocation list file",
+    "noCrlsMsg": "No revocation lists available",
+    "uploadCrlFile.button": "Upload revocation list file",
+    "deleteRevocationList.title": "Delete revocation list"
+  },
+
+  "ctm.pkcs12Containers": {
+    "name": "Name",
+    "more.tooltip": "More...",
+    "createPkcs12ContainerFile.tooltip": "Create PKCS12 container",
+    "createPkcs12ContainerFile.button": "Create PKCS12 container",
+    "uploadPkcs12ContainerFile.tooltip": "Upload PKCS12 container file",
+    "uploadPkcs12ContainerFile.button": "Upload PKCS12 container file",
+    "download.menu": "Download",
+    "noPkcs12ContainersMsg": "No PKCS12 containers available",
+    "uploadCrlFile.button": "Upload PKCS12 container file",
+    "deletePkcs12Container.title": "Delete PKCS12 container",
+    "importContent.menu": "Import content"
+  },
+
+  "ctm.createPkcs12ContainerDialog": {
+    "title": "Create PKCS12 container",
+    "name": "Container name",
+    "extension": "Extension",
+    "clientCertToAdd": "Client certificate to be added (optional)",
+    "dontAddClientCert": "Do not add a client certificate",
+    "privKeyToAdd": "Private key to be added (optional)",
+    "dontAddPrivKey": "Do not add a private key",
+    "caCertsToAdd": "CA certificates to be added (optional)",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "create.button": "Create",
+    "enterName": "Enter a name",
+    "nameMayContainCharacters": "Name may contain the following characters: A-Z, a-z, 0-9, '_', '-'",
+    "nameAlreadyExists": "This name already exists",
+    "selectClientCertOrAtLeastOneCaCert": "Select a client cert or a least one ca cert",
+    "selectClientCertDueToKey": "A private key has been selected. Select a corresponding client certificate",
+    "selectOption": "Select a option",
+    "enterPassword": "Enter a password",
+    "passwordConfMissmatch": "Confirmation does not match password"
+  },
+
+  "ctm.importPkcs12ContainerDialog": {
+    "title": "Import PKCS12 container",
+    "containerName": "Container name",
+    "namePrefix": "Name prefix",
+    "password": "Password",
+    "import.button": "Import",
+    "namePrefixMayContainCharacters": "Name prefix may contain the following characters: A-Z, a-z, 0-9, '_', '-'",
+    "enterPassword": "Enter a password"
+  },
+
+  "ctm.extractCertDialog": {
+    "title": "Extract certificate",
+    "oldName": "Certificate to extract",
+    "category": "Category of the extracted certificate",
+    "selectCategory": "Select a category",
+    "newName": "Name of the extracted certificate",
+    "extension": "Extension",
+    "extract.button": "Extract"
+  },
+
+  "ctm.genSelfSignedCertDialog": {
+    "title": "Generate self signed certificate",
+    "name": "Name",
+    "extension": "Extension",
+    "validityInDays": "Validity (days)",
+    "commonName.label": "Common name or fully qualified domain name",
+    "organizationOrCompanyName": "Organization or company",
+    "departmentOrDivisionName": "Department or division",
+    "country": "Country",
+    "stateOrProvince": "State or province",
+    "postalCode": "Postal code",
+    "city": "City",
+    "streetAddress": "Street address",
+    "generate.button": "Generate",
+    "enterCommonName": "Enter a common name or a fully qualified domain name",
+    "enterCountryCode": "Enter a 2-letter country code",
+    "enterValidityPeriod": "Enter a validity periode",
+    "enterAtLeastOneDay": "Enter at least 1 day",
+    "enterMaxDays": "Enter maximum {{param}} days",
+    "enterMaxChars": "Enter maximum {{param}} characters"
+  },
+
+  "ctm.nameValidator": {
+    "errMinLen": "Enter a name",
+    "errMaxLen": "Name may not exceed {{param}} characters",
+    "errInvalidChar": "Name may contain [a-z], [A-Z], [0-9], '_', '-', '.'",
+    "errExisting": "This name is already existing",
+    "errNotValid": "This name is not valid"
+  },
+
+  "ctm.enrollCertificateDialog": {
+    "title": "Enroll certificate",
+    "key": "Key",
+    "selectKey": "Select a key",
+    "pki": "PKI",
+    "selectPki": "Select a PKI",
+    "commonName.label": "Common name or fully qualified domain name",
+    "organizationOrCompanyName": "Organization or company",
+    "departmentOrDivisionName": "Department or division",
+    "country": "Country",
+    "stateOrProvince": "State or province",
+    "postalCode": "Postal code",
+    "city": "City",
+    "streetAddress": "Street address",
+    "enroll.button": "Enroll",
+    "enterCommonName": "Enter a common name or a fully qualified domain name",
+    "enterCountryCode": "Enter a 2-letter country code",
+    "enterValidityPeriod": "Enter a validity periode",
+    "enterMaxChars": "Enter maximum {{param}} characters"
+  },
+
+  "ctm.enrollments": {
+    "requestedFor": "Requested for",
+    "requestedFromPki": "Requested from PKI",
+    "status": "Status",
+    "noEnrollmentsMsg": "No certificate enrollments available",
+    "enrollCertificate.button": "Enroll certificate"
+  },
+
+  "ctm.enrollmentStatusPipe": {
+    "pending": "pending",
+    "running": "running",
+    "done": "done",
+    "failed": "failed, see logbook for details"
+  }
+}

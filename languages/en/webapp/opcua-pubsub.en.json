@@ -1,0 +1,127 @@
+{
+    "pubsub.common": {
+        "yes.button": "Yes",
+        "no.button": "No",
+        "cancel.button": "Cancel",
+        "ok.button": "Ok",
+        "save.button": "Save",
+        "Actions.label": "Actions",
+        "Edit.label": "Edit",
+        "Delete.label": "Delete",
+        "Enable.label": "Enable"
+    },
+    "pubsub.addPubsub": {
+        "AddPubsub.label": "Add Publisher",
+        "Connection.label": "Connection",
+        "WriterGroup.label": "WriterGroup",
+        "Writer.label": "Writer",
+        "DataSet.label": "DataSet",
+        "Setup.label": "Setup"
+    },
+    "pubsub.config": {
+        "Publisher.label": "Publisher",
+        "Subscriber.label": "Subscriber",
+        "Connection.label": "Connection"
+    },
+    "pubsub.publisher": {
+        "AddPublisher.label": "Add Publisher",
+        "NoPublisher.label": "No publisher configured",
+        "Name.label": "Name",
+        "Connection.label": "Connection",
+        "PublishingInertval.label": "Publishing Inertval",
+        "Address.label": "Address",
+        "Interface.label": "Interface",
+        "PublishedMessages.label": "Published Messages",
+        "State.label": "State",
+        "Status.label": "Status",
+        "Actions.label": "Actions",
+        "PublisherId.label": "Publisher Id",
+        "delete.label": "Delete",
+        "enable.label": "Enable",
+        "edit.label": "Edit",
+        "FieldName.label": "Field Name",
+        "PublishNodePath.label": "Publish Node Path",
+        "DataType.label": "Data Type",
+        "delete.Confirmation": "Are you sure you want to delete {{value}}?",
+        "deletePublisher": "Delete Publisher",
+        "enable.Confirmation": "Are you sure you want to enable {{value}}?",
+        "enablePublisher": "Enable Publisher",
+        "pubsubConfiguration.title": "OPC UA Pub/Sub configuration",
+        "readOnlyPermission": "You don't have permissions to perform this operation"
+    },
+    "pubsub.addConnection": {
+        "AddConnection.label": "Add Connection",
+        "Connection.label": "Connection Name",
+        "PublisherIDType.label": "Publisher ID Type",
+        "PublisherID.label": "Publisher ID",
+        "CommunicationType.label": "Communication Type",
+        "Address.label": "Address",
+        "AddressNetworkInterface.label": "Address Network Interface",
+        "ExpertProperties.label": "Expert Properties"
+    },
+    "pubsub.calloutNotification": {},
+    "pubsub.addPublisher": {
+        "AddPubsub.label": "Add Publisher",
+        "Connection.label": "Connection Name",
+        "WriterName.label": "Writer Name",
+        "Address.label": "Address"
+    },
+    "pubsub.writerGroup": {
+        "WriterGroupName.label": "WriterGroup Name",
+        "WriterGroupId.label": "WriterGroup Id",
+        "PublishingInterval.label": "Publishing Interval",
+        "SecurityMode.label": "Security Mode",
+        "MaxNetworkMessageSize.label": "Max Network Message Size",
+        "KeepAliveTime.label": "Keep Alive Time",
+        "HeaderLayout.label": "Header Layout",
+        "AddWriterGroup.label": "Add WriterGroup"
+    },
+    "pubsub.writer": {
+        "WriterName.label": "Writer Name",
+        "DataSetWriterId.label": "DataSet Writer Id",
+        "DataSetEncoding.label": "DataSet Encoding"
+    },
+    "pubsub.dataSet": {
+        "NoDataSetConfigured.label": "No DataSet Configured",
+        "AddDataSet.label": "Add DataSet",
+        "FieldName.label": "Field Name",
+        "PublishedNodePath.label": "Published Node Path",
+        "DataType.label": "Data Type"
+    },
+    "pubsub.AdddataSet": {
+        "AddDataSet.label": "Add item to DataSet",
+        "EditDataSet.label": "Edit DataSet Item",
+        "PathError.label": "Path is mandatory",
+        "Path.label": "Path"
+    },
+    "pubsub.Subscriber": {
+        "NoSubscriber.label": "No subscriber configured",
+        "AddSubscriber.label": "Add Subscriber",
+        "Name.label": "Name",
+        "TargetedPublisherId.label": "Targeted Publisher Id",
+        "TargetedWriterGroupId.label": "Targeted Writer Group Id",
+        "TargetedDataSetWriterId.label": "Targeted DataSet Writer Id",
+        "Address.label": "Address",
+        "ReceivedMessages.label": "Received Messages",
+        "State.label": "State",
+        "Status.label": "Status",
+        "TargetNodePath.label": "Target Node Path",
+        "DataType.label": "Data Type",
+        "delete.Confirmation": "Are you sure you want to delete {{value}}?",
+        "deleteSubscriber": "Delete Subscriber",
+        "enable.Confirmation": "Are you sure you want to enable {{value}}?",
+        "enableSubscriber": "Enable Subscriber"
+    },
+    "pubsub.appNotInit": {
+      "appInitializing": "The app is currently being initialized. This may take a while, please {{value}} the page.",
+      "description": "This is most likely due to one of the following reasons:",
+      "error.header": "The OPC UA Pub-Sub app is currently not available.",
+      "noPermission": "You do not have the required permissions to see this page.",
+      "refresh": "Refresh",
+      "servicemode": "The 'Service mode' is currently active. Please go to the {{value}} switch to 'Operation mode' and try again.",
+      "servicemode.appManagerLink": "Apps manager",
+      "details_1":"Please check the ",
+      "details_2":" for more details",
+      "Logbook":"Logbook"
+    }
+}

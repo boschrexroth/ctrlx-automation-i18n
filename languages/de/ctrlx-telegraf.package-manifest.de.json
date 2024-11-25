@@ -1,0 +1,12 @@
+{
+    "scopes.telegraf.description": "Berechtigungen für den Zugriff auf die Telegraf Konfiguration",
+    "scopes.telegraf.manage.name": "Konfiguration bearbeiten",
+    "scopes.telegraf.manage.description": "Erlaubt das Bearbeiten und Verwalten der Konfiguration",
+    "scopes.telegraf.start-stop.name": "Starten/Stoppen und Lesen von Telegraf Konfigurationen",
+    "scopes.telegraf.start-stop.description": "Erlaubt das Starten/Stoppen und Lesen der Telegraf Konfiguration",
+    "scopes.telegraf.view.name": "Konfiguration lesen",
+    "scopes.telegraf.view.description": "Erlaubt das Lesen der Telegraf Konfiguration",
+    "licenses.SWL-XCx-TSA-TELEGRAFxxxxx-NNNN.title": "ctrlX OS Lizenz - Telegraf",
+    "licenses.SWL-XCx-TSA-TELEGRAFxxxxx-NNNN.description": "Server Agent zur Verarbeitung von Informationen basierend auf Telegraf® optimiert für ctrlX OS",
+    "configuration.telegraf.description" : "Telegraf Konfiguration"
+}

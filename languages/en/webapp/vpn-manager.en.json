@@ -1,0 +1,107 @@
+{
+  "vpn.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "delete.menu": "Delete",
+
+    "actions": "Actions"
+  },
+
+  "vpn.configurations": {
+    "uploadConfigFile.tooltip": "Uploads VPN configuration file",
+    "uploadConfigFile.button": "Upload VPN configuration file",
+    "addConnection.button": "Add VPN connection",
+    "name": "Connection",
+    "type": "Type",
+    "autoConnect": "Connect automatically",
+    "downloadConfigFile.tooltip": "Downloads configuration file",
+    "start.tooltip": "Start",
+    "stop.tooltip": "Stop",
+    "status": "Status",
+    "noConnectionsMsg": "No VPN connection available",
+    "addItemInfoText": "This VPN (Virtual Private Network) client app establishes a secure connection between this device and a VPN server.\n\"Upload VPN configuration file\" transfers an existing file, which contains the VPN connection information, from a PC/tablet to this device.\nAlternatively, make all settings for a new VPN connection via \"Add VPN connection\".",
+    "deleteConnection.title": "Delete connection",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting",
+    "disconnecting": "Disconnecting",
+    "pending": "Pending",
+    "start": "Start",
+    "optionManual": "Manual",
+    "optionAutomatic": "Automatic",
+    "optionDataLayer": "DataLayer controlled"
+  },
+
+  "vpn.configEditor": {
+    "name": "Name",
+    "configurationTabTitle": "Configuration",
+    "config": "Connection configuration",
+    "nameMustNotBeEmpty": "Name must not be empty.",
+    "configAlreadyExisting": "There is already a connection with this name.",
+    "configMustNotBeEmpty": "Configuration must not be empty.",
+    "credentialFilesTitle": "Credential files",
+    "noCredentialFilesUploaded.tooltip": "No credential files have been uploaded yet",
+    "upload.menu": "Upload",
+    "optionsTabTitle": "Options",
+    "connectionStart": "Connection start",
+    "optionManual": "Manual",
+    "optionManualDescr": "The connection must be started manually by clicking start button",
+    "optionAutomatic": "Automatic",
+    "optionAutomaticDescr": "The connection is started automatically on device startup. Manual start and stop is also possible",
+    "optionDataLayer": "DataLayer controlled",
+    "optionDataLayerDescr": "The connection state is controlled exclusively by a DataLayer node",
+    "triggerInputPlaceholder": "Address of the DataLayer node that controls the connection status",
+    "connectionStatusPropagation": "Connection status propagation",
+    "connectionStatusPropagationDescr": "Propagate connection status to DataLayer node",
+    "indicatorInputPlaceholder": "Address of the DataLayer node that will receive the connection status",
+    "test.button": "Test",
+    "triggerTest.tooltip": "Click to read the data layer node",
+    "indicatorTest.tooltip": "Press and hold to set the data layer node to true until release",
+    "enterDataLayerPath": "Enter a DataLayer path."
+  },
+
+  "vpn.addConfigDialog": {
+    "title": "Add connection",
+    "name": "Name",
+    "vpnType": "VPN type",
+    "addConnection.button": "Add",
+    "nameMustNotBeEmptyMsg": "Name must not be empty.",
+    "connectionAlreadyExistingMsg": "There is already a connection with this name."
+  },
+
+  "vpn.importConfigFileDialog": {
+    "title": "Upload configuration file",
+    "fileName": "File name",
+    "vpnType": "VPN type",
+    "upload.button": "Upload",
+    "selectVpnType": "Select a VPN type."
+  },
+
+  "vpn.notification": {
+    "error": "Error:  {{param}}",
+    "changesSavedMsg": "Changes have been saved.",
+    "errorMissingPermissions": "You do not have the required permissions.",
+    "cantSaveDataIsInvalidMsg": "Saving not possible. The data entered is incomplete or invalid.",
+    "connectionHasBeenStoppedMsg": "Connection has been stopped.",
+    "cantImportExisingConfigurations": "Cannot import, as the following connections already exist: {{param}}",
+    "notABoolDataLayerNode": "The specified DataLayer node is not of type bool8.",
+    "currentValue": "Current value: {{param}}"
+  },
+
+  "vpn.alertBoxFactoryService": {
+    "title": "Unsaved changes on {{param}}",
+    "saveDiscardCancelDescription": "You made changes to this item. You can save your changes, discard your changes or cancel to continue editing.",
+    "discardCancelDescription": "You made changes to this item. You can discard your changes or cancel to continue editing."
+  }
+
+}

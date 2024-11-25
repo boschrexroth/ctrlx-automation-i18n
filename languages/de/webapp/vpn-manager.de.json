@@ -1,0 +1,107 @@
+﻿{
+  "vpn.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "delete.menu": "Löschen",
+
+    "actions": "Aktionen"
+  },
+
+  "vpn.configurations": {
+    "uploadConfigFile.tooltip": "Lädt eine VPN-Konfigurationsdatei hoch",
+    "uploadConfigFile.button": "VPN-Konfigurationsdatei hochladen",
+    "addConnection.button": "VPN-Verbindung hinzufügen",
+    "name": "Verbindung",
+    "type": "Typ",
+    "autoConnect": "Automatisch verbinden",
+    "downloadConfigFile.tooltip": "Lädt eine VPN-Konfigurationsdatei herunter",
+    "start.tooltip": "Start",
+    "stop.tooltip": "Stopp",
+    "status": "Status",
+    "noConnectionsMsg": "Keine VPN-Verbindung vorhanden",
+    "addItemInfoText": "Diese VPN (Virtual Private Network) Client App stellt eine sichere Verbindung zwischen diesem Gerät und einem VPN-Server her.\nMit \"VPN-Konfigurationsdatei hochladen\" wird eine bestehende Datei, die die VPN-Verbindungsinformationen enthält, von einem PC/Tablet auf dieses Gerät übertragen.\nAlternativ können Sie alle Einstellungen für eine neue VPN-Verbindung über \"VPN-Verbindung hinzufügen\" vornehmen.",
+    "deleteConnection.title": "Verbindung löschen",
+    "connected": "Verbunden",
+    "disconnected": "Nicht verbunden",
+    "connecting": "Wird verbunden",
+    "disconnecting": "Wird getrennt",
+    "pending": "Ausstehend",
+    "start": "Start",
+    "optionManual": "Manuell",
+    "optionAutomatic": "Automatisch",
+    "optionDataLayer": "DataLayer gesteuert"
+  },
+
+  "vpn.configEditor": {
+    "name": "Name",
+    "configurationTabTitle": "Konfiguration",
+    "config": "Verbindungskonfiguration",
+    "nameMustNotBeEmpty": "Name darf nicht leer sein.",
+    "configAlreadyExisting": "Eine Verbindung mit diesem Namen existiert bereits.",
+    "configMustNotBeEmpty": "Konfiguration darf nicht leer sein.",
+    "credentialFilesTitle": "Anmeldedateien",
+    "noCredentialFilesUploaded.tooltip": "Bisher wurden keine Anmeldedateien hochgeladen",
+    "upload.menu": "Hochladen",
+    "optionsTabTitle": "Optionen",
+    "connectionStart": "Start der Verbindung",
+    "optionManual": "Manuell",
+    "optionManualDescr": "Die Verbindung muss manuell durch Anklicken der Start-Schaltfläche gestartet werden",
+    "optionAutomatic": "Automatisch",
+    "optionAutomaticDescr": "Die Verbindung wird beim Gerätestart automatisch gestartet. Manuelles Starten und Stoppen ist ebenfalls möglich",
+    "optionDataLayer": "DataLayer gesteuert",
+    "optionDataLayerDescr": "Der Verbindungsstatus wird exklusiv von einem DataLayer-Knoten gesteuert",
+    "triggerInputPlaceholder": "Adresse des DataLayer-Knotens, der den Verbindungsstatus steuert",
+    "connectionStatusPropagation": "Weitergabe des Verbindungsstatus",
+    "connectionStatusPropagationDescr": "Verbindungsstatus an einen DataLayer-Knoten weitergeben",
+    "indicatorInputPlaceholder": "Adresse des DataLayer-Knotens, der den Verbindungsstatus erhalten soll",
+    "test.button": "Test",
+    "triggerTest.tooltip": "Klicken, um den DataLayer-Knoten auszulesen",
+    "indicatorTest.tooltip": "Drücken und halten um den DataLayer-Knoten bis zum Loslassen auf true zu setzen",
+    "enterDataLayerPath": "Geben Sie einen DataLayer-Pfad ein."
+  },
+
+  "vpn.addConfigDialog": {
+    "title": "Verbindung hinzufügen",
+    "name": "Name",
+    "vpnType": "VPN-Typ",
+    "addConnection.button": "Hinzufügen",
+    "nameMustNotBeEmptyMsg": "Name darf nicht leer sein.",
+    "connectionAlreadyExistingMsg": "Eine Verbindung mit diesem Namen existiert bereits."
+  },
+
+  "vpn.importConfigFileDialog": {
+    "title": "Konfigurationsdatei hochladen",
+    "fileName": "Dateiname",
+    "vpnType": "VPN-Typ",
+    "upload.button": "Hochladen",
+    "selectVpnType": "Wählen Sie einen VPN-Typ aus."
+  },
+
+  "vpn.notification": {
+    "error": "Fehler: {{param}}",
+    "changesSavedMsg": "Die Änderungen wurden gespeichert.",
+    "errorMissingPermissions": "Sie haben nicht die erforderlichen Berechtigungen.",
+    "cantSaveDataIsInvalidMsg": "Speichern nicht möglich. Die eingegebenen Daten sind unvollständig oder ungültig.",
+    "connectionHasBeenStoppedMsg": "Die Verbindung wurde gestoppt.",
+    "cantImportExisingConfigurations": "Import ist nicht möglich, da die folgenden Verbindungen bereits existieren: {{param}}",
+    "notABoolDataLayerNode": "Der angegebene DataLayer-Knoten ist nicht vom Typ bool8.",
+    "currentValue": "Aktueller Wert: {{param}}"
+  },
+
+  "vpn.alertBoxFactoryService": {
+    "title": "Nicht gespeicherte Änderungen an {{param}}",
+    "saveDiscardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen.",
+    "discardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
+  }
+
+}

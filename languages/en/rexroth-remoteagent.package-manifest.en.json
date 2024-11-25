@@ -1,0 +1,14 @@
+{
+    "certificatestore.remoteagent.description": "This application provides the ctrlX Device Portal connectivity",
+    "sidebar.deviceOverview.title": "Device Overview",
+    "sidebar.activityOverview.title": "Activity Overview",
+    "sidebar.addDevice.title": "Add Device",
+    "scopes-declaration.rexroth-remoteagent.name": "Remote Agent",
+    "scopes-declaration.rexroth-remoteagent.description": "Configure and manage the ctrlX Device portal connectivity",
+    "scopes-declaration.rexroth-remoteagent.rw.name": "Manage devices and activities",
+    "scopes-declaration.rexroth-remoteagent.rw.description": "Manage devices and activities",
+    "scopes-declaration.rexroth-remoteagent.rx.name": "View devices, accept and reject activities",
+    "scopes-declaration.rexroth-remoteagent.rx.description": "View devices, accept and reject activities",
+    "scopes-declaration.rexroth-remoteagent.r.name": "View devices and activities",
+    "scopes-declaration.rexroth-remoteagent.r.description": "View devices and activities"
+}

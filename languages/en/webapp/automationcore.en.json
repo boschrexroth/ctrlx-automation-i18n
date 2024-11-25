@@ -1,0 +1,9 @@
+{
+  "auc.title": "Error",
+  "auc.detailDiag": "For detailed information",
+  "auc.clickHere": "Click here...",
+  "auc.logbook": "Diagnostic logbook",
+  "auc.close": "Close",
+
+  "auc.systemState.progressTitle": "Switching state to '{{state}}' ..."
+}

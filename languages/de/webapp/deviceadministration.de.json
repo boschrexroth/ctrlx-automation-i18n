@@ -1,0 +1,21 @@
+﻿{
+  "da.about.installedApps": "Installierte Apps",
+  "da.about.allRightsReserved": "Alle Rechte vorbehalten.",
+  "da.device-dashboard.home.installTile.title": "Eine App installieren",
+  "da.device-dashboard.api.title": "API-Referenz",
+  "da.device-dashboard.api.name": "Name",
+  "da.device-dashboard.api.description": "Beschreibung",
+  "da.device-dashboard.add-widgets.button": "Widgets hinzufügen",
+  "da.device-dashboard.new-widgets-hint-1": "Neue Widgets sind verfügbar.",
+  "da.device-dashboard.new-widgets-hint-2": "Klicken Sie hier, um die Widgets zu durchsuchen.",
+  "da.widget-catalog.title": "Widget-Katalog",
+  "da.widget-catalog.nodata": "Keine Widgets verfügbar",
+  "da.widget-catalog.submit.button": "Widgets hinzufügen",
+  "da.widget-catalog.general": "Allgemein",
+  "da.common.save.button": "Speichern",
+  "da.common.cancel.button": "Abbrechen",
+  "da.welcome-widget.get-started.button": "Lassen Sie uns loslegen",
+  "da.welcome-widget.text1": "Lernen Sie ctrlX OS kennen und erfahren Sie, wie Sie Ihre ersten Schritte damit machen können.",
+  "da.welcome-widget.text2": "Sehen Sie sich die How-To-Videoserie an.",
+  "da.welcome-widget.title": "Willkommen"
+}

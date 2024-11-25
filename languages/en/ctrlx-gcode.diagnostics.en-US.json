@@ -1,0 +1,265 @@
+{
+  "product": "GCO-V-0206",
+  "mainDiagnostics": {
+    "100A0040": {
+      "text": "General gcode system message",
+      "version": 1
+    },
+    "100A0050": {
+      "text": "General gcode configuration system message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290006": {
+          "text": "G-code configuration not found",
+          "version": 1
+        }
+      }
+    },
+    "100A00FE": {
+      "text": "Trace message G-code configuration",
+      "version": 1
+    },
+    "100A00FF": {
+      "text": "Trace message G-code interpreter",
+      "version": 1
+    },
+    "100E00FE": {
+      "text": "Trace warning G-code configuration",
+      "version": 1
+    },
+    "100E00FF": {
+      "text": "Trace warning G-code interpreter",
+      "version": 1
+    },
+    "100F0040": {
+      "text": "General error in G-code system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290002": {
+          "text": "Error when integrating the kinematics, the name of the instance should match the kinematics to be included",
+          "version": 1
+        },
+        "0C290003": {
+          "text": "Kinematic PLCopen state error",
+          "version": 1
+        },
+        "0C290004": {
+          "text": "Unexpected error in file (string) stream",
+          "version": 1
+        },
+        "0C290010": {
+          "text": "Response error of the interpreter Message Handler",
+          "version": 1
+        }
+      }
+    },
+    "100F0050": {
+      "text": "General error in G-code configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290000": {
+          "text": "Invalid value when configuring the Data Layer",
+          "version": 1
+        },
+        "0C290006": {
+          "text": "G-code configuration not found",
+          "version": 1
+        },
+        "0C290007": {
+          "text": "Invalid FlatBuffer",
+          "version": 1
+        },
+        "0C29000B": {
+          "text": "Failed to restore backup",
+          "version": 1
+        },
+        "0C29000C": {
+          "text": "Text not available in diagnostic database",
+          "version": 1
+        }
+      }
+    },
+    "100F0051": {
+      "text": "Error in the Data Layer of the G-code configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290001": {
+          "text": "Configuration function not implemented",
+          "version": 1
+        },
+        "0C290008": {
+          "text": "Failed to create G-code configuration",
+          "version": 1
+        },
+        "0C290009": {
+          "text": "Failed to delete G-code configuration",
+          "version": 1
+        },
+        "0C29000A": {
+          "text": "System inconsistent",
+          "version": 1
+        }
+      }
+    },
+    "100F0060": {
+      "text": "General error of the G-code runtime",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290005": {
+          "text": "General system error",
+          "version": 1
+        },
+        "0C290200": {
+          "text": "General runtime error",
+          "version": 1
+        }
+      }
+    },
+    "100F0061": {
+      "text": "Exception of the G-code runtime",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290201": {
+          "text": "Maximum nesting depth of subroutine reached",
+          "version": 1
+        },
+        "0C290202": {
+          "text": "In an NC program, a subroutine appears more than once in the same call chain. Avoid recursive calls.",
+          "version": 1
+        },
+        "0C290203": {
+          "text": "Failed to read Data Layer node",
+          "version": 1
+        },
+        "0C290204": {
+          "text": "Failed to write Data Layer node",
+          "version": 1
+        },
+        "0C290205": {
+          "text": "Reading/writing Data Layer nodes with complex data type (array or flat buffer) not possible",
+          "version": 1
+        },
+        "0C290206": {
+          "text": "Data type does not match the target Data Layer node",
+          "version": 1
+        },
+        "0C290207": {
+          "text": "Error in data type",
+          "version": 1
+        },
+        "0C290208": {
+          "text": "Error in division by zero",
+          "version": 1
+        }
+      }
+    },
+    "100F0062": {
+      "text": "Memory error of the G-code runtime",
+      "version": 1
+    },
+    "100F0063": {
+      "text": "Runtime NC error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290011": {
+          "text": "No F-word programmed",
+          "version": 1
+        },
+        "0C290014": {
+          "text": "Invalid dynamic limits",
+          "version": 1
+        },
+        "0C290015": {
+          "text": "General error during NC block execution",
+          "version": 1
+        },
+        "0C290016": {
+          "text": "Response error when creating a Motion command",
+          "version": 1
+        },
+        "0C290017": {
+          "text": "State error of the WAIT command",
+          "version": 1
+        },
+        "0C290018": {
+          "text": "Kinematic command interrupted by non-buffered command",
+          "version": 1
+        },
+        "0C290019": {
+          "text": "Internal runtime error of the NC function (Please contact developer)",
+          "version": 1
+        }
+      }
+    },
+    "100F0070": {
+      "text": "General error in the script syntax",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290012": {
+          "text": "Duplicate axis address word is programmed in one NC block",
+          "version": 1
+        },
+        "0C290100": {
+          "text": "Invalid syntax rule",
+          "version": 1
+        },
+        "0C290101": {
+          "text": "Function is not supported in this version",
+          "version": 1
+        },
+        "0C290103": {
+          "text": "Non-optional argument missing",
+          "version": 1
+        },
+        "0C290104": {
+          "text": "Same address word was commanded multiple times",
+          "version": 1
+        },
+        "0C290105": {
+          "text": "Missing brackets in the NC function",
+          "version": 1
+        },
+        "0C290106": {
+          "text": "NC function does not support bracket programming",
+          "version": 1
+        },
+        "0C290107": {
+          "text": "Overflow of the jump offset. Specify the jump target or the body size of the control structure.",
+          "version": 1
+        }
+      }
+    },
+    "100F0071": {
+      "text": "Error in script syntax type",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290102": {
+          "text": "Error in the data type of the argument",
+          "version": 1
+        }
+      }
+    },
+    "100F0080": {
+      "text": "General error in the semantics",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290012": {
+          "text": "Duplicate axis address word is programmed in one NC block",
+          "version": 1
+        },
+        "0C290013": {
+          "text": "All address words of the main axis (X, Y, Z) should be programmed in one NC block (will be fixed in next version)",
+          "version": 1
+        }
+      }
+    },
+    "100F00FE": {
+      "text": "Trace error G-code configuration",
+      "version": 1
+    },
+    "100F00FF": {
+      "text": "Trace error G-code interpreter",
+      "version": 1
+    }
+  }
+}

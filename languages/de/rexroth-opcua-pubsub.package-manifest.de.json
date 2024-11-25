@@ -1,0 +1,10 @@
+{
+  "configuration.appDirectories.opcuapubsub.description": "OPC UA Pub/Sub: Kommunikationskonfiguration",
+  "licenses.SWL-XCx-UAP-OPCUAPUBSUBxx-NNNN.title": "ctrlX OS License - OPC UA Pub/Sub",
+  "licenses.SWL-XCx-UAP-OPCUAPUBSUBxx-NNNN.description": "OPC UA Pub/Sub ist die OPC Erweiterung für die Echtzeitkommunikation zwischen Steuerungen für ctrlX OS",
+  "scopes-declaration.rexroth-opcua-pubsub.name": "OPC UA Pub/Sub",
+  "scopes-declaration.rexroth-opcua-pubsub.description": "Berechtigungen für die OPC UA Pub/Sub-App",
+  "scopes-declaration.rexroth-opcua-pubsub.opcua.x.name": "OPC UA Pub/Sub-Konfigurationszugriff",
+  "scopes-declaration.rexroth-opcua-pubsub.opcua.x.description": "Zugriff auf die Konfiguration zur OPC UA Pub/Sub-Kommunikation über den OPC UA Server",
+  "sidebar.opcua.1-Overview.title": "Übersicht"
+}

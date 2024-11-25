@@ -1,0 +1,31 @@
+{
+  "product": "VPN-V-0114",
+  "mainDiagnostics": {
+    "080A0303": {
+      "text": "Security: Änderung an der VPN-Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0040": {
+          "text": "Konfiguration hinzugefügt",
+          "version": 1
+        },
+        "0C7A0041": {
+          "text": "Konfiguration gelöscht",
+          "version": 1
+        },
+        "0C7A0042": {
+          "text": "Konfiguration verändert",
+          "version": 1
+        },
+        "0C7A0043": {
+          "text": "Verbindungsversuch gestartet",
+          "version": 1
+        },
+        "0C7A0044": {
+          "text": "Verbindung getrennt",
+          "version": 1
+        }
+      }
+    }
+  }
+}

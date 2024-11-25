@@ -1,0 +1,222 @@
+﻿{
+  "sched": {
+    "common": {
+      "button": {
+        "ok": "OK",
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "yes": "Ja",
+        "no": "Nein",
+        "add": "Hinzufügen",
+        "finish": "Beenden",
+        "next": "Weiter",
+        "back": "Zurück",
+        "continue": "Fortsetzen"
+      },
+      "text": {
+        "tabpage.overview": "Übersicht",
+        "tabpage.setup": "Konfiguration",
+        "settings": "Zeigt Einstellungen an",
+        "debugmode.active": "Debug-Modus ist aktiv",
+        "debugmode.activated": "Debug-Modus wurde aktiviert",
+        "debugmode.deactivated": "Debug-Modus wurde deaktiviert"
+      },
+      "attr": {
+        "actions": "Aktionen",
+        "arguments": "Argumente",
+        "callable": "Callable",
+        "class": "Klasse",
+        "config": "Konfiguration",
+        "counter": "Zähler",
+        "cpucore": "CPU-Kern",
+        "cycletime": "Zykluszeit",
+        "errorcount": "Fehleranzahl",
+        "event": "Ereignis",
+        "id": "ID",
+        "maxerror": "Max. aufeinanderfolgende Fehler",
+        "name": "Name",
+        "priority": "Priorität",
+        "runindex": "Run-Index",
+        "stacksize": "Stapelgröße",
+        "state": "Zustand",
+        "type": "Typ",
+        "wdog": "Watchdog",
+        "alias": "Alias",
+        "wdgerror": "Wdg Fehlerzähler",
+        "wdgerrorclass": "Wdg Fehlerklasse",
+        "wdgmaxerror": "Wdg max. Fehler",
+        "wdgerrorconfig": "Wdg Task-Verhalten",
+        "before": "Vor SyncPoints",
+        "after": "Nach SyncPoints",
+        "min": "Minimum",
+        "max": "Maximum",
+        "avg": "Durchschnitt",
+        "resetalltimer": "Alle Timer zurücksetzen",
+        "stopalltimer": "Alle Timer anhalten"
+      },
+      "validator": {
+        "numbers": "Nur Zahlen sind gültig",
+        "cycletime1": "Bitte wählen Sie einen Wert zwischen 500 - 1.000.000 aus",
+        "cycletime2": "Es sind nur ganzzahlige Vielfache von 1 ms gültig",
+        "priority": "Bitte wählen Sie einen Wert zwischen {{min}} (hoch) - {{max}} (niedrig) aus",
+        "stacksize": "Bitte wählen Sie einen Wert zwischen 16.384 - 2.097.152 aus",
+        "name": "Der Name ist erforderlich",
+        "name15": "Der Name hat mehr als 15 Zeichen"
+      }
+    },
+    "main": {
+      "edit": {
+        "trigger.title": "Die Auslöserquelle für den Scheduler-Task kann konfiguriert werden:",
+        "trigger.timer": "Timer",
+        "trigger.timer.info": "Timer des Betriebssystems werden verwendet, um den Scheduler auszulösen.",
+        "trigger.interrupt": "Interrupt",
+        "trigger.interrupt.info": "Ein interner Interrupt wird verwendet, um den Scheduler auszulösen."
+      }
+    }, 
+    "task": {
+      "tooltip": {
+        "wd0": "Kein Watchdog konfiguriert",
+        "wd1": "Watchdog hat keinen Fehler",
+        "wd2": "Watchdog hat einen Fehler",
+        "inactiv": "Um diese Funktion zu aktivieren, wechseln Sie in den Zustand CONFIG",
+        "type.plc": "SPS-Task",
+        "type.auto": "Automatisierungstask",
+        "type.main": "Systemtask",
+        "type.callable": "Callable",
+        "type.duration": "Dauer",
+        "edit.show": "Zeigt Task-Parameter an",
+        "edit.edit": "Bearbeitet Task-Parameter",
+        "add": "Fügt ein Callable zum Programm hinzu",
+        "delete": "Löscht Task",
+        "expand": "Programm hat keine Callables",
+        "showcall": "Zeigt Parameter des Callables an",
+        "deletecall": "Löscht ein Callable aus dem Programm",
+        "reset": "Setzt die Scheduler-Konfiguration zurück",
+        "reset.disabled": "Um die Scheduler-Konfiguration auf den Default-Zustand zurückzusetzen, wechseln Sie zunächst in der Kopfzeile in den Status 'Setup'",
+        "switchautomatic": "Automatik Programm Konfiguration",
+        "switchautomatic.disabled":"Um den Automatikmodus umzuschalten, wechseln Sie zunächst in der Kopfzeile in den Status 'Setup'",
+
+        "collapse.task": "Klappt Task zu",
+        "expand.task": "Klappt Task auf",
+        "collapse.alltasks": "Klappt alle Tasks zu",
+        "expand.alltasks": "Klappt alle Tasks auf",
+        "collapse.timer": "Klappt Timer zu",
+        "expand.timer": "Klappt Timer auf",
+        "collapse.alltimer": "Klappt alle Timer zu",
+        "expand.alltimer": "Klappt alle Timer auf",
+        "expand.parameters": "Klappt erweiterte Parameter auf",
+        "collapse.parameters": "Klappt erweiterte Parameter zu",
+
+        "start.timer": "Startet Timer",
+        "stop.timer": "Stoppt Timer",
+        "reset.timer": "Setzt Timer zurück",
+        "start.alltimer": "Startet alle Timer vom Task",
+        "stop.alltimer": "Stoppt alle Timer vom Task",
+        "reset.alltimer": "Setzt alle Timer vom Task zurück"
+      },
+      "info": {
+        "callout": "Automatische Programmkonfiguration\nBei einer App-Installation werden die Tasken vom System angepasst.Nur wenige Parameter können individuell geändert werden.\nDeaktivieren sie die Funktiion für eine vollständige benutzuerdefinierte Konfiguration."
+      },
+      "reset": {
+        "title": "Setzt die Scheduler-Konfiguration auf die Default-Konfiguration zurück",
+        "desc": "Die Scheduler-Konfiguration wird auf die Default-Konfiguration zurückgesetzt. Die aktuelle Konfiguration geht verloren.",
+        "info": "Die Scheduler-Konfiguration wurde auf die Default-Konfiguration zurückgesetzt"
+      },
+      "progConfigMode": {
+        "auto": "Automatik",
+        "switchToAutoTitle": "Automatische Programmkonfiguration einschalten",
+        "switchToAutoDesc": "Tasken und Callables werden automatisch angepasst. Die aktuelle Task-Konfiguration geht dabei verloren",
+        "switchToManualTitle": "Automatische Programmkonfiguration ausschalten",
+        "switchToManualDesc": "Alle Änderungen an Tasken und Callables müssen manuell vorgenommen werden. Beim Zurückschalten zur automatische Programmkonfiguration werden alle Konfigurationsänderungen zurückgesetzt.",
+        "infoText": "Sie können zuvor ein Archiv in der App-Datenverwaltung erstellen."
+      },
+      "edit": {
+        "label.prop": "Eigenschaften",
+        "label.wdog": "Watchdog",
+        "wdog.enabled": "Watchdog aktiviert",
+        "wdog.disabled": "Watchdog deaktiviert",
+        "wdog.class.title": "Antwort über Kritikalität an das System:",
+        "wdog.class.f0": "Kleiner Fehler (F0)",
+        "wdog.class.f0.info": "Informiert das System darüber, dass ein Watchdog mit einem kleinen Fehler ausgelöst wurde." ,
+        "wdog.class.f6": "Kritischer Fehler (F6)",
+        "wdog.class.f6.info": "Informiert das System darüber, dass ein Watchdog mit einem kritischen Fehler ausgelöst wurde.",
+        "wdog.config.title": "Task-Verhalten:",
+        "wdog.config.disable": "Deaktivieren",
+        "wdog.config.disable.info": "Der Task wird nach dem Auslösen des Watchdogs nicht mehr ausgelöst.",
+        "wdog.config.continue": "Fortfahren",
+        "wdog.config.continue.info": "Nach dem Auslösen des Watchdogs wird die Task weiter aufgerufen bis die maximale Anzahl der aufeinanderfolgenden Fehler erreicht wird.",
+        "wdog.maxerror.info": "Der Task ist deaktiviert, wenn die maximale Anzahl aufeinanderfolgender Fehler erreicht ist."
+      },
+      "add": {
+        "title": "Task hinzufügen",
+        "extmode": "Erweiterter Modus",
+        "success": "Task wurde hinzugefügt",
+        "error": "Fehler beim Hinzufügen der Task",
+        "prio.error1": "Bitte wählen Sie einen Wert zwischen 11 (hoch) - 139 (niedrig) aus",
+        "name.error1": "Der Name hat mehr als 15 Zeichen",
+        "name.error2": "Der Name ist erforderlich"
+      },
+      "delete": {
+        "title": "Task löschen '{{name}}'",
+        "desc": "Sind Sie sicher, dass Sie die Task {{name}} löschen möchten?",
+        "success": "Task wurde gelöscht",
+        "error": "Fehler beim Löschen der Task"
+      },
+      "empty": {
+        "title": "Keine Tasks konfiguriert",
+        "info": "'Task hinzufügen' erlaubt das Hinzufügen eines Tasks zum Scheduler."
+      }
+    },
+    "callable": {
+      "add": {
+        "title": "Callable zu '{{name}}' hinzufügen",
+        "error.callable": "Callable auswählen",
+        "error.runindex": "Gültiger Index: Nummer >= 0",
+        "hint.arguments": "Argumente eingeben (nicht erforderlich)",
+                
+        "step.defineCallable": "Callable definieren",
+        "step.setRunindex": "Run-Index setzen",
+
+        "button.syncpoints.title": "SyncPoints (empfohlen)",
+        "button.syncpoints.info": "Aufrufsequenz durch das Setzen von SyncPoints",
+        "button.runindex.title": "Run-Index",
+        "button.runindex.info": "Führen Sie dieses Callable über die Aufrufsequenz aus",
+
+        "runindex.title": "'Run-Index' für Callable '{{callablename}}' setzen",
+        "panel.title": "Momentan aktive Aufrufsequenz",
+
+        "syncpoint.before.title": "Vor welchen SyncPoints das Callable '{{callablename}}' aufgerufen wird:",
+        "syncpoint.after.title": "Nach welchen SyncPoints das Callable '{{callablename}}' aufgerufen wird:",
+        "syncpoint.available": "Verfügbare SyncPoints"
+      },
+      "edit": {
+        "error.runindex": "Geben Sie eine Zahl < 4294967295 ein"
+      },
+      "delete": {
+        "title": "Callable löschen '{{name}} - {{cid}}'",
+        "desc": "Sind Sie sicher, dass Sie '{{name}} - {{cid}}' löschen möchten?",
+        "success": "Callable wurde gelöscht",
+        "error": "Fehler beim Löschen des Callables"
+      }
+    },
+    "settings": {
+      "title": "Scheduler-Einstellungen",
+      "tabStartup": "Hochlauf",
+      "tabDebug": "Debug",
+      "state.title": "Zustand - Legt fest in welchen Zielzustand der Scheduler nach dem Einschalten wechseln soll",
+      "state.operating.info": "Tasks werden aufgerufen und Callables sind betriebsbereit",
+      "state.setup.info": "Tasks werden aufgerufen und Callables können konfiguriert werden",
+      "state.service.info": "Tasks werden nicht aufgerufen, Callables sind nicht aktiv und Apps können installiert werde.",
+      "timeout.title": "Timeout - Legt die Zeit fest wie lange der Scheduler auf zusätzliche Komponenten während des Hochlaufs wartet",
+      "timeout": "Timeout",
+      "reaction.title": "Fehlerreaktion - Legt fest wie der Scheduler auf einen Timeout während des Hochlaufs reagiert",
+      "reaction.stop": "Stopp",
+      "reaction.stop.info": "Der Scheduler bricht den weiteren Hochlauf ab",
+      "reaction.continue": "Fortfahren",
+      "reaction.continue.info": "Der Scheduler fährt ohne die fehlenden Komponenten mit dem Hochlauf fort",
+      "debug": "Debug-Modus",
+      "debug.info": "The Hardware-Watchdog ist deaktiviert, wenn der Debug-Modus aktiv ist"
+    }
+  }
+}

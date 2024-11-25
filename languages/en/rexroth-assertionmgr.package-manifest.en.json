@@ -1,0 +1,12 @@
+{
+    "sidebar.assertion-manager.title": "Assertion manager",
+    "sidebar.assertion-manager.description": "Manage system user assertions",
+    "scopes-declaration.rexroth-assertionmgr.web.name": "Assertion manager",
+    "scopes-declaration.rexroth-assertionmgr.web.description": "Manage system user assertions",
+    "scopes-declaration.rexroth-assertionmgr.own.rw.name": "Manage own system user assertions",
+    "scopes-declaration.rexroth-assertionmgr.own.rw.description": "Manage own system user assertions",
+    "scopes-declaration.rexroth-assertionmgr.all.rw.name": "Configure assertion manager and manage all system user assertions",
+    "scopes-declaration.rexroth-assertionmgr.all.rw.description": "Configure assertion manager and manage all system user assertions",
+    "licenses.SWL-XCx-ASM-ASSERTIONxMGR-NNNN.title": "ctrlX OS License - Assertion Manager",
+    "licenses.SWL-XCx-ASM-ASSERTIONxMGR-NNNN.description": "Assertion Manager for ctrlX OS"	
+}

@@ -1,0 +1,523 @@
+{
+  "product": "OSC-V-0206",
+  "mainDiagnostics": {
+    "100A0032": {
+      "text": "Bundle startet",
+      "version": 1
+    },
+    "100A003F": {
+      "text": "Trace Nachricht common.oscilloscope",
+      "version": 1
+    },
+    "100E0021": {
+      "text": "Lizenz erforderlich",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C314010": {
+          "text": "Eine Lizenz fehlt oder ist nicht ausreichend",
+          "version": 3
+        }
+      }
+    },
+    "100E0022": {
+      "text": "Laufzeit gestoppt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310004": {
+          "text": "Scheduler in den Nicht-OPERATING-Status geschaltet",
+          "version": 2
+        }
+      }
+    },
+    "100E003F": {
+      "text": "Trace Warnung common.oscilloscope",
+      "version": 1
+    },
+    "100F0000": {
+      "text": "Allgemeiner Fehler zur Laufzeit",
+      "version": 2
+    },
+    "100F0001": {
+      "text": "Einstellung der Konfiguration fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310300": {
+          "text": "Einstellen der Aufzeichnungszeit ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310301": {
+          "text": "Setzen des Aufzeichnungsintervalls fehlgeschlagen",
+          "version": 1
+        },
+        "0C310302": {
+          "text": "Einstellung des Signaltyps fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "100F0002": {
+      "text": "Erstellen der Instanz fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310401": {
+          "text": "Instanz wurde mit ungültigem Namen konfiguriert",
+          "version": 3
+        },
+        "0C310402": {
+          "text": "Die angegebene Instanz existiert bereits",
+          "version": 3
+        },
+        "0C310403": {
+          "text": "Fehlender  Speicherplatz",
+          "version": 3
+        },
+        "0C310404": {
+          "text": "Die maximale Anzahl von Instanzen ist erreicht",
+          "version": 3
+        }
+      }
+    },
+    "100F0003": {
+      "text": "Aufruf des Data Layer Providers fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310000": {
+          "text": "Funktion nicht implementiert",
+          "version": 2
+        },
+        "0C310001": {
+          "text": "Ungültiger Wert",
+          "version": 2
+        },
+        "0C310003": {
+          "text": "Inkonsistentes System",
+          "version": 2
+        },
+        "0C310400": {
+          "text": "Erstellen der Instanz ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310410": {
+          "text": "Löschen der Instanz ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310480": {
+          "text": "Abbruch des Startbefehls",
+          "version": 2
+        },
+        "0C310490": {
+          "text": "Abbruch des Stoppbefehls",
+          "version": 2
+        },
+        "0C310500": {
+          "text": "Abbruch des Trigger-Befehls",
+          "version": 2
+        },
+        "0C310510": {
+          "text": "Befehl zum Deaktivieren abgebrochen",
+          "version": 1
+        },
+        "0C310520": {
+          "text": "Befehl zur Wiederherstellung abgebrochen",
+          "version": 1
+        },
+        "0C310530": {
+          "text": "Abbruch des Reset-Befehls",
+          "version": 2
+        },
+        "0C310700": {
+          "text": "Erstellen des Kanals ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310710": {
+          "text": "Löschen des Kanals ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310805": {
+          "text": "Erstellung des Diagramms fehlgeschlagen",
+          "version": 1
+        },
+        "0C310810": {
+          "text": "Löschen des Diagramms ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310900": {
+          "text": "Erstellen der Ansicht ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310910": {
+          "text": "Löschen der Ansicht ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C311000": {
+          "text": "Ungültiger Flatbuffer",
+          "version": 2
+        }
+      }
+    },
+    "100F0004": {
+      "text": "Internes Problem aufgetreten",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310005": {
+          "text": "Laufzeitfehler der Zustandsmaschine",
+          "version": 1
+        },
+        "0C310850": {
+          "text": "Unbehandelter Ausnahmefehler",
+          "version": 2
+        }
+      }
+    },
+    "100F0005": {
+      "text": "Ausführen des Instanzbefehls fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310481": {
+          "text": "Abbruch des Startbefehls, da die Konfiguration ungültig ist",
+          "version": 2
+        },
+        "0C310482": {
+          "text": "Der Befehl wurde abgebrochen, da das Instanz-Handle NULL ist",
+          "version": 2
+        },
+        "0C310483": {
+          "text": "Abbruch des Startbefehls , da \"Konfiguration abrufen\" fehlgeschlagen ist",
+          "version": 2
+        },
+        "0C310484": {
+          "text": "Startbefehl nicht zulässig, da der Status weder \"Abgeschlossen\" noch \"Konfiguriert\" ist",
+          "version": 2
+        },
+        "0C310485": {
+          "text": "Startbefehl abgebrochen, da nicht mehrere Instanzen gleichzeitig gestartet werden können",
+          "version": 2
+        },
+        "0C310486": {
+          "text": "Startbefehl abgebrochen, so dass der Systemstatus nicht auf OPERATING steht",
+          "version": 1
+        },
+        "0C310487": {
+          "text": "Startbefehl abgebrochen, da das Callable einen Statusfehler hat.",
+          "version": 1
+        },
+        "0C310491": {
+          "text": "Abbruch des Stoppbefehls aufgrund eines Instanzstatusfehlers",
+          "version": 2
+        },
+        "0C310492": {
+          "text": "Abbruch des Stoppbefehls, da der Instanzstatus nicht bekannt ist",
+          "version": 2
+        }
+      }
+    },
+    "100F0006": {
+      "text": "Erstellen des Kanals fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310701": {
+          "text": "Die maximale Anzahl der Kanäle ist erreicht",
+          "version": 3
+        },
+        "0C310702": {
+          "text": "Kanal wurde mit ungültigem Namen konfiguriert",
+          "version": 3
+        },
+        "0C310703": {
+          "text": "Der angegebene Kanal existiert bereits",
+          "version": 3
+        },
+        "0C310704": {
+          "text": "Der aktuelle Status erlaubt keine Operationen zur Erstellung von Kanälen",
+          "version": 3
+        },
+        "0C310705": {
+          "text": "Der erstellte Kanaltyp ist ungültig",
+          "version": 3
+        },
+        "0C310706": {
+          "text": "Lesen des Data Layer-Knotens ist bei der Erzeugung des NRT-Kanals fehlgeschlagen",
+          "version": 2
+        },
+        "0C310720": {
+          "text": "Hinzufügen des RT-Geräts ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310722": {
+          "text": "Hinzufügen des RT-Kanals ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310724": {
+          "text": "Hinzufügen des NRT-Kanals ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310726": {
+          "text": "Erstellen der NRT-Subscription ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310727": {
+          "text": "Abonnieren des NRT-Kanals ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310728": {
+          "text": "Abmelden des NRT-Kanals fehlgeschlagen",
+          "version": 3
+        },
+        "0C310729": {
+          "text": "Zugriff auf RT-Speicher ist fehlgeschlagen",
+          "version": 2
+        }
+      }
+    },
+    "100F0007": {
+      "text": "Erstellen des Diagramms fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310801": {
+          "text": "Der aktuelle Status erlaubt keine Operationen zur Erstellung eines Diagramms.",
+          "version": 3
+        },
+        "0C310802": {
+          "text": "Ungültiger Name des Diagramms",
+          "version": 3
+        },
+        "0C310803": {
+          "text": "Das angegebene Diagramm existiert bereits",
+          "version": 3
+        },
+        "0C310804": {
+          "text": "Die Anzahl der Diagramme überschreitet die Höchstgrenze",
+          "version": 2
+        }
+      }
+    },
+    "100F0008": {
+      "text": "Erstellen der Ansicht fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310901": {
+          "text": "Der aktuelle Status erlaubt keine Operationen zur Erstellung der Ansicht.",
+          "version": 3
+        },
+        "0C310902": {
+          "text": "Ungültiger Name der Ansicht",
+          "version": 3
+        },
+        "0C310903": {
+          "text": "Die angegebene Ansicht existiert bereits",
+          "version": 3
+        }
+      }
+    },
+    "100F0009": {
+      "text": "Fehler beim Laden oder Speichern von Konfigurationsdateien",
+      "version": 3,
+      "detailedDiagnostics": {
+        "0C310002": {
+          "text": "Ungültiges Funktions-Handle",
+          "version": 3
+        },
+        "0C310393": {
+          "text": "Neu laden: Keine gültige JSON-Konfigurationsdatei des Oszilloskops",
+          "version": 3
+        },
+        "0C310394": {
+          "text": "Laden nach Neustart fehlgeschlagen",
+          "version": 3
+        },
+        "0C310395": {
+          "text": "Neu laden: Überprüfung der Dateiabfrage ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310396": {
+          "text": "Vorgang \"Alles laden\" ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310397": {
+          "text": "Vorgang \"Alles speichern\" ist fehlgeschlagen",
+          "version": 2
+        }
+      }
+    },
+    "100F000B": {
+      "text": "Interaktion mit InfluxDB fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310860": {
+          "text": "Speichern von Daten in InfluxDB ist fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "100F000C": {
+      "text": "Einstellung der Speicherkonfiguration fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C310870": {
+          "text": "Eingestellte Speicherkonfiguration im aktuellen Zustand nicht erlaubt",
+          "version": 1
+        }
+      }
+    },
+    "100F000D": {
+      "text": "Löschen der Instanz fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310411": {
+          "text": "Die angegebene Instanz existiert nicht",
+          "version": 3
+        },
+        "0C310412": {
+          "text": "Die Instanz wird verwendet",
+          "version": 3
+        },
+        "0C310413": {
+          "text": "Ungültiger Instanzname",
+          "version": 3
+        }
+      }
+    },
+    "100F000E": {
+      "text": "Löschen des Diagramms fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310811": {
+          "text": "Der aktuelle Status erlaubt keine Operationen zum Löschen von Diagrammen.",
+          "version": 3
+        },
+        "0C310812": {
+          "text": "Das Zieldiagramm ist nicht vorhanden",
+          "version": 3
+        },
+        "0C310813": {
+          "text": "Das Standarddiagramm kann nicht gelöscht werden",
+          "version": 1
+        }
+      }
+    },
+    "100F000F": {
+      "text": "Löschen der Ansicht fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310911": {
+          "text": "Der aktuelle Status erlaubt keine Operationen zum Löschen von Ansichten.",
+          "version": 3
+        },
+        "0C310912": {
+          "text": "Die Zielansicht existiert nicht",
+          "version": 3
+        }
+      }
+    },
+    "100F0011": {
+      "text": "Löschen des Kanals fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310711": {
+          "text": "Der aktuelle Status erlaubt keine Operationen zum Löschen von Kanälen.",
+          "version": 3
+        },
+        "0C310712": {
+          "text": "Der Zielkanal existiert nicht",
+          "version": 3
+        },
+        "0C310713": {
+          "text": "Entfernen aus Kanal-Pool fehlgeschlagen",
+          "version": 3
+        },
+        "0C310714": {
+          "text": "Ungültiger Kanalname",
+          "version": 3
+        },
+        "0C310721": {
+          "text": "Löschen des RT-Geräts ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310723": {
+          "text": "Löschen des RT-Kanals ist fehlgeschlagen",
+          "version": 2
+        },
+        "0C310725": {
+          "text": "Löschen des NRT-Kanals ist fehlgeschlagen",
+          "version": 2
+        }
+      }
+    },
+    "100F0012": {
+      "text": "Konfiguration der Antriebsparameter fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310920": {
+          "text": "Deaktivierung des Antriebs-Oszilloskops fehlgeschlagen",
+          "version": 1
+        },
+        "0C310921": {
+          "text": "Konfiguration der aufgezeichneten Signale fehlgeschlagen",
+          "version": 1
+        },
+        "0C310922": {
+          "text": "Konfiguration der Pufferparameter fehlgeschlagen",
+          "version": 1
+        },
+        "0C310923": {
+          "text": "Konfiguration der Triggerparameter fehlgeschlagen",
+          "version": 1
+        },
+        "0C310924": {
+          "text": "Aktivierung des Antriebs-Oszilloskops fehlgeschlagen",
+          "version": 1
+        },
+        "0C310925": {
+          "text": "Schreiben von Parameterinformationen in den Data Layer fehlgeschlagen",
+          "version": 1
+        },
+        "0C310926": {
+          "text": "Die geschriebene Funktion wurde erfolgreich ausgeführt, aber der Wert wurde nicht akzeptiert",
+          "version": 1
+        },
+        "0C310927": {
+          "text": "Lesen von Parameterinformationen aus dem Data Layer-Knoten fehlgeschlagen",
+          "version": 1
+        },
+        "0C310928": {
+          "text": "Speichern der aufgezeichneten Daten auf dem Aufzeichnungskanal fehlgeschlagen",
+          "version": 1
+        },
+        "0C310929": {
+          "text": "Das hinzugefügte Signal kann nicht zur Messung verwendet werden",
+          "version": 1
+        },
+        "0C310930": {
+          "text": "Das ausgewählte Signal kann vom Antriebs-Oszilloskop nicht verwendet werden",
+          "version": 1
+        },
+        "0C310931": {
+          "text": "Die Drive Connect App ist falsch konfiguriert oder nicht installiert",
+          "version": 1
+        },
+        "0C310932": {
+          "text": "Die konfigurierte Kanalquelle konnte nicht abgerufen werden.",
+          "version": 1
+        }
+      }
+    },
+    "100F0013": {
+      "text": "Einstellung der Triggerkonfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C310330": {
+          "text": "Trigger-Level ist leer",
+          "version": 1
+        },
+        "0C310331": {
+          "text": "Format des Trigger-Levels ist nicht korrekt",
+          "version": 1
+        }
+      }
+    },
+    "100F003F": {
+      "text": "Trace Fehler common.oscilloscope",
+      "version": 1
+    }
+  }
+}

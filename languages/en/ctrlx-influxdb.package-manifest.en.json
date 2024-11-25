@@ -1,0 +1,7 @@
+{
+    "licenses.SWL-XCx-IDB-INFLUXxDBxxxx-NNNN.title": "ctrlX OS License - InfluxDB",
+    "licenses.SWL-XCx-IDB-INFLUXxDBxxxx-NNNN.description": "Time series database based on InfluxDB® adapted for ctrlX OS",
+    "scopes.influxdb.manage.name": "Manage InfluxDB configuration",
+    "scopes.influxdb.manage.description": "Enables manage and modify of the InfluxDB configuration",
+    "configuration.influxdb.description" : "InfluxDB configuration"
+}

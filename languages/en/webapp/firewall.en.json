@@ -1,0 +1,159 @@
+{
+  "frw.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "actions": "Actions"
+  },
+
+  "frw.appGlobalService": {
+    "inputFiltering": "Input filter",
+    "forwardFiltering": "Forward filter",
+    "outputFiltering": "Output filter",
+    "destinationNat": "Destination NAT",
+    "sourceNat": "Source NAT"
+  },
+
+  "frw.addChainDialog": {
+    "title": "Add chain",
+    "name": "Name",
+    "priority": "Priority",
+    "defaultPolicy": "Default policy",
+    "add.button": "Add chain",
+    "errorNameMustNotBeEmpty": "Name must not be empty",
+    "errorNameMustStartWithCharacters": "Name must start with one of the characters A-Z, a-z, _",
+    "errorNameMayContainCharacters": "Name may contain the characters A-Z, a-z, 0-9, -, _",
+    "errorEnterANumber": "Enter a number",
+    "error": "Error"
+  },
+
+  "frw.configStartPage": {
+    "svg.input": "Input",
+    "svg.destNat": "Destination NAT",
+    "svg.inputFilter1": "Input",
+    "svg.inputFilter2": "filter",
+    "svg.forwardFilter1": "Forward",
+    "svg.forwardFilter2": "filter",
+    "svg.outputFilter1": "Output",
+    "svg.outputFilter2": "filter",
+    "svg.localProcess1": "Local",
+    "svg.localProcess2": "process",
+    "svg.sourceNat": "Source NAT",
+    "svg.output": "Output",
+
+    "storeHint": "Note that all changes are applied immediately. To apply the changes persistently, click the 'Save firewall configuration' button.",
+    "packetFlowOverview": "Packet flow overview",
+    "configurePacketFiltering": "Configure packet filters",
+    "inputFilter.title": "Input filter",
+    "inputFilter.description": "Filter incoming packets that address this device",
+    "inputFilter.details": "Configure input filter...",
+    "forwardFilter.title": "Forward filter",
+    "forwardFilter.description": "Filter incoming packets that address other targets and pass this device",
+    "forwardFilter.details": "Configure forward filter...",
+    "outputFilter.title": "Output filter",
+    "outputFilter.description": "Filter outgoing packets created by this device",
+    "outputFilter.details": "Configure output filter...",
+
+    "configureNat": "Configure network address translation (NAT)",
+    "destinationNat.title": "Destination NAT",
+    "destinationNat.description": "Port forwarding, DMZ, etc.",
+    "destinationNat.details": "Configure destination NAT...",
+    "sourceNat.title": "Source NAT",
+    "sourceNat.description": "Interconnect IP networks",
+    "sourceNat.details": "Configure source NAT...",
+
+    "save.button": "Save firewall configuration"
+  },
+
+  "frw.chainList": {
+    "chains": "Chains",
+    "priority": "Priority",
+    "name": "Name",
+    "defaultPolicy": "Default policy",
+    "deleteChain.title": "Delete chain",
+    "noChainsMsg": "No chains configured",
+    "addChain.button": "Add chain",
+    "addItemInfoTextInput": "Filter incoming network packets that address this device",
+    "addItemInfoTextOutput": "Filter outgoing network packets created by this device",
+    "addItemInfoTextForward": "Filter incoming network packets that address other targets and are routed through this device",
+    "addItemInfoTextPrerouting": "Destination NAT replaces the destination address of network packets with the address of the actual recipient.",
+    "addItemInfoTextPostrouting": "Source NAT replaces the source address of network packets with the address of this device."
+  },
+
+  "frw.chainPage": {
+    "priority": "Priority",
+    "name": "Name",
+    "newRuleName": "New rule",
+    "defaultPolicy": "Default policy",
+    "acceptHint": "If you are creating a chain with default policy \"Accept\", your rules should reject or drop matching packets.",
+    "dropHint": "If you are creating a chain with default policy \"Drop\", your rules should accept matching packets.",
+    "rules": "Rules",
+    "watchCounters.tooltip": "Watch counters",
+    "stopWatchingCounters.tooltip": "Stop watching counters",
+    "ruleName": "Name",
+    "expressions": "Expressions",
+    "actionIfMatch": "Action if match",
+    "reorderRulesHint": "To reorder rules, drag & drop the corresponding rows",
+    "noRulesMsg": "No rules configured",
+    "addRule.button": "Add rule",
+    "errorNameMustNotBeEmpty": "Name must not be empty",
+    "errorNameMustStartWithCharacters": "Name must start with one of the characters A-Z, a-z, _",
+    "errorNameMayContainCharacters": "Name may contain the characters A-Z, a-z, 0-9, -, _",
+    "errorEnterANumber": "Enter a number",
+    "error": "Error",
+    "deleteRule.title": "Delete rule",
+    "selectDropPolicy.title": "Select 'Drop' default policy",
+    "refuseSelectDropPolicyMsg": "This chain currently does not contain any rule with an 'Accept' action. By switching the default policy to 'Drop', the system would no longer be reachable. The default policy will not be changed.",
+    "selectDropPolicy.confirmation": "Are you sure you want to select 'Drop' as default policy? If the rules are not configured properly the system might no longer be reachable afterwards",
+    "selectDropPolicy.button": "Select 'Drop'"
+  },
+
+  "frw.ruleEditorDialog": {
+    "title": "Rule",
+    "name": "Name",
+    "comment": "Comment",
+    "expressions": "Expressions",
+    "addExpression.tooltip": "Adds expression",
+    "type": "Type",
+    "condition": "Condition",
+    "reorderExpressionsHint": "To reorder expressions, drag & drop the corresponding rows",
+    "noExpressionsMsg": "No expressions available.",
+    "noExpressionsActionCreateMsg": "To add an expression, click",
+    "actionIfMatch": "Action if match",
+    "actions": "Actions",
+    "errorNameMustNotBeEmpty": "Name must not be empty",
+    "errorNameMayContainCharacters": "Name may contain the characters A-Z, a-z, 0-9, -, _ and spaces between them",
+    "error": "Error",
+    "minExpressionWarning": "A rule must contain at least one expression.",
+    "errorCommentMayNotContainCharacters": "Comment may not contain the following characters: '\\[]{}'"
+  },
+
+  "frw.canLeaveAppGuard": {
+    "title": "Unsaved changes on firewall configuration",
+    "description": "You made changes to the firewall configuration. You can save your changes, discard your changes or cancel to continue editing."
+  },
+
+  "frw.matchPayloadExprEditorDialog": {
+    "specifyRange": "Specify range",
+    "enterValidValue": "Enter a valid value"
+  },
+
+  "frw.matchMetaExprEditorDialog": {
+    "enterValidValue": "Enter a valid value"
+  },
+
+  "frw.notification": {
+    "changesSavedMsg": "Changes have been saved.",
+    "errorMissingPermissions": "You do not have the required permissions."
+  }
+
+}

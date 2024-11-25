@@ -1,0 +1,38 @@
+{
+  "ssh.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "delete.menu": "Delete",
+
+    "actions": "Actions"
+  },
+
+  "ssh.ssh": {
+    "sshProtocolStatus": "SSH protocol status",
+    "activated": "Active (access requires system user account)",
+    "deactivated": "Not active",
+    "maxSessionsPerConnection": "Maximum number of open sessions per connection",
+    "maxAuthAttemptsPerConnection": "Maximum number of authentication attempts per connection",
+    "maxConcurrentUnauthConnections": "Maximum number of concurrent unauthenticated connections",
+    "logoutAfterMinutes": "Logout after session length in minutes (0 for unlimited)",
+    "bannerText": "Banner text",
+    "enterValueFromToMsg": "Enter a value between {{param1}} and {{param2}}"
+  },
+
+  "ssh.notification": {
+    "error": "Error: {{param}}",
+    "changesSavedMsg": "Changes have been saved. Some changes only become effective after the next login.",
+    "missingPermissionsMsg": "You do not have the required permissions."
+  }
+
+}

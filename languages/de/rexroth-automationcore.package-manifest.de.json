@@ -1,0 +1,14 @@
+{
+  "certificatestores.datalayer.title": "Data Layer",
+  "certificatestores.datalayer.description": "Speichert Schlüssel, die für die sichere Datenschichtkommunikation verwendet werden (curveMQ)",
+  "system.scheduler.title": "Scheduler",
+  "system.scheduler.description": "Tasks und Timing verwalten",
+  "system.datalayer.title": "Data Layer",
+  "system.datalayer.description": "Datenknoten bearbeiten",
+  "configuration.datalayer.description": "Data Layer: Allgemeine Kommunikations- und Sicherheits-Einstellungen",
+  "configuration.scheduler.description": "Scheduler: Tasks-, Callables- und Timing-Einstellungen",
+  "configuration.script.description": "Skriptkonfigurationen",
+  "configuration.scripts.description": "Skripte werden vom Skript-Runner ausgeführt",
+  "configuration.trace.description": "Trace: Aktivierungszustände - Meldungen, Warnungen, Fehler",
+  "documentation.datalayer.description": "Stellt Data-Layer-Funktionalitäten der ctrlX CORE bereit."
+}

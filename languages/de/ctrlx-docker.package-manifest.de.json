@@ -1,0 +1,11 @@
+{
+    "scopes.docker.description": "Berechtigungen für den Zugriff auf die Container Engine Konfiguration",
+    "scopes.docker.manage.name": "Konfiguration bearbeiten",
+    "scopes.docker.manage.description": "Erlaubt das Bearbeiten und Verwalten der Konfiguration",
+    "scopes.docker.start-stop.name": "Starten/Stoppen von Container und Konfiguration lesen",
+    "scopes.docker.start-stop.description": "Erlaubt das Starten/Stoppen von Container und Lesen der Konfiguration",
+    "scopes.docker.view.name": "Konfiguration lesen",
+    "scopes.docker.view.description": "Erlaubt das Lesen Konfiguration",
+    "licenses.SWL-XCx-DOE-DOCKERENGINEx-NNNN.title": "ctrlX OS License - Bosch Rexroth - Container Engine",
+    "licenses.SWL-XCx-DOE-DOCKERENGINEx-NNNN.description": "Verwendung von Docker®-Images innerhalb ctrlX OS"
+}

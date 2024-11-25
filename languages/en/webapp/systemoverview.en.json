@@ -1,0 +1,61 @@
+{
+  "overview": {
+    "title": "System Overview",
+    "refresh": "Refresh",
+    "resetHilight": "Reset Highlight",
+    "hilightErrors": "Highlight Errors",
+    "expand": "Expand",
+		"collapse": "Collapse",
+		"table": {
+			"name": "Name",
+			"state": "State",
+			"type": "Type",
+			"status": "Status",
+			"diagnosis": "Diagnosis",
+			"details": "Details"
+		}
+  },
+  "sysinfo" : {
+    "etherSlavesTable" : {
+    },
+    "table" : {
+      "etherCatAddress": "Addr.",
+      "slaveName": "Name",
+      "vendor": "Vendor",
+      "productCode": "Pr.Code",
+      "revisionNumber": "Rev.Nr.",
+      "serialNumber": "S.Nr.",
+      "hardwareind": "Ch.In",
+      "partNumber": "Mat.Nr.",
+      "firmware": "Firmware",
+      "hardware": "Hardware",
+      "VendorId": "VID"
+    },
+    "tooltip":
+    {
+      "etherCatAddress": "Address",
+      "slaveName": "Name / Details",
+      "productCode": "Product Code",
+      "revisionNumber": "Revision Number",
+      "serialNumber": "Serial Number",
+      "hardwareind": "Change Index",
+      "partNumber": "Material Number",
+      "VendorId": "Vendor ID"
+    },
+    "details": {
+			"address": "Address",
+			"givenName": "Given name",
+			"type": "Type",
+			"serialNumber": "Serial Nr.",
+			"partNumber": "Mat.Nr."
+		},
+    "title": "System information",
+    "axlist": "Axes",
+    "kinlist": "Kinematics",
+    "save": "Save",
+		"save-data-to-file": "Save system data to file",
+		"save-detail-to-file": "Save system detail to file",
+		"config-columns": "Configure columns",
+    "reset-columns": "Reset columns"
+  }
+}

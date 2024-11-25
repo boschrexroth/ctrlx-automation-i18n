@@ -1,0 +1,85 @@
+﻿{
+  "configuration": {
+    "status": "Status",
+    "name": "Name",
+    "state": "State",
+    "actions": "Actions",
+    "infoForEdit": "Edit Telegraf configuration",
+    "furtherInfo": "Learn more",
+    "testButton": "Test Telegraf configuration",
+    "showTestResult": "Show test result",
+    "hideTestResult": "Hide test result",
+    "addNew": {
+      "name": "Create New Telegraf Configuration",
+      "fieldName": "Name",
+      "fieldTemplate": "Configuration template",
+      "nameHint": "Please enter a name",
+      "nameErrorHint": "Name already exists",
+      "templateHint": "Select configuration template"
+    },
+    "addItem":{
+      "header":"No Telegraf configuration added",
+      "addText":"Add Telegraf configuration",
+      "infoText":"You can add the Telegraf configuration here"
+    },    
+    "message":{
+      "success":{
+        "add":"The new Telegraf configuration was added successfully",
+        "activate":"The Telegraf instance was started with this Telegraf configuration",
+        "deactivate":"The Telegraf instance was stopped with this Telegraf configuration",
+        "remove":"The Telegraf configuration was removed successfully",
+        "save":"The Telegraf configuration was saved"
+      },
+      "error":{
+        "add":"Error when adding the new Telegraf configuration",
+        "activate":"Error when starting the Telegraf instance",
+        "deactivate":"Error when stopping the Telegraf instance",
+        "remove":"Error when removing the Telegraf configuration",
+        "loadConfigFile":"Error when loading the Telegraf configuration",
+        "loadConfigDetails":"Error when loading the configuration info",
+        "save":"Error when saving the Telegraf configuration"
+      }
+    },
+    "alertForDelete": {
+      "title": "Do you really want to delete \"{{param}}\"?",
+      "description": "The Telegraf configuration is deleted. This action cannot be undone."
+    },
+    "alertForSave": {
+      "title": "Do you want to save the changes made on \"{{param}}\"?",
+      "description": "If you click on 'Cancel', the change is lost."
+    },
+    "errorLoadAll": {
+      "message": "The Telegraf configurations could not be loaded. Please check the app data and restart the Telegraf app."
+    },
+    "unableToSave": "The Telegraf configuration cannot be modified in the 'Running' state."
+  },
+  "state": {
+    "running": "Running",
+    "stopped": "Stopped"
+  },
+  "permissions": {
+    "noPermissions": "You do not have the required permissions"
+  },
+  "delete": "Delete",
+  "OK": "OK",
+  "cancel": "Cancel",
+  "action": {
+    "goToDiagnostic": "Diagnostic logbook",
+    "start": "Start",
+    "stop": "Stop",
+    "edit": "Edit Telegraf configuration"
+  },
+  "detail": "Editor",
+  "log": {
+    "info": "Diagnostic log",
+    "open": "Open \"Diagnostic log\" window",
+    "refresh": "Refresh log data",
+    "close": "Close \"Diagnostic log\" window",
+    "noNewLogs": "No new log data",
+    "clear": "Delete diagnostic log"
+  },
+  "save": "Save",
+  "saveTooltip": "Save Telegraf configuration",
+  "cancelTooltip": "Discard the changes on the Telegraf configuration and close the window.",
+  "systemState": "The system is running in Service mode. Please switch the system to Operation mode and restart Telegraf!"
+}

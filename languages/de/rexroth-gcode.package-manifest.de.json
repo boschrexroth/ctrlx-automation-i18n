@@ -1,0 +1,5 @@
+{
+  "licenses.basic.title": "ctrlX CORE - GCode Interpreter-Lizenz",
+  "licenses.basic.description": "GCode-Interpreter-Lizenz",
+  "configuration.gcodecfg.description": "G-Code: Instanzkonfiguration"
+}

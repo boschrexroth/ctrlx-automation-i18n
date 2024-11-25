@@ -1,0 +1,139 @@
+{
+  "product": "RMA-V-0206",
+  "mainDiagnostics": {
+    "0B0A0100": {
+      "text": "Remote Agent information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0003": {
+          "text": "Claiming attempt acknowledged",
+          "version": 1
+        },
+        "0C6F0004": {
+          "text": "Claiming attempt read",
+          "version": 1
+        },
+        "0C6F0005": {
+          "text": "New command added",
+          "version": 1
+        },
+        "0C6F0006": {
+          "text": "Command successfully updated",
+          "version": 1
+        },
+        "0C6F0007": {
+          "text": "Service token for Remote Agent updated",
+          "version": 1
+        },
+        "0C6F0009": {
+          "text": "Policy updated successfully",
+          "version": 1
+        },
+        "0C6F000A": {
+          "text": "Device updated successfully",
+          "version": 1
+        },
+        "0C6F000B": {
+          "text": "Device policies set successfully",
+          "version": 1
+        },
+        "0C6F000C": {
+          "text": "Device removed successfully",
+          "version": 1
+        },
+        "0C6F000D": {
+          "text": "Device added successfully",
+          "version": 1
+        },
+        "0C6F000E": {
+          "text": "Service mode changed successfully",
+          "version": 1
+        },
+        "0C6F0010": {
+          "text": "Attempt to change the service mode",
+          "version": 1
+        },
+        "0C6F0011": {
+          "text": "Connection status of the Remote Access changed",
+          "version": 1
+        },
+        "0C6F0016": {
+          "text": "New command from Device Portal received",
+          "version": 1
+        },
+        "0C6F0017": {
+          "text": "Update command successful",
+          "version": 1
+        }
+      }
+    },
+    "0B0E0100": {
+      "text": "Remote Agent warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0014": {
+          "text": "Deprecated certificate manager API detected",
+          "version": 1
+        },
+        "0C6F0015": {
+          "text": "No certificate manager API detected, use last known API",
+          "version": 1
+        },
+        "0C6F0020": {
+          "text": "The length of the command status details exceeds 255 characters",
+          "version": 1
+        },
+        "0C6F0022": {
+          "text": "Application certificates are deleted and updated",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0100": {
+      "text": "Remote Agent error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0000": {
+          "text": "Error when installing the packages",
+          "version": 1
+        },
+        "0C6F0001": {
+          "text": "Error when receiving the packages",
+          "version": 1
+        },
+        "0C6F0002": {
+          "text": "Error when receiving package details from rexroth-automationcore",
+          "version": 1
+        },
+        "0C6F0008": {
+          "text": "Error when setting the service mode",
+          "version": 1
+        },
+        "0C6F000F": {
+          "text": "Updating the context of the package manager client failed",
+          "version": 1
+        },
+        "0C6F0012": {
+          "text": "Create configuration file failed",
+          "version": 1
+        },
+        "0C6F0013": {
+          "text": "Reading devices failed",
+          "version": 1
+        },
+        "0C6F0018": {
+          "text": "Update command status failed",
+          "version": 1
+        },
+        "0C6F0019": {
+          "text": "Create new command failed",
+          "version": 1
+        },
+        "0C6F0021": {
+          "text": "Cannot create AppHandler for commands with ID",
+          "version": 1
+        }
+      }
+    }
+  }
+}

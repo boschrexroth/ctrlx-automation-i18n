@@ -1,0 +1,237 @@
+{
+  "ecmlib": {
+    "common": {
+      "texts": {
+        "name": "Name",
+        "address": "Address",
+        "state": "State",
+        "systemTimeDifference": "System time difference",
+        "diagnostics": "Diagnostics",
+        "netId": "NetID",
+        "status": "Status",
+        "dcSupport": "DC support"
+      },
+      "identity": {
+        "vendor": "Vendor",
+        "productCode": "Product code",
+        "revisionNumber": "Revision",
+        "serialNumber": "Serial number"
+      },
+      "add.button": "Add",
+      "cancel.button": "Cancel",
+      "delete.button": "Delete",
+      "action.openIoEngineering": "Open ctrlX I/O Engineering to configure the network or for detailed diagnostics",
+      "action.openDriveEngineering": "Open ctrlX DRIVE Engineering to configure the device",
+      "noMasterInstanceInMasterView": {
+        "text": "No EtherCAT Master configured",
+        "add": "Add EtherCAT Master",
+        "info": "An EtherCAT Master is created as software device and uses a physical Ethernet interface of the ctrlX CORE.\nThis allows to access I/Os and drives via EtherCAT. EtherCAT is an Ethernet-based real-time field bus."
+      },
+      "noSlaves": {
+        "text": "No EtherCAT slaves configured",
+        "add": "Start ctrlX I/O Engineering",
+        "info1": "ctrlX I/O Engineering is a Windows Desktop application used to configure and diagnose an EtherCAT network.",
+        "info2": "ctrlX I/O Engineering is part of ctrlX WORKS which can be obtained from the  {{ ctrlXStore }}."
+      }
+    },
+    "masteroverview": {
+      "tabs": {
+        "label.overview": "Slaves",
+        "label.slavestatistics": "Slave statistics",
+        "label.aoe": "AoE",
+        "label.eoe": "EoE"
+      }
+    },
+    "ecm": {
+      "distributedclocks": {
+        "title": "Distributed Clocks",
+        "label.syncMode": "DC mode",
+        "label.cycleTime": "Cycle time",
+        "unit.cycleTime": "µs",
+        "header.syncShift": "Sync offset",
+        "label.syncShiftTimeToCycleTimePercent": "Percent of cycle time",
+        "label.syncShiftTime": "Sync offset time",
+        "unit.syncShiftTime": "µs",
+        "header.syncWindow": "Sync window",
+        "label.syncWindowMonitoring": "Sync window monitoring",
+        "label.deviationLimit": "Limit value",
+        "unit.deviationLimit": "µs",
+        "label.continuousDelayCompensation": "Continuous propagation compensation",
+        "text.yes": "Yes",
+        "text.no": "No",
+        "text.active": "Active",
+        "text.notActive": "Not active"
+      },
+      "statistics": {
+        "tabHeader": "Master statistics",
+        "resetCounters": "Reset counters",
+        "frame": {
+          "header": "Frames",
+          "sum": "Total",
+          "cyclic": "Cyclic",
+          "acyclic": "Acyclic",
+          "copyData": "Copy to clipboard",
+          "copyDataConfirmation": "Frame statistics copied to clipboard",
+          "sent": "Sent",
+          "lost": "Lost"
+        },
+        "mailbox": {
+          "header": "Mailbox requests",
+          "total": "Total",
+          "read": "Read",
+          "write": "Write",
+          "copyData": "Copy to clipboard",
+          "copyDataConfirmation": "Mailbox statistics copied to clipboard"
+        }
+      }
+    },
+    "masterstatus": {
+      "label.portAvailable": "Port exists",
+      "label.licenseAvailable": "License available",
+      "label.linkAvailable": "Link exists",
+      "label.topologyOk": "Topology OK",
+      "label.masterInTargetState": "Master in target state",
+      "label.slavesinMasterState": "Slaves in master state",
+      "label.slavesWithoutError": "Slaves without error",
+      "label.masterInOp": "Master in OP",
+      "label.dcInSync": "DC in-sync",
+      "label.running": "Bus running",
+      "error.portNotAvailable": "Configured port does not exist",
+      "error.licenseNotAvailable": "License not available",
+      "error.linkNotAvailable": "Link does not exist",
+      "error.topologyMissmatch": "Topology not OK",
+      "error.masterNotInRequestedState": "Master not in requested state",
+      "error.slavesNotInMasterState": "Slaves not in master state",
+      "error.slaveHasError": "Slave(s) in error state",
+      "error.dcNotInSync": "DC not in-sync",
+      "error.masterNotInOperational": "Master not in OP",
+      "error.noRun": "Not running",
+      "success.run": "Running",
+      "text": {
+        "good": {
+          "PortError": "Port exists",
+          "LicenseError": "License available",
+          "NoEthernetLink": "Link exists",
+          "TopologyNotOk": "Topology OK",
+          "NotInRequestedState": "Master in requested state",
+          "SlavesNotInMasterState": "Slaves in master state",
+          "SlavesError": "Slaves without error",
+          "NotInStateOp": "Master in OP",
+          "SettingsInvalid": "Settings valid",
+          "DcNotInSync": "DC in-sync",
+          "BusRunning": "Running"
+        },
+        "bad": {
+          "PortError": "Configured port does not exist",
+          "LicenseError": "License not available",
+          "NoEthernetLink": "Link does not exist",
+          "TopologyNotOk": "Topology not OK",
+          "NotInRequestedState": "Master not in requested state",
+          "SlavesNotInMasterState": "Slaves not in master state",
+          "SlavesError": "Slave(s) in error state",
+          "NotInStateOp": "Master not in OP",
+          "SettingsInvalid": "Settings invalid or inconsistent",
+          "DcNotInSync": "DC not in-sync",
+          "BusRunning": "Not running"
+        }
+      }
+    },
+    "error": {
+      "ethercatNotAvailable.header": "The EtherCAT Master app is currently not available (Error: {{httpStatusCode}}).",
+      "ethercatNotAvailable.text": "This is most likely due to one of the following reasons:",
+      "appInitializing": "The app is currently being initialized. This may take a while, please {{refreshLink}} the page",
+      "appInitializing.refreshLink": "refresh",
+      "serviceModeActive": "The 'Service' mode is currently active. Please go to the {{appManagerLink}}, switch to 'Operation' mode and try again.",
+      "serviceModeActive.appManagerLink": "Apps manager",
+      "noDatalayerPermission": "You do not have the required permissions to see this page.",
+      "componentInServiceMode": "The app is currently in 'Service' state. Please switch to 'Setup' or 'Operating' state.",
+      "schedulerTaskNotConfigured": "No Scheduler tasks configured for this EtherCAT Master instance. Go to 'Settings' > 'Scheduler' to configure a task",
+      "instanceDoesNotExist": {
+        "header": "The EtherCAT Master '{{ masterInstance }}' does not exist",
+        "addText": "Go to the 'EtherCAT Master' page to select a different master or to create a new one.",
+        "info": "An EtherCAT Master is created as software device and uses a physical Ethernet interface of the ctrlX CORE.\nThis allows to access I/Os and drives via EtherCAT. EtherCAT is an Ethernet-based real-time field bus."
+      }
+    },
+    "configuration": {
+      "add-master": {
+        "title": "Add EtherCAT Master",
+        "name.required": "Enter a name",
+        "name.maxlength": "The name is longer than 15 characters",
+        "name.pattern": "Invalid name",
+        "msg.noLicense": "No EtherCAT Master license available.",
+        "msg.noInterface": "There is no EtherCAT-capable interface available"
+      },
+      "del-master": {
+        "title": "Delete EtherCAT Master",
+        "info1": "The EtherCAT Master '{{instanceName}}' will be deleted.",
+        "info2": "The field bus communication will be stopped and the configuration will be deleted.",
+        "warning": "Ensure that all appliances are in safe state before proceeding."
+      },
+      "port.header": "Port",
+      "redundancy": "Redundancy",
+      "actions.header": "Actions",
+      "action.delete": "Delete EtherCAT Master instance",
+      "action.openEthercatStatus": "Open EtherCAT status"
+    },
+    "status": {
+      "statusflags": {
+        "message.header": "Message",
+        "value.header": "Value",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "cxde": {
+        "slaveNotConnected": "The slave is not connected",
+        "slaveNotInPreop": "The slave has to be at least in 'PreOP' state",
+        "slaveIsNoDrive": "The slave is not a SoE drive"
+      },
+      "state.notconnected": "Not connected"
+    },
+    "slavestatistics": {
+      "button.resetCounters": "Reset counters"
+    },
+    "slave": {
+      "general": {
+        "tabHeader": "General"
+      },
+      "identity": {
+        "title": "Identity"
+      },
+      "mailbox": {
+        "title": "Mailbox",
+        "protocols": "Protocols",
+        "mbxStandard": "Standard Out / Standard In",
+        "mbxBootstrap": "Bootstrap Out / Bootstrap In"
+      }
+    },
+    "slaveStatus": {
+      "text":{
+        "set.NotOnline": "Not connected",
+        "unset.NotOnline": "Connected",
+        "set.Error": " See 'AL Status'",
+        "unset.Error": "No error",
+        "set.NotInStateOp": "Slave not in OP",
+        "unset.NotInStateOp": "Slave in OP"
+      }
+    },
+    "ecm-eoe-config": {
+      "masterConfiguration": {
+        "header": "Master configuration"
+      },
+      "table": {
+        "header": {
+          "dnsName": "DNS name",
+          "macAddress": "MAC address",
+          "ipAddress": "IP address",
+          "subnetMask": "Subnet mask",
+          "defaultGateway": "Default gateway"
+        }
+      }
+    },
+    "ecm-aoe-config": {
+      "masterConfiguration": {
+        "header": "Master configuration"
+      }
+    }
+  }
+}

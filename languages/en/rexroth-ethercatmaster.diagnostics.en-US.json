@@ -1,0 +1,1627 @@
+{
+  "product": "ECM-V-0206",
+  "mainDiagnostics": {
+    "080F0E00": {
+      "text": "Loading configuration not possible in current state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C884081": {
+          "text": "Ecat: Device not in Init",
+          "version": 1
+        }
+      }
+    },
+    "0C0A00FF": {
+      "text": "Trace message comm.ethercat.master",
+      "version": 1
+    },
+    "0C0E0000": {
+      "text": "Warning in EtherCAT master",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C884085": {
+          "text": "Ecat: Invalid cylce time",
+          "version": 1
+        },
+        "0C884086": {
+          "text": "Ecat: Inconsistent cycle times",
+          "version": 1
+        }
+      }
+    },
+    "0C0E00FF": {
+      "text": "Trace warning comm.ethercat.master",
+      "version": 1
+    },
+    "0C0F0000": {
+      "text": "Error in EtherCAT master",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C71E7F0": {
+          "text": "License \"EtherCAT Master Basic\" is missing",
+          "version": 1
+        },
+        "0C850001": {
+          "text": "Ecat: Feature not supported",
+          "version": 1
+        },
+        "0C850002": {
+          "text": "Ecat: Invalid index",
+          "version": 1
+        },
+        "0C850003": {
+          "text": "Ecat: Invalid offset",
+          "version": 1
+        },
+        "0C850005": {
+          "text": "Ecat: Invalid size",
+          "version": 1
+        },
+        "0C850006": {
+          "text": "Ecat: Invalid data",
+          "version": 1
+        },
+        "0C850007": {
+          "text": "Ecat: Device not ready",
+          "version": 1
+        },
+        "0C850008": {
+          "text": "Ecat: Device busy",
+          "version": 1
+        },
+        "0C850009": {
+          "text": "Ecat: Cannot queue acyclic EtherCAT",
+          "version": 1
+        },
+        "0C85000A": {
+          "text": "Ecat: Out of memory",
+          "version": 1
+        },
+        "0C85000B": {
+          "text": "Ecat: Invalid parameter",
+          "version": 1
+        },
+        "0C85000C": {
+          "text": "Ecat: Device not found",
+          "version": 1
+        },
+        "0C85000D": {
+          "text": "Ecat: Duplicate EtherCAT address",
+          "version": 1
+        },
+        "0C85000E": {
+          "text": "Ecat: Invalid state",
+          "version": 1
+        },
+        "0C85000F": {
+          "text": "Ecat: Resource error (timer)",
+          "version": 1
+        },
+        "0C850010": {
+          "text": "Ecat: Timeout",
+          "version": 1
+        },
+        "0C850011": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850012": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850013": {
+          "text": "Ecat: Insert mailbox command error",
+          "version": 1
+        },
+        "0C850014": {
+          "text": "Ecat: Unknown mailbox protocol",
+          "version": 1
+        },
+        "0C850015": {
+          "text": "Ecat: Invalid mailbox protocol",
+          "version": 1
+        },
+        "0C850016": {
+          "text": "Ecat: Access denied",
+          "version": 1
+        },
+        "0C850017": {
+          "text": "Ecat: Identification failed",
+          "version": 1
+        },
+        "0C850018": {
+          "text": "Ecat: Resource error (lock)",
+          "version": 1
+        },
+        "0C85001A": {
+          "text": "Ecat: Resource error (product key)",
+          "version": 1
+        },
+        "0C85001B": {
+          "text": "Ecat: Wrong format of master XML file",
+          "version": 1
+        },
+        "0C85001C": {
+          "text": "Ecat: Feature disabled",
+          "version": 1
+        },
+        "0C85001D": {
+          "text": "Ecat: Resource error (shadow memory)",
+          "version": 1
+        },
+        "0C85001E": {
+          "text": "Ecat: Bus configuration mismatch",
+          "version": 1
+        },
+        "0C85001F": {
+          "text": "Ecat: Error in reading config file",
+          "version": 1
+        },
+        "0C850020": {
+          "text": "Ecat: Invalid state requested",
+          "version": 1
+        },
+        "0C850021": {
+          "text": "Ecat: Cyclic commands missing",
+          "version": 1
+        },
+        "0C850022": {
+          "text": "Ecat: Command AL status register read missing",
+          "version": 1
+        },
+        "0C850023": {
+          "text": "Ecat: Master state machine error",
+          "version": 1
+        },
+        "0C850024": {
+          "text": "Ecat: Slave error",
+          "version": 1
+        },
+        "0C850025": {
+          "text": "Ecat: Frame lost",
+          "version": 1
+        },
+        "0C850026": {
+          "text": "Ecat: Incomplete EtherCAT frame",
+          "version": 1
+        },
+        "0C850027": {
+          "text": "Ecat: Cyclic command WKC error",
+          "version": 1
+        },
+        "0C850028": {
+          "text": "Ecat: Resource error (DCL)",
+          "version": 1
+        },
+        "0C850029": {
+          "text": "Ecat: Auto increment address mismatch (slave missing)",
+          "version": 1
+        },
+        "0C85002A": {
+          "text": "Ecat: Bus device in invalid state",
+          "version": 1
+        },
+        "0C85002B": {
+          "text": "Ecat: EtherCAT address not set/bus device missing",
+          "version": 1
+        },
+        "0C85002C": {
+          "text": "Ecat: Too many cyclic commands in XML configuration file",
+          "version": 1
+        },
+        "0C85002D": {
+          "text": "Ecat: Ethernet link cable disconnected",
+          "version": 1
+        },
+        "0C85002E": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C85002F": {
+          "text": "Ecat CoE: Mailbox send WKC error",
+          "version": 1
+        },
+        "0C850030": {
+          "text": "Ecat CoE: Mailbox receive WKC error",
+          "version": 1
+        },
+        "0C850031": {
+          "text": "Ecat: No mailbox support",
+          "version": 1
+        },
+        "0C850032": {
+          "text": "Ecat CoE: Protocol not supported",
+          "version": 1
+        },
+        "0C850033": {
+          "text": "Ecat EoE: Protocol not supported",
+          "version": 1
+        },
+        "0C850034": {
+          "text": "Ecat FoE: Protocol not supported",
+          "version": 1
+        },
+        "0C850035": {
+          "text": "Ecat SoE: Protocol not supported",
+          "version": 1
+        },
+        "0C850036": {
+          "text": "Ecat VoE: Protocol not supported",
+          "version": 1
+        },
+        "0C850037": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850038": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850039": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850040": {
+          "text": "Ecat SDO: Toggle bit not alternated",
+          "version": 1
+        },
+        "0C850041": {
+          "text": "Ecat SDO: SDO protocol timeout",
+          "version": 1
+        },
+        "0C850042": {
+          "text": "Ecat SDO: Client/server command specifier not valid",
+          "version": 1
+        },
+        "0C850043": {
+          "text": "Ecat SDO: Invalid block size (block mode only)",
+          "version": 1
+        },
+        "0C850044": {
+          "text": "Ecat SDO: Invalid sequence number (block mode only)",
+          "version": 1
+        },
+        "0C850045": {
+          "text": "Ecat SDO: CRC error (block mode only)",
+          "version": 1
+        },
+        "0C850046": {
+          "text": "Ecat SDO: Out of memory",
+          "version": 1
+        },
+        "0C850047": {
+          "text": "Ecat SDO: Unsupported access to an object",
+          "version": 1
+        },
+        "0C850048": {
+          "text": "Ecat SDO: Attempt to read a write only object",
+          "version": 1
+        },
+        "0C850049": {
+          "text": "Ecat SDO: Attempt to write a read only object",
+          "version": 1
+        },
+        "0C85004A": {
+          "text": "Ecat SDO: Object does not exist in object dictionary",
+          "version": 1
+        },
+        "0C85004B": {
+          "text": "Ecat SDO: Object cannot be mapped to a PDO",
+          "version": 1
+        },
+        "0C85004C": {
+          "text": "Ecat SDO: PDO length exceeded",
+          "version": 1
+        },
+        "0C85004D": {
+          "text": "Ecat SDO: General incompatibility (parameter)",
+          "version": 1
+        },
+        "0C85004E": {
+          "text": "Ecat SDO: General incompatibility (device internal)",
+          "version": 1
+        },
+        "0C85004F": {
+          "text": "Ecat SDO: Access failed (hardware error)",
+          "version": 1
+        },
+        "0C850050": {
+          "text": "Ecat SDO: Data type and length code do not match",
+          "version": 1
+        },
+        "0C850051": {
+          "text": "Ecat SDO: Wrong data type (parameter too long)",
+          "version": 1
+        },
+        "0C850052": {
+          "text": "Ecat SDO: Wrong data type (parameter too short)",
+          "version": 1
+        },
+        "0C850053": {
+          "text": "Ecat SDO: Subindex does not exist",
+          "version": 1
+        },
+        "0C850054": {
+          "text": "Ecat SDO: Parameter value out of range",
+          "version": 1
+        },
+        "0C850055": {
+          "text": "Ecat SDO: Parameter value out of high limit",
+          "version": 1
+        },
+        "0C850056": {
+          "text": "Ecat SDO: Parameter value out of low limit",
+          "version": 1
+        },
+        "0C850057": {
+          "text": "Ecat SDO: Maximum value less than minimum value",
+          "version": 1
+        },
+        "0C850058": {
+          "text": "Ecat SDO: General error",
+          "version": 1
+        },
+        "0C850059": {
+          "text": "Ecat SDO: Data cannot be transferred or stored",
+          "version": 1
+        },
+        "0C85005A": {
+          "text": "Ecat SDO: Data cannot be transferred (local control)",
+          "version": 1
+        },
+        "0C85005B": {
+          "text": "Ecat SDO: Data cannot be transferred (device state)",
+          "version": 1
+        },
+        "0C85005C": {
+          "text": "Ecat SDO: Object dictionary does not exist",
+          "version": 1
+        },
+        "0C85005D": {
+          "text": "Ecat SDO: Unknown error code",
+          "version": 1
+        },
+        "0C85005E": {
+          "text": "Ecat SDO: Module ident list mismatch",
+          "version": 1
+        },
+        "0C850060": {
+          "text": "Ecat FoE: Vendor specific FoE error",
+          "version": 1
+        },
+        "0C850061": {
+          "text": "Ecat FoE: Not found",
+          "version": 1
+        },
+        "0C850062": {
+          "text": "Ecat FoE: Access denied",
+          "version": 1
+        },
+        "0C850063": {
+          "text": "Ecat FoE: Disk full",
+          "version": 1
+        },
+        "0C850064": {
+          "text": "Ecat FoE: Illegal",
+          "version": 1
+        },
+        "0C850065": {
+          "text": "Ecat FoE: Wrong packet number",
+          "version": 1
+        },
+        "0C850066": {
+          "text": "Ecat FoE: Already exists",
+          "version": 1
+        },
+        "0C850067": {
+          "text": "Ecat FoE: User missing",
+          "version": 1
+        },
+        "0C850068": {
+          "text": "Ecat FoE: Only in bootstrap",
+          "version": 1
+        },
+        "0C850069": {
+          "text": "Ecat FoE: File name not valid in Bootstrap",
+          "version": 1
+        },
+        "0C85006A": {
+          "text": "Ecat FoE: No access rights",
+          "version": 1
+        },
+        "0C85006B": {
+          "text": "Ecat FoE: Program error",
+          "version": 1
+        },
+        "0C85006C": {
+          "text": "Ecat FoE: Wrong checksum",
+          "version": 1
+        },
+        "0C85006D": {
+          "text": "Ecat FoE: Firmware does not fit for hardware",
+          "version": 1
+        },
+        "0C85006F": {
+          "text": "Ecat FoE: File not found",
+          "version": 1
+        },
+        "0C850070": {
+          "text": "Ecat: Master configuration not found",
+          "version": 1
+        },
+        "0C850071": {
+          "text": "Ecat: Command error while EEPROM upload",
+          "version": 1
+        },
+        "0C850072": {
+          "text": "Ecat: Command error while EEPROM download",
+          "version": 1
+        },
+        "0C850073": {
+          "text": "Ecat: Cyclic command wrong size (too long)",
+          "version": 1
+        },
+        "0C850074": {
+          "text": "Ecat: Invalid input offset in cyc cmd",
+          "version": 1
+        },
+        "0C850075": {
+          "text": "Ecat: Invalid output offset in cyc cmd",
+          "version": 1
+        },
+        "0C850076": {
+          "text": "Ecat: Resource error (port close)",
+          "version": 1
+        },
+        "0C850077": {
+          "text": "Ecat: Resource error (port open)",
+          "version": 1
+        },
+        "0C850078": {
+          "text": "Ecat SoE: Invalid access to element 0",
+          "version": 1
+        },
+        "0C850079": {
+          "text": "Ecat SoE: Does not exist",
+          "version": 1
+        },
+        "0C85007A": {
+          "text": "Ecat SoE: Invalid access to element 1",
+          "version": 1
+        },
+        "0C85007B": {
+          "text": "Ecat SoE: No name",
+          "version": 1
+        },
+        "0C85007C": {
+          "text": "Ecat SoE: Name transmission too short",
+          "version": 1
+        },
+        "0C85007D": {
+          "text": "Ecat SoE: Name transmission too long",
+          "version": 1
+        },
+        "0C85007E": {
+          "text": "Ecat SoE: Name cannot be changed (read only)",
+          "version": 1
+        },
+        "0C85007F": {
+          "text": "Ecat SoE: Name is write-protected at this time",
+          "version": 1
+        },
+        "0C850080": {
+          "text": "Ecat SoE: Attribute transmission too short",
+          "version": 1
+        },
+        "0C850081": {
+          "text": "Ecat SoE: Attribute transmission too long",
+          "version": 1
+        },
+        "0C850082": {
+          "text": "Ecat SoE: Attribute cannot be changed (read only)",
+          "version": 1
+        },
+        "0C850083": {
+          "text": "Ecat SoE: Attribute is write-protected at this time",
+          "version": 1
+        },
+        "0C850084": {
+          "text": "Ecat SoE: No unit",
+          "version": 1
+        },
+        "0C850085": {
+          "text": "Ecat SoE: Unit transmission too short",
+          "version": 1
+        },
+        "0C850086": {
+          "text": "Ecat SoE: Unit transmission too long",
+          "version": 1
+        },
+        "0C850087": {
+          "text": "Ecat SoE: Unit cannot be changed (read only)",
+          "version": 1
+        },
+        "0C850088": {
+          "text": "Ecat SoE: Unit currently write-protected",
+          "version": 1
+        },
+        "0C850089": {
+          "text": "Ecat SoE: No minimum input value",
+          "version": 1
+        },
+        "0C85008A": {
+          "text": "Ecat SoE: Min. input value transmission too short",
+          "version": 1
+        },
+        "0C85008B": {
+          "text": "Ecat SoE: Min. input value transmission too long",
+          "version": 1
+        },
+        "0C85008C": {
+          "text": "Ecat SoE: Min. input value cannot be changed (read only)",
+          "version": 1
+        },
+        "0C85008D": {
+          "text": "Ecat SoE: Min. input value is write-protected at this time",
+          "version": 1
+        },
+        "0C85008E": {
+          "text": "Ecat SoE: No maximum input value",
+          "version": 1
+        },
+        "0C85008F": {
+          "text": "Ecat SoE: Max. input value transmission too short",
+          "version": 1
+        },
+        "0C850090": {
+          "text": "Ecat SoE: Max. input value transmission too long",
+          "version": 1
+        },
+        "0C850091": {
+          "text": "Ecat SoE: Max. input value cannot be changed (read only)",
+          "version": 1
+        },
+        "0C850092": {
+          "text": "Ecat SoE: Max. input value is write-protected at this time",
+          "version": 1
+        },
+        "0C850093": {
+          "text": "Ecat SoE: No operation data",
+          "version": 1
+        },
+        "0C850094": {
+          "text": "Ecat SoE: Operation data transmission too short",
+          "version": 1
+        },
+        "0C850095": {
+          "text": "Ecat SoE: Operation data transmission too long",
+          "version": 1
+        },
+        "0C850096": {
+          "text": "Ecat SoE: Operation data cannot be changed (read only)",
+          "version": 1
+        },
+        "0C850097": {
+          "text": "Ecat SoE: Operation data is write-protected at this time",
+          "version": 1
+        },
+        "0C850098": {
+          "text": "Ecat SoE: Operation data is smaller than the min. value",
+          "version": 1
+        },
+        "0C850099": {
+          "text": "Ecat SoE: Operation data is greater than the max. value",
+          "version": 1
+        },
+        "0C85009A": {
+          "text": "Ecat SoE: Invalid operation data",
+          "version": 1
+        },
+        "0C85009B": {
+          "text": "Ecat SoE: Operation data write-protected by a password",
+          "version": 1
+        },
+        "0C85009C": {
+          "text": "Ecat SoE: Operation data is write-protected (cycl. conf)",
+          "version": 1
+        },
+        "0C85009D": {
+          "text": "Ecat SoE: Invalid indirect addr. (data container, list)",
+          "version": 1
+        },
+        "0C85009E": {
+          "text": "Ecat SoE: Operation data is write-protected (other)",
+          "version": 1
+        },
+        "0C85009F": {
+          "text": "Ecat SoE: Procedure command already active",
+          "version": 1
+        },
+        "0C850100": {
+          "text": "Ecat SoE: Procedure command not interruptible",
+          "version": 1
+        },
+        "0C850101": {
+          "text": "Ecat SoE: Procedure command at this time not executable",
+          "version": 1
+        },
+        "0C850102": {
+          "text": "Ecat SoE: Procedure command not executable",
+          "version": 1
+        },
+        "0C850103": {
+          "text": "Ecat SoE: Response drive number mismatch",
+          "version": 1
+        },
+        "0C850104": {
+          "text": "Ecat SoE: Response IDN mismatch",
+          "version": 1
+        },
+        "0C850105": {
+          "text": "Ecat SoE: At least one fragment lost",
+          "version": 1
+        },
+        "0C850106": {
+          "text": "Ecat SoE: RX buffer full",
+          "version": 1
+        },
+        "0C850107": {
+          "text": "Ecat SoE: No data state",
+          "version": 1
+        },
+        "0C850108": {
+          "text": "Ecat SoE: No default value",
+          "version": 1
+        },
+        "0C850109": {
+          "text": "Ecat SoE: Default value transmission too long",
+          "version": 1
+        },
+        "0C85010A": {
+          "text": "Ecat SoE: Default value cannot be changed",
+          "version": 1
+        },
+        "0C85010B": {
+          "text": "Ecat SoE: Invalid drive number",
+          "version": 1
+        },
+        "0C85010C": {
+          "text": "Ecat SoE: General error",
+          "version": 1
+        },
+        "0C85010D": {
+          "text": "Ecat SoE: No element addressed",
+          "version": 1
+        },
+        "0C85010E": {
+          "text": "Ecat: Slave not present on bus",
+          "version": 1
+        },
+        "0C85010F": {
+          "text": "Ecat FoE: Protocol not supported in bootstrap",
+          "version": 1
+        },
+        "0C850110": {
+          "text": "Ecat: Command error while EEPROM reload",
+          "version": 1
+        },
+        "0C850111": {
+          "text": "Ecat: Command error while reset EtherCAT slave controller",
+          "version": 1
+        },
+        "0C850112": {
+          "text": "Ecat: Resource error (system driver)",
+          "version": 1
+        },
+        "0C85011E": {
+          "text": "Ecat: Error while bus scan (topology change)",
+          "version": 1
+        },
+        "0C85011F": {
+          "text": "Ecat EoE: Mailbox WKC error",
+          "version": 1
+        },
+        "0C850120": {
+          "text": "Ecat FoE: Mailbox WKC error",
+          "version": 1
+        },
+        "0C850121": {
+          "text": "Ecat SoE: Mailbox WKC error",
+          "version": 1
+        },
+        "0C850122": {
+          "text": "Ecat AoE: Mailbox WKC error",
+          "version": 1
+        },
+        "0C850123": {
+          "text": "Ecat VoE: Mailbox WKC error",
+          "version": 1
+        },
+        "0C850124": {
+          "text": "Ecat: EEPROM assignment failed",
+          "version": 1
+        },
+        "0C850125": {
+          "text": "Ecat: Unknown mailbox error",
+          "version": 1
+        },
+        "0C850126": {
+          "text": "Ecat: Resource error (red. line)",
+          "version": 1
+        },
+        "0C850127": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850128": {
+          "text": "Ecat: <PreviousPort> tag missing",
+          "version": 1
+        },
+        "0C850129": {
+          "text": "Ecat: DC enabled and DC cyclic commands missing",
+          "version": 1
+        },
+        "0C850130": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850131": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850132": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850133": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850134": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850135": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850136": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C850137": {
+          "text": "Ecat VoE: No VoE mailbox data received",
+          "version": 1
+        },
+        "0C850138": {
+          "text": "Ecat: DC unit of reference clock disabled",
+          "version": 1
+        },
+        "0C850139": {
+          "text": "Ecat: DC reference clock not found",
+          "version": 1
+        },
+        "0C85013B": {
+          "text": "Ecat: Mailbox init command WKC error",
+          "version": 1
+        },
+        "0C85013C": {
+          "text": "Ecat AoE: Protocol not supported",
+          "version": 1
+        },
+        "0C85013D": {
+          "text": "Ecat AoE: Invalid AoE response received",
+          "version": 1
+        },
+        "0C85013E": {
+          "text": "Ecat AoE: General error",
+          "version": 1
+        },
+        "0C85013F": {
+          "text": "Ecat AoE: Service not supported by server",
+          "version": 1
+        },
+        "0C850140": {
+          "text": "Ecat AoE: Invalid index group",
+          "version": 1
+        },
+        "0C850141": {
+          "text": "Ecat AoE: Invalid index offset",
+          "version": 1
+        },
+        "0C850142": {
+          "text": "Ecat AoE: Reading/writing not permitted",
+          "version": 1
+        },
+        "0C850143": {
+          "text": "Ecat AoE: Parameter size not correct",
+          "version": 1
+        },
+        "0C850144": {
+          "text": "Ecat AoE: Invalid parameter values",
+          "version": 1
+        },
+        "0C850145": {
+          "text": "Ecat AoE: Device not in a ready state",
+          "version": 1
+        },
+        "0C850146": {
+          "text": "Ecat AoE: Device busy",
+          "version": 1
+        },
+        "0C850147": {
+          "text": "Ecat AoE: Invalid context",
+          "version": 1
+        },
+        "0C850148": {
+          "text": "Ecat AoE: Out of memory",
+          "version": 1
+        },
+        "0C850149": {
+          "text": "Ecat AoE: Invalid parameter values",
+          "version": 1
+        },
+        "0C85014A": {
+          "text": "Ecat AoE: Element not found",
+          "version": 1
+        },
+        "0C85014B": {
+          "text": "Ecat AoE: Syntax error in comand or file",
+          "version": 1
+        },
+        "0C85014C": {
+          "text": "Ecat AoE: Objects do not match",
+          "version": 1
+        },
+        "0C85014D": {
+          "text": "Ecat AoE: Object already exists",
+          "version": 1
+        },
+        "0C85014E": {
+          "text": "Ecat AoE: Symbol not found",
+          "version": 1
+        },
+        "0C85014F": {
+          "text": "Ecat AoE: Symbol version invalid",
+          "version": 1
+        },
+        "0C850150": {
+          "text": "Ecat AoE: Server in invalid state",
+          "version": 1
+        },
+        "0C850151": {
+          "text": "Ecat AoE: AdsTransMode not supported",
+          "version": 1
+        },
+        "0C850152": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C850153": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C850154": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C850155": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C850156": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C850157": {
+          "text": "Ecat AoE: Timeout (device)",
+          "version": 1
+        },
+        "0C850158": {
+          "text": "Ecat AoE: Query interface failed",
+          "version": 1
+        },
+        "0C850159": {
+          "text": "Ecat AoE: Wrong interface required",
+          "version": 1
+        },
+        "0C85015A": {
+          "text": "Ecat AoE: Class ID invalid",
+          "version": 1
+        },
+        "0C85015B": {
+          "text": "Ecat AoE: Object ID invalid",
+          "version": 1
+        },
+        "0C85015C": {
+          "text": "Ecat AoE: Request pending",
+          "version": 1
+        },
+        "0C85015D": {
+          "text": "Ecat AoE: Request aborted",
+          "version": 1
+        },
+        "0C85015E": {
+          "text": "Ecat AoE: Signal warning",
+          "version": 1
+        },
+        "0C85015F": {
+          "text": "Ecat AoE: Invalid array index",
+          "version": 1
+        },
+        "0C850160": {
+          "text": "Ecat AoE: Symbol not active",
+          "version": 1
+        },
+        "0C850161": {
+          "text": "Ecat AoE: Access denied",
+          "version": 1
+        },
+        "0C850162": {
+          "text": "Ecat AoE: Internal error",
+          "version": 1
+        },
+        "0C850163": {
+          "text": "Ecat AoE: Target port not found",
+          "version": 1
+        },
+        "0C850164": {
+          "text": "Ecat AoE: Target machine not found",
+          "version": 1
+        },
+        "0C850165": {
+          "text": "Ecat AoE: Unknown command ID",
+          "version": 1
+        },
+        "0C850166": {
+          "text": "Ecat AoE: Port not connected",
+          "version": 1
+        },
+        "0C850167": {
+          "text": "Ecat AoE: Invalid AMS length",
+          "version": 1
+        },
+        "0C850168": {
+          "text": "Ecat AoE: Invalid AMS Net ID",
+          "version": 1
+        },
+        "0C850169": {
+          "text": "Ecat AoE: Port disabled",
+          "version": 1
+        },
+        "0C85016A": {
+          "text": "Ecat AoE: Port already connected",
+          "version": 1
+        },
+        "0C85016B": {
+          "text": "Ecat AoE: Invalid AMS port",
+          "version": 1
+        },
+        "0C85016C": {
+          "text": "Ecat AoE: Out of memory",
+          "version": 1
+        },
+        "0C85016D": {
+          "text": "Ecat AoE: Vendor-specific AoE device error",
+          "version": 1
+        },
+        "0C85016E": {
+          "text": "Ecat AoE: Invalid NetID",
+          "version": 1
+        },
+        "0C85016F": {
+          "text": "Ecat: Maximum number of bus slave has been exceeded",
+          "version": 1
+        },
+        "0C850170": {
+          "text": "Ecat Mailbox: Syntax of Mailbox header wrong",
+          "version": 1
+        },
+        "0C850171": {
+          "text": "Ecat Mailbox: Mailbox protocol not supported",
+          "version": 1
+        },
+        "0C850172": {
+          "text": "Ecat Mailbox: Field contains wrong value",
+          "version": 1
+        },
+        "0C850173": {
+          "text": "Ecat Mailbox: Service not supported (mailbox protocol)",
+          "version": 1
+        },
+        "0C850174": {
+          "text": "Ecat Mailbox: Protocol header wrong",
+          "version": 1
+        },
+        "0C850175": {
+          "text": "Ecat Mailbox: Received data too short",
+          "version": 1
+        },
+        "0C850176": {
+          "text": "Ecat Mailbox: Resource error",
+          "version": 1
+        },
+        "0C850177": {
+          "text": "Ecat Mailbox: Length of data inconsistent",
+          "version": 1
+        },
+        "0C850178": {
+          "text": "Ecat: Slaves with DC before reference clock",
+          "version": 1
+        },
+        "0C850179": {
+          "text": "Ecat: Data type conversion failed",
+          "version": 1
+        },
+        "0C85017A": {
+          "text": "Ecat FoE: File bigger than max file size",
+          "version": 1
+        },
+        "0C85017B": {
+          "text": "Ecat: Line crossed",
+          "version": 1
+        },
+        "0C85017C": {
+          "text": "Ecat: Line crossed",
+          "version": 1
+        },
+        "0C85017D": {
+          "text": "Ecat: Socket disconnected",
+          "version": 1
+        },
+        "0C85017E": {
+          "text": "Ecat: ADO not supported",
+          "version": 1
+        },
+        "0C85017F": {
+          "text": "Ecat: Frameloss after Slave",
+          "version": 1
+        },
+        "0C850180": {
+          "text": "Ecat RAS: General error",
+          "version": 1
+        },
+        "0C850181": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850183": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850184": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850186": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850187": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850188": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850189": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850191": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850192": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850193": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850194": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850195": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850196": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850197": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C850198": {
+          "text": "Ecat RAS: Resource error",
+          "version": 1
+        },
+        "0C8601C0": {
+          "text": "Ecat DC: General error",
+          "version": 1
+        },
+        "0C8601C1": {
+          "text": "Ecat DC: Not initialized",
+          "version": 1
+        },
+        "0C8601C2": {
+          "text": "Ecat DC: Synchronisation out of limit",
+          "version": 1
+        },
+        "0C8601C3": {
+          "text": "Ecat DC: Out of memory",
+          "version": 1
+        },
+        "0C8601C4": {
+          "text": "Ecat DC: Resource error",
+          "version": 1
+        },
+        "0C8601C5": {
+          "text": "Ecat DC: Resource error",
+          "version": 1
+        },
+        "0C8601C6": {
+          "text": "Ecat DC: Resource error",
+          "version": 1
+        },
+        "0C8601C7": {
+          "text": "Ecat DC: Resource error",
+          "version": 1
+        },
+        "0C8601C8": {
+          "text": "Ecat DC: Invalid DC sync period length",
+          "version": 1
+        },
+        "0C8601C9": {
+          "text": "Ecat DC: Resource error",
+          "version": 1
+        },
+        "0C8601CA": {
+          "text": "Ecat DC: Drift error",
+          "version": 1
+        },
+        "0C8601CB": {
+          "text": "Ecat DC: Error cycle time",
+          "version": 1
+        },
+        "0C8601CD": {
+          "text": "Ecat DC: Error DCM controller - Invalid data",
+          "version": 1
+        },
+        "0C870001": {
+          "text": "Ecat FoE: File header missing",
+          "version": 1
+        },
+        "0C870002": {
+          "text": "Ecat FoE: Flash problem",
+          "version": 1
+        },
+        "0C870003": {
+          "text": "Ecat FoE: File incompatible",
+          "version": 1
+        },
+        "0C870004": {
+          "text": "Ecat SDO: Subindex cannot be written, SI0 must be 0",
+          "version": 1
+        },
+        "0C870005": {
+          "text": "Ecat SDO: Complete access not supported",
+          "version": 1
+        },
+        "0C870006": {
+          "text": "Ecat SDO: Object length exceeds mailbox size",
+          "version": 1
+        },
+        "0C870007": {
+          "text": "Ecat SDO: Object mapped to RxPDO, SDO Download blocked",
+          "version": 1
+        },
+        "0C870008": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870009": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C87000A": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C87000B": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C87000C": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C87000D": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C87000E": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C87000F": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870010": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870011": {
+          "text": "Ecat AoE: Bad task ID",
+          "version": 1
+        },
+        "0C870012": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870013": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870014": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870015": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870016": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870017": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870018": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C870019": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C87001A": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C87001B": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C87001C": {
+          "text": "Ecat AoE: Host unreachable",
+          "version": 1
+        },
+        "0C87001D": {
+          "text": "Ecat AoE: Invalid AMS fragment",
+          "version": 1
+        },
+        "0C87001E": {
+          "text": "Ecat AoE: Resource error",
+          "version": 1
+        },
+        "0C87001F": {
+          "text": "Ecat AoE: Mailbox full",
+          "version": 1
+        },
+        "0C870020": {
+          "text": "Ecat S2S: No configuration",
+          "version": 1
+        },
+        "0C870021": {
+          "text": "Ecat S2S: Out of memory",
+          "version": 1
+        },
+        "0C870022": {
+          "text": "Ecat S2S: Resource error",
+          "version": 1
+        },
+        "0C870023": {
+          "text": "Ecat S2S: Resource error",
+          "version": 1
+        },
+        "0C870024": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870025": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870026": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870027": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870028": {
+          "text": "Ecat: Timeout (DC)",
+          "version": 1
+        },
+        "0C870029": {
+          "text": "Ecat: Timeout (DCM)",
+          "version": 1
+        },
+        "0C870030": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870031": {
+          "text": "Ecat: Resource error",
+          "version": 1
+        },
+        "0C870032": {
+          "text": "Ecat: Connection problem",
+          "version": 1
+        },
+        "0C880000": {
+          "text": "Ecat: Status OK",
+          "version": 1
+        },
+        "0C880001": {
+          "text": "Ecat: General error",
+          "version": 1
+        },
+        "0C880002": {
+          "text": "Ecat: General error",
+          "version": 1
+        },
+        "0C880003": {
+          "text": "Ecat: General error",
+          "version": 1
+        },
+        "0C880004": {
+          "text": "Ecat: General error",
+          "version": 1
+        },
+        "0C880005": {
+          "text": "Ecat: Out of memory",
+          "version": 1
+        },
+        "0C880006": {
+          "text": "Ecat: Invalid handle",
+          "version": 1
+        },
+        "0C880007": {
+          "text": "Ecat: Invalid argument",
+          "version": 1
+        },
+        "0C880008": {
+          "text": "Ecat: Timeout",
+          "version": 1
+        },
+        "0C880009": {
+          "text": "Ecat: Invalid name or identifier",
+          "version": 1
+        },
+        "0C884001": {
+          "text": "Ecat: Invalid interface",
+          "version": 1
+        },
+        "0C884011": {
+          "text": "Ecat: Configuration file not found (Ini)",
+          "version": 1
+        },
+        "0C884012": {
+          "text": "Ecat: Configuration file incorrect (Ini)",
+          "version": 1
+        },
+        "0C884021": {
+          "text": "Ecat: Configuration file not found (Eni)",
+          "version": 1
+        },
+        "0C884022": {
+          "text": "Ecat: Configuration file incorrect (Eni)",
+          "version": 1
+        },
+        "0C884051": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884052": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884053": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884054": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884055": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884056": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884057": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884058": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C884059": {
+          "text": "Ecat: Error while cyclic processing",
+          "version": 1
+        },
+        "0C88405A": {
+          "text": "Ecat: Task configuration missing or wrong",
+          "version": 1
+        },
+        "0C88405B": {
+          "text": "Ecat: Watchdog expired",
+          "version": 1
+        },
+        "0C88405C": {
+          "text": "Ecat: Cyclic call active",
+          "version": 1
+        },
+        "0C884061": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884062": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884063": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884064": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884065": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884066": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884067": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884068": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884069": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C88406A": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C88406B": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C88406C": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C88406D": {
+          "text": "Ecat EoE: Resource error",
+          "version": 1
+        },
+        "0C884080": {
+          "text": "Ecat: Device not in Bootstrap",
+          "version": 1
+        },
+        "0C884081": {
+          "text": "Ecat: Device not in Init",
+          "version": 1
+        },
+        "0C884082": {
+          "text": "Ecat: Device not in Pre-OP",
+          "version": 1
+        },
+        "0C884083": {
+          "text": "Ecat: Device not in Safe-OP",
+          "version": 1
+        },
+        "0C884084": {
+          "text": "Ecat: Device not in OP",
+          "version": 1
+        },
+        "0C884085": {
+          "text": "Ecat: Invalid cylce time",
+          "version": 1
+        },
+        "0C884086": {
+          "text": "Ecat: Inconsistent cycle times",
+          "version": 1
+        },
+        "0C888000": {
+          "text": "Ecat CXA: Invalid input",
+          "version": 1
+        },
+        "0C888001": {
+          "text": "Ecat CXA: Buffer too small",
+          "version": 1
+        },
+        "0C888002": {
+          "text": "Ecat CXA: Timeout",
+          "version": 1
+        },
+        "0C888003": {
+          "text": "Ecat CXA: Invalid EtherCAT state of the slave device",
+          "version": 1
+        },
+        "0C888010": {
+          "text": "Ecat CXA: Invalid data status",
+          "version": 1
+        },
+        "0C888020": {
+          "text": "Ecat CXA: File open error, check filename and path",
+          "version": 1
+        },
+        "0C888021": {
+          "text": "Ecat CXA: File read error (internal error)",
+          "version": 1
+        },
+        "0C888022": {
+          "text": "Ecat CXA: File SetPos error (internal error)",
+          "version": 1
+        },
+        "0C888023": {
+          "text": "Ecat CXA: XML tag <DiagMessages> not found",
+          "version": 1
+        },
+        "0C888024": {
+          "text": "Ecat CXA: Reading flatbuffer returns wrong type",
+          "version": 1
+        },
+        "0C888025": {
+          "text": "Ecat CXA: Reading flatbuffer returns null pointer",
+          "version": 1
+        },
+        "0C888026": {
+          "text": "Ecat CXA: Reading flatbuffer returns wrong size",
+          "version": 1
+        },
+        "0C88FFFD": {
+          "text": "Ecat: Create error",
+          "version": 1
+        },
+        "0C88FFFE": {
+          "text": "Ecat: Unimplemented",
+          "version": 1
+        },
+        "0C88FFFF": {
+          "text": "Ecat: Unsupported",
+          "version": 1
+        }
+      }
+    },
+    "0C0F00FF": {
+      "text": "Trace error comm.ethercat.master",
+      "version": 1
+    }
+  }
+}

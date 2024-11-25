@@ -1,0 +1,34 @@
+{
+  "auto": {
+    "common": {
+      "text": {
+        "config": "Configuration"
+      }
+    },
+    "overview": {
+      "notavailable": {
+        "p1": "No data available (Error: {{errorCode}})",
+        "p2": "Possible reasons:",
+        "li1": "Service mode is active. Switch to Operation mode on the | Apps page|.",
+        "li2": "The app is currently being initialized. This may take a while, please | refresh | the page."
+      },
+      "nopermission": {
+        "p1": "You do not have the required permissions.",
+        "p2": "Minimal required permissions for this page:"
+      },
+      "ethercat": {
+        "title": "EtherCAT",
+        "subtitle1": "EtherCAT not configured",
+        "subtitle2": "Configure and analyze your EtherCAT network",
+        "text": {
+          "configure": "Configure EtherCAT",
+          "openstatus": "Open EtherCAT status",
+          "status": "Status",
+          "name": "Name",
+          "state": "State",
+          "message": "Message"
+        }
+      }
+    }
+  }
+}

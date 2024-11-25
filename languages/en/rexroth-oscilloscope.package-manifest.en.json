@@ -1,0 +1,10 @@
+{
+    "sidebar.oscilloscope.title": "Oscilloscope",
+    "configuration.oscilloscope.name": "oscilloscope",
+    "configuration.oscilloscope.description": "Oscilloscope: Traces signals from various sources and provides tools to analyze them",
+    "dashboard.oscilloscope.title": "Oscilloscope",
+    "dashboard.oscilloscope.description": "Shows the status of your instances",
+    "dashboard.oscilloscope.categories[0]": "Oscilloscope",
+    "licenses.basic.title": "ctrlX OS License - Oscilloscope",
+    "licenses.basic.description": "The ctrlX OSCILLOSCOPE traces signals from various sources and provides tools to analyze them."
+}

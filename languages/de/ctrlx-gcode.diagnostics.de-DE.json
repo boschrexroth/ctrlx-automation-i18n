@@ -1,0 +1,265 @@
+{
+  "product": "GCO-V-0206",
+  "mainDiagnostics": {
+    "100A0040": {
+      "text": "",
+      "version": 1
+    },
+    "100A0050": {
+      "text": "",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290006": {
+          "text": "G-Code-Konfiguration nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "100A00FE": {
+      "text": "Trace Nachricht G-Code-Konfiguration",
+      "version": 1
+    },
+    "100A00FF": {
+      "text": "Trace Nachricht G-Code-Interpreter",
+      "version": 1
+    },
+    "100E00FE": {
+      "text": "Trace Warnung G-Code-Konfiguration",
+      "version": 1
+    },
+    "100E00FF": {
+      "text": "Trace Warnung G-Code-Interpreter",
+      "version": 1
+    },
+    "100F0040": {
+      "text": "Allgemeiner Fehler im G-Code-System",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290002": {
+          "text": "Fehler beim Einbinden der Kinematik, der Name der Instanz sollte mit der einzubindenden Kinematik übereinstimmen",
+          "version": 1
+        },
+        "0C290003": {
+          "text": "Kinematischer PLCopen-Zustandsfehler",
+          "version": 1
+        },
+        "0C290004": {
+          "text": "Unerwarteter Fehler im Datei-(String-)Stream",
+          "version": 1
+        },
+        "0C290010": {
+          "text": "Antwortfehler des Interpreter Message Handler",
+          "version": 1
+        }
+      }
+    },
+    "100F0050": {
+      "text": "Allgemeiner Fehler in der G-Code-Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290000": {
+          "text": "Ungültiger Wert bei der Konfiguration des Data Layer",
+          "version": 1
+        },
+        "0C290006": {
+          "text": "G-Code-Konfiguration nicht gefunden",
+          "version": 1
+        },
+        "0C290007": {
+          "text": "Ungültiger Flatbuffer",
+          "version": 1
+        },
+        "0C29000B": {
+          "text": "Wiederherstellung der Sicherung fehlgeschlagen",
+          "version": 1
+        },
+        "0C29000C": {
+          "text": "",
+          "version": 1
+        }
+      }
+    },
+    "100F0051": {
+      "text": "Fehler im Data Layer der G-Code-Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290001": {
+          "text": "Konfigurationsfunktion nicht implementiert",
+          "version": 1
+        },
+        "0C290008": {
+          "text": "Erstellen der G-Code-Konfiguration fehlgeschlagen",
+          "version": 1
+        },
+        "0C290009": {
+          "text": "Löschen der G-Code-Konfiguration fehlgeschlagen",
+          "version": 1
+        },
+        "0C29000A": {
+          "text": "System inkonsistent",
+          "version": 1
+        }
+      }
+    },
+    "100F0060": {
+      "text": "Allgemeiner Fehler der G-Code-Runtime",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290005": {
+          "text": "Allgemeiner Systemfehler",
+          "version": 1
+        },
+        "0C290200": {
+          "text": "Allgemeiner Laufzeitfehler",
+          "version": 1
+        }
+      }
+    },
+    "100F0061": {
+      "text": "Ausnahmefehler der G-Code-Runtime",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290201": {
+          "text": "Maximale Verschachtelungstiefe des Unterprogramms erreicht",
+          "version": 1
+        },
+        "0C290202": {
+          "text": "In einem NC-Programm erscheint ein Unterprogramm mehr als einmal in derselben Aufrufkette. Vermeiden Sie rekursive Aufrufe.",
+          "version": 1
+        },
+        "0C290203": {
+          "text": "Lesen des Data Layer-Knotens fehlgeschlagen",
+          "version": 1
+        },
+        "0C290204": {
+          "text": "Schreiben des Data Layer-Knotens fehlgeschlagen",
+          "version": 1
+        },
+        "0C290205": {
+          "text": "Lesen/Schreiben von Data  Layer-Knoten mit komplexem Datentyp (Array oder Flatbuffer) nicht möglich",
+          "version": 1
+        },
+        "0C290206": {
+          "text": "Datentyp stimmt nicht mit dem Ziel-Data Layer-Knoten überein",
+          "version": 1
+        },
+        "0C290207": {
+          "text": "Fehler im Datentyp",
+          "version": 1
+        },
+        "0C290208": {
+          "text": "Fehler bei der Nulldivision",
+          "version": 1
+        }
+      }
+    },
+    "100F0062": {
+      "text": "Speicherfehler der G-Code-Runtime",
+      "version": 1
+    },
+    "100F0063": {
+      "text": "Laufzeit-NC-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290011": {
+          "text": "Kein F-Wort programmiert",
+          "version": 1
+        },
+        "0C290014": {
+          "text": "Ungültige dynamische Grenzen",
+          "version": 1
+        },
+        "0C290015": {
+          "text": "Allgemeiner Fehler bei Ausführung des NC-Blocks",
+          "version": 1
+        },
+        "0C290016": {
+          "text": "Antwortfehler bei Erstellung eines Motion-Kommandos",
+          "version": 1
+        },
+        "0C290017": {
+          "text": "Zustandsfehler des WAIT-Befehls",
+          "version": 1
+        },
+        "0C290018": {
+          "text": "Kinematikbefehl wird durch nicht gepufferten Befehl unterbrochen",
+          "version": 1
+        },
+        "0C290019": {
+          "text": "Interner Laufzeitfehler der NC-Funktion (Bitte Entwickler kontaktieren)",
+          "version": 1
+        }
+      }
+    },
+    "100F0070": {
+      "text": "Allgemeiner Fehler in der Skript-Syntax",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290012": {
+          "text": "Doppeltes Achsadresswort ist in einem NC-Satz programmiert",
+          "version": 1
+        },
+        "0C290100": {
+          "text": "Keine gültige Syntaxregel",
+          "version": 1
+        },
+        "0C290101": {
+          "text": "Funktion wird in dieser Version nicht unterstützt",
+          "version": 1
+        },
+        "0C290103": {
+          "text": "Nicht-optionales Argument fehlt",
+          "version": 1
+        },
+        "0C290104": {
+          "text": "Gleiches Adresswort wurde mehrfach programmiert",
+          "version": 1
+        },
+        "0C290105": {
+          "text": "Fehlende Klammern in der NC-Funktion",
+          "version": 1
+        },
+        "0C290106": {
+          "text": "NC-Funktion unterstützt keine Programmierung von Klammern",
+          "version": 1
+        },
+        "0C290107": {
+          "text": "Überlauf des Sprung-Offsets. Legen Sie das Sprungziel oder die Größe des Körpers der Kontrollstruktur fest.",
+          "version": 1
+        }
+      }
+    },
+    "100F0071": {
+      "text": "Fehler im Skript-Syntax-Typ",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290102": {
+          "text": "Fehler im Datentyp des Arguments",
+          "version": 1
+        }
+      }
+    },
+    "100F0080": {
+      "text": "Allgemeiner Fehler in der Semantik",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290012": {
+          "text": "Doppeltes Achsadresswort ist in einem NC-Satz programmiert",
+          "version": 1
+        },
+        "0C290013": {
+          "text": "Alle Adresswörter der Hauptachse (X, Y, Z) sollten in einem NC-Satz programmiert werden (wird in nächster Version behoben)",
+          "version": 1
+        }
+      }
+    },
+    "100F00FE": {
+      "text": "Trace Fehler G-Code-Konfiguration",
+      "version": 1
+    },
+    "100F00FF": {
+      "text": "Trace Fehler G-Code-Interpreter",
+      "version": 1
+    }
+  }
+}

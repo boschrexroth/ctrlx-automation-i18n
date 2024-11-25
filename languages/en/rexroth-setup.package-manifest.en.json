@@ -1,0 +1,7 @@
+{
+    "certificatestores.backup.description": "Authentication keys for automatic execution of files from external storage",
+    "documentation.backup.description": "Provides functionalities for creating and restoring backups on ctrlX OS devices.",
+    "overview.backup.title": "Restore backup",
+    "settings.backup.title": "Backup & Restore",
+    "settings.backup.description": "Back up and restore of ctrlX OS \u00b7 Save and transfer settings and resources"
+}

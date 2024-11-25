@@ -1,0 +1,17 @@
+{
+    "configuration.vpn-manager.description": "VPN configuration data",
+	"settings.vpn.title": "VPN",
+    "settings.vpn.description": "Setup virtual private network",
+    "licenses.SWL-XCx-VPN-VPNCLIENTxxxx-NNNN.title": "ctrlX OS License - VPN Client",
+    "licenses.SWL-XCx-VPN-VPNCLIENTxxxx-NNNN.description": "VPN Client supports OpenVPN and IPSec for ctrlX OS",
+	"scopes-declaration.rexroth-vpnmanager.web.name": "VPN",
+	"scopes-declaration.rexroth-vpnmanager.web.description": "Configure & manage Virtual Private Networks (VPNs)",
+	"scopes-declaration.rexroth-vpnmanager.web.all.rwx.name": "Manage connections",
+	"scopes-declaration.rexroth-vpnmanager.web.all.rwx.description": "Manage connections",
+	"scopes-declaration.rexroth-vpnmanager.web.connections.rx.name": "Start, stop and view connections",
+	"scopes-declaration.rexroth-vpnmanager.web.connections.rx.description": "Start, stop and view connections",
+	"scopes-declaration.rexroth-vpnmanager.web.all.r.name": "View connections",
+	"scopes-declaration.rexroth-vpnmanager.web.all.r.description": "View connections",
+	"certificatestores.vpnmanager.title": "VPN Client",
+	"certificatestores.vpnmanager.description": "Keys and certificates required by the VPN client"
+}

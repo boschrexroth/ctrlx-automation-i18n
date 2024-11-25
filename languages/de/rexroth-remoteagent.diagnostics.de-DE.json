@@ -1,0 +1,139 @@
+{
+  "product": "RMA-V-0206",
+  "mainDiagnostics": {
+    "0B0A0100": {
+      "text": "Remote Agent Information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0003": {
+          "text": "Claimingversuch bestätigt",
+          "version": 1
+        },
+        "0C6F0004": {
+          "text": "Claimingversuch gelesen",
+          "version": 1
+        },
+        "0C6F0005": {
+          "text": "Neues Kommando hinzugefügt",
+          "version": 1
+        },
+        "0C6F0006": {
+          "text": "Kommando erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C6F0007": {
+          "text": "Service-Token für den Remote Agent aktualisiert",
+          "version": 1
+        },
+        "0C6F0009": {
+          "text": "Richtlinie erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C6F000A": {
+          "text": "Gerät erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C6F000B": {
+          "text": "Geräterichtlinien erfolgreich aktualisert",
+          "version": 1
+        },
+        "0C6F000C": {
+          "text": "Gerät erfolgreich entfernt",
+          "version": 1
+        },
+        "0C6F000D": {
+          "text": "Gerät erfolgreich hinzugefügt",
+          "version": 1
+        },
+        "0C6F000E": {
+          "text": "Servicemodus erfolgreich geändert",
+          "version": 1
+        },
+        "0C6F0010": {
+          "text": "Versuch den Servicemodus zu ändern",
+          "version": 1
+        },
+        "0C6F0011": {
+          "text": "Verbindungsstatus des Remote Access geändert",
+          "version": 1
+        },
+        "0C6F0016": {
+          "text": "Neues Kommando vom Device Portal empfangen",
+          "version": 1
+        },
+        "0C6F0017": {
+          "text": "Kommando erfolgreich aktualisiert",
+          "version": 1
+        }
+      }
+    },
+    "0B0E0100": {
+      "text": "Remote Agent Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0014": {
+          "text": "Veraltete Zertifikatsmanager-API erkannt",
+          "version": 1
+        },
+        "0C6F0015": {
+          "text": "Keine Zertifikatsmanager-API erkannt, verwende letzte bekannte API",
+          "version": 1
+        },
+        "0C6F0020": {
+          "text": "Die Länge der Kommandostatusdetails überschreitet 255 Zeichen",
+          "version": 1
+        },
+        "0C6F0022": {
+          "text": "Applikationszertifikate wurden gelöscht und aktualisiert",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0100": {
+      "text": "Remote Agent Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0000": {
+          "text": "Fehler beim Installieren der Pakete",
+          "version": 1
+        },
+        "0C6F0001": {
+          "text": "Fehler beim Empfangen der Pakete",
+          "version": 1
+        },
+        "0C6F0002": {
+          "text": "Fehler beim Empfangen der Paketeinzelheiten von rexroth-automationcore",
+          "version": 1
+        },
+        "0C6F0008": {
+          "text": "Fehler beim Setzen des Servicemodus",
+          "version": 1
+        },
+        "0C6F000F": {
+          "text": "Fehler beim Aktualisieren des Kontexts des Paketmanager-Clients",
+          "version": 1
+        },
+        "0C6F0012": {
+          "text": "Erstellen der Konfigurationsdatei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6F0013": {
+          "text": "Auslesen der Geräte fehlgeschlagen",
+          "version": 1
+        },
+        "0C6F0018": {
+          "text": "Aktualisierung des Kommandostatus fehlgeschlagen",
+          "version": 1
+        },
+        "0C6F0019": {
+          "text": "Erstellen des neuen Kommandos fehlgeschlagen",
+          "version": 1
+        },
+        "0C6F0021": {
+          "text": "AppHandler mit ID kann für Kommandos nicht erstellt werden",
+          "version": 1
+        }
+      }
+    }
+  }
+}

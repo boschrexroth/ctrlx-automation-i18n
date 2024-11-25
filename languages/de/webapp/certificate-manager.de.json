@@ -1,0 +1,396 @@
+﻿{
+    "ctm.common": {
+    "ok.button": "OK",
+    "cancel.button": "Abbrechen",
+    "save.button": "Speichern",
+    "close.button": "Schließen",
+    "discard.button": "Verwerfen",
+
+    "edit.tooltip": "Bearbeiten",
+    "delete.tooltip": "Löschen",
+
+    "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
+    "delete.button": "Löschen",
+
+    "delete.menu": "Löschen",
+
+    "actions": "Aktionen",
+
+    "certKeys.breadcrumb": "Zertifikate & Schlüssel",
+    "pkis.breadcrumb": "PKIs",
+
+    "noneSkipVerification": "keines, Überprüfung überspringen"
+  },
+
+  "ctm.applications": {
+    "name": "Dienst",
+    "description": "Beschreibung",
+    "pki.tooltip": "PKIs verwalten"
+  },
+
+  "ctm.certSignReqDialog": {
+    "title": "Zertifikat-Signierungsanforderung",
+    "titleSingular": "Zertifikat-Signierungsanforderungen",
+    "name": "Name",
+    "createdBy": "Erstellt von",
+    "createdOn": "Erstellt am",
+    "downloadAsPem.tooltip": "Herunterladen als *.pem",
+    "downloadAsDer.tooltip": "Herunterladen als *.der",
+    "copyToClipboard.tooltip": "In die Zwischenablage kopieren",
+    "deleteCsr.title": "Zertifikat-Signierungsanforderung löschen"
+  },
+
+  "ctm.certKeyTabPanel": {
+    "certificates": "Zertifikate",
+    "keys": "Schlüssel",
+    "revocationLists": "Sperrlisten",
+    "pkcs12Containers": "PKCS12 Container",
+    "enrollments": "Zertifikat-Registrierungen"
+  },
+
+  "ctm.certificates": {
+    "uploadCertFile.tooltip": "Zertifikatsdatei hochladen",
+    "name": "Name",
+    "category": "Kategorie",
+    "subject": "Ausgestellt für",
+    "validFrom": "Gültig ab (UTC)",
+    "validTo": "Gültig bis (UTC)",
+    "renewal": "Verlängerung",
+    "loading": "wird geladen",
+    "notconfigured": "nicht konfiguriert",
+    "automatic": "automatisch",
+    "paused": "angehalten",
+    "more.tooltip": "Mehr...",
+    "showDetails.menu": "Details anzeigen",
+    "rename.menu": "Umbenennen",
+    "trust.menu": "Vertrauen",
+    "reject.menu": "Ablehnen",
+    "renewal.menu": "Verlängerung",
+    "extract.menu": "Extrahieren",
+    "download.menu": "Herunterladen",
+    "noCertsMsg": "Keine Zertifikate vorhanden",
+    "uploadCertFile.button": "Zertifikatsdatei hochladen",
+    "renameCertificate.title": "Zertifikat umbenennen",
+    "deleteCertificate.title": "Zertifikat löschen",
+    "na": "n.a."
+  },
+
+  "ctm.keys": {
+    "uploadKeyFile.tooltip": "Schlüsseldatei hochladen",
+    "name": "Name",
+    "category": "Kategorie",
+    "type": "Typ",
+    "algorithm": "Algorithmus",
+    "length": "Länge",
+    "hsmSecured": "HSM-geschützt",
+    "yes": "Ja",
+    "no": "Nein",
+    "status": "Status",
+    "more.tooltip": "Mehr...",
+    "rename.menu": "Umbenennen",
+    "trust.menu": "Vertrauen",
+    "reject.menu": "Ablehnen",
+    "decrypt.menu": "Entschlüsseln",
+    "generateCsr.menu": "Zertifikatsignierungsanforderung erstellen",
+    "showCsrs.menu": "Zertifikatsignierungsanforderungen anzeigen",
+    "generateSelfsignedCert.menu":"Selbstsigniertes Zertifikat erstellen",
+    "enrollCert.menu": "Zertifikat registrieren",
+    "downloadAsPem.menu": "Herunterladen als *.pem",
+    "downloadPubKeyPartAsPem.menu": "Öffentlichen Anteil als *.pem herunterladen",
+    "downloadPrivKeyAsPem.menu": "Herunterladen als *.pem",
+    "downloadAsDer.menu": "Herunterladen als *.der",
+    "downloadPubKeyPartAsDer.menu": "Öffentlichen Anteil als *.der herunterladen",
+    "downloadPrivKeyAsDer.menu": "Herunterladen als *.der",
+    "downloadKeyBundleAsZip.menu": "Schlüsselbündel als *.zip herunterladen",
+    "renameKey.title": "Schlüssel umbenennen",
+    "deleteKey.title": "Schlüssel löschen",
+    "noKeysMsg": "Keine Schlüssel vorhanden",
+    "uploadKeyFile.button": "Schlüsseldatei hochladen",
+    "generateKey.button": "Schlüssel erstellen"
+  },
+
+  "ctm.pkiDetails": {
+    "uri": "URI",
+    "serverCert": "Server-Zertifikat",
+    "enterUri": "Geben Sie eine gültige URI ein",
+    "selectCertificate": "Wählen Sie ein Zertifikat aus",
+    "uriAlreadyExisting": "Eine PKI mit dieser URI existiert bereits",
+    "protocol": "Protokoll",
+    "scepProtocolOptions": "SCEP Protokolloptionen",
+    "scepGenerateNewKey": "Bei Verlängerung neuen Schlüssel erzeugen",
+    "scepSignRequestByNewKey": "Bei Verlängerung Anforderung durch neuen Schlüssel signieren",
+    "scepUsePkcsRequestOnRenewal": "Bei Verlängerung PKCS Anforderung verwenden",
+    "authentication": "Authentisierung",
+    "scepAuthenticationOptions": "SCEP Authentisierungsoptionen",
+    "authNone": "Keine",
+    "authChallenge": "Challenge",
+    "challenge": "Challenge",
+    "enterChallenge": "Geben Sie eine Challenge ein",
+    "newPki": "Neue PKI",
+    "uploadServerCert.tooltip": "Server-Zertifikat hochladen"
+  },
+
+  "ctm.pkis": {
+    "uri": "URI",
+    "protocol": "Protokoll",
+    "serverCert": "Server-Zertifikat",
+    "authentication": "Authentisierung",
+    "certsKeys.tooltip": "Zertifikate & Schlüssel verwalten",
+    "noPkisMsg": "Keine PKIs vorhanden",
+    "addPki.button": "PKI hinzufügen",
+    "deletePki.title": "PKI löschen"
+  },
+
+  "ctm.createCsrDialog": {
+    "title": "Zertifikat-Signierungsanforderung erstellen",
+    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
+    "organizationOrCompanyName": "Organisation oder Unternehmen",
+    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
+    "country": "Land",
+    "stateOrProvince": "Bundesland",
+    "postalCode": "Postleitzahl",
+    "city": "Stadt",
+    "streetAddress": "Straße und Hausnummer",
+    "create.button": "Erstellen",
+    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
+    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
+    "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
+    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein"
+  },
+
+  "ctm.notification": {
+    "error": "Fehler: {{param}}",
+    "changesSavedMsg": "Die Änderungen wurden gespeichert.",
+    "errorMissingPermissions": "Sie haben nicht die erforderlichen Berechtigungen.",
+    "csrCopiedToClipboardMsg": "{{param}} wurde in die Zwischenablage kopiert.",
+    "certRenewalFailedMsg": "Die Zertifikatverlängerung ist fehlgeschlagen!",
+    "pkcs12ExportFailedMsg": "Der PKCS12-Export ist fehlgeschlagen!",
+    "pkcs12ImportFailedMsg": "Der PKCS12-Import ist fehlgeschlagen!",
+    "pkcs12ImportSucceededMsg": "Der PKCS12-Import war erfolgreich. Sie finden die importierten Elemente unter den Registerkarten 'Zertifikate' und 'Schlüssel'.",
+    "generateSelfSignedCertFailedMsg": "Die Zertifikaterstellung ist fehlgeschlagen.",
+    "generateSelfSignedCertSucceededMsg": "Die Zertifikaterstellung war erfolgreich. Sie finden das erstellte Zertifikat unter der Registerkarte 'Zertifikate'.",
+    "createEnrollmentSucceededMsg": "Die Registrierung wurde erstellt. Sie finden die erstellte Registrierung unter der Registerkarte 'Zertifikat-Registrierungen'."
+  },
+
+  "ctm.decryptDialog": {
+    "title": "Schlüssel entschlüsseln",
+    "keyPassword": "Passwort für den Schlüssel",
+    "nameOfDecryptedKey": "Name des entschlüsselten Schlüssels",
+    "decryptKey.button": "Entschlüsseln",
+    "enterAPassword": "Geben Sie ein Passwort ein"
+  },
+
+  "ctm.generateKeyDialog": {
+    "title": "Schlüssel erstellen",
+    "name": "Name",
+    "extShort": "Erweiterung",
+    "algorithm": "Algorithmus",
+    "keyLength": "Schlüssellänge",
+    "secureKeyByHsm": "Schützen mittels HSM",
+    "generateKey.button": "Erstellen"
+  },
+
+  "ctm.importCertFileDialog": {
+    "title": "Zertifikatsdatei hochladen",
+    "fileName": "Dateiname",
+    "category": "Kategorie",
+    "upload.button": "Hochladen",
+    "selectCategory": "Wählen Sie eine Kategorie"
+  },
+
+  "ctm.importKeyFileDialog": {
+    "title": "Schlüsseldatei hochladen",
+    "fileName": "Dateiname",
+    "category": "Kategorie",
+    "upload.button": "Hochladen",
+    "selectCategory": "Wählen Sie eine Kategorie"
+  },
+
+  "ctm.renameDialog": {
+    "name": "Name",
+    "rename.button": "Umbenennen"
+  },
+
+  "ctm.certValidityPipe": {
+    "expired": "Abgelaufen",
+    "notYetValid": "Noch nicht gültig",
+    "Valid": "Gültig"
+  },
+
+  "ctm.distNameShortPipe": {
+    "commonName": "Gemeinsamer Name: {{param}}",
+    "organization": "Organisation: {{param}}"
+  },
+
+  "ctm.keyTypePipe": {
+    "private": "Privat",
+    "public": "Öffentlich"
+  },
+
+  "ctm.keyStatusPipe": {
+    "available": "Verfügbar",
+    "generating": "Wird generiert",
+    "encrypted": "Verschlüsselt"
+  },
+
+  "ctm.certRenewalDialog": {
+    "title": "Zertifikatsverlängerung",
+    "certificate": "Zertifikat:",
+    "validUntil": "Gültig bis:",
+    "pki": "PKI",
+    "privateKey": "Privater Schlüssel",
+    "renewalPeriode": "Verlängerungszeitraum vor Ende der Gültigkeit (Tage)",
+    "enterRenewalPeriode": "Der Verlängerungszeitraum muss mindestens 1 Tag betragen",
+    "renewalEnabled": "Automatische Zertifikatsverlängerung aktivieren",
+    "renewNow.button": "Jetzt verlängern",
+    "renewCertificate.title": "Jetzt verlängern",
+    "renewCertificate.confirmation": "Sind Sie sicher, dass Sie jetzt {{param}} verlängern möchten?",
+    "renew.button": "Verlängern",
+    "renewalInProgress": "wird verlängert...",
+    "selectPki": "Wählen Sie eine PKI aus",
+    "selectPrivateKey": "Wählen Sie einen privaten Schlüssel aus"
+  },
+
+  "ctm.keyNameValidator": {
+    "nameMustBeMinXChars": "Name muss mindestens {{param}} Zeichen lang sein.",
+    "nameMayNotExcceedXChars": "Name darf nicht länger als {{param}} Zeichen sein.",
+    "nameMayContainLetters": "Name kann Buchstaben [A-Z][a-z], Ziffern [0-9], '_' oder '-' enthalten.",
+    "keyXIsAlreadyExisting": "Ein Schlüssel {{param}} existiert bereits."
+  },
+
+  "ctm.revocationLists": {
+    "name": "Name",
+    "issuer": "Ausgestellt von",
+    "validSince": "Gültig seit (UTC)",
+    "nextUpdate": "Nächste Aktualisierung (UTC)",
+    "showDetails.menu": "Details anzeigen",
+    "more.tooltip": "Mehr...",
+    "uploadCrlFile.tooltip": "Sperrlistendatei hochladen",
+    "noCrlsMsg": "Keine Sperrlisten vorhanden",
+    "uploadCrlFile.button": "Sperrlistendatei hochladen",
+    "deleteRevocationList.title": "Sperrliste löschen"
+  },
+
+  "ctm.pkcs12Containers": {
+    "name": "Name",
+    "more.tooltip": "Mehr...",
+    "createPkcs12ContainerFile.tooltip": "PKCS12 Container erstellen",
+    "createPkcs12ContainerFile.button": "PKCS12 Container erstellen",
+    "uploadPkcs12ContainerFile.tooltip": "PKCS12 Containerdatei hochladen",
+    "uploadPkcs12ContainerFile.button": "PKCS12 Containerdatei hochladen",
+    "download.menu": "Herunterladen",
+    "noPkcs12ContainersMsg": "Keine PKCS12 Container verfügbar",
+    "uploadCrlFile.button": "PKCS12 Containerdatei hochladen",
+    "deletePkcs12Container.title": "PKCS12 Container löschen",
+    "importContent.menu": "Inhalt importieren"
+  },
+
+  "ctm.createPkcs12ContainerDialog": {
+    "title": "PKCS12 Container erstellen",
+    "name": "Containername",
+    "extension": "Erweiterung",
+    "clientCertToAdd": "Hinzuzufügendes Client-Zertifikat (optional)",
+    "dontAddClientCert": "Kein Client-Zertifikat hinzufügen",
+    "privKeyToAdd": "Hinzuzufügender privater Schlüssel (optional)",
+    "dontAddPrivKey": "Keinen privaten Schlüssel hinzufügen",
+    "caCertsToAdd": "Hinzuzufügende CA-Zertifikate (optional)",
+    "password": "Passwort",
+    "confirmPassword": "Bestätigen Sie das Passwort",
+    "create.button": "Erstellen",
+    "enterName": "Geben Sie einen Namen ein",
+    "nameMayContainCharacters": "Name darf folgende Zeichen enthalten: A-Z, a-z, 0-9, '_', '-'",
+    "nameAlreadyExists": "Dieser Name existiert bereits",
+    "selectClientCertOrAtLeastOneCaCert": "Wählen Sie ein Client-Zertifikat oder mindestens ein CA-Zertifikat",
+    "selectClientCertDueToKey": "Sie haben einen privater Schlüssel ausgewählt. Wählen Sie ein entsprechendes Client-Zertifikat",
+    "selectOption": "Wählen Sie ein Option",
+    "enterPassword": "Geben Sie ein Passwort ein",
+    "passwordConfMissmatch": "Die Passwortbestätigung stimmt nicht mit dem Passwort überein"
+  },
+
+  "ctm.importPkcs12ContainerDialog": {
+    "title": "PKCS12-Container importieren",
+    "containerName": "Containername",
+    "namePrefix": "Namenspräfix",
+    "password": "Passwort",
+    "import.button": "Importieren",
+    "namePrefixMayContainCharacters": "Das Namenspräfix darf folgende Zeichen enthalten: A-Z, a-z, 0-9, '_', '-'",
+    "enterPassword": "Geben Sie ein Passwort ein"
+  },
+
+  "ctm.extractCertDialog": {
+    "title": "Zertifikat extrahieren",
+    "oldName": "Zu extrahierendes Zertifikat",
+    "category": "Kategorie des extrahierten Zertifikates",
+    "selectCategory": "Wählen Sie eine Kategorie",
+    "newName": "Name des extrahierten Zertifikates",
+    "extension": "Erweiterung",
+    "extract.button": "Extrahieren"
+  },
+
+  "ctm.genSelfSignedCertDialog": {
+    "title": "Selbstsigniertes Zertifikat erstellen",
+    "name": "Name",
+    "extension": "Erweiterung",
+    "validityInDays": "Gültigkeitsdauer (Tage)",
+    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
+    "organizationOrCompanyName": "Organisation oder Unternehmen",
+    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
+    "country": "Land",
+    "stateOrProvince": "Bundesland",
+    "postalCode": "Postleitzahl",
+    "city": "Stadt",
+    "streetAddress": "Straße und Hausnummer",
+    "generate.button": "Erstellen",
+    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
+    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
+    "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
+    "enterAtLeastOneDay": "Geben Sie mindestens 1 Tag ein",
+    "enterMaxDays": "Geben Sie maximal {{param}} Tage ein",
+    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein"
+  },
+
+  "ctm.nameValidator": {
+    "errMinLen": "Geben Sie einen Namen ein",
+    "errMaxLen": "Name darf nicht länger als {{param}} Zeichen sein",
+    "errInvalidChar": "Name darf folgende Zeichen enthalten: [a-z], [A-Z], [0-9], '_', '-', '.'",
+    "errExisting": "Dieser Name existiert bereits",
+    "errNotValid": "Dieser Name ist ungültig"
+  },
+
+  "ctm.enrollCertificateDialog": {
+    "title": "Zertifikat registrieren",
+    "key": "Schlüssel",
+    "selectKey": "Wählen Sie einen Schlüssel aus",
+    "pki": "PKI",
+    "selectPki": "Wählen Sie eine PKI aus",
+    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
+    "organizationOrCompanyName": "Organisation oder Unternehmen",
+    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
+    "country": "Land",
+    "stateOrProvince": "Bundesland",
+    "postalCode": "Postleitzahl",
+    "city": "Stadt",
+    "streetAddress": "Straße und Hausnummer",
+    "enroll.button": "Registrieren",
+    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
+    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
+    "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
+    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein"
+  },
+
+  "ctm.enrollments": {
+    "requestedFor": "Angefordert für",
+    "requestedFromPki": "Angefordert von PKI",
+    "status": "Status",
+    "noEnrollmentsMsg": "Keine Zertifikats-Registrierungen vorhanden",
+    "enrollCertificate.button": "Zertifikat registrieren"
+  },
+
+  "ctm.enrollmentStatusPipe": {
+    "pending": "ausstehend",
+    "running": "läuft",
+    "done": "erledigt",
+    "failed": "fehlgeschlagen, siehe Logbuch für Details"
+  }
+
+}

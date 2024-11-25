@@ -1,0 +1,16 @@
+{
+  "certificatestores.rexroth-opcua-server.description": "Stores keys and certificates for the OPC UA Server",
+  "configuration.appDirectories.opcuaserver.description": "OPC UA Server: Endpoint configuration, limit values and certificate configuration",
+  "licenses.SWL-XCx-UAS-OPCUASERVERxx-BANN.title": "ctrlX OS License - OPC UA Server Basic ",
+  "licenses.SWL-XCx-UAS-OPCUASERVERxx-BANN.description": "Onboard free of charge OPC UA Server license Basic - limited in function",
+  "licenses.SWL-XCx-UAS-OPCUASERVERxx-NNNN.title": "ctrlX OS License - OPC UA Server Standard",
+  "licenses.SWL-XCx-UAS-OPCUASERVERxx-NNNN.description": "OPC UA Server to provide data to OPC UA Client for ctrlX OS devices",
+  "licenses.SWL-XCx-UAS-OPCUASERVERxx-ADNN.title": "ctrlX OS License - OPC UA Server Advanced (add-on)",
+  "licenses.SWL-XCx-UAS-OPCUASERVERxx-ADNN.description": "OPC UA Server with extended functionality - upgrade of OPC UA Server Standard license",
+  "scopes-declaration.rexroth-opcua-server.name": "OPC UA Server",
+  "scopes-declaration.rexroth-opcua-server.description": "Permissions for the OPC UA Server",
+  "scopes-declaration.rexroth-opcua-server.opcua.x.name": "OPC UA Server access",
+  "scopes-declaration.rexroth-opcua-server.opcua.x.description": "Access to device data via the OPC UA protocol",
+  "sidebar.opcua.1-Overview.title": "Overview",
+  "sidebar.opcua.2-Server.title": "Server"
+}

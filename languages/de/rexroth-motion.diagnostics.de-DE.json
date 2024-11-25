@@ -1,0 +1,4889 @@
+{
+  "product": "MOT-V-0206",
+  "mainDiagnostics": {
+    "080F0E00": {
+      "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560224": {
+          "text": "Inhalt der JSON-Konfigurationsdatei ist für diesen Ladevorgang ungültig",
+          "version": 1
+        },
+        "0C56022B": {
+          "text": "Das Erstellen/Löschen von Motion-Objekten für das Laden der Konfiguration ist im Zustand \"RUNNING\" nicht möglich.",
+          "version": 1
+        },
+        "0C56022C": {
+          "text": "Das Ändern/Löschen von Punktetabellen für das Laden der Konfiguration ist nicht möglich, wenn diese in Benutzung sind.",
+          "version": 1
+        },
+        "0C56022D": {
+          "text": "Das Ändern/Löschen von FlexProfile für das Laden der Konfiguration ist nicht möglich, wenn diese in Benutzung sind.",
+          "version": 1
+        },
+        "0C580040": {
+          "text": "Achsprofil-Einstellungen können nur im Konfigurationszustand geladen werden.",
+          "version": 1
+        },
+        "0C580041": {
+          "text": "Achsprofil-Einstellungen können nur im Konfigurationszustand gespeichert werden.",
+          "version": 1
+        }
+      }
+    },
+    "090A0000": {
+      "text": "Kommandierte Dynamikparameter überschreiten Achsgrenzen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        },
+        "0C550531": {
+          "text": "Achsgrenzen überschritten",
+          "version": 1
+        },
+        "0C550532": {
+          "text": "SyncCmdMode wurde geändert",
+          "version": 1
+        }
+      }
+    },
+    "090A0001": {
+      "text": "Kommandierte Dynamikparameter überschreiten Kinematikgrenzen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        }
+      }
+    },
+    "090A0002": {
+      "text": "Booten durch Konfiguration geändert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560450": {
+          "text": "Konfigurierte Achsprofile wurden ignoriert",
+          "version": 1
+        }
+      }
+    },
+    "090A0003": {
+      "text": "Motion-Objekt Fehlerstufe von der Anwendung festgelegt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570006": {
+          "text": "Fehlerstufe, die durch Aufrufen des Befehls SetErrorLevel festgelegt wurde",
+          "version": 1
+        }
+      }
+    },
+    "090A0004": {
+      "text": "Warten auf Motion-Lizenz",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560275": {
+          "text": "Warte auf Motion-Basislizenz",
+          "version": 1
+        }
+      }
+    },
+    "090A0010": {
+      "text": "Meldung im Tippkommando der Achse",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550147": {
+          "text": "Tippen wurde beendet, weil der Grenzwert der Position erreicht wurde",
+          "version": 1
+        }
+      }
+    },
+    "090A0011": {
+      "text": "Meldung im Tippkommando der Kinematik ",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550147": {
+          "text": "Tippen wurde beendet, weil der Grenzwert der Position erreicht wurde",
+          "version": 1
+        }
+      }
+    },
+    "090A0012": {
+      "text": "Meldung in der Achskonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C56024A": {
+          "text": "Ruckgrenzwerte der Achsen nur teilweise gesetzt",
+          "version": 1
+        }
+      }
+    },
+    "090A0013": {
+      "text": "Meldung in der Kinematikkonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560262": {
+          "text": "Ruckgrenzwerte der Bahn nur teilweise gesetzt",
+          "version": 1
+        }
+      }
+    },
+    "090A0020": {
+      "text": "In dieser Achse ist keine Ist-Position verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Funktion noch nicht in Steuerung implementiert",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Fehler im Achsprofil",
+          "version": 1
+        }
+      }
+    },
+    "090A0021": {
+      "text": "In dieser Achse ist keine Ist-Geschwindigkeit verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Funktion noch nicht in Steuerung implementiert",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Fehler im Achsprofil",
+          "version": 1
+        }
+      }
+    },
+    "090A0022": {
+      "text": "In dieser Achse ist keine Ist-Beschleunigung verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Funktion noch nicht in Steuerung implementiert",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Fehler im Achsprofil",
+          "version": 1
+        }
+      }
+    },
+    "090A0023": {
+      "text": "In dieser Achse ist kein Ist-Moment verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Funktion noch nicht in Steuerung implementiert",
+          "version": 1
+        },
+        "0C550248": {
+          "text": "Fehler im Achsprofil",
+          "version": 1
+        }
+      }
+    },
+    "090A0024": {
+      "text": "Keine Extrapolation der Ist-Werte verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550244": {
+          "text": "Keine Ist-Position verfügbar",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        }
+      }
+    },
+    "090A0025": {
+      "text": "In dieser Achse sind keine interpolierten Werte verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550245": {
+          "text": "Achstyp unterstützt keine Interpolation",
+          "version": 1
+        }
+      }
+    },
+    "090A0030": {
+      "text": "Achse folgt nicht den Sollwerten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C57010F": {
+          "text": "Achse kann den Sollwerten der Steuerung nicht (mehr) folgen.",
+          "version": 1
+        }
+      }
+    },
+    "090A0200": {
+      "text": "Allgemeine Meldung Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580006": {
+          "text": "Profil nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "090A0201": {
+      "text": "Meldung im Hochlauf des Achsprofils",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580700": {
+          "text": "Warte auf benötigte Feldbus-Master-Instanzen",
+          "version": 1
+        },
+        "0C580701": {
+          "text": "Alle benötigten Feldbus-Master-Instanzen sind verfügbar",
+          "version": 1
+        },
+        "0C580702": {
+          "text": "Warte, bis Feldbus-Master-Instanzen den Betriebsmodus (OP) erreicht haben",
+          "version": 1
+        },
+        "0C580703": {
+          "text": "Alle Feldbus-Master-Instanzen sind im richtigen Betriebsmodus",
+          "version": 1
+        },
+        "0C580704": {
+          "text": "Warte, bis Echtzeitspeicher des Feldbus-Masters verfügbar ist",
+          "version": 1
+        },
+        "0C580705": {
+          "text": "Echtzeitspeicher des Feldbus-Masters ist verfügbar",
+          "version": 1
+        },
+        "0C580706": {
+          "text": "Warte, bis die Task-Aufrufeinheit \"axisprofile adaption\" im Zustand \"RUN\" ist",
+          "version": 1
+        },
+        "0C580707": {
+          "text": "Validierung der Mapping-Konfiguration",
+          "version": 1
+        },
+        "0C580708": {
+          "text": "Warten, bis der Profilmanager verfügbar ist",
+          "version": 1
+        },
+        "0C580709": {
+          "text": "Profilmanager jetzt verfügbar",
+          "version": 1
+        },
+        "0C58070A": {
+          "text": "Warten auf Profilinitialisierung beendet",
+          "version": 1
+        },
+        "0C58070B": {
+          "text": "Profilinitialisierung beendet",
+          "version": 1
+        }
+      }
+    },
+    "090A02FF": {
+      "text": "Trace Nachricht common.axisprofile",
+      "version": 1
+    },
+    "090A04FF": {
+      "text": "Trace Nachricht plc.cmp.motion",
+      "version": 1
+    },
+    "090A0500": {
+      "text": "Achsgrenzen überschritten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550531": {
+          "text": "Achsgrenzen überschritten",
+          "version": 1
+        }
+      }
+    },
+    "090A0501": {
+      "text": "Befehlsmeldung zur synchronisierten Positionsbewegung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550532": {
+          "text": "SyncCmdMode wurde geändert",
+          "version": 1
+        }
+      }
+    },
+    "090A0FFC": {
+      "text": "Trace Nachricht motion.sync",
+      "version": 1
+    },
+    "090A0FFD": {
+      "text": "Trace Nachricht motion.script",
+      "version": 1
+    },
+    "090A0FFE": {
+      "text": "Trace Nachricht motion.collisionavoidance",
+      "version": 1
+    },
+    "090A0FFF": {
+      "text": "Trace Nachricht motion.core",
+      "version": 1
+    },
+    "090E0000": {
+      "text": "Kommandierte Dynamikparameter überschreiten Achsgrenzen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550530": {
+          "text": "Achsgrenzen überschritten",
+          "version": 1
+        },
+        "0C560100": {
+          "text": "Geschwindigkeitsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Beschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Verzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Ruckbeschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Ruckverzögerungsgrenzwert überschritten",
+          "version": 1
+        }
+      }
+    },
+    "090E0001": {
+      "text": "Kommandierte Dynamikparameter überschreiten Kinematikgrenzen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560100": {
+          "text": "Geschwindigkeitsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Beschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Verzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Ruckbeschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Ruckverzögerungsgrenzwert überschritten",
+          "version": 1
+        }
+      }
+    },
+    "090E0002": {
+      "text": "Gantry-Konfiguration inkonsistent",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560242": {
+          "text": "Gantry: Konfiguration für Bremsdynamik inkonsistent",
+          "version": 1
+        },
+        "0C560243": {
+          "text": "Fehlerreaktion: Bremsverzögerungszeit wird vom Gerät nicht unterstützt",
+          "version": 1
+        },
+        "0C560244": {
+          "text": "Fehlerreaktion: Bremsverzögerungszeit ist im Gerät deaktiviert",
+          "version": 1
+        },
+        "0C560245": {
+          "text": "Fehlerreaktion: Lesen der Geräteeinstellungen zur Bremsverzögerungszeit fehlgeschlagen",
+          "version": 1
+        },
+        "0C560246": {
+          "text": "Fehlerreaktion: Lesen der Geräteeinstellungen zu den dynamischen Beschränkungen der Bremsverzögerung fehlgeschlagen",
+          "version": 1
+        },
+        "0C560247": {
+          "text": "Gantry-Mehrfachbremsen-Dynamikbegrenzung ist ungleich zwischen Achse und Gerät",
+          "version": 1
+        },
+        "0C560248": {
+          "text": "Fehlerreaktion: Unterer Grenzwert der Geräte-Bremsverzögerungszeit unterschritten",
+          "version": 1
+        },
+        "0C560249": {
+          "text": "Fehlerreaktion: Oberer Grenzwert der Geräte-Bremsverzögerungszeit überschritten",
+          "version": 1
+        }
+      }
+    },
+    "090E0003": {
+      "text": "Konfigurierter Kinematik-Grenzwert erreicht.",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C56010B": {
+          "text": "Die Kommandpuffer für die Vorschau wurden aufgebraucht.",
+          "version": 1
+        }
+      }
+    },
+    "090E0010": {
+      "text": "Warnung im Tippkommando der Achse",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        }
+      }
+    },
+    "090E0011": {
+      "text": "Warnung im Tippkommando der Kinematik",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        }
+      }
+    },
+    "090E0030": {
+      "text": "Achse folgt nicht den Sollwerten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C57010F": {
+          "text": "Achse kann den Sollwerten der Steuerung nicht (mehr) folgen.",
+          "version": 1
+        }
+      }
+    },
+    "090E0200": {
+      "text": "Allgemeine Warnung im Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580035": {
+          "text": "Funktion nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "090E0201": {
+      "text": "Warnung im Hochlauf des Achsprofils",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580500": {
+          "text": "Der Hochlauf wurde abgebrochen",
+          "version": 1
+        },
+        "0C580501": {
+          "text": "Zeitüberschreitung beim Booten des Achsprofils",
+          "version": 1
+        },
+        "0C580502": {
+          "text": "Feldbus-Master ist nicht vorhanden beim Booten des Achsprofils",
+          "version": 1
+        },
+        "0C580503": {
+          "text": "Fehler im Status des Feldbus-Masters beim Booten des Achsprofils",
+          "version": 1
+        },
+        "0C580504": {
+          "text": "Slave-Gerät ist nicht vorhanden beim Booten des Achsprofils",
+          "version": 1
+        },
+        "0C580505": {
+          "text": "Fehler im Status des Slave-Geräts beim Booten des Achsprofils",
+          "version": 1
+        },
+        "0C580506": {
+          "text": "Die Task-Aufrufeinheit \"axisprofile adaption\" konnte nicht in den Zustand \"RUN\" geschaltet werden",
+          "version": 1
+        }
+      }
+    },
+    "090E02FF": {
+      "text": "Trace Warnung common.axisprofile",
+      "version": 1
+    },
+    "090E04FF": {
+      "text": "Trace Warnung plc.cmp.motion",
+      "version": 1
+    },
+    "090E0500": {
+      "text": "Warnung: Achsgrenzen überschritten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550530": {
+          "text": "Achsgrenzen überschritten",
+          "version": 1
+        }
+      }
+    },
+    "090E0512": {
+      "text": "Warnung während der dynamischen Synchronisierung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550540": {
+          "text": "Die dynamischen Grenzen während der dynamischen Synchronisation überschreiten die konfigurierten Achsgrenzen; die dynamischen Grenzen werden an die Achsgrenzen angepasst.",
+          "version": 1
+        }
+      }
+    },
+    "090E0FFC": {
+      "text": "Trace Warnung motion.sync",
+      "version": 1
+    },
+    "090E0FFD": {
+      "text": "Trace Warnung motion.script",
+      "version": 1
+    },
+    "090E0FFE": {
+      "text": "Trace Warnung motion.collisionavoidance",
+      "version": 1
+    },
+    "090E0FFF": {
+      "text": "Trace Warnung motion.core",
+      "version": 1
+    },
+    "090F0000": {
+      "text": "Allgemeiner Fehler im Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580001": {
+          "text": "Ungültiger Wert",
+          "version": 1
+        },
+        "0C580002": {
+          "text": "Null-Zeiger erkannt",
+          "version": 1
+        },
+        "0C580402": {
+          "text": "Fehler des Skalierungstyps",
+          "version": 1
+        },
+        "0C580403": {
+          "text": "Fehler des Skalierungswerts",
+          "version": 1
+        }
+      }
+    },
+    "090F0001": {
+      "text": "Konfigurationsfehler im Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580030": {
+          "text": "Ungültiger Gerätename",
+          "version": 1
+        },
+        "0C580061": {
+          "text": "\"Profil erstellen\" wurde mit ungültigem Namen aufgerufen",
+          "version": 1
+        },
+        "0C580062": {
+          "text": "\"Profil erstellen\" wurde mit ungültigem Typ aufgerufen",
+          "version": 1
+        },
+        "0C580063": {
+          "text": "\"Profil erstellen\" fehlgeschlagen, da das angeforderte Profil bereits existiert",
+          "version": 1
+        },
+        "0C580064": {
+          "text": "Anlegen des Profils ist aufgrund fehlenden Speichers fehlgeschlagen",
+          "version": 1
+        },
+        "0C580065": {
+          "text": "Anlegen des Profils ist fehlgeschlagen, da die maximale Anzahl an Profilen bereits erreicht ist",
+          "version": 1
+        },
+        "0C580071": {
+          "text": "Ungültiger Name beim Löschen des Profils",
+          "version": 1
+        },
+        "0C580072": {
+          "text": "Löschen des Profils fehlgeschlagen, da das Profil nicht gefunden werden konnte",
+          "version": 1
+        },
+        "0C580073": {
+          "text": "Löschen des Profils fehlgeschlagen, da das Profil aktuell verwendet wird",
+          "version": 1
+        },
+        "0C580080": {
+          "text": "Verbindung mit dem Profil fehlgeschlagen",
+          "version": 1
+        },
+        "0C580081": {
+          "text": "Ungültiger Name beim Verbinden mit einem Profil",
+          "version": 1
+        },
+        "0C580082": {
+          "text": "Verbinden mit Profil fehlgeschlagen, da das angeforderte Profil nicht gefunden werden konnte",
+          "version": 1
+        },
+        "0C580083": {
+          "text": "Verbinden mit Profil fehlgeschlagen, da das angeforderte Profil gerade verwendet wird",
+          "version": 1
+        },
+        "0C580090": {
+          "text": "Initialisierung der Echtzeit-Eingangs-Zuordnung fehlgeschlagen",
+          "version": 1
+        },
+        "0C580091": {
+          "text": "Initialisierung der Echtzeit-Ausgangs-Zuordnung fehlgeschlagen",
+          "version": 1
+        },
+        "0C580097": {
+          "text": "Profilvariable nicht zugeordnet",
+          "version": 1
+        }
+      }
+    },
+    "090F0002": {
+      "text": "Profilfehler im Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580098": {
+          "text": "Gewünschte Betriebsart kann nicht eingestellt werden, da sie nicht zugewiesen ist",
+          "version": 1
+        },
+        "0C580100": {
+          "text": "Ein anderer Befehl wird gerade verarbeitet",
+          "version": 1
+        },
+        "0C580101": {
+          "text": "Zeitüberschreitung während der Befehlsausführung",
+          "version": 1
+        }
+      }
+    },
+    "090F0003": {
+      "text": "Data Layer Provider-Fehler im Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580000": {
+          "text": "Funktion nicht implementiert",
+          "version": 1
+        },
+        "0C580001": {
+          "text": "Ungültiger Wert",
+          "version": 1
+        },
+        "0C580003": {
+          "text": "Inkonsistentes System",
+          "version": 1
+        },
+        "0C580004": {
+          "text": "Ungültiger Profilname",
+          "version": 1
+        },
+        "0C580005": {
+          "text": "Es wurde versucht, eine ungültige Geräteadresse zu schreiben",
+          "version": 1
+        },
+        "0C580006": {
+          "text": "Profil nicht gefunden",
+          "version": 1
+        },
+        "0C580030": {
+          "text": "Ungültiger Gerätename",
+          "version": 1
+        },
+        "0C580031": {
+          "text": "Abrufen des maximalen Hochlauf-Zeitlimits fehlgeschlagen",
+          "version": 1
+        },
+        "0C580032": {
+          "text": "Ungültige Daten der Profilkategorie",
+          "version": 1
+        },
+        "0C580050": {
+          "text": "Anfrage an den Achsprofilzustand fehlgeschlagen",
+          "version": 1
+        },
+        "0C580051": {
+          "text": "Abfrage der Bezeichnung des aktuellen Achsprofilzustands fehlgeschlagen",
+          "version": 1
+        },
+        "0C580052": {
+          "text": "Abfrage aller Bezeichnungen der Achsprofilzustände fehlgeschlagen",
+          "version": 1
+        },
+        "0C580060": {
+          "text": "Anlegen des Profils fehlgeschlagen",
+          "version": 1
+        },
+        "0C580070": {
+          "text": "Löschen des Profils fehlgeschlagen",
+          "version": 1
+        },
+        "0C580071": {
+          "text": "Ungültiger Name beim Löschen des Profils",
+          "version": 1
+        },
+        "0C580092": {
+          "text": "Konfiguration des Eingangswertes ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C580093": {
+          "text": "Konfiguration des Ausgangswertes ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C580094": {
+          "text": "Sichern und Wiederherstellen fehlgeschlagen",
+          "version": 1
+        },
+        "0C580095": {
+          "text": "Zugriff auf Profil-Eingabe-/Ausgabepuffer fehlgeschlagen",
+          "version": 1
+        },
+        "0C580096": {
+          "text": "Setzen von Profil-Eingabe-/Ausgabepuffer fehlgeschlagen",
+          "version": 1
+        },
+        "0C580200": {
+          "text": "Ungültiger Flatbuffer",
+          "version": 1
+        }
+      }
+    },
+    "090F0004": {
+      "text": "Umschaltung der Betriebsart fehlgeschlagen",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C580053": {
+          "text": "Wechsel des Achsprofilzustands nach \"Running\" fehlgeschlagen",
+          "version": 1
+        },
+        "0C580054": {
+          "text": "Achsprofil ist in Fehlerzustand",
+          "version": 1
+        }
+      }
+    },
+    "090F0005": {
+      "text": "Achsprofil-Fehler beim angeschlossenen Gerät",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580300": {
+          "text": "Betriebsart nicht korrekt konfiguriert",
+          "version": 1
+        },
+        "0C580301": {
+          "text": "Die Geräteserie ist nicht definiert",
+          "version": 1
+        }
+      }
+    },
+    "090F0006": {
+      "text": "Fehler im Achsprofil des Messtasters",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580350": {
+          "text": "Auswahl des Messtasters ist nicht vorhanden",
+          "version": 1
+        },
+        "0C580351": {
+          "text": "Ausführung des Messtasters fehlgeschlagen",
+          "version": 1
+        },
+        "0C580352": {
+          "text": "Zeitmessung des Messtasters außerhalb des Grenzwerts",
+          "version": 1
+        }
+      }
+    },
+    "090F0007": {
+      "text": "Fehler bei der Skalierung im Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580400": {
+          "text": "Fehler beim Skalierungstyp von Drehmoment/Kraft",
+          "version": 1
+        },
+        "0C580401": {
+          "text": "Inkonsistente Skalierungsart auf Antriebs- und Steuerungsseite",
+          "version": 1
+        },
+        "0C580404": {
+          "text": "FPU-Ausnahmefehler aufgetreten bei der Berechnung von Skalierungsdaten.",
+          "version": 1
+        }
+      }
+    },
+    "090F0008": {
+      "text": "Achsprofil Feldbusfehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580033": {
+          "text": "Master-Statusfehler",
+          "version": 1
+        },
+        "0C580034": {
+          "text": "Fehler im Slave-Status",
+          "version": 1
+        }
+      }
+    },
+    "090F0009": {
+      "text": "Befehlsfehler für Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580102": {
+          "text": "Ausführung des Achsprofil-Befehls fehlgeschlagen",
+          "version": 1
+        },
+        "0C580302": {
+          "text": "Möglicherweise liegt ein Konfigurationsfehler auf dem Gerät vor.",
+          "version": 1
+        }
+      }
+    },
+    "090F0010": {
+      "text": "Startfehler für Achsprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C580302": {
+          "text": "Möglicherweise liegt ein Konfigurationsfehler auf dem Gerät vor.",
+          "version": 1
+        },
+        "0C580506": {
+          "text": "Die Task-Aufrufeinheit \"axisprofile adaption\" konnte nicht in den Zustand \"RUN\" geschaltet werden",
+          "version": 1
+        }
+      }
+    },
+    "090F0050": {
+      "text": "Lizenz für aktuelle Konfiguration fehlt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55052E": {
+          "text": "Lizenz für die Funktionalität \"Kurvenscheibe\" fehlt",
+          "version": 1
+        },
+        "0C55052F": {
+          "text": "Lizenz für die Funktionalität \"Flex Profile\" fehlt",
+          "version": 1
+        },
+        "0C56020F": {
+          "text": "Aktuelle Motion-Konfiguration ungültig - Lizenz fehlt",
+          "version": 1
+        },
+        "0C560210": {
+          "text": "Motion-Basislizenz fehlt",
+          "version": 1
+        }
+      }
+    },
+    "090F0051": {
+      "text": "Fehler in der Achskonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550501": {
+          "text": "Ungültige Flatbuffer-Struktur",
+          "version": 1
+        },
+        "0C550541": {
+          "text": "Negative Werte sind für Einstellungen der dynamischen Synchronisationsgrenzwerte nicht zulässig.",
+          "version": 1
+        },
+        "0C560200": {
+          "text": "Motion-Objekt mit unbekanntem Typ erkannt",
+          "version": 1
+        },
+        "0C560230": {
+          "text": "Parameterwert zu klein",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameterwert zu groß",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameterwert außerhalb des Grenzbereichs",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Lineare Einheit benötigt",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotatorische Einheit benötigt",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Vorgegebene Einheit passt nicht zum Einheitentyp",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Angegebene Einheit wird nicht unterstützt",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Positionsminimum des Parameters ist größer als Positionsmaximum",
+          "version": 1
+        },
+        "0C560241": {
+          "text": "Konfigurierter Achstyp passt nicht zum Gerätetyp",
+          "version": 1
+        },
+        "0C56024A": {
+          "text": "Ruckgrenzwerte der Achsen nur teilweise gesetzt",
+          "version": 1
+        },
+        "0C56024B": {
+          "text": "Konfiguriertes Achsformat passt nicht zum Geräteformat (modulo/absolut)",
+          "version": 1
+        },
+        "0C56024C": {
+          "text": "Achskategorie ist ungültig",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standardeinheit für Kinematikposition (XYZ) muss eine lineare Positionseinheit sein",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standardeinheit für Kinematikorientierung muss eine rotatorische Positionseinheit sein",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standardeinheit für Kinematik-Zusatzachse muss eine Positionseinheit sein",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0052": {
+      "text": "Fehler in der Kinematikkonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550272": {
+          "text": "Fehler bei der Konfiguration der Geberachse",
+          "version": 1
+        },
+        "0C560230": {
+          "text": "Parameterwert zu klein",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameterwert zu groß",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameterwert außerhalb des Grenzbereichs",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Lineare Einheit benötigt",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotatorische Einheit benötigt",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Vorgegebene Einheit passt nicht zum Einheitentyp",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Angegebene Einheit wird nicht unterstützt",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Positionsminimum des Parameters ist größer als Positionsmaximum",
+          "version": 1
+        },
+        "0C560250": {
+          "text": "Der Kinematik sind keine Achsen zugeordnet",
+          "version": 1
+        },
+        "0C560253": {
+          "text": "Zugewiesene Achse hat einen Fehler erhalten",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standardeinheit für Kinematikposition (XYZ) muss eine lineare Positionseinheit sein",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standardeinheit für Kinematikorientierung muss eine rotatorische Positionseinheit sein",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standardeinheit für Kinematik-Zusatzachse muss eine Positionseinheit sein",
+          "version": 1
+        },
+        "0C560257": {
+          "text": "Standardeinheiten für die Position von Kinematikachsen müssen gleich sein, wenn diese dem gleichen Index zugeordnet sind",
+          "version": 1
+        },
+        "0C560258": {
+          "text": "Konfigurierte Achstransformation ist unbekannt",
+          "version": 1
+        },
+        "0C560259": {
+          "text": "Ungültiges Koordinatensystem für Schutz-/Arbeitsbereich",
+          "version": 1
+        },
+        "0C560260": {
+          "text": "Ungültiger Typ für Schutz-/Arbeitsbereich",
+          "version": 1
+        },
+        "0C560261": {
+          "text": "Ungültige Dimension für Schutz-/Arbeitsbereich in diesem Koordinatensystem",
+          "version": 1
+        },
+        "0C560262": {
+          "text": "Ruckgrenzwerte der Bahn nur teilweise gesetzt",
+          "version": 1
+        },
+        "0C560263": {
+          "text": "Ungültiger Parametergruppenname in den Achstransformationsdaten",
+          "version": 1
+        },
+        "0C560264": {
+          "text": "Ungültiger Parametername in den Achstransformationsdaten",
+          "version": 1
+        },
+        "0C560265": {
+          "text": "Ungültige Parameter in der Achstransformation",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0053": {
+      "text": "Fehler in der Konfiguration des Motion-Systems",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C560203": {
+          "text": "Erstellen und Löschen von Motion-Objekten ist nur im Zustand \"Configuration\" erlaubt",
+          "version": 1
+        },
+        "0C560204": {
+          "text": "Erstellung des Motion-Objekts fehlgeschlagen, Speicher nicht ausreichend",
+          "version": 1
+        },
+        "0C560205": {
+          "text": "Erstellung des Motion-Objekts fehlgeschlagen, Objekt existiert bereits mit dem identischen Namen",
+          "version": 1
+        },
+        "0C560206": {
+          "text": "Gleitkommafehler während der Motion-Kommandoausführung",
+          "version": 1
+        },
+        "0C560207": {
+          "text": "Initialisierung des Systems fehlgeschlagen",
+          "version": 1
+        },
+        "0C560208": {
+          "text": "Umschalten des Systems in den Zustand \"Running\" fehlgeschlagen",
+          "version": 1
+        },
+        "0C560209": {
+          "text": "Systemhochlauf fehlgeschlagen",
+          "version": 1
+        },
+        "0C56020A": {
+          "text": "Löschen des Feldgerätefehlers während des Hochlaufs fehlgeschlagen",
+          "version": 1
+        },
+        "0C56020B": {
+          "text": "Löschen des Feldgerätefehlers während des Hochlaufs wegen Zeitüberschreitung fehlgeschlagen",
+          "version": 1
+        },
+        "0C56020C": {
+          "text": "Es können keine zusätzlichen Achsen erzeugt werden, diese App besitzt eine Limitierung",
+          "version": 1
+        },
+        "0C56020D": {
+          "text": "Die Task-Aufrufeinheit \"motion\" hat während des Hochlaufs nicht den Zustand \"RUN\" erreicht",
+          "version": 1
+        },
+        "0C56020E": {
+          "text": "Die hochpriore Task-Aufrufeinheit \"motion-high-prio-prep\" hat während des Hochlaufs nicht den Zustand \"RUN\" erreicht",
+          "version": 1
+        },
+        "0C560211": {
+          "text": "Der Versuch, die Achsenkategorie zu ändern ist fehlgeschlagen, weil sich die Achse nicht im richtigen Zustand befindet",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0054": {
+      "text": "Fehler bei Sicherung oder Wiederherstellung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550606": {
+          "text": "Der angegebene Profilname ist ungültig.",
+          "version": 1
+        },
+        "0C560201": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C560202": {
+          "text": "Metadaten konnten nicht gelesen werden",
+          "version": 1
+        },
+        "0C560220": {
+          "text": "Motion-Objekt konnte nicht in einer JSON-Datei gespeichert werden",
+          "version": 1
+        },
+        "0C560222": {
+          "text": "Datei konnte nicht gelesen werden",
+          "version": 1
+        },
+        "0C560223": {
+          "text": "Datei konnte nicht geschrieben werden",
+          "version": 1
+        },
+        "0C560224": {
+          "text": "Inhalt der JSON-Konfigurationsdatei ist für diesen Ladevorgang ungültig",
+          "version": 1
+        },
+        "0C560225": {
+          "text": "Der Konfigurationsordner konnte nicht gelesen werden",
+          "version": 1
+        },
+        "0C560226": {
+          "text": "Konfigurationsordner konnte nicht gelöscht werden",
+          "version": 1
+        },
+        "0C560227": {
+          "text": "Keine Konfiguration konnte auf den \"Data Layer\" Knoten geschrieben werden",
+          "version": 1
+        },
+        "0C560228": {
+          "text": "Keine Konfiguration konnte auf dem \"Data Layer\" Knoten gelesen werden",
+          "version": 1
+        },
+        "0C560229": {
+          "text": "Eine Teilkonfiguration kann nicht außerhalb des Zustandes \"CONFIGURATION\" geladen werden",
+          "version": 1
+        },
+        "0C56022A": {
+          "text": "Ein Speichern ist nicht möglich, während sich das Motion-System im Zustand \"BOOTING\" befindet",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F0070": {
+      "text": "Fehler bei der Extrapolation der Ist-Werte",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550220": {
+          "text": "Interner Fehler - Extrapolation deaktiviert",
+          "version": 1
+        },
+        "0C550221": {
+          "text": "Keine IST-Position verfügbar - Extrapolation deaktiviert",
+          "version": 1
+        }
+      }
+    },
+    "090F0080": {
+      "text": "Allgemeiner Fehler der Geberachse",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550272": {
+          "text": "Fehler bei der Konfiguration der Geberachse",
+          "version": 1
+        }
+      }
+    },
+    "090F0081": {
+      "text": "Fehler bei der Funktion der Geberachse",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
+          "version": 1
+        },
+        "0C550360": {
+          "text": "Positioniermodus wird nicht unterstützt",
+          "version": 1
+        },
+        "0C550361": {
+          "text": "Geschwindigkeitsmodus wird nicht unterstützt",
+          "version": 1
+        },
+        "0C550362": {
+          "text": "Drehmomentmodus wird nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "090F02FF": {
+      "text": "Trace Fehler common.axisprofile",
+      "version": 1
+    },
+    "090F0400": {
+      "text": "Fehler in SPS-Daten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570450": {
+          "text": "Der Zeiger auf die SPS-Anwendung ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "090F04FF": {
+      "text": "Trace Fehler plc.cmp.motion",
+      "version": 1
+    },
+    "090F0500": {
+      "text": "Fehler beim Laden der Berechnungs-Pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550501": {
+          "text": "Ungültige Flatbuffer-Struktur",
+          "version": 1
+        },
+        "0C550502": {
+          "text": "Name der Berechnungs-Pipeline wird nicht bereitgestellt",
+          "version": 1
+        },
+        "0C550503": {
+          "text": "Fehler beim Hinzufügen eines Berechnungsschritts zur Pipeline",
+          "version": 1
+        },
+        "0C550504": {
+          "text": "Typ eines Berechnungs-Pipeline-Schritts ist nicht vorhanden",
+          "version": 1
+        },
+        "0C550505": {
+          "text": "Der definierte Typ des Berechnungsschritts ist nicht vorhanden",
+          "version": 1
+        },
+        "0C550506": {
+          "text": "Die Anzahl der definierten Eingänge stimmt nicht mit der Anzahl der Eingänge des Berechnungsschritts überein",
+          "version": 1
+        },
+        "0C550507": {
+          "text": "Eingänge für den Berechnungsschritt sind nicht vorhanden",
+          "version": 1
+        },
+        "0C550508": {
+          "text": "Der definierte Wert der Eingänge des Masters für den Berechnungsschritt ist ungültig",
+          "version": 1
+        },
+        "0C550509": {
+          "text": "Der definierte Wert für den Eingang des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C55050A": {
+          "text": "Name des Berechnungsschrittparameters ist nicht definiert",
+          "version": 1
+        },
+        "0C55050B": {
+          "text": "Name des Berechnungsschrittparameters ist nicht vorhanden",
+          "version": 1
+        },
+        "0C55050C": {
+          "text": "Ungültiger Typ des Berechnungsschrittparameters",
+          "version": 1
+        }
+      }
+    },
+    "090F0501": {
+      "text": "Fehler beim Konfigurieren der Berechnungs-Pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550501": {
+          "text": "Ungültige Flatbuffer-Struktur",
+          "version": 1
+        },
+        "0C550502": {
+          "text": "Name der Berechnungs-Pipeline wird nicht bereitgestellt",
+          "version": 1
+        },
+        "0C550503": {
+          "text": "Fehler beim Hinzufügen eines Berechnungsschritts zur Pipeline",
+          "version": 1
+        },
+        "0C550504": {
+          "text": "Typ eines Berechnungs-Pipeline-Schritts ist nicht vorhanden",
+          "version": 1
+        },
+        "0C550505": {
+          "text": "Der definierte Typ des Berechnungsschritts ist nicht vorhanden",
+          "version": 1
+        },
+        "0C550506": {
+          "text": "Die Anzahl der definierten Eingänge stimmt nicht mit der Anzahl der Eingänge des Berechnungsschritts überein",
+          "version": 1
+        },
+        "0C550507": {
+          "text": "Eingänge für den Berechnungsschritt sind nicht vorhanden",
+          "version": 1
+        },
+        "0C550508": {
+          "text": "Der definierte Wert der Eingänge des Masters für den Berechnungsschritt ist ungültig",
+          "version": 1
+        },
+        "0C550509": {
+          "text": "Der definierte Wert für den Eingang des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C55050A": {
+          "text": "Name des Berechnungsschrittparameters ist nicht definiert",
+          "version": 1
+        },
+        "0C55050B": {
+          "text": "Name des Berechnungsschrittparameters ist nicht vorhanden",
+          "version": 1
+        },
+        "0C55050C": {
+          "text": "Ungültiger Typ des Berechnungsschrittparameters",
+          "version": 1
+        }
+      }
+    },
+    "090F0502": {
+      "text": "Nichtfataler Fehler bei Validierung der Berechnungs-Pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55050D": {
+          "text": "Berechnungs-Pipeline kann nicht für die Bearbeitung gesperrt werden",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "Der Eingang des Berechnungsschritts ist mit keiner Quelle verbunden",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "Die an die Berechnungsschritteingabe angeschlossene Quelle hat einen anderen Typ",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameterwert des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C550511": {
+          "text": "Mindestens zwei Berechnungsschrittparameter, die sich gegenseitig ausschließen, sind gesetzt",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Pflichtparameter für den Berechnungsschritt ist nicht definiert",
+          "version": 1
+        },
+        "0C550513": {
+          "text": "Berechnungs-Pipeline ist keinem Ausgang zugeordnet",
+          "version": 1
+        },
+        "0C550514": {
+          "text": "Der Berechnungs-Pipeline ist mehr als ein Ausgang zugeordnet",
+          "version": 1
+        },
+        "0C550515": {
+          "text": "Bestehende zirkuläre Abhängigkeit in den Schritten der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Für die Berechnungs-Pipeline sind nicht alle Master definiert",
+          "version": 1
+        }
+      }
+    },
+    "090F0503": {
+      "text": "Nichtfataler Fehler in Achskommando \"GearInPos\"",
+      "version": 1
+    },
+    "090F0504": {
+      "text": "Nichtfataler Fehler in der Berechnungs-Pipeline",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550522": {
+          "text": "Berechnungs-Pipeline ist nicht validiert",
+          "version": 1
+        },
+        "0C550535": {
+          "text": "Eingabe mehrerer Master wird noch nicht unterstützt",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "Die absolute Einstiegsposition im FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "Die absolute Einstiegsposition in das FlexProfile ist nicht eindeutig, da ein Wechsel des Masters (Achse oder Zeit) erfolgte.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "Die negative Leitachsgeschwindigkeit ist im FlexProfile mit Bedingungen oder Zeit-Leitachsen nicht erlaubt.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "Das FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "Das FlexProfile kann nicht \"einmalig\", sondern nur \"zyklisch\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "Das FlexProfile kann nicht \"zyklisch\", sondern nur \"einmalig\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "Der angegebene Profilname ist ungültig.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "Der angleAdjust ist ungültig.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "In der Firmware ist ein Fehler bei der Berechnung des FlexProfiles aufgetreten.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "Im FlexProfile sind keine Bewegungsschritte konfiguriert.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "Es wurde ein ungültiger Leitachsabschnitt, der 0 oder negativ ist, konfiguriert.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "Die Randwerte eines Bewegungsschritts lassen sich nicht mit den Randwerten des nachfolgenden Bewegungsschritts kombinieren.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "Die Randwerte eines Bewegungsschritts sind für das gewählte Bewegungsgesetz nicht zulässig.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "Es wurde ein ungültiger Hub konfiguriert, der im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "Es wurde eine ungültige Wendepunktverschiebung konfiguriert, die im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "Es wurde eine ungültige Geradensteigung konfiguriert. Die angegebenen Anfangs- und Endgeschwindigkeiten decken sich nicht mit der Geschwindigkeit, die sich aus Hub und Leitachsabschnitt des Bewegungsschritts ergibt.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "Es wurde eine ungültige Kurvenscheiben-Punktetabelle konfiguriert. Möglicherweise enthält die Kurvenscheibe keine Punkte.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "Es wurde ein ungültiger Master-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "Die konfigurierte Endgeschwindigkeit des Bewegungssegments ist nicht gleich der Startgeschwindigkeit des nachfolgenden Segments.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "Im FlexProfile tritt ein Beschleunigungssprung auf. Die konfigurierte Endbeschleunigung eines Bewegungsschritts stimmt nicht mit der Anfangsbeschleunigung des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "Im FlexProfile tritt ein Rucksprung auf. Der konfigurierte Endruck eines Bewegungsschritts stimmt nicht mit dem Anfangsruck des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrgeschwindigkeit für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrbeschleunigung für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "Es wurde ein zu niedriger oder ungültiger Verfahrruck für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "Es wurde ein ungültiges Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "Es wurde ein ungültiger Bewegungsschritt-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In einem Bewegungsschritt, der als Flex-Schritt konfiguriert wurde, ist das gewählte Bewegungsgesetz ungültig.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Es wurden zu niedrige Bewegungsgrenzwerte (Verfahrgeschwindigkeit, -beschleunigung und/oder -ruck) für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Es wurden mehrere Flex-Schritte direkt hintereinander konfiguriert.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Auslöser-Modus konfiguriert.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Aktionsmodus konfiguriert.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "Es wurde ein FlexProfile-Event mit einem Bewegungsschritt konfiguriert, der nicht im FlexProfile vorhanden ist.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "Das FlexProfile wird editiert. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "Das FlexProfile wird ausgeführt. Ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "Das FlexProfile ist nicht validiert. Eine Ausführung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "Das FlexProfile wird validiert. Eine Ausführung oder ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "Das FlexProfile ist ungültig. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "Der Nenner der Getriebeübersetzung ist mit dem Wert 0 ungültig",
+          "version": 1
+        }
+      }
+    },
+    "090F0505": {
+      "text": "Fehler bei Aufruf Berechnungsschritt durch Data Layer",
+      "version": 1
+    },
+    "090F0506": {
+      "text": "Fehler bei Aufruf Berechnungsschritt param durch Data Layer",
+      "version": 1
+    },
+    "090F0507": {
+      "text": "MAIN_DIAG_MOTION_CORE_GEARINVEL_CMD_ERROR_F0",
+      "version": 1
+    },
+    "090F0510": {
+      "text": "Fehler in der FlexProfile-Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550602": {
+          "text": "Die negative Leitachsgeschwindigkeit ist im FlexProfile mit Bedingungen oder Zeit-Leitachsen nicht erlaubt.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "Der angegebene Profilname ist ungültig.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "Im FlexProfile sind keine Bewegungsschritte konfiguriert.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "Es wurde ein ungültiger Leitachsabschnitt, der 0 oder negativ ist, konfiguriert.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "Die Randwerte eines Bewegungsschritts lassen sich nicht mit den Randwerten des nachfolgenden Bewegungsschritts kombinieren.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "Die Randwerte eines Bewegungsschritts sind für das gewählte Bewegungsgesetz nicht zulässig.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "Es wurde ein ungültiger Hub konfiguriert, der im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "Es wurde eine ungültige Wendepunktverschiebung konfiguriert, die im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "Es wurde eine ungültige Geradensteigung konfiguriert. Die angegebenen Anfangs- und Endgeschwindigkeiten decken sich nicht mit der Geschwindigkeit, die sich aus Hub und Leitachsabschnitt des Bewegungsschritts ergibt.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "Es wurde eine ungültige Kurvenscheiben-Punktetabelle konfiguriert. Möglicherweise enthält die Kurvenscheibe keine Punkte.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "Es wurde ein ungültiger Master-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "Die konfigurierte Endgeschwindigkeit des Bewegungssegments ist nicht gleich der Startgeschwindigkeit des nachfolgenden Segments.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "Im FlexProfile tritt ein Beschleunigungssprung auf. Die konfigurierte Endbeschleunigung eines Bewegungsschritts stimmt nicht mit der Anfangsbeschleunigung des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "Im FlexProfile tritt ein Rucksprung auf. Der konfigurierte Endruck eines Bewegungsschritts stimmt nicht mit dem Anfangsruck des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrgeschwindigkeit für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrbeschleunigung für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "Es wurde ein zu niedriger oder ungültiger Verfahrruck für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "Es wurde ein ungültiges Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "Es wurde ein ungültiger Bewegungsschritt-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In einem Bewegungsschritt, der als Flex-Schritt konfiguriert wurde, ist das gewählte Bewegungsgesetz ungültig.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Es wurden zu niedrige Bewegungsgrenzwerte (Verfahrgeschwindigkeit, -beschleunigung und/oder -ruck) für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Es wurden mehrere Flex-Schritte direkt hintereinander konfiguriert.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Auslöser-Modus konfiguriert.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Aktionsmodus konfiguriert.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "Es wurde ein FlexProfile-Event mit einem Bewegungsschritt konfiguriert, der nicht im FlexProfile vorhanden ist.",
+          "version": 1
+        },
+        "0C550625": {
+          "text": "Im FlexProfile wurden mehr FlexProfile-Events konfiguriert, als maximal zulässig sind.",
+          "version": 1
+        },
+        "0C550626": {
+          "text": "Im FlexProfile wurden mehr Bewegungsschritte konfiguriert, als maximal zulässig sind.",
+          "version": 1
+        },
+        "0C550629": {
+          "text": "Die referenzierte Kurvenscheibe existiert nicht.",
+          "version": 1
+        }
+      }
+    },
+    "090F0511": {
+      "text": "Falscher Zustand im FlexProfile",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550620": {
+          "text": "Das FlexProfile wird editiert. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "Das FlexProfile wird ausgeführt. Ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "Das FlexProfile ist nicht validiert. Eine Ausführung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "Das FlexProfile wird validiert. Eine Ausführung oder ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "Das FlexProfile ist ungültig. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        }
+      }
+    },
+    "090F0512": {
+      "text": "Fehler im Achskommando \"CamIn\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550629": {
+          "text": "Die referenzierte Kurvenscheibe existiert nicht.",
+          "version": 1
+        },
+        "0C550631": {
+          "text": "Warten auf die Schaltposition. Solange kann kein weiteres CamIn-Kommando ausgeführt werden.",
+          "version": 1
+        }
+      }
+    },
+    "090F0FFC": {
+      "text": "Trace Fehler motion.sync",
+      "version": 1
+    },
+    "090F0FFD": {
+      "text": "Trace Fehler motion.script",
+      "version": 1
+    },
+    "090F0FFE": {
+      "text": "Trace Fehler motion.collisionavoidance",
+      "version": 1
+    },
+    "090F0FFF": {
+      "text": "Trace Fehler motion.core",
+      "version": 1
+    },
+    "090F2000": {
+      "text": "Gerätefehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550001": {
+          "text": "Fehler Feldgerät",
+          "version": 1
+        },
+        "0C550102": {
+          "text": "Gerätefehler - Ermitteln der Positionsdaten fehlgeschlagen",
+          "version": 1
+        },
+        "0C560245": {
+          "text": "Fehlerreaktion: Lesen der Geräteeinstellungen zur Bremsverzögerungszeit fehlgeschlagen",
+          "version": 1
+        },
+        "0C560246": {
+          "text": "Fehlerreaktion: Lesen der Geräteeinstellungen zu den dynamischen Beschränkungen der Bremsverzögerung fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2001": {
+      "text": "Allgemeiner Kommandofehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570000": {
+          "text": "Befehl weder im Zustand \"active\" noch \"done\"",
+          "version": 1
+        },
+        "0C570003": {
+          "text": "Kommando konnte nicht ausgeführt werden, weil diese Version nicht Export-genehmigungspflichtig ist und mehr als 4 Achsen interpoliert werden sollen",
+          "version": 1
+        },
+        "0C570004": {
+          "text": "Unbehandelte Ausnahme in Gleitkommaberechnung erkannt",
+          "version": 1
+        },
+        "0C570005": {
+          "text": "Positionsgrenzwert der Achse überschritten",
+          "version": 1
+        },
+        "0C570008": {
+          "text": "Kommandovorbereitung braucht zu lange und aktives Kommando endet mit Geschwindigkeit <> 0",
+          "version": 1
+        },
+        "0C570009": {
+          "text": "Kommandierter Ruckgrenzwert ist nur teilweise gesetzt",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C57010B": {
+          "text": "Funktion nicht implementiert",
+          "version": 1
+        }
+      }
+    },
+    "090F2002": {
+      "text": "Allgemeiner Achskommandofehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550100": {
+          "text": "Geräte-Reset fehlgeschlagen",
+          "version": 1
+        },
+        "0C550101": {
+          "text": "Gerätefehler - Zuschalten der Leistung fehlgeschlagen",
+          "version": 1
+        },
+        "0C550270": {
+          "text": "Genereller Fehler der Achse des Encoders",
+          "version": 1
+        },
+        "0C550271": {
+          "text": "Befehl für Encoder-Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C560000": {
+          "text": "Achse für Achsbefehl nicht gefunden",
+          "version": 1
+        },
+        "0C560001": {
+          "text": "Nicht ausreichend Speicher für den Befehl (oder zu viele ungepufferte Befehle)",
+          "version": 1
+        },
+        "0C560278": {
+          "text": "Gleitkommafehler während der Überprüfung der Endschalter.",
+          "version": 1
+        },
+        "0C560279": {
+          "text": "Gleitkommafehler während der Sollwertübertragung zum Feldgerät.",
+          "version": 1
+        },
+        "0C56027A": {
+          "text": "Gleitkommafehler während der Datenerfassung vom Feldgerät.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C570103": {
+          "text": "Initialisierung des Befehls fehlgeschlagen",
+          "version": 1
+        },
+        "0C570105": {
+          "text": "Kommandierung während Fehlerreaktion nicht erlaubt",
+          "version": 1
+        },
+        "0C570106": {
+          "text": "Kein add_cmd während eines Reset",
+          "version": 1
+        },
+        "0C570107": {
+          "text": "Befehl nicht erlaubt",
+          "version": 1
+        },
+        "0C570108": {
+          "text": "Befehl ohne Frame",
+          "version": 1
+        },
+        "0C57010F": {
+          "text": "Achse kann den Sollwerten der Steuerung nicht (mehr) folgen.",
+          "version": 1
+        },
+        "0C570153": {
+          "text": "In der Ausführung eines Zusatzkommandos ist ein Fehler in der Gleitkommaberechnung aufgetreten.",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2003": {
+      "text": "Fehler im Achskommando \"AddToKin\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550110": {
+          "text": "Parameterfehler - Angeforderte Kinematik existiert nicht",
+          "version": 1
+        },
+        "0C550112": {
+          "text": "Folgeachskonfiguration fehlt",
+          "version": 1
+        },
+        "0C550113": {
+          "text": "Ungültige Konfiguration gefunden",
+          "version": 1
+        },
+        "0C550114": {
+          "text": "Mehrfache Achszuordnung",
+          "version": 1
+        },
+        "0C550120": {
+          "text": "Achse oder Kinematik sind aktuell noch in Bewegung",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C57010A": {
+          "text": "Ein anderer Befehl ist noch aktiv",
+          "version": 1
+        },
+        "0C57010C": {
+          "text": "Unzulässiger Achstyp",
+          "version": 1
+        }
+      }
+    },
+    "090F2004": {
+      "text": "Fehler im Achskommando \"RemoveFromKin\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550110": {
+          "text": "Parameterfehler - Angeforderte Kinematik existiert nicht",
+          "version": 1
+        },
+        "0C550120": {
+          "text": "Achse oder Kinematik sind aktuell noch in Bewegung",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        }
+      }
+    },
+    "090F2005": {
+      "text": "Fehler im Achskommando \"AddToMaster\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550130": {
+          "text": "Achse ist bereits Folgeachse einer Leitachse",
+          "version": 1
+        }
+      }
+    },
+    "090F2006": {
+      "text": "Grenzwert der Achse überschritten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560100": {
+          "text": "Geschwindigkeitsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Beschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Verzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Ruckbeschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Ruckverzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560105": {
+          "text": "Grenzwert von \"TargetPos\" überschritten",
+          "version": 1
+        },
+        "0C560106": {
+          "text": "Minimaler Grenzwert von \"TargetPos\" überschritten",
+          "version": 1
+        },
+        "0C560107": {
+          "text": "Maximaler Grenzwert von TargetPos überschritten",
+          "version": 1
+        },
+        "0C56024A": {
+          "text": "Ruckgrenzwerte der Achsen nur teilweise gesetzt",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570161": {
+          "text": "Ungültige Einheit für den kommandierten Geschwindigkeitsgrenzwert konfiguriert",
+          "version": 1
+        },
+        "0C570162": {
+          "text": "Ungültige Einheit für den kommandierten Beschleunigungs-/Verzögerungsgrenzwert konfiguriert",
+          "version": 1
+        },
+        "0C570163": {
+          "text": "Ungültige Einheit für den kommandierten Ruckgrenzwert konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2007": {
+      "text": "Fehler im Achstippkommando",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550140": {
+          "text": "Ungültiges Jog-Inkrement",
+          "version": 1
+        },
+        "0C550141": {
+          "text": "Kontinuierliches Tippen besitzt gesetzten Schrittweiten-Parameter",
+          "version": 1
+        },
+        "0C550142": {
+          "text": "Länge des Richtungsvektors ist 0",
+          "version": 1
+        },
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2008": {
+      "text": "Fehler im Achs-Gantry-Kommando",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550150": {
+          "text": "Gantry-Befehle sind nur erlaubt, wenn die Achse als Gantry-Objekt konfiguriert ist",
+          "version": 1
+        },
+        "0C550151": {
+          "text": "Befehl ist nicht für die Gantry-Leitachse erlaubt (wenn Folgeachse verbunden ist)",
+          "version": 1
+        },
+        "0C550152": {
+          "text": "Befehl ist nicht für die Gantry-Folgeachse erlaubt (wenn Folgeachse verbunden ist)",
+          "version": 1
+        },
+        "0C550153": {
+          "text": "Befehl ist nicht für das Gantry-Objekt erlaubt, wenn dieses Objekt nicht verbunden ist",
+          "version": 1
+        },
+        "0C550154": {
+          "text": "Befehl ist nicht für das Gantry-Objekt erlaubt, wenn dieses Objekt nicht verbunden ist (auch wenn unabhängige Bewegung erlaubt ist)",
+          "version": 1
+        },
+        "0C550156": {
+          "text": "Gantry-Folgeachse hat einen Fehler, der zur Gantry-Leitachse kopiert wird",
+          "version": 1
+        },
+        "0C550157": {
+          "text": "Gantry-Leitachse hat einen Fehler, der zur Gantry-Folgeachse kopiert wird",
+          "version": 1
+        },
+        "0C550159": {
+          "text": "Gantry-Leitachse folgt den Sollwerten der Steuerung nicht (mehr)",
+          "version": 1
+        },
+        "0C55015A": {
+          "text": "Gantry-Folgeachse folgt den Sollwerten der Steuerung nicht (mehr)",
+          "version": 1
+        }
+      }
+    },
+    "090F2009": {
+      "text": "Fehler im Achskommando \"AddToGantry\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550155": {
+          "text": "Angeforderte Gantry-Leitachse existiert nicht",
+          "version": 1
+        },
+        "0C550158": {
+          "text": "Achse oder Gantry bewegen sich noch",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C57010A": {
+          "text": "Ein anderer Befehl ist noch aktiv",
+          "version": 1
+        },
+        "0C57010C": {
+          "text": "Unzulässiger Achstyp",
+          "version": 1
+        }
+      }
+    },
+    "090F200A": {
+      "text": "Fehler im Achskommando \"RemoveFromGantry\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550158": {
+          "text": "Achse oder Gantry bewegen sich noch",
+          "version": 1
+        },
+        "0C55015B": {
+          "text": "Parameterfehler - Angeforderte Gantry-Leitachse existiert nicht",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        }
+      }
+    },
+    "090F200B": {
+      "text": "Fehler in Achskonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560200": {
+          "text": "Motion-Objekt mit unbekanntem Typ erkannt",
+          "version": 1
+        },
+        "0C560230": {
+          "text": "Parameterwert zu klein",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameterwert zu groß",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameterwert außerhalb des Grenzbereichs",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Lineare Einheit benötigt",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotatorische Einheit benötigt",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Vorgegebene Einheit passt nicht zum Einheitentyp",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Angegebene Einheit wird nicht unterstützt",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Positionsminimum des Parameters ist größer als Positionsmaximum",
+          "version": 1
+        },
+        "0C560241": {
+          "text": "Konfigurierter Achstyp passt nicht zum Gerätetyp",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standardeinheit für Kinematikposition (XYZ) muss eine lineare Positionseinheit sein",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standardeinheit für Kinematikorientierung muss eine rotatorische Positionseinheit sein",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standardeinheit für Kinematik-Zusatzachse muss eine Positionseinheit sein",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F200C": {
+      "text": "Allgemeiner Achskommandofehler",
+      "version": 1
+    },
+    "090F200D": {
+      "text": "Fehler im Abbruchkommando der Achse",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Verzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Ruckverzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C57010D": {
+          "text": "Fehler bei der Berechnung der Interpolationsparameter",
+          "version": 1
+        }
+      }
+    },
+    "090F200E": {
+      "text": "Fehler in Achskommando Reset",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550100": {
+          "text": "Geräte-Reset fehlgeschlagen",
+          "version": 1
+        },
+        "0C550160": {
+          "text": "Zeitüberschreitung beim Warten auf die Kommandovorbereitung",
+          "version": 1
+        },
+        "0C550161": {
+          "text": "Zeitüberschreitung beim Löschen des Gerätefehlers",
+          "version": 1
+        },
+        "0C550162": {
+          "text": "Zeitüberschreitung beim Löschen der Motion-Diagnose",
+          "version": 1
+        },
+        "0C550163": {
+          "text": "Zeitüberschreitung beim Zurücksetzen des Achsobjekts",
+          "version": 1
+        },
+        "0C550164": {
+          "text": "Achse kann nicht zurückgesetzt werden, da ein systemweiter Fehler (F6 oder schlimmer) ansteht",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F200F": {
+      "text": "Fehler im Achskommando MoveVelocity",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Geschwindigkeit nicht",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Zyklische Daten für Betriebsart Geschwindigkeit im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550172": {
+          "text": "Kommandierte Zielgeschwindigkeit größer als konfigurierter Achsgrenzwert",
+          "version": 1
+        },
+        "0C550173": {
+          "text": "Kommandierte Zielgeschwindigkeit größer als kommandierter Grenzwert",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2010": {
+      "text": "Fehler in Kinematikkonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560230": {
+          "text": "Parameterwert zu klein",
+          "version": 1
+        },
+        "0C560231": {
+          "text": "Parameterwert zu groß",
+          "version": 1
+        },
+        "0C560232": {
+          "text": "Parameterwert außerhalb des Grenzbereichs",
+          "version": 1
+        },
+        "0C560233": {
+          "text": "Lineare Einheit benötigt",
+          "version": 1
+        },
+        "0C560234": {
+          "text": "Rotatorische Einheit benötigt",
+          "version": 1
+        },
+        "0C560235": {
+          "text": "Vorgegebene Einheit passt nicht zum Einheitentyp",
+          "version": 1
+        },
+        "0C560236": {
+          "text": "Angegebene Einheit wird nicht unterstützt",
+          "version": 1
+        },
+        "0C560240": {
+          "text": "Positionsminimum des Parameters ist größer als Positionsmaximum",
+          "version": 1
+        },
+        "0C560250": {
+          "text": "Der Kinematik sind keine Achsen zugeordnet",
+          "version": 1
+        },
+        "0C560253": {
+          "text": "Zugewiesene Achse hat einen Fehler erhalten",
+          "version": 1
+        },
+        "0C560254": {
+          "text": "Standardeinheit für Kinematikposition (XYZ) muss eine lineare Positionseinheit sein",
+          "version": 1
+        },
+        "0C560255": {
+          "text": "Standardeinheit für Kinematikorientierung muss eine rotatorische Positionseinheit sein",
+          "version": 1
+        },
+        "0C560256": {
+          "text": "Standardeinheit für Kinematik-Zusatzachse muss eine Positionseinheit sein",
+          "version": 1
+        },
+        "0C560257": {
+          "text": "Standardeinheiten für die Position von Kinematikachsen müssen gleich sein, wenn diese dem gleichen Index zugeordnet sind",
+          "version": 1
+        },
+        "0C560258": {
+          "text": "Konfigurierte Achstransformation ist unbekannt",
+          "version": 1
+        },
+        "0C560259": {
+          "text": "Ungültiges Koordinatensystem für Schutz-/Arbeitsbereich",
+          "version": 1
+        },
+        "0C560260": {
+          "text": "Ungültiger Typ für Schutz-/Arbeitsbereich",
+          "version": 1
+        },
+        "0C560261": {
+          "text": "Ungültige Dimension für Schutz-/Arbeitsbereich in diesem Koordinatensystem",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2011": {
+      "text": "Allgemeiner Kinematikkommandofehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560001": {
+          "text": "Nicht ausreichend Speicher für den Befehl (oder zu viele ungepufferte Befehle)",
+          "version": 1
+        },
+        "0C560050": {
+          "text": "Kinematik für Kinematikbefehl wurde nicht gefunden",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C570102": {
+          "text": "Registrieren der Ausgänge fehlgeschlagen",
+          "version": 1
+        },
+        "0C570103": {
+          "text": "Initialisierung des Befehls fehlgeschlagen",
+          "version": 1
+        },
+        "0C570105": {
+          "text": "Kommandierung während Fehlerreaktion nicht erlaubt",
+          "version": 1
+        },
+        "0C570108": {
+          "text": "Befehl ohne Frame",
+          "version": 1
+        },
+        "0C570109": {
+          "text": "Hinzufügen des Kommandos in die Kommandovorbereitung fehlgeschlagen",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C5701A1": {
+          "text": "Hinzufügen des Kommandos in die Kommandoausführung fehlgeschlagen",
+          "version": 1
+        },
+        "0C5701A2": {
+          "text": "Kinematik-Motion-Objekt hat einen Fehler, der in die Kinematikachse kopiert wird",
+          "version": 1
+        }
+      }
+    },
+    "090F2012": {
+      "text": "Grenzwert der Kinematik überschritten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560100": {
+          "text": "Geschwindigkeitsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560101": {
+          "text": "Beschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Verzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560103": {
+          "text": "Ruckbeschleunigungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Ruckverzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560105": {
+          "text": "Grenzwert von \"TargetPos\" überschritten",
+          "version": 1
+        },
+        "0C560106": {
+          "text": "Minimaler Grenzwert von \"TargetPos\" überschritten",
+          "version": 1
+        },
+        "0C560107": {
+          "text": "Maximaler Grenzwert von TargetPos überschritten",
+          "version": 1
+        },
+        "0C560108": {
+          "text": "Grenzwert von PreCornerDistance überschritten",
+          "version": 1
+        },
+        "0C560109": {
+          "text": "Grenzwert von PostCornerDistance überschritten",
+          "version": 1
+        },
+        "0C56010A": {
+          "text": "Höchstzulässige Toleranzgrenze (EPS) überschritten",
+          "version": 1
+        },
+        "0C560262": {
+          "text": "Ruckgrenzwerte der Bahn nur teilweise gesetzt",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570161": {
+          "text": "Ungültige Einheit für den kommandierten Geschwindigkeitsgrenzwert konfiguriert",
+          "version": 1
+        },
+        "0C570162": {
+          "text": "Ungültige Einheit für den kommandierten Beschleunigungs-/Verzögerungsgrenzwert konfiguriert",
+          "version": 1
+        },
+        "0C570163": {
+          "text": "Ungültige Einheit für den kommandierten Ruckgrenzwert konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2013": {
+      "text": "Fehler im Kinematiktippkommando",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550120": {
+          "text": "Achse oder Kinematik sind aktuell noch in Bewegung",
+          "version": 1
+        },
+        "0C550141": {
+          "text": "Kontinuierliches Tippen besitzt gesetzten Schrittweiten-Parameter",
+          "version": 1
+        },
+        "0C550142": {
+          "text": "Länge des Richtungsvektors ist 0",
+          "version": 1
+        },
+        "0C550143": {
+          "text": "Schrittweite ist 0 (oder weniger)",
+          "version": 1
+        },
+        "0C550144": {
+          "text": "Schrittweite ist mehr als 100m",
+          "version": 1
+        },
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        },
+        "0C550146": {
+          "text": "Tippbefehl ist nicht erlaubt, wenn der aktive Befehl nicht fertig abgearbeitet ist",
+          "version": 1
+        },
+        "0C550148": {
+          "text": "Jog-Richtungsvektor beinhaltet ausschließlich nicht vorhandene Achsen/Koordinaten.",
+          "version": 1
+        },
+        "0C550230": {
+          "text": "Positionierachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Zusatzachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientierung wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Verschiedene Orientierungen wurden kommandiert",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Kommandierte Achsbedeutung wird für die Kinematik nicht unterstützt",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Kommandierte Zusatzachse ist der Kinematik nicht zugewiesen",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Kommandierte Positionsachse ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Kommandierte Orientierung ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Kommandierte Positionierachse wird von der Achstransformation nicht unterstützt",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variante der Zusatzachse wird nicht unterstützt",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Kommandierte Orientierung wird nicht unterstützt",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C5701A0": {
+          "text": "Befehlsvorbereitung fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2014": {
+      "text": "Fehler im Grob-Interpolator-Kommando der Kinematik",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560120": {
+          "text": "Grob-Interpolator war nicht initialisiert",
+          "version": 1
+        },
+        "0C560121": {
+          "text": "Fehler bei der Initialisierung des Grob-Interpolators",
+          "version": 1
+        },
+        "0C560122": {
+          "text": "Mathematischer Fehler im Grob-Interpolator",
+          "version": 1
+        },
+        "0C560123": {
+          "text": "Grob-Interpolator konvergierte nicht",
+          "version": 1
+        },
+        "0C560124": {
+          "text": "Fehler im Grob-Interpolator beim Erzeugen der Zonen.",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2015": {
+      "text": "Fehler im zusätzlichen Kommandokanal",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570150": {
+          "text": "Das aktive Kommando konnte nicht durch ein paralleles zusätzliches Kommando abgebrochen werden",
+          "version": 1
+        },
+        "0C570151": {
+          "text": "Zusätzlicher Ausführungsbefehl ist undefiniert (nullptr)",
+          "version": 1
+        },
+        "0C570152": {
+          "text": "Zusätzlicher Ausführungsbefehl wird bereits verwendet",
+          "version": 1
+        }
+      }
+    },
+    "090F2016": {
+      "text": "Allgemeiner Kommandofehler",
+      "version": 1
+    },
+    "090F2017": {
+      "text": "Override-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550400": {
+          "text": "Override setzen: Eingestellter Wert ist keine Nummer",
+          "version": 1
+        },
+        "0C550401": {
+          "text": "Override setzen: Eingestellter Wert ist nicht im Bereich [0; 1]",
+          "version": 1
+        }
+      }
+    },
+    "090F2018": {
+      "text": "Fehler im Kinematikkommando \"Group\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550200": {
+          "text": "GroupEnable: Verbundene Achse hat keine Leistung",
+          "version": 1
+        }
+      }
+    },
+    "090F2019": {
+      "text": "Fehler im Kinematikkommando \"Move\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550210": {
+          "text": "Die Kinematik darf sich nicht bewegen, weil die Gantry-Leitachse der Kinematikachse keine Folgeachse hat",
+          "version": 1
+        },
+        "0C550211": {
+          "text": "Ungültiges Koordinatensystem für die Zielposition",
+          "version": 1
+        },
+        "0C550230": {
+          "text": "Positionierachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Zusatzachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientierung wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Verschiedene Orientierungen wurden kommandiert",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Kommandierte Achsbedeutung wird für die Kinematik nicht unterstützt",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Kommandierte Zusatzachse ist der Kinematik nicht zugewiesen",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Kommandierte Positionsachse ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Kommandierte Orientierung ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Kommandierte Positionierachse wird von der Achstransformation nicht unterstützt",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variante der Zusatzachse wird nicht unterstützt",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Kommandierte Orientierung wird nicht unterstützt",
+          "version": 1
+        },
+        "0C550340": {
+          "text": "Kommandierte Bahn zu lange sehr nah an Kinematik-Singularität für automatische Umgehung",
+          "version": 1
+        },
+        "0C550341": {
+          "text": "Automatische Behandlung einer Kinematik-Singularität führt zu großer Bahnabweichung",
+          "version": 1
+        },
+        "0C570003": {
+          "text": "Kommando konnte nicht ausgeführt werden, weil diese Version nicht Export-genehmigungspflichtig ist und mehr als 4 Achsen interpoliert werden sollen",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F201A": {
+      "text": "Fehler im Kinematikkommando \"Contour\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570220": {
+          "text": "Kontur-\"Start\" wurde zweimal hintereinander kommandiert",
+          "version": 1
+        },
+        "0C570221": {
+          "text": "Kontur-\"Ende\" ohne vorherigen Kontur-\"Start\" kommandiert",
+          "version": 1
+        }
+      }
+    },
+    "090F201B": {
+      "text": "Fehler im Geometrie-Objekt der Kinematik",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550230": {
+          "text": "Positionierachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Zusatzachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientierung wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Verschiedene Orientierungen wurden kommandiert",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Kommandierte Achsbedeutung wird für die Kinematik nicht unterstützt",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Kommandierte Zusatzachse ist der Kinematik nicht zugewiesen",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Kommandierte Positionsachse ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Kommandierte Orientierung ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Kommandierte Positionierachse wird von der Achstransformation nicht unterstützt",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variante der Zusatzachse wird nicht unterstützt",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Kommandierte Orientierung wird nicht unterstützt",
+          "version": 1
+        },
+        "0C55023B": {
+          "text": "Mehrfache Kommandierung eines Richtungsattributs für die Orientierungsbewegung.",
+          "version": 1
+        },
+        "0C55023C": {
+          "text": "Richtungsattribut ist unzulässig für 2D-/3D-Orientierungsbewegung.",
+          "version": 1
+        }
+      }
+    },
+    "090F201C": {
+      "text": "Fehler im Kinematikkommando \"PreWait\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560490": {
+          "text": "Kommando \"PreWait\" nicht möglich, weil Kommando \"KinContour\" aktiv ist",
+          "version": 1
+        }
+      }
+    },
+    "090F201D": {
+      "text": "Fehler in der Jobliste der Rückwärtstransformation",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604A1": {
+          "text": "Positionsgrenzwert der Achstransformation überschritten",
+          "version": 1
+        },
+        "0C5604A2": {
+          "text": "Zwischenposition von der Achstransformation nicht erreichbar",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "Allgemeiner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "090F201E": {
+      "text": "Fehler in der Jobliste der Vorwärtstransformation",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604A1": {
+          "text": "Positionsgrenzwert der Achstransformation überschritten",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "Allgemeiner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "090F201F": {
+      "text": "Fehler im Kinematikkommando \"Circular\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604B1": {
+          "text": "2D-Kreis benötigt eine aktive Ebene.",
+          "version": 1
+        },
+        "0C5604B2": {
+          "text": "2D-Kreis unterstützt nicht den Kinematik-Kommandotyp.",
+          "version": 1
+        },
+        "0C5604B3": {
+          "text": "Kommandierte Kreisparameter schließen sich gegenseitig aus.",
+          "version": 1
+        },
+        "0C5604B4": {
+          "text": "Ungültiger Kreisparameter programmiert.",
+          "version": 1
+        },
+        "0C5604B5": {
+          "text": "Ungültiger Radius kommandiert.",
+          "version": 1
+        },
+        "0C5604B6": {
+          "text": "Ungültiger Mittelpunkt kommandiert.",
+          "version": 1
+        },
+        "0C5604B7": {
+          "text": "Ungültiger Wert für Umdrehungen kommandiert.",
+          "version": 1
+        },
+        "0C5604B8": {
+          "text": "Startpunkt und Endpunkt sind identisch: Radiusprogrammierung nicht erlaubt.",
+          "version": 1
+        },
+        "0C5604B9": {
+          "text": "Punkte auf einer Geraden kommandiert.",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2020": {
+      "text": "Fehler in der Konfiguration des Motion-Systems",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C560203": {
+          "text": "Erstellen und Löschen von Motion-Objekten ist nur im Zustand \"Configuration\" erlaubt",
+          "version": 1
+        },
+        "0C560204": {
+          "text": "Erstellung des Motion-Objekts fehlgeschlagen, Speicher nicht ausreichend",
+          "version": 1
+        },
+        "0C560205": {
+          "text": "Erstellung des Motion-Objekts fehlgeschlagen, Objekt existiert bereits mit dem identischen Namen",
+          "version": 1
+        },
+        "0C560206": {
+          "text": "Gleitkommafehler während der Motion-Kommandoausführung",
+          "version": 1
+        },
+        "0C560207": {
+          "text": "Initialisierung des Systems fehlgeschlagen",
+          "version": 1
+        },
+        "0C560208": {
+          "text": "Umschalten des Systems in den Zustand \"Running\" fehlgeschlagen",
+          "version": 1
+        },
+        "0C560209": {
+          "text": "Systemhochlauf fehlgeschlagen",
+          "version": 1
+        },
+        "0C56020A": {
+          "text": "Löschen des Feldgerätefehlers während des Hochlaufs fehlgeschlagen",
+          "version": 1
+        },
+        "0C56020B": {
+          "text": "Löschen des Feldgerätefehlers während des Hochlaufs wegen Zeitüberschreitung fehlgeschlagen",
+          "version": 1
+        },
+        "0C56020C": {
+          "text": "Es können keine zusätzlichen Achsen erzeugt werden, diese App besitzt eine Limitierung",
+          "version": 1
+        },
+        "0C56020D": {
+          "text": "Die Task-Aufrufeinheit \"motion\" hat während des Hochlaufs nicht den Zustand \"RUN\" erreicht",
+          "version": 1
+        },
+        "0C56020E": {
+          "text": "Die hochpriore Task-Aufrufeinheit \"motion-high-prio-prep\" hat während des Hochlaufs nicht den Zustand \"RUN\" erreicht",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2021": {
+      "text": "Fehler bei Sicherung oder Wiederherstellung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C560202": {
+          "text": "Metadaten konnten nicht gelesen werden",
+          "version": 1
+        },
+        "0C560220": {
+          "text": "Motion-Objekt konnte nicht in einer JSON-Datei gespeichert werden",
+          "version": 1
+        },
+        "0C560222": {
+          "text": "Datei konnte nicht gelesen werden",
+          "version": 1
+        },
+        "0C560223": {
+          "text": "Datei konnte nicht geschrieben werden",
+          "version": 1
+        },
+        "0C560224": {
+          "text": "Inhalt der JSON-Konfigurationsdatei ist für diesen Ladevorgang ungültig",
+          "version": 1
+        },
+        "0C560225": {
+          "text": "Der Konfigurationsordner konnte nicht gelesen werden",
+          "version": 1
+        },
+        "0C560226": {
+          "text": "Konfigurationsordner konnte nicht gelöscht werden",
+          "version": 1
+        },
+        "0C560227": {
+          "text": "Keine Konfiguration konnte auf den \"Data Layer\" Knoten geschrieben werden",
+          "version": 1
+        },
+        "0C560228": {
+          "text": "Keine Konfiguration konnte auf dem \"Data Layer\" Knoten gelesen werden",
+          "version": 1
+        },
+        "0C560229": {
+          "text": "Eine Teilkonfiguration kann nicht außerhalb des Zustandes \"CONFIGURATION\" geladen werden",
+          "version": 1
+        },
+        "0C56022A": {
+          "text": "Ein Speichern ist nicht möglich, während sich das Motion-System im Zustand \"BOOTING\" befindet",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2022": {
+      "text": "Fehler im Kinematik-Interpolator IVAJ.",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5604C0": {
+          "text": "Fehler in der Vorbereitung des Interpolators.",
+          "version": 1
+        },
+        "0C5604C1": {
+          "text": "Fehler in der Ausführung des Interpolators.",
+          "version": 1
+        }
+      }
+    },
+    "090F2030": {
+      "text": "Fehler in Kommandooptionen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C5701B0": {
+          "text": "Fehler in der Kommandooptionsverarbeitung",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Parameter für Befehlsoption ist ungültig",
+          "version": 1
+        },
+        "0C5701B2": {
+          "text": "Es ist eine Kommandooption vom selben Typ aktiv, von welcher keine Daten gelesen werden konnten",
+          "version": 1
+        }
+      }
+    },
+    "090F2031": {
+      "text": "Fehler in Kommandooption \"Überschleifen\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550300": {
+          "text": "Befehlsoption \"Überschleifen\" - Negative Werte für Entfernung 1/Entfernung 2",
+          "version": 1
+        },
+        "0C550301": {
+          "text": "Befehlsoption \"Überschleifen\" - Fehler in Berechnung",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Parameter für Befehlsoption ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "090F2032": {
+      "text": "Fehler in der Kommandooption des Produktkoordinatensystems",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5502E0": {
+          "text": "Kommandooption \"PCS\" - Set/Gruppe in Konfiguration nicht vorhanden",
+          "version": 1
+        }
+      }
+    },
+    "090F2033": {
+      "text": "Fehler in der Kommandooption des Maschinenkoordinatensystems",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550310": {
+          "text": "Kommandooption \"MCS\" - Set in Konfiguration nicht vorhanden",
+          "version": 1
+        },
+        "0C550311": {
+          "text": "Kommandooption \"MCS\" - Ausgewählte Achstransformation ist nicht verfügbar",
+          "version": 1
+        },
+        "0C550312": {
+          "text": "Kommandooption \"MCS\" - Der Arbeitspunkt der gewählten Achstransformation ist nicht definiert",
+          "version": 1
+        },
+        "0C550313": {
+          "text": "Von der Achstransformation benötigte Achse ist nicht der Kinematik zugewiesen.",
+          "version": 1
+        },
+        "0C550314": {
+          "text": "Von der Achstransformation benötigte Achse besitzt den falschen Achstyp.",
+          "version": 1
+        }
+      }
+    },
+    "090F2034": {
+      "text": "Fehler in Kmd-opt \"SafeZones\" (Schutz- und Arbeitsbereiche)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550330": {
+          "text": "Kommandooption \"SafeZones\" - Ungültiger Zonentyp konfiguriert",
+          "version": 1
+        },
+        "0C550331": {
+          "text": "Kommandooption \"SafeZones\" - Ein Teil der kommandierten Bewegung ist nicht in den aktiven inklusiven Arbeitsbereichen enthalten",
+          "version": 1
+        },
+        "0C550332": {
+          "text": "Kommandooption \"SafeZones\" - Die kommandierte Bewegung verletzt einen Schutzbereich",
+          "version": 1
+        },
+        "0C550333": {
+          "text": "Kommandooption \"SafeZones\" - Die kommandierte Bewegung verlässt einen exklusiven Arbeitsbereich",
+          "version": 1
+        },
+        "0C550334": {
+          "text": "Kommandooption \"SafeZones\" - Bahnpunkt konnte nicht in das Koordinatensystem des Arbeitsbereichs bzw. des Schutzbereichs transformiert werden",
+          "version": 1
+        },
+        "0C550335": {
+          "text": "Kommandooption \"SafeZones\" - Arbeitsbereich bzw. Schutzbereich nicht in Konfiguration gefunden",
+          "version": 1
+        }
+      }
+    },
+    "090F2035": {
+      "text": "Fehler in Kommandooption \"PolyTrans\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C5701B1": {
+          "text": "Parameter für Befehlsoption ist ungültig",
+          "version": 1
+        },
+        "0C5701B3": {
+          "text": "Es darf entweder nur EPS oder nur L1/L2 programmiert werden. Unbenutzte Parameter müssen weggelassen oder auf Null gesetzt werden",
+          "version": 1
+        }
+      }
+    },
+    "090F2040": {
+      "text": "Systemfehler im Motion-System",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560270": {
+          "text": "Interner Fehler ist aufgetreten",
+          "version": 1
+        },
+        "0C560271": {
+          "text": "Globale Anforderung an den Motion-Zustand wird abgelehnt, da die Fehlerreaktion der Achse/Kinematik noch nicht beendet ist",
+          "version": 1
+        },
+        "0C560272": {
+          "text": "Globale Anforderung an den Motion-Zustand wird abgelehnt, da die Achse/Kinematik sich noch bewegt",
+          "version": 1
+        },
+        "0C560273": {
+          "text": "Globale Anforderung an den Motion-Zustand wird abgelehnt, da die Achse/Kinematik in einem ungültigen Zustand ist",
+          "version": 1
+        },
+        "0C560274": {
+          "text": "Globale Anforderung an den Motion-Zustand wird abgelehnt, da die Achse/Kinematik über einen aktiven Befehl verfügt",
+          "version": 1
+        },
+        "0C560276": {
+          "text": "Positionssprung in der Interpolation der Kinematik erkannt",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2050": {
+      "text": "Fehler während der Abarbeitung eines Skripts",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270600": {
+          "text": "Interner Fehler: \"nullptr\" gefunden",
+          "version": 1
+        },
+        "0C270601": {
+          "text": "Interner Fehler: Anforderungsdaten sind kein FlatBuffer",
+          "version": 1
+        },
+        "0C270602": {
+          "text": "Interner Fehler: Unerwarteter Anforderungsdatentyp (erwarteter String)",
+          "version": 1
+        },
+        "0C270603": {
+          "text": "Interner Fehler: Unerwarteter Anforderungsdatentyp (erwartetes Array eines Strings)",
+          "version": 1
+        },
+        "0C270604": {
+          "text": "Interner Fehler: Angeforderte Daten haben unerwarteten FlatBuffer-Typ ",
+          "version": 1
+        },
+        "0C270605": {
+          "text": "Motion-System ist nicht installiert",
+          "version": 1
+        },
+        "0C270606": {
+          "text": "Motion-Objekt ist bereits einer Instanz zugeordnet",
+          "version": 1
+        },
+        "0C270607": {
+          "text": "Motion-Objekt ist nicht der Instanz zugeordnet und darf nicht kommandiert werden",
+          "version": 1
+        }
+      }
+    },
+    "090F2051": {
+      "text": "Fehler Task/Anforderung Komm. zwischen Skriptmanager/Instanz",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270608": {
+          "text": "Anhalten des am Skript angehängten Motion-Objekts",
+          "version": 1
+        }
+      }
+    },
+    "090F2052": {
+      "text": "Fehler in der Konfiguration des Motion-Systems",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270609": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C27060A": {
+          "text": "Fehler bei der Bearbeitung einer Motion-Anfrage",
+          "version": 1
+        }
+      }
+    },
+    "090F2060": {
+      "text": "Fehler im Achskommando \"EStop\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2061": {
+      "text": "Fehler im Achskommando \"PosAbs/PosRel/PosAdd\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2062": {
+      "text": "Fehler im Achskommando \"Power\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2063": {
+      "text": "Fehler im Achskommando \"Homing\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560460": {
+          "text": "Keine Unterstützung für die Überprüfung des Referenzpunktzustands der Achse",
+          "version": 1
+        },
+        "0C560461": {
+          "text": "Endschalter für Referenzfahrtbefehl erreicht",
+          "version": 1
+        },
+        "0C560462": {
+          "text": "Referenzfahrtbefehl: Referenzschalter nicht gefunden",
+          "version": 1
+        },
+        "0C560463": {
+          "text": "Fehler während der Ausführung des Referenzfahrtbefehls",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2064": {
+      "text": "Fehler im Motion-Messtaster-Kommando",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560480": {
+          "text": "Ungültiger allgemeiner Parameter für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560481": {
+          "text": "Ungültige Signalquelle für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560482": {
+          "text": "Ungültiger Messtaster-Index für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560483": {
+          "text": "Ungültiger Messtyp für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560484": {
+          "text": "Ungültiges Erwartungsfenster für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560485": {
+          "text": "Ungültige ausgewertete Flanke für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560486": {
+          "text": "Ungültiger Signaltyp für das Kommando Messtaster",
+          "version": 1
+        },
+        "0C560487": {
+          "text": "Gerät unterstützt keine Messtaster-Funktion",
+          "version": 1
+        },
+        "0C560488": {
+          "text": "Gerät meldet einen Fehler während der Messtaster-Konfiguration",
+          "version": 1
+        },
+        "0C560489": {
+          "text": "Gerät meldet einen Fehler beim Lesen des Ergebnisses",
+          "version": 1
+        },
+        "0C56048A": {
+          "text": "Fehler bei der Konvertierung des Messtasterwerts",
+          "version": 1
+        },
+        "0C56048B": {
+          "text": "Anfrage an den Messtasterzustand fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "090F2065": {
+      "text": "Fehler im Stopp-Kommando der Achse",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C560102": {
+          "text": "Verzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C560104": {
+          "text": "Ruckverzögerungsgrenzwert überschritten",
+          "version": 1
+        },
+        "0C57010D": {
+          "text": "Fehler bei der Berechnung der Interpolationsparameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2500": {
+      "text": "Fehler im Achskommando \"GearInPos\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Geschwindigkeit nicht",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Zyklische Daten für Betriebsart Geschwindigkeit im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "Keine Ist-Position verfügbar",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Achstyp unterstützt keine Interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Ungültiger Synchronisationsmodus",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Berechnungs-Pipeline kann nicht für die Bearbeitung gesperrt werden",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "Der Eingang des Berechnungsschritts ist mit keiner Quelle verbunden",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "Die an die Berechnungsschritteingabe angeschlossene Quelle hat einen anderen Typ",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameterwert des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C550511": {
+          "text": "Mindestens zwei Berechnungsschrittparameter, die sich gegenseitig ausschließen, sind gesetzt",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Pflichtparameter für den Berechnungsschritt ist nicht definiert",
+          "version": 1
+        },
+        "0C550513": {
+          "text": "Berechnungs-Pipeline ist keinem Ausgang zugeordnet",
+          "version": 1
+        },
+        "0C550514": {
+          "text": "Der Berechnungs-Pipeline ist mehr als ein Ausgang zugeordnet",
+          "version": 1
+        },
+        "0C550515": {
+          "text": "Bestehende zirkuläre Abhängigkeit in den Schritten der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Für die Berechnungs-Pipeline sind nicht alle Master definiert",
+          "version": 1
+        },
+        "0C550517": {
+          "text": "Ungültiger Wert für den Offset-Parameter",
+          "version": 1
+        },
+        "0C550518": {
+          "text": "Fehler beim Anhängen der Folgeachse an die Leitachse",
+          "version": 1
+        },
+        "0C550519": {
+          "text": "Unzulässiger Achstyp",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Fehler bei der Ausführung der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550521": {
+          "text": "Berechnungs-Pipeline wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550522": {
+          "text": "Berechnungs-Pipeline ist nicht validiert",
+          "version": 1
+        },
+        "0C550523": {
+          "text": "Berechnungs-Pipeline ist nicht im Modus RUN",
+          "version": 1
+        },
+        "0C550524": {
+          "text": "Synchronisation zwischen Folgeachse und Leitachse wurde unterbrochen",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Echtzeit-Eingangsindex des Data Layer liegt außerhalb des zulässigen Bereichs",
+          "version": 1
+        },
+        "0C550526": {
+          "text": "Fehler beim Lesen des Echtzeit-Eingangs aus dem Data Layer",
+          "version": 1
+        },
+        "0C550528": {
+          "text": "Unterschiede in den Folgeachspositionen sind größer als die Hälfte des Modulo-Bereichs während der dynamischen Synchronisation",
+          "version": 1
+        },
+        "0C550529": {
+          "text": "Mathematischer Fehler während der dynamischen Synchronisierung erkannt",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Ungültiger Parameterwert während der dynamischen Synchronisierung erkannt",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefinierter Fehler bei der dynamischen Synchronisierung",
+          "version": 1
+        },
+        "0C55052C": {
+          "text": "Während der Ausführung eines Befehls zur synchronisierten Bewegung ist ein ungültiger Zustandsübergang aufgetreten",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master für die synchronisierte Bewegung wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "Der von der Berechnungs-Pipeline aus dem RT Data Layer gelesene Wert ist ungültig",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Fehler bei der Umrechnung des Wertes durch den Berechnungsschritt vom RT Data Layer in die anwendbare Einheit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "Die Folgeachse kann nicht ihre eigene Leitachse sein",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "Die einstufige dynamische Synchronisierung kann nicht mit relativen Synchronisierungsmodi verwendet werden.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2501": {
+      "text": "Fehler im Achskommando \"SyncPosGeneric\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Ungültiger Synchronisationsmodus",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Für die Berechnungs-Pipeline sind nicht alle Master definiert",
+          "version": 1
+        },
+        "0C550521": {
+          "text": "Berechnungs-Pipeline wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550522": {
+          "text": "Berechnungs-Pipeline ist nicht validiert",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master für die synchronisierte Bewegung wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "Der von der Berechnungs-Pipeline aus dem RT Data Layer gelesene Wert ist ungültig",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Fehler bei der Umrechnung des Wertes durch den Berechnungsschritt vom RT Data Layer in die anwendbare Einheit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "Die Folgeachse kann nicht ihre eigene Leitachse sein",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "Die einstufige dynamische Synchronisierung kann nicht mit relativen Synchronisierungsmodi verwendet werden.",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "Die absolute Einstiegsposition im FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "Die absolute Einstiegsposition in das FlexProfile ist nicht eindeutig, da ein Wechsel des Masters (Achse oder Zeit) erfolgte.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "Die negative Leitachsgeschwindigkeit ist im FlexProfile mit Bedingungen oder Zeit-Leitachsen nicht erlaubt.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "Das FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "Das FlexProfile kann nicht \"einmalig\", sondern nur \"zyklisch\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "Das FlexProfile kann nicht \"zyklisch\", sondern nur \"einmalig\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "Der angegebene Profilname ist ungültig.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "Der angleAdjust ist ungültig.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "In der Firmware ist ein Fehler bei der Berechnung des FlexProfiles aufgetreten.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "Im FlexProfile sind keine Bewegungsschritte konfiguriert.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "Es wurde ein ungültiger Leitachsabschnitt, der 0 oder negativ ist, konfiguriert.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "Die Randwerte eines Bewegungsschritts lassen sich nicht mit den Randwerten des nachfolgenden Bewegungsschritts kombinieren.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "Die Randwerte eines Bewegungsschritts sind für das gewählte Bewegungsgesetz nicht zulässig.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "Es wurde ein ungültiger Hub konfiguriert, der im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "Es wurde eine ungültige Wendepunktverschiebung konfiguriert, die im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "Es wurde eine ungültige Geradensteigung konfiguriert. Die angegebenen Anfangs- und Endgeschwindigkeiten decken sich nicht mit der Geschwindigkeit, die sich aus Hub und Leitachsabschnitt des Bewegungsschritts ergibt.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "Es wurde eine ungültige Kurvenscheiben-Punktetabelle konfiguriert. Möglicherweise enthält die Kurvenscheibe keine Punkte.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "Es wurde ein ungültiger Master-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "Die konfigurierte Endgeschwindigkeit des Bewegungssegments ist nicht gleich der Startgeschwindigkeit des nachfolgenden Segments.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "Im FlexProfile tritt ein Beschleunigungssprung auf. Die konfigurierte Endbeschleunigung eines Bewegungsschritts stimmt nicht mit der Anfangsbeschleunigung des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "Im FlexProfile tritt ein Rucksprung auf. Der konfigurierte Endruck eines Bewegungsschritts stimmt nicht mit dem Anfangsruck des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrgeschwindigkeit für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrbeschleunigung für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "Es wurde ein zu niedriger oder ungültiger Verfahrruck für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "Es wurde ein ungültiges Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "Es wurde ein ungültiger Bewegungsschritt-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In einem Bewegungsschritt, der als Flex-Schritt konfiguriert wurde, ist das gewählte Bewegungsgesetz ungültig.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Es wurden zu niedrige Bewegungsgrenzwerte (Verfahrgeschwindigkeit, -beschleunigung und/oder -ruck) für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Es wurden mehrere Flex-Schritte direkt hintereinander konfiguriert.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Auslöser-Modus konfiguriert.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Aktionsmodus konfiguriert.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "Es wurde ein FlexProfile-Event mit einem Bewegungsschritt konfiguriert, der nicht im FlexProfile vorhanden ist.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "Das FlexProfile wird editiert. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "Das FlexProfile wird ausgeführt. Ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "Das FlexProfile ist nicht validiert. Eine Ausführung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "Das FlexProfile wird validiert. Eine Ausführung oder ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "Das FlexProfile ist ungültig. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "Der Nenner der Getriebeübersetzung ist mit dem Wert 0 ungültig",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2502": {
+      "text": "Fehler im synchronisierten Motion-Befehl",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550537": {
+          "text": "Die Folgeachse ist im Fehlerzustand LIGHT",
+          "version": 1
+        }
+      }
+    },
+    "090F2503": {
+      "text": "Fehler im Achskommando \"gearInVel\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Geschwindigkeit nicht",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Zyklische Daten für Betriebsart Geschwindigkeit im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "Keine Ist-Position verfügbar",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Achstyp unterstützt keine Interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Ungültiger Synchronisationsmodus",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Berechnungs-Pipeline kann nicht für die Bearbeitung gesperrt werden",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "Der Eingang des Berechnungsschritts ist mit keiner Quelle verbunden",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "Die an die Berechnungsschritteingabe angeschlossene Quelle hat einen anderen Typ",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameterwert des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C550511": {
+          "text": "Mindestens zwei Berechnungsschrittparameter, die sich gegenseitig ausschließen, sind gesetzt",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Pflichtparameter für den Berechnungsschritt ist nicht definiert",
+          "version": 1
+        },
+        "0C550513": {
+          "text": "Berechnungs-Pipeline ist keinem Ausgang zugeordnet",
+          "version": 1
+        },
+        "0C550514": {
+          "text": "Der Berechnungs-Pipeline ist mehr als ein Ausgang zugeordnet",
+          "version": 1
+        },
+        "0C550515": {
+          "text": "Bestehende zirkuläre Abhängigkeit in den Schritten der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550517": {
+          "text": "Ungültiger Wert für den Offset-Parameter",
+          "version": 1
+        },
+        "0C550518": {
+          "text": "Fehler beim Anhängen der Folgeachse an die Leitachse",
+          "version": 1
+        },
+        "0C550519": {
+          "text": "Unzulässiger Achstyp",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Fehler bei der Ausführung der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550521": {
+          "text": "Berechnungs-Pipeline wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550522": {
+          "text": "Berechnungs-Pipeline ist nicht validiert",
+          "version": 1
+        },
+        "0C550523": {
+          "text": "Berechnungs-Pipeline ist nicht im Modus RUN",
+          "version": 1
+        },
+        "0C550524": {
+          "text": "Synchronisation zwischen Folgeachse und Leitachse wurde unterbrochen",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Echtzeit-Eingangsindex des Data Layer liegt außerhalb des zulässigen Bereichs",
+          "version": 1
+        },
+        "0C550526": {
+          "text": "Fehler beim Lesen des Echtzeit-Eingangs aus dem Data Layer",
+          "version": 1
+        },
+        "0C550529": {
+          "text": "Mathematischer Fehler während der dynamischen Synchronisierung erkannt",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Ungültiger Parameterwert während der dynamischen Synchronisierung erkannt",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefinierter Fehler bei der dynamischen Synchronisierung",
+          "version": 1
+        },
+        "0C55052C": {
+          "text": "Während der Ausführung eines Befehls zur synchronisierten Bewegung ist ein ungültiger Zustandsübergang aufgetreten",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master für die synchronisierte Bewegung wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "Der von der Berechnungs-Pipeline aus dem RT Data Layer gelesene Wert ist ungültig",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Fehler bei der Umrechnung des Wertes durch den Berechnungsschritt vom RT Data Layer in die anwendbare Einheit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "Die Folgeachse kann nicht ihre eigene Leitachse sein",
+          "version": 1
+        },
+        "0C550539": {
+          "text": "Dynamische Synchronisation in einem Schritt ist nicht möglich für Befehle, die den Geschwindigkeitsmodus verwenden.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C570160": {
+          "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2504": {
+      "text": "Fehler im Achskommando \"SyncVelGeneric\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Ungültiger Synchronisationsmodus",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Für die Berechnungs-Pipeline sind nicht alle Master definiert",
+          "version": 1
+        },
+        "0C55052D": {
+          "text": "Master für die synchronisierte Bewegung wurde nicht gefunden",
+          "version": 1
+        },
+        "0C550533": {
+          "text": "Der von der Berechnungs-Pipeline aus dem RT Data Layer gelesene Wert ist ungültig",
+          "version": 1
+        },
+        "0C550534": {
+          "text": "Fehler bei der Umrechnung des Wertes durch den Berechnungsschritt vom RT Data Layer in die anwendbare Einheit",
+          "version": 1
+        },
+        "0C550536": {
+          "text": "Die Folgeachse kann nicht ihre eigene Leitachse sein",
+          "version": 1
+        },
+        "0C550539": {
+          "text": "Dynamische Synchronisation in einem Schritt ist nicht möglich für Befehle, die den Geschwindigkeitsmodus verwenden.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2505": {
+      "text": "Fehler im Achskommando \"FlexProfile\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Geschwindigkeit nicht",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Zyklische Daten für Betriebsart Geschwindigkeit im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "Keine Ist-Position verfügbar",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Achstyp unterstützt keine Interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Ungültiger Synchronisationsmodus",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Berechnungs-Pipeline kann nicht für die Bearbeitung gesperrt werden",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "Der Eingang des Berechnungsschritts ist mit keiner Quelle verbunden",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "Die an die Berechnungsschritteingabe angeschlossene Quelle hat einen anderen Typ",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameterwert des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Pflichtparameter für den Berechnungsschritt ist nicht definiert",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Für die Berechnungs-Pipeline sind nicht alle Master definiert",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Fehler bei der Ausführung der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Echtzeit-Eingangsindex des Data Layer liegt außerhalb des zulässigen Bereichs",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Ungültiger Parameterwert während der dynamischen Synchronisierung erkannt",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefinierter Fehler bei der dynamischen Synchronisierung",
+          "version": 1
+        },
+        "0C55052F": {
+          "text": "Lizenz für die Funktionalität \"Flex Profile\" fehlt",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "Die einstufige dynamische Synchronisierung kann nicht mit relativen Synchronisierungsmodi verwendet werden.",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "Die absolute Einstiegsposition im FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "Die absolute Einstiegsposition in das FlexProfile ist nicht eindeutig, da ein Wechsel des Masters (Achse oder Zeit) erfolgte.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "Die negative Leitachsgeschwindigkeit ist im FlexProfile mit Bedingungen oder Zeit-Leitachsen nicht erlaubt.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "Das FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "Das FlexProfile kann nicht \"einmalig\", sondern nur \"zyklisch\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "Das FlexProfile kann nicht \"zyklisch\", sondern nur \"einmalig\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "Der angegebene Profilname ist ungültig.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "Der angleAdjust ist ungültig.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "In der Firmware ist ein Fehler bei der Berechnung des FlexProfiles aufgetreten.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "Im FlexProfile sind keine Bewegungsschritte konfiguriert.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "Es wurde ein ungültiger Leitachsabschnitt, der 0 oder negativ ist, konfiguriert.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "Die Randwerte eines Bewegungsschritts lassen sich nicht mit den Randwerten des nachfolgenden Bewegungsschritts kombinieren.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "Die Randwerte eines Bewegungsschritts sind für das gewählte Bewegungsgesetz nicht zulässig.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "Es wurde ein ungültiger Hub konfiguriert, der im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "Es wurde eine ungültige Wendepunktverschiebung konfiguriert, die im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "Es wurde eine ungültige Geradensteigung konfiguriert. Die angegebenen Anfangs- und Endgeschwindigkeiten decken sich nicht mit der Geschwindigkeit, die sich aus Hub und Leitachsabschnitt des Bewegungsschritts ergibt.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "Es wurde eine ungültige Kurvenscheiben-Punktetabelle konfiguriert. Möglicherweise enthält die Kurvenscheibe keine Punkte.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "Es wurde ein ungültiger Master-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "Die konfigurierte Endgeschwindigkeit des Bewegungssegments ist nicht gleich der Startgeschwindigkeit des nachfolgenden Segments.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "Im FlexProfile tritt ein Beschleunigungssprung auf. Die konfigurierte Endbeschleunigung eines Bewegungsschritts stimmt nicht mit der Anfangsbeschleunigung des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "Im FlexProfile tritt ein Rucksprung auf. Der konfigurierte Endruck eines Bewegungsschritts stimmt nicht mit dem Anfangsruck des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrgeschwindigkeit für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrbeschleunigung für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "Es wurde ein zu niedriger oder ungültiger Verfahrruck für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "Es wurde ein ungültiges Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "Es wurde ein ungültiger Bewegungsschritt-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In einem Bewegungsschritt, der als Flex-Schritt konfiguriert wurde, ist das gewählte Bewegungsgesetz ungültig.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Es wurden zu niedrige Bewegungsgrenzwerte (Verfahrgeschwindigkeit, -beschleunigung und/oder -ruck) für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Es wurden mehrere Flex-Schritte direkt hintereinander konfiguriert.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Auslöser-Modus konfiguriert.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Aktionsmodus konfiguriert.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "Es wurde ein FlexProfile-Event mit einem Bewegungsschritt konfiguriert, der nicht im FlexProfile vorhanden ist.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "Das FlexProfile wird editiert. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "Das FlexProfile wird ausgeführt. Ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "Das FlexProfile ist nicht validiert. Eine Ausführung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "Das FlexProfile wird validiert. Eine Ausführung oder ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "Das FlexProfile ist ungültig. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550627": {
+          "text": "Negative Startposition der Leitachse wird beim Flexprofile nicht unterstützt",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "Der Nenner der Getriebeübersetzung ist mit dem Wert 0 ungültig",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2506": {
+      "text": "Fehler im Achskommando \"CamIn\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Geschwindigkeit nicht",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Zyklische Daten für Betriebsart Geschwindigkeit im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550240": {
+          "text": "Keine Zuordnung von Achsprofil-Variable zu Feldbusdaten",
+          "version": 1
+        },
+        "0C550241": {
+          "text": "Fehler im Feldbus-Master",
+          "version": 1
+        },
+        "0C550242": {
+          "text": "Fehler im Feldbusgerät",
+          "version": 1
+        },
+        "0C550243": {
+          "text": "Ist-Werte außerhalb des gültigen Bereichs",
+          "version": 1
+        },
+        "0C550244": {
+          "text": "Keine Ist-Position verfügbar",
+          "version": 1
+        },
+        "0C550245": {
+          "text": "Achstyp unterstützt keine Interpolation",
+          "version": 1
+        },
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550249": {
+          "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550500": {
+          "text": "Ungültiger Synchronisationsmodus",
+          "version": 1
+        },
+        "0C55050D": {
+          "text": "Berechnungs-Pipeline kann nicht für die Bearbeitung gesperrt werden",
+          "version": 1
+        },
+        "0C55050E": {
+          "text": "Der Eingang des Berechnungsschritts ist mit keiner Quelle verbunden",
+          "version": 1
+        },
+        "0C55050F": {
+          "text": "Die an die Berechnungsschritteingabe angeschlossene Quelle hat einen anderen Typ",
+          "version": 1
+        },
+        "0C550510": {
+          "text": "Parameterwert des Berechnungsschritts ist ungültig",
+          "version": 1
+        },
+        "0C550512": {
+          "text": "Pflichtparameter für den Berechnungsschritt ist nicht definiert",
+          "version": 1
+        },
+        "0C550516": {
+          "text": "Für die Berechnungs-Pipeline sind nicht alle Master definiert",
+          "version": 1
+        },
+        "0C550520": {
+          "text": "Fehler bei der Ausführung der Berechnungs-Pipeline",
+          "version": 1
+        },
+        "0C550525": {
+          "text": "Echtzeit-Eingangsindex des Data Layer liegt außerhalb des zulässigen Bereichs",
+          "version": 1
+        },
+        "0C55052A": {
+          "text": "Ungültiger Parameterwert während der dynamischen Synchronisierung erkannt",
+          "version": 1
+        },
+        "0C55052B": {
+          "text": "Undefinierter Fehler bei der dynamischen Synchronisierung",
+          "version": 1
+        },
+        "0C550538": {
+          "text": "Die einstufige dynamische Synchronisierung kann nicht mit relativen Synchronisierungsmodi verwendet werden.",
+          "version": 1
+        },
+        "0C550600": {
+          "text": "Die absolute Einstiegsposition im FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550601": {
+          "text": "Die absolute Einstiegsposition in das FlexProfile ist nicht eindeutig, da ein Wechsel des Masters (Achse oder Zeit) erfolgte.",
+          "version": 1
+        },
+        "0C550602": {
+          "text": "Die negative Leitachsgeschwindigkeit ist im FlexProfile mit Bedingungen oder Zeit-Leitachsen nicht erlaubt.",
+          "version": 1
+        },
+        "0C550603": {
+          "text": "Das FlexProfile ist nicht gültig.",
+          "version": 1
+        },
+        "0C550604": {
+          "text": "Das FlexProfile kann nicht \"einmalig\", sondern nur \"zyklisch\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550605": {
+          "text": "Das FlexProfile kann nicht \"zyklisch\", sondern nur \"einmalig\" ausgeführt werden.",
+          "version": 1
+        },
+        "0C550606": {
+          "text": "Der angegebene Profilname ist ungültig.",
+          "version": 1
+        },
+        "0C550607": {
+          "text": "Der angleAdjust ist ungültig.",
+          "version": 1
+        },
+        "0C550608": {
+          "text": "In der Firmware ist ein Fehler bei der Berechnung des FlexProfiles aufgetreten.",
+          "version": 1
+        },
+        "0C550609": {
+          "text": "Im FlexProfile sind keine Bewegungsschritte konfiguriert.",
+          "version": 1
+        },
+        "0C55060A": {
+          "text": "Es wurde ein ungültiger Leitachsabschnitt, der 0 oder negativ ist, konfiguriert.",
+          "version": 1
+        },
+        "0C55060B": {
+          "text": "Die Randwerte eines Bewegungsschritts lassen sich nicht mit den Randwerten des nachfolgenden Bewegungsschritts kombinieren.",
+          "version": 1
+        },
+        "0C55060C": {
+          "text": "Die Randwerte eines Bewegungsschritts sind für das gewählte Bewegungsgesetz nicht zulässig.",
+          "version": 1
+        },
+        "0C55060D": {
+          "text": "Es wurde ein ungültiger Hub konfiguriert, der im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060E": {
+          "text": "Es wurde eine ungültige Wendepunktverschiebung konfiguriert, die im gewählten Bewegungsgesetz nicht zulässig ist.",
+          "version": 1
+        },
+        "0C55060F": {
+          "text": "Es wurde eine ungültige Geradensteigung konfiguriert. Die angegebenen Anfangs- und Endgeschwindigkeiten decken sich nicht mit der Geschwindigkeit, die sich aus Hub und Leitachsabschnitt des Bewegungsschritts ergibt.",
+          "version": 1
+        },
+        "0C550610": {
+          "text": "Es wurde eine ungültige Kurvenscheiben-Punktetabelle konfiguriert. Möglicherweise enthält die Kurvenscheibe keine Punkte.",
+          "version": 1
+        },
+        "0C550611": {
+          "text": "Es wurde ein ungültiger Master-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C550612": {
+          "text": "Die konfigurierte Endgeschwindigkeit des Bewegungssegments ist nicht gleich der Startgeschwindigkeit des nachfolgenden Segments.",
+          "version": 1
+        },
+        "0C550613": {
+          "text": "Im FlexProfile tritt ein Beschleunigungssprung auf. Die konfigurierte Endbeschleunigung eines Bewegungsschritts stimmt nicht mit der Anfangsbeschleunigung des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550614": {
+          "text": "Im FlexProfile tritt ein Rucksprung auf. Der konfigurierte Endruck eines Bewegungsschritts stimmt nicht mit dem Anfangsruck des nachfolgenden Bewegungsschritts überein.",
+          "version": 1
+        },
+        "0C550615": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrgeschwindigkeit für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550616": {
+          "text": "Es wurde eine zu niedrige oder ungültige Verfahrbeschleunigung für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550617": {
+          "text": "Es wurde ein zu niedriger oder ungültiger Verfahrruck für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550618": {
+          "text": "Es wurde ein ungültiges Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C550619": {
+          "text": "Es wurde ein ungültiger Bewegungsschritt-Typ konfiguriert.",
+          "version": 1
+        },
+        "0C55061A": {
+          "text": "In einem Bewegungsschritt, der als Flex-Schritt konfiguriert wurde, ist das gewählte Bewegungsgesetz ungültig.",
+          "version": 1
+        },
+        "0C55061B": {
+          "text": "Es wurden zu niedrige Bewegungsgrenzwerte (Verfahrgeschwindigkeit, -beschleunigung und/oder -ruck) für das gewählte Bewegungsgesetz konfiguriert.",
+          "version": 1
+        },
+        "0C55061C": {
+          "text": "Es wurden mehrere Flex-Schritte direkt hintereinander konfiguriert.",
+          "version": 1
+        },
+        "0C55061D": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Auslöser-Modus konfiguriert.",
+          "version": 1
+        },
+        "0C55061E": {
+          "text": "Es wurde ein FlexProfile-Event mit einem ungültigen Aktionsmodus konfiguriert.",
+          "version": 1
+        },
+        "0C55061F": {
+          "text": "Es wurde ein FlexProfile-Event mit einem Bewegungsschritt konfiguriert, der nicht im FlexProfile vorhanden ist.",
+          "version": 1
+        },
+        "0C550620": {
+          "text": "Das FlexProfile wird editiert. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550621": {
+          "text": "Das FlexProfile wird ausgeführt. Ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550622": {
+          "text": "Das FlexProfile ist nicht validiert. Eine Ausführung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550623": {
+          "text": "Das FlexProfile wird validiert. Eine Ausführung oder ein Editieren ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550624": {
+          "text": "Das FlexProfile ist ungültig. Eine Ausführung oder Validierung ist in diesem Zustand nicht zulässig.",
+          "version": 1
+        },
+        "0C550627": {
+          "text": "Negative Startposition der Leitachse wird beim Flexprofile nicht unterstützt",
+          "version": 1
+        },
+        "0C550628": {
+          "text": "Der Nenner der Getriebeübersetzung ist mit dem Wert 0 ungültig",
+          "version": 1
+        },
+        "0C550630": {
+          "text": "Interner Fehler: Kein Zugriff auf FlexProfile-Daten.",
+          "version": 1
+        },
+        "0C570007": {
+          "text": "Lizenz für das Kommando fehlt",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2512": {
+      "text": "Fehler während der dynamischen Synchronisierung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550541": {
+          "text": "Negative Werte sind für Einstellungen der dynamischen Synchronisationsgrenzwerte nicht zulässig.",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F6000": {
+      "text": "Fehler beim Auflösen von Motion-Berechnungsabhängigkeiten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560470": {
+          "text": "Es wurde eine Ringabhängigkeit zwischen zwei oder mehreren Achsen/Kinematiken festgestellt",
+          "version": 1
+        }
+      }
+    },
+    "090F6001": {
+      "text": "Erzwungener Stopp des Motion-Systems",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560300": {
+          "text": "Erzwungener Stopp aller Achsen und Kinematiken durch Benutzer oder durch kritischen Fehler",
+          "version": 1
+        }
+      }
+    },
+    "090F6010": {
+      "text": "Fehlerereignis von SPS erkannt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570300": {
+          "text": "SPS Stop-Event ausgelöst! Alle Motion-Objekte werden auf leichten Fehler gesetzt",
+          "version": 1
+        },
+        "0C570301": {
+          "text": "SPS Reset-Event ausgelöst! Alle Motion-Objekte werden auf leichten Fehler gesetzt",
+          "version": 1
+        },
+        "0C570302": {
+          "text": "Unerwartete Ausnahmefehler in einer SPS-Anwendung! Alle Motion-Objekte werden auf leichten Fehler gesetzt",
+          "version": 1
+        }
+      }
+    },
+    "090F8011": {
+      "text": "Allgemeiner Fehler in CXA_Motion",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570400": {
+          "text": "Null-Zeiger in einer internen Struktur (das Motion-System könnte fehlen oder beschädigt sein)",
+          "version": 1
+        }
+      }
+    }
+  }
+}

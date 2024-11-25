@@ -1,0 +1,34 @@
+﻿{
+  "auto": {
+    "common": {
+      "text": {
+        "config": "Konfiguration"
+      }
+    },
+    "overview": {
+      "notavailable": {
+        "p1": "Keine Daten verfügbar (Fehler: {{errorCode}})",
+        "p2": "Mögliche Ursachen:",
+        "li1": "Service-Modus ist aktiv. Wechseln Sie auf der | App-Seite | in den Operation-Modus.",
+        "li2": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte | aktualisieren | Sie die Seite."
+      },
+      "nopermission": {
+        "p1": "Sie haben nicht die erforderlichen Berechtigungen.",
+        "p2": "Erforderliche Mindestberechtigungen für diese Seite:"
+      },
+      "ethercat": {
+        "title": "EtherCAT",
+        "subtitle1": "EtherCAT nicht konfiguriert",
+        "subtitle2": "Konfigurieren und analysieren Sie Ihr EtherCAT-Netzwerk",
+        "text": {
+          "configure": "EtherCAT konfigurieren",
+          "openstatus": "EtherCAT-Status öffnen",
+          "status": "Status",
+          "name": "Name",
+          "state": "Zustand",
+          "message": "Meldung"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "plc.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "delete.button": "Delete",
+    "yes.button": "Yes",
+    "no.button": "No",
+    "readOnlyPermission": "You do not have permission to perform this operation",
+    "start": "start",
+    "stop": "stop",
+    "close.button": "Close",
+    "licenseerrortitle": "Reading license information",
+    "licenseerrordetail": "Communication to the Data Layer failed.",
+    "applications": "Applications"
+  },
+  "plc.editretain": {
+    "restarttooltip": "Restart required to apply changes",
+    "info": "{{allocated}} Bytes of {{total}} Bytes reserved for PLC",
+    "edittooltip": "Edit retain memory",
+    "title": "Allocate PLC retain memory (Bytes)",
+    "available": "{{available}} available",
+    "inputerror": "Enter a valid number",
+    "maximumerror": "The entered value has to be lower than the available memory",
+    "minimumerror": "The entered value has to be higher than {{minimumInputLimit}} bytes",
+    "minimuminfo": "{{minimumInputLimit}} bytes is the minimum allocatable memory",
+    "roundinfo": "The input value is rounded up to a multiple of 8",
+    "rebootinfo": "A control reboot is required"
+  },
+  "plc.apps": {
+    "title": "Applications",
+    "noactiveprogram": "No PLC application configured",
+    "startengineering": "Start ctrlX PLC Engineering",
+    "engineeringinfo": "ctrlX PLC Engineering is a Windows application used to create programs in IEC 61131 and to load them to a ctrlX OS device. ctrlX PLC Engineering can be downloaded from the ctrlX WORKS page in the {{ ctrlXStore }}.",
+    "startalltooltip": "Starts applications",
+    "stopalltooltip": "Stops applications",
+    "disableallstart": "Only enabled when the applications are not in 'Exception' or 'Retain Mismatch' state",
+    "starttooltip": "Starts application",
+    "disablestart": "Only enabled when the application is not in 'Exception' or 'Retain Mismatch' state",
+    "stoptooltip": "Stops application",
+    "resettooltip": "Click here to select reset options",
+    "resetwarm": "Reset Warm",
+    "disableresetwarm": "Only enabled when the application is not in 'Retain Mismatch' state",
+    "resetcold": "Reset Cold",
+    "resetorigin": "Reset Origin",
+    "resetallwarm": "Reset Warm (all applications)",
+    "disableallresetwarm": "Only enabled when the applications are not in 'Retain Mismatch' state",
+    "resetallcold": "Reset Cold (all applications)",
+    "resetallorigin": "Reset Origin (all applications)",
+    "startengineeringtooltip": "Opens ctrlX PLC Engineering",
+    "columnruntimestatetitle": "State",
+    "columnnametitle": "Name",
+    "columnactiontitle": "Actions",
+    "columnoperationstatetitle": "Diagnostics",
+    "exceptionstate": "Application is in error state. For further details, please open the ctrlX PLC Engineering and check 'PLC Log' and 'call tree'. ",
+    "flowcontrolstate": "'Flow control mode' is active in the application. To disable the 'flow control mode', please toggle it in the ctrlX PLC Engineering. ",
+    "forcevariablestate": "'Force values' is active in the application. To stop forcing, please execute the command 'unforce values' in the ctrlX PLC Engineering. ",
+    "retainmismatchstate": "Application loaded with retain mismatch. A 'Reset Cold' is required to run the application!",
+    "preconditions": "Please ensure that all preconditions are met!",
+    "coldwarmdescription": "The command results in a {{actionText}} of the application on the controller",
+    "origindescription": "The command deletes the application on the controller",
+    "startstoptitle": "Do you want to {{actionText}} the application?",
+    "resettitle": "Do you want to perform the operation {{actionText}}?",
+    "resetorigindesc": "Reset Origin",
+    "warmstartdesc": "Warm Start",
+    "coldstartdesc": "Cold Start",
+    "bootApplication": "Boot applications",
+    "projectInformation": "Project information"
+  },
+  "plc.bootApplication": {
+    "name": "Name",
+    "created": "Created",
+    "noPermission": "You do not have required permissions to fetch the boot application data",
+    "noBootAppFound": "Boot applications not available"
+  },
+  "plc.projectInfo": {
+    "name": "Name",
+    "synchronization": "Project synchronization",
+    "lastChange": "Last change",
+    "machineName": "Machine name",
+    "userName": "User name",
+    "noPermission": "You do not have required permissions to fetch the project information",
+    "noHistoryFound": "Project information not available",
+    "synchronizationActive": "Active",
+    "synchronizationNotActive": "Not active",
+    "sources": "Sources",
+    "lastloaded": "Last Loaded",
+    "projectsync": "Synchronization"
+  },
+  "plc.appNotInit": {
+    "error.header": "The PLC app is currently not available (Error: {{availabilityErrorCode}})",
+    "description": "This is most likely due to one of the following reasons:",
+    "servicemode": "The 'Service Mode' is currently active. Please go to the {{value}} switch to 'Operation Mode' and try again.",
+    "servicemode.appManagerLink": "Apps manager",
+    "appInitializing": "The app is currently being initialized. This may take a while, please {{value}} the page.",
+    "refresh": "refresh",
+    "noPermission": "You do not have the required permissions to see this page.",
+    "permission.title": "Minimal required permissions for this page:",
+    "permission.list1": "Data Layer scopes: Data Layer View"
+  },
+  "auto": {
+    "common": {
+      "text": {
+        "refresh": "Refresh",
+        "config": "Configuration"
+      }
+    },
+    "overview": {
+      "notavailable": {
+        "p1": "No data available (Error: {{errorCode}})",
+        "p2": "Possible reasons:",
+        "li1": "Service mode is active. Switch to Operation mode on the | Apps page|.",
+        "li2": "The app is currently being initialized. This may take a while, please | refresh | the page."
+      },
+      "nopermission": {
+        "p1": "You do not have the required permissions.",
+        "p2": "Minimal required permissions for this page:"
+      },
+      "plc": {
+        "title": "PLC",
+        "subtitle1": "PLC applications not configured",
+        "subtitle2": "Manage your PLC applications",
+        "text": {
+          "configure": "Configure PLC applications",
+          "status": "Status",
+          "numbers": "Number of applications",
+          "stateRun": "State RUN",
+          "stateStop": "State STOP",
+          "stateDebug": "State DEBUG",
+          "plcStatus": "Open PLC status"
+        }
+      }
+    }
+  }
+}

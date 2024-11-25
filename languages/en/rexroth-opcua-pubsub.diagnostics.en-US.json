@@ -1,0 +1,91 @@
+{
+  "product": "UAP-V-0206",
+  "mainDiagnostics": {
+    "0D0A0300": {
+      "text": "OPC UA PubSub message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C763000": {
+          "text": "PubSub App initialized",
+          "version": 1
+        },
+        "0C763001": {
+          "text": "PubSub App is running",
+          "version": 1
+        },
+        "0C763003": {
+          "text": "PubSub shutdown is finished and App is stopped",
+          "version": 1
+        },
+        "0C763005": {
+          "text": "PubSub App deinitialization is completed",
+          "version": 1
+        },
+        "0C763009": {
+          "text": "PubSub App starts shutdown",
+          "version": 1
+        },
+        "0C763010": {
+          "text": "The new configuration was loaded successfully",
+          "version": 2
+        },
+        "0C763012": {
+          "text": "PubSub license acquired",
+          "version": 1
+        },
+        "0C763014": {
+          "text": "UaPubSub SDK: Internal error",
+          "version": 1
+        }
+      }
+    },
+    "0D0E0300": {
+      "text": "OPC UA PubSub warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C763015": {
+          "text": "UaPubSub: Internal warning",
+          "version": 1
+        }
+      }
+    },
+    "0D0F0300": {
+      "text": "OPC UA PubSub error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C763002": {
+          "text": "PubSub App could not be started",
+          "version": 1
+        },
+        "0C763004": {
+          "text": "PubSub App was not stopped successfully",
+          "version": 1
+        },
+        "0C763006": {
+          "text": "PubSub App deinitialization failed",
+          "version": 1
+        },
+        "0C763007": {
+          "text": "Placeholder",
+          "version": 2
+        },
+        "0C763008": {
+          "text": "UaPubSub internal error",
+          "version": 1
+        },
+        "0C763011": {
+          "text": "Error in PubSub configuration",
+          "version": 1
+        },
+        "0C763013": {
+          "text": "PubSub license missing",
+          "version": 1
+        },
+        "0C763014": {
+          "text": "UaPubSub SDK: Internal error",
+          "version": 1
+        }
+      }
+    }
+  }
+}

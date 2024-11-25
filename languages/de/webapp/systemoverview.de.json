@@ -1,0 +1,61 @@
+{
+	"overview": {
+		"title": "Systemübersicht",
+		"refresh": "Aktualisieren",
+    "resetHilight": "Hervorhebung zurücksetzen",
+    "hilightErrors": "Fehler hervorheben",
+    "expand": "Expandieren",
+		"collapse": "Zusammenklappen",
+		"table": {
+			"name": "Name",
+			"state": "Zustand",
+			"type": "Typ",
+			"status": "Status",
+			"diagnosis": "Diagnosen",
+			"details": "Details"
+		}
+	},
+	"sysinfo": {
+		"etherSlavesTable": {
+		},
+		"table": {
+			"etherCatAddress": "Adr.",
+			"slaveName": "Name",
+			"vendor": "Hersteller",
+			"productCode": "Pr. Code",
+			"revisionNumber": "Rev.Nr.",
+			"serialNumber": "SN",
+			"hardwareind": "Än-In",
+			"partNumber": "Mat.Nr.",
+			"firmware": "Firmware",
+			"hardware": "Hardware",
+			"VendorId": "Her. Code"
+		},
+    "tooltip":
+    {
+      "etherCatAddress": "Adresse",
+      "slaveName": "Name / Details",
+      "productCode": "Produkt Code",
+      "revisionNumber": "Revisionsnummer",
+      "serialNumber": "Seriennummer",
+      "hardwareind": "Änderungsindex",
+      "partNumber": "Materialnummer",
+      "VendorId": "Hersteller Code"
+    },
+		"details": {
+			"address": "Adresse",
+			"givenName": "Name",
+			"type": "Typ",
+			"serialNumber": "Serienr.",
+			"partNumber": "Teilenr."
+		},
+		"title": "Systeminformationen",
+		"axlist": "Achsen",
+		"kinlist": "Kinematiken",
+		"save": "Speichern",
+		"save-data-to-file": "Speichere Systemdaten in eine Datei",
+		"save-detail-to-file": "Speichere Systemdetail in eine Datei",
+		"config-columns": "Spalten konfigurieren",
+    "reset-columns": "Spalten zurücksetzen"
+	}
+}

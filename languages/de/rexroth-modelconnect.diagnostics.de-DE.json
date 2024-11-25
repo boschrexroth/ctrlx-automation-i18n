@@ -1,0 +1,393 @@
+{
+  "product": "MOC-V-0206",
+  "mainDiagnostics": {
+    "100A0101": {
+      "text": "Modellzustand",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8001": {
+          "text": "Aktiv",
+          "version": 1
+        },
+        "0C6D8002": {
+          "text": "Pausiert",
+          "version": 1
+        },
+        "0C6D8004": {
+          "text": "Beendet",
+          "version": 1
+        }
+      }
+    },
+    "100A0102": {
+      "text": "Stoppanforderung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8005": {
+          "text": "Eine Stoppanforderung über Simulink erhalten",
+          "version": 1
+        }
+      }
+    },
+    "100A0103": {
+      "text": "Zustand des externen Modus",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8006": {
+          "text": "Externer Modus verfügbar: Eine Verbindung mit Simulink ist möglich",
+          "version": 1
+        },
+        "0C6D8007": {
+          "text": "Externer Modus nicht verfügbar: Eine Verbindung mit Simulink ist nicht möglich",
+          "version": 1
+        },
+        "0C6D8008": {
+          "text": "Externer Modus  verbunden: Eine Verbindung mit Simulink wurde hergestellt",
+          "version": 1
+        },
+        "0C6D8009": {
+          "text": "Externer Modus getrennt: Die Verbindung mit Simulink wurde getrennt",
+          "version": 1
+        }
+      }
+    },
+    "100A0107": {
+      "text": "Betriebsart",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D800A": {
+          "text": "Das Modell wird über den Scheduler getriggert und läuft synchronisiert mit den anderen Tasks",
+          "version": 1
+        },
+        "0C6D800B": {
+          "text": "Das Modell läuft außerhalb der Kontrolle des Schedulers in Echtzeit",
+          "version": 1
+        }
+      }
+    },
+    "100A0120": {
+      "text": "Status des Modells",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8027": {
+          "text": "Installation erfolgreich",
+          "version": 1
+        }
+      }
+    },
+    "100E0101": {
+      "text": "Nicht unterstützter Datentyp",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D800C": {
+          "text": "Bitte verwenden Sie ausschließlich unterstützte Datentypen",
+          "version": 1
+        },
+        "0C6D800D": {
+          "text": "Es wurde eine leere Struktur erkannt, der Data Layer-Knoten wird als String interpretiert. Bitte Modell korrigieren",
+          "version": 1
+        }
+      }
+    },
+    "100E0102": {
+      "text": "Zykluszeit überschritten",
+      "version": 1
+    },
+    "100E0103": {
+      "text": "Falsche Ausführungsbedingungen erkannt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8044": {
+          "text": "Die Zykluszeit der Task, die das Modell ausführt, weicht vom konfigurierten Wert ab",
+          "version": 1
+        }
+      }
+    },
+    "100E0120": {
+      "text": "Lizenzbeschränkung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8023": {
+          "text": "Aufgrund von Lizenzbeschränkungen wird das Modell nicht als Task im Scheduler ausgeführt. Bitte erweitern Sie Ihre Lizenz, um diese Einschränkung aufzuheben.",
+          "version": 1
+        }
+      }
+    },
+    "100E0121": {
+      "text": "Status des Modells",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8034": {
+          "text": "Fehler beim Lesen der konfigurierten Eigenschaften. Das Modell wird nicht als Task im Scheduler ausgeführt.",
+          "version": 1
+        }
+      }
+    },
+    "100F0101": {
+      "text": "Modellausführung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D800E": {
+          "text": "Ein interner Fehler ist aufgetreten, das Modell wird beendet",
+          "version": 1
+        },
+        "0C6D8031": {
+          "text": "Der Zugriff auf den ctrlX Data Layer-Speicher zum Abrufen von Informationen ist nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "100F0102": {
+      "text": "Zykluszeit zu oft überschritten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D800F": {
+          "text": "Eine Erhöhung der Zykluszeit wird vorgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "100F0103": {
+      "text": "Fehlerzustand während der Ausführung eines Modells",
+      "version": 2,
+      "detailedDiagnostics": {
+        "0C6D8010": {
+          "text": "Data Layer-Knoten konnten nicht angelegt werden",
+          "version": 1
+        },
+        "0C6D801C": {
+          "text": "Der Datentyp des Modells stimmt nicht mit dem Datentyp des konfigurierten ctrlX Data Layer-Knotens überein",
+          "version": 2
+        },
+        "0C6D801E": {
+          "text": "Der Quellknoten konnte keine Verbindung zum Zielknoten herstellen, da dieser nicht verfügbar war.",
+          "version": 2
+        },
+        "0C6D801F": {
+          "text": "Aufgrund fehlender Berechtigungen konnte nicht auf den Data Layer-Knoten zugegriffen werden. Das Modell wird weiter ausgeführt.",
+          "version": 2
+        },
+        "0C6D8020": {
+          "text": "Der Quellknoten (Echtzeit) versucht, eine Verbindung zu einem Nicht-Echtzeit-Knoten herzustellen. Diese Verbindung ist nicht erlaubt.",
+          "version": 2
+        },
+        "0C6D8021": {
+          "text": "Der Zugriff auf den ctrlX Data Layer-Speicher zum Abrufen von Informationen ist nicht möglich",
+          "version": 1
+        },
+        "0C6D8045": {
+          "text": "Der Quellknoten konnte keine Verbindung zum Zielknoten herstellen, weil seine Operationen nicht gelesen werden konnten.",
+          "version": 1
+        },
+        "0C6D804A": {
+          "text": "",
+          "version": 1
+        },
+        "0C6D804B": {
+          "text": "",
+          "version": 1
+        }
+      }
+    },
+    "100F0104": {
+      "text": "Fehlerhafte Daten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8011": {
+          "text": "Versuchter Zugriff auf Werte außerhalb der Grenzen eines Arrays von Signalen oder Parametern",
+          "version": 1
+        },
+        "0C6D801B": {
+          "text": "Es wurde versucht eine undefinierte Zahl (NaN) zu schreiben. Bitte führen Sie das Modell in Simulink aus, um generelle Modellierungsprobleme (z.B. zu große Schrittweite) auszuschließen.",
+          "version": 1
+        }
+      }
+    },
+    "100F0105": {
+      "text": "Task/Callable konnte nicht erstellt werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8012": {
+          "text": "Bitte legen Sie eine Task an und fügen Sie das Callable zu dieser Task hinzu",
+          "version": 1
+        },
+        "0C6D8013": {
+          "text": "Stellen Sie bitte sicher, dass das Callable noch keiner Task zugewiesen ist, bevor sie es einer neuen Task zuweisen.",
+          "version": 2
+        }
+      }
+    },
+    "100F0106": {
+      "text": "Fehler beim Lesen der Eigenschaften",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8014": {
+          "text": "Konfiguration ist unvollständig",
+          "version": 2
+        },
+        "0C6D8015": {
+          "text": "Parameter Priorität: Das Modell wird mit niedriger Priorität ausgeführt",
+          "version": 1
+        },
+        "0C6D8016": {
+          "text": "Parameter Zykluszeit. Das Modell kann nicht gestartet werden",
+          "version": 2
+        },
+        "0C6D8017": {
+          "text": "Parameter Blocksignale aktiv: Das Modell wird mit deaktivierten Blocksignalen ausgeführt",
+          "version": 1
+        },
+        "0C6D8018": {
+          "text": "Parameter Autostart: Das Modell wird nicht automatisch gestartet",
+          "version": 1
+        },
+        "0C6D8019": {
+          "text": "Parameter Eingänge: Das Modell wird mit einer begrenzten Anzahl von Eingängen ausgeführt",
+          "version": 1
+        },
+        "0C6D801A": {
+          "text": "Parameter Ausgänge: Das Modell wird mit einer begrenzten Anzahl von Ausgängen ausgeführt",
+          "version": 1
+        },
+        "0C6D8022": {
+          "text": "Quellwerkzeug nicht konfiguriert. Das Modell kann nicht gestartet werden",
+          "version": 1
+        }
+      }
+    },
+    "100F0107": {
+      "text": "Eigenschaft hat ungültigen Wert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8003": {
+          "text": "Die konfigurierte Zykluszeit liegt unterhalb des Minimums. Es wird eine Zykluszeit von 2 ms verwendet.",
+          "version": 1
+        },
+        "0C6D801D": {
+          "text": "Die konfigurierte Zykluszeit liegt oberhalb des Maximums. Es wird eine Zykluszeit von 1000 ms verwendet.",
+          "version": 1
+        },
+        "0C6D8046": {
+          "text": "Größe des konfigurierten Standardwerts des Arrays entspricht nicht der Größe des angeschlossenen Knotens",
+          "version": 1
+        },
+        "0C6D8047": {
+          "text": "Konvertierung des Typs fehlgeschlagen",
+          "version": 1
+        },
+        "0C6D8048": {
+          "text": "Verbundener Knoten enthält nicht unterstützten Datentyp",
+          "version": 1
+        },
+        "0C6D8049": {
+          "text": "Der konfigurierte Wert entspricht keinem der erwarteten Werte",
+          "version": 1
+        }
+      }
+    },
+    "100F0120": {
+      "text": "Installation fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8025": {
+          "text": "Die Anzahl der lokalen Eingänge übersteigt die zulässige Menge der verwendeten Lizenz. Bitte erweitern Sie Ihre Lizenz, um diese Einschränkung aufzuheben.",
+          "version": 1
+        },
+        "0C6D8026": {
+          "text": "Die Anzahl der verbundenen Eingänge übersteigt die zulässige Menge der verwendeten Lizenz. Bitte erweitern Sie Ihre Lizenz, um diese Einschränkung aufzuheben.",
+          "version": 1
+        },
+        "0C6D8028": {
+          "text": "Fehler bei der Bereitstellung des Modells",
+          "version": 1
+        },
+        "0C6D8030": {
+          "text": "Bereitgestelltes Paket ist ungültig",
+          "version": 2
+        },
+        "0C6D8033": {
+          "text": "Beim Erstellen der Data Layer-Knoten für das Modell ist ein Fehler aufgetreten",
+          "version": 1
+        },
+        "0C6D8035": {
+          "text": "Fehler beim Lesen einer notwendigen konfigurierten Eigenschaft",
+          "version": 1
+        },
+        "0C6D8036": {
+          "text": "Fehler beim Schreiben auf Data Layer-Knoten",
+          "version": 1
+        },
+        "0C6D8037": {
+          "text": "Modell ist bereits installiert",
+          "version": 1
+        },
+        "0C6D8038": {
+          "text": "Modell wird gerade installiert",
+          "version": 2
+        },
+        "0C6D8039": {
+          "text": "Das Modellpaket ist zu groß",
+          "version": 1
+        },
+        "0C6D8040": {
+          "text": "Während der Installation ist ein unerwarteter Fehler aufgetreten",
+          "version": 1
+        },
+        "0C6D8041": {
+          "text": "Das Modell/die Funktion wurde für eine andere Prozessorarchitektur gebaut",
+          "version": 1
+        },
+        "0C6D8043": {
+          "text": "Versionen sind nicht kompatibel",
+          "version": 1
+        }
+      }
+    },
+    "100F0121": {
+      "text": "Status des Modells",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8032": {
+          "text": "Deinstallation fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "100F0122": {
+      "text": "Status des Webservers",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8024": {
+          "text": "Der Webserver wurde gestoppt",
+          "version": 1
+        },
+        "0C6D8029": {
+          "text": "Initialisierung fehlgeschlagen",
+          "version": 1
+        },
+        "0C6D8042": {
+          "text": "In Bearbeitung, bitte versuchen Sie es später erneut",
+          "version": 1
+        }
+      }
+    },
+    "100F0123": {
+      "text": "Modellwiederherstellung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6DC000": {
+          "text": "Modell wegen inkonsistenter Installation und Sicherung gelöscht",
+          "version": 1
+        },
+        "0C6DC001": {
+          "text": "Modell wurde  aufgrund einer erfolglosen Wiederherstellung des Data Layer-Knotens gelöscht.",
+          "version": 1
+        },
+        "0C6DC002": {
+          "text": "Bei der Wiederherstellung von Modellen ist eine unerwartete interne Fehlfunktion aufgetreten.",
+          "version": 1
+        }
+      }
+    }
+  }
+}

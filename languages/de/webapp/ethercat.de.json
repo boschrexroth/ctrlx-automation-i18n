@@ -1,0 +1,237 @@
+﻿{
+  "ecmlib": {
+    "common": {
+      "texts": {
+        "name": "Name",
+        "address": "Adresse",
+        "state": "Zustand",
+        "systemTimeDifference": "Systemzeitabweichung",
+        "diagnostics": "Diagnosen",
+        "netId": "NetID",
+        "status": "Status",
+        "dcSupport": "DC-Unterstützung"
+      },
+      "identity": {
+        "vendor": "Hersteller",
+        "productCode": "Produktcode",
+        "revisionNumber": "Revision",
+        "serialNumber": "Seriennummer"
+      },
+      "add.button": "Hinzufügen",
+      "cancel.button": "Abbrechen",
+      "delete.button": "Löschen",
+      "action.openIoEngineering": "Öffnen Sie ctrlX I/O Engineering zur Konfiguration des Netzwerkes oder für Detaildiagnosen",
+      "action.openDriveEngineering": "Öffnen Sie ctrlX DRIVE Engineering zur Konfiguration des Gerätes",
+      "noMasterInstanceInMasterView": {
+        "text": "Kein EtherCAT Master konfiguriert",
+        "add": "EtherCAT Master hinzufügen",
+        "info": "Ein EtherCAT-Master wird als Software-Gerät erstellt und verwendet eine physikalische Ethernet-Schnittstelle der ctrlX CORE.\nDadurch kann auf E/As und Antriebe über EtherCAT zugegriffen werden. EtherCAT ist ein Ethernet-basierter Realtime-Feldbus."
+      },
+      "noSlaves": {
+        "text": "Keine EtherCAT Slaves konfiguriert",
+        "add": "ctrlX I/O Engineering starten",
+        "info1": "ctrlX I/O Engineering ist eine Windows Desktop-Anwendung um ein EtherCAT-Netzwerk zu konfigurieren und diagnostizieren.",
+        "info2": "ctrlX I/O Engineering ist Teil von ctrlX WORKS. Für ctrlX WORKS, gehen Sie zum {{ ctrlXStore }}."
+      }
+    },
+    "masteroverview": {
+      "tabs": {
+        "label.overview": "Slaves",
+        "label.slavestatistics": "Slave-Statistik",
+        "label.aoe": "AoE",
+        "label.eoe": "EoE"
+      }
+    },
+    "ecm": {
+      "distributedclocks": {
+        "title": "Distributed Clocks",
+        "label.syncMode": "DC-Modus",
+        "label.cycleTime": "Zykluszeit",
+        "unit.cycleTime": "µs",
+        "header.syncShift": "Sync-Offset",
+        "label.syncShiftTimeToCycleTimePercent": "Prozent der Zykluszeit",
+        "label.syncShiftTime": "Sync-Offset-Zeit",
+        "unit.syncShiftTime": "µs",
+        "header.syncWindow": "Sync-Fenster",
+        "label.syncWindowMonitoring": "Sync-Fensterüberwachung",
+        "label.deviationLimit": "Grenzwert",
+        "unit.deviationLimit": "µs",
+        "label.continuousDelayCompensation": "Kontinuierliche Laufzeitkompensation",
+        "text.yes": "Ja",
+        "text.no": "Nein",
+        "text.active": "Aktiv",
+        "text.notActive": "Inaktiv"
+      },
+      "statistics": {
+        "tabHeader": "Master-Statistik",
+        "resetCounters": "Zähler zurücksetzen",
+        "frame": {
+          "header": "Frames",
+          "sum": "Gesamt",
+          "cyclic": "Zyklisch",
+          "acyclic": "Azyklisch",
+          "copyData": "In die Zwischenablage kopieren",
+          "copyDataConfirmation": "Frame-Statistik in die Zwischenablage kopiert",
+          "sent": "Gesendet",
+          "lost": "Verloren"
+        },
+        "mailbox": {
+          "header": "Mailbox-Anfragen",
+          "total": "Gesamt",
+          "read": "Lesen",
+          "write": "Schreiben",
+          "copyData": "In die Zwischenablage kopieren",
+          "copyDataConfirmation": "Mailbox-Statistik in die Zwischenablage kopiert"
+        }
+      }
+    },
+    "masterstatus": {
+      "label.portAvailable": "Port vorhanden",
+      "label.licenseAvailable": "Lizenz verfügbar",
+      "label.linkAvailable": "Link vorhanden",
+      "label.topologyOk": "Topologie OK",
+      "label.masterInTargetState": "Master im Zielzustand",
+      "label.slavesinMasterState": "Slaves im Master-Zustand",
+      "label.slavesWithoutError": "Slaves ohne Fehler",
+      "label.masterInOp": "Master in OP",
+      "label.dcInSync": "DC in-sync",
+      "label.running": "Bus läuft",
+      "error.portNotAvailable": "Konfigurierter Port nicht vorhanden",
+      "error.licenseNotAvailable": "Lizenz nicht verfügbar",
+      "error.linkNotAvailable": "Link nicht vorhanden",
+      "error.topologyMissmatch": "Topologie nicht OK",
+      "error.masterNotInRequestedState": "Master nicht im angeforderten Zustand",
+      "error.slavesNotInMasterState": "Slaves nicht im Master-Zustand",
+      "error.slaveHasError": "Slave(s) im Fehlerzustand",
+      "error.dcNotInSync": "DC nicht in-sync",
+      "error.masterNotInOperational": "Master nicht in OP",
+      "error.noRun": "Läuft nicht",
+      "success.run": "Läuft",
+      "text": {
+        "good": {
+          "PortError": "Port vorhanden",
+          "LicenseError": "Lizenz verfügbar",
+          "NoEthernetLink": "Link vorhanden",
+          "TopologyNotOk": "Topologie OK",
+          "NotInRequestedState": "Master im angeforderten Zustand",
+          "SlavesNotInMasterState": "Slaves im Master-Zustand",
+          "SlavesError": "Slaves ohne Fehler",
+          "NotInStateOp": "Master in OP",
+          "SettingsInvalid": "Einstellungen gültig",
+          "DcNotInSync": "DC in-sync",
+          "BusRunning": "Läuft"
+        },
+        "bad": {
+          "PortError": "Konfigurierter Port nicht vorhanden",
+          "LicenseError": "Lizenz nicht verfügbar",
+          "NoEthernetLink": "Link nicht vorhanden",
+          "TopologyNotOk": "Topologie nicht OK",
+          "NotInRequestedState": "Master nicht im angeforderten Zustand",
+          "SlavesNotInMasterState": "Slaves nicht im Master-Zustand",
+          "SlavesError": "Slave(s) im Fehlerzustand",
+          "NotInStateOp": "Master nicht in OP",
+          "SettingsInvalid": "Einstellungen ungültig oder inkonsistent",
+          "DcNotInSync": "DC nicht in-sync",
+          "BusRunning": "Läuft nicht"
+        }
+      }
+    },
+    "error": {
+      "ethercatNotAvailable.header": "Die App EtherCAT Master ist momentan nicht verfügbar (Fehler: {{httpStatusCode}}).",
+      "ethercatNotAvailable.text": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+      "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{refreshLink}} Sie die Seite",
+      "appInitializing.refreshLink": "aktualisieren",
+      "serviceModeActive": "Der Service-Modus ist gerade aktiv. Bitte gehen Sie zu {{appManagerLink}}, wechseln Sie in den Operation-Modus und versuchen Sie es erneut.",
+      "serviceModeActive.appManagerLink": "Apps-Manager",
+      "noDatalayerPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen.",
+      "componentInServiceMode": "Die App ist gerade im Zustand 'Service'. Bitte schalten Sie in den 'Setup'- oder 'Operating'-Zustand",
+      "schedulerTaskNotConfigured": "Keine Scheduler-Tasks für diese EtherCAT Master-Instanz konfiguriert. Gehe zu 'Einstellungen' > 'Scheduler' um eine Task zu konfigurieren",
+      "instanceDoesNotExist": {
+        "header": "Der EtherCAT Master '{{ masterInstance }}' existiert nicht",
+        "addText": "Gehen Sie auf die Seite 'EtherCAT Master', um einen anderen Master auszuwählen oder einen neuen zu erstellen.",
+        "info": "Ein EtherCAT-Master wird als Software-Gerät erstellt und verwendet eine physikalische Ethernet-Schnittstelle der ctrlX CORE.\nDadurch kann auf E/As und Antriebe über EtherCAT zugegriffen werden. EtherCAT ist ein Ethernet-basierter Realtime-Feldbus."
+      }
+    },
+    "configuration": {
+      "add-master": {
+        "title": "EtherCAT Master hinzufügen",
+        "name.required": "Geben Sie einen Namen ein",
+        "name.maxlength": "Der Name hat mehr als 15 Zeichen",
+        "name.pattern": "Ungültiger Name",
+        "msg.noLicense": "Keine Lizenz für den EtherCAT Master verfügbar.",
+        "msg.noInterface": "Es gibt keine EtherCAT-fähige Schnittstelle"
+      },
+      "del-master": {
+        "title": "EtherCAT Master löschen",
+        "info1": "Der EtherCAT Master '{{instanceName}}' wird gelöscht.",
+        "info2": "Die Feldbuskommunikation wird gestoppt und die Konfiguration entfernt.",
+        "warning": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren."
+      },
+      "port.header": "Port",
+      "redundancy": "Redundanz",
+      "actions.header": "Aktionen",
+      "action.delete": "EtherCAT Master-Instanz löschen",
+      "action.openEthercatStatus": "EtherCAT-Status öffnen"
+    },
+    "status": {
+      "statusflags": {
+        "message.header": "Meldung",
+        "value.header": "Wert",
+        "yes": "Ja",
+        "no": "Nein"
+      },
+      "cxde": {
+        "slaveNotConnected": "Der Slave ist nicht verbunden",
+        "slaveNotInPreop": "Der Slave muss mindestens im Zustand 'PreOP' sein",
+        "slaveIsNoDrive": "Der Slave ist kein SoE-Antrieb"
+      },
+      "state.notconnected": "Nicht verbunden"
+    },
+    "slavestatistics": {
+      "button.resetCounters": "Zähler zurücksetzen"
+    },
+    "slave": {
+      "general": {
+        "tabHeader": "Allgemeines"
+      },
+      "identity": {
+        "title": "Identität"
+      },
+      "mailbox": {
+        "title": "Mailbox",
+        "protocols": "Protokolle",
+        "mbxStandard": "Standard Out / Standard In",
+        "mbxBootstrap": "Bootstrap Out / Bootstrap In"
+      }
+    },
+    "slaveStatus": {
+      "text":{
+        "set.NotOnline": "Nicht verbunden",
+        "unset.NotOnline": "Verbunden",
+        "set.Error": " Siehe 'AL Status'",
+        "unset.Error": "Kein Fehler",
+        "set.NotInStateOp": "Slave nicht in OP",
+        "unset.NotInStateOp": "Slave in OP"
+      }
+    },
+    "ecm-eoe-config": {
+      "masterConfiguration": {
+        "header": "Master-Konfiguration"
+      },
+      "table": {
+        "header": {
+          "dnsName": "DNS-Name",
+          "macAddress": "MAC-Adresse",
+          "ipAddress": "IP-Adresse",
+          "subnetMask": "Subnetzmaske",
+          "defaultGateway": "Standard-Gateway"
+        }
+      }
+    },
+    "ecm-aoe-config": {
+      "masterConfiguration": {
+        "header": "Master-Konfiguration"
+      }
+    }
+  }
+}

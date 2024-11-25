@@ -1,0 +1,6495 @@
+{
+  "product": "XCR-V-0206",
+  "mainDiagnostics": {
+    "080A000E": {
+      "text": "Trace Nachricht script.manager",
+      "version": 1
+    },
+    "080A000F": {
+      "text": "Trace Nachricht script.python",
+      "version": 1
+    },
+    "080A0010": {
+      "text": "Linux-Watchdog-Framework Eigenschaften",
+      "version": 1
+    },
+    "080A0011": {
+      "text": "Überwachung des Hardware-Watchdog gestartet",
+      "version": 1
+    },
+    "080A0012": {
+      "text": "Überwachung des Hardware-Watchdog beendet",
+      "version": 1
+    },
+    "080A0013": {
+      "text": "Linux-Watchdog-Framework Typ",
+      "version": 1
+    },
+    "080A0014": {
+      "text": "Linux-Watchdog-Framework Identität",
+      "version": 1
+    },
+    "080A0023": {
+      "text": "Anstehende Aufgaben werden pausiert.",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4251": {
+          "text": "Das Laden der Programmkonfiguration wird auf Grund von laufenden Prozessen im Device Admin verzögert.",
+          "version": 1
+        },
+        "0C7B4252": {
+          "text": "Die automatische Generierung der Programmkonfiguration für neue Applikationen wird auf Grund von laufenden Prozessen im Device Admin verzögert.",
+          "version": 1
+        }
+      }
+    },
+    "080A0033": {
+      "text": "Hardware-Neustart durch Linux-Watchdog-Framework ausgelöst",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4231": {
+          "text": "Hardware-Neustart durch externes Signal 1 ausgelöst",
+          "version": 1
+        },
+        "0C7B4232": {
+          "text": "Interne Meldung",
+          "version": 1
+        }
+      }
+    },
+    "080A0042": {
+      "text": "Scheduler-Nachricht",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4262": {
+          "text": "Konfiguration konnte nicht vollständig wiederhergestellt werden.",
+          "version": 1
+        },
+        "0C7B4277": {
+          "text": "Umschaltung des Systemzustands",
+          "version": 1
+        },
+        "0C7B4278": {
+          "text": "Umschaltung des Systemzustands abgeschlossen",
+          "version": 1
+        }
+      }
+    },
+    "080A0068": {
+      "text": "Laden der administrativen Einstellung unvollständig",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4329": {
+          "text": "Laden der Debug-Konfiguration fehlgeschlagen, Debug-Konfigurationen können nicht auf andere Steuerungen übertragen werden (controlDebug_type / controlDebug; scheduler/admin/controls/debug)",
+          "version": 1
+        }
+      }
+    },
+    "080A00A0": {
+      "text": "Konvertierung des Scheduler-Programms",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B500D": {
+          "text": "Konvertierung des Scheduler-Programms gestartet",
+          "version": 1
+        },
+        "0C7B500E": {
+          "text": "Konvertierung des Scheduler-Programms erfolgreich abgeschlossen",
+          "version": 1
+        }
+      }
+    },
+    "080A0100": {
+      "text": "Fehler gelöscht",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666008": {
+          "text": "Alle Fehler gelöscht",
+          "version": 1
+        }
+      }
+    },
+    "080A0101": {
+      "text": "Kommando \"Fehler löschen\" ausgeführt",
+      "version": 3,
+      "detailedDiagnostics": {
+        "0C666009": {
+          "text": "Das Kommando \"Löschen aller Fehler\" wurde ausgeführt",
+          "version": 4
+        },
+        "0C66600A": {
+          "text": "Das Kommando \"Löschen eines bestimmten Fehlers\" wurde ausgeführt",
+          "version": 4
+        }
+      }
+    },
+    "080A0102": {
+      "text": "Keine anstehenden Fehler und Warnungen",
+      "version": 2
+    },
+    "080A0103": {
+      "text": "Kommando \"Rücksetzen anstehender Diagnosen\" ausgeführt",
+      "version": 1
+    },
+    "080A0110": {
+      "text": "Trace Nachricht common.log.diagnosis",
+      "version": 1
+    },
+    "080A0112": {
+      "text": "Trace Nachricht common.log.trace",
+      "version": 1
+    },
+    "080A0300": {
+      "text": "Security: Änderung in Nutzerverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0000": {
+          "text": "Neuer Nutzer erzeugt",
+          "version": 1
+        },
+        "0C7A0001": {
+          "text": "Nutzer gelöscht",
+          "version": 1
+        },
+        "0C7A0002": {
+          "text": "Nutzer deaktiviert",
+          "version": 1
+        },
+        "0C7A0003": {
+          "text": "Nutzer aktiviert",
+          "version": 1
+        },
+        "0C7A0004": {
+          "text": "Nutzeranmeldung",
+          "version": 1
+        },
+        "0C7A0005": {
+          "text": "Nutzerabmeldung",
+          "version": 1
+        },
+        "0C7A0006": {
+          "text": "Passwortrichtlinien geändert",
+          "version": 1
+        },
+        "0C7A0007": {
+          "text": "Sitzungsrichtlinien geändert",
+          "version": 1
+        },
+        "0C7A0008": {
+          "text": "Neue Gruppe erzeugt",
+          "version": 1
+        },
+        "0C7A0009": {
+          "text": "Gruppe gelöscht",
+          "version": 1
+        },
+        "0C7A000A": {
+          "text": "Gruppenberechtigungen geändert",
+          "version": 1
+        },
+        "0C7A000B": {
+          "text": "Nutzerberechtigungen geändert",
+          "version": 1
+        },
+        "0C7A000C": {
+          "text": "Nutzerpasswort geändert",
+          "version": 1
+        },
+        "0C7A000D": {
+          "text": "Gruppenzugehörigkeit geändert",
+          "version": 1
+        },
+        "0C7A000E": {
+          "text": "Proxy-Zertifikat  aktualisiert",
+          "version": 1
+        },
+        "0C7A000F": {
+          "text": "IDM-Schlüsselpaar aktualisiert",
+          "version": 1
+        },
+        "0C7A0010": {
+          "text": "Proxy-Zertifikat konnte nicht generiert werden",
+          "version": 1
+        },
+        "0C7A0011": {
+          "text": "IDM-Schlüsselpaar  konnte nicht generiert werden",
+          "version": 1
+        },
+        "0C7A0012": {
+          "text": "Konfigurationen konnten nicht geladen werden",
+          "version": 1
+        },
+        "0C7A0053": {
+          "text": "Fehlerhaftes Backup",
+          "version": 1
+        },
+        "0C7A0054": {
+          "text": "Fernauthentifizierung aktiviert",
+          "version": 1
+        },
+        "0C7A0055": {
+          "text": "Fernauthentifizierung deaktiviert",
+          "version": 1
+        },
+        "0C7A0056": {
+          "text": "Konfiguration der Fernauthentifizierung geändert",
+          "version": 1
+        }
+      }
+    },
+    "080A0301": {
+      "text": "Security: Änderung in Zertifikatsverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0020": {
+          "text": "Zertifikat hinzugefügt",
+          "version": 1
+        },
+        "0C7A0021": {
+          "text": "Zertifikat gelöscht",
+          "version": 1
+        },
+        "0C7A0022": {
+          "text": "Schlüssel hinzugefügt",
+          "version": 1
+        },
+        "0C7A0023": {
+          "text": "Schlüssel gelöscht",
+          "version": 1
+        },
+        "0C7A0024": {
+          "text": "Zertifikat kopiert",
+          "version": 1
+        },
+        "0C7A0025": {
+          "text": "Zertifikat verschoben",
+          "version": 1
+        },
+        "0C7A0026": {
+          "text": "Schlüssel kopiert",
+          "version": 1
+        },
+        "0C7A0027": {
+          "text": "Schlüssel verschoben",
+          "version": 1
+        },
+        "0C7A0028": {
+          "text": "PKI-Konfiguration hinzugefügt",
+          "version": 1
+        },
+        "0C7A0029": {
+          "text": "PKI-Konfiguration verändert",
+          "version": 1
+        },
+        "0C7A002A": {
+          "text": "PKI-Konfiguration gelöscht",
+          "version": 1
+        },
+        "0C7A002B": {
+          "text": "Verlängerung des Abonnements hinzugefügt",
+          "version": 1
+        },
+        "0C7A002C": {
+          "text": "Verlängerung des Abonnements verändert",
+          "version": 1
+        },
+        "0C7A002D": {
+          "text": "Verlängerung des Abonnements gelöscht",
+          "version": 1
+        },
+        "0C7A002E": {
+          "text": "Verlängerung des Zertifikats erfolgreich",
+          "version": 1
+        },
+        "0C7A002F": {
+          "text": "Registrierung des Zertifikats erfolgreich",
+          "version": 1
+        },
+        "0C7A0045": {
+          "text": "Pkcs12-container Exportvorgang",
+          "version": 1
+        },
+        "0C7A0046": {
+          "text": "Pkcs12-container Importvorgang",
+          "version": 1
+        },
+        "0C7A0047": {
+          "text": "Pkcs12-container wird hochgeladen",
+          "version": 1
+        },
+        "0C7A0048": {
+          "text": "PKcs12-container Löschvorgang",
+          "version": 1
+        },
+        "0C7A0049": {
+          "text": "Extrahieren eines Zertifikats aus einer Datei mit mehreren Zertifikaten",
+          "version": 1
+        },
+        "0C7A004A": {
+          "text": "Das selbstsignierte Zertifikat wurde erfolgreich generiert",
+          "version": 1
+        }
+      }
+    },
+    "080A0304": {
+      "text": "Security: Änderung an der Remote-Logging-Verwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0070": {
+          "text": "Neues Target erzeugt",
+          "version": 1
+        },
+        "0C7A0071": {
+          "text": "Target gelöscht",
+          "version": 1
+        },
+        "0C7A0072": {
+          "text": "Target aktualisiert",
+          "version": 1
+        },
+        "0C7A0073": {
+          "text": "Remote Logging gestartet",
+          "version": 1
+        },
+        "0C7A0074": {
+          "text": "Remote Logging gestoppt",
+          "version": 1
+        },
+        "0C7A0075": {
+          "text": "Filterkonfiguration erfolgreich angelegt",
+          "version": 1
+        },
+        "0C7A0076": {
+          "text": "Filterkonfiguration erfolgreich gelöscht",
+          "version": 1
+        },
+        "0C7A0077": {
+          "text": "Filterkonfiguration erfolgreich aktualisert",
+          "version": 1
+        }
+      }
+    },
+    "080A0400": {
+      "text": "Laden der Konfiguration gestartet",
+      "version": 1
+    },
+    "080A0401": {
+      "text": "Laden der Konfiguration erfolgreich beendet",
+      "version": 1
+    },
+    "080A0402": {
+      "text": "Speichern der Konfiguration gestartet",
+      "version": 1
+    },
+    "080A0403": {
+      "text": "Speichern der Konfiguration erfolgreich beendet",
+      "version": 1
+    },
+    "080A0410": {
+      "text": "Trace Nachricht",
+      "version": 2
+    },
+    "080A0420": {
+      "text": "Gerätesicherung gestartet",
+      "version": 2
+    },
+    "080A0421": {
+      "text": "Gerätesicherung beendet",
+      "version": 2
+    },
+    "080A0422": {
+      "text": "Gerätewiederherstellung gestartet",
+      "version": 2
+    },
+    "080A0423": {
+      "text": "Gerätewiederherstellung beendet",
+      "version": 2
+    },
+    "080A0450": {
+      "text": "Archiv wurde erfolgreich erzeugt",
+      "version": 1
+    },
+    "080A0451": {
+      "text": "Archiv wurde erfolgreich wiederhergestellt",
+      "version": 1
+    },
+    "080A0500": {
+      "text": "Änderung in der Netzwerkverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640000": {
+          "text": "Security-Konfiguration in Netzwerkverwaltung geändert",
+          "version": 1
+        },
+        "0C640003": {
+          "text": "Netzwerkkonfiguration erfolgreich geändert",
+          "version": 2
+        },
+        "0C640004": {
+          "text": "Bridge erfolgreich geändert",
+          "version": 1
+        },
+        "0C640005": {
+          "text": "Netzwerkschnittstelle erfolgreich angelegt",
+          "version": 1
+        },
+        "0C640006": {
+          "text": "Netzwerkschnittstelle erfolgreich gelöscht",
+          "version": 1
+        },
+        "0C640007": {
+          "text": "Proxyinformationen erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C640008": {
+          "text": "Informationen des Nameserver erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C640009": {
+          "text": "Route erfolgreich hinzugefügt",
+          "version": 1
+        },
+        "0C64000A": {
+          "text": "Route erfolgreich gelöscht",
+          "version": 1
+        },
+        "0C64000B": {
+          "text": "Route erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C64000D": {
+          "text": "Netzwerkkonfiguration erfolgreich gespeichert",
+          "version": 1
+        }
+      }
+    },
+    "080A0510": {
+      "text": "PackageManager Information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641000": {
+          "text": "Installation aus unbekannter Quelle aktiviert",
+          "version": 1
+        },
+        "0C641001": {
+          "text": "Anwendung eingeschaltet",
+          "version": 1
+        },
+        "0C641002": {
+          "text": "Anwendung ausgeschaltet",
+          "version": 1
+        },
+        "0C641003": {
+          "text": "Anwendung erfolgreich hinzugefügt",
+          "version": 1
+        },
+        "0C641004": {
+          "text": "Anwendung erfolgreich gelöscht",
+          "version": 1
+        },
+        "0C641005": {
+          "text": "Repository erfolgreich gelöscht",
+          "version": 1
+        },
+        "0C641006": {
+          "text": "Repository erfolgreich aktualisiert",
+          "version": 1
+        },
+        "0C641007": {
+          "text": "Anwendung erfolgreich hochgeladen",
+          "version": 1
+        },
+        "0C64100C": {
+          "text": "Repository erfolgreich hinzugefügt",
+          "version": 1
+        },
+        "0C641014": {
+          "text": "Aufgabe erfolgreich abgeschlossen",
+          "version": 1
+        },
+        "0C641017": {
+          "text": "Postinstall-Skriptinformationen",
+          "version": 1
+        },
+        "0C641019": {
+          "text": "Firmware-Update-Befehl erfolgreich ausgeführt",
+          "version": 1
+        }
+      }
+    },
+    "080A0520": {
+      "text": "Speichermanagement Information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641200": {
+          "text": "Speicheraktion gestartet",
+          "version": 1
+        },
+        "0C641201": {
+          "text": "Speicheraktion erfolgreich beendet",
+          "version": 1
+        }
+      }
+    },
+    "080A0530": {
+      "text": "Systemmanagement Änderung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641300": {
+          "text": "Zeiteinstellungen erfolgreich gespeichert",
+          "version": 1
+        },
+        "0C641302": {
+          "text": "Hostname erfolgreich geändert",
+          "version": 1
+        },
+        "0C641304": {
+          "text": "Task initialisiert",
+          "version": 1
+        },
+        "0C641306": {
+          "text": "URL zum Lizenzspeichertresor erfolgreich geschrieben",
+          "version": 1
+        },
+        "0C6413D3": {
+          "text": "Isolation des CPU-Kerns hat sich geändert",
+          "version": 1
+        }
+      }
+    },
+    "080A0550": {
+      "text": "Lizenzmanager Information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0094": {
+          "text": "Die Lizenzdatei (capability response) wurde hochgeladen",
+          "version": 1
+        },
+        "0C7A0095": {
+          "text": "Initialisierung des Lizenzmanagers",
+          "version": 1
+        }
+      }
+    },
+    "080A0600": {
+      "text": "Trace Nachricht comm.datalayer",
+      "version": 1
+    },
+    "080A0601": {
+      "text": "Trace Nachricht comm.datalayer.framework",
+      "version": 1
+    },
+    "080A0602": {
+      "text": "Trace Nachricht web.automation",
+      "version": 1
+    },
+    "080A0603": {
+      "text": "Trace Nachricht common.systemhandler",
+      "version": 1
+    },
+    "080A0604": {
+      "text": "Trace Nachricht app.automationframework",
+      "version": 2
+    },
+    "080A0650": {
+      "text": "Applikation \"Automation Core\" Ereignis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7C0100": {
+          "text": "Starten des OSGI Celix-Framework ist abgeschlossen (mit Erfolg oder Fehler)",
+          "version": 2
+        },
+        "0C7C0101": {
+          "text": "Herunterfahren des OSGI Celix-Frameworks wird eingeleitet (führt zum Shutdown der Bundles von app.automationcore und aller initialen Bundles in den überwachten Verzeichnissen)",
+          "version": 2
+        },
+        "0C7C0102": {
+          "text": "Herunterfahren des OSGI Celix Frameworks wurde gestartet",
+          "version": 2
+        },
+        "0C7C0104": {
+          "text": "Starten der Applikation \"Automation Core\" ist erfolgreich abgeschlossen (nur Bundles von app.automationcore)",
+          "version": 1
+        },
+        "0C7C0105": {
+          "text": "Starten von allen Applikationen ist erfolgreich abgeschlossen (Bundles von app.automationcore und alle anfänglichen Bundles in den überwachten Verzeichnissen)",
+          "version": 1
+        }
+      }
+    },
+    "080A0822": {
+      "text": "Überbrückte Schnittstelle erfolgreich aktualisiert",
+      "version": 1
+    },
+    "080A0823": {
+      "text": "Netzwerkschnittstelle erfolgreich erstellt",
+      "version": 1
+    },
+    "080A0824": {
+      "text": "Netzwerkschnittstelle erfolgreich gelöscht",
+      "version": 1
+    },
+    "080A0825": {
+      "text": "Proxy-Daten erfolgreich aktualisiert",
+      "version": 1
+    },
+    "080A0826": {
+      "text": "Nameserver erfolgreich aktualisiert",
+      "version": 1
+    },
+    "080A0827": {
+      "text": "Route erfolgreich hinzugefügt",
+      "version": 1
+    },
+    "080A0828": {
+      "text": "Route erfolgreich entfernt",
+      "version": 1
+    },
+    "080A0829": {
+      "text": "Route erfolgreich aktualisiert",
+      "version": 1
+    },
+    "080A082A": {
+      "text": "Security-Konfiguration erfolgreich geändert",
+      "version": 1
+    },
+    "080A082B": {
+      "text": "Netzwerk-Konfiguration erfolgreich gespeichert",
+      "version": 1
+    },
+    "080A082C": {
+      "text": "Repository erfolgreich hinzugefügt",
+      "version": 1
+    },
+    "080A082D": {
+      "text": "Applikation erfolgreich gelöscht",
+      "version": 1
+    },
+    "080A082E": {
+      "text": "Repository erfolgreich gelöscht",
+      "version": 1
+    },
+    "080A082F": {
+      "text": "Repository erfolgreich aktualisiert",
+      "version": 1
+    },
+    "080A0830": {
+      "text": "Applikation erfolgreich hochgeladen",
+      "version": 1
+    },
+    "080A0831": {
+      "text": "Installation aus unbekannter Quelle aktiviert",
+      "version": 1
+    },
+    "080A0832": {
+      "text": "Befehl zum Firmware-Update erfolgreich ausgeführt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641080": {
+          "text": "Einschaltvorgang erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "080A0835": {
+      "text": "Informationen zum Bootloader-Update",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641084": {
+          "text": "Information nach der Installation",
+          "version": 1
+        }
+      }
+    },
+    "080A0838": {
+      "text": "Hinzufügen von Task-Informationen",
+      "version": 1
+    },
+    "080A083D": {
+      "text": "Task erfolgreich abgeschlossen",
+      "version": 1
+    },
+    "080A0877": {
+      "text": "Zeiteinstellungen erfolgreich geändert",
+      "version": 1
+    },
+    "080A0878": {
+      "text": "URL zum seriellen Tresor erfolgreich geschrieben",
+      "version": 1
+    },
+    "080A0879": {
+      "text": "Host-Name erfolgreich geändert",
+      "version": 1
+    },
+    "080A087A": {
+      "text": "Aufgabe erfolgreich initialisiert",
+      "version": 1
+    },
+    "080A088B": {
+      "text": "Speichervorgang eingeleitet",
+      "version": 1
+    },
+    "080A088C": {
+      "text": "Speichervorgang erfolgreich beendet",
+      "version": 1
+    },
+    "080A088D": {
+      "text": "Speichermedien erfolgreich eingehängt",
+      "version": 1
+    },
+    "080A088E": {
+      "text": "Speichermedien erfolgreich ausgehängt",
+      "version": 1
+    },
+    "080A0FFF": {
+      "text": "Trace Nachricht common.scheduler",
+      "version": 1
+    },
+    "080E000E": {
+      "text": "Trace Warnung script.manager",
+      "version": 1
+    },
+    "080E000F": {
+      "text": "Trace Warnung script.python",
+      "version": 1
+    },
+    "080E0010": {
+      "text": "Unsicherer Maschinenzustand \"DEBUG\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4203": {
+          "text": "Der Hardware-Watchdog wurde deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        }
+      }
+    },
+    "080E0011": {
+      "text": "Unsicherer Maschinenzustand",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B2323": {
+          "text": "Die Task-Watchdogs wurden auf Grund unzureichender Hardware-Unterstützung (Linux-Echtzeitunterstützung) deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        },
+        "0C7B2324": {
+          "text": "Die Task-Watchdogs wurden auf Grund einer aktiven DEBUG-Konfiguration deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        },
+        "0C7B2325": {
+          "text": "Die Task-Watchdogs wurden auf Grund einer aktivierten DEBUG-Umgebungsvariable deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        },
+        "0C7B2326": {
+          "text": "Die Task-Watchdogs wurden auf Grund unzureichender Hardware-Unterstützung (virtualisierte Plattform) deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        },
+        "0C7B2327": {
+          "text": "Die Task-Watchdogs wurden auf Grund unzureichender Hardware-Unterstützung (fehlende Unterstützung des Linux-Watchdog-Frameworks) deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        }
+      }
+    },
+    "080E0023": {
+      "text": "Auslastung im kritischen Bereich \"WARNING\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4279": {
+          "text": "Die maximale Auslastung der Zykluszeit des Schedulers hat den Grenzwert mit einer Warnung überschritten",
+          "version": 1
+        }
+      }
+    },
+    "080E00A0": {
+      "text": "Konvertierung des Scheduler-Programms",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B500F": {
+          "text": "Konvertierung des Scheduler-Programms abgebrochen",
+          "version": 1
+        }
+      }
+    },
+    "080E0110": {
+      "text": "Trace Warnung common.log.diagnosis",
+      "version": 1
+    },
+    "080E0112": {
+      "text": "Trace Warnung common.log.trace",
+      "version": 1
+    },
+    "080E0200": {
+      "text": "Fehler HTTP-Client",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0202": {
+          "text": "Ungültige Anfrage (400)",
+          "version": 1
+        },
+        "0C7A0203": {
+          "text": "Nicht autorisiert (401)",
+          "version": 1
+        },
+        "0C7A0204": {
+          "text": "Keine Berechtigung (403)",
+          "version": 1
+        },
+        "0C7A0205": {
+          "text": "Nicht gefunden (404)",
+          "version": 1
+        },
+        "0C7A0206": {
+          "text": "Konflikt (409)",
+          "version": 1
+        },
+        "0C7A0207": {
+          "text": "Bezahlung notwendig (402)",
+          "version": 1
+        }
+      }
+    },
+    "080E0201": {
+      "text": "Zugriff verweigert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A020A": {
+          "text": "Authentifizierung fehlt",
+          "version": 1
+        },
+        "0C7A020C": {
+          "text": "Keine Erlaubnis zum Zugriff auf diese Ressource",
+          "version": 1
+        }
+      }
+    },
+    "080E0202": {
+      "text": "Lizenz erforderlich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A020B": {
+          "text": "Eine Lizenz fehlt oder ist nicht ausreichend",
+          "version": 1
+        }
+      }
+    },
+    "080E0203": {
+      "text": "Objekt nicht gefunden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A020D": {
+          "text": "Das angefragte Objekt existiert nicht",
+          "version": 1
+        }
+      }
+    },
+    "080E0300": {
+      "text": "Security: Warnung bezüglich Nutzerverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0050": {
+          "text": "Fehlerhafter Anmeldeversuch",
+          "version": 1
+        },
+        "0C7A0051": {
+          "text": "Root-Nutzer wurde hinzugefügt",
+          "version": 1
+        },
+        "0C7A0052": {
+          "text": "Root-Nutzer wurde gelöscht",
+          "version": 1
+        },
+        "0C7A0057": {
+          "text": "System User existiert",
+          "version": 1
+        }
+      }
+    },
+    "080E0301": {
+      "text": "Security: Warnung bezüglich Zertifikatsverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0060": {
+          "text": "Zertifikatsgültigkeit läuft bald ab",
+          "version": 1
+        }
+      }
+    },
+    "080E0304": {
+      "text": "Security: Warnung an der Remote-Logging-Verwaltung",
+      "version": 1
+    },
+    "080E0305": {
+      "text": "Bootlader freigeschaltet!",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A0": {
+          "text": "Secure Boot inaktiv",
+          "version": 1
+        }
+      }
+    },
+    "080E0306": {
+      "text": "Security-Warnung während der Steuerungsüberwachung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A0": {
+          "text": "Secure Boot inaktiv",
+          "version": 1
+        },
+        "0C7A00A1": {
+          "text": "Vollständige Festplattenverschlüsselung inaktiv",
+          "version": 1
+        },
+        "0C7A00A2": {
+          "text": "TPM im Lockout-Modus",
+          "version": 1
+        }
+      }
+    },
+    "080E0307": {
+      "text": "Die zeitbasierte Lizenz wird bald ablaufen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0098": {
+          "text": "Die zeitbasierte Lizenz wird innerhalb von 30 Tagen ablaufen.",
+          "version": 1
+        },
+        "0C7A0099": {
+          "text": "Die zeitbasierte Lizenz wird innerhalb von 7 Tagen ablaufen.",
+          "version": 1
+        },
+        "0C7A009A": {
+          "text": "Die zeitbasierte Lizenz wird innerhalb eines Tages ablaufen.",
+          "version": 1
+        }
+      }
+    },
+    "080E0410": {
+      "text": "Trace Warnung",
+      "version": 2
+    },
+    "080E0500": {
+      "text": "Warnung in der Netzwerkverwaltung",
+      "version": 1
+    },
+    "080E0510": {
+      "text": "PackageManager Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100A": {
+          "text": "Die Systemintegrität ist beeinträchtigt",
+          "version": 1
+        },
+        "0C64100D": {
+          "text": "Fehlende App-Verbindung der signierten Anwendung wird wiederhergestellt",
+          "version": 1
+        },
+        "0C64101B": {
+          "text": "Trennen von der Spannungsversorgung erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "080E0520": {
+      "text": "Speichermanagement Warnung",
+      "version": 1
+    },
+    "080E0530": {
+      "text": "Systemmanagement Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641307": {
+          "text": "RTC-Prolem erkannt. Bitte prüfen Sie die RTC-Batterie",
+          "version": 1
+        }
+      }
+    },
+    "080E0531": {
+      "text": "Systemneustart erforderlich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413D2": {
+          "text": "Neustart des Systems ist aufgrund von Änderungen der Echtzeiteinstellungen erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "080E0540": {
+      "text": "Warnung während der Steuerungsüberwachung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66003A": {
+          "text": "Hohe Steuerungstemperatur",
+          "version": 1
+        },
+        "0C66003B": {
+          "text": "Die Lebensdauer des eingebauten Speichermediums ist fast abgelaufen",
+          "version": 1
+        },
+        "0C66003F": {
+          "text": "Batterie der Steuerung leer",
+          "version": 1
+        },
+        "0C660040": {
+          "text": "Verfügbarer Speicher der Steuerung niedrig",
+          "version": 1
+        },
+        "0C660042": {
+          "text": "Verfügbarer Onboard-Speicher der Steuerung niedrig",
+          "version": 1
+        }
+      }
+    },
+    "080E0550": {
+      "text": "Lizenzmanager Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0090": {
+          "text": "Lizenz kurz vor dem Ablaufdatum",
+          "version": 1
+        },
+        "0C7A0091": {
+          "text": "Lizenz Dongle entfernt",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime fehlt",
+          "version": 2
+        },
+        "0C7A0095": {
+          "text": "Initialisierung des Lizenzmanagers",
+          "version": 1
+        },
+        "0C7A0096": {
+          "text": "Der temporäre Notfallmodus ist aktiv",
+          "version": 1
+        }
+      }
+    },
+    "080E05FF": {
+      "text": "Device Administration: Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641F00": {
+          "text": "Das System wurde im Testmodus gestartet",
+          "version": 1
+        }
+      }
+    },
+    "080E0600": {
+      "text": "Trace Warnung comm.datalayer",
+      "version": 1
+    },
+    "080E0601": {
+      "text": "Trace Warnung comm.datalayer.framework",
+      "version": 1
+    },
+    "080E0602": {
+      "text": "Trace Warnung web.automation",
+      "version": 1
+    },
+    "080E0603": {
+      "text": "Trace Warnung common.systemhandler",
+      "version": 1
+    },
+    "080E0604": {
+      "text": "Trace Warnung app.automationframework",
+      "version": 2
+    },
+    "080E0825": {
+      "text": "Netzwerk-Konfigurationsdaten erfolgreich geändert",
+      "version": 1
+    },
+    "080E082A": {
+      "text": "App-Verbindung wiederhergestellt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100D": {
+          "text": "Fehlende App-Verbindung der signierten Anwendung wird wiederhergestellt",
+          "version": 1
+        }
+      }
+    },
+    "080E0839": {
+      "text": "Systemintegrität ist beeinträchtigt",
+      "version": 1
+    },
+    "080E0876": {
+      "text": "Neustart des Systems erforderlich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641115": {
+          "text": "Isolierung des Prozessorkerns hat sich geändert",
+          "version": 1
+        },
+        "0C641116": {
+          "text": "Systemneustart aufgrund von Änderungen der Echtzeiteinstellungen erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "080E0877": {
+      "text": "Speicherreservierung wird nicht unterstützt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641117": {
+          "text": "Speicherreservierung ist aktiviert, wird aber nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "080E0FFF": {
+      "text": "Trace Warnung common.scheduler",
+      "version": 1
+    },
+    "080F0000": {
+      "text": "Fehler in Prozesshandhabung für Skriptinstanz",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270000": {
+          "text": "Prozesserstellung für Script-Runner fehlgeschlagen",
+          "version": 1
+        },
+        "0C270001": {
+          "text": "Prozessbeendigung für Skript-Runner fehlgeschlagen",
+          "version": 1
+        },
+        "0C270002": {
+          "text": "Prozessunterbrechung für Skript-Runner fehlgeschlagen",
+          "version": 1
+        },
+        "0C270003": {
+          "text": "Prozesswiederaufnahme für Skript-Runner fehlgeschlagen",
+          "version": 1
+        },
+        "0C270004": {
+          "text": "Lizenz für aktuelle Sprache fehlt",
+          "version": 1
+        },
+        "0C270005": {
+          "text": "Nicht unterstützter Sprachtyp",
+          "version": 1
+        }
+      }
+    },
+    "080F0001": {
+      "text": "Fehler bei Backup oder Wiederherstellung des Skriptmanagers",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270100": {
+          "text": "Konnte keine einzelne Konfiguration des \"Data Layer\" Knotens lesen",
+          "version": 1
+        },
+        "0C270101": {
+          "text": "Metadaten des \"Data Layer\"-Knotens konnten nicht gelesen werden",
+          "version": 1
+        },
+        "0C270102": {
+          "text": "JSON-Dateiparser gibt einen Fehler während des Parsens einer JSON-Datei aus",
+          "version": 1
+        },
+        "0C270103": {
+          "text": "JSON-Dateiparser gibt einen Fehler während der Erzeugung einer JSON-Datei aus",
+          "version": 1
+        },
+        "0C270104": {
+          "text": "Datei konnte nicht geschrieben werden",
+          "version": 1
+        },
+        "0C270105": {
+          "text": "Datei konnte nicht gelesen werden",
+          "version": 1
+        },
+        "0C270106": {
+          "text": "Keine einzelne Konfiguration konnte auf den \"Data Layer\" Knoten geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F000E": {
+      "text": "Trace Fehler script.manager",
+      "version": 1
+    },
+    "080F000F": {
+      "text": "Trace Fehler script.python",
+      "version": 1
+    },
+    "080F0012": {
+      "text": "Unzureichende Hardware für Hardware-Watchdog identifiziert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4229": {
+          "text": "Der Hardware-Watchdog ist aufgrund eines Mangels der verwendeten Hardware nicht aktiv",
+          "version": 2
+        }
+      }
+    },
+    "080F0017": {
+      "text": "Fehler Task-Watchdog",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B1717": {
+          "text": "Task-Watchdog abgelaufen",
+          "version": 1
+        }
+      }
+    },
+    "080F0023": {
+      "text": "Fehler bei der Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4260": {
+          "text": "Callable konnte nicht in den Zustand \"Setup\" geschaltet werden",
+          "version": 1
+        },
+        "0C7B4261": {
+          "text": "Callable konnte nicht in den Zustand \"Operating\" geschaltet werden",
+          "version": 1
+        },
+        "0C7B4286": {
+          "text": "Ein oder mehrere Callables sind konfiguriert, jedoch nicht vorhanden",
+          "version": 1
+        }
+      }
+    },
+    "080F0033": {
+      "text": "Hardware-Neustart durch Linux-Watchdog-Framework ausgelöst",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4233": {
+          "text": "Hardware-Neustart durch Übertemperatur ausgelöst",
+          "version": 1
+        },
+        "0C7B4234": {
+          "text": "Hardware-Neustart durch Lüfterfehler ausgelöst",
+          "version": 1
+        },
+        "0C7B4235": {
+          "text": "Hardware-Neustart durch Unterspannung ausgelöst",
+          "version": 1
+        },
+        "0C7B4236": {
+          "text": "Hardware-Neustart durch Überspannung ausgelöst",
+          "version": 1
+        }
+      }
+    },
+    "080F0042": {
+      "text": "Fehler im Scheduler-System",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4201": {
+          "text": "Löschen vom Callable fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4202": {
+          "text": "Löschen einer Task ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4270": {
+          "text": "Zeitüberschreitung beim Warten auf das Beenden der Serviceaktivität des Device Admins",
+          "version": 1
+        },
+        "0C7B4272": {
+          "text": "Registrieren der Service-Benachrichtigungen fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4273": {
+          "text": "Registrieren am Systemstatus fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4274": {
+          "text": "Setzen einer Taskeigenschaft abgelehnt",
+          "version": 1
+        },
+        "0C7B4275": {
+          "text": "Ungültige Taskeigenschaft",
+          "version": 1
+        },
+        "0C7B4276": {
+          "text": "Setzen der Taskeigenschaften abgelehnt",
+          "version": 1
+        },
+        "0C7B4282": {
+          "text": "Zeitüberschreitung eines Callables in \"Begin Phase\" beim Schalten des Scheduler-Zustands",
+          "version": 1
+        },
+        "0C7B4283": {
+          "text": "Zeitüberschreitung eines Callables in \"Execute Phase\" beim Schalten des Scheduler-Zustands",
+          "version": 1
+        },
+        "0C7B4284": {
+          "text": "Zeitüberschreitung eines Callables in  \"End Phase\" beim Schalten des Scheduler-Zustands",
+          "version": 1
+        },
+        "0C7B4285": {
+          "text": "Fehler bei der Umschaltung des Systemzustands",
+          "version": 1
+        }
+      }
+    },
+    "080F0066": {
+      "text": "Fehler bei der Wiederherstellung der Konfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4292": {
+          "text": "Fehler beim Erzeugen des absoluten Dateipfads",
+          "version": 1
+        },
+        "0C7B4293": {
+          "text": "Fehler beim Lesen der Metadaten der Konfigurationsdatei der Programme",
+          "version": 1
+        },
+        "0C7B4295": {
+          "text": "Ungültige Programm-Konfiguration - Fehlender Schlüssel \"task\"",
+          "version": 1
+        },
+        "0C7B4296": {
+          "text": "Fehler beim Laden der administrativen Einstellungen des Schedulers (admin.json)",
+          "version": 1
+        }
+      }
+    },
+    "080F0067": {
+      "text": "Fehler beim Einlesen der administrativen Einstellung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4297": {
+          "text": "Fehler beim Einlesen der Typ-Informationsdatei (admin.bfbs bzw. admin2.bfbs) für die administrativen Einstellungen des Schedulers (admin.json)",
+          "version": 1
+        },
+        "0C7B4298": {
+          "text": "Fehler beim Einlesen der administrativen Einstellungen des Schedulers (admin.json) - Datei nicht vorhanden",
+          "version": 1
+        },
+        "0C7B4299": {
+          "text": "Fehler beim Einlesen der administrativen Einstellungen des Schedulers (admin.json) - Dateifehler",
+          "version": 1
+        },
+        "0C7B4310": {
+          "text": "Fehler beim Einlesen der Datei für die administrativen Einstellungen des Schedulers (admin.json) - Ungültige Datenstruktur",
+          "version": 1
+        },
+        "0C7B4311": {
+          "text": "Fehler beim Einlesen der Datei für die administrativen Einstellungen des Schedulers (admin.json) - Keine Daten vorhanden",
+          "version": 1
+        },
+        "0C7B4312": {
+          "text": "Ungültige Initialisierung (persistence helper)",
+          "version": 1
+        }
+      }
+    },
+    "080F0068": {
+      "text": "Fehler beim Laden der administrativen Einstellungen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4320": {
+          "text": "Laden des Wertes für die Startup-Zeitüberschreitung fehlgeschlagen (startupTimeout; scheduler/admin/startup-config/timeout)",
+          "version": 1
+        },
+        "0C7B4321": {
+          "text": "Laden des Wertes für die Startup-Fehlerreaktion fehlgeschlagen (startupErrorReaction; scheduler/admin/startup-config/error-reaction)",
+          "version": 1
+        },
+        "0C7B4322": {
+          "text": "Laden des Wertes für den Betriebszustand nach dem Einschalten fehlgeschlagen (startupState; scheduler/admin/startup-config/state)",
+          "version": 1
+        },
+        "0C7B4323": {
+          "text": "Laden der Trigger-Quelle für die Scheduler-TickTask fehlgeschlagen (triggerSource; scheduler/admin/trigger-source)",
+          "version": 1
+        },
+        "0C7B4324": {
+          "text": "Laden der Debug-Konfiguration fehlgeschlagen (controlDebug_type/controlDebug; scheduler/admin/controls/debug)",
+          "version": 1
+        },
+        "0C7B4325": {
+          "text": "Laden der Grenzwerte für die Auslastung der Scheduler-TickTask fehlgeschlagen, Grenzwert für Warnung ist größer als Grenzwert für Fehler (utilization; scheduler/admin/utilization)",
+          "version": 1
+        },
+        "0C7B4326": {
+          "text": "Laden der Grenzwerte für die Auslastung der Scheduler-TickTask fehlgeschlagen (utilization; scheduler/admin/utilization)",
+          "version": 1
+        },
+        "0C7B4327": {
+          "text": "Laden der Werte für die Callable-Timeouts fehlgeschlagen (callableTimeouts; scheduler/admin/state/callable-timeout)",
+          "version": 1
+        },
+        "0C7B4328": {
+          "text": "Laden des Wertes für den Programm-Konfigurationsmodus fehlgeschlagen (programConfigurationMode; scheduler/admin/cfg/program-configuration)",
+          "version": 1
+        }
+      }
+    },
+    "080F0088": {
+      "text": "Fehler während der automatischen Neuanordnung der Callables",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4287": {
+          "text": "Maximale Wartezeit bis zum Beginn der Neuanordnung der Callables abgelaufen, da die Komponente 'Device Admin' fortwährend \"busy\" signalisiert",
+          "version": 1
+        },
+        "0C7B4288": {
+          "text": "Das Lesen der Callable-Konfigurationen der Applikationen (Factory) ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4289": {
+          "text": "Das Lesen der aktiven Programm-Konfiguration ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4290": {
+          "text": "Das Anlegen eines Callables ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4291": {
+          "text": "Das Anlegen einer Task ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4294": {
+          "text": "Berechnung der Callable-Reihenfolge ist fehlgeschlagen, da ein Zirkelbezug (Sync Points) aufgetreten ist",
+          "version": 1
+        }
+      }
+    },
+    "080F00A0": {
+      "text": "Das Anlegen eines Callables ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B5000": {
+          "text": "Der Alias für das Callable ist bereits in Verwendung",
+          "version": 1
+        },
+        "0C7B5001": {
+          "text": "Die gewünschte Callable Factory ist nicht verfügbar",
+          "version": 1
+        },
+        "0C7B5002": {
+          "text": "Die gewünschte Task ist nicht verfügbar",
+          "version": 1
+        },
+        "0C7B5003": {
+          "text": "Die Callable ID für das Callable ist bereits in Verwendung",
+          "version": 1
+        },
+        "0C7B5004": {
+          "text": "Die Callable ID enthält ungültige Zeichen",
+          "version": 1
+        },
+        "0C7B5005": {
+          "text": "Das Erzeugen des Callables durch die Factory ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B5006": {
+          "text": "Das Zerstören des Callables durch die Factory ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B5007": {
+          "text": "Das Schalten des Callables in den Zustand SERVICE ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B5008": {
+          "text": "Das Setzen der Taskeigenschaften in das Callable ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B5009": {
+          "text": "Die abschließenden Vorbereitungen zur Aktivierung des Callables sind fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B500A": {
+          "text": "Die Anpassung der Task-Watchdog-Eigenschaften ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B500B": {
+          "text": "Die Aktivierung des Callables in der Task ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B500C": {
+          "text": "Der Alias für das Callable ist nicht Data Layer konform",
+          "version": 1
+        }
+      }
+    },
+    "080F00B0": {
+      "text": "Bedingung erkannt, die zum sicherem Modus führte",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4305": {
+          "text": "Automation Core wurde nicht vollständig gestartet wegen eines Fehlers beim Starten der App. Siehe Diagnoseausgaben für weiterführende Informationen. Ein Neustart des Automation Core ist nötig",
+          "version": 1
+        }
+      }
+    },
+    "080F00B1": {
+      "text": "Fehler im NVRAM erkannt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4400": {
+          "text": "Es wurde ein Fehler in der Konsistenz der NVRAM-Daten gefunden. Die Daten wurden so gut wie möglich wieder hergestellt.",
+          "version": 1
+        }
+      }
+    },
+    "080F00B2": {
+      "text": "Applikationsneustartschleife erkannt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4307": {
+          "text": "Das Framework-Ereignis \"framework/events/framework-core-started\" wurde nicht ausgelöst aufgrund eines Hochlauf-Problems im Automation Core-App-Kontext",
+          "version": 1
+        },
+        "0C7B4308": {
+          "text": "Das Framework-Ereignis \"framework/events/framework-started\" wurde nicht ausgelöst aufgrund eines Hochlauf-Problems im Framework-abhängigen Anwendungskontext",
+          "version": 1
+        },
+        "0C7B4309": {
+          "text": "Die Auswertung des Zählers für die Applikationsneustartschleifen-Erkennung der Automation Core App ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B430A": {
+          "text": "Die Auswertung des Zählers für die Applikationsneustartschleifen-Erkennung der Framework-abhängigen Apps ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B430B": {
+          "text": "Das Zurücksetzen des Zählers für die Applikationsneustartschleifen-Erkennung der initialen Hochlaufphase ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B430C": {
+          "text": "Das Zurücksetzen des Zählers für die Applikationsneustartschleifen-Erkennung der Automation Core App ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B430D": {
+          "text": "Das Zurücksetzen des Zählers für die Applikationsneustartschleifen-Erkennung der Framework-abhängigen Apps ist fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0100": {
+      "text": "Fehler im Diagnosesystem",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666000": {
+          "text": "Registrierung der Hauptdiagnosen fehlgeschlagen",
+          "version": 1
+        },
+        "0C666001": {
+          "text": "Registrierung der Detaildiagnosen fehlgeschlagen",
+          "version": 1
+        },
+        "0C666002": {
+          "text": "Deregistrierung der Hauptdiagnosen fehlgeschlagen",
+          "version": 1
+        },
+        "0C666003": {
+          "text": "Deregistrierung der Detaildiagnosen fehlgeschlagen",
+          "version": 1
+        },
+        "0C666004": {
+          "text": "Ungültige Hauptdiagnosenummer",
+          "version": 1
+        },
+        "0C666005": {
+          "text": "Daten der ungültigen Hauptdiagnosenummer",
+          "version": 1
+        },
+        "0C666006": {
+          "text": "Hauptdiagnosenummer ist nicht registriert",
+          "version": 1
+        },
+        "0C666007": {
+          "text": "Detaildiagnosenummer ist nicht registriert",
+          "version": 1
+        },
+        "0C66600B": {
+          "text": "Diagnosenachrichten können nicht zurückgesetzt werden",
+          "version": 1
+        },
+        "0C66600D": {
+          "text": "Spezifischer Fehler konnte nicht gelöscht werden",
+          "version": 2
+        },
+        "0C66600E": {
+          "text": "Es wurde versucht, eine Diagnose zu setzen und zurückzusetzen, die schon im Status aktiv ist",
+          "version": 1
+        },
+        "0C66600F": {
+          "text": "Das Eintragen in die Diagnose-Warteschleife ist fehlgeschlagen. Diagnoseeinträge gehen verloren. Dieser Diagnoseeintrag könnte nicht an der richtigen Position im Diagnoselogbuch sein.",
+          "version": 1
+        },
+        "0C666011": {
+          "text": "Ungültige Detaildiagnosenummer",
+          "version": 1
+        },
+        "0C666012": {
+          "text": "Daten der ungültigen Detaildiagnosenummer",
+          "version": 1
+        }
+      }
+    },
+    "080F0101": {
+      "text": "Registrierung von Diagnosen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666000": {
+          "text": "Hauptdiagnose konnte nicht im Diagnosesystem registriert werden",
+          "version": 2
+        },
+        "0C666001": {
+          "text": "Detaildiagnose konnte nicht im Diagnosesystem registriert werden",
+          "version": 2
+        },
+        "0C666002": {
+          "text": "Hauptdiagnose konnte nicht vom Diagnosesystem deregistriert werden",
+          "version": 2
+        },
+        "0C666003": {
+          "text": "Detaildiagnose konnte nicht vom Diagnosesystem deregistriert werden",
+          "version": 2
+        }
+      }
+    },
+    "080F0102": {
+      "text": "Ungültige Diagnosedaten übermittelt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666004": {
+          "text": "Aufbau der übermittelten Hauptdiagnosenummer ist ungültig",
+          "version": 2
+        },
+        "0C666005": {
+          "text": "Zugehörige Daten der ungültigen Hauptdiagnosenummer",
+          "version": 2
+        },
+        "0C666011": {
+          "text": "Aufbau der übermittelten Detaildiagnosenummer ist ungültig",
+          "version": 2
+        },
+        "0C666012": {
+          "text": "Zugehörige Daten der ungültigen Detaildiagnosenummer",
+          "version": 2
+        }
+      }
+    },
+    "080F0103": {
+      "text": "Diagnose ist nicht registriert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666006": {
+          "text": "Übermittelte Hauptdiagnosenummer ist nicht registriert. Die Hauptdiagnosenummer wurde trotzdem ohne den zugehörigen Text übertragen.",
+          "version": 2
+        },
+        "0C666007": {
+          "text": "Übermittelte Detaildiagnosenummer ist nicht registriert. Die Detaildiagnosenummer wurde trotzdem ohne den zugehörigen Text übertragen.",
+          "version": 2
+        }
+      }
+    },
+    "080F0104": {
+      "text": "Fehlerhafte Handhabung von Diagnosen erkannt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66600B": {
+          "text": "Es wurde versucht, eine Diagnoseinformation zurückzusetzen",
+          "version": 2
+        },
+        "0C66600D": {
+          "text": "Spezifische Diagnose konnte nicht gelöscht werden",
+          "version": 3
+        },
+        "0C66600E": {
+          "text": "Es wurde versucht, eine Diagnose zu setzen und zurückzusetzen, die schon im Status \"aktiv\" ist",
+          "version": 2
+        }
+      }
+    },
+    "080F0105": {
+      "text": "Diagnosen konnten nicht übermittelt werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66600F": {
+          "text": "Diagnoseeinträge gingen verloren. Dieser Diagnoseeintrag könnte nicht an der richtigen Position im Diagnoselogbuch sein.",
+          "version": 2
+        }
+      }
+    },
+    "080F0110": {
+      "text": "Trace Fehler common.log.diagnosis",
+      "version": 1
+    },
+    "080F0112": {
+      "text": "Trace Fehler common.log.trace",
+      "version": 1
+    },
+    "080F0200": {
+      "text": "Fehler HTTP-Server",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0200": {
+          "text": "Interner Serverfehler (500)",
+          "version": 1
+        },
+        "0C7A0201": {
+          "text": "Nicht implementiert (501)",
+          "version": 1
+        }
+      }
+    },
+    "080F0201": {
+      "text": "Internes Problem aufgetreten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0208": {
+          "text": "Unbehandelte Exception",
+          "version": 1
+        },
+        "0C7A0209": {
+          "text": "Funktion ist nicht implementiert",
+          "version": 1
+        }
+      }
+    },
+    "080F0300": {
+      "text": "Security: Fehler in Zertifikatsverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0061": {
+          "text": "Zertifikat ist nicht mehr gültig",
+          "version": 1
+        },
+        "0C7A0062": {
+          "text": "Verlängerung des Zertifikats fehlgeschlagen",
+          "version": 1
+        },
+        "0C7A0063": {
+          "text": "Registrierung des Zertifikats fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0301": {
+      "text": "Security: Fehler in der Nutzerverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0010": {
+          "text": "Proxy-Zertifikat konnte nicht generiert werden",
+          "version": 1
+        },
+        "0C7A0011": {
+          "text": "IDM-Schlüsselpaar  konnte nicht generiert werden",
+          "version": 1
+        },
+        "0C7A0012": {
+          "text": "Konfigurationen konnten nicht geladen werden",
+          "version": 1
+        },
+        "0C7A0050": {
+          "text": "Fehlerhafter Anmeldeversuch",
+          "version": 1
+        },
+        "0C7A0053": {
+          "text": "Fehlerhaftes Backup",
+          "version": 1
+        }
+      }
+    },
+    "080F0304": {
+      "text": "Security: Fehler an der Remote-Logging-Verwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0080": {
+          "text": "Initialisierung der Zieldatenbank fehlgeschlagen",
+          "version": 1
+        },
+        "0C7A0081": {
+          "text": "Fehler bei der Erstellung eines Journal-Reader",
+          "version": 1
+        },
+        "0C7A0082": {
+          "text": "Remote Logging abgebrochen",
+          "version": 1
+        }
+      }
+    },
+    "080F0400": {
+      "text": "Laden der Konfiguration fehlgeschlagen",
+      "version": 1
+    },
+    "080F0402": {
+      "text": "Speichern der Konfiguration fehlgeschlagen",
+      "version": 1
+    },
+    "080F0410": {
+      "text": "Trace Fehler",
+      "version": 2
+    },
+    "080F0420": {
+      "text": "Gerätesicherung fehlgeschlagen",
+      "version": 2
+    },
+    "080F0422": {
+      "text": "Gerätewiederherstellung fehlgeschlagen",
+      "version": 2
+    },
+    "080F0450": {
+      "text": "Archivierung fehlgeschlagen",
+      "version": 1
+    },
+    "080F0451": {
+      "text": "Wiederherstellung fehlgeschlagen",
+      "version": 1
+    },
+    "080F0452": {
+      "text": "Wiederherstellung fatal fehlgeschlagen",
+      "version": 1
+    },
+    "080F0500": {
+      "text": "Fehler in der Netzwerkverwaltung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640001": {
+          "text": "Fehlerhafte Initialisierung",
+          "version": 1
+        },
+        "0C640002": {
+          "text": "WPA-Supplicant meldet Fehler",
+          "version": 1
+        },
+        "0C64000C": {
+          "text": "Fehler beim Speichern der Netzwerkkonfiguration",
+          "version": 1
+        }
+      }
+    },
+    "080F0501": {
+      "text": "Konfigurationsfehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640040": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 2
+        },
+        "0C640041": {
+          "text": "Update der Schnittstelle fehlgeschlagen",
+          "version": 2
+        },
+        "0C640042": {
+          "text": "Schnittstelle kann nicht angelegt werden",
+          "version": 2
+        },
+        "0C640043": {
+          "text": "Fehler in den WLAN-Sicherheitseinstellungen",
+          "version": 1
+        },
+        "0C640044": {
+          "text": "Die schreibgeschützte Netzwerkschnittstelle kann nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C640045": {
+          "text": "Netzwerkbrücke nicht gefunden",
+          "version": 1
+        },
+        "0C640046": {
+          "text": "Fehler beim Setzen der WLAN-Sicherheitseinstellungen",
+          "version": 1
+        },
+        "0C640047": {
+          "text": "Wireless-Netzwerkname (SSID) kann nicht angelegt werden",
+          "version": 1
+        },
+        "0C640048": {
+          "text": "Zugangspunkt nicht gefunden",
+          "version": 1
+        },
+        "0C640049": {
+          "text": "Die Namensserver einer Schnittstelle konnten nicht gesetzt werden",
+          "version": 1
+        },
+        "0C6400C0": {
+          "text": "Schnittstelle kann nicht entfernt werden",
+          "version": 1
+        },
+        "0C6400C1": {
+          "text": "Fehler beim Abrufen der Sicherheitseinstellungen",
+          "version": 1
+        },
+        "0C6400C2": {
+          "text": "Name des drahtlosen Netzwerks (SSID) nicht gefunden",
+          "version": 1
+        },
+        "0C6400C3": {
+          "text": "Name des drahtlosen Netzwerks (SSID) nicht zulässig",
+          "version": 1
+        },
+        "0C6400C4": {
+          "text": "Name des drahtlosen Netzwerks (SSID) kann nicht entfernt werden",
+          "version": 1
+        },
+        "0C6400C5": {
+          "text": "Name des drahtlosen Netzwerks (SSID) kann nicht geändert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0502": {
+      "text": "Fehler in der Route",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640050": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 2
+        },
+        "0C640051": {
+          "text": "Route nicht gefunden",
+          "version": 2
+        },
+        "0C640052": {
+          "text": "Update der Route fehlgeschlagen",
+          "version": 2
+        }
+      }
+    },
+    "080F0503": {
+      "text": "Proxy-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640060": {
+          "text": "Update des System-Proxy fehlgeschlagen",
+          "version": 2
+        },
+        "0C640061": {
+          "text": "Es muss entweder HTTP oder HTTPS eingestellt werden",
+          "version": 2
+        },
+        "0C640062": {
+          "text": "Proxy-Einstellungen konnten nicht gesetzt werden",
+          "version": 2
+        },
+        "0C640063": {
+          "text": "Update der Proxy-Einstellungen fehlgeschlagen",
+          "version": 2
+        }
+      }
+    },
+    "080F0504": {
+      "text": "Servicefehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640070": {
+          "text": "Dienst nicht gefunden",
+          "version": 2
+        },
+        "0C640071": {
+          "text": "Eines der bereitgestellten  Argumente ist ungültig",
+          "version": 2
+        },
+        "0C640072": {
+          "text": "Netzwerkerkennungsdienst kann nicht gestartet werden",
+          "version": 2
+        },
+        "0C640073": {
+          "text": "Netzwerkserkennungsdienst kann nicht beendet werden",
+          "version": 2
+        }
+      }
+    },
+    "080F0505": {
+      "text": "Host-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640080": {
+          "text": "Update der Hosts fehlgeschlagen",
+          "version": 2
+        },
+        "0C640081": {
+          "text": "Änderungen können nicht erhalten bleiben",
+          "version": 2
+        }
+      }
+    },
+    "080F0506": {
+      "text": "Task-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640090": {
+          "text": "Task wird nicht unterstützt",
+          "version": 1
+        },
+        "0C640091": {
+          "text": "Task kann nicht validiert werden",
+          "version": 1
+        },
+        "0C640092": {
+          "text": "Task nicht gefunden",
+          "version": 1
+        },
+        "0C640093": {
+          "text": "Ping fehlgeschlagen",
+          "version": 1
+        },
+        "0C640094": {
+          "text": "Keine Netzwerkschnittstellen gefunden",
+          "version": 1
+        },
+        "0C640095": {
+          "text": "Task kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C640096": {
+          "text": "Task kann nicht gelöscht werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0507": {
+      "text": "Validierung der Servicekonfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640074": {
+          "text": "ARP-Konfiguration ist ungültig",
+          "version": 1
+        },
+        "0C640075": {
+          "text": "Dienstaktualisierung fehlgeschlagen",
+          "version": 1
+        },
+        "0C640076": {
+          "text": "Dienst kann nicht konfiguriert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0508": {
+      "text": "Die HTTP-Überprüfung ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6400A0": {
+          "text": "Proxy-Konfiguration kann nicht überprüft werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0509": {
+      "text": "Fehler in den Daten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6400B0": {
+          "text": "Inhalt der Anfrage kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C6400B1": {
+          "text": "Daten der Anfrage können nicht analysiert werden",
+          "version": 1
+        },
+        "0C6400B2": {
+          "text": "Fehler beim Schreiben der Daten",
+          "version": 1
+        }
+      }
+    },
+    "080F050A": {
+      "text": "Abrufen der Prozesse fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0510": {
+      "text": "PackageManager Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641008": {
+          "text": "Fehler beim Erstellen des Integritätsbasisverzeichnisses",
+          "version": 1
+        },
+        "0C641009": {
+          "text": "Fehler beim Erstellen des Systemintegritätsprotokolls",
+          "version": 1
+        },
+        "0C64100B": {
+          "text": "Paket konnte nicht entfernt werden",
+          "version": 1
+        },
+        "0C64100E": {
+          "text": "App-Verbindung nicht erlaubt für Apps aus unbekannter Quelle",
+          "version": 1
+        },
+        "0C64100F": {
+          "text": "Verfügbarer Speicherplatz kann nicht berechnet werden",
+          "version": 1
+        },
+        "0C641010": {
+          "text": "Ladevorgang gescheitert. Die Datei ist beschädigt",
+          "version": 1
+        },
+        "0C641011": {
+          "text": "Installation fehlgeschlagen. Die Datei ist beschädigt",
+          "version": 1
+        },
+        "0C641012": {
+          "text": "Fehler beim Aktualisieren des Bootloaders. Gadget wird auf vorherige Version zurückgesetzt",
+          "version": 1
+        },
+        "0C641013": {
+          "text": "Zurücksetzen der App fehlgeschlagen",
+          "version": 1
+        },
+        "0C641015": {
+          "text": "Aufgabe fehlerhaft ausgeführt",
+          "version": 1
+        },
+        "0C641016": {
+          "text": "Fehler beim Ausführen des Skripts",
+          "version": 1
+        },
+        "0C641018": {
+          "text": "Fehler beim Verbinden der Schnittstelle",
+          "version": 1
+        },
+        "0C64101A": {
+          "text": "Firmware-Update-Befehl fehlgeschlagen",
+          "version": 1
+        },
+        "0C64101C": {
+          "text": "Kein gültiges Sprachkürzel nach ISO-639-1",
+          "version": 1
+        },
+        "0C64101D": {
+          "text": "Es wurde ein Problem bei der Ausführung eines Systemvorgangs festgestellt",
+          "version": 1
+        },
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64101F": {
+          "text": "Daten der Anfrage können nicht gelesen werden",
+          "version": 1
+        },
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C641021": {
+          "text": "Daten können nicht geschrieben werden",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641023": {
+          "text": "Manifeste können nicht abgerufen werden",
+          "version": 1
+        },
+        "0C641024": {
+          "text": "Fehler beim Abrufen der Einstellungen für Apps und Pakete",
+          "version": 1
+        },
+        "0C641025": {
+          "text": "Fehler beim Aktualisieren der Einstellungen für Apps und Pakete",
+          "version": 1
+        },
+        "0C641026": {
+          "text": "Fehler beim Abrufen der Informationen eines installierten Pakets",
+          "version": 1
+        },
+        "0C641027": {
+          "text": "App wurde im Store nicht gefunden",
+          "version": 1
+        },
+        "0C641028": {
+          "text": "Fehler beim Abrufen des Store-Status",
+          "version": 1
+        },
+        "0C641029": {
+          "text": "Task mit dieser ID wurde nicht gefunden",
+          "version": 1
+        },
+        "0C64102A": {
+          "text": "Daten können nicht konvertiert werden",
+          "version": 1
+        },
+        "0C64102B": {
+          "text": "Fehler beim Löschen einer Task",
+          "version": 1
+        },
+        "0C64102C": {
+          "text": "Task kann mit dieser Aktion nicht erstellt werden",
+          "version": 1
+        },
+        "0C64102D": {
+          "text": "Multiform-Daten können nicht gelesen werden",
+          "version": 1
+        },
+        "0C64102E": {
+          "text": "Fehler bei der Stapelverarbeitung",
+          "version": 1
+        },
+        "0C64102F": {
+          "text": "App ist nicht bedienbar",
+          "version": 1
+        },
+        "0C641030": {
+          "text": "Repository kann nicht bearbeitet werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0511": {
+      "text": "Systemmanagement Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100F": {
+          "text": "Verfügbarer Speicherplatz kann nicht berechnet werden",
+          "version": 1
+        },
+        "0C64101C": {
+          "text": "Kein gültiges Sprachkürzel nach ISO-639-1",
+          "version": 1
+        }
+      }
+    },
+    "080F0520": {
+      "text": "Speichermanagement Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641202": {
+          "text": "Speicheraktion fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0521": {
+      "text": "Bearbeitung der Speicher-Task fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641240": {
+          "text": "Keine Task verfügbar",
+          "version": 2
+        },
+        "0C641241": {
+          "text": "Task-Validierung fehlgeschlagen",
+          "version": 2
+        },
+        "0C641242": {
+          "text": "Task existiert bereits",
+          "version": 2
+        },
+        "0C641243": {
+          "text": "Task wurde nicht gefunden",
+          "version": 2
+        },
+        "0C641244": {
+          "text": "Task-Argumente sind ungültig",
+          "version": 2
+        },
+        "0C641246": {
+          "text": "Aufgabenerstellung fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0522": {
+      "text": "Medienfehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641245": {
+          "text": "Speichermedium nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0530": {
+      "text": "Systemmanagement Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641301": {
+          "text": "Zeiteinstellungen speichern fehlgeschlagen",
+          "version": 1
+        },
+        "0C641303": {
+          "text": "Änderung Hostname fehlgeschlagen",
+          "version": 1
+        },
+        "0C641305": {
+          "text": "Task-Erstellung fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0531": {
+      "text": "Fehler während des Image-Upload-Prozesses",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413A0": {
+          "text": "Einhängepunkt fehlt",
+          "version": 1
+        },
+        "0C6413A1": {
+          "text": "Einhängepunkt muss ein Wechseldatenträger sein",
+          "version": 1
+        },
+        "0C6413A2": {
+          "text": "HTTP-Reader kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C6413A3": {
+          "text": "Keine Firmeware-Datei in der Anfrage",
+          "version": 1
+        },
+        "0C6413A4": {
+          "text": "Das Bereitstellen einer Setup-Datei ist nicht erlaubt, wenn \"generate-setup\" gesetzt ist",
+          "version": 1
+        },
+        "0C6413A5": {
+          "text": "\"generate-setup\" wird zur Zeit nicht unterstützt",
+          "version": 1
+        },
+        "0C6413A6": {
+          "text": "Datei kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C6413A7": {
+          "text": "Datei kann nicht geschrieben werden",
+          "version": 1
+        },
+        "0C6413A8": {
+          "text": "Verifizieren der Prüfsumme nicht möglich, Datei nicht gefunden",
+          "version": 1
+        },
+        "0C6413A9": {
+          "text": "Verifizieren der Prüfsumme nicht möglich, Datei kann nicht geöffnet werden",
+          "version": 1
+        },
+        "0C6413AA": {
+          "text": "Verifizieren der Prüfsumme nicht möglich, Datei kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413AB": {
+          "text": "Datei wurde beim Hochladen beschädigt",
+          "version": 1
+        },
+        "0C6413AC": {
+          "text": "Firmware-Datei kann nicht geöffnet werden",
+          "version": 1
+        },
+        "0C6413AD": {
+          "text": "Fehler beim Extrahieren der Firmware",
+          "version": 1
+        },
+        "0C6413CE": {
+          "text": "Gerät kann nicht für Image-Upload vorbereitet werden",
+          "version": 1
+        },
+        "0C6413D0": {
+          "text": "Ungültiger Dateiname der Firmware",
+          "version": 1
+        }
+      }
+    },
+    "080F0532": {
+      "text": "Fehler beim Zurücksetzen auf Werkseinstellung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413B1": {
+          "text": "Reset-Typ wird nicht unterstützt",
+          "version": 1
+        },
+        "0C6413B2": {
+          "text": "Geschätzte Größe kann nicht ermittelt werden",
+          "version": 1
+        },
+        "0C6413B3": {
+          "text": "Keine Inbetriebnahmedatei gefunden",
+          "version": 1
+        },
+        "0C6413B4": {
+          "text": "Standardeinstellung kann nicht geladen werden",
+          "version": 1
+        },
+        "0C6413B5": {
+          "text": "Inbetriebnahmedatei kann nicht geladen werden",
+          "version": 1
+        },
+        "0C6413B6": {
+          "text": "Reset kann nicht ausgeführt werden",
+          "version": 1
+        },
+        "0C6413B7": {
+          "text": "Abbruch des Reset",
+          "version": 1
+        },
+        "0C6413B8": {
+          "text": "Voraussetzungen nicht erfüllt, Reset wird von diesem Gerät nicht unterstützt",
+          "version": 1
+        },
+        "0C6413B9": {
+          "text": "Reset wird von diesem Gerät nicht unterstützt",
+          "version": 1
+        },
+        "0C6413FB": {
+          "text": "Keine Aufgabe angegeben",
+          "version": 1
+        }
+      }
+    },
+    "080F0533": {
+      "text": "Vorbereitung Reset auf Werkseinstellungen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413AE": {
+          "text": "Inbetriebnahmedatei ist bereits vorhanden",
+          "version": 1
+        },
+        "0C6413AF": {
+          "text": "Erstellen der Inbetriebnahmedatei ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C6413B0": {
+          "text": "Reset-Typ ist unbekannt",
+          "version": 1
+        }
+      }
+    },
+    "080F0534": {
+      "text": "Fehler beim Überprüfen des NTP-Servers",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413BA": {
+          "text": "Kein NTP-Server oder Server nicht erreichbar",
+          "version": 1
+        },
+        "0C6413BB": {
+          "text": "Parameter ntpServer ist erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "080F0535": {
+      "text": "Fehler in den Einstellungen des seriellen Tresors",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413C2": {
+          "text": "URL des seriellen Tresors kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413C3": {
+          "text": "Ungültige URL für den seriellen Tresor",
+          "version": 1
+        },
+        "0C6413C4": {
+          "text": "URL des seriellen Tresors kann nicht aktualisiert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0536": {
+      "text": "Datums- und Uhrzeiteinstellungen  nicht änderbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413BC": {
+          "text": "Zeitzone kann nicht validiert werden",
+          "version": 1
+        },
+        "0C6413BD": {
+          "text": "Ungültiger NTP-Eintrag",
+          "version": 1
+        },
+        "0C6413BE": {
+          "text": "Datums- und Uhrzeiteinstellungen können nicht beibehalten werden",
+          "version": 1
+        },
+        "0C6413BF": {
+          "text": "Datum und Uhrzeit können nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413C5": {
+          "text": "Datums- und Uhrzeiteinstellungen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413C6": {
+          "text": "Datums- und Uhrzeiteinstellungen unbrauchbar",
+          "version": 1
+        }
+      }
+    },
+    "080F0537": {
+      "text": "Fehler beim Abrufen der Sensorinformationen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413C0": {
+          "text": "Sensor nicht gefunden",
+          "version": 1
+        },
+        "0C6413C1": {
+          "text": "Sensormessung nicht gefunden",
+          "version": 1
+        },
+        "0C6413C7": {
+          "text": "Sensorliste kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413C8": {
+          "text": "Sensorliste fehlerhaft",
+          "version": 1
+        }
+      }
+    },
+    "080F0538": {
+      "text": "Fehler bei der Verarbeitung von Systemeinstellungen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413CF": {
+          "text": "Ungültige Konfiguration der Echtzeitkerne",
+          "version": 1
+        },
+        "0C6413D1": {
+          "text": "Ändern Einstellungen des Linux-Watchdog-Frameworks fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0540": {
+      "text": "Fehler während der Steuerungsüberwachung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C660038": {
+          "text": "Ausfall des Lüfters",
+          "version": 1
+        },
+        "0C660039": {
+          "text": "Hardwarefehler",
+          "version": 1
+        },
+        "0C66003D": {
+          "text": "Lebensdauer des eingebauten Speichermediums überschritten",
+          "version": 1
+        },
+        "0C66003E": {
+          "text": "Batterie der Steuerung leer",
+          "version": 1
+        },
+        "0C660043": {
+          "text": "Verfügbarer Onboard-Speicher der Steuerung kritisch",
+          "version": 1
+        }
+      }
+    },
+    "080F0541": {
+      "text": "Fehler bei der Verarbeitung des Hostnamens",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413C9": {
+          "text": "Hostname kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413F2": {
+          "text": "Hostname ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0542": {
+      "text": "Fehler bei der Aufgabenverarbeitung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413F3": {
+          "text": "Ungültige Aufgabenaktion erkannt",
+          "version": 1
+        }
+      }
+    },
+    "080F0543": {
+      "text": "Themenfehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413F4": {
+          "text": "Aktives Thema nicht gefunden",
+          "version": 1
+        },
+        "0C6413F5": {
+          "text": "Aktuelles Thema nicht gefunden",
+          "version": 1
+        },
+        "0C6413F6": {
+          "text": "Standardthema nicht gefunden",
+          "version": 1
+        },
+        "0C6413F7": {
+          "text": "Thema nicht gefunden",
+          "version": 1
+        },
+        "0C6413F8": {
+          "text": "Fehler beim Abrufen des Themas",
+          "version": 1
+        },
+        "0C6413F9": {
+          "text": "Beim Abrufen der Themen ist ein Fehler aufgetreten",
+          "version": 1
+        },
+        "0C6413FA": {
+          "text": "Fehler beim Aktivieren des Themas",
+          "version": 1
+        },
+        "0C641403": {
+          "text": "Fehler im Themeninhalt",
+          "version": 1
+        },
+        "0C641405": {
+          "text": "App- und Themenname leer",
+          "version": 1
+        }
+      }
+    },
+    "080F0544": {
+      "text": "Fehler bei der Verarbeitung des Berichts",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413CA": {
+          "text": "Fehler beim Abrufen der Berichtsdatei",
+          "version": 1
+        },
+        "0C6413CB": {
+          "text": "Länge des Berichtsdateinamens überschreitet die zulässige Größe",
+          "version": 1
+        },
+        "0C6413FC": {
+          "text": "Typenschild kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C6413FD": {
+          "text": "Installierte Apps nicht ermittelbar",
+          "version": 1
+        },
+        "0C6413FE": {
+          "text": "Berichtsarchivdatei kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C6413FF": {
+          "text": "In die Berichtsarchivdatei kann nicht geschrieben werden",
+          "version": 1
+        },
+        "0C641400": {
+          "text": "Logbuch kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C641401": {
+          "text": "Fehler beim Anfordern von Daten",
+          "version": 1
+        },
+        "0C641402": {
+          "text": "Fehler beim Dekodieren der Daten",
+          "version": 1
+        }
+      }
+    },
+    "080F0545": {
+      "text": "Problem bei der Bearbeitung der Anfrage",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413F0": {
+          "text": "Eingehende Anfrage kann nicht analysiert werden",
+          "version": 1
+        },
+        "0C6413F1": {
+          "text": "Mindestens ein Pflichtfeld fehlt",
+          "version": 1
+        }
+      }
+    },
+    "080F0546": {
+      "text": "Fehler bei der Verarbeitung des Kontingents",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413CC": {
+          "text": "Fehler beim Abrufen des Kontingents",
+          "version": 1
+        },
+        "0C6413CD": {
+          "text": "Fehler beim Festlegen der Quote",
+          "version": 1
+        }
+      }
+    },
+    "080F0550": {
+      "text": "Fehler im Lizenzmanagement",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0091": {
+          "text": "Lizenz Dongle entfernt",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime fehlt",
+          "version": 2
+        },
+        "0C7A0095": {
+          "text": "Initialisierung des Lizenzmanagers",
+          "version": 1
+        },
+        "0C7A009B": {
+          "text": "Das Geräte-Zertifikat und/oder der dazugehörige Schlüssel fehlen",
+          "version": 1
+        }
+      }
+    },
+    "080F0560": {
+      "text": "Fehler in der Geräteerkennung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641404": {
+          "text": "Fehler MDNS",
+          "version": 2
+        },
+        "0C641414": {
+          "text": "Fehler Jumpy",
+          "version": 2
+        },
+        "0C641424": {
+          "text": "Fehler LLMNR",
+          "version": 2
+        },
+        "0C641434": {
+          "text": "Fehler UPNP",
+          "version": 2
+        }
+      }
+    },
+    "080F0561": {
+      "text": "Ausführen der Aufgabe fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64110C": {
+          "text": "Aufgabenaktion ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0600": {
+      "text": "Trace Fehler comm.datalayer",
+      "version": 1
+    },
+    "080F0601": {
+      "text": "Trace Fehler comm.datalayer.framework",
+      "version": 1
+    },
+    "080F0602": {
+      "text": "Trace Fehler web.automation",
+      "version": 1
+    },
+    "080F0603": {
+      "text": "Trace Fehler common.systemhandler",
+      "version": 1
+    },
+    "080F0604": {
+      "text": "Trace Fehler app.automationframework",
+      "version": 2
+    },
+    "080F0650": {
+      "text": "Applikation \"Automation Core\" Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7C0103": {
+          "text": "Initialisierung der Logging-Komponente fehlgeschlagen, Logging vom Komponenten-Manager nicht möglich",
+          "version": 1
+        },
+        "0C7C0106": {
+          "text": "OSGI Celix-Framework hat einen Fehler in einem Bundle festgestellt",
+          "version": 1
+        }
+      }
+    },
+    "080F0800": {
+      "text": "Fehler im AppManager",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641023": {
+          "text": "Manifeste können nicht abgerufen werden",
+          "version": 1
+        },
+        "0C64102F": {
+          "text": "App ist nicht bedienbar",
+          "version": 1
+        },
+        "0C641030": {
+          "text": "Repository kann nicht bearbeitet werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0801": {
+      "text": "Abrufder Manifest(e) der installierten App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641031": {
+          "text": "Ungültiger Sprachcode nach ISO-639-1 wurde angegeben",
+          "version": 1
+        },
+        "0C641032": {
+          "text": "Manifest-Daten ungültig",
+          "version": 1
+        },
+        "0C641045": {
+          "text": "Keine Manifest-Dateien gefunden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0802": {
+      "text": "Abruf des Batchdatei-Manifests fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641032": {
+          "text": "Manifest-Daten ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0803": {
+      "text": "Abruf der Liste aller Batch-Uploads fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641033": {
+          "text": "Batch-Datei-Liste ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0804": {
+      "text": "Abruf der Batch-Datei fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641034": {
+          "text": "Batch-Datei-Information ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0805": {
+      "text": "Abruf des Inhalts der Batch-Datei fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641034": {
+          "text": "Batch-Datei-Information ungültig",
+          "version": 1
+        },
+        "0C641035": {
+          "text": "Inhalt der Batch-Datei ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0806": {
+      "text": "Löschen der Batch-Datei fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641036": {
+          "text": "Batch-Datei nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0807": {
+      "text": "Löschen des Batchs fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641037": {
+          "text": "Batch nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0808": {
+      "text": "Hochladen von Apps in den Batch fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64102D": {
+          "text": "Multiform-Daten können nicht gelesen werden",
+          "version": 1
+        },
+        "0C641038": {
+          "text": "Nicht genügend freier Speicherplatz für das Hochladen der App(s)",
+          "version": 1
+        },
+        "0C641039": {
+          "text": "Batch kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C64103A": {
+          "text": "Einstellungen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "Dateiname enthält unzulässige Zeichen",
+          "version": 1
+        },
+        "0C64103C": {
+          "text": "Installation einer App aus unbekannter Quelle ist zurzeit verboten",
+          "version": 1
+        },
+        "0C641065": {
+          "text": "Datei ist beschädigt",
+          "version": 1
+        }
+      }
+    },
+    "080F0809": {
+      "text": "Abruf von Manifesten fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106B": {
+          "text": "Interner Fehler aufgetreten",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F080A": {
+      "text": "Abruf von Informationen der installierten App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64103F": {
+          "text": "App nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F080B": {
+      "text": "Abruf von Details der installierten App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641040": {
+          "text": "Spezifische Informationen zum App-Typ können nicht abgerufen werden",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F080C": {
+      "text": "Abruf von Binärdaten der installierten App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64103F": {
+          "text": "App nicht gefunden",
+          "version": 1
+        },
+        "0C64105E": {
+          "text": "Binäre Daten können nicht in den Stream kopiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F080D": {
+      "text": "Abruf des Symbols der installierten App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641043": {
+          "text": "Die mit diesem MIME-Typ verbundene Erweiterung konnte nicht ermittelt werden",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F080E": {
+      "text": "Abruf von App-Daten fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F080F": {
+      "text": "Abruf von installierten Apps fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0810": {
+      "text": "Installieren einer Anwendung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100F": {
+          "text": "Verfügbarer Speicherplatz kann nicht berechnet werden",
+          "version": 1
+        },
+        "0C64102D": {
+          "text": "Multiform-Daten können nicht gelesen werden",
+          "version": 1
+        },
+        "0C64103A": {
+          "text": "Einstellungen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "Dateiname enthält unzulässige Zeichen",
+          "version": 1
+        },
+        "0C64103C": {
+          "text": "Installation einer App aus unbekannter Quelle ist zurzeit verboten",
+          "version": 1
+        },
+        "0C641048": {
+          "text": "App kann nicht hochgeladen werden",
+          "version": 1
+        },
+        "0C641049": {
+          "text": "App kann nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C64104A": {
+          "text": "Hochgeladene App kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C64104B": {
+          "text": "Hochgeladene App kann nicht installiert werden",
+          "version": 1
+        },
+        "0C641054": {
+          "text": "Daten können nicht in einer temporären Datei gespeichert werden",
+          "version": 1
+        },
+        "0C641065": {
+          "text": "Datei ist beschädigt",
+          "version": 1
+        },
+        "0C64106F": {
+          "text": "Inhalt der App kann nicht abgerufen werden",
+          "version": 1
+        },
+        "0C641070": {
+          "text": "Metadaten der App können nicht abgerufen werden",
+          "version": 1
+        },
+        "0C641071": {
+          "text": "App ist bereits installiert",
+          "version": 1
+        },
+        "0C641072": {
+          "text": "Temporäres Verzeichnis kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C641077": {
+          "text": "Adresse ist keine gültige URL",
+          "version": 1
+        },
+        "0C641078": {
+          "text": "ID fehlt",
+          "version": 1
+        },
+        "0C641079": {
+          "text": "Ungültige Repository-ID",
+          "version": 1
+        },
+        "0C64107A": {
+          "text": "Schema wird nicht unterstützt",
+          "version": 1
+        },
+        "0C64107B": {
+          "text": "Aktualisierung nicht möglich. Version ist leer",
+          "version": 1
+        }
+      }
+    },
+    "080F0811": {
+      "text": "Ersetzen von App-Daten fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64102D": {
+          "text": "Multiform-Daten können nicht gelesen werden",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "Dateiname enthält unzulässige Zeichen",
+          "version": 1
+        },
+        "0C64104C": {
+          "text": "Daten können nicht ersetzt werden, da andere Daten dieser App aktuell ersetzt werden",
+          "version": 1
+        },
+        "0C64104D": {
+          "text": "Leere Content-Length im Header",
+          "version": 1
+        },
+        "0C64104E": {
+          "text": "Freier Speicherplatz des Geräts kann nicht ermittelt werden",
+          "version": 1
+        },
+        "0C64104F": {
+          "text": "Content-Length kann nicht in eine Zahl umgewandelt werden",
+          "version": 1
+        },
+        "0C641050": {
+          "text": "Nicht genügend freier Speicherplatz auf dem Gerät vorhanden",
+          "version": 1
+        },
+        "0C641051": {
+          "text": "Datendatei kann nicht geschlossen werden",
+          "version": 1
+        },
+        "0C641052": {
+          "text": "Fehlende oder ungültige Daten in hochgeladenem multipart/form-data",
+          "version": 1
+        },
+        "0C641053": {
+          "text": "Leere oder ungültige Daten in der Datendatei",
+          "version": 1
+        },
+        "0C641054": {
+          "text": "Daten können nicht in einer temporären Datei gespeichert werden",
+          "version": 1
+        },
+        "0C641055": {
+          "text": "Fehlendes Feld \"file\", das die Datendatei im hochgeladenen multipart/form-data enthält",
+          "version": 1
+        },
+        "0C641056": {
+          "text": "Task für App-Ersatz kann nicht hinzugefügt werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0812": {
+      "text": "Hinzufügen des Repositorys fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C641058": {
+          "text": "Repository-Daten ungültig",
+          "version": 1
+        },
+        "0C64106C": {
+          "text": "Ein Repository mit der angegebenen ID existiert bereits",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641073": {
+          "text": "Repository kann nicht erstellt werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0813": {
+      "text": "Entfernen der App vom Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106D": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641075": {
+          "text": "Das Löschen einer Anwendung wird nur für lokale Repositories unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "080F0814": {
+      "text": "Entfernen des Repositorys fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106D": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641074": {
+          "text": "Repository-ID fehlt",
+          "version": 1
+        }
+      }
+    },
+    "080F0815": {
+      "text": "Abruf von App-Informationen vom Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64105C": {
+          "text": "App-Daten ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0816": {
+      "text": "Abruf von App-Binärdaten aus dem Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0817": {
+      "text": "Abruf des App-Symbols aus dem Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641043": {
+          "text": "Die mit diesem MIME-Typ verbundene Erweiterung konnte nicht ermittelt werden",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0818": {
+      "text": "Abruf des App-Manifests aus dem Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641032": {
+          "text": "Manifest-Daten ungültig",
+          "version": 1
+        },
+        "0C641060": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0819": {
+      "text": "Abruf  von Apps aus dem Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64103F": {
+          "text": "App nicht gefunden",
+          "version": 1
+        },
+        "0C64105C": {
+          "text": "App-Daten ungültig",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F081A": {
+      "text": "Abruf  von Repositories fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F081B": {
+      "text": "Aktualisierung Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C641058": {
+          "text": "Repository-Daten ungültig",
+          "version": 1
+        },
+        "0C641063": {
+          "text": "Verfügbares Repository kann nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F081C": {
+      "text": "Hochladen der App ins Repository fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100F": {
+          "text": "Verfügbarer Speicherplatz kann nicht berechnet werden",
+          "version": 1
+        },
+        "0C64102D": {
+          "text": "Multiform-Daten können nicht gelesen werden",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "Dateiname enthält unzulässige Zeichen",
+          "version": 1
+        },
+        "0C641064": {
+          "text": "Eigenschaft \"fileName\" erwartet",
+          "version": 1
+        },
+        "0C641065": {
+          "text": "Datei ist beschädigt",
+          "version": 1
+        },
+        "0C641066": {
+          "text": "Datei kann nicht im Repository gespeichert werden",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F081D": {
+      "text": "Abruf von Einstellungen der App-Verwaltung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F081E": {
+      "text": "Aktualisierung Einstellungen App-Verwaltung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F081F": {
+      "text": "Abruf von App-Details aus dem Store fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641027": {
+          "text": "App wurde im Store nicht gefunden",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store ist offline",
+          "version": 1
+        }
+      }
+    },
+    "080F0820": {
+      "text": "Abruf  von Apps aus dem Store fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641067": {
+          "text": "Abfrage fehlt",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store ist offline",
+          "version": 1
+        }
+      }
+    },
+    "080F0821": {
+      "text": "Abruf  des Store-Status fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0822": {
+      "text": "Erstellen der Task fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64102C": {
+          "text": "Task kann mit dieser Aktion nicht erstellt werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410C6": {
+          "text": "Task-Aktion wird nicht unterstützt",
+          "version": 1
+        },
+        "0C6410C7": {
+          "text": "Task kann nicht validiert werden",
+          "version": 1
+        },
+        "0C64111B": {
+          "text": "Aufgabenargumente sind ungültig",
+          "version": 1
+        },
+        "0C64111C": {
+          "text": "Aufgabe existiert bereits",
+          "version": 1
+        }
+      }
+    },
+    "080F0823": {
+      "text": "Abruf  der Task fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641029": {
+          "text": "Task mit dieser ID wurde nicht gefunden",
+          "version": 1
+        },
+        "0C641069": {
+          "text": "Informationen zum Task-Status können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C6410C8": {
+          "text": "Task nicht gefunden",
+          "version": 1
+        },
+        "0C64111B": {
+          "text": "Aufgabenargumente sind ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0824": {
+      "text": "Abruf  der Tasks fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64102A": {
+          "text": "Daten können nicht konvertiert werden",
+          "version": 1
+        },
+        "0C64111B": {
+          "text": "Aufgabenargumente sind ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0825": {
+      "text": "Entfernen der Task fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641029": {
+          "text": "Task mit dieser ID wurde nicht gefunden",
+          "version": 1
+        },
+        "0C64106A": {
+          "text": "Task hat den falschen Status",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410C8": {
+          "text": "Task nicht gefunden",
+          "version": 1
+        },
+        "0C64111D": {
+          "text": "Aufgabe nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0826": {
+      "text": "Installieren der App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641078": {
+          "text": "ID fehlt",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store ist offline",
+          "version": 1
+        },
+        "0C64107D": {
+          "text": "Adresse ist ungültig",
+          "version": 1
+        },
+        "0C641119": {
+          "text": "Keine Speichermedium gefunden",
+          "version": 1
+        },
+        "0C64111E": {
+          "text": "Einhängen der Partition rexroth-vault fehlgeschlagen",
+          "version": 1
+        },
+        "0C64111F": {
+          "text": "Aktion der Medienaufgabe ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C641120": {
+          "text": "Suche nach Bootpartition fehlgeschlagen",
+          "version": 1
+        },
+        "0C641121": {
+          "text": "Speichermedium  nicht mehr verfügbar",
+          "version": 1
+        }
+      }
+    },
+    "080F0827": {
+      "text": "Aktualisierung der App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641078": {
+          "text": "ID fehlt",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store ist offline",
+          "version": 1
+        },
+        "0C64107D": {
+          "text": "Adresse ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0828": {
+      "text": "Beenden von snapd fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64107E": {
+          "text": "Snapd kann nicht wiederhergestellt werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0829": {
+      "text": "App-Verbindung fehlgeschlagen",
+      "version": 1
+    },
+    "080F082A": {
+      "text": "App-Verbindung wiederhergestellt",
+      "version": 1
+    },
+    "080F082B": {
+      "text": "Schnittstellenverbindung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100E": {
+          "text": "App-Verbindung nicht erlaubt für Apps aus unbekannter Quelle",
+          "version": 1
+        }
+      }
+    },
+    "080F0833": {
+      "text": "Befehl zum Firmware-Update fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64107F": {
+          "text": "Fehler beim Ausführen des Befehls",
+          "version": 1
+        }
+      }
+    },
+    "080F0834": {
+      "text": "Bootloader-Update fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641081": {
+          "text": "Gadget auf vorherige Version zurücksetzen",
+          "version": 1
+        },
+        "0C641082": {
+          "text": "Fehler beim Ausführen des Skripts",
+          "version": 1
+        },
+        "0C641083": {
+          "text": "Fehler beim Zurücksetzen der App",
+          "version": 1
+        }
+      }
+    },
+    "080F0836": {
+      "text": "Deinstallation der App fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641085": {
+          "text": "App konnte nicht entfernt werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0837": {
+      "text": "Wiederherstellung der App fehlgeschlagen",
+      "version": 1
+    },
+    "080F0838": {
+      "text": "Aktualisieren von UEFI kann nicht durchgeführt werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641127": {
+          "text": "Voraussetzungen nicht erfüllt",
+          "version": 1
+        },
+        "0C641128": {
+          "text": "Keine Aktualisierung verfügbar",
+          "version": 1
+        }
+      }
+    },
+    "080F0839": {
+      "text": "Beeinträchtigte Systemintegrität",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641086": {
+          "text": "Erstellen des Integritäts-Basisverzeichnisses ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C641087": {
+          "text": "Erstellung des Systemintegritätsprotokolls fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F083A": {
+      "text": "Verwaltung der Speichererweiterung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641089": {
+          "text": "Fehler beim Abrufen von Medieninformationen",
+          "version": 1
+        }
+      }
+    },
+    "080F083B": {
+      "text": "Berechnung der möglichen Snap-Upload-Größe fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641088": {
+          "text": "Fehler beim Abrufen von Speicherinformationen",
+          "version": 1
+        }
+      }
+    },
+    "080F083C": {
+      "text": "Aktualisierung der Task fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641069": {
+          "text": "Informationen zum Task-Status können nicht aktualisiert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F083D": {
+      "text": "Update der überbrückten Schnittstelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64108A": {
+          "text": "Eines der angegebenen Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64108B": {
+          "text": "Schnittstelle kann nicht überbrückt werden",
+          "version": 1
+        }
+      }
+    },
+    "080F083E": {
+      "text": "Abfrage der überbrückten Schnittstelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64108C": {
+          "text": "Überbrückte Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F083F": {
+      "text": "Übernahme von Änderungen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410AA": {
+          "text": "Wählen Sie entweder \"Übernehmen\" oder \"Verwerfen\"",
+          "version": 1
+        }
+      }
+    },
+    "080F0840": {
+      "text": "Update der Schnittstelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F0841": {
+      "text": "Abrufen von Host-Tabelleneinträgen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0842": {
+      "text": "Update von Host-Tabelleneinträgen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410B3": {
+          "text": "Host-Tabelle ungültig",
+          "version": 1
+        },
+        "0C6410B4": {
+          "text": "Änderungen können nicht übernommen werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0843": {
+      "text": "Erstellen der Schnittstelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C64108E": {
+          "text": "Name der Schnittstelle fehlt",
+          "version": 1
+        },
+        "0C6410A5": {
+          "text": "Brücke existiert bereits",
+          "version": 1
+        },
+        "0C6410AB": {
+          "text": "Schnittstelle hat nicht den korrekten Typ",
+          "version": 1
+        },
+        "0C6410AC": {
+          "text": "Schnittstelle hat den falschen Status",
+          "version": 1
+        },
+        "0C6410AD": {
+          "text": "Kombination von Typ und Modus ungültig",
+          "version": 1
+        },
+        "0C6410AE": {
+          "text": "Schnittstelle existiert bereits",
+          "version": 1
+        },
+        "0C641247": {
+          "text": "Ungültiger Name der Schnittstelle",
+          "version": 1
+        }
+      }
+    },
+    "080F0844": {
+      "text": "Löschen der Schnittstelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F0845": {
+      "text": "Abrufen von Schnittstelleninformationen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0846": {
+      "text": "Abrufen der Schnittstellen-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0847": {
+      "text": "Abrufen von Schnittstellenstatusinformationen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0848": {
+      "text": "Abrufen aktiver IP-Adressen der Schnittstelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0849": {
+      "text": "Abrufen von Schnittstellen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F084A": {
+      "text": "Update Schnittstellen-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        },
+        "0C6410A8": {
+          "text": "VLAN-Schnittstellen können nicht konfiguriert werden",
+          "version": 1
+        },
+        "0C6410A9": {
+          "text": "IP-Adresse hat keine gültige CIDR-Bezeichnung",
+          "version": 1
+        }
+      }
+    },
+    "080F084B": {
+      "text": "Abrufen von Proxy-Informationen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F084C": {
+      "text": "Update der Proxy-Information fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410B5": {
+          "text": "Keine Proxy-Konfiguration",
+          "version": 1
+        },
+        "0C6410B6": {
+          "text": "HTTP-Konfiguration ist ungültig",
+          "version": 1
+        },
+        "0C6410B7": {
+          "text": "HTTPS-Konfiguration ist ungültig",
+          "version": 1
+        },
+        "0C6410B8": {
+          "text": "Aktualisieren des System-Proxys fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410B9": {
+          "text": "Entweder HTTP oder HTTPS muss eingestellt werden",
+          "version": 1
+        },
+        "0C6410BA": {
+          "text": "HTTP-Zeichenfolge zu lang",
+          "version": 1
+        },
+        "0C6410BB": {
+          "text": "HTTPS-Zeichenfolge zu lang",
+          "version": 1
+        }
+      }
+    },
+    "080F084D": {
+      "text": "Abfrage der Nameserver fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F084E": {
+      "text": "Update der Nameserver fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F084F": {
+      "text": "Hinzufügen einer Route fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Schnittstellen können nicht gelesen werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0850": {
+      "text": "Löschen einer Route fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        },
+        "0C6410BC": {
+          "text": "Route nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0851": {
+      "text": "Abrufen der Route fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410BC": {
+          "text": "Route nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0852": {
+      "text": "Abrufen der Routing-Tabelle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0853": {
+      "text": "Update der Route fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108A": {
+          "text": "Eines der angegebenen Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        },
+        "0C6410BC": {
+          "text": "Route nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0854": {
+      "text": "Update der Routes fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Schnittstellen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F0855": {
+      "text": "Hinzufügen eines WiFi-Netzwerks fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C641097": {
+          "text": "Schnittstelle kann nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Sicherheitseinstellungen der Schnittstelle können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        },
+        "0C6410C4": {
+          "text": "WiFi-Netzwerk ist bereits vorhanden",
+          "version": 1
+        }
+      }
+    },
+    "080F0856": {
+      "text": "Abrufen der Zugangspunktkonfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C641099": {
+          "text": "Schnittstelle ist nicht als Zugangspunkt konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "080F0857": {
+      "text": "Abrufen Security-Konfiguration Zugangspunkt fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C641099": {
+          "text": "Schnittstelle ist nicht als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109B": {
+          "text": "Sicherheitseinstellungen des Zugangspunkts können nicht gelesen werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0858": {
+      "text": "Abrufen des  WiFi-Netzwerks fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Schnittstelle ist als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Ungültiger WiFi-Netzwerkname (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi-Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C64109E": {
+          "text": "WiFi-Netzwerk nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0859": {
+      "text": "Abrufen WiFi-Netzwerk-Security-Einstellungen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Schnittstelle ist als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Ungültiger WiFi-Netzwerkname (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi-Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F085A": {
+      "text": "Abrufen von WiFi-Netzwerken fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Schnittstelle ist als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109F": {
+          "text": "Nur WiFi-Schnittstellen erlaubt",
+          "version": 1
+        }
+      }
+    },
+    "080F085B": {
+      "text": "Abrufen unterstützter Sicherheitsprotokolle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Schnittstellen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        }
+      }
+    },
+    "080F085C": {
+      "text": "Security verdrahtetes Netzwerk-Interface fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Schnittstellen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        }
+      }
+    },
+    "080F085D": {
+      "text": "Löschen des WiFi-Netzwerks fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Schnittstelle ist als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Ungültiger WiFi-Netzwerkname (SSID)",
+          "version": 1
+        },
+        "0C64109E": {
+          "text": "WiFi-Netzwerk nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F085E": {
+      "text": "Update des Zugangspunkts fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Sicherheitseinstellungen der Schnittstelle können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F085F": {
+      "text": "Update Security-Konfiguration Zugangspunkt fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Sicherheitseinstellungen der Schnittstelle können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C641099": {
+          "text": "Schnittstelle ist nicht als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F0860": {
+      "text": "Update des WiFi-Netzwerks fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi-Schnittstelle ist nicht vorhanden",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Sicherheitseinstellungen der Schnittstelle können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Schnittstelle ist als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Ungültiger WiFi-Netzwerkname (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi-Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0861": {
+      "text": "Update Security-Einstellungen WiFi-Netzwerk fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Sicherheitseinstellungen der Schnittstelle können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Schnittstelle ist als Zugangspunkt konfiguriert",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Ungültiger WiFi-Netzwerkname (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi-Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C64109E": {
+          "text": "WiFi-Netzwerk nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        },
+        "0C6410BD": {
+          "text": "Extensible Authentication Protocol (EAP)-Daten können nicht erstellt werden",
+          "version": 1
+        },
+        "0C6410BE": {
+          "text": "Phase2 Auth-Typ wird nicht unterstützt",
+          "version": 1
+        },
+        "0C6410BF": {
+          "text": "Passwort ist erforderlich",
+          "version": 1
+        },
+        "0C6410C0": {
+          "text": "Ungültiges Sicherheitsprotokoll",
+          "version": 1
+        },
+        "0C6410C1": {
+          "text": "Ungültiger Konfigurationstyp",
+          "version": 1
+        },
+        "0C6410C2": {
+          "text": "Passwort und Identität erforderlich",
+          "version": 1
+        },
+        "0C6410C3": {
+          "text": "Fehler in den WiFi-Sicherheitseinstellungen",
+          "version": 1
+        }
+      }
+    },
+    "080F0862": {
+      "text": "Update Security verdrahtete Netzwerkschnittstelle fehlerhaft",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Schnittstellen können nicht gelesen werden",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Sicherheitseinstellungen der Schnittstelle können nicht aktualisiert werden",
+          "version": 1
+        },
+        "0C6410A0": {
+          "text": "Ungültiges Protokoll",
+          "version": 1
+        },
+        "0C6410A1": {
+          "text": "Ungültige EAP-TLS-Konfiguration",
+          "version": 1
+        },
+        "0C6410A2": {
+          "text": "Ungültige Authentifizierungsmethode",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F0863": {
+      "text": "Abrufen des Netzwerkerkennungsdienstes fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C6410A3": {
+          "text": "Dienst nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0864": {
+      "text": "Abrufen der Netzwerkerkennungsdienste fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0865": {
+      "text": "Ändern des Dienststatus fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64108A": {
+          "text": "Eines der angegebenen Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410A4": {
+          "text": "Dienst kann nicht aktualisiert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0866": {
+      "text": "Update Konfig. Netzwerkerkennungsdienst fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C6410A3": {
+          "text": "Dienst nicht gefunden",
+          "version": 1
+        },
+        "0C6410A4": {
+          "text": "Dienst kann nicht aktualisiert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0867": {
+      "text": "Abrufen Konfig. Netzwerkerkennungsdienst fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C6410A3": {
+          "text": "Dienst nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0868": {
+      "text": "Aktivieren Konfig. Netzwerkerkennungsdienst fehlgeschlagen",
+      "version": 1
+    },
+    "080F0869": {
+      "text": "Deaktivieren Konfig. Netzwerkerkennungsdienst fehlgeschlagen",
+      "version": 1
+    },
+    "080F086A": {
+      "text": "Überbrückung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A6": {
+          "text": "Brücke nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F086B": {
+      "text": "Einstellung der Überbrückung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A6": {
+          "text": "Brücke nicht gefunden",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F086C": {
+      "text": "Validierung der Dienst-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410AF": {
+          "text": "Keine unnötige arp-Konfiguration gefunden",
+          "version": 1
+        },
+        "0C6410B0": {
+          "text": "Arp-Konfiguration ungültig",
+          "version": 1
+        },
+        "0C6410B1": {
+          "text": "Anzahl ungültig",
+          "version": 1
+        },
+        "0C6410B2": {
+          "text": "Intervall ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F086D": {
+      "text": "Erstellen des Zugangspunkts fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F086E": {
+      "text": "Löschen Security-Einstellungen WiFi-Netzwerk fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A7": {
+          "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
+          "version": 1
+        }
+      }
+    },
+    "080F086F": {
+      "text": "ARP fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0870": {
+      "text": "Ping fehlgeschlagen",
+      "version": 1
+    },
+    "080F0871": {
+      "text": "Verbindungstest fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410C5": {
+          "text": "Proxy-Konfiguration kann nicht verifiziert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0872": {
+      "text": "Speichern der Netzwerk-Konfiguration fehlgeschlagen",
+      "version": 1
+    },
+    "080F0873": {
+      "text": "Initialisierung fehlgeschlagen",
+      "version": 1
+    },
+    "080F0874": {
+      "text": "Remodellierung nicht möglich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641090": {
+          "text": "Vorbedingungen nicht erfüllt",
+          "version": 1
+        },
+        "0C641091": {
+          "text": "Ausführen der Remodellierung fehlgeschlagen",
+          "version": 1
+        },
+        "0C641093": {
+          "text": "System kann nicht vorbereitet werden",
+          "version": 1
+        },
+        "0C641094": {
+          "text": "Seed-Partition kann nicht gelöscht werden",
+          "version": 1
+        }
+      }
+    },
+    "080F0875": {
+      "text": "Remodellierung läuft bereits",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641092": {
+          "text": "Remodellierung wurde durch eine andere Aufgabe gestartet",
+          "version": 1
+        }
+      }
+    },
+    "080F0876": {
+      "text": "Erstellen der Inbetriebnahmedatei fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410F3": {
+          "text": "Keine Datei zum Schreiben vorhanden",
+          "version": 1
+        },
+        "0C6410F4": {
+          "text": "Erstellen von Writer fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410F5": {
+          "text": "Hinzufügen zum Writer fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0877": {
+      "text": "Abrufen von Inbetriebnahmeinformationen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0878": {
+      "text": "Abrufen des Gerätedatums fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0879": {
+      "text": "Abrufen von Datums- und Zeiteinstellungen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F087A": {
+      "text": "Einstellen des Gerätedatums fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C6410B4": {
+          "text": "Änderungen können nicht übernommen werden",
+          "version": 1
+        },
+        "0C6410C9": {
+          "text": "Information über die Zeitzone ist ungültig",
+          "version": 1
+        },
+        "0C6410CA": {
+          "text": "NTP-Information ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F087B": {
+      "text": "Überprüfen der Zeitzone fehlgeschlagen",
+      "version": 1
+    },
+    "080F087C": {
+      "text": "Hochladen eines Images fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "Dateiname enthält unzulässige Zeichen",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410CB": {
+          "text": "Einhängepunkt fehlt",
+          "version": 1
+        },
+        "0C6410CC": {
+          "text": "Einhängepunkt ist nicht korrekt",
+          "version": 1
+        },
+        "0C6410CD": {
+          "text": "Schreiben der Datei setup.zip fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410CE": {
+          "text": "Keine Firmware-Datei in Anforderung",
+          "version": 1
+        },
+        "0C6410F6": {
+          "text": "Einhängepunkt muss sich auf einem Wechseldatenträger befinden",
+          "version": 1
+        },
+        "0C6410F7": {
+          "text": "Erstellen des Rescue-Ordners fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410F8": {
+          "text": "Erstellen der Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410F9": {
+          "text": "Schreiben in Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410FA": {
+          "text": "Überprüfen der Prüfsumme nicht möglich, Datei nicht gefunden",
+          "version": 1
+        },
+        "0C6410FB": {
+          "text": "Überprüfen der Prüfsumme nicht möglich, Öffnen der Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410FC": {
+          "text": "Überprüfen der Prüfsumme nicht möglich, Lesen der Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410FD": {
+          "text": "Datei wurde beim Hochladen beschädigt",
+          "version": 1
+        },
+        "0C6410FE": {
+          "text": "Generate-setup wird zur Zeit nicht unterstützt",
+          "version": 1
+        },
+        "0C64110E": {
+          "text": "Vorbereiten des Speichermediums fehlgeschlagen",
+          "version": 1
+        },
+        "0C64110F": {
+          "text": "Kein Vorbereitungsbefehl erkannt",
+          "version": 1
+        },
+        "0C641110": {
+          "text": "Ausgewähltes Zielmedium bereits eingebunden",
+          "version": 1
+        },
+        "0C641111": {
+          "text": "Ausgewähltes Zielmedium nicht gefunden",
+          "version": 1
+        },
+        "0C641112": {
+          "text": "Einhängen der Partition fehlgeschlagen",
+          "version": 1
+        },
+        "0C641113": {
+          "text": "Speichermedium nicht gefunden",
+          "version": 1
+        },
+        "0C641114": {
+          "text": "Eingehängte Partition nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F087D": {
+      "text": "Abrufen von Sensorinformationen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641106": {
+          "text": "Sensor wurde nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F087E": {
+      "text": "Abrufen der Sensorliste fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F087F": {
+      "text": "Abrufen der URL für den seriellen Tresor fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410D0": {
+          "text": "URL des seriellen Tresors ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0880": {
+      "text": "Aktualisieren der URL für seriellen Tresor fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410D0": {
+          "text": "URL des seriellen Tresors ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0881": {
+      "text": "Abrufen des Host-Namens fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0882": {
+      "text": "Einstellen des Host-Namens fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641107": {
+          "text": "Host-Name ist ungültig",
+          "version": 1
+        },
+        "0C641108": {
+          "text": "Leere Host-Namen sind nicht erlaubt",
+          "version": 1
+        },
+        "0C641109": {
+          "text": "Host-Name überschreitet die maximale Länge von 64 Zeichen",
+          "version": 1
+        }
+      }
+    },
+    "080F0883": {
+      "text": "Abrufen der Berichtsdatei fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64105E": {
+          "text": "Binäre Daten können nicht in den Stream kopiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410D1": {
+          "text": "Berichtsdatei nicht gefunden",
+          "version": 1
+        },
+        "0C6410D2": {
+          "text": "Name der Berichtsdatei zu lang",
+          "version": 1
+        },
+        "0C6410D3": {
+          "text": "Lesen der Berichtsdatei-Info fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410D4": {
+          "text": "Schließen der Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410FF": {
+          "text": "Typenschild kann nicht gelesen werden",
+          "version": 1
+        },
+        "0C641100": {
+          "text": "Installierte Apps wurden nicht gefunden",
+          "version": 1
+        },
+        "0C641101": {
+          "text": "Erstellen der Berichtsarchivdatei fehlgeschlagen",
+          "version": 1
+        },
+        "0C641102": {
+          "text": "Schreiben in Berichtsarchivdatei fehlgeschlagen",
+          "version": 1
+        },
+        "0C641103": {
+          "text": "Lesen des Logbuchs fehlgeschlagen",
+          "version": 1
+        },
+        "0C641104": {
+          "text": "Abfrage von Daten fehlgeschlagen",
+          "version": 1
+        },
+        "0C641105": {
+          "text": "Dekodieren von Daten fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0884": {
+      "text": "Zuweisen von Speicherressourcen (Quote) fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0885": {
+      "text": "Einstellen der Speicherzuweisung (Quote) fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0886": {
+      "text": "Einstellen der CPU-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410D5": {
+          "text": "Konfiguration der Echtzeitkerne ist ungültig",
+          "version": 1
+        },
+        "0C6410D9": {
+          "text": "Parsing-Einstellungen fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410DA": {
+          "text": "Echtzeit-Kerne können nicht eingestellt werden",
+          "version": 1
+        },
+        "0C6410DB": {
+          "text": "Ändern der Linux-Watchdog-Framework-Einstellungen fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0887": {
+      "text": "Abrufen von CPU-Informationen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410D6": {
+          "text": "Kern-Index ist ungültig",
+          "version": 1
+        },
+        "0C6410D7": {
+          "text": "Mindestens ein Nicht-Echtzeit-Kern ist erforderlich",
+          "version": 1
+        },
+        "0C6410D8": {
+          "text": "Anzahl der Kerne ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0888": {
+      "text": "Zurücksetzen der Gerätedaten fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C6410DC": {
+          "text": "Anforderungen nicht erfüllt. Das Zurücksetzen von Gerätedaten wird von diesem Gerät nicht unterstützt",
+          "version": 1
+        },
+        "0C6410DD": {
+          "text": "Art der Inbetriebnahme wird nicht unterstützt",
+          "version": 1
+        },
+        "0C6410DE": {
+          "text": "Keine Aufgabe festgelegt",
+          "version": 1
+        },
+        "0C6410DF": {
+          "text": "Unbekannter Reset-Modus",
+          "version": 1
+        },
+        "0C6410E0": {
+          "text": "Inbetriebnahmedatei nicht gefunden",
+          "version": 1
+        },
+        "0C6410E1": {
+          "text": "Laden der Inbetriebnahmedatei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410E2": {
+          "text": "Erstellen der Inbetriebnahmedatei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410E3": {
+          "text": "Schreiben der Inbetriebnahmedatei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410E4": {
+          "text": "Einhängepunkt nicht gefunden",
+          "version": 1
+        },
+        "0C6410E5": {
+          "text": "Lesen des erforderlichen Speicherplatzes fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410E6": {
+          "text": "Lesen des verfügbaren Speicherplatzes fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410E7": {
+          "text": "Speichermedium hat das falsche Format",
+          "version": 1
+        },
+        "0C6410E8": {
+          "text": "Nicht genügend freier Speicherplatz",
+          "version": 1
+        },
+        "0C6410E9": {
+          "text": "Speichermedium nicht gefunden",
+          "version": 1
+        },
+        "0C6410EA": {
+          "text": "Anmeldung fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410EB": {
+          "text": "Erstellen des Inbetriebnahmearchivs fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410EC": {
+          "text": "Zurücksetzen von Gerätedaten abbrechen",
+          "version": 1
+        },
+        "0C6410EE": {
+          "text": "Abrufen der erwarteten Größe fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410EF": {
+          "text": "Lesen der Setup-Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410F0": {
+          "text": "Hinzufügen von Apps zum Setup fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410F1": {
+          "text": "Laden des Standard-Setups fehlgeschlagen",
+          "version": 1
+        },
+        "0C6410F2": {
+          "text": "Erstellen der erforderlichen Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C64110D": {
+          "text": "Zurücksetzen der Gerätedaten fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0889": {
+      "text": "Überprüfen des NTP-Servers fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64110A": {
+          "text": "Parameter ntpServer ist erforderlich",
+          "version": 1
+        },
+        "0C64110B": {
+          "text": "NTP-Server oder Server nicht erreichbar",
+          "version": 1
+        }
+      }
+    },
+    "080F088A": {
+      "text": "Ändern des Host-Namens fehlgeschlagen",
+      "version": 1
+    },
+    "080F088B": {
+      "text": "Abrufen von Speichermedien fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641118": {
+          "text": "Verschlüsseltes Speichermedium nicht gefunden",
+          "version": 1
+        },
+        "0C641119": {
+          "text": "Keine Speichermedium gefunden",
+          "version": 1
+        },
+        "0C64111A": {
+          "text": "Kein Medium gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F088C": {
+      "text": "Speichervorgang fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64112B": {
+          "text": "SSD Erweiterungsmodul kann nicht partitioniert werden",
+          "version": 1
+        }
+      }
+    },
+    "080F088D": {
+      "text": "Einhängen der Speichermedien fehlgeschlagen",
+      "version": 1
+    },
+    "080F088E": {
+      "text": "Aushängen der Speichermedien fehlgeschlagen",
+      "version": 1
+    },
+    "080F088F": {
+      "text": "Formatieren der Speichermedien fehlgeschlagen",
+      "version": 1
+    },
+    "080F0890": {
+      "text": "Aktualisieren Pfad MTU-Erkennungseinstellung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C641122": {
+          "text": "Fehler beim Aktualisieren des Pfads der MTU-Erkennungseinstellungen",
+          "version": 1
+        },
+        "0C641123": {
+          "text": "Pfad für MTU-Erkennungsmodus ist ungültig",
+          "version": 1
+        }
+      }
+    },
+    "080F0891": {
+      "text": "Aktuelles Thema nicht gefunden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C641124": {
+          "text": "Name der App und des Themas sind leer",
+          "version": 1
+        }
+      }
+    },
+    "080F0892": {
+      "text": "Aktives Thema nicht gefunden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0893": {
+      "text": "Standard-Thema nicht gefunden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0894": {
+      "text": "Thema nicht gefunden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0895": {
+      "text": "Abrufen von Themen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0896": {
+      "text": "Aktivieren des Themas fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F0897": {
+      "text": "Abrufen des Themas fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641125": {
+          "text": "Thema nicht gefunden",
+          "version": 1
+        },
+        "0C641126": {
+          "text": "App nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0898": {
+      "text": "Abrufen der VLAN-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F0899": {
+      "text": "Einstellen der VLAN-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64108A": {
+          "text": "Eines der angegebenen Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Schnittstelle nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F089A": {
+      "text": "Systemdatenerweiterung nicht gefunden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641121": {
+          "text": "Speichermedium  nicht mehr verfügbar",
+          "version": 1
+        }
+      }
+    },
+    "080F0E00": {
+      "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B5011": {
+          "text": "Laden der Konfiguration im aktuellen Zustand nicht erlaubt",
+          "version": 1
+        }
+      }
+    },
+    "080F0FFF": {
+      "text": "Trace Fehler common.scheduler",
+      "version": 1
+    },
+    "080F2000": {
+      "text": "Fehler während der Abarbeitung eines Skripts",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270200": {
+          "text": "Interner Fehler: \"nullptr\" gefunden",
+          "version": 1
+        },
+        "0C270201": {
+          "text": "Interner Fehler: Anforderungsdaten sind kein FlatBuffer",
+          "version": 1
+        },
+        "0C270202": {
+          "text": "Interner Fehler: Unerwarteter Anforderungsdatentyp (erwarteter String)",
+          "version": 1
+        },
+        "0C270203": {
+          "text": "Interner Fehler: Unterwartetet Anforderungsdatentyp (erwarteter Array eines Strings)",
+          "version": 1
+        },
+        "0C270204": {
+          "text": "Interner Fehler: Angeforderte Daten sind unerwarteter FlatBuffer-Typ",
+          "version": 1
+        },
+        "0C270205": {
+          "text": "\"Data Layer\" System ist nicht installiert",
+          "version": 1
+        },
+        "0C270206": {
+          "text": "\"Data Layer\" ist nicht verbunden",
+          "version": 1
+        },
+        "0C270207": {
+          "text": "\"Data Layer\" unterstützen Datentyp nicht (nur einfache Typen)",
+          "version": 1
+        },
+        "0C270208": {
+          "text": "\"Data Layer\" gibt Fehler zurück",
+          "version": 1
+        },
+        "0C270209": {
+          "text": "Motion-System nicht installiert",
+          "version": 1
+        },
+        "0C27020A": {
+          "text": "Motion-Objekt ist bereits einer Instanz zugeordnet",
+          "version": 1
+        },
+        "0C27020B": {
+          "text": "Motion-Objekt ist nicht der Instanz zugeordnet und darf nicht kommandiert werden",
+          "version": 1
+        },
+        "0C270308": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C270400": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F2001": {
+      "text": "Fehler Task/Anforderung Komm. zwischen Skriptmanager/Instanz",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270300": {
+          "text": "Kommunikation zum Skript-Runner fehlgeschlagen",
+          "version": 1
+        },
+        "0C270301": {
+          "text": "Ungültige Antwort vom Script-Runner erhalten",
+          "version": 1
+        },
+        "0C270302": {
+          "text": "Script-Runner konnte das Skript nicht ausführen",
+          "version": 1
+        },
+        "0C270303": {
+          "text": "Fehler im Script-Runner",
+          "version": 1
+        },
+        "0C270304": {
+          "text": "Unbekannte Nachricht vom Skript-Runner",
+          "version": 1
+        },
+        "0C270305": {
+          "text": "Request-Handler konnte keine neue Nachricht empfangen",
+          "version": 1
+        },
+        "0C270306": {
+          "text": "Request-Handler konnte keine neue Nachricht senden",
+          "version": 1
+        },
+        "0C270307": {
+          "text": "Request-Handler konnte keine Anforderung verarbeiten",
+          "version": 1
+        },
+        "0C270309": {
+          "text": "Anhalten des am Skript angehängten Motion-Objekts",
+          "version": 1
+        }
+      }
+    },
+    "080F2002": {
+      "text": "Fehler im Data Layer des Skriptmanagers",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270202": {
+          "text": "Interner Fehler: Unerwarteter Anforderungsdatentyp (erwarteter String)",
+          "version": 1
+        },
+        "0C270207": {
+          "text": "\"Data Layer\" unterstützen Datentyp nicht (nur einfache Typen)",
+          "version": 1
+        },
+        "0C270308": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C270400": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F2003": {
+      "text": "Fehler in der Systemkonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270500": {
+          "text": "Fehler bei der Bearbeitung einer Motion-Anfrage",
+          "version": 1
+        }
+      }
+    },
+    "080F6010": {
+      "text": "Fehler bei der Auswertung der Geräteeinstellungen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4500": {
+          "text": "Das Modul \"Geräteeinstellungen\" konnte nicht initialisiert werden.",
+          "version": 1
+        },
+        "0C7B4501": {
+          "text": "Die Geräteeinstellungen sind nicht verfügbar, es werden Standardeinstellungen verwendet.",
+          "version": 1
+        },
+        "0C7B4502": {
+          "text": "Die Geräteinstellungen konnten nicht ausgewertet werden (parse-Fehler).",
+          "version": 1
+        }
+      }
+    },
+    "080F6017": {
+      "text": "Fehler Task-Watchdog",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B2317": {
+          "text": "Task-Watchdog abgelaufen",
+          "version": 1
+        }
+      }
+    },
+    "080F6019": {
+      "text": "Auslastung in kritischem Bereich \"FATAL\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4281": {
+          "text": "Die maximale Auslastung der Zykluszeit des Schedulers hat den Grenzwert mit einem fatalen Fehler überschritten, das System wird in den Status SERVICE geschaltet",
+          "version": 1
+        }
+      }
+    },
+    "080F6023": {
+      "text": "Auslastung in kritischem Bereich \"ERROR\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4280": {
+          "text": "Die maximale Auslastung der Zykluszeit des Schedulers hat den Grenzwert mit einem Fehler überschritten",
+          "version": 1
+        }
+      }
+    },
+    "080F6033": {
+      "text": "Hardware-Neustart durch Linux-Watchdog-Framework ausgelöst",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4237": {
+          "text": "Hardware-Neustart durch Hardware-Watchdog-Timer ausgelöst",
+          "version": 1
+        }
+      }
+    },
+    "080F6042": {
+      "text": "Fehler im Scheduler-System",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4226": {
+          "text": "Konfiguration konnte während des Abmeldens einer Callable Factory nicht konsistent gesichert werden",
+          "version": 1
+        },
+        "0C7B4250": {
+          "text": "Unzulässige Aktion im Zustand \"RUN\"",
+          "version": 1
+        },
+        "0C7B4264": {
+          "text": "Zeitüberschreitung beim Setzen der Callables einer Task",
+          "version": 1
+        },
+        "0C7B4265": {
+          "text": "Der Status der Abbrechbarkeit einer Task konnte nicht gesetzt werden",
+          "version": 1
+        },
+        "0C7B4269": {
+          "text": "Zeitüberschreitung bei der Statusumschaltung von Callables",
+          "version": 1
+        },
+        "0C7B4271": {
+          "text": "Maximale Anzahl an erlaubten aufeinander folgenden Fehlern überschritten",
+          "version": 1
+        }
+      }
+    },
+    "080F60A0": {
+      "text": "Fehler in der Äquidistanz des Schedulers",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B5010": {
+          "text": "Der maximal erlaubte Jitter des Schedulers wurde überschritten",
+          "version": 1
+        }
+      }
+    },
+    "080F60B0": {
+      "text": "Bedingung erkannt, die zu sicherem Maschinenzustand führte",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4300": {
+          "text": "Kritischer F8-Fehler vor dem Neustart der App Automation Core festgestellt. Siehe Diagnoselogbuch für den verursachenden F8-Fehler",
+          "version": 1
+        },
+        "0C7B4301": {
+          "text": "Kritischer F9-Fehler vor dem Reboot der ctrlX CORE festgestellt. Siehe Diagnoselogbuch für den verursachenden F9-Fehler",
+          "version": 1
+        },
+        "0C7B4302": {
+          "text": "Exception vor dem Neustart der App Automation Core festgestellt. Siehe Exception-Log oder generieren Sie den ctrlX CORE Systembericht für die verursachende Exception",
+          "version": 1
+        },
+        "0C7B4303": {
+          "text": "Ausschaltfehler erkannt während des letzten Ausschaltens",
+          "version": 1
+        },
+        "0C7B4304": {
+          "text": "Auswertung fehlgeschlagen, ob ein sicherer Maschinenzustand nötig ist",
+          "version": 1
+        },
+        "0C7B4306": {
+          "text": "Die Handhabung des sicheren Maschinenzustands kann nicht gewährleistet werden",
+          "version": 1
+        }
+      }
+    },
+    "080F6550": {
+      "text": "Kritischer Fehler im Lizenzmanagement",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0091": {
+          "text": "Lizenz Dongle entfernt",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime fehlt",
+          "version": 2
+        }
+      }
+    },
+    "080F8010": {
+      "text": "Hardware-Watchdog abgelaufen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4204": {
+          "text": "Ein Hardware-Watchdog-Ereignis wurde ausgelöst",
+          "version": 1
+        },
+        "0C7B4221": {
+          "text": "Es liegt ein Hardware-Watchdog-Ereignis beim Starten der ctrlX CORE Runtime Software vor",
+          "version": 3
+        }
+      }
+    },
+    "080F8011": {
+      "text": "Initialisierung des Hardware-Watchdogs fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4227": {
+          "text": "Anlegen der Hardware-Watchdog-Observer-Task fehlgeschlagen",
+          "version": 2
+        },
+        "0C7B4228": {
+          "text": "Initialisierung der Hardware-Watchdog-Observer-Task fehlgeschlagen",
+          "version": 2
+        }
+      }
+    },
+    "080F8012": {
+      "text": "Interner Hardware-Watchdog-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4218": {
+          "text": "Ein ungültiges Hardware-Watchdog-Ereignis wurde ausgelöst",
+          "version": 3
+        },
+        "0C7B4222": {
+          "text": "Unbehandelter Hardware-Watchdog-Objektstatus erkannt",
+          "version": 4
+        }
+      }
+    },
+    "080F8017": {
+      "text": "Fehler Hardware-Watchdog",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4227": {
+          "text": "Anlegen der Hardware-Watchdog-Observer-Task fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4228": {
+          "text": "Initialisierung der Hardware-Watchdog-Observer-Task fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4267": {
+          "text": "Triggern des  Hardware-Watchdog fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4268": {
+          "text": "Setzen der Zeitüberwachung des Hardware-Watchdogs fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F8042": {
+      "text": "Fehler im Scheduler-System",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4200": {
+          "text": "Aktualisierung des Maschinenzustands fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4210": {
+          "text": "Parametrierung der Scheduler-Basiszykluszeit (Tick) fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4220": {
+          "text": "Ungültige Antwort während des Wartens auf ein zyklisches Task-Timer-Ereignis",
+          "version": 1
+        },
+        "0C7B4224": {
+          "text": "Ein Callable lässt sich nicht in den Zustand \"EXIT\" schalten",
+          "version": 1
+        },
+        "0C7B4225": {
+          "text": "Konfiguration kann nicht konsistent wiederhergestellt werden",
+          "version": 1
+        },
+        "0C7B4230": {
+          "text": "Aktualisierung der Scheduler-Verwaltungsstrukturen fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4242": {
+          "text": "Aktualisierung der Scheduler-Taskliste ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B4266": {
+          "text": "Fehler bei der Initialisierung des Schedulers",
+          "version": 1
+        },
+        "0C7B4267": {
+          "text": "Triggern des  Hardware-Watchdog fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F80B0": {
+      "text": "Exception aufgetreten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4302": {
+          "text": "Exception vor dem Neustart der App Automation Core festgestellt. Siehe Exception-Log oder generieren Sie den ctrlX CORE Systembericht für die verursachende Exception",
+          "version": 1
+        }
+      }
+    },
+    "080F9540": {
+      "text": "Kritischer Fehler während der Steuerungsüberwachung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66003C": {
+          "text": "Steuerungstemperatur überschreitet den Maximalwert",
+          "version": 1
+        },
+        "0C660041": {
+          "text": "Verfügbarer Speicher der Steuerung kritisch",
+          "version": 1
+        }
+      }
+    },
+    "080F9550": {
+      "text": "Fataler Fehler im Lizenzmanagement",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0091": {
+          "text": "Lizenz Dongle entfernt",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime fehlt",
+          "version": 2
+        },
+        "0C7A0093": {
+          "text": "Die Lizenz konnte nicht erfolgreich erfasst werden",
+          "version": 1
+        },
+        "0C7A0094": {
+          "text": "Die Lizenzdatei (capability response) wurde hochgeladen",
+          "version": 1
+        }
+      }
+    },
+    "0B0A0102": {
+      "text": "Beantragungsversuch erfolgreich bestätigt",
+      "version": 1
+    },
+    "0B0A0103": {
+      "text": "Neuer Befehl erfolgreich hinzugefügt",
+      "version": 1
+    },
+    "0B0A0104": {
+      "text": "Befehl erfolgreich aktualisiert",
+      "version": 1
+    },
+    "0B0A0105": {
+      "text": "Gerät erfolgreich hinzugefügt",
+      "version": 1
+    },
+    "0B0A0106": {
+      "text": "Gerät erfolgreich entfernt",
+      "version": 1
+    },
+    "0B0A0107": {
+      "text": "Geräterichtlinien erfolgreich eingerichtet",
+      "version": 1
+    },
+    "0B0A0108": {
+      "text": "Gerät erfolgreich aktualisiert",
+      "version": 1
+    },
+    "0B0A0109": {
+      "text": "Richtlinie erfolgreich aktualisiert",
+      "version": 1
+    },
+    "0B0A010A": {
+      "text": "Status der Verbindung des Fernzugriffs erfolgreich geändert",
+      "version": 1
+    },
+    "0B0A010B": {
+      "text": "Befehlsstatus erfolgreich aktualisiert",
+      "version": 1
+    },
+    "0B0A010C": {
+      "text": "Neuer Befehl vom Geräteportal empfangen",
+      "version": 1
+    },
+    "0B0A0110": {
+      "text": "Versuch, den Servicemodus zu ändern",
+      "version": 1
+    },
+    "0B0A0111": {
+      "text": "Servicemodus erfolgreich geändert",
+      "version": 1
+    },
+    "0B0E0102": {
+      "text": "Aktualisieren des Befehlsstatus fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002B": {
+          "text": "Länge der Befehlsstatusangabe überschritten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0101": {
+      "text": "Abrufen von Client-Zertifikaten fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0102": {
+      "text": "Bestätigen des Beantragungsversuchs fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0103": {
+      "text": "Hinzufügen eines neuen Befehls fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0104": {
+      "text": "Abrufen des Befehls fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C6F0024": {
+          "text": "Angeforderter Befehl nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0105": {
+      "text": "Abrufen der Befehle fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0106": {
+      "text": "Aktualisieren des Befehls fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0107": {
+      "text": "Hinzufügen des Geräts fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0108": {
+      "text": "Abrufen des Geräts fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0109": {
+      "text": "Entfernen des Geräts fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010A": {
+      "text": "Abrufen von Geräterichtlinien fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C6F0025": {
+          "text": "Richtlinien für das Gerät nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010B": {
+      "text": "Abrufen der Geräterichtlinie fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0023": {
+          "text": "Beantragungsversuch wird derzeit nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010C": {
+      "text": "Abrufen der Geräte fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010D": {
+      "text": "Einstellen der Geräterichtlinien fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C6F0026": {
+          "text": "Art des Befehls wird nicht unterstützt",
+          "version": 1
+        },
+        "0C6F0027": {
+          "text": "Gerät nicht gefunden",
+          "version": 1
+        },
+        "0C6F0028": {
+          "text": "Ungültige Anzahl von Richtlinieneinträgen",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010E": {
+      "text": "Aktualisieren des Geräts fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010F": {
+      "text": "Abrufen des Status der Fernzugriffsverbindung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C6F0029": {
+          "text": "Konvertieren von Daten fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0110": {
+      "text": "Aktualisieren Status Fernzugriffsverbindung fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Body-Daten der Anfrage können nicht geparst werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0111": {
+      "text": "Abrufen des Verbindungsstatus fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0112": {
+      "text": "Aktualisieren des Befehlsstatus fehlgeschlagen",
+      "version": 1
+    },
+    "0B0F0113": {
+      "text": "Installieren von Paketen fehlgeschlagen",
+      "version": 1
+    },
+    "0B0F0114": {
+      "text": "Empfangen von Paketen fehlgeschlagen",
+      "version": 1
+    },
+    "0B0F0116": {
+      "text": "Einstellen des Servicemodus fehlgeschlagen",
+      "version": 1
+    },
+    "0B0F0117": {
+      "text": "Aktualisieren Kontext Paketmanager-Client fehlgeschlagen",
+      "version": 1
+    },
+    "0B0F0118": {
+      "text": "Abrufen des Beantragungsversuchs fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0023": {
+          "text": "Beantragungsversuch wird derzeit nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0119": {
+      "text": "Erstellen eines App-Handlers für Befehle fehlgeschlagen",
+      "version": 1
+    },
+    "0B0F011A": {
+      "text": "Erstellen der Konfigurationsdatei fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002A": {
+          "text": "Keine Zertifikate für den Rexroth Remote Agent gefunden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011B": {
+      "text": "Lesen aller Geräte fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002A": {
+          "text": "Keine Zertifikate für den Rexroth Remote Agent gefunden",
+          "version": 1
+        }
+      }
+    },
+    "100A0FFF": {
+      "text": "Trace Nachricht <userUnitName>",
+      "version": 1
+    },
+    "100E0FFF": {
+      "text": "Trace Warnung <userUnitName>",
+      "version": 1
+    },
+    "100F0FFF": {
+      "text": "Trace Fehler <userUnitName>",
+      "version": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "configuration.firewall.description": "Firewall configuration data",
+    "settings.firewall.title": "Firewall",
+    "settings.firewall.description": "Manage firewall settings",
+    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-NNNN.title": "ctrlX OS License - Firewall",
+    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-NNNN.description": "Industrial firewall for ctrlX OS",
+	"scopes-declaration.rexroth-firewall.web.name": "Firewall",
+	"scopes-declaration.rexroth-firewall.web.description": "Permissions for the Firewall",
+	"scopes-declaration.rexroth-firewall.web.r.name": "View the firewall configuration",
+	"scopes-declaration.rexroth-firewall.web.r.description": "View the firewall configuration",
+	"scopes-declaration.rexroth-firewall.web.rw.name": "Modify the firewall configuration",
+	"scopes-declaration.rexroth-firewall.web.rw.description": "Modify the firewall configuration"
+}

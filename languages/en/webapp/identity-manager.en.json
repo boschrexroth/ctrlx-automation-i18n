@@ -1,0 +1,363 @@
+{
+  "idm.common": {
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+    "copy.tooltip": "Copy",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "actions": "Actions",
+
+    "systemUserExt": "(system user)",
+    "remoteUserExt": "(remote)",
+    "confirmationDoesNotMatchPassword": "Confirmation does not match password"
+  },
+
+  "idm.startpage": {
+    "usersTileTitle": "Users",
+    "usersTileDescription": "Create, edit and manage users.",
+    "usersDetailsButtonLabel": "Show users...",
+
+    "groupsTileTitle": "Groups",
+    "groupsTileDescription": "Create, edit and manage groups.",
+    "groupsDetailsButtonLabel": "Show groups...",
+
+    "permissionsTileTitle": "Permissions",
+    "permissionsTileDescription": "Assign permissions to users and groups.",
+    "permissionsDetailsButtonLabel": "Show permissions...",
+
+    "sessionsTileTitle": "Sessions",
+    "sessionsTileDescription": "View and terminate running sessions.",
+    "sessionsDetailsButtonLabel": "Show sessions...",
+
+    "moreSettingsTileTitle": "More settings",
+    "moreSettingsTileDescription": "Policies, banner, remote authentication, service access",
+    "moreSettingsDetailsButtonLabel": "Show more settings..."
+  },
+
+  "idm.settingsBottomMenu": {
+    "passwordPoliciesTitle": "Password policies",
+    "passwordPoliciesDescription": "Edit rules for passwords",
+    "sessionPoliciesTitle": "Session policies",
+    "sessionPoliciesDescription": "Edit rules for sessions",
+    "loginBannerTitle": "Login banner",
+    "loginBannerDescription": "Configure login banner text",
+    "remoteAuthSetupTitle": "Remote authentication",
+    "remoteAuthSetupDescription": "Edit remote authentication settings",
+    "easyServiceAccessTitle": "Easy service access",
+    "easyServiceAccessDescription": "Edit easy service access settings"
+  },
+
+  "idm.addGroupDialog": {
+    "title": "Add group",
+    "groupName": "Group name",
+    "addGroup.button": "Add group"
+  },
+
+  "idm.addUserDialog": {
+    "title": "Add user",
+    "username": "Username",
+    "passwordPolicy": "Password policy",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "addUser.button": "Add user"
+  },
+
+  "idm.userNameValidator": {
+    "userNameMustHaveAtLeastXCharacters": "Username must have at least {{param}} characters.",
+    "userNameMayNotExceedXCharacters": "Username may not exceed {{param}} characters.",
+    "userNameMustStartWith": "Username must start with lower case letter [a-z] or with '_'.",
+    "userNameMayContain": "Username may contain lower case letters [a-z], digits [0-9], '_' or '-'. It may end with '$'.",
+    "userNameAlreadyExisting": "This username already exists.",
+    "userNameReserved": "This username is reserved.",
+    "errGroupWithThisNameExists": "A group with this name already exists."
+  },
+
+  "idm.passwordValidator": {
+    "passwordMustBeAtLeastXLong": "Password must be at least {{param}} characters long",
+    "passwordMustNotContainUsername": "Password must not contain username",
+    "passwordMustContainXLowercase": "Password must contain at least {{param}} lowercase characters (a-z)",
+    "passwordMustContainXUppercase": "Password must contain at least {{param}} uppercase characters (A-Z)",
+    "passwordMustContainXDigits": "Password must contain at least {{param}} digits (0-9)",
+    "passwordMustContainXSpecial": "Password must contain at least {{param}} special characters (!§$%&/()=? etc.)"
+  },
+
+  "idm.groupNameValidator": {
+    "groupNameMustHaveAtLeastXCharacters": "Group name must have at least {{param}} characters.",
+    "groupNameMayNotExceedXCharacters": "Group name may not exceed {{param}} characters.",
+    "groupNameMustStartWith": "Group name must start with lower case letter [a-z] or with '_'.",
+    "groupNameMayContain": "Group name may contain lower case letters [a-z], digits [0-9], '_' or '-'. It may end with '$'.",
+    "groupNameAlreadyExisting": "This group name already exists.",
+    "groupNameReserved": "This group name is reserved.",
+    "groupNameReservedInternal": "This group name is reserved for internal use."
+  },
+
+  "idm.changePasswordDialog": {
+    "title": "Change password",
+    "username": "Username",
+    "oldPassword": "Old password",
+    "newPassword": "New password",
+    "enterOldPassword": "Enter the old password",
+    "confirmNewPassword": "Confirm new password",
+    "changePassword.button": "Change password",
+
+    "passwordChangeRequired": "Password change required."
+  },
+
+  "idm.groupDetailsDialog": {
+    "usersTab": "Users",
+    "permissionsTab": "Permissions"
+  },
+
+  "idm.permissionDetails": {
+    "fullAccess": "Full access (This will grant all permissions as well as additional administrative access to the system)",
+    "category": "Category",
+    "permission": "Permission",
+    "identifier": "Scope identifier",
+    "showScopeIds.tooltip": "Show scope identifiers",
+    "hideScopeIds.tooltip": "Hide scope identifiers"
+  },
+
+  "idm.groups": {
+    "title": "Groups",
+    "name": "Name",
+    "deleteGroup.title": "Delete group"
+  },
+
+  "idm.notification": {
+    "error": "Error: {{param}}",
+    "changesSavedMsg": "Changes have been saved. Some changes are only applied upon the next login.",
+    "passwordChangedMsg": "Password has been changed.",
+    "missingPermissionsMsg": "You do not have the required permissions."
+  },
+
+  "idm.remoteAuthSettings": {
+    "title": "Remote authentication",
+    "enableRemoteAuth": "Enable remote authentication",
+    "authServiceType": "Authentication service"
+  },
+
+  "idm.ldapAuthSettings": {
+    "serverIpOrHostname": "Server IP address or host name",
+    "serverPort": "Server port",
+    "useTls": "Use transport layer security (TLS)",
+    "caCert": "CA certificate",
+    "clientCert": "Client certificate",
+    "clientKey": "Client key",
+    "uploadCaCert": "Upload CA certificate",
+    "uploadClientCert": "Upload client certificate",
+    "uploadClientKey": "Upload client key",
+    "caCertsNotShownDueToPermissions": "Installed CA certificates not shown due to missing permissions",
+    "clientCertsNotShownDueToPermissions": "Installed client certificates not shown due to missing permissions",
+    "clientKeysNotShownDueToPermissions": "Installed client keys not shown due to missing permissions",
+    "skipServerCertVerification": "Skip verification of server certificate",
+    "serverType": "Server type",
+    "baseDn": "Base DN",
+    "readonlyUser": "Read-only user",
+    "readonlyPassword": "Read-only password",
+    "userFilter": "User filter",
+    "groupFilter": "Group filter",
+    "userNameAttribute": "Username attribute",
+    "groupMembersAttribute": "Groupmembers attribute",
+
+    "enterValidIpV4Address": "Enter a valid IPv4 address",
+    "enterValidPortNumber": "Enter a valid port number",
+    "enterBaseDn": "Enter a base DN",
+    "enterPassword": "Enter a password",
+    "enterUserFilter": "Enter a User filter",
+    "enterGroupFilter": "Enter a Group filter",
+    "enterUserNameAttribute": "Enter username attribute",
+    "enterGroupMembersAttribute": "Enter a groupmembers attribute",
+    "selectCert": "Select a certificate",
+    "certNotLongerExists": "The selected certificate no longer exists. Select another certificate.",
+    "selectKey": "Select a key",
+    "keyNotLongerExists": "The selected key no longer exists. Select another key."
+  },
+
+  "idm.radiusAuthSettings": {
+
+    "serverIpAddress": "Server IP address",
+    "serverPort": "Server port",
+    "transportLayerProtocol": "Transport layer protocol",
+    "clientSecret": "Client secret",
+    "authenticationProtocol": "Authentication protocol",
+    "vendorId": "Vendor ID",
+    "groupsAttributeId": "Groups attribute ID",
+
+    "enterValidIpV4Address": "Enter a valid IPv4 address",
+    "enterValidPortNumber": "Enter a valid port number",
+    "enterClientSecret": "Enter client secret",
+    "enterPositiveNumber": "Enter a positive number"
+  },
+
+  "idm.loginBannerDialog": {
+    "title": "Login banner",
+    "enterText": "Enter a text to be displayed as a banner in the login dialog"
+  },
+
+  "idm.namedPasswordPoliciesDialog": {
+    "title": "Password policies",
+    "policy": "Policy",
+    "deletePolicy.title": "Delete password policy"
+  },
+
+  "idm.namedPasswordPolicyDialog": {
+    "title": "Password policy",
+    "name": "Name",
+    "idInput": "Identifier (autogenerated if not specified)",
+    "minPasswordLength": "Minimum password length",
+    "minLowercaseChars": "Minimum lowercase characters (a-z)",
+    "minUppercaseChars": "Minimum uppercase characters (A-Z)",
+    "minNumericChars": "Minimum digits (0-9)",
+    "minSpecialChars": "Minimum special characters (!§$%&/()=? etc.)",
+    "passwordMustNotContainUsername": "Password must not contain username",
+    "enforcePasswordHistory": "Password history length",
+    "passwordExpriationTimeDays": "Password expiration time in days (0 for unlimited)",
+    "enterValueFromXToYMessage": "Enter a value between {{param1}} and {{param2}}",
+    "enterNameMessage": "Enter a name",
+    "nameAlreadyExistsMessage": "This name already exists",
+    "idMinLengthMessage": "Id must contain 6 characters minimum",
+    "idMaxLengthMessage": "Id must contain 64 characters maximum",
+    "idFirstCharMessage": "Id may not start with '-' or '_'",
+    "idLastCharMessage": "Id may not end with '-' or '_'",
+    "idPatternMessage": "Id may contain the following characters: A-Z, a-z, 0-9, '-', '_'",
+    "idExistingMessage": "This id already exists",
+    "nameStartsOrdEndsWithSpace": "Name must not start or end with a space"
+  },
+
+  "idm.permissionDetailsDialog": {
+    "authorizedUsers": "Authorized users",
+    "authorizedGroups": "Authorized groups"
+  },
+
+  "idm.permissions": {
+    "title": "Permissions",
+    "category": "Category",
+    "permission": "Permission",
+    "identifier": "Scope identifier",
+    "showScopeIds.tooltip": "Show scope identifiers",
+    "hideScopeIds.tooltip": "Hide scope identifiers"
+  },
+
+  "idm.sessionDetailDialog": {
+    "title": "Session details",
+    "id": "ID",
+    "type": "Type",
+    "typeDetails": "Type details",
+    "username": "Username",
+    "creationDate": "Creation date",
+    "expirationDate": "Expiration date",
+    "timeoutDuration": "Timeout duration",
+    "lastAccessDate": "Last access date",
+    "clientIp": "Client IP",
+    "permissions": "Permissions:",
+    "unlimited": "unlimited"
+  },
+
+  "idm.sessionSettingsDialog": {
+    "title": "Session policies",
+    "logoutAfterMinutes": "Logout after inactivity in minutes (0 for unlimited)",
+    "logoutUnconditionallyAfterMinutes": "Logout after session duration in minutes (0 for unlimited)",
+    "maxSessionsPerUser": "Maximum number of sessions per user (0 for unlimited)",
+    "maxSubsequentLoginFailsWithoutWai": "Number of login attempts without subsequent waiting period (0 for unlimited)",
+    "waitingTimeAfterLoginFails": "Waiting time after login failed (seconds)",
+    "enterPositiveValueIncluding0": "Enter a positive value including 0",
+    "enterPositiveValueExcluding0": "Enter a positive value excluding 0",
+    "enterValueFromXToYMessage": "Enter a value between {{param1}} and {{param2}}"
+  },
+
+  "idm.sessions": {
+    "title": "Sessions",
+    "username": "Name",
+    "clientIp": "Client IP",
+    "creationDateUtc": "Creation date (UTC)",
+    "expirationDateUtc": "Expiration date (UTC)",
+    "type": "Type",
+    "terminate.tooltip": "Terminates a session",
+    "terminateSession.title": "Terminate session",
+    "terminateSession.confirmation": "Are you sure you want to terminate the session of user {{param}}?",
+    "terminate.button": "Terminate"
+  },
+
+  "idm.totalPermissions": {
+    "fullAccess": "Full access (This will grant all permissions of all categories)",
+    "category": "Category",
+    "permission": "Permission",
+    "providedBy": "Obtained from",
+    "individualPermissionAndGroups": "Individual permission and group(s):",
+    "individualPermission": "Individual permission",
+    "groups": "Group(s):"
+  },
+
+  "idm.uploadSystemUserAssertionDialog": {
+    "title": "Upload \"system user assertion\"",
+    "filename": "File name",
+    "upload.button": "Upload"
+  },
+
+  "idm.userDetails": {
+    "state": "State",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "autoDeleteAtUtc": "Automatically delete at (UTC)",
+    "passwordPolicy": "Password policy",
+    "oldPassword": "Old password",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "forcePwdChgOnNextLogin": "Force password change upon next login",
+    "specifyIndivSessionSettings": "Individual session settings",
+    "logoutAfterInactivity": "Logout after inactivity in minutes (0 for unlimited)",
+    "logoutUnconditionally": "Logout after session duration in minutes (0 for unlimited)",
+    "maxSessionsPerUser": "Maximum number of sessions per user (0 for unlimited)",
+    "maxSubseqLoginFailsWithoutWait": "Number of login attempts without subsequent waiting period (0 for unlimited)",
+    "waitingTimeAfterSubseqLoginFails": "Waiting time after login failed (seconds)",
+    "enterValueGreaterOrEqual0": "Enter a value greater than or equal 0",
+    "enterValueGreater0": "Enter a value greater than 0",
+    "enterValueFromXToYMessage": "Enter a value between {{param1}} and {{param2}}",
+    "enterOldPasswordMessage": "Enter the old password"
+  },
+
+  "idm.userDetailsDialog": {
+    "details": "Details",
+    "groups": "Groups",
+    "individualPermissions": "Individual permissions",
+    "overallPermissions": "Overall permissions"
+  },
+
+  "idm.userMenuService": {
+    "title": "Log out",
+    "logoutConfirmationQuery": "Are you sure you want to log out?",
+    "logout.button": "Log out"
+  },
+
+  "idm.users": {
+    "title": "Users",
+    "name": "Name",
+    "state": "State",
+    "terminateLoginWait": "Terminate login waiting time",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "deleteUser.title": "Delete user",
+    "uploadUserAssertionFile.tooltip": "Uploads \"system user assertion\""
+  },
+
+  "idm.alertBoxFactoryService": {
+    "title": "Unsaved changes on {{param}}",
+    "saveDiscardCancelDescription": "You made changes to this item. You can save your changes, discard your changes or cancel to continue editing.",
+    "discardCancelDescription": "You made changes to this item. You can discard your changes or cancel to continue editing."
+  },
+
+  "idm.easyServiceAccessSettingsDialog": {
+    "title": "Easy service access",
+    "grantEasyServiceAccess": "Allow easy service access",
+    "grantEasyServiceAccessHint": "Enable the option \"Allow easy service access\" to allow our customer support to create a system user without previous authentication."
+  }
+
+}

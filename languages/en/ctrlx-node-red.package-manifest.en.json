@@ -1,0 +1,13 @@
+{
+    "scopes.ctrlx-node-red.web.name": "Node-RED",
+    "scopes.ctrlx-node-red.web.description": "Node-RED permissions",
+    "scopes.manage-ctrlx-node-red.web.name": "Manage configuration",
+    "scopes.manage-ctrlx-node-red.web.description": "Enables manage and modify of the configuration",
+    "scopes.view-ctrlx-node-red.web.name": "View configuration",
+    "scopes.view-ctrlx-node-red.web.description": "Enables view of the configuration",
+    "licenses.SWL-XCx-SWL-XCx-RED-NODExREDxxxxx-NNNN.title": "ctrlX OS License - Node-RED License",
+    "licenses.SWL-XCx-SWL-XCx-RED-NODExREDxxxxx-NNNN.description": "Unlock the Node-RED App",
+    "configuration-ctrlx-node-red.web.description": "Node-RED configuration",
+    "certificatestores.ctrlx-node-red.title": "Node-RED",
+    "certificatestores.ctrlx-node-red.description": "Keys and certificates of Node-RED"
+}

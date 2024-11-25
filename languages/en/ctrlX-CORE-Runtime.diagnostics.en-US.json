@@ -1,0 +1,6495 @@
+{
+  "product": "XCR-V-0206",
+  "mainDiagnostics": {
+    "080A000E": {
+      "text": "Trace message script.manager",
+      "version": 1
+    },
+    "080A000F": {
+      "text": "Trace message script.python",
+      "version": 1
+    },
+    "080A0010": {
+      "text": "Linux watchdog framework properties",
+      "version": 1
+    },
+    "080A0011": {
+      "text": "Monitoring of the hardware watchdog started",
+      "version": 1
+    },
+    "080A0012": {
+      "text": "Monitoring of the hardware watchdog finished",
+      "version": 1
+    },
+    "080A0013": {
+      "text": "Linux watchdog framework type",
+      "version": 1
+    },
+    "080A0014": {
+      "text": "Linux watchdog framework identity",
+      "version": 1
+    },
+    "080A0023": {
+      "text": "Pending tasks are paused.",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4251": {
+          "text": "Loading the program configuration is delayed due to running processes in the Device Admin.",
+          "version": 1
+        },
+        "0C7B4252": {
+          "text": "Automatic program configuration generation for new applications is delayed due to running processes in the Device Admin.",
+          "version": 1
+        }
+      }
+    },
+    "080A0033": {
+      "text": "Hardware reboot triggered by Linux watchdog framework",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4231": {
+          "text": "Hardware restart triggered by external signal 1",
+          "version": 1
+        },
+        "0C7B4232": {
+          "text": "Internal Message",
+          "version": 1
+        }
+      }
+    },
+    "080A0042": {
+      "text": "Scheduler message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4262": {
+          "text": "Configuration could not be fully restored.",
+          "version": 1
+        },
+        "0C7B4277": {
+          "text": "Switching system state",
+          "version": 1
+        },
+        "0C7B4278": {
+          "text": "Switching the system state completed",
+          "version": 1
+        }
+      }
+    },
+    "080A0068": {
+      "text": "Loading the administrative setting incomplete",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4329": {
+          "text": "Failed to load debug configuration, debug configurations cannot be transferred to other controls (controlDebug_type / controlDebug; scheduler/admin/controls/debug)",
+          "version": 1
+        }
+      }
+    },
+    "080A00A0": {
+      "text": "Converting the Scheduler program",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B500D": {
+          "text": "Converting the Scheduler program started",
+          "version": 1
+        },
+        "0C7B500E": {
+          "text": "Converting the Scheduler program completed successfully",
+          "version": 1
+        }
+      }
+    },
+    "080A0100": {
+      "text": "Error cleared",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666008": {
+          "text": "All errors cleared",
+          "version": 1
+        }
+      }
+    },
+    "080A0101": {
+      "text": "Command \"Errors cleared\" executed",
+      "version": 3,
+      "detailedDiagnostics": {
+        "0C666009": {
+          "text": "The \"Clear all errors\" command was executed",
+          "version": 4
+        },
+        "0C66600A": {
+          "text": "The \"Clear specific error\" command was executed",
+          "version": 4
+        }
+      }
+    },
+    "080A0102": {
+      "text": "No pending errors and warnings",
+      "version": 2
+    },
+    "080A0103": {
+      "text": "Command \"Reset all pending diagnostics\" executed",
+      "version": 1
+    },
+    "080A0110": {
+      "text": "Trace message common.log.diagnosis",
+      "version": 1
+    },
+    "080A0112": {
+      "text": "Trace message common.log.trace",
+      "version": 1
+    },
+    "080A0300": {
+      "text": "Security: Change in user management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0000": {
+          "text": "New user created",
+          "version": 1
+        },
+        "0C7A0001": {
+          "text": "User deleted",
+          "version": 1
+        },
+        "0C7A0002": {
+          "text": "User disabled",
+          "version": 1
+        },
+        "0C7A0003": {
+          "text": "User enabled",
+          "version": 1
+        },
+        "0C7A0004": {
+          "text": "User login",
+          "version": 1
+        },
+        "0C7A0005": {
+          "text": "User logout",
+          "version": 1
+        },
+        "0C7A0006": {
+          "text": "Password policies changed",
+          "version": 1
+        },
+        "0C7A0007": {
+          "text": "Session policies changed",
+          "version": 1
+        },
+        "0C7A0008": {
+          "text": "New group created",
+          "version": 1
+        },
+        "0C7A0009": {
+          "text": "Group deleted",
+          "version": 1
+        },
+        "0C7A000A": {
+          "text": "Group permissions changed",
+          "version": 1
+        },
+        "0C7A000B": {
+          "text": "User permissions changed",
+          "version": 1
+        },
+        "0C7A000C": {
+          "text": "User password changed",
+          "version": 1
+        },
+        "0C7A000D": {
+          "text": "Group membership changed",
+          "version": 1
+        },
+        "0C7A000E": {
+          "text": "Proxy certificate updated",
+          "version": 1
+        },
+        "0C7A000F": {
+          "text": "IDM key pair updated",
+          "version": 1
+        },
+        "0C7A0010": {
+          "text": "Generating proxy certificate failed",
+          "version": 1
+        },
+        "0C7A0011": {
+          "text": "Generating IDM key pair failed",
+          "version": 1
+        },
+        "0C7A0012": {
+          "text": "Loading configurations failed",
+          "version": 1
+        },
+        "0C7A0053": {
+          "text": "Faulty backup",
+          "version": 1
+        },
+        "0C7A0054": {
+          "text": "Remote authentication enabled",
+          "version": 1
+        },
+        "0C7A0055": {
+          "text": "Remote authentication disabled",
+          "version": 1
+        },
+        "0C7A0056": {
+          "text": "Configuration of remote authentication changed",
+          "version": 1
+        }
+      }
+    },
+    "080A0301": {
+      "text": "Security: Change in certificate management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0020": {
+          "text": "Certificate added",
+          "version": 1
+        },
+        "0C7A0021": {
+          "text": "Certificate deleted",
+          "version": 1
+        },
+        "0C7A0022": {
+          "text": "Key added",
+          "version": 1
+        },
+        "0C7A0023": {
+          "text": "Key deleted",
+          "version": 1
+        },
+        "0C7A0024": {
+          "text": "Certificate copied",
+          "version": 1
+        },
+        "0C7A0025": {
+          "text": "Certificate moved",
+          "version": 1
+        },
+        "0C7A0026": {
+          "text": "Key copied",
+          "version": 1
+        },
+        "0C7A0027": {
+          "text": "Key moved",
+          "version": 1
+        },
+        "0C7A0028": {
+          "text": "PKI configuration added",
+          "version": 1
+        },
+        "0C7A0029": {
+          "text": "PKI configuration modified",
+          "version": 1
+        },
+        "0C7A002A": {
+          "text": "PKI configuration deleted",
+          "version": 1
+        },
+        "0C7A002B": {
+          "text": "Subscription renewal added",
+          "version": 1
+        },
+        "0C7A002C": {
+          "text": "Subscription renewal modified",
+          "version": 1
+        },
+        "0C7A002D": {
+          "text": "Subscription renewal deleted",
+          "version": 1
+        },
+        "0C7A002E": {
+          "text": "Certificate renewal successful",
+          "version": 1
+        },
+        "0C7A002F": {
+          "text": "Registration of certificate successful",
+          "version": 1
+        },
+        "0C7A0045": {
+          "text": "Pkcs12 container is export operation",
+          "version": 1
+        },
+        "0C7A0046": {
+          "text": "Pkcs12 container is import operation",
+          "version": 1
+        },
+        "0C7A0047": {
+          "text": "Pkcs12 container is uploaded",
+          "version": 1
+        },
+        "0C7A0048": {
+          "text": "Pkcs12 container removal operation",
+          "version": 1
+        },
+        "0C7A0049": {
+          "text": "Extracting a certificate from a file with multiple certificates",
+          "version": 1
+        },
+        "0C7A004A": {
+          "text": "The self-signed certificate was generated successfully",
+          "version": 1
+        }
+      }
+    },
+    "080A0304": {
+      "text": "Security: Change to remote logging administration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0070": {
+          "text": "New target created",
+          "version": 1
+        },
+        "0C7A0071": {
+          "text": "Target deleted",
+          "version": 1
+        },
+        "0C7A0072": {
+          "text": "Target updated",
+          "version": 1
+        },
+        "0C7A0073": {
+          "text": "Remote logging started",
+          "version": 1
+        },
+        "0C7A0074": {
+          "text": "Remote logging stopped",
+          "version": 1
+        },
+        "0C7A0075": {
+          "text": "Filter configuration successfully created",
+          "version": 1
+        },
+        "0C7A0076": {
+          "text": "Filter configuration successfully deleted",
+          "version": 1
+        },
+        "0C7A0077": {
+          "text": "Filter configuration successfully updated",
+          "version": 1
+        }
+      }
+    },
+    "080A0400": {
+      "text": "Loading configuration started",
+      "version": 1
+    },
+    "080A0401": {
+      "text": "Loading configuration successfully finished",
+      "version": 1
+    },
+    "080A0402": {
+      "text": "Saving configuration started",
+      "version": 1
+    },
+    "080A0403": {
+      "text": "Saving configuration successfully finished",
+      "version": 1
+    },
+    "080A0410": {
+      "text": "Trace message",
+      "version": 2
+    },
+    "080A0420": {
+      "text": "Device backup started",
+      "version": 2
+    },
+    "080A0421": {
+      "text": "Device backup finished",
+      "version": 2
+    },
+    "080A0422": {
+      "text": "Device restore started",
+      "version": 2
+    },
+    "080A0423": {
+      "text": "Device restore finished",
+      "version": 2
+    },
+    "080A0450": {
+      "text": "Archive successfully created",
+      "version": 1
+    },
+    "080A0451": {
+      "text": "Archive successfully restored",
+      "version": 1
+    },
+    "080A0500": {
+      "text": "Change in network management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640000": {
+          "text": "Security configuration changed in network management",
+          "version": 1
+        },
+        "0C640003": {
+          "text": "Network configuration changed successfully",
+          "version": 2
+        },
+        "0C640004": {
+          "text": "Bridged changed successfully",
+          "version": 1
+        },
+        "0C640005": {
+          "text": "Network interface created successfully",
+          "version": 1
+        },
+        "0C640006": {
+          "text": "Network interface deleted successfully",
+          "version": 1
+        },
+        "0C640007": {
+          "text": "Proxy information updated successfully",
+          "version": 1
+        },
+        "0C640008": {
+          "text": "Information on name server updated successfully",
+          "version": 1
+        },
+        "0C640009": {
+          "text": "Route added successfully",
+          "version": 1
+        },
+        "0C64000A": {
+          "text": "Route removed successfully",
+          "version": 1
+        },
+        "0C64000B": {
+          "text": "Route updated successfully",
+          "version": 1
+        },
+        "0C64000D": {
+          "text": "Network configuration saved successfully",
+          "version": 1
+        }
+      }
+    },
+    "080A0510": {
+      "text": "PackageManager information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641000": {
+          "text": "Installation from unknown source activated",
+          "version": 1
+        },
+        "0C641001": {
+          "text": "Application enabled",
+          "version": 1
+        },
+        "0C641002": {
+          "text": "Application disabled",
+          "version": 1
+        },
+        "0C641003": {
+          "text": "Application added successfully",
+          "version": 1
+        },
+        "0C641004": {
+          "text": "Application deleted successfully",
+          "version": 1
+        },
+        "0C641005": {
+          "text": "Repository deleted successfully",
+          "version": 1
+        },
+        "0C641006": {
+          "text": "Repository updated successfully",
+          "version": 1
+        },
+        "0C641007": {
+          "text": "Application uploaded successfully",
+          "version": 1
+        },
+        "0C64100C": {
+          "text": "Repository added successfully",
+          "version": 1
+        },
+        "0C641014": {
+          "text": "Task completed successfully",
+          "version": 1
+        },
+        "0C641017": {
+          "text": "Postinstall script information",
+          "version": 1
+        },
+        "0C641019": {
+          "text": "Firmware update command was executed successfully",
+          "version": 1
+        }
+      }
+    },
+    "080A0520": {
+      "text": "Storage management information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641200": {
+          "text": "Storage action initiated",
+          "version": 1
+        },
+        "0C641201": {
+          "text": "Storage action finished successfully",
+          "version": 1
+        }
+      }
+    },
+    "080A0530": {
+      "text": "System management change",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641300": {
+          "text": "Time settings changed successfully",
+          "version": 1
+        },
+        "0C641302": {
+          "text": "Host name changed successfully",
+          "version": 1
+        },
+        "0C641304": {
+          "text": "Task initialized",
+          "version": 1
+        },
+        "0C641306": {
+          "text": "URL to the serial vault written successfully",
+          "version": 1
+        },
+        "0C6413D3": {
+          "text": "Isolation of the CPU core changed",
+          "version": 1
+        }
+      }
+    },
+    "080A0550": {
+      "text": "License manager information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0094": {
+          "text": "The license file (capability response) was uploaded",
+          "version": 1
+        },
+        "0C7A0095": {
+          "text": "Initialization of the license manager",
+          "version": 1
+        }
+      }
+    },
+    "080A0600": {
+      "text": "Trace message comm.datalayer",
+      "version": 1
+    },
+    "080A0601": {
+      "text": "Trace message comm.datalayer.framework",
+      "version": 1
+    },
+    "080A0602": {
+      "text": "Trace message web.automation",
+      "version": 1
+    },
+    "080A0603": {
+      "text": "Trace message common.systemhandler",
+      "version": 1
+    },
+    "080A0604": {
+      "text": "Trace message app.automationframework",
+      "version": 2
+    },
+    "080A0650": {
+      "text": "Application \"Automation Core\" event",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7C0100": {
+          "text": "Starting the OSGI Celix framework is completed (successful or error)",
+          "version": 2
+        },
+        "0C7C0101": {
+          "text": "Shutdown of OSGI Celix framework is initialized (causes a shutdown of the app.automationcore bundles and of all initial bundles in the monitored directories)",
+          "version": 2
+        },
+        "0C7C0102": {
+          "text": "Shutdown of the OSGI Celix Framework was started",
+          "version": 2
+        },
+        "0C7C0104": {
+          "text": "Starting the \"Automation Core\" application completed successfully (only bundles of app.automationcore)",
+          "version": 1
+        },
+        "0C7C0105": {
+          "text": "Starting all applications completed successfully (bundles from app.automationcore and all initial bundles in the monitored directories)",
+          "version": 1
+        }
+      }
+    },
+    "080A0822": {
+      "text": "Bridged interface updated successfully",
+      "version": 1
+    },
+    "080A0823": {
+      "text": "Network interface created successfully",
+      "version": 1
+    },
+    "080A0824": {
+      "text": "Network interface deleted successfully",
+      "version": 1
+    },
+    "080A0825": {
+      "text": "Proxy data updated successfully",
+      "version": 1
+    },
+    "080A0826": {
+      "text": "Name server updated successfully",
+      "version": 1
+    },
+    "080A0827": {
+      "text": "Route added successfully",
+      "version": 1
+    },
+    "080A0828": {
+      "text": "Route removed successfully",
+      "version": 1
+    },
+    "080A0829": {
+      "text": "Route updated successfully",
+      "version": 1
+    },
+    "080A082A": {
+      "text": "Security configuration changed successfully",
+      "version": 1
+    },
+    "080A082B": {
+      "text": "Network configuration saved successfully",
+      "version": 1
+    },
+    "080A082C": {
+      "text": "Repository added successfully",
+      "version": 1
+    },
+    "080A082D": {
+      "text": "Application deleted successfully",
+      "version": 1
+    },
+    "080A082E": {
+      "text": "Repository deleted successfully",
+      "version": 1
+    },
+    "080A082F": {
+      "text": "Repository updated successfully",
+      "version": 1
+    },
+    "080A0830": {
+      "text": "Application uploaded successfully",
+      "version": 1
+    },
+    "080A0831": {
+      "text": "Installation from unknown source enabled",
+      "version": 1
+    },
+    "080A0832": {
+      "text": "Firmware update command executed successfully",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641080": {
+          "text": "Switch-on cycle required",
+          "version": 1
+        }
+      }
+    },
+    "080A0835": {
+      "text": "Information on bootloader update",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641084": {
+          "text": "Postinstall information",
+          "version": 1
+        }
+      }
+    },
+    "080A0838": {
+      "text": "Adding task information",
+      "version": 1
+    },
+    "080A083D": {
+      "text": "Task completed successfully",
+      "version": 1
+    },
+    "080A0877": {
+      "text": "Time settings changed successfully",
+      "version": 1
+    },
+    "080A0878": {
+      "text": "URL to the serial vault written successfully",
+      "version": 1
+    },
+    "080A0879": {
+      "text": "Hostname changed successfully",
+      "version": 1
+    },
+    "080A087A": {
+      "text": "Task initialized successfully",
+      "version": 1
+    },
+    "080A088B": {
+      "text": "Storing initiated",
+      "version": 1
+    },
+    "080A088C": {
+      "text": "Storing completed successfully",
+      "version": 1
+    },
+    "080A088D": {
+      "text": "Storage media mounted successfully",
+      "version": 1
+    },
+    "080A088E": {
+      "text": "Storage media unmounted successfully",
+      "version": 1
+    },
+    "080A0FFF": {
+      "text": "Trace message common.scheduler",
+      "version": 1
+    },
+    "080E000E": {
+      "text": "Trace warning script.manager",
+      "version": 1
+    },
+    "080E000F": {
+      "text": "Trace warning script.python",
+      "version": 1
+    },
+    "080E0010": {
+      "text": "Unsafe machine state \"DEBUG\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4203": {
+          "text": "The hardware watchdog was disabled. A secure machine operation cannot be ensured.",
+          "version": 1
+        }
+      }
+    },
+    "080E0011": {
+      "text": "Unsafe machine state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B2323": {
+          "text": "The task watchdogs were disabled due to insufficient hardware support (Linux real-time support). A secure machine operation cannot be ensured.",
+          "version": 1
+        },
+        "0C7B2324": {
+          "text": "The task watchdogs were disabled due to an active DEBUG configuration. A secure machine operation cannot be ensured.",
+          "version": 1
+        },
+        "0C7B2325": {
+          "text": "The task watchdogs were disabled due to an enabled DEBUG environment variable. A secure machine operation cannot be ensured.",
+          "version": 1
+        },
+        "0C7B2326": {
+          "text": "The task watchdogs were disabled due to insufficient hardware support (virtualized platform). A secure machine operation cannot be ensured.",
+          "version": 1
+        },
+        "0C7B2327": {
+          "text": "The task watchdogs were disabled due to insufficient hardware support (missing support of the Linux watchdog framework). A secure machine operation cannot be ensured.",
+          "version": 1
+        }
+      }
+    },
+    "080E0023": {
+      "text": "Workload in critical range \"WARNING\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4279": {
+          "text": "The maximum utilization of the Scheduler cycle time exceeded the limit value with a warning",
+          "version": 1
+        }
+      }
+    },
+    "080E00A0": {
+      "text": "Converting the Scheduler program",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B500F": {
+          "text": "Converting the Scheduler program aborted",
+          "version": 1
+        }
+      }
+    },
+    "080E0110": {
+      "text": "Trace warning common.log.diagnosis",
+      "version": 1
+    },
+    "080E0112": {
+      "text": "Trace warning common.log.trace",
+      "version": 1
+    },
+    "080E0200": {
+      "text": "HTTP client error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0202": {
+          "text": "Bad request (400)",
+          "version": 1
+        },
+        "0C7A0203": {
+          "text": "Unauthorized (401)",
+          "version": 1
+        },
+        "0C7A0204": {
+          "text": "Forbidden (403)",
+          "version": 1
+        },
+        "0C7A0205": {
+          "text": "Not found (404)",
+          "version": 1
+        },
+        "0C7A0206": {
+          "text": "Conflict (409)",
+          "version": 1
+        },
+        "0C7A0207": {
+          "text": "Payment required (402)",
+          "version": 1
+        }
+      }
+    },
+    "080E0201": {
+      "text": "Access denied",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A020A": {
+          "text": "Authentication missing",
+          "version": 1
+        },
+        "0C7A020C": {
+          "text": "Accessing this resource not permitted",
+          "version": 1
+        }
+      }
+    },
+    "080E0202": {
+      "text": "License required",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A020B": {
+          "text": "A license is missing or insufficient",
+          "version": 1
+        }
+      }
+    },
+    "080E0203": {
+      "text": "Object not found",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A020D": {
+          "text": "The requested object does not exist",
+          "version": 1
+        }
+      }
+    },
+    "080E0300": {
+      "text": "Security: User management warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0050": {
+          "text": "Login attempt failed",
+          "version": 1
+        },
+        "0C7A0051": {
+          "text": "Root user added",
+          "version": 1
+        },
+        "0C7A0052": {
+          "text": "Root user deleted",
+          "version": 1
+        },
+        "0C7A0057": {
+          "text": "System user exists",
+          "version": 1
+        }
+      }
+    },
+    "080E0301": {
+      "text": "Security: Certificate management warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0060": {
+          "text": "Certificate will expire soon",
+          "version": 1
+        }
+      }
+    },
+    "080E0304": {
+      "text": "Security: Warning in remote logging administration",
+      "version": 1
+    },
+    "080E0305": {
+      "text": "Bootloader unlocked!",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A0": {
+          "text": "Secure boot inactive",
+          "version": 1
+        }
+      }
+    },
+    "080E0306": {
+      "text": "Security warning during control monitoring",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A0": {
+          "text": "Secure boot inactive",
+          "version": 1
+        },
+        "0C7A00A1": {
+          "text": "Full disk encryption inactive",
+          "version": 1
+        },
+        "0C7A00A2": {
+          "text": "TPM in Lockout mode",
+          "version": 1
+        }
+      }
+    },
+    "080E0307": {
+      "text": "The time-based license will expire soon",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0098": {
+          "text": "The time-based license will expire within 30 days.",
+          "version": 1
+        },
+        "0C7A0099": {
+          "text": "The time-based license will expire within 7 days.",
+          "version": 1
+        },
+        "0C7A009A": {
+          "text": "The time-based license will expire within one day.",
+          "version": 1
+        }
+      }
+    },
+    "080E0410": {
+      "text": "Trace warning",
+      "version": 2
+    },
+    "080E0500": {
+      "text": "Warning in network management",
+      "version": 1
+    },
+    "080E0510": {
+      "text": "PackageManager warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100A": {
+          "text": "The system integrity is degraded",
+          "version": 1
+        },
+        "0C64100D": {
+          "text": "Missing app connection of the signed application is restored",
+          "version": 1
+        },
+        "0C64101B": {
+          "text": "Disconnecting from voltage required",
+          "version": 1
+        }
+      }
+    },
+    "080E0520": {
+      "text": "Storage management warning",
+      "version": 1
+    },
+    "080E0530": {
+      "text": "System management warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641307": {
+          "text": "RTC problem detected. Please check the RTC battery",
+          "version": 1
+        }
+      }
+    },
+    "080E0531": {
+      "text": "System reboot required",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413D2": {
+          "text": "System reboot is required due to changes in the real-time settings",
+          "version": 1
+        }
+      }
+    },
+    "080E0540": {
+      "text": "Warning detected during health monitoring",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66003A": {
+          "text": "High control temperature",
+          "version": 1
+        },
+        "0C66003B": {
+          "text": "Lifetime of onboard storage medium almost expired",
+          "version": 1
+        },
+        "0C66003F": {
+          "text": "Battery of the control low",
+          "version": 1
+        },
+        "0C660040": {
+          "text": "Available memory of the control low",
+          "version": 1
+        },
+        "0C660042": {
+          "text": "Available onboard storage of the control low",
+          "version": 1
+        }
+      }
+    },
+    "080E0550": {
+      "text": "License manager warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0090": {
+          "text": "License near expiration date",
+          "version": 1
+        },
+        "0C7A0091": {
+          "text": "License dongle removed",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime missing",
+          "version": 2
+        },
+        "0C7A0095": {
+          "text": "Initialization of the license manager",
+          "version": 1
+        },
+        "0C7A0096": {
+          "text": "The temporary emergency mode is active",
+          "version": 1
+        }
+      }
+    },
+    "080E05FF": {
+      "text": "Device Administration: Warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641F00": {
+          "text": "System is running in evaluation mode",
+          "version": 1
+        }
+      }
+    },
+    "080E0600": {
+      "text": "Trace warning comm.datalayer",
+      "version": 1
+    },
+    "080E0601": {
+      "text": "Trace warning comm.datalayer.framework",
+      "version": 1
+    },
+    "080E0602": {
+      "text": "Trace warning web.automation",
+      "version": 1
+    },
+    "080E0603": {
+      "text": "Trace warning common.systemhandler",
+      "version": 1
+    },
+    "080E0604": {
+      "text": "Trace warning app.automationframework",
+      "version": 2
+    },
+    "080E0825": {
+      "text": "Network configuration data changed successfully",
+      "version": 1
+    },
+    "080E082A": {
+      "text": "App connection restored",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100D": {
+          "text": "Missing app connection of the signed application is restored",
+          "version": 1
+        }
+      }
+    },
+    "080E0839": {
+      "text": "System integrity degraded",
+      "version": 1
+    },
+    "080E0876": {
+      "text": "System restart required",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641115": {
+          "text": "CPU core isolation changed",
+          "version": 1
+        },
+        "0C641116": {
+          "text": "System reboot required due to changes in the real-time settings",
+          "version": 1
+        }
+      }
+    },
+    "080E0877": {
+      "text": "Memory reservation is not supported",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641117": {
+          "text": "Memory reservation is activated but not supported",
+          "version": 1
+        }
+      }
+    },
+    "080E0FFF": {
+      "text": "Trace warning common.scheduler",
+      "version": 1
+    },
+    "080F0000": {
+      "text": "Error in process handling for script instance",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270000": {
+          "text": "Creation of process for script runner failed",
+          "version": 1
+        },
+        "0C270001": {
+          "text": "Termination of process for script runner failed",
+          "version": 1
+        },
+        "0C270002": {
+          "text": "Suspend of process for script runner failed",
+          "version": 1
+        },
+        "0C270003": {
+          "text": "Resume of process for script runner failed",
+          "version": 1
+        },
+        "0C270004": {
+          "text": "License for current language missing",
+          "version": 1
+        },
+        "0C270005": {
+          "text": "Language type not supported",
+          "version": 1
+        }
+      }
+    },
+    "080F0001": {
+      "text": "Error during backup or restoration of script manager",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270100": {
+          "text": "Not able to read single configuration of \"Data Layer\" node",
+          "version": 1
+        },
+        "0C270101": {
+          "text": "Meta data of \"Data Layer\" node could not be read",
+          "version": 1
+        },
+        "0C270102": {
+          "text": "JSON file parser returned error while parsing a JSON file",
+          "version": 1
+        },
+        "0C270103": {
+          "text": "JSON file parser returned error while creating a JSON file",
+          "version": 1
+        },
+        "0C270104": {
+          "text": "File could not be written",
+          "version": 1
+        },
+        "0C270105": {
+          "text": "File could not be read",
+          "version": 1
+        },
+        "0C270106": {
+          "text": "Not able to write single configuration to \"Data Layer\" node",
+          "version": 1
+        }
+      }
+    },
+    "080F000E": {
+      "text": "Trace error script.manager",
+      "version": 1
+    },
+    "080F000F": {
+      "text": "Trace error script.python",
+      "version": 1
+    },
+    "080F0012": {
+      "text": "Insufficient hardware for hardware watchdog identified",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4229": {
+          "text": "The hardware watchdog is not active due to a defect in the hardware used",
+          "version": 2
+        }
+      }
+    },
+    "080F0017": {
+      "text": "Task watchdog error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B1717": {
+          "text": "Task watchdog expired",
+          "version": 1
+        }
+      }
+    },
+    "080F0023": {
+      "text": "Error on configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4260": {
+          "text": "Unable to switch callable to state \"Setup\"",
+          "version": 1
+        },
+        "0C7B4261": {
+          "text": "Unable to switch callable to state \"Operating\"",
+          "version": 1
+        },
+        "0C7B4286": {
+          "text": "One or more callables are configured, but not available",
+          "version": 1
+        }
+      }
+    },
+    "080F0033": {
+      "text": "Hardware reboot triggered by Linux watchdog framework",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4233": {
+          "text": "Hardware reboot triggered due to overtemperature",
+          "version": 1
+        },
+        "0C7B4234": {
+          "text": "Hardware reboot triggered due to fan fault",
+          "version": 1
+        },
+        "0C7B4235": {
+          "text": "Hardware reboot triggered due to undervoltage",
+          "version": 1
+        },
+        "0C7B4236": {
+          "text": "Hardware reboot triggered due to overvoltage",
+          "version": 1
+        }
+      }
+    },
+    "080F0042": {
+      "text": "Error in Scheduler system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4201": {
+          "text": "Failed to delete callable",
+          "version": 1
+        },
+        "0C7B4202": {
+          "text": "Failed to delete a task",
+          "version": 1
+        },
+        "0C7B4270": {
+          "text": "Timeout while waiting for the Device Admin to finish its service activity",
+          "version": 1
+        },
+        "0C7B4272": {
+          "text": "Failed to register service notification",
+          "version": 1
+        },
+        "0C7B4273": {
+          "text": "Failed to register to system state",
+          "version": 1
+        },
+        "0C7B4274": {
+          "text": "Setting a property of a task denied",
+          "version": 1
+        },
+        "0C7B4275": {
+          "text": "Invalid task property",
+          "version": 1
+        },
+        "0C7B4276": {
+          "text": "Setting task properties denied",
+          "version": 1
+        },
+        "0C7B4282": {
+          "text": "Timeout of a callable in \"Begin Phase\" when switching the Scheduler state",
+          "version": 1
+        },
+        "0C7B4283": {
+          "text": "Timeout of a callable in \"Execute Phase\" when switching the Scheduler state",
+          "version": 1
+        },
+        "0C7B4284": {
+          "text": "Timeout of a callable in \"End Phase\" when switching the Scheduler state",
+          "version": 1
+        },
+        "0C7B4285": {
+          "text": "Error when switching the system state",
+          "version": 1
+        }
+      }
+    },
+    "080F0066": {
+      "text": "Error when restoring the configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4292": {
+          "text": "Error when generating the absolute file path",
+          "version": 1
+        },
+        "0C7B4293": {
+          "text": "Error when reading metadata of the configuration file of the programs",
+          "version": 1
+        },
+        "0C7B4295": {
+          "text": "Invalid program configuration - Missing key \"task\"",
+          "version": 1
+        },
+        "0C7B4296": {
+          "text": "Error when loading the administrative settings of the Scheduler (admin.json)",
+          "version": 1
+        }
+      }
+    },
+    "080F0067": {
+      "text": "Error when reading in the administrative setting",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4297": {
+          "text": "Error when reading in the type information file (admin.bfbs or admin2.bfbs) for the administrative settings of the Scheduler (admin.json)",
+          "version": 1
+        },
+        "0C7B4298": {
+          "text": "Error when reading in the administrative settings of the Scheduler (admin.json) - file does not exist",
+          "version": 1
+        },
+        "0C7B4299": {
+          "text": "Error when reading in the administrative settings of the Scheduler (admin.json) - File error",
+          "version": 1
+        },
+        "0C7B4310": {
+          "text": "Error when reading in the file for the administrative settings of the Scheduler (admin.json) - Invalid data structure",
+          "version": 1
+        },
+        "0C7B4311": {
+          "text": "Error when reading in the file for the administrative settings of the Scheduler (admin.json) - No data available",
+          "version": 1
+        },
+        "0C7B4312": {
+          "text": "Invalid initialization (persistence helper)",
+          "version": 1
+        }
+      }
+    },
+    "080F0068": {
+      "text": "Error when loading the administrative settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4320": {
+          "text": "Failed to load the value for the startup timeout (startupTimeout; scheduler/admin/startup-config/timeout)",
+          "version": 1
+        },
+        "0C7B4321": {
+          "text": "Failed to load the value for the startup error reaction (startupErrorReaction; scheduler/admin/startup-config/error-reaction)",
+          "version": 1
+        },
+        "0C7B4322": {
+          "text": "Failed to load the value for the operating state after switching on (startupState; scheduler/admin/startup-config/state)",
+          "version": 1
+        },
+        "0C7B4323": {
+          "text": "Failed to load the trigger source for the Scheduler-TickTask (triggerSource; scheduler/admin/trigger-source)",
+          "version": 1
+        },
+        "0C7B4324": {
+          "text": "Failed to load the debug configuration (controlDebug_type/controlDebug; scheduler/admin/controls/debug)",
+          "version": 1
+        },
+        "0C7B4325": {
+          "text": "Failed to load the limit values for the utilization of the Scheduler-TickTask, limit value for warning is greater than the limit value for error (utilization; scheduler/admin/utilization)",
+          "version": 1
+        },
+        "0C7B4326": {
+          "text": "Failed to load the limit values for the utilization of the Scheduler-TickTask (utilization; scheduler/admin/utilization)",
+          "version": 1
+        },
+        "0C7B4327": {
+          "text": "Failed to load the values for the callable timeouts (callableTimeouts; scheduler/admin/state/callable-timeout)",
+          "version": 1
+        },
+        "0C7B4328": {
+          "text": "Failed to load the value for the program configuration mode (programConfigurationMode; scheduler/admin/cfg/program-configuration)",
+          "version": 1
+        }
+      }
+    },
+    "080F0088": {
+      "text": "Error during automatic reallocation of the callables",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4287": {
+          "text": "Maximum waiting time elapsed when rearranging callables was started, as the 'Device Admin' component continuously signals \"busy\"",
+          "version": 1
+        },
+        "0C7B4288": {
+          "text": "Failed to read the callables configurations of the applications (factory)",
+          "version": 1
+        },
+        "0C7B4289": {
+          "text": "Failed to read the active program configuration",
+          "version": 1
+        },
+        "0C7B4290": {
+          "text": "Failed to create a callable",
+          "version": 1
+        },
+        "0C7B4291": {
+          "text": "Failed to create a task",
+          "version": 1
+        },
+        "0C7B4294": {
+          "text": "Failed to calculate the callable sequence, as a circular reference (Sync Points) occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F00A0": {
+      "text": "Failed to create a callable",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B5000": {
+          "text": "The alias for the callable is already used",
+          "version": 1
+        },
+        "0C7B5001": {
+          "text": "The desired callable factory is not available",
+          "version": 1
+        },
+        "0C7B5002": {
+          "text": "The desired task is not available",
+          "version": 1
+        },
+        "0C7B5003": {
+          "text": "The callable ID for the callable is already used",
+          "version": 1
+        },
+        "0C7B5004": {
+          "text": "The callable ID contains invalid characters",
+          "version": 1
+        },
+        "0C7B5005": {
+          "text": "Failed to create the callable by the factory",
+          "version": 1
+        },
+        "0C7B5006": {
+          "text": "Failed to destroy the callable by the factory",
+          "version": 1
+        },
+        "0C7B5007": {
+          "text": "Failed to switch the callable to the SERVICE state",
+          "version": 1
+        },
+        "0C7B5008": {
+          "text": "Failed to set the task properties in the callable",
+          "version": 1
+        },
+        "0C7B5009": {
+          "text": "Final preparations to enable the callable failed",
+          "version": 1
+        },
+        "0C7B500A": {
+          "text": "Failed to customize the task watchdog properties",
+          "version": 1
+        },
+        "0C7B500B": {
+          "text": "Failed to enable the callable in the task",
+          "version": 1
+        },
+        "0C7B500C": {
+          "text": "The alias for the callable is Data Layer-compliant",
+          "version": 1
+        }
+      }
+    },
+    "080F00B0": {
+      "text": "Condition detected that triggered the safe mode",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4305": {
+          "text": "Automation Core did not start completely due to a malfunction upon app start. Refer to diagnostic logbook for more detailed information. The Automation Core has to be restarted",
+          "version": 1
+        }
+      }
+    },
+    "080F00B1": {
+      "text": "Error in NVRAM detected",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4400": {
+          "text": "An error was found in the consistency of the NVRAM data. Data was restored the best possible.",
+          "version": 1
+        }
+      }
+    },
+    "080F00B2": {
+      "text": "Application restart loop detected",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4307": {
+          "text": "The framework event \"framework/events/framework-core-started\" was not triggered due to a startup problem in the Automation Core app context",
+          "version": 1
+        },
+        "0C7B4308": {
+          "text": "The framework event \"framework/events/framework-started\" was not triggered due to a startup problem in the framework dependent app context",
+          "version": 1
+        },
+        "0C7B4309": {
+          "text": "Failed to evaluate the counter for the application restart loop detection of the Automation Core app",
+          "version": 1
+        },
+        "0C7B430A": {
+          "text": "Failed to evaluate the counter for the application restart loop detection of the framework dependent apps",
+          "version": 1
+        },
+        "0C7B430B": {
+          "text": "Failed to reset the counter for the application restart loop detection of the initial startup phase",
+          "version": 1
+        },
+        "0C7B430C": {
+          "text": "Failed to reset the counter for the application restart loop detection of the Automation Core app",
+          "version": 1
+        },
+        "0C7B430D": {
+          "text": "Failed to reset the counter for the application restart loop detection of the framework dependent apps",
+          "version": 1
+        }
+      }
+    },
+    "080F0100": {
+      "text": "Error in diagnostic system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666000": {
+          "text": "Registration of main diagnostics failed",
+          "version": 1
+        },
+        "0C666001": {
+          "text": "Registration of detailed diagnostics failed",
+          "version": 1
+        },
+        "0C666002": {
+          "text": "Unregistration of main diagnostics failed",
+          "version": 1
+        },
+        "0C666003": {
+          "text": "Unregistration of detailed diagnostics failed",
+          "version": 1
+        },
+        "0C666004": {
+          "text": "Invalid main diagnostic number",
+          "version": 1
+        },
+        "0C666005": {
+          "text": "Data of invalid main diagnostic number",
+          "version": 1
+        },
+        "0C666006": {
+          "text": "Main diagnostic number is not registered",
+          "version": 1
+        },
+        "0C666007": {
+          "text": "Detailed diagnostic number is not registered",
+          "version": 1
+        },
+        "0C66600B": {
+          "text": "Diagnostic messages cannot be reset",
+          "version": 1
+        },
+        "0C66600D": {
+          "text": "Specific error could not be cleared",
+          "version": 2
+        },
+        "0C66600E": {
+          "text": "Tried to set and reset a diagnostics which is already in the status active",
+          "version": 1
+        },
+        "0C66600F": {
+          "text": "Pushing to diagnostic queue failed. Diagnostic entries are dismissed. This diagnostic log may not be at the right position in the diagnostic logbook.",
+          "version": 1
+        },
+        "0C666011": {
+          "text": "Invalid detailed diagnostic number",
+          "version": 1
+        },
+        "0C666012": {
+          "text": "Data of invalid detailed diagnostic number",
+          "version": 1
+        }
+      }
+    },
+    "080F0101": {
+      "text": "Failed to register diagnostics",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666000": {
+          "text": "Failed to register main diagnostics in the diagnostic system",
+          "version": 2
+        },
+        "0C666001": {
+          "text": "Failed to register detailed diagnostics in the diagnostic system",
+          "version": 2
+        },
+        "0C666002": {
+          "text": "Failed to unregister main diagnostics from the diagnostic system",
+          "version": 2
+        },
+        "0C666003": {
+          "text": "Failed to unregister detailed diagnostics from the diagnostic system",
+          "version": 2
+        }
+      }
+    },
+    "080F0102": {
+      "text": "Invalid diagnostic data transmitted",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666004": {
+          "text": "Structure of the transmitted main diagnostic number is invalid",
+          "version": 2
+        },
+        "0C666005": {
+          "text": "Corresponding data of the invalid main diagnostic number",
+          "version": 2
+        },
+        "0C666011": {
+          "text": "Structure of the transmitted detailed diagnostic number is invalid",
+          "version": 2
+        },
+        "0C666012": {
+          "text": "Corresponding data of the invalid detailed diagnostic number",
+          "version": 2
+        }
+      }
+    },
+    "080F0103": {
+      "text": "Diagnostics is not registered",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C666006": {
+          "text": "Transmitted main diagnostic number is not registered. The main diagnostic number was nevertheless transferred without the respective text.",
+          "version": 2
+        },
+        "0C666007": {
+          "text": "Transmitted detailed diagnostic number is not registered. The detailed diagnostic number was nevertheless transferred without the respective text.",
+          "version": 2
+        }
+      }
+    },
+    "080F0104": {
+      "text": "Incorrect handling of diagnostics detected",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66600B": {
+          "text": "Attempt to reset a diagnostic information",
+          "version": 2
+        },
+        "0C66600D": {
+          "text": "Specific diagnostics could not be deleted",
+          "version": 3
+        },
+        "0C66600E": {
+          "text": "An attempt was made to set and reset a diagnostics that is already in the \"active\" status",
+          "version": 2
+        }
+      }
+    },
+    "080F0105": {
+      "text": "Diagnostics could not be transmitted",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66600F": {
+          "text": "Diagnostic entries were missed. This diagnostic entry might not be in the correct location in the diagnostic logbook.",
+          "version": 2
+        }
+      }
+    },
+    "080F0110": {
+      "text": "Trace error common.log.diagnosis",
+      "version": 1
+    },
+    "080F0112": {
+      "text": "Trace error common.log.trace",
+      "version": 1
+    },
+    "080F0200": {
+      "text": "HTTP server error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0200": {
+          "text": "Internal server error (500)",
+          "version": 1
+        },
+        "0C7A0201": {
+          "text": "Not implemented (501)",
+          "version": 1
+        }
+      }
+    },
+    "080F0201": {
+      "text": "Internal problem occurred",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0208": {
+          "text": "Unhandled exception",
+          "version": 1
+        },
+        "0C7A0209": {
+          "text": "Function is not implemented",
+          "version": 1
+        }
+      }
+    },
+    "080F0300": {
+      "text": "Security: Error in certificate management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0061": {
+          "text": "Certificate expired",
+          "version": 1
+        },
+        "0C7A0062": {
+          "text": "Certificate renewal failed",
+          "version": 1
+        },
+        "0C7A0063": {
+          "text": "Registration of certificate failed",
+          "version": 1
+        }
+      }
+    },
+    "080F0301": {
+      "text": "Security: Error in the user management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0010": {
+          "text": "Generating proxy certificate failed",
+          "version": 1
+        },
+        "0C7A0011": {
+          "text": "Generating IDM key pair failed",
+          "version": 1
+        },
+        "0C7A0012": {
+          "text": "Loading configurations failed",
+          "version": 1
+        },
+        "0C7A0050": {
+          "text": "Login attempt failed",
+          "version": 1
+        },
+        "0C7A0053": {
+          "text": "Faulty backup",
+          "version": 1
+        }
+      }
+    },
+    "080F0304": {
+      "text": "Security: Error in remote logging administration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0080": {
+          "text": "Initializing target database failed",
+          "version": 1
+        },
+        "0C7A0081": {
+          "text": "Error when creating a journal reader",
+          "version": 1
+        },
+        "0C7A0082": {
+          "text": "Remote logging aborted",
+          "version": 1
+        }
+      }
+    },
+    "080F0400": {
+      "text": "Loading configuration failed",
+      "version": 1
+    },
+    "080F0402": {
+      "text": "Saving configuration failed",
+      "version": 1
+    },
+    "080F0410": {
+      "text": "Trace error",
+      "version": 2
+    },
+    "080F0420": {
+      "text": "Device backup failed",
+      "version": 2
+    },
+    "080F0422": {
+      "text": "Device restore failed",
+      "version": 2
+    },
+    "080F0450": {
+      "text": "Backup failed",
+      "version": 1
+    },
+    "080F0451": {
+      "text": "Restore operation failed",
+      "version": 1
+    },
+    "080F0452": {
+      "text": "Restore operation failed completely",
+      "version": 1
+    },
+    "080F0500": {
+      "text": "Error in network management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640001": {
+          "text": "Incorrect initialization",
+          "version": 1
+        },
+        "0C640002": {
+          "text": "WPA supplicant reports error",
+          "version": 1
+        },
+        "0C64000C": {
+          "text": "Error when saving network configuration",
+          "version": 1
+        }
+      }
+    },
+    "080F0501": {
+      "text": "Configuration error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640040": {
+          "text": "Interface not found",
+          "version": 2
+        },
+        "0C640041": {
+          "text": "Update of the interface failed",
+          "version": 2
+        },
+        "0C640042": {
+          "text": "Interface cannot be created",
+          "version": 2
+        },
+        "0C640043": {
+          "text": "Error in WiFi security settings",
+          "version": 1
+        },
+        "0C640044": {
+          "text": "Cannot update the read-only network interface",
+          "version": 1
+        },
+        "0C640045": {
+          "text": "Network bridge not found",
+          "version": 1
+        },
+        "0C640046": {
+          "text": "Error while settings the WiFi security settings",
+          "version": 1
+        },
+        "0C640047": {
+          "text": "Could not create wireless network name (SSID)",
+          "version": 1
+        },
+        "0C640048": {
+          "text": "Access point not found",
+          "version": 1
+        },
+        "0C640049": {
+          "text": "Failed to set the name servers of an interface",
+          "version": 1
+        },
+        "0C6400C0": {
+          "text": "Interface cannot be removed",
+          "version": 1
+        },
+        "0C6400C1": {
+          "text": "Error while retrieving security settings",
+          "version": 1
+        },
+        "0C6400C2": {
+          "text": "Wireless network name (SSID) not found",
+          "version": 1
+        },
+        "0C6400C3": {
+          "text": "Wireless network name (SSID) not allowed",
+          "version": 1
+        },
+        "0C6400C4": {
+          "text": "Cannot remove wireless network name (SSID)",
+          "version": 1
+        },
+        "0C6400C5": {
+          "text": "Cannot change wireless network name (SSID)",
+          "version": 1
+        }
+      }
+    },
+    "080F0502": {
+      "text": "Error in route",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640050": {
+          "text": "Interface not found",
+          "version": 2
+        },
+        "0C640051": {
+          "text": "Route not found",
+          "version": 2
+        },
+        "0C640052": {
+          "text": "Update of the route failed",
+          "version": 2
+        }
+      }
+    },
+    "080F0503": {
+      "text": "Proxy error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640060": {
+          "text": "Update of the system proxy failed",
+          "version": 2
+        },
+        "0C640061": {
+          "text": "Either HTTP or HTTPS has to be set",
+          "version": 2
+        },
+        "0C640062": {
+          "text": "Proxy settings could not be set",
+          "version": 2
+        },
+        "0C640063": {
+          "text": "Update of the proxy settings failed",
+          "version": 2
+        }
+      }
+    },
+    "080F0504": {
+      "text": "Service error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640070": {
+          "text": "Service not found",
+          "version": 2
+        },
+        "0C640071": {
+          "text": "One of the provided arguments is invalid",
+          "version": 2
+        },
+        "0C640072": {
+          "text": "Network discovery service cannot be started",
+          "version": 2
+        },
+        "0C640073": {
+          "text": "Network discovery service cannot be stopped",
+          "version": 2
+        }
+      }
+    },
+    "080F0505": {
+      "text": "Host error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640080": {
+          "text": "Update of the hosts failed",
+          "version": 2
+        },
+        "0C640081": {
+          "text": "Changes cannot persist",
+          "version": 2
+        }
+      }
+    },
+    "080F0506": {
+      "text": "Task error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640090": {
+          "text": "Task is not supported",
+          "version": 1
+        },
+        "0C640091": {
+          "text": "Task cannot be validated",
+          "version": 1
+        },
+        "0C640092": {
+          "text": "Task not found",
+          "version": 1
+        },
+        "0C640093": {
+          "text": "Ping failed",
+          "version": 1
+        },
+        "0C640094": {
+          "text": "No network interfaces found",
+          "version": 1
+        },
+        "0C640095": {
+          "text": "Cannot create task",
+          "version": 1
+        },
+        "0C640096": {
+          "text": "Cannot delete task",
+          "version": 1
+        }
+      }
+    },
+    "080F0507": {
+      "text": "Validating the service configuration failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C640074": {
+          "text": "ARP configuration is invalid",
+          "version": 1
+        },
+        "0C640075": {
+          "text": "Service update failed",
+          "version": 1
+        },
+        "0C640076": {
+          "text": "Cannot configure service",
+          "version": 1
+        }
+      }
+    },
+    "080F0508": {
+      "text": "HTTP check failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6400A0": {
+          "text": "Cannot verify proxy configuration",
+          "version": 1
+        }
+      }
+    },
+    "080F0509": {
+      "text": "Error in data",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6400B0": {
+          "text": "Cannot read content of the request",
+          "version": 1
+        },
+        "0C6400B1": {
+          "text": "Cannot analyze data of the request",
+          "version": 1
+        },
+        "0C6400B2": {
+          "text": "Error while writing data",
+          "version": 1
+        }
+      }
+    },
+    "080F050A": {
+      "text": "Failed to retrieve processes",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0510": {
+      "text": "PackageManager error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641008": {
+          "text": "Failed when creating the integrity basic directory",
+          "version": 1
+        },
+        "0C641009": {
+          "text": "Failed when creating the system integrity log",
+          "version": 1
+        },
+        "0C64100B": {
+          "text": "Package could not be removed",
+          "version": 1
+        },
+        "0C64100E": {
+          "text": "App connection not allowed for apps from unknown source",
+          "version": 1
+        },
+        "0C64100F": {
+          "text": "Cannot compute available space",
+          "version": 1
+        },
+        "0C641010": {
+          "text": "Upload failed. The file is corrupted",
+          "version": 1
+        },
+        "0C641011": {
+          "text": "Installation failed. The file is corrupted",
+          "version": 1
+        },
+        "0C641012": {
+          "text": "Error updating bootloader. Revert gadget to previous version",
+          "version": 1
+        },
+        "0C641013": {
+          "text": "Error reverting app",
+          "version": 1
+        },
+        "0C641015": {
+          "text": "Task performed incorrectly",
+          "version": 1
+        },
+        "0C641016": {
+          "text": "Error on executing the script",
+          "version": 1
+        },
+        "0C641018": {
+          "text": "Error on connecting interface",
+          "version": 1
+        },
+        "0C64101A": {
+          "text": "Firmware update command failed",
+          "version": 1
+        },
+        "0C64101C": {
+          "text": "Invalid language code according to ISO-639-1",
+          "version": 1
+        },
+        "0C64101D": {
+          "text": "A problem was detected while executing a system operation",
+          "version": 1
+        },
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64101F": {
+          "text": "Cannot read data of the request",
+          "version": 1
+        },
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C641021": {
+          "text": "Cannot write data",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641023": {
+          "text": "Cannot retrieve manifests",
+          "version": 1
+        },
+        "0C641024": {
+          "text": "Error while retrieving the settings for apps and packages",
+          "version": 1
+        },
+        "0C641025": {
+          "text": "Error while updating the settings for apps and packages",
+          "version": 1
+        },
+        "0C641026": {
+          "text": "Error while retrieving information on an installed package",
+          "version": 1
+        },
+        "0C641027": {
+          "text": "Could not find app in store",
+          "version": 1
+        },
+        "0C641028": {
+          "text": "Error while retrieving of the store status",
+          "version": 1
+        },
+        "0C641029": {
+          "text": "Could not find task with this ID",
+          "version": 1
+        },
+        "0C64102A": {
+          "text": "Cannot convert data",
+          "version": 1
+        },
+        "0C64102B": {
+          "text": "Error while deleting a task",
+          "version": 1
+        },
+        "0C64102C": {
+          "text": "Cannot create task with this action",
+          "version": 1
+        },
+        "0C64102D": {
+          "text": "Cannot read multiform data",
+          "version": 1
+        },
+        "0C64102E": {
+          "text": "Error during batch handling",
+          "version": 1
+        },
+        "0C64102F": {
+          "text": "Cannot handle app",
+          "version": 1
+        },
+        "0C641030": {
+          "text": "Cannot handle repository",
+          "version": 1
+        }
+      }
+    },
+    "080F0511": {
+      "text": "System management error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100F": {
+          "text": "Cannot compute available space",
+          "version": 1
+        },
+        "0C64101C": {
+          "text": "Invalid language code according to ISO-639-1",
+          "version": 1
+        }
+      }
+    },
+    "080F0520": {
+      "text": "Storage management error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641202": {
+          "text": "Storage action failed",
+          "version": 1
+        }
+      }
+    },
+    "080F0521": {
+      "text": "Memory task processing failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641240": {
+          "text": "No task available",
+          "version": 2
+        },
+        "0C641241": {
+          "text": "Task validation failed",
+          "version": 2
+        },
+        "0C641242": {
+          "text": "Task already exists",
+          "version": 2
+        },
+        "0C641243": {
+          "text": "Task was not found",
+          "version": 2
+        },
+        "0C641244": {
+          "text": "Task arguments are invalid",
+          "version": 2
+        },
+        "0C641246": {
+          "text": "Failed to create task",
+          "version": 1
+        }
+      }
+    },
+    "080F0522": {
+      "text": "Media error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641245": {
+          "text": "Memory medium not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0530": {
+      "text": "System management error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641301": {
+          "text": "Saving of time settings failed",
+          "version": 1
+        },
+        "0C641303": {
+          "text": "Changing host name failed",
+          "version": 1
+        },
+        "0C641305": {
+          "text": "Failed to create task",
+          "version": 1
+        }
+      }
+    },
+    "080F0531": {
+      "text": "Error during image upload process",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413A0": {
+          "text": "Mounting point missing",
+          "version": 1
+        },
+        "0C6413A1": {
+          "text": "Mounting point has to be a removable medium",
+          "version": 1
+        },
+        "0C6413A2": {
+          "text": "Cannot create HTTP reader",
+          "version": 1
+        },
+        "0C6413A3": {
+          "text": "No firmware file in the request",
+          "version": 1
+        },
+        "0C6413A4": {
+          "text": "Providing a setup file is not allowed if \"generate-setup\" is set",
+          "version": 1
+        },
+        "0C6413A5": {
+          "text": "\"generate-setup\" is currently not supported",
+          "version": 1
+        },
+        "0C6413A6": {
+          "text": "Cannot create file",
+          "version": 1
+        },
+        "0C6413A7": {
+          "text": "Cannot write file",
+          "version": 1
+        },
+        "0C6413A8": {
+          "text": "Cannot verify the checksum. File not found",
+          "version": 1
+        },
+        "0C6413A9": {
+          "text": "Cannot verify the checksum. Cannot open file",
+          "version": 1
+        },
+        "0C6413AA": {
+          "text": "Cannot verify the checksum. Cannot read file",
+          "version": 1
+        },
+        "0C6413AB": {
+          "text": "File was corrupted during upload",
+          "version": 1
+        },
+        "0C6413AC": {
+          "text": "Cannot open firmware file",
+          "version": 1
+        },
+        "0C6413AD": {
+          "text": "Error while extracting the firmware",
+          "version": 1
+        },
+        "0C6413CE": {
+          "text": "Device cannot be prepared for image upload",
+          "version": 1
+        },
+        "0C6413D0": {
+          "text": "Invalid firmware file name",
+          "version": 1
+        }
+      }
+    },
+    "080F0532": {
+      "text": "Factory reset cannot be executed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413B1": {
+          "text": "Reset type is not supported",
+          "version": 1
+        },
+        "0C6413B2": {
+          "text": "Cannot determine estimated",
+          "version": 1
+        },
+        "0C6413B3": {
+          "text": "Cannot find commissioning file",
+          "version": 1
+        },
+        "0C6413B4": {
+          "text": "Cannot load default setting",
+          "version": 1
+        },
+        "0C6413B5": {
+          "text": "Cannot load commissioning file",
+          "version": 1
+        },
+        "0C6413B6": {
+          "text": "Cannot execute reset",
+          "version": 1
+        },
+        "0C6413B7": {
+          "text": "Reset aborted",
+          "version": 1
+        },
+        "0C6413B8": {
+          "text": "Prerequisites are not met. Reset is not supported by this device",
+          "version": 1
+        },
+        "0C6413B9": {
+          "text": "Reset is not supported on this device",
+          "version": 1
+        },
+        "0C6413FB": {
+          "text": "No task specified",
+          "version": 1
+        }
+      }
+    },
+    "080F0533": {
+      "text": "Factory reset preparation failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413AE": {
+          "text": "Commissioning file already exists",
+          "version": 1
+        },
+        "0C6413AF": {
+          "text": "Creating commissioning file failed",
+          "version": 1
+        },
+        "0C6413B0": {
+          "text": "Reset type is unknown",
+          "version": 1
+        }
+      }
+    },
+    "080F0534": {
+      "text": "Error while checking the NTP server",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413BA": {
+          "text": "Not an NTP server or server unreachable",
+          "version": 1
+        },
+        "0C6413BB": {
+          "text": "Parameter ntpServer is required",
+          "version": 1
+        }
+      }
+    },
+    "080F0535": {
+      "text": "Error in serial vault settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413C2": {
+          "text": "Cannot read URL of the serial vault",
+          "version": 1
+        },
+        "0C6413C3": {
+          "text": "Invalid URL for the serial vault",
+          "version": 1
+        },
+        "0C6413C4": {
+          "text": "Cannot update URL of the serial vault",
+          "version": 1
+        }
+      }
+    },
+    "080F0536": {
+      "text": "Cannot change date and time settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413BC": {
+          "text": "Cannot validate time zone",
+          "version": 1
+        },
+        "0C6413BD": {
+          "text": "Invalid NTP entry",
+          "version": 1
+        },
+        "0C6413BE": {
+          "text": "Cannot keep date and time settings",
+          "version": 1
+        },
+        "0C6413BF": {
+          "text": "Cannot read date and time",
+          "version": 1
+        },
+        "0C6413C5": {
+          "text": "Date and time settings cannot be read",
+          "version": 1
+        },
+        "0C6413C6": {
+          "text": "Date and time settings unusable",
+          "version": 1
+        }
+      }
+    },
+    "080F0537": {
+      "text": "Error while retrieving sensor information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413C0": {
+          "text": "Sensor not found",
+          "version": 1
+        },
+        "0C6413C1": {
+          "text": "Sensor measurement not found",
+          "version": 1
+        },
+        "0C6413C7": {
+          "text": "Cannot read sensor",
+          "version": 1
+        },
+        "0C6413C8": {
+          "text": "Sensor list incorrect",
+          "version": 1
+        }
+      }
+    },
+    "080F0538": {
+      "text": "Error while processing system settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413CF": {
+          "text": "Invalid configuration of the real-time cores",
+          "version": 1
+        },
+        "0C6413D1": {
+          "text": "Changing settings of the Linux watchdog framework failed",
+          "version": 1
+        }
+      }
+    },
+    "080F0540": {
+      "text": "Failure detected during health monitoring",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C660038": {
+          "text": "Fan failure",
+          "version": 1
+        },
+        "0C660039": {
+          "text": "Hardware failure",
+          "version": 1
+        },
+        "0C66003D": {
+          "text": "Lifetime of onboard storage medium exceeded",
+          "version": 1
+        },
+        "0C66003E": {
+          "text": "Battery of the control low",
+          "version": 1
+        },
+        "0C660043": {
+          "text": "Available onboard storage of the control critical",
+          "version": 1
+        }
+      }
+    },
+    "080F0541": {
+      "text": "Error while processing hostname",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413C9": {
+          "text": "Cannot read hostname",
+          "version": 1
+        },
+        "0C6413F2": {
+          "text": "Hostname invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0542": {
+      "text": "Error while processing task",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413F3": {
+          "text": "Invalid task action detected",
+          "version": 1
+        }
+      }
+    },
+    "080F0543": {
+      "text": "Theme error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413F4": {
+          "text": "Active theme not found",
+          "version": 1
+        },
+        "0C6413F5": {
+          "text": "Current theme not found",
+          "version": 1
+        },
+        "0C6413F6": {
+          "text": "Default theme not found",
+          "version": 1
+        },
+        "0C6413F7": {
+          "text": "Theme not found",
+          "version": 1
+        },
+        "0C6413F8": {
+          "text": "Error while retrieving the theme",
+          "version": 1
+        },
+        "0C6413F9": {
+          "text": "An error occurred while retrieving the themes",
+          "version": 1
+        },
+        "0C6413FA": {
+          "text": "Error while enabling the theme",
+          "version": 1
+        },
+        "0C641403": {
+          "text": "Error in theme content",
+          "version": 1
+        },
+        "0C641405": {
+          "text": "App and theme name empty",
+          "version": 1
+        }
+      }
+    },
+    "080F0544": {
+      "text": "Error while processing the report",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413CA": {
+          "text": "Error while retrieving the report file",
+          "version": 1
+        },
+        "0C6413CB": {
+          "text": "Length of the report file name exceeds the allowed size",
+          "version": 1
+        },
+        "0C6413FC": {
+          "text": "Cannot read typeplate",
+          "version": 1
+        },
+        "0C6413FD": {
+          "text": "Cannot detect installed apps",
+          "version": 1
+        },
+        "0C6413FE": {
+          "text": "Cannot create report archive file",
+          "version": 1
+        },
+        "0C6413FF": {
+          "text": "Cannot write to the report archive file",
+          "version": 1
+        },
+        "0C641400": {
+          "text": "Cannot read logbook",
+          "version": 1
+        },
+        "0C641401": {
+          "text": "Error requesting data",
+          "version": 1
+        },
+        "0C641402": {
+          "text": "Error decoding data",
+          "version": 1
+        }
+      }
+    },
+    "080F0545": {
+      "text": "Problem when processing the request",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413F0": {
+          "text": "Cannot analyze incoming request",
+          "version": 1
+        },
+        "0C6413F1": {
+          "text": "At least one mandatory field is missing",
+          "version": 1
+        }
+      }
+    },
+    "080F0546": {
+      "text": "Error while processing the quota",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6413CC": {
+          "text": "Error while retrieving the quota",
+          "version": 1
+        },
+        "0C6413CD": {
+          "text": "Error when specifying the quota",
+          "version": 1
+        }
+      }
+    },
+    "080F0550": {
+      "text": "Error in license management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0091": {
+          "text": "License dongle removed",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime missing",
+          "version": 2
+        },
+        "0C7A0095": {
+          "text": "Initialization of the license manager",
+          "version": 1
+        },
+        "0C7A009B": {
+          "text": "The device certificate and/or the corresponding key are missing",
+          "version": 1
+        }
+      }
+    },
+    "080F0560": {
+      "text": "Error in device discovery",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641404": {
+          "text": "MDNS error",
+          "version": 2
+        },
+        "0C641414": {
+          "text": "Jumpy error",
+          "version": 2
+        },
+        "0C641424": {
+          "text": "LLMNR error",
+          "version": 2
+        },
+        "0C641434": {
+          "text": "UPNP error",
+          "version": 2
+        }
+      }
+    },
+    "080F0561": {
+      "text": "Failed to execute task",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64110C": {
+          "text": "Task action invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0600": {
+      "text": "Trace error comm.datalayer",
+      "version": 1
+    },
+    "080F0601": {
+      "text": "Trace error comm.datalayer.framework",
+      "version": 1
+    },
+    "080F0602": {
+      "text": "Trace error web.automation",
+      "version": 1
+    },
+    "080F0603": {
+      "text": "Trace error common.systemhandler",
+      "version": 1
+    },
+    "080F0604": {
+      "text": "Trace error app.automationframework",
+      "version": 2
+    },
+    "080F0650": {
+      "text": "Application \"Automation Core\" error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7C0103": {
+          "text": "Initalization of logging component failed, logging from component manager not possible",
+          "version": 1
+        },
+        "0C7C0106": {
+          "text": "OSGI Celix framework detected an error in a bundle",
+          "version": 1
+        }
+      }
+    },
+    "080F0800": {
+      "text": "Error in AppManager",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641023": {
+          "text": "Cannot retrieve manifests",
+          "version": 1
+        },
+        "0C64102F": {
+          "text": "Cannot handle app",
+          "version": 1
+        },
+        "0C641030": {
+          "text": "Cannot handle repository",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0801": {
+      "text": "Failed to retrieve manifest(s) of installed app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641031": {
+          "text": "Invalid language code was specified according to ISO-639-1",
+          "version": 1
+        },
+        "0C641032": {
+          "text": "Manifest data invalid",
+          "version": 1
+        },
+        "0C641045": {
+          "text": "No manifest files found",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0802": {
+      "text": "Failed to retrieve batch file manifest",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641032": {
+          "text": "Manifest data invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0803": {
+      "text": "Failed to retrieve list of all batch uploads",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641033": {
+          "text": "Batch file list invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0804": {
+      "text": "Failed to retrieve batch file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641034": {
+          "text": "Batch file information invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0805": {
+      "text": "Failed to retrieve content of batch file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641034": {
+          "text": "Batch file information invalid",
+          "version": 1
+        },
+        "0C641035": {
+          "text": "Batch file content invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0806": {
+      "text": "Failed to delete batch file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641036": {
+          "text": "Batch file not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0807": {
+      "text": "Failed to delete batch",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641037": {
+          "text": "Batch not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0808": {
+      "text": "Failed to upload apps to batch",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64102D": {
+          "text": "Cannot read multiform data",
+          "version": 1
+        },
+        "0C641038": {
+          "text": "Not enough free memory space to upload the app(s)",
+          "version": 1
+        },
+        "0C641039": {
+          "text": "Cannot create batch",
+          "version": 1
+        },
+        "0C64103A": {
+          "text": "Cannot read settings",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "File name contains invalid characters",
+          "version": 1
+        },
+        "0C64103C": {
+          "text": "Installing an app from an unknown source is currently prohibited",
+          "version": 1
+        },
+        "0C641065": {
+          "text": "File is corrupted",
+          "version": 1
+        }
+      }
+    },
+    "080F0809": {
+      "text": "Failed to retrieve manifests",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106B": {
+          "text": "Internal error occurred",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F080A": {
+      "text": "Failed to retrieve information on installed app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64103F": {
+          "text": "App not found",
+          "version": 1
+        }
+      }
+    },
+    "080F080B": {
+      "text": "Failed to retrieve details of installed app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641040": {
+          "text": "Cannot retrieve specific information on app type",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "080F080C": {
+      "text": "Failed to retrieve binary data of installed app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64103F": {
+          "text": "App not found",
+          "version": 1
+        },
+        "0C64105E": {
+          "text": "Cannot copy binary data to stream",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F080D": {
+      "text": "Failed to retrieve icon of installed app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641043": {
+          "text": "Could not determine extension connected to this MIME type",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "080F080E": {
+      "text": "Failed to retrieve app data",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F080F": {
+      "text": "Failed to retrieve installed apps",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0810": {
+      "text": "Failed to install an application",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100F": {
+          "text": "Cannot compute available space",
+          "version": 1
+        },
+        "0C64102D": {
+          "text": "Cannot read multiform data",
+          "version": 1
+        },
+        "0C64103A": {
+          "text": "Cannot read settings",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "File name contains invalid characters",
+          "version": 1
+        },
+        "0C64103C": {
+          "text": "Installing an app from an unknown source is currently prohibited",
+          "version": 1
+        },
+        "0C641048": {
+          "text": "Cannot upload app",
+          "version": 1
+        },
+        "0C641049": {
+          "text": "Cannot update app",
+          "version": 1
+        },
+        "0C64104A": {
+          "text": "Cannot read uploaded app",
+          "version": 1
+        },
+        "0C64104B": {
+          "text": "Cannot install uploaded app",
+          "version": 1
+        },
+        "0C641054": {
+          "text": "Cannot save data to temporary file",
+          "version": 1
+        },
+        "0C641065": {
+          "text": "File is corrupted",
+          "version": 1
+        },
+        "0C64106F": {
+          "text": "Cannot retrieve app content",
+          "version": 1
+        },
+        "0C641070": {
+          "text": "Cannot retrieve app metadata",
+          "version": 1
+        },
+        "0C641071": {
+          "text": "App is already installed",
+          "version": 1
+        },
+        "0C641072": {
+          "text": "Cannot create temporary directory",
+          "version": 1
+        },
+        "0C641077": {
+          "text": "Address is not a valid URL",
+          "version": 1
+        },
+        "0C641078": {
+          "text": "ID missing",
+          "version": 1
+        },
+        "0C641079": {
+          "text": "Invalid repository ID",
+          "version": 1
+        },
+        "0C64107A": {
+          "text": "Scheme is not supported",
+          "version": 1
+        },
+        "0C64107B": {
+          "text": "Update not possible. Version is empty",
+          "version": 1
+        }
+      }
+    },
+    "080F0811": {
+      "text": "Failed to replace app data",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64102D": {
+          "text": "Cannot read multiform data",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "File name contains invalid characters",
+          "version": 1
+        },
+        "0C64104C": {
+          "text": "Cannot replace data, as other data of this app is currently being replaced",
+          "version": 1
+        },
+        "0C64104D": {
+          "text": "Empty content length in header",
+          "version": 1
+        },
+        "0C64104E": {
+          "text": "Cannot determine free memory space of the device",
+          "version": 1
+        },
+        "0C64104F": {
+          "text": "Cannot convert content length to number",
+          "version": 1
+        },
+        "0C641050": {
+          "text": "Not sufficient free memory space available on device",
+          "version": 1
+        },
+        "0C641051": {
+          "text": "Cannot close data file",
+          "version": 1
+        },
+        "0C641052": {
+          "text": "Missing or invalid data in uploaded multipart/form-data",
+          "version": 1
+        },
+        "0C641053": {
+          "text": "Empty or invalid data in data file",
+          "version": 1
+        },
+        "0C641054": {
+          "text": "Cannot save data to temporary file",
+          "version": 1
+        },
+        "0C641055": {
+          "text": "Missing field \"file\" containing the data file in uploaded multipart/form-data",
+          "version": 1
+        },
+        "0C641056": {
+          "text": "Cannot add task for app replacement",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0812": {
+      "text": "Failed to add repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C641058": {
+          "text": "Repository data invalid",
+          "version": 1
+        },
+        "0C64106C": {
+          "text": "A repository with the specified ID already exists",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository not found",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641073": {
+          "text": "Cannot create repository",
+          "version": 1
+        }
+      }
+    },
+    "080F0813": {
+      "text": "Failed to remove app from repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106D": {
+          "text": "Repository not found",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641075": {
+          "text": "Deleting an application is only supported for local repositories",
+          "version": 1
+        }
+      }
+    },
+    "080F0814": {
+      "text": "Failed to remove repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106D": {
+          "text": "Repository not found",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641074": {
+          "text": "Repository ID missing",
+          "version": 1
+        }
+      }
+    },
+    "080F0815": {
+      "text": "Failed to retrieve app information from repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64105C": {
+          "text": "App data invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0816": {
+      "text": "Failed to retrieve app binary data from repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0817": {
+      "text": "Failed to retrieve app icon from repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641043": {
+          "text": "Could not determine extension connected to this MIME type",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0818": {
+      "text": "Failed to retrieve app manifest from repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641032": {
+          "text": "Manifest data invalid",
+          "version": 1
+        },
+        "0C641060": {
+          "text": "Repository not found",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0819": {
+      "text": "Failed to retrieve apps from repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64103F": {
+          "text": "App not found",
+          "version": 1
+        },
+        "0C64105C": {
+          "text": "App data invalid",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository not found",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F081A": {
+      "text": "Failed to retrieve repositories",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository not found",
+          "version": 1
+        }
+      }
+    },
+    "080F081B": {
+      "text": "Failed to update repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C641058": {
+          "text": "Repository data invalid",
+          "version": 1
+        },
+        "0C641063": {
+          "text": "Cannot update available repository",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F081C": {
+      "text": "Failed to upload app to repository",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100F": {
+          "text": "Cannot compute available space",
+          "version": 1
+        },
+        "0C64102D": {
+          "text": "Cannot read multiform data",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "File name contains invalid characters",
+          "version": 1
+        },
+        "0C641064": {
+          "text": "Property \"fileName\" expected",
+          "version": 1
+        },
+        "0C641065": {
+          "text": "File is corrupted",
+          "version": 1
+        },
+        "0C641066": {
+          "text": "Cannot save file to repository",
+          "version": 1
+        },
+        "0C64106D": {
+          "text": "Repository not found",
+          "version": 1
+        }
+      }
+    },
+    "080F081D": {
+      "text": "Failed to retrieve app management settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F081E": {
+      "text": "Failed to update app management settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F081F": {
+      "text": "Failed to retrieve app details from store",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641027": {
+          "text": "Could not find app in store",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store is offline",
+          "version": 1
+        }
+      }
+    },
+    "080F0820": {
+      "text": "Failed to retrieve apps from store",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641067": {
+          "text": "Query missing",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store is offline",
+          "version": 1
+        }
+      }
+    },
+    "080F0821": {
+      "text": "Failed to retrieve store status",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0822": {
+      "text": "Creating task failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64102C": {
+          "text": "Cannot create task with this action",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410C6": {
+          "text": "Task action not supported",
+          "version": 1
+        },
+        "0C6410C7": {
+          "text": "Task cannot be validated",
+          "version": 1
+        },
+        "0C64111B": {
+          "text": "Task arguments invalid",
+          "version": 1
+        },
+        "0C64111C": {
+          "text": "Task already exists",
+          "version": 1
+        }
+      }
+    },
+    "080F0823": {
+      "text": "Getting task failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641029": {
+          "text": "Could not find task with this ID",
+          "version": 1
+        },
+        "0C641069": {
+          "text": "Cannot update information on task status",
+          "version": 1
+        },
+        "0C6410C8": {
+          "text": "Task not found",
+          "version": 1
+        },
+        "0C64111B": {
+          "text": "Task arguments invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0824": {
+      "text": "Getting tasks failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64102A": {
+          "text": "Cannot convert data",
+          "version": 1
+        },
+        "0C64111B": {
+          "text": "Task arguments invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0825": {
+      "text": "Removing task failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641029": {
+          "text": "Could not find task with this ID",
+          "version": 1
+        },
+        "0C64106A": {
+          "text": "Task has wrong status",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410C8": {
+          "text": "Task not found",
+          "version": 1
+        },
+        "0C64111D": {
+          "text": "Task not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0826": {
+      "text": "Failed to install app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641078": {
+          "text": "ID missing",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store is offline",
+          "version": 1
+        },
+        "0C64107D": {
+          "text": "Address is invalid",
+          "version": 1
+        },
+        "0C641119": {
+          "text": "No storage medium found",
+          "version": 1
+        },
+        "0C64111E": {
+          "text": "Failed to mount the rexroth-vault partition",
+          "version": 1
+        },
+        "0C64111F": {
+          "text": "Media task action failed",
+          "version": 1
+        },
+        "0C641120": {
+          "text": "Failed to search for boot partition",
+          "version": 1
+        },
+        "0C641121": {
+          "text": "Storage medium no longer available",
+          "version": 1
+        }
+      }
+    },
+    "080F0827": {
+      "text": "Failed to update app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641078": {
+          "text": "ID missing",
+          "version": 1
+        },
+        "0C64107C": {
+          "text": "Store is offline",
+          "version": 1
+        },
+        "0C64107D": {
+          "text": "Address is invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0828": {
+      "text": "Failed to kill snapd",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64107E": {
+          "text": "Cannot recover snapd",
+          "version": 1
+        }
+      }
+    },
+    "080F0829": {
+      "text": "App connection failed",
+      "version": 1
+    },
+    "080F082A": {
+      "text": "App connection restored",
+      "version": 1
+    },
+    "080F082B": {
+      "text": "Interface connection failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64100E": {
+          "text": "App connection not allowed for apps from unknown source",
+          "version": 1
+        }
+      }
+    },
+    "080F0833": {
+      "text": "Failed to execute firmware update command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64107F": {
+          "text": "Error while executing the command",
+          "version": 1
+        }
+      }
+    },
+    "080F0834": {
+      "text": "Failed to update bootloader",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641081": {
+          "text": "Resetting gadget to previous version",
+          "version": 1
+        },
+        "0C641082": {
+          "text": "Error while executing the script",
+          "version": 1
+        },
+        "0C641083": {
+          "text": "Error while resetting the app",
+          "version": 1
+        }
+      }
+    },
+    "080F0836": {
+      "text": "Failed to uninstall app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641085": {
+          "text": "Could not remove app",
+          "version": 1
+        }
+      }
+    },
+    "080F0837": {
+      "text": "Failed to restore app",
+      "version": 1
+    },
+    "080F0838": {
+      "text": "UEFI update cannot be performed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641127": {
+          "text": "Requirements not met",
+          "version": 1
+        },
+        "0C641128": {
+          "text": "No update available",
+          "version": 1
+        }
+      }
+    },
+    "080F0839": {
+      "text": "System integrity degraded",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641086": {
+          "text": "Failed to create the integrity basic directory",
+          "version": 1
+        },
+        "0C641087": {
+          "text": "Failed to create the system integrity log",
+          "version": 1
+        }
+      }
+    },
+    "080F083A": {
+      "text": "Failed to manage memory extension",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641089": {
+          "text": "Error retrieving media information",
+          "version": 1
+        }
+      }
+    },
+    "080F083B": {
+      "text": "Failed to calculate possible snap upload size",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641088": {
+          "text": "Error while retrieving memory information",
+          "version": 1
+        }
+      }
+    },
+    "080F083C": {
+      "text": "Failed to update task",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641069": {
+          "text": "Cannot update information on task status",
+          "version": 1
+        }
+      }
+    },
+    "080F083D": {
+      "text": "Failed to update bridged interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64108A": {
+          "text": "One of the specified arguments is invalid",
+          "version": 1
+        },
+        "0C64108B": {
+          "text": "Cannot bridge interface",
+          "version": 1
+        }
+      }
+    },
+    "080F083E": {
+      "text": "Failed to query bridged interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64108C": {
+          "text": "Bridged interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F083F": {
+      "text": "Failed to apply changes",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410AA": {
+          "text": "Select either \"Apply\" or \"Discard\"",
+          "version": 1
+        }
+      }
+    },
+    "080F0840": {
+      "text": "Failed to update interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F0841": {
+      "text": "Failed to retrieve host table entries",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "080F0842": {
+      "text": "Failed to update host table entries",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410B3": {
+          "text": "Host table invalid",
+          "version": 1
+        },
+        "0C6410B4": {
+          "text": "Cannot apply changes",
+          "version": 1
+        }
+      }
+    },
+    "080F0843": {
+      "text": "Failed to create interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C64108E": {
+          "text": "Interface name missing",
+          "version": 1
+        },
+        "0C6410A5": {
+          "text": "Bridge already exists",
+          "version": 1
+        },
+        "0C6410AB": {
+          "text": "Interface does not have the correct type",
+          "version": 1
+        },
+        "0C6410AC": {
+          "text": "Interface has wrong status",
+          "version": 1
+        },
+        "0C6410AD": {
+          "text": "Combination of type and mode invalid",
+          "version": 1
+        },
+        "0C6410AE": {
+          "text": "Interface already exists",
+          "version": 1
+        },
+        "0C641247": {
+          "text": "Invalid interface name",
+          "version": 1
+        }
+      }
+    },
+    "080F0844": {
+      "text": "Failed to delete interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F0845": {
+      "text": "Failed to retrieve interface information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0846": {
+      "text": "Failed to retrieve interface configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0847": {
+      "text": "Failed to retrieve interface status information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0848": {
+      "text": "Failed to retrieve active IP addresses of the interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0849": {
+      "text": "Failed to retrieve interfaces",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F084A": {
+      "text": "Failed to update interface configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        },
+        "0C6410A8": {
+          "text": "Cannot configure VLAN interfaces",
+          "version": 1
+        },
+        "0C6410A9": {
+          "text": "IP address does not have a valid CIDR notation",
+          "version": 1
+        }
+      }
+    },
+    "080F084B": {
+      "text": "Failed to retrieve proxy information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "080F084C": {
+      "text": "Failed to update proxy information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410B5": {
+          "text": "No proxy configuration",
+          "version": 1
+        },
+        "0C6410B6": {
+          "text": "HTTP configuration invalid",
+          "version": 1
+        },
+        "0C6410B7": {
+          "text": "HTTPS configuration invalid",
+          "version": 1
+        },
+        "0C6410B8": {
+          "text": "Failed to update the system proxy",
+          "version": 1
+        },
+        "0C6410B9": {
+          "text": "Either HTTP or HTTPS has to be set",
+          "version": 1
+        },
+        "0C6410BA": {
+          "text": "HTTP string too long",
+          "version": 1
+        },
+        "0C6410BB": {
+          "text": "HTTPS string too long",
+          "version": 1
+        }
+      }
+    },
+    "080F084D": {
+      "text": "Failed to query name server",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F084E": {
+      "text": "Failed to update name server",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F084F": {
+      "text": "Failed to add route",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Cannot read interfaces",
+          "version": 1
+        }
+      }
+    },
+    "080F0850": {
+      "text": "Failed to delete route",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        },
+        "0C6410BC": {
+          "text": "Route not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0851": {
+      "text": "Failed to retrieve route",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410BC": {
+          "text": "Route not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0852": {
+      "text": "Failed to retrieve routing table",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0853": {
+      "text": "Failed to update route",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108A": {
+          "text": "One of the specified arguments is invalid",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        },
+        "0C6410BC": {
+          "text": "Route not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0854": {
+      "text": "Failed to update routes",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Cannot read interfaces",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F0855": {
+      "text": "Failed to add WiFi network",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C641097": {
+          "text": "Cannot update interface",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Cannot update interface security settings",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        },
+        "0C6410C4": {
+          "text": "WiFi network already exists",
+          "version": 1
+        }
+      }
+    },
+    "080F0856": {
+      "text": "Failed to retrieve access point configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C641099": {
+          "text": "Interface not configured as access point",
+          "version": 1
+        }
+      }
+    },
+    "080F0857": {
+      "text": "Failed to retrieve security configuration access point",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C641099": {
+          "text": "Interface not configured as access point",
+          "version": 1
+        },
+        "0C64109B": {
+          "text": "Cannot read security settings of access point",
+          "version": 1
+        }
+      }
+    },
+    "080F0858": {
+      "text": "Failed to retrieve WiFi network",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Interface configured as access point",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Invalid WiFi network name (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi interface not found",
+          "version": 1
+        },
+        "0C64109E": {
+          "text": "WiFi network not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0859": {
+      "text": "Failed to retrieve WiFi network security settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Interface configured as access point",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Invalid WiFi network name (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F085A": {
+      "text": "Failed to retrieve WiFi networks",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Interface configured as access point",
+          "version": 1
+        },
+        "0C64109F": {
+          "text": "Only WiFi interfaces allowed",
+          "version": 1
+        }
+      }
+    },
+    "080F085B": {
+      "text": "Failed to retrieve supported security protocols",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Cannot read interfaces",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        }
+      }
+    },
+    "080F085C": {
+      "text": "Failed to retrieve security-wired network interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Cannot read interfaces",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        }
+      }
+    },
+    "080F085D": {
+      "text": "Failed to delete WiFi network",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Interface configured as access point",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Invalid WiFi network name (SSID)",
+          "version": 1
+        },
+        "0C64109E": {
+          "text": "WiFi network not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F085E": {
+      "text": "Failed to update access point",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Cannot update interface security settings",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F085F": {
+      "text": "Failed to update security configuration access point",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Cannot update interface security settings",
+          "version": 1
+        },
+        "0C641099": {
+          "text": "Interface not configured as access point",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F0860": {
+      "text": "Failed to update WiFi network",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C641096": {
+          "text": "WiFi interface does not exist",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Cannot update interface security settings",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Interface configured as access point",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Invalid WiFi network name (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0861": {
+      "text": "Failed to update security settings of WiFi network",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Cannot update interface security settings",
+          "version": 1
+        },
+        "0C64109A": {
+          "text": "Interface configured as access point",
+          "version": 1
+        },
+        "0C64109C": {
+          "text": "Invalid WiFi network name (SSID)",
+          "version": 1
+        },
+        "0C64109D": {
+          "text": "WiFi interface not found",
+          "version": 1
+        },
+        "0C64109E": {
+          "text": "WiFi network not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        },
+        "0C6410BD": {
+          "text": "Cannot create Extensible Authentication Protocol (EAP) data",
+          "version": 1
+        },
+        "0C6410BE": {
+          "text": "Phase2 Auth type is not supported",
+          "version": 1
+        },
+        "0C6410BF": {
+          "text": "Password required",
+          "version": 1
+        },
+        "0C6410C0": {
+          "text": "Invalid security protocol",
+          "version": 1
+        },
+        "0C6410C1": {
+          "text": "Invalid configuration type",
+          "version": 1
+        },
+        "0C6410C2": {
+          "text": "Password and identity required",
+          "version": 1
+        },
+        "0C6410C3": {
+          "text": "Error in WiFi security settings",
+          "version": 1
+        }
+      }
+    },
+    "080F0862": {
+      "text": "Failed to update security-wired network interface",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        },
+        "0C641095": {
+          "text": "Cannot read interfaces",
+          "version": 1
+        },
+        "0C641098": {
+          "text": "Cannot update interface security settings",
+          "version": 1
+        },
+        "0C6410A0": {
+          "text": "Invalid protocol",
+          "version": 1
+        },
+        "0C6410A1": {
+          "text": "Invalid EAP-TLS configuration",
+          "version": 1
+        },
+        "0C6410A2": {
+          "text": "Invalid authentication method",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F0863": {
+      "text": "Failed to retrieve network discovery service",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C6410A3": {
+          "text": "Service not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0864": {
+      "text": "Failed to retrieve network discovery services",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "080F0865": {
+      "text": "Failed to change service status",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64108A": {
+          "text": "One of the specified arguments is invalid",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410A4": {
+          "text": "Cannot update service",
+          "version": 1
+        }
+      }
+    },
+    "080F0866": {
+      "text": "Updating configuration network discovery service failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C6410A3": {
+          "text": "Service not found",
+          "version": 1
+        },
+        "0C6410A4": {
+          "text": "Cannot update service",
+          "version": 1
+        }
+      }
+    },
+    "080F0867": {
+      "text": "Retrieving configuration network discovery service failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C6410A3": {
+          "text": "Service not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0868": {
+      "text": "Enabling configuration network discovery service failed",
+      "version": 1
+    },
+    "080F0869": {
+      "text": "Disabling configuration network discovery service failed",
+      "version": 1
+    },
+    "080F086A": {
+      "text": "Failed to retrieve bridge",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A6": {
+          "text": "Bridge not found",
+          "version": 1
+        }
+      }
+    },
+    "080F086B": {
+      "text": "Failed to set bridge",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A6": {
+          "text": "Bridge not found",
+          "version": 1
+        },
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F086C": {
+      "text": "Failed to validate service configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410AF": {
+          "text": "No gratuitous ARP configuration found",
+          "version": 1
+        },
+        "0C6410B0": {
+          "text": "ARP configuration invalid",
+          "version": 1
+        },
+        "0C6410B1": {
+          "text": "Count invalid",
+          "version": 1
+        },
+        "0C6410B2": {
+          "text": "Interval invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F086D": {
+      "text": "Failed to create access point",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F086E": {
+      "text": "Failed to delete security settings of WiFi network",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410A7": {
+          "text": "Cannot update read-only network interface",
+          "version": 1
+        }
+      }
+    },
+    "080F086F": {
+      "text": "ARP failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0870": {
+      "text": "Ping failed",
+      "version": 1
+    },
+    "080F0871": {
+      "text": "Connection test failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410C5": {
+          "text": "Cannot verify proxy configuration",
+          "version": 1
+        }
+      }
+    },
+    "080F0872": {
+      "text": "Failed to save network configuration",
+      "version": 1
+    },
+    "080F0873": {
+      "text": "Failed to initialize",
+      "version": 1
+    },
+    "080F0874": {
+      "text": "Remodeling not possible",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641090": {
+          "text": "Preconditions not met",
+          "version": 1
+        },
+        "0C641091": {
+          "text": "Failed to execute remodeling",
+          "version": 1
+        },
+        "0C641093": {
+          "text": "System cannot be prepared",
+          "version": 1
+        },
+        "0C641094": {
+          "text": "Cannot delete seed partition",
+          "version": 1
+        }
+      }
+    },
+    "080F0875": {
+      "text": "Remodeling already running",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641092": {
+          "text": "Remodeling was started by another task",
+          "version": 1
+        }
+      }
+    },
+    "080F0876": {
+      "text": "Failed to create commissioning file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410F3": {
+          "text": "No file available for writing",
+          "version": 1
+        },
+        "0C6410F4": {
+          "text": "Failed to create Writer",
+          "version": 1
+        },
+        "0C6410F5": {
+          "text": "Failed to add to Writer",
+          "version": 1
+        }
+      }
+    },
+    "080F0877": {
+      "text": "Failed to retrieve commissioning information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0878": {
+      "text": "Failed to retrieve device date",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0879": {
+      "text": "Failed to retrieve date and time settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F087A": {
+      "text": "Failed to set device date",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C6410B4": {
+          "text": "Cannot apply changes",
+          "version": 1
+        },
+        "0C6410C9": {
+          "text": "Information on time zone invalid",
+          "version": 1
+        },
+        "0C6410CA": {
+          "text": "NTP information invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F087B": {
+      "text": "Failed to validate time zone",
+      "version": 1
+    },
+    "080F087C": {
+      "text": "Failed to upload image",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64103B": {
+          "text": "File name contains invalid characters",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410CB": {
+          "text": "Mount point missing",
+          "version": 1
+        },
+        "0C6410CC": {
+          "text": "Mount point wrong",
+          "version": 1
+        },
+        "0C6410CD": {
+          "text": "Failed to write the setup.zip file",
+          "version": 1
+        },
+        "0C6410CE": {
+          "text": "No firmware file requested",
+          "version": 1
+        },
+        "0C6410F6": {
+          "text": "Mount point has to be on a removable disk",
+          "version": 1
+        },
+        "0C6410F7": {
+          "text": "Failed to create the rescue folder",
+          "version": 1
+        },
+        "0C6410F8": {
+          "text": "Failed to create file",
+          "version": 1
+        },
+        "0C6410F9": {
+          "text": "Failed to write to file",
+          "version": 1
+        },
+        "0C6410FA": {
+          "text": "Cannot check the checksum. File not found",
+          "version": 1
+        },
+        "0C6410FB": {
+          "text": "Cannot check the checksum. Failed to open file",
+          "version": 1
+        },
+        "0C6410FC": {
+          "text": "Cannot check the checksum. Failed to read file",
+          "version": 1
+        },
+        "0C6410FD": {
+          "text": "File was corrupted during upload",
+          "version": 1
+        },
+        "0C6410FE": {
+          "text": "Generate-setup is currently not supported",
+          "version": 1
+        },
+        "0C64110E": {
+          "text": "Failed to prepare storage medium",
+          "version": 1
+        },
+        "0C64110F": {
+          "text": "No preparation command detected",
+          "version": 1
+        },
+        "0C641110": {
+          "text": "Selected target medium already mounted",
+          "version": 1
+        },
+        "0C641111": {
+          "text": "Selected target medium not found",
+          "version": 1
+        },
+        "0C641112": {
+          "text": "Failed to mount partition",
+          "version": 1
+        },
+        "0C641113": {
+          "text": "Memory medium not found",
+          "version": 1
+        },
+        "0C641114": {
+          "text": "Mounted partition not found",
+          "version": 1
+        }
+      }
+    },
+    "080F087D": {
+      "text": "Failed to retrieve sensor information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641106": {
+          "text": "Sensor not found",
+          "version": 1
+        }
+      }
+    },
+    "080F087E": {
+      "text": "Failed to retrieve sensor list",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F087F": {
+      "text": "Failed to retrieve URL for serial vault",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410D0": {
+          "text": "URL of serial vault invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0880": {
+      "text": "Failed to update URL for serial vault",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410D0": {
+          "text": "URL of serial vault invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0881": {
+      "text": "Failed to retrieve hostname",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0882": {
+      "text": "Failed to set hostname",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641107": {
+          "text": "Hostname invalid",
+          "version": 1
+        },
+        "0C641108": {
+          "text": "Empty hostnames are not allowed",
+          "version": 1
+        },
+        "0C641109": {
+          "text": "Host name exceeds the maximum length of 64 characters",
+          "version": 1
+        }
+      }
+    },
+    "080F0883": {
+      "text": "Failed to retrieve report file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64105E": {
+          "text": "Cannot copy binary data to stream",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410D1": {
+          "text": "Report file not found",
+          "version": 1
+        },
+        "0C6410D2": {
+          "text": "Report file name too long",
+          "version": 1
+        },
+        "0C6410D3": {
+          "text": "Failed to read report file info",
+          "version": 1
+        },
+        "0C6410D4": {
+          "text": "Failed to close file",
+          "version": 1
+        },
+        "0C6410FF": {
+          "text": "Cannot read type plate",
+          "version": 1
+        },
+        "0C641100": {
+          "text": "Cannot find installed apps",
+          "version": 1
+        },
+        "0C641101": {
+          "text": "Failed to create report archive file",
+          "version": 1
+        },
+        "0C641102": {
+          "text": "Failed to write to report archive file",
+          "version": 1
+        },
+        "0C641103": {
+          "text": "Failed to read logbook",
+          "version": 1
+        },
+        "0C641104": {
+          "text": "Failed to retrieve data",
+          "version": 1
+        },
+        "0C641105": {
+          "text": "Failed to decode data",
+          "version": 1
+        }
+      }
+    },
+    "080F0884": {
+      "text": "Failed to allocate memory resources (quota)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0885": {
+      "text": "Failed to set memory allocation (quota) failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0886": {
+      "text": "Failed to set CPU configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410D5": {
+          "text": "Configuration of real-time cores invalid",
+          "version": 1
+        },
+        "0C6410D9": {
+          "text": "Parsing settings failed",
+          "version": 1
+        },
+        "0C6410DA": {
+          "text": "Real-time cores cannot be set",
+          "version": 1
+        },
+        "0C6410DB": {
+          "text": "Failed to change the Linux watchdog framework settings",
+          "version": 1
+        }
+      }
+    },
+    "080F0887": {
+      "text": "Failed to retrieve CPU information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6410D6": {
+          "text": "Core index invalid",
+          "version": 1
+        },
+        "0C6410D7": {
+          "text": "At least one non-realtime core is required",
+          "version": 1
+        },
+        "0C6410D8": {
+          "text": "Number of cores invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0888": {
+      "text": "Failed to reset device data",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C6410DC": {
+          "text": "Requirements not met. Resetting device data is not supported by this device",
+          "version": 1
+        },
+        "0C6410DD": {
+          "text": "Type of commissioning is not supported",
+          "version": 1
+        },
+        "0C6410DE": {
+          "text": "No task specified",
+          "version": 1
+        },
+        "0C6410DF": {
+          "text": "Unknown Reset mode",
+          "version": 1
+        },
+        "0C6410E0": {
+          "text": "Commissioning file not found",
+          "version": 1
+        },
+        "0C6410E1": {
+          "text": "Failed to load commissioning file",
+          "version": 1
+        },
+        "0C6410E2": {
+          "text": "Failed to create commissioning file",
+          "version": 1
+        },
+        "0C6410E3": {
+          "text": "Failed to write commissioning file",
+          "version": 1
+        },
+        "0C6410E4": {
+          "text": "Mount point not found",
+          "version": 1
+        },
+        "0C6410E5": {
+          "text": "Failed to read the required memory space",
+          "version": 1
+        },
+        "0C6410E6": {
+          "text": "Failed to read the available memory space",
+          "version": 1
+        },
+        "0C6410E7": {
+          "text": "Storage medium is in the wrong format",
+          "version": 1
+        },
+        "0C6410E8": {
+          "text": "Not sufficient free memory space",
+          "version": 1
+        },
+        "0C6410E9": {
+          "text": "Memory medium not found",
+          "version": 1
+        },
+        "0C6410EA": {
+          "text": "Login failed",
+          "version": 1
+        },
+        "0C6410EB": {
+          "text": "Failed to create commissioning archive",
+          "version": 1
+        },
+        "0C6410EC": {
+          "text": "Abort reset of device data",
+          "version": 1
+        },
+        "0C6410EE": {
+          "text": "Failed to retrieve expected size",
+          "version": 1
+        },
+        "0C6410EF": {
+          "text": "Failed to read setup file",
+          "version": 1
+        },
+        "0C6410F0": {
+          "text": "Failed to add apps to setup",
+          "version": 1
+        },
+        "0C6410F1": {
+          "text": "Failed to load standard setup",
+          "version": 1
+        },
+        "0C6410F2": {
+          "text": "Failed to create required file",
+          "version": 1
+        },
+        "0C64110D": {
+          "text": "Failed to reset device data",
+          "version": 1
+        }
+      }
+    },
+    "080F0889": {
+      "text": "Failed to check NTP server",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64110A": {
+          "text": "Parameter ntpServer is required",
+          "version": 1
+        },
+        "0C64110B": {
+          "text": "NTP server or server cannot be reached",
+          "version": 1
+        }
+      }
+    },
+    "080F088A": {
+      "text": "Failed to change hostname",
+      "version": 1
+    },
+    "080F088B": {
+      "text": "Failed to retrieve storage media",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641118": {
+          "text": "Encrypted storage medium not found",
+          "version": 1
+        },
+        "0C641119": {
+          "text": "No storage medium found",
+          "version": 1
+        },
+        "0C64111A": {
+          "text": "No medium found",
+          "version": 1
+        }
+      }
+    },
+    "080F088C": {
+      "text": "Storage failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64112B": {
+          "text": "Cannot partition SSD extension module",
+          "version": 1
+        }
+      }
+    },
+    "080F088D": {
+      "text": "Failed to mount storage media",
+      "version": 1
+    },
+    "080F088E": {
+      "text": "Failed to unmount storage media",
+      "version": 1
+    },
+    "080F088F": {
+      "text": "Failed to format storage media",
+      "version": 1
+    },
+    "080F0890": {
+      "text": "Failed to update path MTU detection setting",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C641122": {
+          "text": "Error when updating the path of the MTU detection settings",
+          "version": 1
+        },
+        "0C641123": {
+          "text": "Path for MTU detection mode invalid",
+          "version": 1
+        }
+      }
+    },
+    "080F0891": {
+      "text": "Current theme not found",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C641124": {
+          "text": "App and theme name empty",
+          "version": 1
+        }
+      }
+    },
+    "080F0892": {
+      "text": "Active theme not found",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0893": {
+      "text": "Default theme not found",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0894": {
+      "text": "Theme not found",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0895": {
+      "text": "Failed to retrieve themes",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0896": {
+      "text": "Failed to enable theme",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F0897": {
+      "text": "Failed to retrieve theme",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641125": {
+          "text": "Theme not found",
+          "version": 1
+        },
+        "0C641126": {
+          "text": "App not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0898": {
+      "text": "Failed to retrieve VLAN configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F0899": {
+      "text": "Failed to set VLAN configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64108A": {
+          "text": "One of the specified arguments is invalid",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C64108F": {
+          "text": "Interface not found",
+          "version": 1
+        }
+      }
+    },
+    "080F089A": {
+      "text": "System data extension not found",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641121": {
+          "text": "Storage medium no longer available",
+          "version": 1
+        }
+      }
+    },
+    "080F0E00": {
+      "text": "Loading configuration not possible in current state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B5011": {
+          "text": "Loading the configuration not allowed in current state",
+          "version": 1
+        }
+      }
+    },
+    "080F0FFF": {
+      "text": "Trace error common.scheduler",
+      "version": 1
+    },
+    "080F2000": {
+      "text": "Error while running script",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270200": {
+          "text": "Internal error: Found \"nullptr\"",
+          "version": 1
+        },
+        "0C270201": {
+          "text": "Internal error: Request data is no FlatBuffer",
+          "version": 1
+        },
+        "0C270202": {
+          "text": "Internal error: Unexpected request data type (expected string)",
+          "version": 1
+        },
+        "0C270203": {
+          "text": "Internal error: Unexpected request data type (expected array of string)",
+          "version": 1
+        },
+        "0C270204": {
+          "text": "Internal error: Request data is unexpected flatbuffer type",
+          "version": 1
+        },
+        "0C270205": {
+          "text": "\"Data Layer\" system is not installed",
+          "version": 1
+        },
+        "0C270206": {
+          "text": "\"Data Layer\" is not connected",
+          "version": 1
+        },
+        "0C270207": {
+          "text": "\"Data Layer\" unsupported data type (simple types only)",
+          "version": 1
+        },
+        "0C270208": {
+          "text": "\"Data Layer\" returned error",
+          "version": 1
+        },
+        "0C270209": {
+          "text": "Motion system is not installed",
+          "version": 1
+        },
+        "0C27020A": {
+          "text": "Motion object is already attached to an instance",
+          "version": 1
+        },
+        "0C27020B": {
+          "text": "Motion object is not attached to the instance and may not being commanded",
+          "version": 1
+        },
+        "0C270308": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C270400": {
+          "text": "Motion object with specified name was not found",
+          "version": 1
+        }
+      }
+    },
+    "080F2001": {
+      "text": "Error in task/requ. comm. between script manager/instance",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270300": {
+          "text": "Communication to script runner failed",
+          "version": 1
+        },
+        "0C270301": {
+          "text": "Got invalid response from script runner",
+          "version": 1
+        },
+        "0C270302": {
+          "text": "Script runner could not execute the script",
+          "version": 1
+        },
+        "0C270303": {
+          "text": "Script runner experienced an error",
+          "version": 1
+        },
+        "0C270304": {
+          "text": "Unknown message from the script runner",
+          "version": 1
+        },
+        "0C270305": {
+          "text": "Request handler failed to receive a new message",
+          "version": 1
+        },
+        "0C270306": {
+          "text": "Request handler failed to send a new message",
+          "version": 1
+        },
+        "0C270307": {
+          "text": "Request handler failed to handle request",
+          "version": 1
+        },
+        "0C270309": {
+          "text": "Stopping the script attached motion object",
+          "version": 1
+        }
+      }
+    },
+    "080F2002": {
+      "text": "Error in Data Layer of script manager",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270202": {
+          "text": "Internal error: Unexpected request data type (expected string)",
+          "version": 1
+        },
+        "0C270207": {
+          "text": "\"Data Layer\" unsupported data type (simple types only)",
+          "version": 1
+        },
+        "0C270308": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C270400": {
+          "text": "Motion object with specified name was not found",
+          "version": 1
+        }
+      }
+    },
+    "080F2003": {
+      "text": "Error in system configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270500": {
+          "text": "Error in handling a motion request",
+          "version": 1
+        }
+      }
+    },
+    "080F6010": {
+      "text": "Error when evaluating the device settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4500": {
+          "text": "The \"Device settings\" module could not be initialized.",
+          "version": 1
+        },
+        "0C7B4501": {
+          "text": "The device settings are not available, default settings are used.",
+          "version": 1
+        },
+        "0C7B4502": {
+          "text": "The device settings could not be analyzed (parse error).",
+          "version": 1
+        }
+      }
+    },
+    "080F6017": {
+      "text": "Task watchdog error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B2317": {
+          "text": "Task watchdog expired",
+          "version": 1
+        }
+      }
+    },
+    "080F6019": {
+      "text": "Workload in critical range \"FATAL\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4281": {
+          "text": "The maximum utilization of the Scheduler cycle time exceeded the limit value with a fatal error. The system is switched to the \"SERVICE\" status",
+          "version": 1
+        }
+      }
+    },
+    "080F6023": {
+      "text": "Workload in critical range \"ERROR\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4280": {
+          "text": "The maximum utilization of the Scheduler cycle time exceeded the limit value with an error",
+          "version": 1
+        }
+      }
+    },
+    "080F6033": {
+      "text": "Hardware reboot triggered by Linux watchdog framework",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4237": {
+          "text": "Hardware reboot triggered by hardware watchdog timer",
+          "version": 1
+        }
+      }
+    },
+    "080F6042": {
+      "text": "Error in Scheduler system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4226": {
+          "text": "Configuration could not be saved consistently while logging off a callable factory",
+          "version": 1
+        },
+        "0C7B4250": {
+          "text": "Invalid action in \"RUN\" state",
+          "version": 1
+        },
+        "0C7B4264": {
+          "text": "Timeout when setting the callables of a task",
+          "version": 1
+        },
+        "0C7B4265": {
+          "text": "Failed to set cancelability state of a task",
+          "version": 1
+        },
+        "0C7B4269": {
+          "text": "Timeout during status switching of callables",
+          "version": 1
+        },
+        "0C7B4271": {
+          "text": "Maximum number of allowed consecutive errors exceeded",
+          "version": 1
+        }
+      }
+    },
+    "080F60A0": {
+      "text": "Error in the equidistance of the Scheduler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B5010": {
+          "text": "The maximum allowed jitter of the scheduler was exceeded",
+          "version": 1
+        }
+      }
+    },
+    "080F60B0": {
+      "text": "Condition detected that triggered a safe machine state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4300": {
+          "text": "Critical F8 error detected before restarting the Automation Core app. See diagnostic logbook for the causing F8 error",
+          "version": 1
+        },
+        "0C7B4301": {
+          "text": "Critical F9 error detected before rebooting the ctrlX CORE. See diagnostic logbook for the causing F9 error",
+          "version": 1
+        },
+        "0C7B4302": {
+          "text": "Exception detected before restarting the Automation Core app. See exception log or generate the ctrlX CORE system report for the causing exception",
+          "version": 1
+        },
+        "0C7B4303": {
+          "text": "Shutdown error detected during last shutdown",
+          "version": 1
+        },
+        "0C7B4304": {
+          "text": "Failed to evaluate whether the safe machine state is necessary",
+          "version": 1
+        },
+        "0C7B4306": {
+          "text": "Handling of the safe machine state cannot be guaranteed",
+          "version": 1
+        }
+      }
+    },
+    "080F6550": {
+      "text": "Critical error in license management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0091": {
+          "text": "License dongle removed",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime missing",
+          "version": 2
+        }
+      }
+    },
+    "080F8010": {
+      "text": "Hardware watchdog expired",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4204": {
+          "text": "A hardware watchdog event was triggered",
+          "version": 1
+        },
+        "0C7B4221": {
+          "text": "There is a hardware watchdog event when starting the ctrlX CORE Runtime software",
+          "version": 3
+        }
+      }
+    },
+    "080F8011": {
+      "text": "Failed to initialize hardware watchdog",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4227": {
+          "text": "Failed to create the hardware watchdog observer task",
+          "version": 2
+        },
+        "0C7B4228": {
+          "text": "Failed to initialize the hardware watchdog observer task",
+          "version": 2
+        }
+      }
+    },
+    "080F8012": {
+      "text": "Internal hardware watchdog error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4218": {
+          "text": "An invalid hardware watchdog event was triggered",
+          "version": 3
+        },
+        "0C7B4222": {
+          "text": "Unhandled hardware watchdog object status detected",
+          "version": 4
+        }
+      }
+    },
+    "080F8017": {
+      "text": "Hardware watchdog error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4227": {
+          "text": "Creation of hardware watchdog observer task failed",
+          "version": 1
+        },
+        "0C7B4228": {
+          "text": "Initialization of hardware watchdog observer task failed",
+          "version": 1
+        },
+        "0C7B4267": {
+          "text": "Failed to trigger hardware watchdog",
+          "version": 1
+        },
+        "0C7B4268": {
+          "text": "Setting timeout value of hardware watchdog failed",
+          "version": 1
+        }
+      }
+    },
+    "080F8042": {
+      "text": "Error in Scheduler system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4200": {
+          "text": "Failed to update the machine state",
+          "version": 1
+        },
+        "0C7B4210": {
+          "text": "Failed to parameterize the Scheduler base cycle time (tick)",
+          "version": 1
+        },
+        "0C7B4220": {
+          "text": "Invalid response when waiting on a cyclic task timer event",
+          "version": 1
+        },
+        "0C7B4224": {
+          "text": "A callable cannot be switched to state \"EXIT\"",
+          "version": 1
+        },
+        "0C7B4225": {
+          "text": "Configuration cannot be restored consistently",
+          "version": 1
+        },
+        "0C7B4230": {
+          "text": "Failed to update the Scheduler management structures",
+          "version": 1
+        },
+        "0C7B4242": {
+          "text": "Failed to update the Scheduler task list",
+          "version": 1
+        },
+        "0C7B4266": {
+          "text": "Error during initialization of the scheduler",
+          "version": 1
+        },
+        "0C7B4267": {
+          "text": "Failed to trigger hardware watchdog",
+          "version": 1
+        }
+      }
+    },
+    "080F80B0": {
+      "text": "Exception occurred",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4302": {
+          "text": "Exception detected before restarting the Automation Core app. See exception log or generate the ctrlX CORE system report for the causing exception",
+          "version": 1
+        }
+      }
+    },
+    "080F9540": {
+      "text": "Critical failure detected during health monitoring",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C66003C": {
+          "text": "Control temperature exceeds maximum",
+          "version": 1
+        },
+        "0C660041": {
+          "text": "Available memory of the control critical",
+          "version": 1
+        }
+      }
+    },
+    "080F9550": {
+      "text": "Fatal error in license management",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A0091": {
+          "text": "License dongle removed",
+          "version": 1
+        },
+        "0C7A0092": {
+          "text": "ctrlX OS System License - *** - Standard Runtime missing",
+          "version": 2
+        },
+        "0C7A0093": {
+          "text": "Failed to acquire license",
+          "version": 1
+        },
+        "0C7A0094": {
+          "text": "The license file (capability response) was uploaded",
+          "version": 1
+        }
+      }
+    },
+    "0B0A0102": {
+      "text": "Claiming attempt confirmed successfully",
+      "version": 1
+    },
+    "0B0A0103": {
+      "text": "New command added successfully",
+      "version": 1
+    },
+    "0B0A0104": {
+      "text": "Command updated successfully",
+      "version": 1
+    },
+    "0B0A0105": {
+      "text": "Device added successfully",
+      "version": 1
+    },
+    "0B0A0106": {
+      "text": "Device removed successfully",
+      "version": 1
+    },
+    "0B0A0107": {
+      "text": "Device policies set successfully",
+      "version": 1
+    },
+    "0B0A0108": {
+      "text": "Device updated successfully",
+      "version": 1
+    },
+    "0B0A0109": {
+      "text": "Policy updated successfully",
+      "version": 1
+    },
+    "0B0A010A": {
+      "text": "Status of the remote access connection changed successfully",
+      "version": 1
+    },
+    "0B0A010B": {
+      "text": "Command status updated successfully",
+      "version": 1
+    },
+    "0B0A010C": {
+      "text": "New command received from device portal",
+      "version": 1
+    },
+    "0B0A0110": {
+      "text": "Attempt to change the Service mode",
+      "version": 1
+    },
+    "0B0A0111": {
+      "text": "Service mode changed successfully",
+      "version": 1
+    },
+    "0B0E0102": {
+      "text": "Failed to update command status",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002B": {
+          "text": "Length of the command status specification exceeded",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0101": {
+      "text": "Failed to retrieve client certificates",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0102": {
+      "text": "Failed to confirm claiming attempt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0103": {
+      "text": "Failed to add a new command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0104": {
+      "text": "Failed to retrieve command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C6F0024": {
+          "text": "Requested command not found",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0105": {
+      "text": "Failed to retrieve commands",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0106": {
+      "text": "Failed to update command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0107": {
+      "text": "Failed to add device",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0108": {
+      "text": "Failed to retrieve device",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0109": {
+      "text": "Failed to remove device",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010A": {
+      "text": "Failed to retrieve device policies",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C6F0025": {
+          "text": "Policies not found for device",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010B": {
+      "text": "Failed to retrieve device policy",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0023": {
+          "text": "Claiming attempt is currently not supported",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010C": {
+      "text": "Failed to retrieve devices",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010D": {
+      "text": "Failed to set device policies",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C6F0026": {
+          "text": "Command type not supported",
+          "version": 1
+        },
+        "0C6F0027": {
+          "text": "Device not found",
+          "version": 1
+        },
+        "0C6F0028": {
+          "text": "Invalid number of policy entries",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010E": {
+      "text": "Failed to update device",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F010F": {
+      "text": "Failed to retrieve status of remote access connection",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C6F0029": {
+          "text": "Failed to convert data",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0110": {
+      "text": "Failed to update status remote access connection",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641020": {
+          "text": "Cannot parse body data from the request",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64108D": {
+          "text": "Cannot read body data from request",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0111": {
+      "text": "Failed to retrieve connection status",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0112": {
+      "text": "Failed to update command status",
+      "version": 1
+    },
+    "0B0F0113": {
+      "text": "Failed to install packages",
+      "version": 1
+    },
+    "0B0F0114": {
+      "text": "Failed to receive packages",
+      "version": 1
+    },
+    "0B0F0116": {
+      "text": "Failed to set Service mode",
+      "version": 1
+    },
+    "0B0F0117": {
+      "text": "Failed to update context package manager client",
+      "version": 1
+    },
+    "0B0F0118": {
+      "text": "Failed to retrieve claiming attempt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F0023": {
+          "text": "Claiming attempt is currently not supported",
+          "version": 1
+        }
+      }
+    },
+    "0B0F0119": {
+      "text": "Failed to create an app handler for commands",
+      "version": 1
+    },
+    "0B0F011A": {
+      "text": "Failed to create configuration file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002A": {
+          "text": "No certificates found for the Rexroth Remote Agent",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011B": {
+      "text": "Failed to read all devices",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002A": {
+          "text": "No certificates found for the Rexroth Remote Agent",
+          "version": 1
+        }
+      }
+    },
+    "100A0FFF": {
+      "text": "Trace message <userUnitName>",
+      "version": 1
+    },
+    "100E0FFF": {
+      "text": "Trace warning <userUnitName>",
+      "version": 1
+    },
+    "100F0FFF": {
+      "text": "Trace error <userUnitName>",
+      "version": 1
+    }
+  }
+}

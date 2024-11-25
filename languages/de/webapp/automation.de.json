@@ -1,0 +1,170 @@
+﻿{
+  "auto": {
+    "common": {
+      "button": {
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "read": "Lesen",
+        "write": "Schreiben",
+        "discard": "Verwerfen",
+        "create": "Anlegen",
+        "delete": "Löschen",
+        "apply": "Übernehmen",
+        "reset": "Zurücksetzen",
+        "proceed": "Fortfahren",
+        "navigateTo": "Navigiere zu",
+        "download": "Herunterladen",
+        "upload": "Hochladen"
+      }
+    },
+    "datalayer":{
+      "title": "Data Layer",
+      "titleTree": "Data Layer-Baum",
+      "selectNode": "Knoten auswählen...",
+      
+      "error": {
+        "checkMetadata": "Knoten hat keine Metadaten",
+        "checkOperationState": "{{nodeclass}}-Operation für '{{operation}}' muss '{{state}}' sein",
+        "checkReferences": "{{nodeclass}} muss eine Referenz auf die Typdefinitionen haben",
+        "checkReadWrite": "{{nodeclass}} hat weder Lese- noch Schreiboperation",
+        "checkReadAndWrite": "{{nodeclass}} hat Lese- und Schreiboperation",
+        "checkRead": "{nodeclass}}-Operation für 'read' muss 'true' sein, weil 'write' 'true' ist",
+        "schemaUndefined": "Das Schema {{schema}} wurde für den Knoten nicht definiert",
+        "schemaNotexist": "Es wurde kein Schematyp definiert"
+      },
+
+      "settings": {
+        "title": "Einstellungen",
+        "showLastNode": "Letzen Baumknoten beim Öffnen anzeigen",
+        "useTreeWidth": "Letzte Baumbreite beim Öffnen verwenden",
+        "showDisplayname": "Anzeigename im Baum anzeigen",
+        "showWarnings": "Unvollständige Konfiguration vom Data Layer-Knoten anzeigen",
+        "animateValues": "Dynamische Änderungen der Werte von Knoten animieren",
+        "rangeSubnodes": "Mögliche Kindknoten (min: {{min}} - max: {{max}})"
+      },
+
+      "dialogs": {
+        "createTitle": "Einen Kindknoten erstellen",
+        "deleteTitle": "{{nodename}} löschen",
+        "deleteInfo": "Lösche diesen Knoten und alle seine Kindknoten?",
+        "deleteError": "Löschen des Knotens fehlgeschlagen",
+        "createSuccessfull": "Kindknoten anlegen war erfolgreich"
+      },
+
+      "cmdbar": {
+        "back": "Zurück zu...",
+        "up": "Hoch nach...",
+        "refresh": "Aktualisiert ausgewählten Knoten",
+        "home": "Oberster Knoten",
+        "copypath": "Kopiert Adresse",
+        "addToWatchlist": "Fügt zur Watchlist hinzu",
+        "openViewer": "Öffnet Watchlist",
+        "showSettings": "Zeigt Einstellungen an",
+        "createChildnode": "Erstellt Kindknoten",
+        "deleteNode": "Löscht Knoten",
+        "navigateTo": "Navigiere zur Adresse",
+        "path": "Adresse",
+        "navigationFailed": "Navigation zur Adresse '{{path}}' fehlgeschlagen"
+      },
+
+      "bigdata": {
+        "title": "Kindknoten von '{{name}}' filtern",
+        "nextRange": "Nächster Bereich",
+        "prevRange": "Vorheriger Bereich",
+        "nodes": "Knoten",
+        "selInfo": "Ausgewählte Knoten: {{cntSel}} von {{cntTotal}}"
+      },
+
+      "detailview": {
+         "label": {
+           "input": "Variable",
+           "read": "Lesen",
+           "write": "Schreiben"
+         },
+
+         "common": {
+           "success": "Erfolgreich: {{date}}",
+           "error": "Fehler: {{date}}",
+           "labInput": "Eingabeparameter - Typ: {{type}}",
+           "labOut": "Ergebnis"
+         },
+
+         "header": {
+           "info": "Keine Beschreibung verfügbar"
+         },
+
+         "input": {
+           "unknown": "Unbekannter Ausgabetyp: ",
+           "title": "Wert ({{type}})",
+           "success": "Daten wurden geändert",
+           "copyvalue": "Wert in die Zwischenablage kopieren",
+           "hasCopied": "Wert wurde in die Zwischenablage kopiert",
+           "showDatetime": "Zeitstempel in Datums-Zeit-Format anzeigen",
+           "showTimestamp": "Einfaches Zeitstempelformat anzeigen"
+         },
+         "method": {
+          "hideProperties": "Optionale Eigenschaften ausblenden",
+          "showProperties": "Alle Eigenschaften anzeigen"
+         },
+         "child": {
+           "title": "Kindknoten",
+           "colName": "Name",
+           "colValue": "Wert",
+           "colUnit": "Einheit",
+           "colType": "Typ"
+         },
+
+         "attribute": {
+           "title": "Metadaten",
+           "colName": "Name",
+           "colValue": "Wert",
+           "noData": "Knoten hat keine Metadaten",
+           "showAttributes": "Zeigt nicht verfügbare Attribute an",
+           "hideAttributes": "Blendet nicht verfügbare Attribute aus"
+         }
+      },
+
+      "watchlist": {
+        "title": "Watchlist",
+        "addSuccess": "Element wurde zu Watchlist hinzugefügt '{{name}}'",
+        "deleteSuccess": "Element wurde von Watchlist gelöscht '{{name}}'",
+        "deleteError": "Element '{{name}}' konnte nicht von Watchlist gelöscht werden",
+        
+        "attribute": {
+          "colName": "Name",
+          "colPath": "Adresse",
+          "colValue": "Wert",
+          "colAction": "Aktionen"
+        },
+
+        "tooltips": {
+          "ttAdd": "Fügt Element zur Watchlist hinzu",
+          "ttDelete": "Löscht Element",
+          "ttCopy": "Kopiert Element",
+          "ttEdit": "Bearbeitet Element",
+          "ttHideActions": "Blendet Aktionen aus",
+          "ttShowActions": "Zeigt Aktionen an",
+          "ttInvalidPath": "Ungültige Adresse: Adresse existiert nicht im Datalayer"
+        },
+        
+        "viewer": {
+          "dialogs": {
+            "addTitle": "Element zur Watchlist hinzufügen",
+            "deleteTitle": "Watchlist-Element löschen '{{name}}'",
+            "editTitle": "Watchlist-Element bearbeiten '{{name}}'",
+            "copyTitle": "Watchlist-Element kopieren '{{name}}'"
+          }
+        }
+
+      }
+    }
+  },
+  
+  "widgets": {
+    "confirmdialog": {
+      "title": "Schalte auf Zustand '{{state}}'",
+      "desc": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren."
+    }
+  }
+}
+

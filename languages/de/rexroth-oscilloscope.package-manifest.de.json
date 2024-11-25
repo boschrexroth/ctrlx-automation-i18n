@@ -1,0 +1,10 @@
+{
+    "sidebar.oscilloscope.title": "Oszilloskop",
+    "configuration.oscilloscope.name": "oszilloskop",
+    "configuration.oscilloscope.description": "Oszilloskop: Verfolgt Signale aus verschiedenen Quellen und stellt Werkzeuge zu ihrer Analyse bereit",
+    "dashboard.oscilloscope.title": "Oszilloskop",
+    "dashboard.oscilloscope.description": "Zeigt den Status Ihrer Instanzen an",
+    "dashboard.oscilloscope.categories[0]": "Oszilloskop",
+    "licenses.basic.title": "ctrlX OS-Lizenz – Oszilloskop",
+    "licenses.basic.description": "Das ctrlX OSCILLOSCOPE zeichnet Signale aus verschiedenen Quellen auf und stellt Werkzeuge zu deren Analyse bereit."
+}

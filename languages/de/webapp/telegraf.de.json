@@ -1,0 +1,85 @@
+{
+  "configuration": {
+    "status": "Status",
+    "name": "Name",
+    "state": "Zustand",
+    "actions": "Aktionen",
+    "infoForEdit": "Telegraf-Konfiguration bearbeiten",
+    "furtherInfo": "Erweitert",
+    "testButton": "Telegraf-Konfiguration testen",
+    "showTestResult": "Testergebnis einblenden",
+    "hideTestResult": "Testergebnis ausblenden",
+    "addNew": {
+      "name": "Neue Telegraf-Konfiguration erstellen",
+      "fieldName": "Name",
+      "fieldTemplate": "Konfigurationsvorlage",
+      "nameHint": "Bitte einen Name eingeben",
+      "nameErrorHint": "Name existiert bereits",
+      "templateHint": "Konfigurationsvorlage auswählen"
+    },
+    "addItem":{
+      "header":"Keine Telegraf-Konfiguration hinzugefügt",
+      "addText":"Telegraf-Konfiguration hinzufügen",
+      "infoText":"Sie können die Telegraf-Konfiguration hier hinzufügen"
+    },    
+    "message":{
+      "success":{
+        "add":"Die neue Telegraf-Konfiguration wurde erfolgreich hinzugefügt",
+        "activate":"Die Telegraf-Instanz wurde mit dieser Telegraf-Konfiguration gestartet",
+        "deactivate":"Die Telegraf-Instanz wurde mit dieser Telegraf-Konfiguration gestoppt",
+        "remove":"Die Telegraf-Konfiguration wurde erfolgreich entfernt",
+        "save":"Die Telegraf-Konfiguration wurde gespeichert"
+      },
+      "error":{
+        "add":"Fehler beim Hinzufügen der neuen Telegraf-Konfiguration",
+        "activate":"Fehler beim Starten der Telegraf-Instanz",
+        "deactivate":"Fehler beim Stoppen der Telegraf-Instanz",
+        "remove":"Fehler beim Entfernen der Telegraf-Konfiguration",
+        "loadConfigFile":"Fehler beim Laden der Telegraf-Konfiguration",
+        "loadConfigDetails":"Fehler beim Laden der Konfiguration-Info",
+        "save":"Fehler beim Speichern der Telegraf-Konfiguration"
+      }
+    },
+    "alertForDelete": {
+      "title": "Wollen Sie \"{{param}}\" wirklich löschen?",
+      "description": "Die Telegraf-Konfiguration wird gelöscht. Diese Aktion kann nicht rückgängig gemacht werden."
+    },
+    "alertForSave": {
+      "title": "Möchten Sie die Änderungen an \"{{param}}\" speichern?",
+      "description": "Wenn Sie auf 'Abbrechen' klicken, ist die Änderung verloren."
+    },
+    "errorLoadAll": {
+      "message": "Die Telegraf-Konfigurationen konnten nicht geladen werden. Bitte prüfen Sie die App-Daten und starten Sie Telegraf-App erneut."
+    },
+    "unableToSave": "Die Telegraf-Konfiguration kann im Zustand 'Laufend' nicht verändert werden."
+  },
+  "state": {
+    "running": "Laufend",
+    "stopped": "Gestoppt"
+  },
+  "permissions": {
+    "noPermissions": "Sie haben nicht die erforderlichen Berechtigungen"
+  },
+  "delete": "Löschen",
+  "OK": "OK",
+  "cancel": "Abbrechen",
+  "action": {
+    "goToDiagnostic": "Diagnosen-Logbuch",
+    "start": "Starten",
+    "stop": "Stoppen",
+    "edit": "Telegraf-Konfiguration editieren"
+  },
+  "detail": "Editor",
+  "log": {
+    "info": "Diagnose-Log",
+    "open": "Fenster 'Diagnose-Log' öffnen",
+    "refresh": "Log-Daten aktualisieren",
+    "close": "Fenster 'Diagnose-Log' schließen",
+    "noNewLogs": "Keine neue Log-Daten",
+    "clear": "Diagnose-Log löschen"
+  },
+  "save": "Speichern",
+  "saveTooltip": "Telegraf-Konfiguration speichern",
+  "cancelTooltip": "Die Änderungen zu Telegraf-Konfiguration verwerfen und Fenster schließen",
+  "systemState": "Das System läuft in Service-Modus. Bitte schalten Sie das System auf Operation-Modus um und starten Telegraf erneut!"
+}

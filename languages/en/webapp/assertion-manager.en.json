@@ -1,0 +1,123 @@
+{
+  "asm.common": {
+    "assertionManager": "Assertion manager",
+    "ok.button": "OK",
+    "cancel.button": "Cancel",
+    "save.button": "Save",
+    "close.button": "Close",
+    "discard.button": "Discard",
+    "accept.button": "Accept",
+    "deny.button": "Deny",
+
+    "edit.tooltip": "Edit",
+    "delete.tooltip": "Delete",
+    "showDetails.tooltip": "Show details",
+
+    "delete.confirmation": "Are you sure you want to delete {{param}}?",
+    "delete.button": "Delete",
+
+    "actions": "Actions"
+  },
+
+  "asm.notification": {
+    "changesSavedMsg": "Changes have been saved"
+  },
+
+  "asm.startPage": {
+    "systemUserAssertions": "System user assertions",
+    "deviceCategories": "Device categories",
+    "authorities": "Authorities"
+  },
+
+  "asm.usernameValidatorLinux": {
+    "minCharacterMessage": "Username must have at least {{param}} characters",
+    "maxCharacterMessage": "Username must not exceed {{param}} characters",
+    "startCharacterMessage": "Username must start with lower case letter [a-z] or with '_'",
+    "invalidCharacterMessage": "Username may contain lower case letters [a-z], digits [0-9], '_' or '-'. It may end with '$'",
+    "reservedMessage": "This username is reserved"
+  },
+
+  "asm.assertions": {
+    "comment": "Comment / purpose",
+    "requester": "Requester",
+    "creationDateUtc": "Creation date (UTC)",
+    "deviceCategory": "Target device category",
+    "deviceSerialNo": "Target device serial no",
+    "authority": "Authority",
+    "targetUserName": "Target username",
+    "expriationDateUtc": "Expiration date (UTC)",
+    "noAssertionsMsg": "No system user assertions available",
+    "add.button": "Add system user assertion",
+    "cannotCreateAssertionMessagePart1": "Currently, you cannot add system user assertions.",
+    "cannotCreateAssertionMessagePart2": "Please contact you administrator.",
+    "noDeviceCategoriesMessagePart1": "Currently, you cannot add system user assertions because there are no device categories available.",
+    "noDeviceCategoriesMessagePart2": "First, go to the Authorities tab and add one or more Authorities.",
+    "noDeviceCategoriesMessagePart3": "Then go to the Device categories tab and add one or more device categories."
+  },
+
+  "asm.deviceCategories": {
+    "deviceCategory": "Device category",
+    "modelId": "Model id",
+    "comment": "Comment",
+    "noDeviceCategoriesMsg": "No device categories available",
+    "add.button": "Add device category",
+    "deleteDeviceCategory.title": "Delete device category",
+    "noAuthoritiesMessagePart1": "Currently, you cannot add device categories because there are no trusted authorities available.",
+    "noAuthoritiesMessagePart2": "Go to the Authorities tab and add one or more authorities first."
+  },
+
+  "asm.deviceCategoryEditor": {
+    "displayName": "Display name",
+    "modelId": "Model id",
+    "authority": "Authority",
+    "comment": "Comment",
+    "newDeviceCategory": "New device category",
+    "enterDisplayNameMessage": "Enter a display name",
+    "displayNameAlreadyExistsMessage": "This display name already exists",
+    "enterModelIdMessage": "Enter a model id",
+    "modelIdAlreadyExistsMessage": "This model id already exists"
+  },
+
+  "asm.authorities": {
+    "authority": "Authority",
+    "accountId": "Account id",
+    "trusted": "Trusted",
+    "noAuthoritiesMsg": "No authorities available",
+    "add.button": "Add authority",
+    "deleteAuthority.title": "Delete authority"
+  },
+
+  "asm.authorityEditor": {
+    "newAuthority": "New authority",
+    "displayName": "Display name",
+    "accountId": "Account id",
+    "untrustedCalloutPart1": "This authority is currently not trusted.",
+    "untrustedCalloutPart2": "To make the authority trusted choose a GPG key file, enter a password and then click Save.",
+    "gpgKeyFile": "GPG key file",
+    "chooseFile": "Choose file",
+    "password": "Password",
+    "enterDisplayNameMessage": "Enter a display name",
+    "displayNameAlreadyExistsMessage": "This display name already exists",
+    "enterAccountIdMessage": "Enter a account id",
+    "accountIdAlreadyExistsMessage": "This account id already exists",
+    "choseGpgFileMessage": "Choose a GPG key file",
+    "enterPasswordMessage": "Enter a password"
+  },
+
+  "asm.addSystemUserAssertionDialog": {
+    "title": "Create system user assertion",
+    "targetDeviceCategory": "Target device category",
+    "serialNoOfTargetDevice": "Serial number of target device",
+    "usernameOnTargetDevice": "Username on target device",
+    "passwordOnTargetDevice": "Password on target device",
+    "confirmPassword": "Confirm password",
+    "expirationDate": "Expiration date",
+    "comment": "Comment / purpose",
+    "createAssertion": "Create assertion",
+    "enterSerialNumberOfDeviceMessage": "Enter the serial number of the device",
+    "enterPasswordMessage": "Enter a password",
+    "confirmPasswordMessage": "Confirm the password",
+    "confirmationDoesNotMatchPasswordMessage": "Confirmation does not match password",
+    "enterComment": "Enter a comment"
+  }
+}
