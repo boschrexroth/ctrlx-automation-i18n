@@ -2,6 +2,10 @@
 
 The Repository ctrlx-automation-i18n aggregates translation files of the ctrlX OS system that can be used to translate ctrlX OS into different languages. The repository cotains the currently available languages english (en) and (de) for apps provided by Bosch Rexroth.
 
+## Intended use
+
+The language files in this repository can be used as base to translate ctrlX OS into different languages. Bosch Rexroth is not liable for any harm or damage caused by language packs created and published by Third-Parties.
+
 ## Repository Layout
 
 The translation files are organized in the folder `languages`. For each language exists exactly one folder following the ISO 639-1 two-letter code.
