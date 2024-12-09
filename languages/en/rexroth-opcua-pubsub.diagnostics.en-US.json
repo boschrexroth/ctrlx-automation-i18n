@@ -1,5 +1,5 @@
 {
-  "product": "UAP-V-0206",
+  "product": "UAP-V-0304",
   "mainDiagnostics": {
     "0D0A0300": {
       "text": "OPC UA PubSub message",
@@ -83,6 +83,10 @@
         },
         "0C763014": {
           "text": "UaPubSub SDK: Internal error",
+          "version": 1
+        },
+        "0C763016": {
+          "text": "There are several pub/sub configuration files in the app files. This is not permitted.",
           "version": 1
         }
       }

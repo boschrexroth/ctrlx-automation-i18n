@@ -2,9 +2,15 @@
     "app": {
         "title": "ctrlX Oscilloscope",
         "name": "Oscilloscope",
-        "addOsci": "Add Oscilloscope instance",
-        "noOsciConfigured": "No oscilloscope configured",
+        "addOsci": "Add oscilloscope instance",
+        "noOsciConfigured": "No oscilloscope instance configured",
         "readOnlyPermission": "You don't have permissions to perform this operation"
+    },
+    "persistant": {
+        "add": "Add ",
+        "delete": "Delete ",
+        "config": "Update ",
+        "basic1": " configuration persistence failed."
     },
     "overview": {
         "instance": {
@@ -32,7 +38,7 @@
         }
     },
     "noAccess": {
-        "error.header": "The Oscilloscope app is currently not available.",
+        "error.header": "The Oscilloscope App is currently not available.",
         "description": "This is most likely due to one of the following reasons:",
         "servicemode": "The 'Service mode' is currently active. Please switch to 'Operation mode' and try again.",
         "servicemode.appManagerLink": "Apps manager",
@@ -41,6 +47,7 @@
         "noPermission": "You do not have the required permissions to see this page."
     },
     "button": {
+        "ok": "OK",
         "cancel": "Cancel",
         "add": "Add",
         "delete": "Delete",
@@ -51,15 +58,17 @@
         "continue": "Continue"
     },
     "tooltip": {
-        "add": "Adds oscilloscope",
-        "delete": "Deletes oscilloscope",
+        "add": "Adds oscilloscope instance",
+        "delete": "Delete",
         "edit": "Edits configuration",
         "load": "Imports recording or configuration",
+        "loadFromDB": "Imports recording from InfluxDB",
+        "disableInfluxdb": "Only available after installing InfluxDB",
         "load_signal": "Loads configuration",
         "more": "More...",
-        "open": "Opens diagram",
+        "open": "Diagram",
         "save": "Exports recording or configuration",
-        "save_signal": "Saves signal configuration",
+        "save_signal": "Saves configuration",
         "save_all": "Saves all configurations",
         "start": "Starts recording",
         "stop": "Stops recording",
@@ -75,9 +84,14 @@
         "analyze_signal": "Signal analyze configuration",
         "storage_setting": "Edits recorded data storage configurations"
     },
+    "warn": {
+        "drive_no_data": "Drive has not provided data for a long time (P-0-0280, Oscilloscope: Trend mode, list of measured values)"
+    },
     "error": {
         "signal_remove": "Reconfigure signals(over 20 in length, all removed)",
         "no_drive_signal": "No available Drive signals, Please check {{name}}'s state.",
+        "check_state": "Please check {{name}}'s state.",
+        "check_app_status": "Please check the installation status of {{name}}",
         "signal_limit_20": "Cannot add more than 20 signals",
         "signal_limit_10": "Cannot add more than 10 signals",
         "signal_limit_8": "Cannot add more than 8 signals",
@@ -86,17 +100,18 @@
         "instance_limit": "Cannot add more than 10 instances",
         "config_incomplete": "Configuration info incomplete",
         "config_invalid": "Configuration invalid",
-        "unable_to_delete": "Cannot delete oscilloscope during recording",
+        "unable_to_delete": "Cannot delete oscilloscope instance during recording",
         "unable_to_edit": "Cannot edit configuration during recording",
-        "no_task": "No task is available. Please install the PLC or the Motion app",
+        "no_task": "No task is available. Please install the PLC or the Motion App",
         "not_exist": "{{name}} does not exist",
+        "record_timeout": "Too much data to load. Please increase timeout value in configuration.",
         "record_failed": "{{name}} recording failed",
         "osci_add_failed": "Adding {{name}} failed",
         "state_change_failed": "{{name}} state has changed",
         "state_started": "{{name}} was started",
         "state_triggered": "{{name}} was triggered",
         "cycle_time_multiple": "Time period must be an integer multiple of scheduler cycletime",
-        "signal_add_error": "The signals for the correct path was added, the signals for the wrong path was not processed!",
+        "signal_add_error": "The signal for the correct path has been added, and the others are not processed!",
         "no_drive_manual": "No Drive signal is selected, only manual mode is supported"
     },
     "zoom": {
@@ -106,14 +121,62 @@
         "scale_unit": "Scale all signals identically according to units",
         "scale_center_unit": "Scale all signals identically with dead center according to units",
         "max_signal": "Maximize signal",
-        "max_display": "Maximize signal in display area"
+        "max_display": "Maximize signal in display area",
+        "title": {
+            "x": "X-scaling",
+            "y": "Y-scaling",
+            "history": "History-scaling"
+        },
+        "manual": {
+            "title": "Manual Scaling",
+            "yMin": {
+                "header": "Min. Y-axis"
+            },
+            "yMax": {
+                "header": "Max. Y-axis"
+            },
+            "xScaling": {
+                "header": "X-scaling"
+            },
+            "xOffset": {
+                "header": "X-offset"
+            },
+            "error": {
+                "required": " is required",
+                "range": "The value exceeds the permitted range",
+                "minMax": " has to be smaller than "
+            }
+        },
+        "button": {
+            "reset": "Reset",
+            "max": "Max"
+        }
+    },
+    "density": {
+        "head": {
+            "name": "Density",
+            "info": "Due to the large amount of data, for better response speed, the data will no longer be displayed in high density. Please adjust it in 'Density'."
+        },
+        "high": {
+            "name": "High",
+            "description": "Displays all the recorded data, there may be delays in operations."
+        },
+        "medium": {
+            "name": "Medium",
+            "description": "Displays appropriate data, reaching the expected level, but there is still room for improvement."
+        },
+        "low": {
+            "name": "Low",
+            "description": "Displays fewer data results in smooth operations."
+        }
     },
     "information": {
-        "load": "Load oscilloscope instance: {{name}}",
+        "load": "{{name}} loaded",
         "offline": "Show offline instance",
+        "influxdb": "Show InfluxDB instance",
         "saved": "Configuration saved",
-        "osci_deleted": "Deleted oscilloscope {{name}}",
-        "osci_add_success": "Added oscilloscope {{name}}"
+        "osci_deleted": "Deleted oscilloscope instance {{name}}",
+        "osci_add_success": "Added oscilloscope instance {{name}}"
     },
     "state": {
         "no_cfg": "Not configured",
@@ -138,7 +201,7 @@
             "actions": "Actions"
         },
         "text": {
-            "no_osci_1": "No oscilloscope configured. To add an oscilloscope, press the",
+            "no_osci_1": "No oscilloscope instance configured. To add an oscilloscope instance, press the",
             "no_osci_2": "button in the upper right.",
             "run_Need_Signal": "Measurement can only be started after the signals are configured."
         }
@@ -149,26 +212,33 @@
         },
         "zoom": {
             "name": "Zoom"
+        },
+        "title": {
+            "min": "Min.",
+            "max": "Max.",
+            "cursor": "Cursor",
+            "unit": "Unit"
         }
     },
     "add": {
-        "title": "Add Oscilloscope instance",
+        "title": "Add oscilloscope instance",
         "header": {
             "name": "Name",
             "type": "Type"
         },
         "error": {
             "exists": "Instance name already exists",
-            "drive": "Once the page is refreshed, this instance disappears",
-            "required": "Instance name is required"
+            "required": "Instance name is required",
+            "app": "EtherCAT Master App and DRIVE Connect App (>= 3.4.*) need to be installed and configured"
         }
     },
     "delete": {
-        "title": "Delete oscilloscope",
+        "title": "Delete oscilloscope instance",
         "description": "Are you sure you want to delete {{name}}?"
     },
     "diagram": {
         "title": "Diagram configuration",
+        "titleTree": "Diagram",
         "options": "{{currentDiagram}} signal options"
     },
     "channel": {
@@ -187,7 +257,8 @@
             "Datalayer_to_Drive": "ctrlX CORE type instance does not support adding Drive signals",
             "Type_not_match": "Signal type not match",
             "path_err": "Signal path error",
-            "unique_err": "Signal exists"
+            "unique_err": "Signal exists",
+            "empty_err": "The signal path cannot be empty, please copy the node address in the Date Layer"
         },
         "tabs": {
             "signal_selection": "Signal selection",
@@ -195,9 +266,11 @@
             "trigger": "Trigger"
         },
         "signals": {
+            "titlePath": "Signal path",
+            "titleTree": "Signal tree",
             "selected": "Selected signals",
             "search": "Search",
-            "drive": "Please check whether the DRIVE Connect app and EtherCAT Master app is installed and configured correctly",
+            "drive": "Please check whether EtherCAT Master App is configured correctly",
             "RT": "Real-time signal",
             "NRT": "Non-real-time signal",
             "addPath": "Add signal path",
@@ -205,15 +278,16 @@
         },
         "storage": {
             "text": {
+                "title": "Storage",
                 "local": "Local Storage",
-                "influx": "InfluxDB Storage(Only support 'ctrlX CORE' type)",
-                "localInfo": "save to local automatically",
-                "influxInfo": "save to InfluxDB automatically"
+                "influx": "InfluxDB Storage",
+                "localInfo": "Save to local automatically",
+                "influxInfo": "Save to InfluxDB automatically"
             },
             "error": {
-                "no_app": "Please install InfluxDB app!",
-                "no_config": "Please config the InfluxDB!",
-                "restart_infor": "Local storage and Influxdb storage would be reset to inactive state after the device is restarted!"
+                "no_app": "Please install InfluxDB app and ensure it is available!",
+                "no_config": "Please config the InfluxDB query!",
+                "restart_infor": "Local storage and Influxdb storage will be reset to inactive state after the device is restarted!"
             },
             "user": {
                 "header": "Username",
@@ -233,19 +307,53 @@
                 "hint": "Only support current core."
             },
             "organization": {
-                "header": "Organization"
+                "header": "Organization",
+                "error": "Organization is required"
             },
             "token": {
                 "header": "Token",
-                "hint": " If the token list is empty, please create in the InfluxDB app!"
+                "hint": " If the token list is empty, please create in the InfluxDB App!",
+                "error": "Please create available token in the InfluxDB App!"
             },
             "bucket": {
-                "header": "Bucket"
+                "header": "Bucket",
+                "error": "Bucket is required"
+            }
+        },
+        "query": {
+            "title": {
+                "login": "InfluxDB login",
+                "query": "InfluxDB query"
+            },
+            "info": "After installing and successfully logging into InfluxDB, you can configure the query.",
+            "error": {
+                "no_record": "No recording found in the current time range"
+            },
+            "timeRange": {
+                "header": "Time range",
+                "errorEmpty": "Time range is required",
+                "errorValid": "Time range is invalid",
+                "errorRangeEnd": "The end time cannot be earlier than the start time",
+                "errorRangeStart": "The start time cannot be later than the end time"
+            },
+            "cycletime": {
+                "header": "Window period",
+                "error": "Window period is required"
+            },
+            "measurement": {
+                "header": "Measurement",
+                "error": "Measurement is required",
+                "errorTime": "No measurement found in the current time range"
+            },
+            "field": {
+                "header": "Field",
+                "error": "Field is required",
+                "errorTime": "No field found in the current time range"
             }
         },
         "recording": {
             "time": {
-                "header": "Recording time (Memory depth * Time period)(ms)",
+                "header": "Recording time (Memory depth * Time period)",
                 "hint1": "Permitted recording time: ",
                 "hint2": ". Only the time period lower than 2ms, will be limited by signal number",
                 "requiredErr": "Recording time is required",
@@ -254,14 +362,15 @@
                 "validErr": "Recording time is not valid"
             },
             "period": {
-                "header": "Time period (ms)",
+                "header": "Time period",
                 "hint1": "Permitted time period: ",
                 "hint2": ", only valid for RT signals, integer multiple of scheduler cycletime",
                 "periodErr": "Time period must be an integer multiple of scheduler cycletime",
                 "requiredErr": "Time period is required",
                 "minErr": "Time period is too short",
                 "maxErr": "Time period is too long",
-                "validErr": "Time period is not valid"
+                "validErr": "Time period is not valid",
+                "signalNumberErr": "When the number of signals exceeds 10, the time period should not be set below 2 ms."
             },
             "depth": {
                 "header": "Memory depth ",
@@ -291,7 +400,7 @@
                 "header": "Signal",
                 "placeholder": "Select a signal",
                 "error": {
-                    "no_signal": "No signal avaliable",
+                    "no_signal": "No signal available",
                     "no_selection": "Select a signal"
                 }
             },
@@ -299,37 +408,38 @@
                 "header": "Level",
                 "placeholder": "Enter signal level",
                 "error": {
-                    "no_value": "level is required",
+                    "no_value": "Level is required",
                     "type_err": "Type error"
                 }
             },
             "pretrigger": {
-                "header": "Pretrigger"
+                "header": "Pretrigger",
+                "error": {
+                    "no_value": "Pretrigger is required",
+                    "range": "Must be between 0 and 100",
+                    "integer": "Must be an integer"
+                }
             }
         },
         "save": {
-            "title": "Disable current oscilloscope?",
-            "description": "Oscilloscope configuration changed. The recorded signals will be deleted.",
+            "title": "Disable current oscilloscope instance?",
+            "description": "Oscilloscope instance configuration changed. The recorded signals will be deleted.",
             "error": {
                 "config_invalid": "Recording configuration invalid",
                 "trigger_invalid": "Trigger configuration invalid"
             }
         },
-        "cancel": {
-            "title": "Are there any unsaved changed in the measurement configuration?",
-            "description": "Measurement parameters changed. Discard your changes or cancel to continue editing."
-        },
         "recovery": {
             "title": "Reset instance configuration?",
-            "description": "There are currently more than 20 signals, and the selected mode only supports 20 signals. It is recommended to reset the instance, or manually delete the signals"
+            "description": "There are currently more than 8 signals, and the selected mode only supports 8 signals. It is recommended to reset the instance, or manually delete the signals."
         },
         "bulk_read": {
             "title": "Please use BULKREAD with caution!",
-            "description": "For performance limitation reason, too many signals may cause scheduler watchdog expiration, and the upper limit of signals number is 100."
+            "description": "For performance limitation reasons, too many signals may cause scheduler watchdog expiration, and the upper limit of signals number is 100."
         }
     },
     "analyze": {
-        "title": "Analyze",
+        "title": "Define computation",
         "mode": {
             "title": "Analyze mode",
             "header": "Mode",
@@ -346,12 +456,12 @@
             "header2": "c2"
         },
         "signal": {
-            "title": "Analyze signals(Real-time signals in same address)",
+            "title": "(Real-time signals and Drive signals)",
             "header1": "Signal 1",
             "header2": "Signal 2",
             "placeholder": "Select a signal",
             "error": {
-                "no_signal": "No signal avaliable",
+                "no_signal": "No signal available",
                 "no_selection": "Select a signal"
             }
         },
@@ -359,7 +469,7 @@
             "sameUnit": "The selected signal units must be the same",
             "sameType": "The selected signal type must be the same",
             "no_zero": "Division by 0 is not permissible",
-            "no_range": "The value c1/c2 is not within the valid calue vange: Min: -1000000, Max: 1000000",
+            "no_range": "The value c1/c2 is not within the valid value range: Min.: -1000000, Max.: 1000000",
             "no_value": "Constant cannot be empty"
         }
     },

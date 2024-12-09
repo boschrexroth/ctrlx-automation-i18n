@@ -24,12 +24,15 @@
     "title": "Lizenzen",
     "product": "Produkt",
     "count": "Anzahl",
+    "used": "Verbraucht",
+    "of": "von",
     "licenseServer": "Lizenz-Server",
     "app": "App",
     "description": "Beschreibung",
     "origin": "Quelle",
     "device": "Gerät",
     "dongle": "Dongle",
+    "server": "Server",
     "permanent": "Permanent",
     "expirationDate": "Läuft ab (UTC)",
     "unlimited": "Unbegrenzt",
@@ -84,12 +87,34 @@
 
   "lcm.settingsDialog": {
     "title": "Einstellungen",
+    "serverBasedLicensing.title": "Serverbasierte Lizenzierung",
     "temporaryUsageRights.title": "Temporäre Nutzungsrechte",
     "enableTemporaryUsageRights.button": "Temporäre Nutzungsrechte aktivieren",
     "enabled": "Aktiviert",
     "disabled": "Deaktiviert",
     "expired": "Abgelaufen",
-    "tmpUsageRemainingTime": "Verbleibende Zeit: {{param}}"
+    "tmpUsageRemainingTime": "Verbleibende Zeit: {{param}}",
+    "enableServerBasedLicensing": "Serverbasierte Lizenzierung aktivieren",
+    "serverIpAddress": "Server IP-Adresse",
+    "serverPort": "Server Port",
+    "enableClientAuth": "Client-Authentisierung aktivieren",
+    "keyCertPreSelect": "Zertifikat und Schlüssel für die Authentifizierung",
+    "deviceCertKey": "Gerätezertifikat und -schlüssel verwenden",
+    "individualCertKey": "Individuelles Zertifikat und Schlüssel auswählen",
+    "indiviualCert": "Zertifikat für die Authentifizierung",
+    "individualKey": "Schlüssel für die Authentifizierung",
+    "deviceCertKeyHint": "Beachten Sie, dass das Gerätezertifikat (und der entsprechende HSM-basierte Schlüssel) im 'Permanent Storage' unter der Kategorie 'Own' vorhanden sein muss, damit es für die gegenseitige TLS-Authentisierung verwendet werden kann.",
+    "enterIpAddressMsg": "Geben Sie eine IP-Adresse ein",
+    "enterValidIpAddressMsg": "Geben Sie eine gültige IP-Adresse ein",
+    "enterPortNumberMsg": "Geben Sie eine Portnummer ein",
+    "enterValidPortNumberMsg": "Geben Sie eine gültige Portnummer ein (1 - 65535)",
+    "selectASettingMsg": "Wählen Sie eine Einstellung aus",
+    "selectCertMsg": "Wählen Sie ein Zertifikat aus",
+    "certNotLongerExistsMsg": "Dieses Zertifikat ist nicht mehr vorhanden",
+    "selectKeyMsg": "Wählen Sie einen Schlüssel aus",
+    "noCertsAvailableMsg": "Keine Zertifikate verfügbar",
+    "noKeysAvailableMsg": "Keine Schlüssel verfügbar",
+    "keyNotLongerExistsMsg": "Dieser Schlüssel ist nicht mehr vorhanden"
   },
 
   "lcm.serverSettingsDialog": {
@@ -97,8 +122,16 @@
     "borrowInterval": "Ausleihintervall (Stunden)",
     "renewalInterval": "Erneuerungsintervall (Stunden, 80% des Ausleihintervall empfohlen)",
     "enterValueFromXToYMessage": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein",
-    "renewalMustBeSmallerThanBorrow": "Das Erneuerungsintervall muss kleiner sein als das Ausleihintervall"
-
+    "renewalMustBeSmallerThanBorrow": "Das Erneuerungsintervall muss kleiner sein als das Ausleihintervall",
+    "enableClientAuth": "Client-Authentifizierung via Mutual-TLS aktivieren",
+    "authScheme": "Authentifizierungsverfahren",
+    "verifyAlways": "Client-Zertifikaten manuell vertrauen (Interaktion durch Administrator)",
+    "trustAndVerifyCa": "Client-Zertifikaten bei erfolgreicher Überprüfung automatisch vertrauen",
+    "caCerts": "CA-Zertifikate zur Überprüfung von Client-Anfragen",
+    "noCaCertsAvailable": "Keine CA-Zertifikate vorhanden.",
+    "clickHereToAddCaCerts": "Klicken Sie hier, um CA-Zertifikate hinzuzufügen:",
+    "certsAndKeys": "Zertifikate & Schlüssel",
+    "osRootCertHint": "Beachten Sie, dass das ctrlX OS Root-Zertifikat (com.ctrlx-automation.os.crt) auch als vertrauenswürdiges CA-Zertifikat für die Überprüfung von Client-Anfragen verwendet wird"
   },
 
   "lcm.tempUsageConfirmDialog": {

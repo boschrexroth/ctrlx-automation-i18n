@@ -17,5 +17,16 @@
   "da.welcome-widget.get-started.button": "Let's get started",
   "da.welcome-widget.text1": "Get to know ctrlX OS and find out how to take your first steps with it.",
   "da.welcome-widget.text2": "Check the How-To video series.",
-  "da.welcome-widget.title": "Welcome"
+  "da.welcome-widget.title": "Welcome",
+  "da.link-widget.select-predefined-link": "Select a predefined link:",
+  "da.link-widget.predefined-link.label": "Predefined link",
+  "da.link-widget.custom-link": "Or create a custom link:",
+  "da.link-widget.link-title.label": "Title",
+  "da.link-widget.link-description.label": "Description",
+  "da.link-widget.link-url.label": "URL",
+  "da.link-widget.link-icon.label": "Icon",
+  "da.link-widget.link-open-in-new-tab.label": "Open in new tab",
+  "da.link-widget.no-icon": "No icon",
+  "da.link-widget.search": "Search",
+  "da.link-widget.no-icons-found": "No icons found"
 }

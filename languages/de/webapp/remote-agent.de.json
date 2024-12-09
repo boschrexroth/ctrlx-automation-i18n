@@ -52,6 +52,8 @@
   "rma.devices.details.policies.tab": "Richtlinien",
   "rma.devices.details.policies.command.header": "Aktivität",
   "rma.devices.details.policies.action.header": "Standardaktion",
+  "rma.devices.details.policies.action.all.header": "Standardaktion für alle Einträge",
+  "rma.devices.details.policies.action.all.placeholder": "Auswählen",
   "rma.devices.details.policies.askUser": "Benutzer fragen",
   "rma.devices.details.policies.accept": "Zustimmen",
   "rma.devices.details.policies.reject": "Ablehnen",

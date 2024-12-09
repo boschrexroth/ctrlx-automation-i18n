@@ -3,7 +3,9 @@
     "name.header": "Name",
     "name.label": "Name",
     "save.button": "Save",
+    "ok.button": "Save",
     "cancel.button": "Cancel",
+    "close.button": "Close",
     "devices.header": "Device",
     "addDevices.header": "Add Device",
     "editDevices.header": "Edit Device",
@@ -44,7 +46,8 @@
     "readOnlyPermission": "You don't have permissions to perform this operation",
     "delete.tooltip": "Delete",
     "edit.tooltip": "Edit",
-    "addInstance.header": "Add Instance"
+    "addInstance.header": "Add Instance",
+    "dataLayer.header": "Data Layer Browser"
   },
   "mbt.deviceProp": {
     "ipAddress.label": "IP address",
@@ -79,7 +82,12 @@
       "port": "Port",
       "unitId": "Unit ID",
       "name": "Name",
-      "status": "Status"
+      "status": "Status",
+      "noServerConfig": "No Server Configured",
+      "addServerConfig": "Add Server Configuration",
+      "addInstance": "Add Instance",
+      "noSubConfig": "No subscription configured",
+      "AddSub": "Add subscription"
     },
     "table": {
       "header": {

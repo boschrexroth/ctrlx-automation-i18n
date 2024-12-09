@@ -160,7 +160,8 @@
       "netUsageMsg": "Nur verbundene und aktivierte Netzwerkschnittstellen werden angezeigt.",
       "cpuUsage": "Reserviert für die Bearbeitung einer Echtzeit-Task",
       "coreReservedBySystem": "Vom System reserviert",
-      "coreReservedByUser": "Vom Benutzer für Echtzeitverarbeitung reserviert"
+      "coreReservedByUser": "Vom Benutzer für Echtzeitverarbeitung reserviert",
+      "coreReservedHelpText": "Kern 0 kann nicht für die Echtzeitverarbeitung verwendet werden"
     },
     "memory": {
       "dialogTitle": "Speicherreservierung",

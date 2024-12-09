@@ -6,6 +6,6 @@
     "scopes.docker.start-stop.description": "Erlaubt das Starten/Stoppen von Container und Lesen der Konfiguration",
     "scopes.docker.view.name": "Konfiguration lesen",
     "scopes.docker.view.description": "Erlaubt das Lesen Konfiguration",
-    "licenses.SWL-XCx-DOE-DOCKERENGINEx-NNNN.title": "ctrlX OS License - Bosch Rexroth - Container Engine",
+    "licenses.SWL-XCx-DOE-DOCKERENGINEx-NNNN.title": "ctrlX OS License - Container Engine",
     "licenses.SWL-XCx-DOE-DOCKERENGINEx-NNNN.description": "Verwendung von Docker®-Images innerhalb ctrlX OS"
 }

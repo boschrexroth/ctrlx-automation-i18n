@@ -1,31 +1,17 @@
 {
-  "product": "MOC-V-0206",
+  "product": "MOC-V-0304",
   "mainDiagnostics": {
     "100A0101": {
-      "text": "Model state",
-      "version": 1,
-      "detailedDiagnostics": {
-        "0C6D8001": {
-          "text": "Running",
-          "version": 1
-        },
-        "0C6D8002": {
-          "text": "Paused",
-          "version": 1
-        },
-        "0C6D8004": {
-          "text": "Finished",
-          "version": 1
-        }
-      }
+      "text": "Model status has changed",
+      "version": 2
     },
     "100A0102": {
-      "text": "Stop request",
-      "version": 1,
+      "text": "External request received",
+      "version": 2,
       "detailedDiagnostics": {
         "0C6D8005": {
-          "text": "Received a stop request via Simulink",
-          "version": 1
+          "text": "STOP requested.",
+          "version": 2
         }
       }
     },
@@ -51,6 +37,10 @@
         }
       }
     },
+    "100A0104": {
+      "text": "Action performed by the user",
+      "version": 1
+    },
     "100A0107": {
       "text": "Operation mode",
       "version": 1,
@@ -66,31 +56,21 @@
       }
     },
     "100A0120": {
-      "text": "Model status",
-      "version": 1,
+      "text": "Installation was successful",
+      "version": 2,
       "detailedDiagnostics": {
         "0C6D8027": {
-          "text": "Installation successful",
-          "version": 1
+          "text": "The model/function can be started if it was set not to start automatically.",
+          "version": 2
         }
       }
+    },
+    "100A0121": {
+      "text": "Action performed by the user",
+      "version": 1
     },
     "100E0101": {
       "text": "Data type not supported",
-      "version": 1,
-      "detailedDiagnostics": {
-        "0C6D800C": {
-          "text": "Please use only supported data types",
-          "version": 1
-        },
-        "0C6D800D": {
-          "text": "An empty structure was detected, the Data Layer node is interpreted as string. Please correct the model",
-          "version": 1
-        }
-      }
-    },
-    "100E0102": {
-      "text": "Cycle time exceeded",
       "version": 1
     },
     "100E0103": {
@@ -100,6 +80,34 @@
         "0C6D8044": {
           "text": "The cycle time of the task that executes the model is different from the configured value",
           "version": 1
+        },
+        "0C6D8052": {
+          "text": "The data type is not supported.",
+          "version": 1
+        },
+        "0C6D8053": {
+          "text": "The cycle time exceeded.",
+          "version": 1
+        }
+      }
+    },
+    "100E0104": {
+      "text": "Security vulnerability",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D804E": {
+          "text": "The server in external mode is active on an unsecured open port.",
+          "version": 1
+        }
+      }
+    },
+    "100E0105": {
+      "text": "Server status in external mode",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6D8062": {
+          "text": "The external mode has been disabled after the first stop. Subsequent starts will not restart the external mode server.",
+          "version": 1
         }
       }
     },
@@ -108,31 +116,81 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C6D8023": {
-          "text": "Due to license restrictions, the model is not executed as task in the Scheduler. Please extend your license to remove this restriction.",
-          "version": 1
-        }
-      }
-    },
-    "100E0121": {
-      "text": "Model status",
-      "version": 1,
-      "detailedDiagnostics": {
-        "0C6D8034": {
-          "text": "Failed to read the configured properties. The model is not executed as task in the Scheduler.",
-          "version": 1
+          "text": "Due to license restrictions, the model is not executed as task in the Scheduler.",
+          "version": 2
         }
       }
     },
     "100F0101": {
-      "text": "Model execution failed",
-      "version": 1,
+      "text": "Fatal error occurred",
+      "version": 2,
       "detailedDiagnostics": {
         "0C6D800E": {
-          "text": "An internal error occurred, the model is terminated",
-          "version": 1
+          "text": "An internal error occurred, the model is canceled.",
+          "version": 2
         },
         "0C6D8031": {
-          "text": "Access to the ctrlX Data Layer memory to retrieve information is not possible",
+          "text": "Failed to access the memory of the Data Layer to retrieve information.",
+          "version": 2
+        },
+        "0C6D804F": {
+          "text": "Failed to access the real-time Data Layer node.",
+          "version": 1
+        },
+        "0C6D8050": {
+          "text": "Failed to create the node for the real-time Data Layer.",
+          "version": 1
+        },
+        "0C6D8051": {
+          "text": "Failed to register the node.",
+          "version": 1
+        },
+        "0C6D8054": {
+          "text": "Failed to establish the connection to the Data Layer.",
+          "version": 1
+        },
+        "0C6D8055": {
+          "text": "Failed to register the node type.",
+          "version": 1
+        },
+        "0C6D8056": {
+          "text": "Failed to unregister the node.",
+          "version": 1
+        },
+        "0C6D8057": {
+          "text": "Failed to unregister the node type.",
+          "version": 1
+        },
+        "0C6D8058": {
+          "text": "Problem detected with Matlab function argument.",
+          "version": 1
+        },
+        "0C6D8059": {
+          "text": "Failed to create Data Layer nodes for the function.",
+          "version": 1
+        },
+        "0C6D805A": {
+          "text": "Zero-sized model variable",
+          "version": 1
+        },
+        "0C6D805B": {
+          "text": "Failed to connect the source node to the target node, as its operations could not be read.",
+          "version": 1
+        },
+        "0C6D805C": {
+          "text": "Failed to allocate memory for the MATLAB function.",
+          "version": 1
+        },
+        "0C6D805D": {
+          "text": "Invalid code generated by MATLAB Coder.",
+          "version": 1
+        },
+        "0C6D805E": {
+          "text": "Failed to prepare the scheduling mechanism.",
+          "version": 1
+        },
+        "0C6D8060": {
+          "text": "Error during the FMU initialization",
           "version": 1
         }
       }
@@ -142,8 +200,8 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C6D800F": {
-          "text": "An increase in the cycle time is proposed",
-          "version": 1
+          "text": "The device may be overloaded.",
+          "version": 2
         }
       }
     },
@@ -151,40 +209,16 @@
       "text": "An error condition was detected during model execution",
       "version": 2,
       "detailedDiagnostics": {
-        "0C6D8010": {
-          "text": "Unable to create Data Layer nodes",
-          "version": 1
-        },
-        "0C6D801C": {
-          "text": "The data type of the model does not match the data type of the configured ctrlX Data Layer node",
-          "version": 2
-        },
         "0C6D801E": {
           "text": "The source node could not establish a connection to the target node, as it was not available.",
-          "version": 2
+          "version": 3
         },
-        "0C6D801F": {
-          "text": "Could not access the Data Layer node due to missing permissions. The model will be further executed.",
-          "version": 2
-        },
-        "0C6D8020": {
-          "text": "The source node (realtime) attempts to establish a connection to a non-realtime node. This connection is not permitted.",
-          "version": 2
-        },
-        "0C6D8021": {
-          "text": "Access to the ctrlX Data Layer memory to retrieve information is not possible",
+        "0C6D805F": {
+          "text": "Port already in use. Unable to accept Simulink connections through the external mode.",
           "version": 1
         },
-        "0C6D8045": {
-          "text": "The source node could not establish a connection to the target node, as its operations could not be read.",
-          "version": 1
-        },
-        "0C6D804A": {
-          "text": "Local memory cannot be allocated for Matlab function",
-          "version": 1
-        },
-        "0C6D804B": {
-          "text": "Invalid code generated by MATLAB Coder",
+        "0C6D8061": {
+          "text": "Cannot retrieve metadata node",
           "version": 1
         }
       }
@@ -193,64 +227,26 @@
       "text": "Corrupted data",
       "version": 1,
       "detailedDiagnostics": {
-        "0C6D8011": {
-          "text": "Attempted access to values beyond the limits of an array of signals or parameters",
-          "version": 1
-        },
         "0C6D801B": {
-          "text": "Tried to write an undefined number (NaN). Please run the model in Simulink to rule out general modeling problems (e.g. step width too large).",
-          "version": 1
+          "text": "Tried to write an undefined number (NaN).",
+          "version": 2
         }
       }
     },
     "100F0105": {
-      "text": "Could not create task/callable",
-      "version": 1,
+      "text": "Error handling task/callable",
+      "version": 2,
       "detailedDiagnostics": {
         "0C6D8012": {
-          "text": "Please create a task and then add the callable to that task",
-          "version": 1
+          "text": "The callable is in the pool, but not assigned to a task.",
+          "version": 2
         },
         "0C6D8013": {
-          "text": "Please ensure that the callable is not yet assigned to a task before assigning it to a new task.",
-          "version": 2
-        }
-      }
-    },
-    "100F0106": {
-      "text": "Error when reading the properties",
-      "version": 1,
-      "detailedDiagnostics": {
-        "0C6D8014": {
-          "text": "Configuration is incomplete",
-          "version": 2
+          "text": "There is already a task associated with this callable. The callable can only be part of a single task.",
+          "version": 3
         },
-        "0C6D8015": {
-          "text": "Priority parameter: The model is executed with low priority",
-          "version": 1
-        },
-        "0C6D8016": {
-          "text": "Parameter cycle time. The model cannot be started",
-          "version": 2
-        },
-        "0C6D8017": {
-          "text": "Block signals enabled parameter: The model is executed with disabled block signals",
-          "version": 1
-        },
-        "0C6D8018": {
-          "text": "Autostart parameter: The model is not started automatically",
-          "version": 1
-        },
-        "0C6D8019": {
-          "text": "Parameter inputs: The model is executed with a limited number of inputs",
-          "version": 1
-        },
-        "0C6D801A": {
-          "text": "Parameter outputs: The model is executed with a limited number of outputs",
-          "version": 1
-        },
-        "0C6D8022": {
-          "text": "Source tool not configured. The model cannot be started",
+        "0C6D804D": {
+          "text": "The model does not allow to change the cycle time.",
           "version": 1
         }
       }
@@ -260,28 +256,24 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C6D8003": {
-          "text": "The configured cycle time is smaller than the minimum. A cycle time of 2 ms is used.",
-          "version": 1
+          "text": "The configured cycle time is smaller than the minimum. A cycle time of 500 us is used.",
+          "version": 3
         },
         "0C6D801D": {
           "text": "The configured cycle time is greater than the maximum. A cycle time of 1000 ms is used.",
-          "version": 1
+          "version": 2
         },
         "0C6D8046": {
-          "text": "Size of configured array default value does not match the size of the connected node",
-          "version": 1
+          "text": "The size of the configured default value of the array does not correspond to the size of the connected node.",
+          "version": 2
         },
         "0C6D8047": {
-          "text": "Type convertion failed",
-          "version": 1
+          "text": "Failed to convert the type.",
+          "version": 2
         },
         "0C6D8048": {
-          "text": "Connected node has unsupported data type",
-          "version": 1
-        },
-        "0C6D8049": {
-          "text": "Configured value does not correspond to any of the expected values",
-          "version": 1
+          "text": "Connected node contains unsupported data type.",
+          "version": 2
         }
       }
     },
@@ -290,84 +282,108 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C6D8025": {
-          "text": "The number of local inputs exceeds the allowed number of the license used. Please extend your license to remove this restriction.",
-          "version": 1
+          "text": "The number of regular inputs allowed by the license has been exceeded.",
+          "version": 2
         },
         "0C6D8026": {
-          "text": "The number of connected inputs exceeds the allowed number of the license used. Please extend your license to remove this restriction.",
-          "version": 1
+          "text": "The number of connected inputs allowed by the license has been exceeded.",
+          "version": 2
         },
         "0C6D8028": {
-          "text": "Error while deploying the model",
-          "version": 1
+          "text": "Error while deploying the model.",
+          "version": 2
         },
         "0C6D8030": {
-          "text": "Provided package is invalid",
-          "version": 2
+          "text": "Provided package is invalid.",
+          "version": 3
         },
         "0C6D8033": {
-          "text": "An error occurred while creating the Data Layer nodes for the model",
-          "version": 1
-        },
-        "0C6D8035": {
-          "text": "Failed to read a mandatory configured property",
-          "version": 1
-        },
-        "0C6D8036": {
-          "text": "Failed to write to Data Layer node",
-          "version": 1
-        },
-        "0C6D8037": {
-          "text": "Model already installed",
-          "version": 1
-        },
-        "0C6D8038": {
-          "text": "Model is currently installed",
+          "text": "An error occurred while creating the Data Layer nodes for the model.",
           "version": 2
         },
+        "0C6D8035": {
+          "text": "Failed to read a mandatory configuration setting.",
+          "version": 2
+        },
+        "0C6D8037": {
+          "text": "A model with the same name is already installed.",
+          "version": 2
+        },
+        "0C6D8038": {
+          "text": "A model with the same name is currently being installed.",
+          "version": 3
+        },
         "0C6D8039": {
-          "text": "The model package is too large",
-          "version": 1
+          "text": "The model package is too large.",
+          "version": 2
         },
         "0C6D8040": {
-          "text": "Unexpected error during installation",
-          "version": 1
+          "text": "Unexpected error during installation.",
+          "version": 2
         },
         "0C6D8041": {
-          "text": "The model/function was built for a different processor architecture",
-          "version": 1
+          "text": "The model/function was compiled for a different processor architecture.",
+          "version": 2
         },
         "0C6D8043": {
-          "text": "Versions are not compatible",
+          "text": "Versions are not compatible.",
+          "version": 2
+        },
+        "0C6DC003": {
+          "text": "Invalid configuration file",
+          "version": 1
+        },
+        "0C6DC004": {
+          "text": "Invalid cycle time. The value should be 0.5 or an integer up to 1000 (in milliseconds).",
+          "version": 1
+        },
+        "0C6DC005": {
+          "text": "The package does not contain the artifacts required to build the model.",
+          "version": 1
+        },
+        "0C6DC006": {
+          "text": "The package compiled in advance does not contain all the required artifacts.",
+          "version": 1
+        },
+        "0C6DC007": {
+          "text": "Unsupported FMU version",
+          "version": 1
+        },
+        "0C6DC008": {
+          "text": "Only co-simulation FMUs are supported.",
+          "version": 1
+        },
+        "0C6DC00B": {
+          "text": "Error processing file modelDescription.xml",
           "version": 1
         }
       }
     },
     "100F0121": {
-      "text": "Model status",
-      "version": 1,
+      "text": "Failed to uninstall",
+      "version": 2,
       "detailedDiagnostics": {
         "0C6D8032": {
-          "text": "Failed to uninstall",
-          "version": 1
+          "text": "An unexpected internal error occurred.",
+          "version": 2
         }
       }
     },
     "100F0122": {
-      "text": "Web server status",
-      "version": 1,
+      "text": "Web server problem",
+      "version": 2,
       "detailedDiagnostics": {
         "0C6D8024": {
-          "text": "The web server was stopped",
-          "version": 1
+          "text": "The web server was stopped.",
+          "version": 2
         },
         "0C6D8029": {
-          "text": "Failed to initialize",
-          "version": 1
+          "text": "Failed to initialize.",
+          "version": 2
         },
         "0C6D8042": {
-          "text": "Still getting ready, please try again later",
-          "version": 1
+          "text": "Web server is still being prepared.",
+          "version": 2
         }
       }
     },
@@ -376,15 +392,29 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C6DC000": {
-          "text": "Model deleted due to inconsistent installation and backup",
-          "version": 1
+          "text": "Model deleted due to inconsistent installation and backup.",
+          "version": 2
         },
         "0C6DC001": {
-          "text": "Model deleted due to unsuccessful restoration of the Data Layer node.",
-          "version": 1
+          "text": "The model was deleted due to a failed restoration of a Data Layer node.",
+          "version": 2
         },
         "0C6DC002": {
           "text": "An unexpected internal malfunction occurred while restoring models.",
+          "version": 2
+        }
+      }
+    },
+    "100F0124": {
+      "text": "Insufficient system resources",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6DC009": {
+          "text": "The system does not have enough RAM to process this request.",
+          "version": 1
+        },
+        "0C6DC00A": {
+          "text": "The system does not have enough CPU cores to process this request.",
           "version": 1
         }
       }

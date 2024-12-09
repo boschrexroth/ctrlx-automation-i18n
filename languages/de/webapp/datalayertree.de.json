@@ -1,0 +1,12 @@
+﻿{
+  "noItems":"Keine artikel zum anzeigen.",
+  "common": {
+    "yes.button": "Ja",
+    "no.button": "Nein",
+    "cancel.button": "Abbrechen",
+    "ok.button": "OK"
+   },
+  "datalayer":{
+    "datalayerBrowser.title": "Data Layer Browser"
+  }
+}

@@ -7,8 +7,6 @@
   "licenses.SWL-XCx-MOC-SIMULINKxxxxx-BANN.description": "Target Runtime für Simulink® Code mit max. 3 Inputs, ohne Synchronmodus.",
   "licenses.SWL-XCx-MOC-SIMULINKxxxxx-PRNN.title": "ctrlX OS Lizenz - Model Connect Performance",
   "licenses.SWL-XCx-MOC-SIMULINKxxxxx-PRNN.description": "Target Runtime für Simulink® Code mit unlimitierten Inputs und Synchronmodus.",
-  "licenses.SWL-XCx-MOC-SIMULINKxEDUx-NNNN.title": "ctrlX OS Lizenz - Model Connect Basic (Education)",
-  "licenses.SWL-XCx-MOC-SIMULINKxEDUx-NNNN.description": "Target Runtime für Simulink® Code mit max. 3 Inputs, ohne Synchronmodus. (EDU)",
   "scopes-declaration.modelconnect.web.name": "Model Connect",
   "scopes-declaration.modelconnect.web.description": "Verwaltung der Berechtigungen",
   "scopes-declaration.modelconnect.picture.r.name": "Anzeige der Modellstruktur",

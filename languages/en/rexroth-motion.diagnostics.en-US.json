@@ -1,5 +1,5 @@
 {
-  "product": "MOT-V-0206",
+  "product": "MOT-V-0304",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
@@ -103,6 +103,10 @@
       "text": "Message in the jog command of the kinematics",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position is outside or at the limit value and is commanded to move further out",
+          "version": 1
+        },
         "0C550147": {
           "text": "Jog motion ended, as the limit value of the position was reached",
           "version": 1
@@ -313,6 +317,10 @@
       "text": "AxisProfile booting message",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580035": {
+          "text": "Function not supported",
+          "version": 1
+        },
         "0C580700": {
           "text": "Waiting for required field bus master instances",
           "version": 1
@@ -330,7 +338,7 @@
           "version": 1
         },
         "0C580704": {
-          "text": "Waiting for field bus master realt-time memory to be available",
+          "text": "Waiting for field bus master real-time memory to be available",
           "version": 1
         },
         "0C580705": {
@@ -511,6 +519,38 @@
         }
       }
     },
+    "090E0004": {
+      "text": "Warning with regard to axis configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C56024E": {
+          "text": "Axis configuration is set to ignore the axis profile (axis becomes virtual)",
+          "version": 1
+        }
+      }
+    },
+    "090E0005": {
+      "text": "Error in the configuration of the teach points",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550410": {
+          "text": "The specified reference system is not supported.",
+          "version": 1
+        },
+        "0C550411": {
+          "text": "There is no point under the specified point name.",
+          "version": 1
+        },
+        "0C560410": {
+          "text": "The specified point name has an incorrect format.",
+          "version": 1
+        },
+        "0C560411": {
+          "text": "A point already exists under the specified point name.",
+          "version": 1
+        }
+      }
+    },
     "090E0010": {
       "text": "Warning in jog command of the axis",
       "version": 1,
@@ -555,6 +595,14 @@
       "text": "AxisProfile booting warning",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580000": {
+          "text": "Function not implemented",
+          "version": 1
+        },
+        "0C580006": {
+          "text": "Profile not found",
+          "version": 1
+        },
         "0C580500": {
           "text": "Booting aborted",
           "version": 1
@@ -581,6 +629,14 @@
         },
         "0C580506": {
           "text": "The task's callable unit \"axisprofile adaption\" could not be switched to the state \"RUN\"",
+          "version": 1
+        },
+        "0C580600": {
+          "text": "Error while reading parameter information from the device via field bus with Data Layer read request",
+          "version": 1
+        },
+        "0C580704": {
+          "text": "Waiting for field bus master real-time memory to be available",
           "version": 1
         }
       }
@@ -641,6 +697,10 @@
           "text": "Null pointer detected",
           "version": 1
         },
+        "0C580102": {
+          "text": "Failed to execute the axis profile command",
+          "version": 1
+        },
         "0C580402": {
           "text": "Scaling type error",
           "version": 1
@@ -655,8 +715,28 @@
       "text": "Axis profile configuration error",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580005": {
+          "text": "An attempt was made to write an invalid device address",
+          "version": 1
+        },
         "0C580030": {
           "text": "Invalid device name",
+          "version": 1
+        },
+        "0C580040": {
+          "text": "Axis profile settings can only be loaded in the configuration state.",
+          "version": 1
+        },
+        "0C580042": {
+          "text": "Failed to load the axis profile settings from the saved JSON file.",
+          "version": 1
+        },
+        "0C580043": {
+          "text": "Failed to save the axis profile data to the active configuration.",
+          "version": 1
+        },
+        "0C580044": {
+          "text": "Failed to extract the transferred persistence parameter \"flatbuffer\" to the specified values.",
           "version": 1
         },
         "0C580061": {
@@ -717,6 +797,26 @@
         },
         "0C580097": {
           "text": "Profile variable not assigned",
+          "version": 1
+        },
+        "0C580200": {
+          "text": "Invalid flat buffer",
+          "version": 1
+        },
+        "0C580500": {
+          "text": "Booting aborted",
+          "version": 1
+        },
+        "0C580704": {
+          "text": "Waiting for field bus master real-time memory to be available",
+          "version": 1
+        },
+        "0C580707": {
+          "text": "Validating the mapping configuration",
+          "version": 1
+        },
+        "0C580708": {
+          "text": "Wait until the profile manager is available",
           "version": 1
         }
       }
@@ -779,6 +879,10 @@
           "text": "Invalid profile category data",
           "version": 1
         },
+        "0C580041": {
+          "text": "Axis profile settings can only be saved in the configuration state.",
+          "version": 1
+        },
         "0C580050": {
           "text": "Request to the axis profile state failed",
           "version": 1
@@ -833,6 +937,10 @@
       "text": "Switching the operation mode failed",
       "version": 2,
       "detailedDiagnostics": {
+        "0C580050": {
+          "text": "Request to the axis profile state failed",
+          "version": 1
+        },
         "0C580053": {
           "text": "Switch axis profile state to \"Running\" failed",
           "version": 1
@@ -887,6 +995,10 @@
           "text": "Inconsistent scaling type on drive and control side",
           "version": 1
         },
+        "0C580402": {
+          "text": "Scaling type error",
+          "version": 1
+        },
         "0C580404": {
           "text": "FPU exception detected during the calculation of scaling data.",
           "version": 1
@@ -932,6 +1044,10 @@
         "0C580506": {
           "text": "The task's callable unit \"axisprofile adaption\" could not be switched to the state \"RUN\"",
           "version": 1
+        },
+        "0C580600": {
+          "text": "Error while reading parameter information from the device via field bus with Data Layer read request",
+          "version": 1
         }
       }
     },
@@ -954,6 +1070,10 @@
         "0C560210": {
           "text": "Motion basic license missing",
           "version": 1
+        },
+        "0C560212": {
+          "text": "An installed license requires another license as basis. Because the basis license is not installed, the installed license cannot be used.",
+          "version": 1
         }
       }
     },
@@ -961,6 +1081,30 @@
       "text": "Axis configuration error",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Operation mode velocity not supported by commanded drive",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Cyclic data for operation mode Velocity in the axis profile not configured",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
+          "version": 1
+        },
         "0C550183": {
           "text": "Operation mode position not supported by commanded drive",
           "version": 1
@@ -1033,6 +1177,10 @@
           "text": "Axis category is invalid",
           "version": 1
         },
+        "0C56024D": {
+          "text": "The modulo value of the axis is not equal to the modulo value of the driver.",
+          "version": 1
+        },
         "0C560254": {
           "text": "Standard unit for a kinematic position (XYZ) has to be a linear position unit",
           "version": 1
@@ -1059,6 +1207,10 @@
       "text": "Kinematic configuration error",
       "version": 1,
       "detailedDiagnostics": {
+        "0C02A100": {
+          "text": "The configuration parameter already exists.",
+          "version": 1
+        },
         "0C550272": {
           "text": "Error while configuring the encoder axis",
           "version": 1
@@ -1151,6 +1303,18 @@
           "text": "Invalid parameters in the axis transformation",
           "version": 1
         },
+        "0C5602A0": {
+          "text": "Creating, changing and deleting the configuration parameter is not permitted in the \"OPERATION\" status.",
+          "version": 1
+        },
+        "0C5602A1": {
+          "text": "The configuration parameter already exists.",
+          "version": 1
+        },
+        "0C5602A2": {
+          "text": "The configuration parameter was not found.",
+          "version": 1
+        },
         "0C570002": {
           "text": "Motion object (axis or kinematics) command failed",
           "version": 1
@@ -1165,6 +1329,10 @@
       "text": "Error in configuration of the Motion system",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550632": {
+          "text": "Point tables cannot be changed/deleted if these points tables are in use.",
+          "version": 1
+        },
         "0C560201": {
           "text": "Motion object with given name was not found",
           "version": 1
@@ -1303,6 +1471,36 @@
         }
       }
     },
+    "090F0071": {
+      "text": "Error when accessing data of external ctrlX MOTION bundles",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560290": {
+          "text": "Error when browsing the available data.",
+          "version": 1
+        },
+        "0C560291": {
+          "text": "No data available for this address.",
+          "version": 1
+        },
+        "0C560292": {
+          "text": "The system is in a state in which the handle cannot be read.",
+          "version": 1
+        },
+        "0C560293": {
+          "text": "Error reading the data type of the data.",
+          "version": 1
+        },
+        "0C560294": {
+          "text": "Incorrect data type for the data to be read.",
+          "version": 1
+        },
+        "0C560295": {
+          "text": "The handle is invalid.",
+          "version": 1
+        }
+      }
+    },
     "090F0080": {
       "text": "General error of the encoder axis",
       "version": 1,
@@ -1331,6 +1529,20 @@
         },
         "0C550362": {
           "text": "Torque mode is not supported",
+          "version": 1
+        }
+      }
+    },
+    "090F00A0": {
+      "text": "Non-critical error in a Motion Extension bundle",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550800": {
+          "text": "A value in the configuration is invalid or beyond the permitted range.",
+          "version": 1
+        },
+        "0C550801": {
+          "text": "General error when processing configuration data",
           "version": 1
         }
       }
@@ -1552,7 +1764,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "The angleAdjust is invalid.",
+          "text": "The AngleAdjust is invalid.",
           "version": 1
         },
         "0C550608": {
@@ -1947,6 +2159,10 @@
           "text": "Command for encoder axis not permitted",
           "version": 1
         },
+        "0C550700": {
+          "text": "Command for Mover axis not permitted",
+          "version": 1
+        },
         "0C560000": {
           "text": "Axis for axis command was not found",
           "version": 1
@@ -2035,6 +2251,34 @@
         },
         "0C550120": {
           "text": "Axis or kinematic is still moving",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
         "0C570100": {
@@ -2161,6 +2405,34 @@
           "text": "Position is outside or at the limit value and is commanded to move further out",
           "version": 1
         },
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
         "0C570160": {
           "text": "Unsupported unit configured for command parameter",
           "version": 1
@@ -2223,6 +2495,34 @@
         },
         "0C550158": {
           "text": "Axis or gantry is still moving",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
         "0C570100": {
@@ -2325,7 +2625,13 @@
     },
     "090F200C": {
       "text": "General axis command error",
-      "version": 1
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        }
+      }
     },
     "090F200D": {
       "text": "Error in abort command of the axis",
@@ -2341,6 +2647,10 @@
         },
         "0C550182": {
           "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
         "0C560102": {
@@ -2396,6 +2706,22 @@
         "0C550182": {
           "text": "Switch to drive operation mode failed",
           "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
         }
       }
     },
@@ -2423,6 +2749,18 @@
           "text": "Device is not correctly configured for operation mode \"velocity\"",
           "version": 1
         },
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
+          "version": 1
+        },
         "0C550180": {
           "text": "Timeout when switching to drive operation mode",
           "version": 1
@@ -2433,6 +2771,22 @@
         },
         "0C550182": {
           "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         }
       }
@@ -3201,6 +3555,20 @@
         }
       }
     },
+    "090F2023": {
+      "text": "Error when executing move-to-point",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550410": {
+          "text": "The specified reference system is not supported.",
+          "version": 1
+        },
+        "0C550411": {
+          "text": "There is no point under the specified point name.",
+          "version": 1
+        }
+      }
+    },
     "090F2030": {
       "text": "Error in command options",
       "version": 1,
@@ -3286,27 +3654,27 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C550330": {
-          "text": "Command option \"SafeZones\" - Invalid zone type configured",
+          "text": "Invalid zone type configured",
           "version": 1
         },
         "0C550331": {
-          "text": "Command option \"SafeZones\" - A part of the commanded motion is not covered by any active inclusive work areas",
+          "text": "A part of the commanded motion is not covered by any active inclusive work areas",
           "version": 1
         },
         "0C550332": {
-          "text": "Command option \"SafeZones\" - The commanded motion violates a safe zone",
+          "text": "The commanded motion violates a safe zone",
           "version": 1
         },
         "0C550333": {
-          "text": "Command option \"SafeZones\" - Commanded motion left one of the exclusive work areas",
+          "text": "Commanded motion left one of the exclusive work areas",
           "version": 1
         },
         "0C550334": {
-          "text": "Command option \"SafeZones\" - Couldn't transform the position into the coordinate system of the safe zone/work area",
+          "text": "Couldn't transform the position into the coordinate system of the safe zone/work area",
           "version": 1
         },
         "0C550335": {
-          "text": "Command option \"SafeZones\" - Safe zone/work area not found in configuration",
+          "text": "Safe zone/work area not found in configuration",
           "version": 1
         }
       }
@@ -3325,10 +3693,74 @@
         }
       }
     },
+    "090F2036": {
+      "text": "Error in command option \"BeltSync\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion object with given name was not found",
+          "version": 1
+        },
+        "0C570170": {
+          "text": "The axis is not configured as a belt.",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Given parameter for command option is invalid",
+          "version": 1
+        },
+        "0C5701B2": {
+          "text": "Another command option with the same identifier is active, but the data could not be read",
+          "version": 1
+        }
+      }
+    },
+    "090F2037": {
+      "text": "Error in command option \"SafeAreaExec\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550331": {
+          "text": "A part of the commanded motion is not covered by any active inclusive work areas",
+          "version": 1
+        },
+        "0C550332": {
+          "text": "The commanded motion violates a safe zone",
+          "version": 1
+        },
+        "0C550333": {
+          "text": "Commanded motion left one of the exclusive work areas",
+          "version": 1
+        },
+        "0C550335": {
+          "text": "Safe zone/work area not found in configuration",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C5701B0": {
+          "text": "Error in command option processing",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Given parameter for command option is invalid",
+          "version": 1
+        },
+        "0C5701B2": {
+          "text": "Another command option with the same identifier is active, but the data could not be read",
+          "version": 1
+        }
+      }
+    },
     "090F2040": {
       "text": "System error in the Motion system",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550315": {
+          "text": "Requested coordinate system is not available",
+          "version": 1
+        },
         "0C560270": {
           "text": "Internal error occurred",
           "version": 1
@@ -3353,12 +3785,34 @@
           "text": "Position gap in the interpolation of the kinematics detected",
           "version": 1
         },
+        "0C560277": {
+          "text": "Global request to the Motion state is rejected, as the axis/kinematics has at least still one command in the preparation buffer",
+          "version": 1
+        },
         "0C570100": {
           "text": "Invalid state",
           "version": 1
         },
         "0C570101": {
           "text": "Invalid parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2041": {
+      "text": "Error in the monitoring of the safety function in the drive",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550280": {
+          "text": "Selected safety mode or state is not assigned in the axis profile",
+          "version": 1
+        },
+        "0C550281": {
+          "text": "Axis profile is not started correctly",
+          "version": 1
+        },
+        "0C550282": {
+          "text": "Unknown error when determining the safety mode in the drive",
           "version": 1
         }
       }
@@ -3440,6 +3894,10 @@
         "0C550182": {
           "text": "Switch to drive operation mode failed",
           "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
         }
       }
     },
@@ -3457,6 +3915,22 @@
         },
         "0C550182": {
           "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         }
       }
@@ -3476,6 +3950,26 @@
         "0C550182": {
           "text": "Switch to drive operation mode failed",
           "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
+        "0C560460": {
+          "text": "No support to check the homed status of the axis",
+          "version": 1
         }
       }
     },
@@ -3483,6 +3977,34 @@
       "text": "Error in axis command \"Homing\"",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Operation mode position not supported by commanded drive",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Cyclic data for operation mode Position are not configured in the axis profile",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
         "0C560460": {
           "text": "No support to check the homed status of the axis",
           "version": 1
@@ -3556,6 +4078,10 @@
         "0C56048B": {
           "text": "Request to the touch probe state failed",
           "version": 1
+        },
+        "0C56048C": {
+          "text": "Invalid selection information for touch probe signal selection",
+          "version": 1
         }
       }
     },
@@ -3575,6 +4101,10 @@
           "text": "Switch to drive operation mode failed",
           "version": 1
         },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
         "0C560102": {
           "text": "Deceleration limit exceeded",
           "version": 1
@@ -3585,6 +4115,50 @@
         },
         "0C57010D": {
           "text": "Error when computing the interpolation parameters",
+          "version": 1
+        }
+      }
+    },
+    "090F2066": {
+      "text": "Error in the Torque axis command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Timeout when switching to drive operation mode",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Switch to drive operation mode not allowed when axis is moving",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Switch to drive operation mode failed",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        }
+      }
+    },
+    "090F20A0": {
+      "text": "Commanding error from a Motion Extension bundle",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "General error",
+          "version": 1
+        },
+        "0C570110": {
+          "text": "Value beyond the range",
           "version": 1
         }
       }
@@ -3603,6 +4177,18 @@
         },
         "0C550174": {
           "text": "Device is not correctly configured for operation mode \"velocity\"",
+          "version": 1
+        },
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
           "version": 1
         },
         "0C550181": {
@@ -3651,6 +4237,10 @@
         },
         "0C550249": {
           "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
           "version": 1
         },
         "0C550500": {
@@ -3803,6 +4393,14 @@
           "text": "Switch to drive operation mode not allowed when axis is moving",
           "version": 1
         },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
+          "version": 1
+        },
         "0C550500": {
           "text": "Invalid synchronization mode",
           "version": 1
@@ -3868,7 +4466,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "The angleAdjust is invalid.",
+          "text": "The AngleAdjust is invalid.",
           "version": 1
         },
         "0C550608": {
@@ -4009,6 +4607,10 @@
           "text": "Switch to drive operation mode not allowed when axis is moving",
           "version": 1
         },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
         "0C550537": {
           "text": "The slave axis in the error state LIGHT",
           "version": 1
@@ -4031,6 +4633,18 @@
           "text": "Device is not correctly configured for operation mode \"velocity\"",
           "version": 1
         },
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
+          "version": 1
+        },
         "0C550181": {
           "text": "Switch to drive operation mode not allowed when axis is moving",
           "version": 1
@@ -4045,6 +4659,10 @@
         },
         "0C550185": {
           "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
         "0C550240": {
@@ -4077,6 +4695,10 @@
         },
         "0C550249": {
           "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
           "version": 1
         },
         "0C550500": {
@@ -4221,6 +4843,14 @@
           "text": "Switch to drive operation mode not allowed when axis is moving",
           "version": 1
         },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
+          "version": 1
+        },
         "0C550500": {
           "text": "Invalid synchronization mode",
           "version": 1
@@ -4275,6 +4905,18 @@
           "text": "Device is not correctly configured for operation mode \"velocity\"",
           "version": 1
         },
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
+          "version": 1
+        },
         "0C550181": {
           "text": "Switch to drive operation mode not allowed when axis is moving",
           "version": 1
@@ -4289,6 +4931,10 @@
         },
         "0C550185": {
           "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
         "0C550240": {
@@ -4321,6 +4967,10 @@
         },
         "0C550249": {
           "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
           "version": 1
         },
         "0C550500": {
@@ -4367,6 +5017,10 @@
           "text": "Undefined error during the dynamic synchronization",
           "version": 1
         },
+        "0C55052D": {
+          "text": "Master for the synchronized motion was not found",
+          "version": 1
+        },
         "0C55052F": {
           "text": "License for the \"Flex Profile\" functionality is missing",
           "version": 1
@@ -4404,7 +5058,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "The angleAdjust is invalid.",
+          "text": "The AngleAdjust is invalid.",
           "version": 1
         },
         "0C550608": {
@@ -4557,6 +5211,18 @@
           "text": "Device is not correctly configured for operation mode \"velocity\"",
           "version": 1
         },
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
+          "version": 1
+        },
         "0C550181": {
           "text": "Switch to drive operation mode not allowed when axis is moving",
           "version": 1
@@ -4571,6 +5237,10 @@
         },
         "0C550185": {
           "text": "Device is not correctly configured for operation mode Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
         "0C550240": {
@@ -4603,6 +5273,10 @@
         },
         "0C550249": {
           "text": "Extrapolation of actual values is disabled in the configuration",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Encoder axis does not support the interpolation",
           "version": 1
         },
         "0C550500": {
@@ -4649,6 +5323,10 @@
           "text": "Undefined error during the dynamic synchronization",
           "version": 1
         },
+        "0C55052D": {
+          "text": "Master for the synchronized motion was not found",
+          "version": 1
+        },
         "0C550538": {
           "text": "One-step dynamic synchronization cannot be used with relative synchronization modes.",
           "version": 1
@@ -4682,7 +5360,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "The angleAdjust is invalid.",
+          "text": "The AngleAdjust is invalid.",
           "version": 1
         },
         "0C550608": {

@@ -1,5 +1,5 @@
 {
-  "product": "OSC-V-0206",
+  "product": "OSC-V-0304",
   "mainDiagnostics": {
     "100A0032": {
       "text": "Bundle startet",
@@ -336,6 +336,10 @@
         "0C310397": {
           "text": "Vorgang \"Alles speichern\" ist fehlgeschlagen",
           "version": 2
+        },
+        "0C310398": {
+          "text": "Lade- und Speichervorgang fehlgeschlagen",
+          "version": 1
         }
       }
     },

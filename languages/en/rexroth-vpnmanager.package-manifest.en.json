@@ -4,6 +4,8 @@
     "settings.vpn.description": "Setup virtual private network",
     "licenses.SWL-XCx-VPN-VPNCLIENTxxxx-NNNN.title": "ctrlX OS License - VPN Client",
     "licenses.SWL-XCx-VPN-VPNCLIENTxxxx-NNNN.description": "VPN Client supports OpenVPN and IPSec for ctrlX OS",
+    "licenses.SWL-XCx-VPN-VPNCLIENTxRSA-NNNN.title": "ctrlX OS License - VPN Client RSA Extension (add-on)",
+    "licenses.SWL-XCx-VPN-VPNCLIENTxRSA-NNNN.description": "VPN Client offers functionality extension for RSA (add-on)",
 	"scopes-declaration.rexroth-vpnmanager.web.name": "VPN",
 	"scopes-declaration.rexroth-vpnmanager.web.description": "Configure & manage Virtual Private Networks (VPNs)",
 	"scopes-declaration.rexroth-vpnmanager.web.all.rwx.name": "Manage connections",
@@ -13,5 +15,6 @@
 	"scopes-declaration.rexroth-vpnmanager.web.all.r.name": "View connections",
 	"scopes-declaration.rexroth-vpnmanager.web.all.r.description": "View connections",
 	"certificatestores.vpnmanager.title": "VPN Client",
-	"certificatestores.vpnmanager.description": "Keys and certificates required by the VPN client"
+	"certificatestores.vpnmanager.description": "Keys and certificates required by the VPN client",
+    "documentation.vpnmanager.description": "Provides functionality for configuration of a VPN client (OpenVPN, IPSec)."
 }

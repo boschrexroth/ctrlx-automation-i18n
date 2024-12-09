@@ -25,7 +25,8 @@
     "minimumerror": "The entered value has to be higher than {{minimumInputLimit}} bytes",
     "minimuminfo": "{{minimumInputLimit}} bytes is the minimum allocatable memory",
     "roundinfo": "The input value is rounded up to a multiple of 8",
-    "rebootinfo": "A control reboot is required"
+    "rebootinfo": "A control reboot is required",
+    "norebootperm": "You do not have permission to reboot the controller"
   },
   "plc.apps": {
     "title": "Applications",
@@ -65,7 +66,10 @@
     "warmstartdesc": "Warm Start",
     "coldstartdesc": "Cold Start",
     "bootApplication": "Boot applications",
-    "projectInformation": "Project information"
+    "projectInformation": "Project information",
+    "nopermtostartctrlx": "You do not have permission to start ctrlX PLC Engineering",
+    "Start": "Start",
+    "Stop": "Stop"
   },
   "plc.bootApplication": {
     "name": "Name",

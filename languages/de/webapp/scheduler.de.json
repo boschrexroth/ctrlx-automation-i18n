@@ -12,11 +12,13 @@
         "finish": "Beenden",
         "next": "Weiter",
         "back": "Zurück",
-        "continue": "Fortsetzen"
+        "continue": "Fortsetzen",
+        "apply": "Übernehmen"
       },
       "text": {
         "tabpage.overview": "Übersicht",
         "tabpage.setup": "Konfiguration",
+        "tabpage.measurements": "Messungen",
         "settings": "Zeigt Einstellungen an",
         "debugmode.active": "Debug-Modus ist aktiv",
         "debugmode.activated": "Debug-Modus wurde aktiviert",
@@ -44,7 +46,7 @@
         "wdog": "Watchdog",
         "alias": "Alias",
         "wdgerror": "Wdg Fehlerzähler",
-        "wdgerrorclass": "Wdg Fehlerklasse",
+        "wdgerrorclass": "Wdg Fehler-Klasse",
         "wdgmaxerror": "Wdg max. Fehler",
         "wdgerrorconfig": "Wdg Task-Verhalten",
         "before": "Vor SyncPoints",
@@ -52,13 +54,12 @@
         "min": "Minimum",
         "max": "Maximum",
         "avg": "Durchschnitt",
-        "resetalltimer": "Alle Timer zurücksetzen",
-        "stopalltimer": "Alle Timer anhalten"
+        "measurement": "Messung",
+        "measurements": "Messungen"
       },
       "validator": {
         "numbers": "Nur Zahlen sind gültig",
-        "cycletime1": "Bitte wählen Sie einen Wert zwischen 500 - 1.000.000 aus",
-        "cycletime2": "Es sind nur ganzzahlige Vielfache von 1 ms gültig",
+        "cycletime": "Es sind nur ganzzahlige Vielfache von 1ms oder der Wert 500µs gültig",
         "priority": "Bitte wählen Sie einen Wert zwischen {{min}} (hoch) - {{max}} (niedrig) aus",
         "stacksize": "Bitte wählen Sie einen Wert zwischen 16.384 - 2.097.152 aus",
         "name": "Der Name ist erforderlich",
@@ -101,22 +102,30 @@
         "expand.task": "Klappt Task auf",
         "collapse.alltasks": "Klappt alle Tasks zu",
         "expand.alltasks": "Klappt alle Tasks auf",
-        "collapse.timer": "Klappt Timer zu",
-        "expand.timer": "Klappt Timer auf",
-        "collapse.alltimer": "Klappt alle Timer zu",
-        "expand.alltimer": "Klappt alle Timer auf",
         "expand.parameters": "Klappt erweiterte Parameter auf",
         "collapse.parameters": "Klappt erweiterte Parameter zu",
 
-        "start.timer": "Startet Timer",
-        "stop.timer": "Stoppt Timer",
-        "reset.timer": "Setzt Timer zurück",
-        "start.alltimer": "Startet alle Timer vom Task",
-        "stop.alltimer": "Stoppt alle Timer vom Task",
-        "reset.alltimer": "Setzt alle Timer vom Task zurück"
+        "measurement.open.duration": "Öffnet das Duration-Widget für '{{task}}'",
+        "measurement.open.histogram": "Öffnet das Histogramm-Widget",
+        "measurement.close.all": "Schließt alle Widgets",
+        "measurement.close": "Schließt das Widget",
+        "measurement.reset": "Setzt die Messung zurück",
+        "measurement.reset.all": "Setzt alle Messungen zurück",
+        "measurement.reset.task": "Setzt alle Messungen vom Task zurück",
+        "measurement.toggle": "Schaltet die Messung um",
+        "measurement.toggle.task": "Schaltet die Messungen vom Task um",
+        "measurement.stop.all": "Stoppt alle Messungen",
+        "measurement.inactive": "Es ist keine Messung aktiv",
+        "measurement.download.duration": "Lädt Daten aus Dauer-Messungenen vom Task herunter", 
+        "measurement.download.histogram": "Lädt Histogramm-Daten herunter",
+        "measurement.download.callable": "Lädt Daten aus Dauer-Messungen der Callables herunter",
+        "measurement.fullscreen.show": "Zeigt den Inhalt im Vollbildmodus an",
+        "measurement.fullscreen.exit": "Inhalt im Vollbildmodus beenden",
+        "measurement.histogram.show": "Zeigt leere Spalten im Histogramm an",
+        "measurement.histogram.hide": "Blendet leere Spalten im Histogramm aus"
       },
       "info": {
-        "callout": "Automatische Programmkonfiguration\nBei einer App-Installation werden die Tasken vom System angepasst.Nur wenige Parameter können individuell geändert werden.\nDeaktivieren sie die Funktiion für eine vollständige benutzuerdefinierte Konfiguration."
+        "callout": "Automatische Programmkonfiguration\nBei einer App-Installation werden die Tasken vom System angepasst. Nur wenige Parameter können individuell geändert werden.\nDeaktivieren sie die Funktion für eine vollständige benutzerdefinierte Konfiguration."
       },
       "reset": {
         "title": "Setzt die Scheduler-Konfiguration auf die Default-Konfiguration zurück",
@@ -217,6 +226,55 @@
       "reaction.continue.info": "Der Scheduler fährt ohne die fehlenden Komponenten mit dem Hochlauf fort",
       "debug": "Debug-Modus",
       "debug.info": "The Hardware-Watchdog ist deaktiviert, wenn der Debug-Modus aktiv ist"
+    },
+    "measurement": {
+      "emptyPage": "Drücken Sie '+' um Mess-Widgets hinzuzufügen",
+      "catalog": {
+        "title": "Messungen Widgets Katalog",
+        "title.duration": "Tasks",
+        "title.callable": "Callables",
+        "title.histogram": "Histograms",
+        "empty": "Für diese Suchkriterien wurden keine Ergebnisse gefunden",
+        "search.title": "Suchen",
+        "filter.title.task": "Filter Tasks",
+        "filter.title.status": "Filter Status",
+        "filter.all.task": "Alle Tasken",
+        "filter.all.status": "Alle Status",
+        "filter.status.active": "Activ",
+        "filter.status.stopped": "Gestoppt",
+        "filter.delete.all": "Löscht alle Filter",
+        "select.title": "Ausgewählte Widgets",
+        "select.text": "{{count}} von {{maxcount}}",
+        "tile": {
+          "duration": {
+            "title": "Task Widget"
+          },
+          "callable": {
+            "title": "Callable Widget"
+          },
+          "histogram": {
+            "title": "Histogram Widget"
+          }
+        },
+        "maxcountinfo": "Nur {{maxcount}} widgets möglich"
+      },
+      "widget": {
+        "callable": {
+          "desc": "Callables (Bereich: {{max}} µs)",
+          "piechart": {
+            "title": "Zeigt den Durchschnitt der Dauer in '%' an",
+            "label": "Durchschnitt der Dauer"
+          }
+        },
+        "histogram": {
+          "empty": "Die Messung ist momentan nicht aktiv oder es wurden keine Werte im Histogramm aufgezeichnet!",
+          "barchart": {
+            "title": "Anzahl der Treffer",
+            "footer": "Skala der x-Achse: {{scale}} µs"
+          }
+        },
+        "alreadyexist": "Widget '{{name}}' existiert bereits"
+      }
     }
   }
 }

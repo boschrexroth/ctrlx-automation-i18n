@@ -6,5 +6,5 @@
   "scopes-declaration.rexroth-opcua-pubsub.description": "Berechtigungen für die OPC UA Pub/Sub-App",
   "scopes-declaration.rexroth-opcua-pubsub.opcua.x.name": "OPC UA Pub/Sub-Konfigurationszugriff",
   "scopes-declaration.rexroth-opcua-pubsub.opcua.x.description": "Zugriff auf die Konfiguration zur OPC UA Pub/Sub-Kommunikation über den OPC UA Server",
-  "sidebar.opcua.1-Overview.title": "Übersicht"
+  "sidebar.opcua.1-PubSub.title": "Pub/Sub"
 }

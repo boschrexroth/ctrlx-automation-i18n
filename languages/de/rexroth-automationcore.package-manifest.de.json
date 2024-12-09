@@ -10,5 +10,22 @@
   "configuration.script.description": "Skriptkonfigurationen",
   "configuration.scripts.description": "Skripte werden vom Skript-Runner ausgeführt",
   "configuration.trace.description": "Trace: Aktivierungszustände - Meldungen, Warnungen, Fehler",
-  "documentation.datalayer.description": "Stellt Data-Layer-Funktionalitäten der ctrlX CORE bereit."
+  "documentation.datalayer.description": "Stellt Data-Layer-Funktionalitäten der ctrlX CORE bereit.",
+  "scopes.datalayerglobal.create.name": "Anlegen von Data Layer Ressourcen",
+  "scopes.datalayerglobal.view.name": "Ansehen von Data Layer Ressourcen",
+  "scopes.datalayerglobal.modify.name": "Modifizieren von Data Layer Ressourcen",
+  "scopes.item.diagnosis.name": "Diagnose",
+  "scopes.diagnosis.view.name": "Diagnose ansehen",
+  "scopes.diagnosis.operate.name": "Diagnose bedienen",
+  "scopes.diagnosis.manage.name": "Diagnose verwalten",
+  "scopes.trace.view.name": "Trace ansehen",
+  "scopes.trace.manage.name": "Trace verwalten",
+  "scopes.scheduler.view.name": "Scheduler ansehen",
+  "scopes.scheduler.operate.name": "Scheduler bedienen",
+  "scopes.scheduler.manage.name": "Scheduler verwalten",
+  "scopes.systemhandler.view.name": "System Handler ansehen",
+  "scopes.systemhandler.operate.name": "System Handler bedienen",
+  "scopes.nvram.view.name": "NVRam ansehen",
+  "scopes.datalayer.view.name": "Data Layer ansehen",
+  "scopes.datalayer.manage.name": "Data Layer verwalten"
 }

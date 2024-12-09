@@ -15,7 +15,7 @@
     "run.button": "Laufen"
   },
   "uac.addClient": {
-    "addClient.title": "OPC UA Client hinzufügen",
+    "addClient.title": "OPC UA Sitzung hinzufügen",
     "sessionNameExists.text": "Sitzungsname ist bereits vorhanden",
     "sessionName.text": "Sitzungsname",
     "userName.text": "Benutzername",
@@ -23,14 +23,14 @@
     "authentication.text": "Authentifizierung",
     "errorAddingClient.text": "Fehler beim Hinzufügen des OPC UA Clients",
     "addSuccess.text": "{{value}} erfolgreich hinzugefügt",
-    "nameRequired":"Sitzungsname ist erforderlich",
+    "nameRequired": "Sitzungsname ist erforderlich",
     "chooseAthentication": "Authentifizierung ist erforderlich",
     "userNameRequired": "Benutzername ist erforderlich",
     "persistent.text": "Persistent",
     "autoReconnect.text": "Automatische Wiederverbindung"
   },
   "uac.configuration": {
-    "addClient.tooltip": "<DE> Add OPC UA Client",
+    "addClient.tooltip": "<DE> Add OPC UA Sitzung",
     "clientConfiguration.title": "OPC UA Client-Konfiguration",
     "sessionName.header": "Sitzungsname",
     "userName.header": "Benutzername",
@@ -38,20 +38,20 @@
     "state.header": "Zustand",
     "actions.header": "Aktionen",
     "edit.tooltip": "Bearbeitet die OPC UA Client-Konfiguration",
-    "delete.tooltip": "Löscht den OPC UA Client",
+    "delete.tooltip": "OPC UA Sitzung löschen",
     "connect.tooltip": "Verbinden",
     "disconnect.tooltip": "Trennen",
-    "delete.description": "Wollen Sie wirklich {{value}} löschen?",
-    "deletedClient.text": "OPC UA Client gelöscht",
-    "deleteClient.text": "OPC UA Client löschen",
+    "delete.description": "Dieser OPC UA session wird sofort gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deletedClient.text": "OPC UA Sitzung gelöscht",
+    "deleteClient.text": "OPC UA session löschen '{{value}}'",
     "connectClient.text": "OPC UA Client verbinden",
-    "noClientConfigured": "Kein Client konfiguriert",
-    "addClient": "OPC UA Client hinzufügen",
-    "connect.text":"Verbundener {{value}}",
-    "disconnect.text":"Getrennter {{value}}",
+    "noClientConfigured": "Keine OPC UA Sitzung konfiguriert",
+    "addClient": "OPC UA Sitzung hinzufügen",
+    "connect.text": "Verbundener {{value}}",
+    "disconnect.text": "Getrennter {{value}}",
     "readOnlyPermission": "Sie haben keine Berechtigung diese Operation durchzuführen",
-    "connect.title":"Verbunden",
-    "disconnect.title":"Getrennt"
+    "connect.title": "Verbunden",
+    "disconnect.title": "Getrennt"
   },
   "uac.clientDetails": {
     "setup.title": "Setup {{value}}",
@@ -85,7 +85,7 @@
     "publish.placeholder": "Publish",
     "read.tooltip": "Timeout in ms für den 'Read'-Dienst",
     "read.placeholder": "Read",
-    "session.tooltip": "Angefordertes Session Timeout in ms",
+    "session.tooltip": "Angefordertes Sitzung Timeout in ms",
     "session.placeholder": "Session",
     "watchdog.tooltip": "Timeout in ms für 'Watchdog Read'. Wenn die Antwort des 'Watchdog Read' nicht innerhalb des 'Watchdog Timeout' zurückgegeben wird, nimmt der OPC UA Client an, dass die Verbindung zum OPC UA Server entweder unterbrochen oder beendet worden ist",
     "watchdog.placeholder": "Watchdog",
@@ -93,9 +93,8 @@
     "write.placeholder": "Write",
     "call.tooltip": "Timeout in ms für den 'Call'-Dienst",
     "call.placeholder": "Call",
-    "reconnect.placeholder": "Wieder verbinden"
-
-
+    "reconnect.placeholder": "Wieder verbinden",
+    "reconnect.tooltip": "Timeout in ms für den 'Reconnect'-Dienst"
   },
   "uac.calloutNotification": {
     "emptyUnknownUnexplainedError.text": "Leerer, unbekannter und unerklärter Fehler zurückgegeben.",
@@ -113,14 +112,14 @@
     "refresh": "Aktualisieren",
     "servicemode": "Der 'Service-Modus' ist gerade aktiv. Bitte gehen Sie zu {{value}}, wechseln Sie in den 'Operation-Modus' und versuchen Sie es erneut.",
     "servicemode.appManagerLink": "Apps-Manager",
-    "details_1":"Bitte überprüfen Sie die ",
-    "details_2":" für mehr Details",
-    "Logbook":"Logbuch"
+    "details_1": "Bitte überprüfen Sie die ",
+    "details_2": " für mehr Details",
+    "Logbook": "Logbuch"
   },
   "uac.flatC": {
-    "deleteFlatC.text": "FlatBuffer-Code löschen",
+    "deleteFlatC.text": "Löschen Sie den flatBuffer code '{{value}}'",
     "deletedFlatC.text": "FlatBuffer-Code erfolgreich gelöscht",
-    "delete.description": "Möchten Sie wirklich löschen {{value}}?",
+    "delete.description": "Dieser Flatbuffer-Code wird sofort gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
     "dataLayer.title": "Datenschichtbrowser",
     "addFlatC.title": "FlatC-Programm hinzufügen",
     "addSuccess.text": "{{value}} erfolgreich hinzugefügt",
@@ -136,11 +135,11 @@
     "path.tooltip": "Pfad zu Adressen hinzufügen",
     "datalayer.tooltip": "Anzeige DataLayer",
     "duplicate.text": "Doppelter Wert identifiziert. Bitte geben Sie einen anderen Wert ein.",
-    "flatCStatusError.text":"Der {{value}}-Status ist nach der Übermittlung fehlgeschlagen.",
+    "flatCStatusError.text": "Der {{value}}-Status ist nach der Übermittlung fehlgeschlagen.",
     "downloadNotAvailable.title": "Download nicht verfügbar",
-    "nameRequired":"Name ist erforderlich",
-    "addressRequired":"Eine oder mehrere Adressen sind erforderlich",
-    "optionsRequired":"Eine oder mehrere Optionen sind erforderlich",
+    "nameRequired": "Name ist erforderlich",
+    "addressRequired": "Eine oder mehrere Adressen sind erforderlich",
+    "optionsRequired": "Eine oder mehrere Optionen sind erforderlich",
     "noFlatC.title": "Kein FlatC konfiguriert",
     "enterName.text": "Geben Sie den Flatc-Namen ein",
     "enterAddresses.text": "Geben Sie Adressen ein",

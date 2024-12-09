@@ -23,7 +23,7 @@
   },
 
   "ctm.applications": {
-    "name": "Dienst",
+    "name": "Zertifikatspeicher",
     "description": "Beschreibung",
     "pki.tooltip": "PKIs verwalten"
   },
@@ -65,7 +65,11 @@
     "rename.menu": "Umbenennen",
     "trust.menu": "Vertrauen",
     "reject.menu": "Ablehnen",
-    "renewal.menu": "Verlängerung",
+    "renewal.menu": "Verlängerung konfigurieren",
+    "discardRenewal.menu": "Verlängerung verwerfen",
+    "discardRenewal.title": "Zertifikatverlängerung verwerfen",
+    "discardRenewal.confirmation": "Sind Sie sicher, dass Sie die Verlängerung von {{param}} verwerfen möchten?",
+    "discard.button": "Verwerfen",
     "extract.menu": "Extrahieren",
     "download.menu": "Herunterladen",
     "noCertsMsg": "Keine Zertifikate vorhanden",
@@ -111,6 +115,7 @@
 
   "ctm.pkiDetails": {
     "uri": "URI",
+    "certStore": "Zertifikatspeicher",
     "serverCert": "Server-Zertifikat",
     "enterUri": "Geben Sie eine gültige URI ein",
     "selectCertificate": "Wählen Sie ein Zertifikat aus",
@@ -127,7 +132,10 @@
     "challenge": "Challenge",
     "enterChallenge": "Geben Sie eine Challenge ein",
     "newPki": "Neue PKI",
-    "uploadServerCert.tooltip": "Server-Zertifikat hochladen"
+    "uploadServerCert.tooltip": "Server-Zertifikat hochladen",
+    "cmpProtocolOptions": "CMP Protokolloptionen",
+    "proofOfPossession": "Besitznachweis",
+    "selectOption": "Wählen Sie ein Option"
   },
 
   "ctm.pkis": {
@@ -143,19 +151,7 @@
 
   "ctm.createCsrDialog": {
     "title": "Zertifikat-Signierungsanforderung erstellen",
-    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
-    "organizationOrCompanyName": "Organisation oder Unternehmen",
-    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
-    "country": "Land",
-    "stateOrProvince": "Bundesland",
-    "postalCode": "Postleitzahl",
-    "city": "Stadt",
-    "streetAddress": "Straße und Hausnummer",
-    "create.button": "Erstellen",
-    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
-    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
-    "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
-    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein"
+    "create.button": "Erstellen"
   },
 
   "ctm.notification": {
@@ -208,6 +204,7 @@
 
   "ctm.renameDialog": {
     "name": "Name",
+    "extension": "Erweiterung",
     "rename.button": "Umbenennen"
   },
 
@@ -248,14 +245,16 @@
     "renew.button": "Verlängern",
     "renewalInProgress": "wird verlängert...",
     "selectPki": "Wählen Sie eine PKI aus",
-    "selectPrivateKey": "Wählen Sie einen privaten Schlüssel aus"
-  },
-
-  "ctm.keyNameValidator": {
-    "nameMustBeMinXChars": "Name muss mindestens {{param}} Zeichen lang sein.",
-    "nameMayNotExcceedXChars": "Name darf nicht länger als {{param}} Zeichen sein.",
-    "nameMayContainLetters": "Name kann Buchstaben [A-Z][a-z], Ziffern [0-9], '_' oder '-' enthalten.",
-    "keyXIsAlreadyExisting": "Ein Schlüssel {{param}} existiert bereits."
+    "selectPrivateKey": "Wählen Sie einen privaten Schlüssel aus",
+    "cmpIgnoreKeyUsage": "Keine Überprüfung der \"key usage extension\"",
+    "saveRenewedExtraCerts": "Verlängerte Extra-Zertifikate speichern",
+    "extraCertsFileName": "Dateiname der Extra-Zertifikate",
+    "saveRenewedCaCerts": "Verlängerte CA-Zertifikate speichern",
+    "caCertsFileName": "Dateiname der CA-Zertifikate",
+    "extension": "Erweiterung",
+    "enterFileName": "Geben Sie einen Dateinamen ein",
+    "enterValidFileName": "Der Dateiname darf folgende Zeichen enthalten: A-Z, a-z, 0-9, '_', '-'",
+    "enterDifferentFileName": "Geben Sie einen anderen Dateinamen ein"
   },
 
   "ctm.revocationLists": {
@@ -332,27 +331,17 @@
     "name": "Name",
     "extension": "Erweiterung",
     "validityInDays": "Gültigkeitsdauer (Tage)",
-    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
-    "organizationOrCompanyName": "Organisation oder Unternehmen",
-    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
-    "country": "Land",
-    "stateOrProvince": "Bundesland",
-    "postalCode": "Postleitzahl",
-    "city": "Stadt",
-    "streetAddress": "Straße und Hausnummer",
     "generate.button": "Erstellen",
-    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
-    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
     "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
     "enterAtLeastOneDay": "Geben Sie mindestens 1 Tag ein",
-    "enterMaxDays": "Geben Sie maximal {{param}} Tage ein",
-    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein"
+    "enterMaxDays": "Geben Sie maximal {{param}} Tage ein"
   },
 
   "ctm.nameValidator": {
     "errMinLen": "Geben Sie einen Namen ein",
     "errMaxLen": "Name darf nicht länger als {{param}} Zeichen sein",
-    "errInvalidChar": "Name darf folgende Zeichen enthalten: [a-z], [A-Z], [0-9], '_', '-', '.'",
+    "errStartsWithSpace": "Name darf nicht mit einem Leerzeichen beginnen",
+    "errInvalidChar": "Name darf folgende Zeichen nicht enthalten: '<', '>', ':', '\"', '/', '\\', '|', '?', '*'",
     "errExisting": "Dieser Name existiert bereits",
     "errNotValid": "Dieser Name ist ungültig"
   },
@@ -363,19 +352,7 @@
     "selectKey": "Wählen Sie einen Schlüssel aus",
     "pki": "PKI",
     "selectPki": "Wählen Sie eine PKI aus",
-    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
-    "organizationOrCompanyName": "Organisation oder Unternehmen",
-    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
-    "country": "Land",
-    "stateOrProvince": "Bundesland",
-    "postalCode": "Postleitzahl",
-    "city": "Stadt",
-    "streetAddress": "Straße und Hausnummer",
-    "enroll.button": "Registrieren",
-    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
-    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
-    "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
-    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein"
+    "enroll.button": "Registrieren"
   },
 
   "ctm.enrollments": {
@@ -391,6 +368,44 @@
     "running": "läuft",
     "done": "erledigt",
     "failed": "fehlgeschlagen, siehe Logbuch für Details"
-  }
+  },
 
+  "ctm.certDataInput": {
+    "generalTabTitle": "Allgemein",
+    "sanTabTitle": "Alternative Namen des Subjektes",
+    "commonName.label": "Allgemeiner Name oder voll qualifizierter Domänenname",
+    "organizationOrCompanyName": "Organisation oder Unternehmen",
+    "departmentOrDivisionName": "Abteilung oder Unternehmensbereich",
+    "country": "Land",
+    "stateOrProvince": "Bundesland",
+    "postalCode": "Postleitzahl",
+    "city": "Stadt",
+    "streetAddress": "Straße und Hausnummer",
+    "enterCommonName": "Geben Sie einen allgemeinen Namen oden einen voll qualifizierten Domänennamen ein",
+    "enterCountryCode": "Geben Sie einen Ländercode ein (2 Buchstaben)",
+    "enterValidityPeriod": "Geben Sie eine Gültigkeitsdauer ein",
+    "enterMaxChars": "Geben Sie maximal {{param}} Zeichen ein",
+    "addSan.tooltip": "Alternativen Namen des Subjektes hinzufügen",
+    "type": "Typ",
+    "value": "Wert",
+    "noSansSpecified": "Keine alternative Namen des Subjektes definiert",
+    "toAddSanClick": "Um einen alternativen Namen des Subjektes hinzuzufügen klicken Sie"
+  },
+
+  "ctm.addSanDialog": {
+    "title": "Alternativen Namen des Subjektes hinzufügen",
+    "type": "Typ",
+    "value": "Wert",
+    "DNSName": "DNS-Name",
+    "EmailAddress": "Email-Adresse",
+    "IPAddress": "IP-Adresse",
+    "URI": "URI",
+    "add.button": "Hinzufügen",
+    "selectTypeMsg": "Wählen Sie einen Typ",
+    "enterValueMsg": "Geben Sie einen Wert ein",
+    "enterDnsNameMsg": "Geben Sie einen DNS-Namen ein",
+    "enterEmailAddressMsg": "Geben Sie eine Email-Adresse ein",
+    "enterIpAddressMsg": "Geben Sie eine IPv4- oder IPv6-Adresse ein",
+    "enterUriMsg": "Geben Sie eine URI ein"
+  }
 }

@@ -12,11 +12,13 @@
         "finish": "Finish",
         "next": "Next",
         "back": "Back",
-        "continue": "Continue"
+        "continue": "Continue",
+        "apply": "Apply"
       },
       "text": {
         "tabpage.overview": "Overview",
         "tabpage.setup": "Configuration",
+        "tabpage.measurements": "Measurements",
         "settings": "Shows settings",
         "debugmode.active": "Debug mode is active",
         "debugmode.activated": "Debug mode was activated",
@@ -49,16 +51,15 @@
         "wdgerrorconfig": "Wdg task behavior",
         "before": "Before SyncPoints",
         "after": "After SyncPoints",
-        "min": "Minimum",
-        "max": "Maximum",
-        "avg": "Average",
-        "resetalltimer": "Reset all timers",
-        "stopalltimer": "Stop all timers"
+        "min": "Min",
+        "max": "Max",
+        "avg": "Avg",
+        "measurement": "Measurement",
+        "measurements": "Measurements"
       },
       "validator": {
         "numbers": "Only numbers are valid",
-        "cycletime1": "Please select a value between 500 - 1.000.000",
-        "cycletime2": "Only integer multiples of 1 ms are valid",
+        "cycletime": "Only integer multiples of 1ms or the value 500µs are valid",
         "priority": "Please select a value between {{min}} (high) - {{max}} (low)",
         "stacksize": "Please select a value between 16.384 - 2.097.152",
         "name": "The name is invalid",
@@ -101,19 +102,27 @@
         "expand.task": "Expands task",
         "collapse.alltasks": "Collapses all tasks",
         "expand.alltasks": "Expands all tasks",
-        "collapse.timer": "Collapses timer",
-        "expand.timer": "Expands timer",
-        "collapse.alltimer": "Collapses all timers",
-        "expand.alltimer": "Expands all timers",
         "expand.parameters": "Expands extended parameters",
         "collapse.parameters": "Collapses extended parameters",
-
-        "start.timer": "Starts timer",
-        "stop.timer": "Stops timer",
-        "reset.timer": "Resets timer",
-        "start.alltimer": "Starts all timers from task",
-        "stop.alltimer": "Stops all timers from task",
-        "reset.alltimer": "Resets all timers from task"
+       
+        "measurement.open.duration": "Opens duration widget for '{{task}}'",
+        "measurement.open.histogram": "Opens histogram widget",
+        "measurement.close.all": "Closes all widgets",
+        "measurement.close": "Closes widget",
+        "measurement.reset": "Resets measurement",
+        "measurement.reset.all": "Resets all measurements",
+        "measurement.reset.task": "Resets all measurements from task",
+        "measurement.toggle": "Toggles measurement",
+        "measurement.toggle.task": "Toggles measurements from task",
+        "measurement.stop.all": "Stops all measurements",
+        "measurement.inactive": "No measurement is active",
+        "measurement.download.duration": "Downloads data from duration measurements of task", 
+        "measurement.download.histogram": "Downloads histogram data",
+        "measurement.download.callable": "Downloads data from duration measurements of callables",
+        "measurement.fullscreen.show": "Shows content fullscreen",
+        "measurement.fullscreen.exit": "Exit content fullscreen",
+        "measurement.histogram.show": "Shows empty columns in histogram",
+        "measurement.histogram.hide": "Hides empty columns in histogram"
       },
       "info": {
         "callout": "Automatic program configuration\nUpon app installation tasks are adjusted by the system. Only a few count of parameters can be changed individually.\nDisable the feature for a full custom configuration."
@@ -217,6 +226,55 @@
       "reaction.continue.info": "The Scheduler continues the startup without the missing components",
       "debug": "Debug mode",
       "debug.info": "The hardware watchdog is deactivated when the Debug mode is active"
+    },
+    "measurement": {
+      "emptyPage": "Press '+' to add measurement widgets",
+      "catalog": {
+        "title": "Measurement widgets catalog",
+        "title.duration": "Tasks",
+        "title.callable": "Callables",
+        "title.histogram": "Histograms",
+        "empty": "No result found for this search criteria",
+        "search.title": "Search",
+        "filter.title.task": "Filter tasks",
+        "filter.title.status": "Filter status",
+        "filter.all.task": "All tasks",
+        "filter.all.status": "All status",
+        "filter.status.active": "Active",
+        "filter.status.stopped": "Stopped",
+        "filter.delete.all": "Deletes all filters",
+        "select.title": "Selected Widgets",
+        "select.text": "{{count}} of {{maxcount}}",
+        "tile": {
+          "duration": {
+            "title": "Task widget"
+          },
+          "callable": {
+            "title": "Callable widget"
+          },
+          "histogram": {
+            "title": "Histogram widget"
+          }
+        },
+        "maxcountinfo": "Only {{maxcount}} widgets possible"
+      },
+      "widget": {
+        "callable": {
+          "desc": "Callables (Range: {{max}} µs)",
+          "piechart": {
+            "title": "Shows the 'avarage' of the durations in '%'",
+            "label": "Avarage of duration"
+          }
+        },
+        "histogram": {
+          "empty": "The measurement is currently not active or no values has been recorded to the histogram!",
+          "barchart": {
+            "title": "Count of hits",
+            "footer": "Scale of x-axis: {{scale}} µs"
+          }
+        },
+        "alreadyexist": "Widget '{{name}}' already exist"
+      }
     }
   }
 }

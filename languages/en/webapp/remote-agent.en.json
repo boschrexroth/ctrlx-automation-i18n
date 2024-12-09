@@ -52,6 +52,8 @@
   "rma.devices.details.policies.tab": "Policies",
   "rma.devices.details.policies.command.header": "Activity",
   "rma.devices.details.policies.action.header": "Default action",
+  "rma.devices.details.policies.action.all.header": "Default action for all entries",
+  "rma.devices.details.policies.action.all.placeholder": "Select",
   "rma.devices.details.policies.askUser": "Ask user",
   "rma.devices.details.policies.accept": "Accept",
   "rma.devices.details.policies.reject": "Reject",

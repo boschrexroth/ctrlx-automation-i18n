@@ -10,21 +10,28 @@
     "showTestResult": "Show test result",
     "hideTestResult": "Hide test result",
     "addNew": {
-      "name": "Create New Telegraf Configuration",
+      "name": "Add New Telegraf Configuration",
       "fieldName": "Name",
-      "fieldTemplate": "Configuration template",
-      "nameHint": "Please enter a name",
+      "fieldTemplate": "Choose configuration template",
+      "nameHint": "Enter new configuration name",
       "nameErrorHint": "Name already exists",
       "templateHint": "Select configuration template"
+    },
+    "rename": {
+      "name": "Rename Telegraf Configuration",
+      "fieldName": "Name",
+      "nameHint": "Enter new configuration name",
+      "nameErrorHint": "Name already exists"
     },
     "addItem":{
       "header":"No Telegraf configuration added",
       "addText":"Add Telegraf configuration",
       "infoText":"You can add the Telegraf configuration here"
-    },    
+    },
     "message":{
       "success":{
         "add":"The new Telegraf configuration was added successfully",
+        "rename":"The new Telegraf configuration was renamed successfully",
         "activate":"The Telegraf instance was started with this Telegraf configuration",
         "deactivate":"The Telegraf instance was stopped with this Telegraf configuration",
         "remove":"The Telegraf configuration was removed successfully",
@@ -32,6 +39,7 @@
       },
       "error":{
         "add":"Error when adding the new Telegraf configuration",
+        "rename":"Error when renaming the Telegraf configuration",
         "activate":"Error when starting the Telegraf instance",
         "deactivate":"Error when stopping the Telegraf instance",
         "remove":"Error when removing the Telegraf configuration",
@@ -41,11 +49,11 @@
       }
     },
     "alertForDelete": {
-      "title": "Do you really want to delete \"{{param}}\"?",
-      "description": "The Telegraf configuration is deleted. This action cannot be undone."
+      "title": "Delete Telegraf configuration \"{{param}}\"?",
+      "description": "This Telegraf configuration will be deleted immediately. This action cannot be undone."
     },
     "alertForSave": {
-      "title": "Do you want to save the changes made on \"{{param}}\"?",
+      "title": "Save the changes made on \"{{param}}\"?",
       "description": "If you click on 'Cancel', the change is lost."
     },
     "errorLoadAll": {
@@ -62,12 +70,15 @@
   },
   "delete": "Delete",
   "OK": "OK",
-  "cancel": "Cancel",
+  "Add": "Add",
+  "Rename": "Rename",
+  "Cancel": "Cancel",
   "action": {
     "goToDiagnostic": "Diagnostic logbook",
     "start": "Start",
     "stop": "Stop",
-    "edit": "Edit Telegraf configuration"
+    "edit": "Edit Telegraf configuration",
+    "rename": "Rename Telegraf configuration"
   },
   "detail": "Editor",
   "log": {

@@ -7,8 +7,8 @@
 	"scopes-declaration.rexroth-3dviewer.web.description" :"Berechtigungen",
 	"scopes-declaration.rexroth-3dviewer.models.r.name":"Modelle einsehen",
 	"scopes-declaration.rexroth-3dviewer.models.r.description":"Modellbibliothek einsehen",
-	"scopes-declaration.rexroth-3dviewer.models.rw.name":"Modelle hochladen",
-	"scopes-declaration.rexroth-3dviewer.models.rw.description":"Modelle in die ctrlX hochladen",
-	"scopes-declaration.rexroth-3dviewer.axis.rw.name":"Achsen konfigurieren",
+	"scopes-declaration.rexroth-3dviewer.models.rw.name":"Modelle verwalten",
+	"scopes-declaration.rexroth-3dviewer.models.rw.description":"Modelle in die ctrlX hochladen und löschen",
+	"scopes-declaration.rexroth-3dviewer.axis.rw.name":"Modelle konfigurieren",
 	"scopes-declaration.rexroth-3dviewer.axis.rw.description":"Achskonfiguration einsehen und ändern"
 }

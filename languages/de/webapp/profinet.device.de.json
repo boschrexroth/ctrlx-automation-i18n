@@ -1,0 +1,84 @@
+﻿{
+  "pnd": {
+    "common": {
+      "add.button": "Hinzufügen",
+      "cancel.button": "Abbrechen",
+      "delete.button": "Löschen",
+      "save.button": "Speichern",
+      "license.error": "Lizenz nicht verfügbar",
+      "status.ok": "OK",
+      "status.unknown": "Unbekannt",
+      "device": "Gerät",
+      "state": {
+        "unknown": "Unbekannt",
+        "fw_update_necessary": "Firmware-Update notwendig",
+        "fw_update": "Firmware wird gerade aktualisiert"
+      }
+    },
+    "fw-update": {
+      "update.button": "Firmware aktualisieren",
+      "callout.line1": "Firmware wird gerade aktualisiert.",
+      "callout.line2": "Schalten Sie die ctrlX CORE nicht aus."
+    },
+    "configuration": {
+      "linkText": "PROFINET-Geräte konfigurieren",
+      "noinstance": {
+        "text": "Kein PROFINET-Gerät konfiguriert",
+        "add": "PROFINET-Gerät hinzufügen",
+        "info": "Das PROFINET-Gerät bietet eine E/A-Schnittstelle zu einem PROFINET-Feldbus"
+      },
+      "switchToSetup": {
+        "text": "Der {{schedulerState}}-Modus ist gerade aktiv. Wechseln Sie in den Setup-Modus und versuchen Sie es erneut."
+      },
+      "switchToSetupOrOperating": {
+        "text": "Der {{schedulerState}}-Modus ist gerade aktiv. Wechseln Sie in den Setup- oder Operation-Modus und versuchen Sie es erneut."
+      },
+      "noPermission": {
+        "text": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen."
+      },
+      "appNotAvailable": {
+        "heading": "Die PROFINET-Geräteapp ist momentan nicht verfügbar (Fehler: (Error: {{status}}).",
+        "line2": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+        "appBeingInitialized" : "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{linkText}} Sie die Seite",
+        "appBeingInitialized.linkText": "aktualisieren"
+      },
+      "add-instance": {
+        "title": "PROFINET-Gerät hinzufügen",
+        "name.required": "Geben Sie einen Namen ein",
+        "name.maxlength": "Der Name hat mehr als 15 Zeichen",
+        "name.pattern": "Ungültiger Name"
+      },
+      "del-instance": {
+        "title": "PROFINET-Gerät löschen",
+        "info1": "Das PROFINET-Gerät '{{instanceName}}' wird gelöscht.",
+        "info2": "Die Feldbuskommunikation wird gestoppt und die Konfiguration entfernt.",
+        "warning": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren."
+      },
+      "details": {
+        "title": "Konfiguration",
+        "active-configuration": "Aktive Konfiguration:",
+        "template.label": "Vorlage",
+        "template.placeholder": "Eine Vorlage auswählen",
+        "description.label": "Beschreibung",
+        "tabLabel.upload": "Konfiguration hochladen",
+        "tabLabel.selectTemplate": "Vorlage auswählen",
+        "inputLabel.upload": "Wählen Sie eine Konfigurationsdatei zum Hochladen aus",
+        "textLabel.content": "Dateiinhalte (erste 10.000 Zeichen)",
+        "uploadButton": "Hochladen",
+        "fileinfo": "Die Datei hat die Größe {{humanSize}}",
+        "fileTooLarge": "Wählen Sie eine Datei kleiner als {{humanSizeMax}} aus."
+      },
+      "name.header": "Name",
+      "port.header": "Port",
+      "state.header": "Zustand",
+      "status.header": "Status",
+      "actions.header": "Aktionen",
+      "action": {
+        "delete": "PROFINET-Geräteinstanz löschen",
+        "edit": "Konfiguration bearbeiten",
+        "run": "Schalten Sie den Zustand auf RUN",
+        "stop": "Schalten Sie den Zustand auf CONFIG"
+      }
+    }
+  }
+}

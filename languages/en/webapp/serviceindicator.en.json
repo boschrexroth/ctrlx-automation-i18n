@@ -26,7 +26,8 @@
     "Motortype": "Motortype",
     "Serialnumber Motor": "Serialnumber Motor",
     "Failure Prob. Motor": "Failure Prob. Motor",
-    "Lifetime Estimator": "Used Lifetime Est. Motor",
+    "Lifetime Estimator Motor": "Used Lifetime Est. Motor",
+    "Lifetime Estimator Drive": "Used Lifetime Est. Drive",
     "emptyState": "No items to display"
   },
   "selectorWindow": {
@@ -60,7 +61,7 @@
   "commandBar": {
     "hideColumns.hidden": "column(s) are hidden",
     "hideColumns.nohidden": "Hide static columns",
-    "addDeviceTooltip": "Add Remote Device",
+    "manageDevicesTooltip": "Manage Remote Devices",
     "loggingConfigTooltip": "Configure logging"
   },
   "export": {
@@ -78,16 +79,21 @@
     "cancel": "Cancel"
   },
   "addDevice": {
-    "headline": "Add Remote Device",
+    "headline": "Manage Remote Devices",
+    "addDevices": "Add device(s)",
+    "removeDevices": "Remove device(s)",
+    "singleDevice": "Single device",
+    "multipleDevices": "Multiple devices",
     "IP": "IP",
-    "port": "Port",
-    "subdeviceid": "Subdevice-ID",
+    "to": "to",
+    "ipMax": "IP",
+    "singleAxis": "Single axis",
+    "doubleAxis": "Double axis",
     "save": "Save",
     "cancel": "Cancel",
     "errorInvalidIP": "IP address has invalid format",
-    "errorInvalidPort": "Port must be a number",
-    "errorInvalidSubdeviceID": "Subdevice-ID must be a number",
-    "toastSuccessfullyAdded": "Device successfully created on the data layer. It will be shown in the table shortly if it is online."
+    "errorInvalidIPMax": "Maximum IP address has invalid format",
+    "toastSuccessfullyAdded": "Request executed successfully. The table will be updated shortly."
   },
   "configModal": {
     "headline": "Configuration",

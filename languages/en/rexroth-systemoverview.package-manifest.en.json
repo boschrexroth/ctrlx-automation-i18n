@@ -1,5 +1,5 @@
 {
   "sidebar.title.system.overview.title": "System Overview",
-  "sidebar.title.system.information.title": "System Information",
-  "scopes.system.overview.all": "Enables manage system overview" 
+  "scopes.system.overview.all": "Enables manage system overview",
+  "configuration.system.overview.description" : "System Overview Configuration"   
 }

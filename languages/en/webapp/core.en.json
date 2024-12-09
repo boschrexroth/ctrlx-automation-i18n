@@ -21,12 +21,12 @@
     "helpForum.menu": "Forum",
     "helpApi.menu": "API reference",
     "ctrlxCoreSystemReport.menu": "ctrlX OS system report",
-    "ctrlxWorksSystemReport.menu": "ctrlX WORKS system report"
+    "ctrlxWorksSystemReport.menu": "ctrlX WORKS system report",
+    "about.menu": "About ctrlX OS"
   },
   "core.sidebar": {
     "settings.menu": "Settings",
-    "system.menu": "System",
-    "about.menu": "About ctrlX OS"
+    "system.menu": "System"
   },
   "core.notfound": {
     "title": "Page not found",
@@ -40,7 +40,9 @@
     "licenses.header": "License(s)",
     "copyright.header": "Copyright",
     "homepage.header": "Homepage",
-    "writtenOffer.title": "Written offer for source code"
+    "list.title": "Components & licenses",
+    "writtenOffer.title": "Written offer for source code",
+    "warrantyDisclaimer.title": "Warranty disclaimer"
   },
   "core.commandbar": {
     "item": "item",
@@ -50,6 +52,7 @@
     "noPermissions": "You do not have the required permissions"
   },
   "core.about": {
+    "title": "About {{product}}",
     "version": "Version",
     "copyright": "Copyright",
     "copyrightWithProduct": "Copyright of {{product}}",
@@ -79,12 +82,10 @@
     "starting": "Starting...",
     "restarting": "Restarting...",
     "errorsOccured": "Some errors occured",
-    "applyingSetup": "Applying setup...",
-    "applySetupWithWarnings": "Setup applied with warnings",
-    "applySetupFailed": "Applying setup failed",
-    "applySetupReportHint": "After logging in, click 'Report' in the drop down menu on the upper right to view the {{param}}.",
-    "applySetupParamWarnings": "warnings",
-    "applySetupParamErrors": "errors"
+    "applyingSetup": "Restoring...",
+    "applySetupWithWarnings": "Restore operation successful, but with warnings",
+    "applySetupFailed": "Restore operation failed",
+    "applySetupReportHint": "Details are available under 'Settings - Backup & Restore - ... - Report'."
   },
   "core.unsavedMessage": {
     "title": "Unsaved changes on {{param}}",
@@ -101,5 +102,11 @@
     "noDataAvailable": "No data available (Error: {{errorCode}})",
     "noPermissions": "You do not have the required permissions.",
     "appInitializing": "Most likely the app is currently being initialized. This may take a while. This widget refreshes automatically."
+  },
+  "core.alert": {
+    "success": "Success",
+    "warning": "Warning",
+    "error": "Error",
+    "info": "Info"
   }
 }

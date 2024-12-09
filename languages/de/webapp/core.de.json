@@ -21,12 +21,12 @@
     "helpForum.menu": "Forum",
     "helpApi.menu": "API-Referenz",
     "ctrlxCoreSystemReport.menu": "ctrlX OS Systembericht",
-    "ctrlxWorksSystemReport.menu": "ctrlX WORKS Systembericht"
+    "ctrlxWorksSystemReport.menu": "ctrlX WORKS Systembericht",
+    "about.menu": "Über ctrlX OS"
   },
   "core.sidebar": {
     "settings.menu": "Einstellungen",
-    "system.menu": "System",
-    "about.menu": "Über ctrlX OS"
+    "system.menu": "System"
   },
   "core.notfound": {
     "title": "Seite nicht gefunden",
@@ -40,7 +40,9 @@
     "licenses.header": "Lizenz(en)",
     "copyright.header": "Copyright",
     "homepage.header": "Homepage",
-    "writtenOffer.title": "Schriftliches Angebot für den Quellcode"
+    "list.title": "Komponenten & Lizenzen",
+    "writtenOffer.title": "Schriftliches Angebot für den Quellcode",
+    "warrantyDisclaimer.title": "Haftungsausschluss"
   },
   "core.commandbar": {
     "item": "Element",
@@ -50,6 +52,7 @@
     "noPermissions": "Sie haben nicht die erforderlichen Berechtigungen"
   },
   "core.about": {
+    "title": "Über {{product}}",
     "version": "Version",
     "copyright": "Copyright",
     "copyrightWithProduct": "Copyright an {{product}}",
@@ -79,12 +82,10 @@
     "starting": "Starte...",
     "restarting": "Starte neu...",
     "errorsOccured": "Mehrere Fehler sind aufgetreten",
-    "applyingSetup": "Setup wird angewendet...",
-    "applySetupWithWarnings": "Anwenden des Setups erfolgreich, jedoch mit Warnungen",
-    "applySetupFailed": "Anwenden des Setups fehlgeschlagen",
-    "applySetupReportHint": "Nach dem Einloggen können die {{param}} rechts oben im Drop-Down-Menü unter 'Report' eingesehen werden.",
-    "applySetupParamWarnings": "Warnungen",
-    "applySetupParamErrors": "Fehler"
+    "applyingSetup": "Stelle wieder her...",
+    "applySetupWithWarnings": "Wiederherstellung erfolgreich, jedoch mit Warnungen",
+    "applySetupFailed": "Wiederherstellung fehlgeschlagen",
+    "applySetupReportHint": "Details können unter 'Einstellungen - Sichern & Wiederherstellen - ... - Bericht' eingesehen werden."
   },
   "core.unsavedMessage": {
     "title": "Nicht gespeicherte Änderungen an {{param}}",
@@ -101,5 +102,11 @@
     "noDataAvailable": "Keine Daten verfügbar (Fehler: {{errorCode}})",
     "noPermissions": "Sie haben nicht die erforderlichen Berechtigungen.",
     "appInitializing": "Sehr wahrscheinlich wird die App gerade initialisiert. Dies kann eine Weile dauern. Dieses Widget aktualisiert sich automatisch."
+  },
+  "core.alert": {
+    "success": "Erfolg",
+    "warning": "Warnung",
+    "error": "Fehler",
+    "info": "Info"
   }
 }

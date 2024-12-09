@@ -1,5 +1,5 @@
 {
-  "product": "MOT-V-0206",
+  "product": "MOT-V-0304",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -103,6 +103,10 @@
       "text": "Meldung im Tippkommando der Kinematik ",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550145": {
+          "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
+          "version": 1
+        },
         "0C550147": {
           "text": "Tippen wurde beendet, weil der Grenzwert der Position erreicht wurde",
           "version": 1
@@ -313,6 +317,10 @@
       "text": "Meldung im Hochlauf des Achsprofils",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580035": {
+          "text": "Funktion nicht unterstützt",
+          "version": 1
+        },
         "0C580700": {
           "text": "Warte auf benötigte Feldbus-Master-Instanzen",
           "version": 1
@@ -511,6 +519,38 @@
         }
       }
     },
+    "090E0004": {
+      "text": "Warnung bezüglich Achskonfiguration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C56024E": {
+          "text": "Achskonfiguration ist so eingestellt, dass Achsprofil ignoriert wird (Achse wird virtuell)",
+          "version": 1
+        }
+      }
+    },
+    "090E0005": {
+      "text": "Fehler in der Konfiguration der Teachpoints",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550410": {
+          "text": "Das angegebene Referenzsystem wird nicht unterstützt.",
+          "version": 1
+        },
+        "0C550411": {
+          "text": "Es existiert kein Punkt unter dem angegebenen Punktnamen.",
+          "version": 1
+        },
+        "0C560410": {
+          "text": "Der angegebene Punktname hat ein fehlerhaftes Format.",
+          "version": 1
+        },
+        "0C560411": {
+          "text": "Es existiert bereits ein Punkt unter dem angegebenen Punktnamen.",
+          "version": 1
+        }
+      }
+    },
     "090E0010": {
       "text": "Warnung im Tippkommando der Achse",
       "version": 1,
@@ -555,6 +595,14 @@
       "text": "Warnung im Hochlauf des Achsprofils",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580000": {
+          "text": "Funktion nicht implementiert",
+          "version": 1
+        },
+        "0C580006": {
+          "text": "Profil nicht gefunden",
+          "version": 1
+        },
         "0C580500": {
           "text": "Der Hochlauf wurde abgebrochen",
           "version": 1
@@ -581,6 +629,14 @@
         },
         "0C580506": {
           "text": "Die Task-Aufrufeinheit \"axisprofile adaption\" konnte nicht in den Zustand \"RUN\" geschaltet werden",
+          "version": 1
+        },
+        "0C580600": {
+          "text": "Fehler beim Lesen von Parameterinformationen aus dem Gerät über Feldbus mit Data Layer-Leseanforderung",
+          "version": 1
+        },
+        "0C580704": {
+          "text": "Warte, bis Echtzeitspeicher des Feldbus-Masters verfügbar ist",
           "version": 1
         }
       }
@@ -641,6 +697,10 @@
           "text": "Null-Zeiger erkannt",
           "version": 1
         },
+        "0C580102": {
+          "text": "Ausführung des Achsprofil-Befehls fehlgeschlagen",
+          "version": 1
+        },
         "0C580402": {
           "text": "Fehler des Skalierungstyps",
           "version": 1
@@ -655,8 +715,28 @@
       "text": "Konfigurationsfehler im Achsprofil",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580005": {
+          "text": "Es wurde versucht, eine ungültige Geräteadresse zu schreiben",
+          "version": 1
+        },
         "0C580030": {
           "text": "Ungültiger Gerätename",
+          "version": 1
+        },
+        "0C580040": {
+          "text": "Achsprofil-Einstellungen können nur im Konfigurationszustand geladen werden.",
+          "version": 1
+        },
+        "0C580042": {
+          "text": "Die Achsprofil-Einstellungen konnten nicht aus der gespeicherten JSON-Datei geladen werden.",
+          "version": 1
+        },
+        "0C580043": {
+          "text": "Die Achsprofil-Daten konnten nicht in der aktiven Konfiguration gespeichert werden.",
+          "version": 1
+        },
+        "0C580044": {
+          "text": "Der übergebene Persistenzparameter \"flatbuffer\" konnte nicht auf die vorgegebenen Werte extrahiert werden.",
           "version": 1
         },
         "0C580061": {
@@ -717,6 +797,26 @@
         },
         "0C580097": {
           "text": "Profilvariable nicht zugeordnet",
+          "version": 1
+        },
+        "0C580200": {
+          "text": "Ungültiger Flatbuffer",
+          "version": 1
+        },
+        "0C580500": {
+          "text": "Der Hochlauf wurde abgebrochen",
+          "version": 1
+        },
+        "0C580704": {
+          "text": "Warte, bis Echtzeitspeicher des Feldbus-Masters verfügbar ist",
+          "version": 1
+        },
+        "0C580707": {
+          "text": "Validierung der Mapping-Konfiguration",
+          "version": 1
+        },
+        "0C580708": {
+          "text": "Warten, bis der Profilmanager verfügbar ist",
           "version": 1
         }
       }
@@ -779,6 +879,10 @@
           "text": "Ungültige Daten der Profilkategorie",
           "version": 1
         },
+        "0C580041": {
+          "text": "Achsprofil-Einstellungen können nur im Konfigurationszustand gespeichert werden.",
+          "version": 1
+        },
         "0C580050": {
           "text": "Anfrage an den Achsprofilzustand fehlgeschlagen",
           "version": 1
@@ -833,6 +937,10 @@
       "text": "Umschaltung der Betriebsart fehlgeschlagen",
       "version": 2,
       "detailedDiagnostics": {
+        "0C580050": {
+          "text": "Anfrage an den Achsprofilzustand fehlgeschlagen",
+          "version": 1
+        },
         "0C580053": {
           "text": "Wechsel des Achsprofilzustands nach \"Running\" fehlgeschlagen",
           "version": 1
@@ -887,6 +995,10 @@
           "text": "Inkonsistente Skalierungsart auf Antriebs- und Steuerungsseite",
           "version": 1
         },
+        "0C580402": {
+          "text": "Fehler des Skalierungstyps",
+          "version": 1
+        },
         "0C580404": {
           "text": "FPU-Ausnahmefehler aufgetreten bei der Berechnung von Skalierungsdaten.",
           "version": 1
@@ -932,6 +1044,10 @@
         "0C580506": {
           "text": "Die Task-Aufrufeinheit \"axisprofile adaption\" konnte nicht in den Zustand \"RUN\" geschaltet werden",
           "version": 1
+        },
+        "0C580600": {
+          "text": "Fehler beim Lesen von Parameterinformationen aus dem Gerät über Feldbus mit Data Layer-Leseanforderung",
+          "version": 1
         }
       }
     },
@@ -954,6 +1070,10 @@
         "0C560210": {
           "text": "Motion-Basislizenz fehlt",
           "version": 1
+        },
+        "0C560212": {
+          "text": "Eine installierte Lizenz benötigt eine andere Lizenz als Basis. Weil die Basislizenz nicht installiert ist, kann die installierte Lizenz nicht genutzt werden.",
+          "version": 1
         }
       }
     },
@@ -961,6 +1081,30 @@
       "text": "Fehler in der Achskonfiguration",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550170": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Geschwindigkeit nicht",
+          "version": 1
+        },
+        "0C550171": {
+          "text": "Zyklische Daten für Betriebsart Geschwindigkeit im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550174": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
+          "version": 1
+        },
         "0C550183": {
           "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
           "version": 1
@@ -1033,6 +1177,10 @@
           "text": "Achskategorie ist ungültig",
           "version": 1
         },
+        "0C56024D": {
+          "text": "Der Modulo-Wert der Achse ist nicht gleich dem Modulo-Wert des Treibers.",
+          "version": 1
+        },
         "0C560254": {
           "text": "Standardeinheit für Kinematikposition (XYZ) muss eine lineare Positionseinheit sein",
           "version": 1
@@ -1059,6 +1207,10 @@
       "text": "Fehler in der Kinematikkonfiguration",
       "version": 1,
       "detailedDiagnostics": {
+        "0C02A100": {
+          "text": "Der Konfigurationsparameter existiert bereits.",
+          "version": 1
+        },
         "0C550272": {
           "text": "Fehler bei der Konfiguration der Geberachse",
           "version": 1
@@ -1151,6 +1303,18 @@
           "text": "Ungültige Parameter in der Achstransformation",
           "version": 1
         },
+        "0C5602A0": {
+          "text": "Erstellen, Ändern und Löschen des Konfigurationsparameters ist im Status \"OPERATION\" nicht erlaubt.",
+          "version": 1
+        },
+        "0C5602A1": {
+          "text": "Der Konfigurationsparameter existiert bereits.",
+          "version": 1
+        },
+        "0C5602A2": {
+          "text": "Der Konfigurationsparameter wurde nicht gefunden.",
+          "version": 1
+        },
         "0C570002": {
           "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
           "version": 1
@@ -1165,6 +1329,10 @@
       "text": "Fehler in der Konfiguration des Motion-Systems",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550632": {
+          "text": "Das Ändern/Löschen von Punktetabellen ist nicht möglich, wenn diese Punktetabellen in Verwendung sind.",
+          "version": 1
+        },
         "0C560201": {
           "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
           "version": 1
@@ -1303,6 +1471,36 @@
         }
       }
     },
+    "090F0071": {
+      "text": "Fehler bei Zugriff auf Daten externer ctrlX MOTION-Pakete",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560290": {
+          "text": "Fehler beim Durchsuchen der verfügbaren Daten.",
+          "version": 1
+        },
+        "0C560291": {
+          "text": "Zu dieser Adresse sind keine Daten verfügbar.",
+          "version": 1
+        },
+        "0C560292": {
+          "text": "Das System befindet sich in einem Zustand, in dem das Handle nicht gelesen werden kann.",
+          "version": 1
+        },
+        "0C560293": {
+          "text": "Fehler beim Lesen des Datentyps der Daten.",
+          "version": 1
+        },
+        "0C560294": {
+          "text": "Falscher Datentyp für die zu lesenden Daten.",
+          "version": 1
+        },
+        "0C560295": {
+          "text": "Das Handle ist ungültig.",
+          "version": 1
+        }
+      }
+    },
     "090F0080": {
       "text": "Allgemeiner Fehler der Geberachse",
       "version": 1,
@@ -1331,6 +1529,20 @@
         },
         "0C550362": {
           "text": "Drehmomentmodus wird nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "090F00A0": {
+      "text": "Nicht kritischer Fehler in einem Motion-Extension-Paket",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550800": {
+          "text": "Ein Wert in der Konfiguration ist ungültig oder außerhalb des zulässigen Bereichs.",
+          "version": 1
+        },
+        "0C550801": {
+          "text": "Allgemeiner Fehler bei der Verarbeitung von Konfigurationsdaten",
           "version": 1
         }
       }
@@ -1552,7 +1764,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "Der angleAdjust ist ungültig.",
+          "text": "Der AngleAdjust ist ungültig.",
           "version": 1
         },
         "0C550608": {
@@ -1947,6 +2159,10 @@
           "text": "Befehl für Encoder-Achse nicht erlaubt",
           "version": 1
         },
+        "0C550700": {
+          "text": "Befehl für Mover-Achse nicht erlaubt",
+          "version": 1
+        },
         "0C560000": {
           "text": "Achse für Achsbefehl nicht gefunden",
           "version": 1
@@ -2035,6 +2251,34 @@
         },
         "0C550120": {
           "text": "Achse oder Kinematik sind aktuell noch in Bewegung",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
         "0C570100": {
@@ -2161,6 +2405,34 @@
           "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
           "version": 1
         },
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
         "0C570160": {
           "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
           "version": 1
@@ -2223,6 +2495,34 @@
         },
         "0C550158": {
           "text": "Achse oder Gantry bewegen sich noch",
+          "version": 1
+        },
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
         "0C570100": {
@@ -2325,7 +2625,13 @@
     },
     "090F200C": {
       "text": "Allgemeiner Achskommandofehler",
-      "version": 1
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        }
+      }
     },
     "090F200D": {
       "text": "Fehler im Abbruchkommando der Achse",
@@ -2341,6 +2647,10 @@
         },
         "0C550182": {
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
         "0C560102": {
@@ -2396,6 +2706,22 @@
         "0C550182": {
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
           "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
         }
       }
     },
@@ -2423,6 +2749,18 @@
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
           "version": 1
         },
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
+          "version": 1
+        },
         "0C550180": {
           "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
           "version": 1
@@ -2433,6 +2771,22 @@
         },
         "0C550182": {
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         }
       }
@@ -3201,6 +3555,20 @@
         }
       }
     },
+    "090F2023": {
+      "text": "Fehler beim Ausführen von move-to-point",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550410": {
+          "text": "Das angegebene Referenzsystem wird nicht unterstützt.",
+          "version": 1
+        },
+        "0C550411": {
+          "text": "Es existiert kein Punkt unter dem angegebenen Punktnamen.",
+          "version": 1
+        }
+      }
+    },
     "090F2030": {
       "text": "Fehler in Kommandooptionen",
       "version": 1,
@@ -3286,27 +3654,27 @@
       "version": 1,
       "detailedDiagnostics": {
         "0C550330": {
-          "text": "Kommandooption \"SafeZones\" - Ungültiger Zonentyp konfiguriert",
+          "text": "Ungültiger Zonentyp konfiguriert",
           "version": 1
         },
         "0C550331": {
-          "text": "Kommandooption \"SafeZones\" - Ein Teil der kommandierten Bewegung ist nicht in den aktiven inklusiven Arbeitsbereichen enthalten",
+          "text": "Ein Teil der kommandierten Bewegung ist nicht in den aktiven inklusiven Arbeitsbereichen enthalten",
           "version": 1
         },
         "0C550332": {
-          "text": "Kommandooption \"SafeZones\" - Die kommandierte Bewegung verletzt einen Schutzbereich",
+          "text": "Die kommandierte Bewegung verletzt einen Schutzbereich",
           "version": 1
         },
         "0C550333": {
-          "text": "Kommandooption \"SafeZones\" - Die kommandierte Bewegung verlässt einen exklusiven Arbeitsbereich",
+          "text": "Die kommandierte Bewegung verlässt einen exklusiven Arbeitsbereich",
           "version": 1
         },
         "0C550334": {
-          "text": "Kommandooption \"SafeZones\" - Bahnpunkt konnte nicht in das Koordinatensystem des Arbeitsbereichs bzw. des Schutzbereichs transformiert werden",
+          "text": "Bahnpunkt konnte nicht in das Koordinatensystem des Arbeitsbereichs bzw. des Schutzbereichs transformiert werden",
           "version": 1
         },
         "0C550335": {
-          "text": "Kommandooption \"SafeZones\" - Arbeitsbereich bzw. Schutzbereich nicht in Konfiguration gefunden",
+          "text": "Arbeitsbereich bzw. Schutzbereich nicht in Konfiguration gefunden",
           "version": 1
         }
       }
@@ -3325,10 +3693,74 @@
         }
       }
     },
+    "090F2036": {
+      "text": "Fehler in Kommandooption \"BeltSync\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560201": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C570170": {
+          "text": "Die Achse ist nicht als Band konfiguriert.",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Parameter für Befehlsoption ist ungültig",
+          "version": 1
+        },
+        "0C5701B2": {
+          "text": "Es ist eine Kommandooption vom selben Typ aktiv, von welcher keine Daten gelesen werden konnten",
+          "version": 1
+        }
+      }
+    },
+    "090F2037": {
+      "text": "Fehler in Kommandooption \"SafeAreaExec\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550331": {
+          "text": "Ein Teil der kommandierten Bewegung ist nicht in den aktiven inklusiven Arbeitsbereichen enthalten",
+          "version": 1
+        },
+        "0C550332": {
+          "text": "Die kommandierte Bewegung verletzt einen Schutzbereich",
+          "version": 1
+        },
+        "0C550333": {
+          "text": "Die kommandierte Bewegung verlässt einen exklusiven Arbeitsbereich",
+          "version": 1
+        },
+        "0C550335": {
+          "text": "Arbeitsbereich bzw. Schutzbereich nicht in Konfiguration gefunden",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C5701B0": {
+          "text": "Fehler in der Kommandooptionsverarbeitung",
+          "version": 1
+        },
+        "0C5701B1": {
+          "text": "Parameter für Befehlsoption ist ungültig",
+          "version": 1
+        },
+        "0C5701B2": {
+          "text": "Es ist eine Kommandooption vom selben Typ aktiv, von welcher keine Daten gelesen werden konnten",
+          "version": 1
+        }
+      }
+    },
     "090F2040": {
       "text": "Systemfehler im Motion-System",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550315": {
+          "text": "Angefragtes Koordinatensystem ist nicht verfügbar",
+          "version": 1
+        },
         "0C560270": {
           "text": "Interner Fehler ist aufgetreten",
           "version": 1
@@ -3353,12 +3785,34 @@
           "text": "Positionssprung in der Interpolation der Kinematik erkannt",
           "version": 1
         },
+        "0C560277": {
+          "text": "Globale Anforderung an den Motion-Zustand wird abgelehnt, da die Achse/Kinematik mindestens noch einen Befehl im Vorbereitungspuffer hat",
+          "version": 1
+        },
         "0C570100": {
           "text": "Ungültiger Zustand",
           "version": 1
         },
         "0C570101": {
           "text": "Ungültiger Parameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2041": {
+      "text": "Fehler in der Überwachung der Sicherheitsfunktion im Antrieb",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550280": {
+          "text": "Angewählte Sicherheitsbetriebsart bzw. -zustand ist im Achsprofil nicht zugewiesen",
+          "version": 1
+        },
+        "0C550281": {
+          "text": "Achsprofil ist nicht korrekt gestartet",
+          "version": 1
+        },
+        "0C550282": {
+          "text": "Unbekannter Fehler beim Ermitteln der Sicherheitsbetriebsart im Antrieb",
           "version": 1
         }
       }
@@ -3440,6 +3894,10 @@
         "0C550182": {
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
           "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
         }
       }
     },
@@ -3457,6 +3915,22 @@
         },
         "0C550182": {
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         }
       }
@@ -3476,6 +3950,26 @@
         "0C550182": {
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
           "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
+        "0C560460": {
+          "text": "Keine Unterstützung für die Überprüfung des Referenzpunktzustands der Achse",
+          "version": 1
         }
       }
     },
@@ -3483,6 +3977,34 @@
       "text": "Fehler im Achskommando \"Homing\"",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550183": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart Position nicht",
+          "version": 1
+        },
+        "0C550184": {
+          "text": "Zyklische Daten für Betriebsart Position sind im Achsprofil nicht konfiguriert",
+          "version": 1
+        },
+        "0C550185": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
         "0C560460": {
           "text": "Keine Unterstützung für die Überprüfung des Referenzpunktzustands der Achse",
           "version": 1
@@ -3556,6 +4078,10 @@
         "0C56048B": {
           "text": "Anfrage an den Messtasterzustand fehlgeschlagen",
           "version": 1
+        },
+        "0C56048C": {
+          "text": "Ungültige Auswahlinformation für Messtaster-Signalauswahl",
+          "version": 1
         }
       }
     },
@@ -3575,6 +4101,10 @@
           "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
           "version": 1
         },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
         "0C560102": {
           "text": "Verzögerungsgrenzwert überschritten",
           "version": 1
@@ -3585,6 +4115,50 @@
         },
         "0C57010D": {
           "text": "Fehler bei der Berechnung der Interpolationsparameter",
+          "version": 1
+        }
+      }
+    },
+    "090F2066": {
+      "text": "Fehler im Achskommando Torque",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550180": {
+          "text": "Umschaltung der Antriebsbetriebsart dauerte zu lange",
+          "version": 1
+        },
+        "0C550181": {
+          "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
+          "version": 1
+        },
+        "0C550182": {
+          "text": "Umschalten zur gewünschten Antriebsbetriebsart fehlgeschlagen",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        }
+      }
+    },
+    "090F20A0": {
+      "text": "Fehler bei Befehlsübertragung vom Motion-Extension-Paket",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "Allgemeiner Fehler",
+          "version": 1
+        },
+        "0C570110": {
+          "text": "Wert außerhalb des Bereichs",
           "version": 1
         }
       }
@@ -3603,6 +4177,18 @@
         },
         "0C550174": {
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
+          "version": 1
+        },
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
           "version": 1
         },
         "0C550181": {
@@ -3651,6 +4237,10 @@
         },
         "0C550249": {
           "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
           "version": 1
         },
         "0C550500": {
@@ -3803,6 +4393,14 @@
           "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
           "version": 1
         },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
+          "version": 1
+        },
         "0C550500": {
           "text": "Ungültiger Synchronisationsmodus",
           "version": 1
@@ -3868,7 +4466,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "Der angleAdjust ist ungültig.",
+          "text": "Der AngleAdjust ist ungültig.",
           "version": 1
         },
         "0C550608": {
@@ -4009,6 +4607,10 @@
           "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
           "version": 1
         },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
         "0C550537": {
           "text": "Die Folgeachse ist im Fehlerzustand LIGHT",
           "version": 1
@@ -4031,6 +4633,18 @@
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
           "version": 1
         },
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
+          "version": 1
+        },
         "0C550181": {
           "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
           "version": 1
@@ -4045,6 +4659,10 @@
         },
         "0C550185": {
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
         "0C550240": {
@@ -4077,6 +4695,10 @@
         },
         "0C550249": {
           "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
           "version": 1
         },
         "0C550500": {
@@ -4221,6 +4843,14 @@
           "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
           "version": 1
         },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
+          "version": 1
+        },
         "0C550500": {
           "text": "Ungültiger Synchronisationsmodus",
           "version": 1
@@ -4275,6 +4905,18 @@
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
           "version": 1
         },
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
+          "version": 1
+        },
         "0C550181": {
           "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
           "version": 1
@@ -4289,6 +4931,10 @@
         },
         "0C550185": {
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
         "0C550240": {
@@ -4321,6 +4967,10 @@
         },
         "0C550249": {
           "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
           "version": 1
         },
         "0C550500": {
@@ -4367,6 +5017,10 @@
           "text": "Undefinierter Fehler bei der dynamischen Synchronisierung",
           "version": 1
         },
+        "0C55052D": {
+          "text": "Master für die synchronisierte Bewegung wurde nicht gefunden",
+          "version": 1
+        },
         "0C55052F": {
           "text": "Lizenz für die Funktionalität \"Flex Profile\" fehlt",
           "version": 1
@@ -4404,7 +5058,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "Der angleAdjust ist ungültig.",
+          "text": "Der AngleAdjust ist ungültig.",
           "version": 1
         },
         "0C550608": {
@@ -4557,6 +5211,18 @@
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Geschwindigkeit\" ",
           "version": 1
         },
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
+          "version": 1
+        },
         "0C550181": {
           "text": "Umschalten der Antriebsbetriebsart bei bewegter Achse nicht erlaubt",
           "version": 1
@@ -4571,6 +5237,10 @@
         },
         "0C550185": {
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
+          "version": 1
+        },
+        "0C550186": {
+          "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
         "0C550240": {
@@ -4603,6 +5273,10 @@
         },
         "0C550249": {
           "text": "Extrapolation von Ist-Werten ist in der Konfiguration deaktiviert",
+          "version": 1
+        },
+        "0C550273": {
+          "text": "Interpolation wird von der Geberachse nicht unterstützt",
           "version": 1
         },
         "0C550500": {
@@ -4649,6 +5323,10 @@
           "text": "Undefinierter Fehler bei der dynamischen Synchronisierung",
           "version": 1
         },
+        "0C55052D": {
+          "text": "Master für die synchronisierte Bewegung wurde nicht gefunden",
+          "version": 1
+        },
         "0C550538": {
           "text": "Die einstufige dynamische Synchronisierung kann nicht mit relativen Synchronisierungsmodi verwendet werden.",
           "version": 1
@@ -4682,7 +5360,7 @@
           "version": 1
         },
         "0C550607": {
-          "text": "Der angleAdjust ist ungültig.",
+          "text": "Der AngleAdjust ist ungültig.",
           "version": 1
         },
         "0C550608": {

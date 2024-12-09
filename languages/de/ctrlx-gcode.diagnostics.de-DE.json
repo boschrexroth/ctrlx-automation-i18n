@@ -1,12 +1,12 @@
 {
-  "product": "GCO-V-0206",
+  "product": "GCO-V-0302",
   "mainDiagnostics": {
     "100A0040": {
-      "text": "",
+      "text": "Allgemeine G-Code-Systemmeldung",
       "version": 1
     },
     "100A0050": {
-      "text": "",
+      "text": "Allgemeine Systemmeldung zur G-Code-Konfiguration",
       "version": 1,
       "detailedDiagnostics": {
         "0C290006": {
@@ -112,6 +112,14 @@
         "0C290200": {
           "text": "Allgemeiner Laufzeitfehler",
           "version": 1
+        },
+        "0C290209": {
+          "text": "",
+          "version": 1
+        },
+        "0C29020A": {
+          "text": "",
+          "version": 1
         }
       }
     },
@@ -191,6 +199,28 @@
         }
       }
     },
+    "100F0064": {
+      "text": "",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290300": {
+          "text": "",
+          "version": 1
+        },
+        "0C290301": {
+          "text": "",
+          "version": 1
+        },
+        "0C290302": {
+          "text": "",
+          "version": 1
+        },
+        "0C290303": {
+          "text": "",
+          "version": 1
+        }
+      }
+    },
     "100F0070": {
       "text": "Allgemeiner Fehler in der Skript-Syntax",
       "version": 1,
@@ -226,6 +256,18 @@
         "0C290107": {
           "text": "Überlauf des Sprung-Offsets. Legen Sie das Sprungziel oder die Größe des Körpers der Kontrollstruktur fest.",
           "version": 1
+        },
+        "0C290108": {
+          "text": "",
+          "version": 1
+        },
+        "0C290109": {
+          "text": "",
+          "version": 1
+        },
+        "0C29010A": {
+          "text": "",
+          "version": 1
         }
       }
     },
@@ -235,6 +277,18 @@
       "detailedDiagnostics": {
         "0C290102": {
           "text": "Fehler im Datentyp des Arguments",
+          "version": 1
+        },
+        "0C29010B": {
+          "text": "",
+          "version": 1
+        },
+        "0C29010C": {
+          "text": "",
+          "version": 1
+        },
+        "0C29010D": {
+          "text": "",
           "version": 1
         }
       }
@@ -249,6 +303,10 @@
         },
         "0C290013": {
           "text": "Alle Adresswörter der Hauptachse (X, Y, Z) sollten in einem NC-Satz programmiert werden (wird in nächster Version behoben)",
+          "version": 1
+        },
+        "0C29001A": {
+          "text": "",
           "version": 1
         }
       }

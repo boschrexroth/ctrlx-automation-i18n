@@ -60,10 +60,10 @@
     "optionAutomaticDescr": "Die Verbindung wird beim Gerätestart automatisch gestartet. Manuelles Starten und Stoppen ist ebenfalls möglich",
     "optionDataLayer": "DataLayer gesteuert",
     "optionDataLayerDescr": "Der Verbindungsstatus wird exklusiv von einem DataLayer-Knoten gesteuert",
-    "triggerInputPlaceholder": "Adresse des DataLayer-Knotens, der den Verbindungsstatus steuert",
+    "triggerInputLabel": "Adresse des DataLayer-Knotens, der den Verbindungsstatus steuert",
     "connectionStatusPropagation": "Weitergabe des Verbindungsstatus",
     "connectionStatusPropagationDescr": "Verbindungsstatus an einen DataLayer-Knoten weitergeben",
-    "indicatorInputPlaceholder": "Adresse des DataLayer-Knotens, der den Verbindungsstatus erhalten soll",
+    "indicatorInputLabel": "Adresse des DataLayer-Knotens, der den Verbindungsstatus erhalten soll",
     "test.button": "Test",
     "triggerTest.tooltip": "Klicken, um den DataLayer-Knoten auszulesen",
     "indicatorTest.tooltip": "Drücken und halten um den DataLayer-Knoten bis zum Loslassen auf true zu setzen",
@@ -96,12 +96,6 @@
     "cantImportExisingConfigurations": "Import ist nicht möglich, da die folgenden Verbindungen bereits existieren: {{param}}",
     "notABoolDataLayerNode": "Der angegebene DataLayer-Knoten ist nicht vom Typ bool8.",
     "currentValue": "Aktueller Wert: {{param}}"
-  },
-
-  "vpn.alertBoxFactoryService": {
-    "title": "Nicht gespeicherte Änderungen an {{param}}",
-    "saveDiscardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen.",
-    "discardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
   }
 
 }

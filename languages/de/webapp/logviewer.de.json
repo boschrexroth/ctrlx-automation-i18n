@@ -1,0 +1,57 @@
+﻿{
+  "log": {
+    "time": "Zeit",
+    "level": "Level",
+    "message": "Meldung",
+    "logformat": "Meldungsformat",
+    "addMsgTypes" : "Zusätzliche Meldungstypen",
+    "levels": "Levels",
+    "fields": "Felder",
+    "pause": "Pause",
+    "source": "Quelle",
+    "units": "Einheiten",
+    "clear": "Löschen",
+    "tooltip": {
+      "clear": "Liste löschen",
+      "fields": "Meldungsfelder auswählen",
+      "copy": "Meldungen in Zwischenablage kopieren",
+      "scrollTop": "Zum Anfang scrollen",
+      "scrollBottom": "Zum Ende scrollen",
+      "fullscreen" : "Vollbild",
+      "connection" : "Verbindungsstatus",
+      "dark": "Dunkle Tabelle",
+      "expandTable": "Tabelle expandieren",
+      "settings": "Einstellungen"
+    },
+    "button" :{
+      "ok":"OK",
+      "cancel":"Abbrechen",
+      "apply": "Übernehmen",
+      "reset": "Zurücksetzen"
+    },
+    "fieldsDlg" : {
+      "title": "Meldungsfelder auswählen",
+      "description": "Hier können Sie Felder auswählen, die im Meldungstext angezeigt werden sollen.\nBitte beachten Sie, dass nicht alle Felder bei jeder Meldung vorhanden sind und angezeigt werden.",
+      "available": "Verfügbar",
+      "selected": "Ausgewählt"
+    },
+    "sourceFilterDlg" : {
+      "title": "Quelle konfigurieren",
+      "info": "Geben Sie einen Suchtext in der Kategorie 'Quelle' ein",
+      "operator": "Verknüpfe Felder mit:",
+      "inputInfo": "Beliebige Optionen auswählen oder Text eingeben"
+    },
+    "msgType" : {
+      "none" : "Keine",
+      "trace": "Trace",
+      "system": "System und Trace"
+    },
+    "settings" : {
+      "title" : "Einstellungen",
+      "showDate" : "Datum anzeigen",
+      "showLevelName" : "Leveltext anzeigen",
+      "linebreak": "Zeilen umbrechen",
+      "darkmode": "Dunkle Tabelle"
+    }
+  }
+}

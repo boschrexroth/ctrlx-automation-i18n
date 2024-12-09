@@ -1,0 +1,57 @@
+{
+  "log": {
+    "time": "Time",
+    "level": "Level",
+    "message": "Message",
+    "logformat": "Message format",
+    "addMsgTypes" : "Additional message types",
+    "levels": "Levels",
+    "fields": "Fields",
+    "pause": "Pause",
+    "source": "Source",
+    "units": "Units",
+    "clear": "Clear",
+    "tooltip" : {
+      "clear": "Clear list",
+      "fields": "Select message fields",
+      "copy": "Copy messages to clipboard",
+      "scrollTop": "Scroll to top",
+      "scrollBottom": "Scroll to bottom",
+      "fullscreen" : "Fullscreen",
+      "connection" : "Connection status",
+      "dark": "Dark table",
+      "expandTable": "Expand table",
+      "settings": "Settings"
+    },
+    "button" :{
+      "ok":"OK",
+      "cancel":"Cancel",
+      "apply": "Apply",
+      "reset": "Reset"
+    },
+    "fieldsDlg" : {
+      "title": "Select message fields",
+      "description": "Here you can select fields to be displayed in the message list.\r\nPlease note, that the selected fields might not be filled for each message.",
+      "available": "Available",
+      "selected": "Selected"
+    },
+    "sourceFilterDlg" : {
+      "title": "Configure 'Source'",
+      "info": "Enter search text in the 'Source' category",
+      "operator": "Combine fields with:",
+      "inputInfo": "Select any options or enter text"
+    },
+    "msgType" : {
+      "none" : "None",
+      "trace": "Trace",
+      "system": "System and Trace"
+    },
+    "settings" : {
+      "title" : "Settings",
+      "showDate" : "Show date",
+      "showLevelName" : "Show level name",
+      "linebreak": "Wrap lines",
+      "darkmode": "Dark table"
+    }
+  }
+}

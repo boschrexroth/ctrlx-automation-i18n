@@ -1,0 +1,17 @@
+{
+    "configuration.security-scanner.description": "Security scanner configuration",
+    "settings.security-scanner.title": "Security scanner",
+    "settings.security-scanner.description": "Manage Security scanner",
+	"overview.security-scanner.title": "Security scanner",
+    "overview.security-scanner.description": "Manage Security scanner",
+	"sidebar.security-scanner.title": "Security scanner",
+	"scopes-declaration.rexroth-securityscanner.web.name": "Security scanner",
+	"scopes-declaration.rexroth-securityscanner.web.description": "Security scanner permissions",
+	"scopes-declaration.rexroth-securityscanner.web.rwx.name": "Manage and execute scan jobs",
+	"scopes-declaration.rexroth-securityscanner.web.rwx.description": "Manage and execute scan jobs",
+	"scopes-declaration.rexroth-securityscanner.web.rx.name": "Execute scans and view/export scan results",
+	"scopes-declaration.rexroth-securityscanner.web.rx.description": "Execute scans and view/export scan results",
+	"licenses.SWL-XCx-SSC-SECURITYxSCNx-Y1NN.title": "ctrlX OS License - Security Scanner",
+	"licenses.SWL-XCx-SSC-SECURITYxSCNx-Y1NN.description": "Inventory of components by scanning the network and port scan of devices",
+	"documentation.securityscanner.description": "Provides functionalities for network scanning and port scanning of devices"
+}

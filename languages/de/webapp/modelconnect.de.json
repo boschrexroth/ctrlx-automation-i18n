@@ -8,10 +8,7 @@
     "browserNotSupport.title": "Ihr Browser unterstützt WebGL nicht",
     "licenseNotAvailable.title": "Der Lizenz-Service ist nicht erreichbar",
     "noValidLicense.title": "Keine gültige Lizenz für den 3D-Viewer",
-    "selectXML.title": "Wählen Sie bitte ein XML-File aus",
-    "selectZIP.title": "Wählen Sie bitte ein ZIP-File aus",
-    "atLeastSTL.title": "Mindestens eine STL-Datei ist erforderlich",
-    "atLeastZIP.title": "Mindestens eine ZIP-Datei ist erforderlich",
+    "atLeastZIPorMOCorFMU.title": "Ungültige Dateierweiterung",
     "invalidExp.error": "Ausdruck fehlerhaft",
     "nodeNotExist.error": "Der Knoten existiert nicht im Data Layer",
     "stockNodeExist.error": "Der Werkstückname existiert bereits",
@@ -20,6 +17,7 @@
     "connection.networkerror": "Netzwerkfehler: die Verbindung wurde unterbrochen; bitte überprüfen Sie, ob das ctrlX OS noch betriebsbereit ist",
     "dl_action_notfound.networkerror": "Netzwerkfehler: die Verbindung ist fehlgeschlagen, die angeforderte Aktion kann nicht ausgeführt oder abgeschlossen werden",
     "dl_subscription.networkerror": "Netzwerkfehler: die Verbindung zum Datenlayer ist fehlgeschlagen; bitte aktualisieren Sie die Seite",
+    "oauthtoken.error": "Ihre Sitzung ist abgelaufen oder wurde geschlossen...",
     "session.networkerror": "Netzwerkfehler: die Sitzung wurde beendet; bitte aktualisieren Sie die Seite und melden Sie sich erneut an",
     "notfound.networkerror": "Netzwerkfehler: Dienst nicht gefunden",
     "timeout.networkerror": "Netzwerkfehler: es ist ein Fehler aufgetreten, vielleicht gab es eine Zeitüberschreitung; bitte versuchen Sie es erneut",
@@ -28,9 +26,7 @@
     "removeTooltip.tooltip": "ENTFERNEN",
     "playTooltip.tooltip": "START",
     "pauseTooltip.tooltip": "PAUSE",
-    "stopTooltip.tooltip": "STOPP",
-    "cannotManage.tooltip": "(Sie verfügen nicht über die erforderlichen Berechtigungen)",
-    "cannotView.tooltip": "Sie verfügen nicht über die erforderlichen Berechtigungen, um Details anzuzeigen"
+    "stopTooltip.tooltip": "STOPP"
   },
   "moc.dashboard": {
     "newTab.tooltip": "Öffnet ein Modell in einem neuen Reiter",
@@ -50,11 +46,12 @@
     "delete.tooltip": "Löscht ein {{itemStr}}",
     "delete.title": "Bestätigen Sie das Entfernen",
     "matlab.description": "Funktion",
-    "simulink.description": "Modell"
+    "simulink.description": "Modell",
+    "fmu.description": "Funktionsmustereinheit"
   },
   "moc.modelUpload": {
     "loadModels.label": "Modelle laden",
-    "dragItHere.label": "Ziehen Sie die Dateien (zip) hier hin",
+    "dragItHere.label": "Ziehen Sie die Dateien hier hin",
     "or.label": "oder",
     "ChooseFiles.button": "Dateien auswählen",
     "cannotUpload.tooltip": "HOCHLADEN (Sie verfügen nicht über die erforderlichen Berechtigungen)"

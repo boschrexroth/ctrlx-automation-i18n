@@ -25,7 +25,7 @@
       "title": {
         "alarms": "Alarme",
         "logs": "Verlauf",
-        "console": "Konsole"
+        "console": "Logger"
       },
       "filter": {
         "notSet": "Kein Filter gesetzt",
@@ -83,16 +83,26 @@
         "selectedHeader": "Ausgewählte Spalten"
       },
       "status": {
-        "occured": "kommt",
-        "solved": "geht",
-        "tofix": "zu beheben",
-        "toclear": "zu quittieren"
+        "isActive": "ist aktiv"
       },
       "msg": {
         "noNextBookmark": "Es existiert kein nächstes Lesezeichen",
         "noPreviousBookmark": "Es existiert kein vorheriges Lesezeichen",
         "callout": "{{cnt}} Datei(en) wurden heruntergeladen",
         "calloutNoData": "Keine Daten verfügbar"
+      },
+      "elapsedtime": {
+        "seconds": "vor einigen Sekunden",
+        "minute": "vor einer Minute",
+        "minutes": "vor {{cnt}} Minuten",
+        "hour": "vor einer Stunde",
+        "hours": "vor {{cnt}} Stunden",
+        "day": "vor einem Tag",
+        "days": "vor {{cnt}} Tage",
+        "month": "vor einem Monat",
+        "months": "vor {{cnt}} Monaten",
+        "year": "vor einem Jahr",
+        "years": "vor {{cnt}} Jahren" 
       }
     },
     "common": {
@@ -121,7 +131,7 @@
         "mainDiag": "Hauptdiagnosecode",
         "detailDiag": "Detaildiagnosecode",
         "remoteLogging": "Remote-Protokollierung",
-        "filterTitle": "Geben Sie ein Suchtext in der Kategorie '{{colName}}' ein"
+        "filterTitle": "Geben Sie einen Suchtext in der Kategorie '{{colName}}' ein"
       },
       "attr": {
         "pos": "Pos",
@@ -138,9 +148,9 @@
         "bookmark": "Lesezeichen",
         "mainDiagnosisCode": "Hauptdiagnosecode",
         "detailedDiagnosisCode": "Detaildiagnosecode",
-        "mainTitle": "Haupttext",
-        "detailedTitle": "Ausführlicher Text",
-        "dynamicDescription": "Dynamische Beschreibung",
+        "mainTitle": "Hauptdiagnose",
+        "detailedTitle": "Detaildiagnose",
+        "dynamicDescription": "Dynamische Diagnose",
         "dynamicSourceOrigin": "Ursprung",
         "systemUnit": "Einheit",
         "dynamicSourceUnitname": "Einheit",

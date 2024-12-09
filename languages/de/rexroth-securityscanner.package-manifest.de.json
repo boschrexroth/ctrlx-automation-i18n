@@ -1,0 +1,17 @@
+{
+    "configuration.security-scanner.description": "Konfiguration Security-Scanner",
+    "settings.security-scanner.title": "Security-Scanner",
+    "settings.security-scanner.description": "Security-Scanner verwalten",
+	"overview.security-scanner.title": "Security-Scanner",
+    "overview.security-scanner.description": "Security-Scanner verwalten",
+	"sidebar.security-scanner.title": "Security-Scanner",
+	"scopes-declaration.rexroth-securityscanner.web.name": "Security-Scanner",
+	"scopes-declaration.rexroth-securityscanner.web.description": "Berechtigungen Security-Scanner",
+	"scopes-declaration.rexroth-securityscanner.web.rwx.name": "Verwalten und Starten von Scan-Jobs",
+	"scopes-declaration.rexroth-securityscanner.web.rwx.description": "Verwalten und Starten von Scan-Jobs",
+	"scopes-declaration.rexroth-securityscanner.web.rx.name": "Starten von Scan-Jobs and Ergebnisse ansehen/exportieren",
+	"scopes-declaration.rexroth-securityscanner.web.rx.description": "Starten von Scan-Jobs and Ergebnisse ansehen/exportieren",
+	"licenses.SWL-XCx-SSC-SECURITYxSCNx-Y1NN.title": "ctrlX OS License - Security Scanner",
+	"licenses.SWL-XCx-SSC-SECURITYxSCNx-Y1NN.description": "Inventarisierung von Komponenten durch Scannen des Netzwerks und Port-Scan von Geräten",
+	"documentation.securityscanner.description": "Stellt Funktionalitäten zum Scannen des Netzwerks und zum Scannen der Ports von Geräten bereit."
+}

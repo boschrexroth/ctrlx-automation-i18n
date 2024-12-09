@@ -8,5 +8,6 @@
     "scopes-declaration.rexroth-assertionmgr.all.rw.name": "Assertion-Manager konfigurieren und alle System-User-Assertions verwalten",
     "scopes-declaration.rexroth-assertionmgr.all.rw.description": "Assertion-Manager konfigurieren und alle System-User-Assertions verwalten",
     "licenses.SWL-XCx-ASM-ASSERTIONxMGR-NNNN.title": "ctrlX OS License - Assertion Manager",
-    "licenses.SWL-XCx-ASM-ASSERTIONxMGR-NNNN.description": "Assertion Manager für ctrlX OS"	
+    "licenses.SWL-XCx-ASM-ASSERTIONxMGR-NNNN.description": "Assertion Manager für ctrlX OS",
+    "documentation.assertionmanager.description": "Stellt Funktionalitäten für ctrlX OS zur Verwaltung von System-User-Assertions bereit."
 }

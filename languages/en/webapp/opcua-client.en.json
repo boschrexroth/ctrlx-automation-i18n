@@ -15,7 +15,7 @@
     "run.button": "Run"
   },
   "uac.addClient": {
-    "addClient.title": "Add OPC UA Client",
+    "addClient.title": "Add OPC UA Session",
     "sessionNameExists.text": "Session name already exists",
     "sessionName.text": "Session name",
     "userName.text": "Username",
@@ -23,15 +23,14 @@
     "authentication.text": "Authentication",
     "errorAddingClient.text": "Error when adding the OPC UA Client",
     "addSuccess.text": "{{value}} added successfully",
-    "nameRequired":"Session name is required",
+    "nameRequired": "Session name is required",
     "chooseAthentication": "Select authentication mode",
     "userNameRequired": "User Name is required",
     "persistent.text": "Persistent",
     "autoReconnect.text": "Automatic reconnect"
-
   },
   "uac.configuration": {
-    "addClient.tooltip": "Add OPC UA Client",
+    "addClient.tooltip": "Add OPC UA Session",
     "clientConfiguration.title": "OPC UA Client configuration",
     "sessionName.header": "Session name",
     "userName.header": "Username",
@@ -39,20 +38,20 @@
     "state.header": "State",
     "actions.header": "Actions",
     "edit.tooltip": "Edits the OPC UA Client configuration",
-    "delete.tooltip": "Deletes the OPC UA Client",
+    "delete.tooltip": "Delete OPC UA session",
     "connect.tooltip": "Connect",
     "disconnect.tooltip": "Disconnect",
-    "delete.description": "Do you really want to delete {{value}}?",
-    "deletedClient.text": "OPC UA Client deleted",
-    "deleteClient.text": "Delete OPC UA Client",
+    "delete.description": "This OPC UA session will be deleted immediately. This action cannot be undone.",
+    "deletedClient.text": "OPC UA session deleted",
+    "deleteClient.text": "Delete OPC UA session '{{value}}'",
     "connectClient.text": "Connect OPC UA Client",
-    "noClientConfigured": "No client configured",
-    "addClient": "Add OPC UA Client",
-    "connect.text":"Connected {{value}}",
-    "disconnect.text":"Disconnected {{value}}",
+    "noClientConfigured": "No OPC UA session configured",
+    "addClient": "Add OPC UA Session",
+    "connect.text": "Connected {{value}}",
+    "disconnect.text": "Disconnected {{value}}",
     "readOnlyPermission": "You don't have permissions to perform this operation",
-    "connect.title":"CONNNECTED",
-    "disconnect.title":"DISCONNECTED"
+    "connect.title": "CONNNECTED",
+    "disconnect.title": "DISCONNECTED"
   },
   "uac.clientDetails": {
     "setup.title": "Setup {{value}}",
@@ -94,7 +93,8 @@
     "write.placeholder": "Write",
     "call.tooltip": "Timeout in ms for the 'Call' service",
     "call.placeholder": "Call",
-    "reconnect.placeholder": "Reconnect"
+    "reconnect.placeholder": "Reconnect",
+    "reconnect.tooltip": "Timeout in ms for the 'Reconnect' service"
   },
   "uac.calloutNotification": {
     "emptyUnknownUnexplainedError.text": "Returned empty, unknown and unexplained error.",
@@ -112,14 +112,14 @@
     "refresh": "Refresh",
     "servicemode": "The 'Service mode' is currently active. Please go to the {{value}} switch to 'Operation mode' and try again.",
     "servicemode.appManagerLink": "Apps manager",
-    "details_1":"Please check the ",
-    "details_2":" for more details",
-    "Logbook":"Logbook"
+    "details_1": "Please check the ",
+    "details_2": " for more details",
+    "Logbook": "Logbook"
   },
   "uac.flatC": {
-    "deleteFlatC.text": "Delete FlatBuffer Code",
+    "deleteFlatC.text": "Delete flatBuffer code '{{value}}'",
     "deletedFlatC.text": "FlatBuffer Code successfully deleted",
-    "delete.description": "Do you really want to delete {{value}}?",
+    "delete.description": "This flatbuffer code will be deleted immediately. This action cannot be undone.",
     "dataLayer.title": "Data Layer Browser",
     "addFlatC.title": "Generate FlatBuffer Code",
     "addSuccess.text": "{{value}} added successfully",
@@ -135,11 +135,11 @@
     "path.tooltip": "Add path to addresses",
     "datalayer.tooltip": "Display Data Layer",
     "duplicate.text": "Duplicate value identified. Please enter a different value.",
-    "flatCStatusError.text":"{{value}} status failed after submission.",
+    "flatCStatusError.text": "{{value}} status failed after submission.",
     "downloadNotAvailable.title": "Download not available",
-    "nameRequired":"Name is required",
-    "addressRequired":"One or more address is required",
-    "optionsRequired":"One or more option is required",
+    "nameRequired": "Name is required",
+    "addressRequired": "One or more address is required",
+    "optionsRequired": "One or more option is required",
     "noFlatC.title": "No FlatC Configured",
     "enterName.text": "Enter flatc name",
     "enterAddresses.text": "Enter Addresses",

@@ -1,0 +1,84 @@
+{
+  "pnd": {
+    "common": {
+      "add.button": "Add",
+      "cancel.button": "Cancel",
+      "delete.button": "Delete",
+      "save.button": "Save",
+      "license.error": "License not available",
+      "status.ok": "OK",
+      "status.unknown": "Unknown",
+      "device": "Device",
+      "state": {
+        "unknown": "Unknown",
+        "fw_update_necessary": "Firmware update necessary",
+        "fw_update": "Firmware update in progress"
+      }
+    },
+    "fw-update": {
+      "update.button": "Update firmware",
+      "callout.line1": "Firmware update in progress.",
+      "callout.line2": "Do not power off ctrlX CORE."
+    },
+    "configuration": {
+      "linkText": "Configure PROFINET devices",
+      "noinstance": {
+        "text": "No PROFINET device configured",
+        "add": "Add PROFINET device",
+        "info": "The PROFINET device provides an I/O interface to a PROFINET field bus"
+      },
+      "switchToSetup": {
+        "text": "The app is currently in '{{schedulerState}}' state. Please switch to 'Setup' to add a device."
+      },
+      "switchToSetupOrOperating": {
+        "text": "The app is currently in '{{schedulerState}}' state. Please switch to 'Setup' or 'Operating' state to manage devices."
+      },
+      "noPermission":{
+        "text":"You do not have the required permissions to see this page."
+      },
+      "appNotAvailable": {
+        "heading": "The PROFINET device app is currently not available (Error: {{status}}).",
+        "line2": "This is most likely due to one of the following reasons:",
+        "appBeingInitialized" : "The app is currently initialized. This may take a while, please {{linkText}} the page",
+        "appBeingInitialized.linkText": "refresh"
+      },
+      "add-instance": {
+        "title": "Add PROFINET device",
+        "name.required": "Enter a name",
+        "name.maxlength": "The name is longer than 15 characters",
+        "name.pattern": "Invalid name"
+      },
+      "del-instance": {
+        "title": "Delete PROFINET device",
+        "info1": "The PROFINET device '{{instanceName}}' will be deleted.",
+        "info2": "The field bus communication will be stopped and the configuration will be deleted.",
+        "warning": "Ensure that all appliances are in safe state before proceeding."
+      },
+      "details": {
+        "title": "Configuration",
+        "active-configuration": "Active configuration:",
+        "template.label": "Template",
+        "template.placeholder": "Select a template",
+        "description.label": "Description",
+        "tabLabel.upload": "Upload configuration",
+        "tabLabel.selectTemplate": "Select template",
+        "inputLabel.upload": "Select a configuration file to upload",
+        "textLabel.content": "File contents (first 10000 characters)",
+        "uploadButton": "Upload",
+        "fileinfo": "The file has a size of {{humanSize}}",
+        "fileTooLarge": "Select a file smaller than {{humanSizeMax}}."
+      },
+      "name.header": "Name",
+      "port.header": "Port",
+      "state.header": "State",
+      "status.header": "Status",
+      "actions.header": "Actions",
+      "action": {
+        "delete": "Delete PROFINET device instance",
+        "edit": "Edit configuration",
+        "run": "Switch state to RUN",
+        "stop": "Switch state to CONFIG"
+      }
+    }
+  }
+}

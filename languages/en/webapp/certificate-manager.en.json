@@ -23,7 +23,7 @@
   },
 
   "ctm.applications": {
-    "name": "Service",
+    "name": "Certificate store",
     "description": "Description",
     "pki.tooltip": "Manage PKIs"
   },
@@ -65,7 +65,11 @@
     "rename.menu": "Rename",
     "trust.menu": "Trust",
     "reject.menu": "Reject",
-    "renewal.menu": "Renewal",
+    "renewal.menu": "Configure renewal",
+    "discardRenewal.menu": "Discard renewal",
+    "discardRenewal.title": "Discard certificate renewal",
+    "discardRenewal.confirmation": "Are you sure you want to discard renewal for {{param}}?",
+    "discard.button": "Discard",
     "extract.menu": "Extract",
     "download.menu": "Download",
     "noCertsMsg": "No certificates available",
@@ -111,6 +115,7 @@
 
   "ctm.pkiDetails": {
     "uri": "URI",
+    "certStore": "Certificate store",
     "serverCert": "Server certificate",
     "enterUri": "Enter a valid URI",
     "selectCertificate": "Select a certificate",
@@ -127,7 +132,10 @@
     "challenge": "Challenge",
     "enterChallenge": "Enter a challenge",
     "newPki": "New PKI",
-    "uploadServerCert.tooltip": "Upload server certificate"
+    "uploadServerCert.tooltip": "Upload server certificate",
+    "cmpProtocolOptions": "CMP protocol options",
+    "proofOfPossession": "Proof-of-possession",
+    "selectOption": "Select a option"
   },
 
   "ctm.pkis": {
@@ -143,19 +151,7 @@
 
   "ctm.createCsrDialog": {
     "title": "Create certificate signing request",
-    "commonName.label": "Common name or fully qualified domain name",
-    "organizationOrCompanyName": "Organization or company",
-    "departmentOrDivisionName": "Department or division",
-    "country": "Country",
-    "stateOrProvince": "State or province",
-    "postalCode": "Postal code",
-    "city": "City",
-    "streetAddress": "Street address",
-    "create.button": "Create",
-    "enterCommonName": "Enter a common name or a fully qualified domain name",
-    "enterCountryCode": "Enter a 2-letter country code",
-    "enterValidityPeriod": "Enter a validity periode",
-    "enterMaxChars": "Enter maximum {{param}} characters"
+    "create.button": "Create"
   },
 
   "ctm.notification": {
@@ -208,6 +204,7 @@
 
   "ctm.renameDialog": {
     "name": "Name",
+    "extension": "Extension",
     "rename.button": "Rename"
   },
 
@@ -248,14 +245,16 @@
     "renew.button": "Renew",
     "renewalInProgress": "renewal in progress...",
     "selectPki": "Select a PKI",
-    "selectPrivateKey": "Select a private key"
-  },
-
-  "ctm.keyNameValidator": {
-    "nameMustBeMinXChars": "Name must be at least {{param}} character.",
-    "nameMayNotExcceedXChars": "Name may not exceed {{param}} characters.",
-    "nameMayContainLetters": "Name may contain letters [A-Z][a-z], digits [0-9], '_' or '-'.",
-    "keyXIsAlreadyExisting": "A key {{param}} is already existing."
+    "selectPrivateKey": "Select a private key",
+    "cmpIgnoreKeyUsage": "Skip key usage extension verification",
+    "saveRenewedExtraCerts": "Save renewed extra certificates",
+    "extraCertsFileName": "Extra certificates filename",
+    "saveRenewedCaCerts": "Save renewed CA certificates",
+    "caCertsFileName": "CA certificates filename",
+    "extension": "Extension",
+    "enterFileName": "Enter a filename",
+    "enterValidFileName": "Filename may contain A-Z, a-z, 0-9, '_', '-'",
+    "enterDifferentFileName": "Enter a different filename"
   },
 
   "ctm.revocationLists": {
@@ -332,27 +331,17 @@
     "name": "Name",
     "extension": "Extension",
     "validityInDays": "Validity (days)",
-    "commonName.label": "Common name or fully qualified domain name",
-    "organizationOrCompanyName": "Organization or company",
-    "departmentOrDivisionName": "Department or division",
-    "country": "Country",
-    "stateOrProvince": "State or province",
-    "postalCode": "Postal code",
-    "city": "City",
-    "streetAddress": "Street address",
     "generate.button": "Generate",
-    "enterCommonName": "Enter a common name or a fully qualified domain name",
-    "enterCountryCode": "Enter a 2-letter country code",
     "enterValidityPeriod": "Enter a validity periode",
     "enterAtLeastOneDay": "Enter at least 1 day",
-    "enterMaxDays": "Enter maximum {{param}} days",
-    "enterMaxChars": "Enter maximum {{param}} characters"
+    "enterMaxDays": "Enter maximum {{param}} days"
   },
 
   "ctm.nameValidator": {
     "errMinLen": "Enter a name",
     "errMaxLen": "Name may not exceed {{param}} characters",
-    "errInvalidChar": "Name may contain [a-z], [A-Z], [0-9], '_', '-', '.'",
+    "errStartsWithSpace": "Name may not start with space",
+    "errInvalidChar": "Name may not contain '<', '>', ':', '\"', '/', '\\', '|', '?', '*'",
     "errExisting": "This name is already existing",
     "errNotValid": "This name is not valid"
   },
@@ -363,19 +352,7 @@
     "selectKey": "Select a key",
     "pki": "PKI",
     "selectPki": "Select a PKI",
-    "commonName.label": "Common name or fully qualified domain name",
-    "organizationOrCompanyName": "Organization or company",
-    "departmentOrDivisionName": "Department or division",
-    "country": "Country",
-    "stateOrProvince": "State or province",
-    "postalCode": "Postal code",
-    "city": "City",
-    "streetAddress": "Street address",
-    "enroll.button": "Enroll",
-    "enterCommonName": "Enter a common name or a fully qualified domain name",
-    "enterCountryCode": "Enter a 2-letter country code",
-    "enterValidityPeriod": "Enter a validity periode",
-    "enterMaxChars": "Enter maximum {{param}} characters"
+    "enroll.button": "Enroll"
   },
 
   "ctm.enrollments": {
@@ -391,5 +368,44 @@
     "running": "running",
     "done": "done",
     "failed": "failed, see logbook for details"
+  },
+
+  "ctm.certDataInput": {
+    "generalTabTitle": "General",
+    "sanTabTitle": "Subject alternative names",
+    "commonName.label": "Common name or fully qualified domain name",
+    "organizationOrCompanyName": "Organization or company",
+    "departmentOrDivisionName": "Department or division",
+    "country": "Country",
+    "stateOrProvince": "State or province",
+    "postalCode": "Postal code",
+    "city": "City",
+    "streetAddress": "Street address",
+    "enterCommonName": "Enter a common name or a fully qualified domain name",
+    "enterCountryCode": "Enter a 2-letter country code",
+    "enterValidityPeriod": "Enter a validity periode",
+    "enterMaxChars": "Enter maximum {{param}} characters",
+    "addSan.tooltip": "Add subject alternative name",
+    "type": "Type",
+    "value": "Value",
+    "noSansSpecified": "No subject alternative names specified",
+    "toAddSanClick": "To add a subject alternative name click"
+  },
+
+  "ctm.addSanDialog": {
+    "title": "Add subject alternative name",
+    "type": "Type",
+    "value": "Value",
+    "DNSName": "DNS name",
+    "EmailAddress": "Email address",
+    "IPAddress": "IP address",
+    "URI": "URI",
+    "add.button": "Add",
+    "selectTypeMsg": "Select a type",
+    "enterValueMsg": "Enter a value",
+    "enterDnsNameMsg": "Enter a DNS name",
+    "enterEmailAddressMsg": "Enter an email address",
+    "enterIpAddressMsg": "Enter an IPv4 or IPv6 address",
+    "enterUriMsg": "Enter an URI"
   }
 }

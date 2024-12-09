@@ -1,6 +1,6 @@
 {
   "overview": {
-    "title": "System Overview",
+    "title": "Overview",
     "refresh": "Refresh",
     "resetHilight": "Reset Highlight",
     "hilightErrors": "Highlight Errors",
@@ -12,28 +12,36 @@
 			"type": "Type",
 			"status": "Status",
 			"diagnosis": "Diagnosis",
-			"details": "Details"
+			"actions": "Actions"
 		}
   },
   "sysinfo" : {
     "etherSlavesTable" : {
     },
     "table" : {
-      "etherCatAddress": "Addr.",
+      "ethercatAddress": "Addr.",
       "slaveName": "Name",
-      "vendor": "Vendor",
-      "productCode": "Pr.Code",
-      "revisionNumber": "Rev.Nr.",
-      "serialNumber": "S.Nr.",
-      "hardwareind": "Ch.In",
-      "partNumber": "Mat.Nr.",
-      "firmware": "Firmware",
       "hardware": "Hardware",
-      "VendorId": "VID"
+      "firmware": "Firmware",
+      "partNumber": "MNR",
+      "hardwareind": "Ch.In",
+      "serialNumber": "SN",
+      "vendor": "Vendor",
+      "VendorId": "VID",
+      "productCode": "Pr.Code",
+      "revisionNumber": "Rev.Nr."
+    },
+    "dialog": {
+      "title":"Save system components",
+      "headerOne": "Header configuration",
+      "fileName": "File name",
+      "freeText": "Free text",
+      "createButton": "Create HTML",
+      "cancelButton": "Cancel"
     },
     "tooltip":
     {
-      "etherCatAddress": "Address",
+      "ethercatAddress": "Address",
       "slaveName": "Name / Details",
       "productCode": "Product Code",
       "revisionNumber": "Revision Number",
@@ -46,16 +54,37 @@
 			"address": "Address",
 			"givenName": "Given name",
 			"type": "Type",
+      "changeIndex": "Change index",
 			"serialNumber": "Serial Nr.",
-			"partNumber": "Mat.Nr."
+			"partNumber": "Mat.Nr.",
+      "operatingHours": "Operating hours"
 		},
-    "title": "System information",
+    "message":{
+      "success":{
+        "createHtml":"The file has been downloaded successfully",
+        "uploadHtml":"The file has been uploaded successfully"
+      },
+      "error":{
+        "createHtml":"Error downloading the file",
+        "uploadHtml": "Error uploading the file"
+      }
+    },
+    "title": "Components",
     "axlist": "Axes",
     "kinlist": "Kinematics",
     "save": "Save",
-		"save-data-to-file": "Save system data to file",
-		"save-detail-to-file": "Save system detail to file",
+		"save-data-to-file": "Download components data",
+		"save-detail-to-file": "Download system details",
+    "save-all-to-file": "Download all",
+    "upload-data-to-file": "Upload components data",
+		"upload-detail-to-file": "Upload system details",
 		"config-columns": "Configure columns",
-    "reset-columns": "Reset columns"
+    "reset-columns": "Reset columns",
+    "expandTable": "Expand table",
+    "collapseTable": "Collapse table",
+    "topology": "Topology not OK",
+    "callout":{
+      "tooltip": "Attention! There is no data available for components!"
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "product": "XCR-V-0206",
+  "product": "XCR-V-0304",
   "mainDiagnostics": {
     "080A000E": {
       "text": "Trace message script.manager",
@@ -120,6 +120,10 @@
         "0C66600A": {
           "text": "The \"Clear specific error\" command was executed",
           "version": 4
+        },
+        "0C666013": {
+          "text": "The \"Clear specific object\" command was executed",
+          "version": 1
         }
       }
     },
@@ -129,6 +133,10 @@
     },
     "080A0103": {
       "text": "Command \"Reset all pending diagnostics\" executed",
+      "version": 1
+    },
+    "080A0104": {
+      "text": "Command \"Reset pending diagnostics of object\" executed",
       "version": 1
     },
     "080A0110": {
@@ -617,6 +625,78 @@
         }
       }
     },
+    "080A0700": {
+      "text": "Synchronization initialized",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8000": {
+          "text": "The original Data Layer structure could not be created.",
+          "version": 1
+        }
+      }
+    },
+    "080A0701": {
+      "text": "Synchronization configuration changed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8001": {
+          "text": "phc2sys instance was created",
+          "version": 1
+        },
+        "0C7B8002": {
+          "text": "phc2sys instance was removed",
+          "version": 1
+        },
+        "0C7B8003": {
+          "text": "ptp4l instance was created",
+          "version": 1
+        },
+        "0C7B8004": {
+          "text": "ptp4l instance was removed",
+          "version": 1
+        },
+        "0C7B8005": {
+          "text": "real2mono instance was created",
+          "version": 1
+        },
+        "0C7B8006": {
+          "text": "real2mono instance was removed",
+          "version": 1
+        }
+      }
+    },
+    "080A0702": {
+      "text": "Instance operation",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8030": {
+          "text": "Instance started",
+          "version": 1
+        },
+        "0C7B8031": {
+          "text": "Instance stopped",
+          "version": 1
+        }
+      }
+    },
+    "080A0703": {
+      "text": "Process operation",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8045": {
+          "text": "Process started",
+          "version": 1
+        },
+        "0C7B8046": {
+          "text": "Process stopped",
+          "version": 1
+        }
+      }
+    },
+    "080A077F": {
+      "text": "Synchronization message",
+      "version": 1
+    },
     "080A0822": {
       "text": "Bridged interface updated successfully",
       "version": 1
@@ -881,6 +961,16 @@
         }
       }
     },
+    "080E0280": {
+      "text": "Data layer provider connection interrupted",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C340000": {
+          "text": "The Data Layer provider was logged off due to inactivity.",
+          "version": 1
+        }
+      }
+    },
     "080E0300": {
       "text": "Security: User management warning",
       "version": 1,
@@ -1036,6 +1126,18 @@
         "0C660042": {
           "text": "Available onboard storage of the control low",
           "version": 1
+        },
+        "0C660044": {
+          "text": "High control temperature (CPU)",
+          "version": 1
+        },
+        "0C660045": {
+          "text": "High control temperature (Board)",
+          "version": 1
+        },
+        "0C660046": {
+          "text": "High control temperature (Flash)",
+          "version": 1
         }
       }
     },
@@ -1095,6 +1197,20 @@
       "text": "Trace warning app.automationframework",
       "version": 2
     },
+    "080E0700": {
+      "text": "Failed to initialize synchronization",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B802A": {
+          "text": "Internal error",
+          "version": 1
+        }
+      }
+    },
+    "080E077F": {
+      "text": "Error in synchronization subsystem",
+      "version": 1
+    },
     "080E0825": {
       "text": "Network configuration data changed successfully",
       "version": 1
@@ -1123,6 +1239,14 @@
         },
         "0C641116": {
           "text": "System reboot required due to changes in the real-time settings",
+          "version": 1
+        },
+        "0C64112A": {
+          "text": "System restart required due to changes made to proxy settings",
+          "version": 1
+        },
+        "0C64112D": {
+          "text": "System restart required, as the watchdog was activated",
           "version": 1
         }
       }
@@ -1323,6 +1447,10 @@
         },
         "0C7B4285": {
           "text": "Error when switching the system state",
+          "version": 1
+        },
+        "0C7B4291": {
+          "text": "Failed to create a task",
           "version": 1
         }
       }
@@ -2805,6 +2933,132 @@
         }
       }
     },
+    "080F0700": {
+      "text": "Instance operation failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8010": {
+          "text": "Instance operation could not be started",
+          "version": 1
+        },
+        "0C7B8011": {
+          "text": "Instance operation could not be stopped",
+          "version": 1
+        },
+        "0C7B8012": {
+          "text": "Subscribing to the status node failed",
+          "version": 1
+        },
+        "0C7B8013": {
+          "text": "Unsubscribing from status node failed",
+          "version": 1
+        },
+        "0C7B802A": {
+          "text": "Internal error",
+          "version": 1
+        }
+      }
+    },
+    "080F0701": {
+      "text": "Instance configuration failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8020": {
+          "text": "Missing properties in the instance configuration",
+          "version": 1
+        },
+        "0C7B8021": {
+          "text": "Missing name in the instance configuration",
+          "version": 1
+        },
+        "0C7B8022": {
+          "text": "Missing source in the instance configuration",
+          "version": 1
+        },
+        "0C7B8023": {
+          "text": "Missing target in the instance configuration",
+          "version": 1
+        },
+        "0C7B8024": {
+          "text": "Missing mode in the instance configuration",
+          "version": 1
+        },
+        "0C7B8025": {
+          "text": "Missing phc2sys options in the instance configuration",
+          "version": 1
+        },
+        "0C7B8026": {
+          "text": "Missing ptp4l options in the instance configuration",
+          "version": 1
+        },
+        "0C7B8027": {
+          "text": "Instance configuration has invalid target",
+          "version": 1
+        },
+        "0C7B8028": {
+          "text": "Instance configuration has invalid name",
+          "version": 1
+        },
+        "0C7B8029": {
+          "text": "Instance configuration failed as the instance has already been started",
+          "version": 1
+        },
+        "0C7B802A": {
+          "text": "Internal error",
+          "version": 1
+        },
+        "0C7B802B": {
+          "text": "Missing real2mono options",
+          "version": 1
+        }
+      }
+    },
+    "080F0702": {
+      "text": "Synchronization of initialization failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8012": {
+          "text": "Subscribing to the status node failed",
+          "version": 1
+        },
+        "0C7B802A": {
+          "text": "Internal error",
+          "version": 1
+        },
+        "0C7B8040": {
+          "text": "Internal Daemon error",
+          "version": 1
+        }
+      }
+    },
+    "080F0703": {
+      "text": "Start process operation failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B802A": {
+          "text": "Internal error",
+          "version": 1
+        },
+        "0C7B8040": {
+          "text": "Internal Daemon error",
+          "version": 1
+        },
+        "0C7B8041": {
+          "text": "Memory allocation failed",
+          "version": 1
+        }
+      }
+    },
+    "080F0704": {
+      "text": "Synchronization Daemon initialization failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8042": {
+          "text": "Internal error",
+          "version": 1
+        }
+      }
+    },
     "080F0800": {
       "text": "Error in AppManager",
       "version": 1,
@@ -3127,6 +3381,10 @@
         },
         "0C64107B": {
           "text": "Update not possible. Version is empty",
+          "version": 1
+        },
+        "0C641130": {
+          "text": "Installing Device Admin app (rexroth-deviceadmin) from unknown sources is not supported.",
           "version": 1
         }
       }
@@ -3536,6 +3794,10 @@
         "0C64111C": {
           "text": "Task already exists",
           "version": 1
+        },
+        "0C64112C": {
+          "text": "Image update is not available for this device",
+          "version": 1
         }
       }
     },
@@ -3701,6 +3963,20 @@
         }
       }
     },
+    "080F082C": {
+      "text": "Failed to read language file",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64103D": {
+          "text": "The requested language file was not found.",
+          "version": 1
+        },
+        "0C64103E": {
+          "text": "Error when reading the requested language file",
+          "version": 1
+        }
+      }
+    },
     "080F0833": {
       "text": "Failed to execute firmware update command",
       "version": 1,
@@ -3753,6 +4029,10 @@
         },
         "0C641128": {
           "text": "No update available",
+          "version": 1
+        },
+        "0C641129": {
+          "text": "System restart required due to changes made to the memory reservation settings",
           "version": 1
         }
       }
@@ -3947,6 +4227,10 @@
         },
         "0C6410AE": {
           "text": "Interface already exists",
+          "version": 1
+        },
+        "0C64112F": {
+          "text": "No license found to create an interface.",
           "version": 1
         },
         "0C641247": {
@@ -5040,6 +5324,10 @@
         "0C6410CA": {
           "text": "NTP information invalid",
           "version": 1
+        },
+        "0C64112E": {
+          "text": "Persistence interval beyond range",
+          "version": 1
         }
       }
     },
@@ -5689,6 +5977,48 @@
         }
       }
     },
+    "080F089B": {
+      "text": "Failed to start the RDA command handler",
+      "version": 1
+    },
+    "080F089C": {
+      "text": "Failed to set watchdog to active",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F089D": {
+      "text": "Failed to retrieve watchdogs",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F089E": {
+      "text": "Failed to mount NFS share",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64111F": {
+          "text": "Media task action failed",
+          "version": 1
+        }
+      }
+    },
+    "080F089F": {
+      "text": "Failed to read firewall tables.",
+      "version": 1
+    },
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
       "version": 1,
@@ -6097,6 +6427,16 @@
         }
       }
     },
+    "080F8650": {
+      "text": "Start of ctrlX framework aborted",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7C0107": {
+          "text": "See dynamic description for specific cause",
+          "version": 1
+        }
+      }
+    },
     "080F9540": {
       "text": "Critical failure detected during health monitoring",
       "version": 1,
@@ -6475,6 +6815,38 @@
       "detailedDiagnostics": {
         "0C6F002A": {
           "text": "No certificates found for the Rexroth Remote Agent",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011C": {
+      "text": "Failed to retrieve setup configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011D": {
+      "text": "Failed to set setup configuration",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Cannot write data to HTTP response",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
           "version": 1
         }
       }

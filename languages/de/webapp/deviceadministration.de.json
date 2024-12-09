@@ -17,5 +17,16 @@
   "da.welcome-widget.get-started.button": "Lassen Sie uns loslegen",
   "da.welcome-widget.text1": "Lernen Sie ctrlX OS kennen und erfahren Sie, wie Sie Ihre ersten Schritte damit machen können.",
   "da.welcome-widget.text2": "Sehen Sie sich die How-To-Videoserie an.",
-  "da.welcome-widget.title": "Willkommen"
+  "da.welcome-widget.title": "Willkommen",
+  "da.link-widget.select-predefined-link": "Wählen Sie eine vordefinierte Verknüpfung:",
+  "da.link-widget.predefined-link.label": "Vordefinierte Verknüpfung",
+  "da.link-widget.custom-link": "Oder erstellen Sie eine eigene Verknüpfung:",
+  "da.link-widget.link-title.label": "Titel",
+  "da.link-widget.link-description.label": "Beschreibung",
+  "da.link-widget.link-url.label": "URL",
+  "da.link-widget.link-icon.label": "Symbol",
+  "da.link-widget.link-open-in-new-tab.label": "In neuem Tab öffnen",
+  "da.link-widget.no-icon": "Kein Symbol",
+  "da.link-widget.search": "Suche",
+  "da.link-widget.no-icons-found": "Keine Symbole gefunden"
 }

@@ -12,6 +12,7 @@
     "edit.tooltip": "Edit",
     "delete.tooltip": "Delete",
     "showDetails.tooltip": "Show details",
+    "download.tooltip": "Download",
 
     "delete.confirmation": "Are you sure you want to delete {{param}}?",
     "delete.button": "Delete",
@@ -67,6 +68,7 @@
   },
 
   "asm.deviceCategoryEditor": {
+    "deviceCategory": "device category",
     "displayName": "Display name",
     "modelId": "Model id",
     "authority": "Authority",
@@ -88,6 +90,7 @@
   },
 
   "asm.authorityEditor": {
+    "authority": "authority",
     "newAuthority": "New authority",
     "displayName": "Display name",
     "accountId": "Account id",
@@ -108,6 +111,7 @@
     "title": "Create system user assertion",
     "targetDeviceCategory": "Target device category",
     "serialNoOfTargetDevice": "Serial number of target device",
+    "installationId": "Installation id",
     "usernameOnTargetDevice": "Username on target device",
     "passwordOnTargetDevice": "Password on target device",
     "confirmPassword": "Confirm password",
@@ -118,6 +122,7 @@
     "enterPasswordMessage": "Enter a password",
     "confirmPasswordMessage": "Confirm the password",
     "confirmationDoesNotMatchPasswordMessage": "Confirmation does not match password",
-    "enterComment": "Enter a comment"
+    "enterComment": "Enter a comment",
+    "enterValidInstallationId": "Enter a valid installation id in the following form: xxxxxxxx-xxxx-4xxx-[8,9,A,a,B,b]xxx-xxxxxxxxxxxx"
   }
 }

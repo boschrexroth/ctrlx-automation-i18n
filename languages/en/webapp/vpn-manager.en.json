@@ -60,10 +60,10 @@
     "optionAutomaticDescr": "The connection is started automatically on device startup. Manual start and stop is also possible",
     "optionDataLayer": "DataLayer controlled",
     "optionDataLayerDescr": "The connection state is controlled exclusively by a DataLayer node",
-    "triggerInputPlaceholder": "Address of the DataLayer node that controls the connection status",
+    "triggerInputLabel": "Address of the DataLayer node that controls the connection status",
     "connectionStatusPropagation": "Connection status propagation",
     "connectionStatusPropagationDescr": "Propagate connection status to DataLayer node",
-    "indicatorInputPlaceholder": "Address of the DataLayer node that will receive the connection status",
+    "indicatorInputLabel": "Address of the DataLayer node that will receive the connection status",
     "test.button": "Test",
     "triggerTest.tooltip": "Click to read the data layer node",
     "indicatorTest.tooltip": "Press and hold to set the data layer node to true until release",
@@ -96,12 +96,6 @@
     "cantImportExisingConfigurations": "Cannot import, as the following connections already exist: {{param}}",
     "notABoolDataLayerNode": "The specified DataLayer node is not of type bool8.",
     "currentValue": "Current value: {{param}}"
-  },
-
-  "vpn.alertBoxFactoryService": {
-    "title": "Unsaved changes on {{param}}",
-    "saveDiscardCancelDescription": "You made changes to this item. You can save your changes, discard your changes or cancel to continue editing.",
-    "discardCancelDescription": "You made changes to this item. You can discard your changes or cancel to continue editing."
   }
 
 }

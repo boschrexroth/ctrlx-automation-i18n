@@ -7,6 +7,6 @@
   "scopes-declaration.rexroth-opcua-client.description": "Berechtigungen für die OPC UA Client-App",
   "scopes-declaration.rexroth-opcua-client.opcua.x.name": "OPC UA Client-Zugriff",
   "scopes-declaration.rexroth-opcua-client.opcua.x.description": "Zugriff auf Daten, die von der OPC UA Client-App über den Data Layer bereitgestellt werden",
-  "sidebar.opcua.1-Overview.title": "Übersicht",
-  "sidebar.opcua.2-Client.title": "Client"
+  "sidebar.opcua.1-Client.title": "Client",
+  "sidebar.opcua.2-FlatC.title": "FlatC Generation"
 }

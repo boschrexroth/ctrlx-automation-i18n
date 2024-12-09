@@ -3,8 +3,11 @@
     "certificatestores.ssh.title": "SSH",
     "certificatestores.webserver.title": "Web server",
     "certificatestores.networksecurity.description": "Keys and certificates required for client and server-side authentication",
+    "certificatestores.appvalidationcerts.title": "App signature validation certificates",
     "certificatestores.ssh.description": "Manage the SSH host keys",
     "certificatestores.webserver.description": "Manage and validate webserver credentials",
+    "certificatestores.licensing.title": "Licensing",
+    "certificatestores.licensing.description": "Keys and certficates required for floating license functionality",
     "scopes.rexroth-device.name": "Administration",
     "scopes.certificatemanager.name": "Certificates & Keys",
     "scopes.logbook.name": "Logbook",
@@ -130,10 +133,15 @@
     "licenses.SWL-XOH-RUN-xxxxxxxxxxxxx-NNNN.description": "Allows to use ctrlX OS on this host.",
     "licenses.SWL-XCx-FLS-FLOATxSERVERx-NNNN.title": "ctrlX OS License - Floating License Server",
     "licenses.SWL-XCx-FLS-FLOATxSERVERx-NNNN.description": "Enables using the device as a (floating) license server.",
+    "licenses.SWL-XCx-XCR-HSRxPRPxxxxxx-NNNN.title": "ctrlX OS License - HSR / PRP redundant network protocols",
+    "licenses.SWL-XCx-XCR-HSRxPRPxxxxxx-NNNN.description": "Enables using redundant network protocols HSR and PRP.",
     "configuration.diagnosis.description": "Diagnosis settings",
     "configuration.logmanagement.description": "Log Management settings",
     "overview.install-an-app.title": "Install an app",
     "dashboard.welcome-widget.title": "Welcome",
     "dashboard.welcome-widget.description": "Take your first steps with ctrlX OS",
-    "dashboard.welcome-widget.categories[0]": "General"
+    "dashboard.welcome-widget.categories[0]": "General",
+    "dashboard.link-widget.title": "Link",
+    "dashboard.link-widget.description": "Place links on the dashboard",
+    "dashboard.link-widget.categories[0]": "General"
 }

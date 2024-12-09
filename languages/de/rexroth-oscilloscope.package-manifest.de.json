@@ -6,5 +6,12 @@
     "dashboard.oscilloscope.description": "Zeigt den Status Ihrer Instanzen an",
     "dashboard.oscilloscope.categories[0]": "Oszilloskop",
     "licenses.basic.title": "ctrlX OS-Lizenz – Oszilloskop",
-    "licenses.basic.description": "Das ctrlX OSCILLOSCOPE zeichnet Signale aus verschiedenen Quellen auf und stellt Werkzeuge zu deren Analyse bereit."
+    "licenses.basic.description": "Das ctrlX OSCILLOSCOPE zeichnet Signale aus verschiedenen Quellen auf und stellt Werkzeuge zu deren Analyse bereit.",
+    "scopes.oscilloscope.name": "Oszilloskop",
+    "scopes.oscilloscope.view.name": "Oszilloskop Ansicht",
+    "scopes.oscilloscope.view.description": "Lesezugriff auf die Oszilloskopkonfiguration.",
+    "scopes.oscilloscope.operate.name": "Oszillosokpe betreiben",
+    "scopes.oscilloscope.operate.description": "Lesezugriff auf die Oszilloskopkonfiguration, Ausführen von Oszilloskopbefehlen mit der aktuellen Konfiguration.",
+    "scopes.oscilloscope.manage.name": "Oszilloskop Verwalten",
+    "scopes.oscilloscope.manage.description": "Lese- und Schreibrechte für alle Oszilloskop-Datenschichtknoten, Ausführung von Oszilloskop-Befehlen"
 }

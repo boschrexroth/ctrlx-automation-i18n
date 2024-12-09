@@ -25,7 +25,7 @@
       "title": {
         "alarms": "Alarms",
         "logs": "History",
-        "console": "Console"
+        "console": "Logger"
       },
       "filter": {
         "notSet": "No filter set",
@@ -83,16 +83,26 @@
         "selectedHeader": "Selected columns"
       },
       "status": {
-        "occured": "occured",
-        "solved": "solved",
-        "tofix": "to fix",
-        "toclear": "to clear"
+        "isActive": "is active"
       },
       "msg": {
         "noNextBookmark": "No next bookmark exists",
         "noPreviousBookmark": "No previous bookmark exists",
         "callout": "{{cnt}} file(s) were downloaded",
         "calloutNoData": "No data available"
+      },
+      "elapsedtime": {
+        "seconds": "a few seconds ago",
+        "minute": "a minute ago",
+        "minutes": "{{cnt}} minutes ago",
+        "hour": "an hour ago",
+        "hours": "{{cnt}} hours ago",
+        "day": "a day ago",
+        "days": "{{cnt}} days ago",
+        "month": "a month ago",
+        "months": "{{cnt}} months ago",
+        "year": "a years ago",
+        "years": "{{cnt}} years ago" 
       }
     },
     "common": {

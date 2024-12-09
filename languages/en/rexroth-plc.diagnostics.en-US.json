@@ -1,5 +1,5 @@
 {
-  "product": "PLC-V-0206",
+  "product": "PLC-V-0304",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
@@ -331,6 +331,16 @@
       "detailedDiagnostics": {
         "0C280150": {
           "text": "Unauthorized access",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0060": {
+      "text": "Control reboot required",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280160": {
+          "text": "The size of the retain memory was changed by loading a configuration",
           "version": 1
         }
       }
@@ -4370,7 +4380,7 @@
       }
     },
     "0A0F0118": {
-      "text": "Error in the library CXA_Winder",
+      "text": "Error in the library CXA_MotionPrinting",
       "version": 1,
       "detailedDiagnostics": {
         "0C230001": {
@@ -4395,6 +4405,26 @@
         },
         "0C230006": {
           "text": "\"PControlLowVel\" or \"PControlHighVel\" is negative",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "Error while configuring the machine settings.",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "Stop distance is too short.",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "Start distance is too short.",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "Start distance and stop distance are too long.",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "Axis has no power.",
           "version": 1
         }
       }
@@ -4607,6 +4637,20 @@
         },
         "0C230031": {
           "text": "Null pointer",
+          "version": 1
+        }
+      }
+    },
+    "0A0F011C": {
+      "text": "Error in the CXA_MBus library",
+      "version": 1
+    },
+    "0A0F011D": {
+      "text": "Error in the CXA_ScriptInterpreter library",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Script instance with different language entry available.",
           "version": 1
         }
       }

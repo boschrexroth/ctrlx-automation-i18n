@@ -9,5 +9,6 @@
 	"scopes-declaration.rexroth-firewall.web.r.name": "Firewall-Konfiguration ansehen",
 	"scopes-declaration.rexroth-firewall.web.r.description": "Firewall-Konfiguration ansehen",
 	"scopes-declaration.rexroth-firewall.web.rw.name": "Firewall-Konfiguration bearbeiten",
-	"scopes-declaration.rexroth-firewall.web.rw.description": "Firewall-Konfiguration bearbeiten"
+	"scopes-declaration.rexroth-firewall.web.rw.description": "Firewall-Konfiguration bearbeiten",
+	"documentation.firewall.description": "Stellt Funktionalitäten für ctrlX OS zur Firewallverwaltung bereit."
 }

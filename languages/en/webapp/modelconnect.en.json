@@ -8,10 +8,7 @@
     "browserNotSupport.title": "Your browser does not support WebGL",
     "licenseNotAvailable.title": "License service not available",
     "noValidLicense.title": "No valid license for 3D Viewer",
-    "selectXML.title": "Please select XML file",
-    "selectZIP.title": "Please select ZIP file",
-    "atLeastSTL.title": "At least one stl file is required",
-    "atLeastZIP.title": "At least one zip file is required",
+    "atLeastZIPorMOCorFMU.title": "Invalid file extension",
     "invalidExp.error": "Invalid expression",
     "nodeNotExist.error": "Node does not exist in Data Layer",
     "stockNodeExist.error": "Stock name already exists",
@@ -20,6 +17,7 @@
     "connection.networkerror": "Network error: the connection was lost; please check whether the ctrlX OS is still operational",
     "dl_action_notfound.networkerror": "Network error: the connection has failed, and the system could not perform or conclude the requested action",
     "dl_subscription.networkerror": "Network error: the connection to the datalayer has failed; please refresh the page",
+    "oauthtoken.error": "Your session has been closed or is expired...",
     "session.networkerror": "Network error: the session was finished; please refresh the page and log in again",
     "notfound.networkerror" : "Network error: service not found",
     "timeout.networkerror": "Network error: a failure occurred, maybe there was a timeout; please try again",
@@ -28,9 +26,7 @@
     "removeTooltip.tooltip": "REMOVE",
     "playTooltip.tooltip": "START",
     "pauseTooltip.tooltip": "PAUSE",
-    "stopTooltip.tooltip": "STOP",
-    "cannotManage.tooltip": "(You do not have the required permissions)",
-    "cannotView.tooltip": "You do not have the required permissions to see details"
+    "stopTooltip.tooltip": "STOP"
   },
   "moc.dashboard": {
     "newTab.tooltip": "Open model in a new tab",
@@ -50,11 +46,12 @@
     "delete.tooltip": "Delete {{itemStr}}",
     "delete.title": "Confirm removal",
     "matlab.description": "function",
-    "simulink.description": "model"
+    "simulink.description": "model",
+    "fmu.description": "functional mockup unit"
   },
   "moc.modelUpload": {
     "loadModels.label": "Load models",
-    "dragItHere.label": "Drag & Drop (zip) files here",
+    "dragItHere.label": "Drag & Drop packages here",
     "or.label": "or",
     "ChooseFiles.button": "Select files",
     "cannotUpload.tooltip": "UPLOAD (You do not have the required permissions)"

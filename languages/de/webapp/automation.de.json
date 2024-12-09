@@ -113,7 +113,6 @@
            "colUnit": "Einheit",
            "colType": "Typ"
          },
-
          "attribute": {
            "title": "Metadaten",
            "colName": "Name",
@@ -121,6 +120,15 @@
            "noData": "Knoten hat keine Metadaten",
            "showAttributes": "Zeigt nicht verfügbare Attribute an",
            "hideAttributes": "Blendet nicht verfügbare Attribute aus"
+         },
+         "event": {
+          "title": "Ereignisse",
+          "colTimestamp": "Zeitstempel",
+          "colSequencenumber": "Sequenznummer",
+          "colNode": "Knoten",
+          "colSourcename": "Quellenname",
+          "colValue": "Wert",
+          "copyEvents": "Ereignisse in die Zwischenablage kopieren"
          }
       },
 

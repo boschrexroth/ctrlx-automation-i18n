@@ -13,7 +13,14 @@
     "clickHereForDetails.text": "Click here for details",
     "restart.button": "Restart",
     "later.button": "Later",
-    "Delete.button": "Delete & Restart"
+    "Delete.button": "Delete & Restart",
+    "reset.button": "Reset & Restart",
+    "delete.text": "Delete",
+    "download.text": "Download",
+    "upload.button": "Upload",
+    "edit.tooltip": "Edit",
+    "emptyText.text": "No items to display",
+    "enterValidValue.text": "Enter a valid value"
   },
   "uas.configuration": {
     "serverConfiguration.title": "OPC UA Server configuration",
@@ -26,8 +33,10 @@
     "startTime.text": "Start time:",
     "restartInitiated.text": "Restart of the server app was successfully initiated",
     "restartServer.text": "Restart of server",
-    "restartServerDesc.text": "Do you really want to restart server? By restarting all OPC UA session will be closed."
-
+    "restartServerDesc.text": "Do you really want to restart server? By restarting all OPC UA session will be closed.",
+    "resetServer.text": "Reset and restart the configuration",
+    "resetServerDesc.text": "Do you really want to reset and restart the configuration?",
+    "resetInitiated.text": "The configurations have been reset successfully"
   },
   "uas.certificate": {
     "enterValidValue.text": "Enter a valid value",
@@ -43,10 +52,11 @@
     "allowDeprecatedPolicies.tooltip": "Allows the use of deprecated 'Security Policies' for the 'Secure Channels' and 'User Tokens'",
     "allowDeprecatedPolicies.text": "Allows the use of deprecated 'Security Policies'",
     "securityConfigurations.title": "'Security' configurations",
+    "securityConfigDisabledAdd.tooltip": "Please update the empty row with the required details",
     "userTokenConfigurations.title": "'User Token' configurations",
     "action.header": "Action",
-    "deactivated.tooltip": "Deactivated",
-    "activated.tooltip": "Activated",
+    "deactivate.tooltip": "Deactivate",
+    "activate.tooltip": "Activate",
     "type.header": "Type",
     "deactivate.description": "Do you really want to deactivate {{value}}?",
     "activate.description": "Do you really want to activate {{value}}?",
@@ -56,11 +66,15 @@
     "deactivateTokenConfig.text": "Deactivate 'User Token' configuration",
     "activatedSuccessfully.text": "{{value}} activated successfully",
     "deactivatedSuccessfully.text": "{{value}} deactivated successfully",
-    "deleteSecurityConfig.text": "Delete 'Security' configuration",
-    "delete.description": "Do you really want to delete {{value}}?", 
+    "deleteSecurityConfig.text": "Delete security configuration '{{value}}'",
+    "delete.description": "This security configuration will be deleted immediately. This action cannot be undone.",
     "delete.text": "Delete",
     "deletedSuccessfully.text": "{{value}} deleted successfully",
-    "deleteUserTokenConfig.text": "Delete 'User Token' configuration"
+    "deleteUserTokenConfig.text": "Delete user token configuration '{{value}}'",
+    "signEncrypt.text": "Sign and Encrypt",
+    "sign.text": "Sign",
+    "policy.text": "Policy",
+    "none.text": "None"
   },
   "uas.serverDetails": {
     "setup.title": "Setup {{value}}",
@@ -74,7 +88,6 @@
     "certificatesDeleted.text": "Certificates has been successfully deleted",
     "confirmCertficate.text": "Confirmation is required",
     "confirmCertficateDesc.text": "The certificates will be deleted, and a server restart will take place upon confirmation. If not confirmed, changes will be saved, server will not be restarted and certificates are not deleted."
-    
   },
   "uas.session": {
     "enterValidValue.text": "Enter a valid value",
@@ -148,8 +161,41 @@
     "refresh": "Refresh",
     "servicemode": "The 'Service mode' is currently active. Please go to the {{value}} switch to 'Operation mode' and try again.",
     "servicemode.appManagerLink": "Apps manager",
-    "details_1":"Please check the ",
-    "details_2":" for more details",
-    "Logbook":"Logbook"
+    "details_1": "Please check the ",
+    "details_2": " for more details",
+    "Logbook": "Logbook"
+  },
+  "uas.infoModel": {
+    "uploadInfoModel.text": "Upload Information Model",
+    "noInfoModel.text": "No Information Model Configured",
+    "name.text": "Name",
+    "size.text": "Size",
+    "action.text": "Action",
+    "downloadSuccuessful.text": "File successfully downloaded",
+    "deleteSuccuessful.text": "{{value}} successfully deleted",
+    "deleteInfo.text": "Delete information model file?",
+    "deleteInfoDesc.text": "Do you really want to delete {{value}}",
+    "uploadFiles.text": "Upload Files",
+    "restartInfo.text": "Restart server to load the information models"
+  },
+  "uas.mappings": {
+    "action.text": "Action",
+    "addMapping.text": "Add Mapping",
+    "addMappingResult.tooltip": "Add Mapping Result",
+    "deleteMappingTableDesc.text": "Do you really want to delete Mapping Table?",
+    "deleteMappingTable.text": "Delete Mapping Table",
+    "deleteMappingSuccess.text": "{{value}} successfully deleted",
+    "mappingSuccess.text": "Mapping successfully updated",
+    "mappingResultDeleteSuccess.text": "Mapping Table successfully deleted",
+    "mappingDeleteSuccess.text": "Mapping successfully deleted",
+    "deleteMappingDesc.text": "Do you really want to delete {{value}}",
+    "deleteMapping.text": "Delete {{value}}?",
+    "noMappingConfig.text": "No Mapping Configured",
+    "addMappingTable.text": "Add Mapping Table",
+    "mappingTableSuccess.text": "Succuessfully added {{value}}",
+    "mappingAddSuccess.text": "Mapping successfully added",
+    "setupMapping.text": "Setup Mapping",
+    "properties.text": "Properties",
+    "editMppingTable.text": "Edit Mapping Table"
   }
 }

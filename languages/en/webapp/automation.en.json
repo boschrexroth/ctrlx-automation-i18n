@@ -13,7 +13,7 @@
         "reset": "Reset",
         "proceed": "Continue",
         "navigateTo": "Navigate to",
-        "download": "Downlaod",
+        "download": "Download",
         "upload": "Upload"
       }
     },
@@ -113,7 +113,6 @@
            "colUnit": "Unit",
            "colType": "Type"
          },
-
          "attribute": {
            "title": "Metadata",
            "colName": "Name",
@@ -121,6 +120,15 @@
            "noData": "Node has no metadata",
            "showAttributes": "Shows unavailable attributes",
            "hideAttributes": "Hides unavailable attributes"
+         },
+         "event": {
+          "title": "Events",
+          "colTimestamp": "Timestamp",
+          "colSequencenumber": "Sequencenumber",
+          "colNode": "Node",
+          "colSourcename": "Sourcename",
+          "colValue": "Value",
+          "copyEvents": "Copy events to clipboard"
          }
       },
 

@@ -1,5 +1,5 @@
 {
-  "product": "PLC-V-0206",
+  "product": "PLC-V-0304",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -331,6 +331,16 @@
       "detailedDiagnostics": {
         "0C280150": {
           "text": "Unautorisierter Zugriff",
+          "version": 1
+        }
+      }
+    },
+    "0A0F0060": {
+      "text": "Neustart der Steuerung erforderlich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C280160": {
+          "text": "Die Größe des Retain-Speichers wurde durch das Laden einer Konfiguration geändert",
           "version": 1
         }
       }
@@ -4370,7 +4380,7 @@
       }
     },
     "0A0F0118": {
-      "text": "Fehler in der Bibliothek CXA_Winder",
+      "text": "Fehler in der Bibliothek CXA_MotionPrinting",
       "version": 1,
       "detailedDiagnostics": {
         "0C230001": {
@@ -4395,6 +4405,26 @@
         },
         "0C230006": {
           "text": "\"PControlLowVel\" oder \"PControlHighVel\" ist negativ",
+          "version": 1
+        },
+        "0C230007": {
+          "text": "Fehler bei der Konfiguration der Maschineneinstellungen.",
+          "version": 1
+        },
+        "0C230008": {
+          "text": "Der Anhalteweg ist zu kurz.",
+          "version": 1
+        },
+        "0C230009": {
+          "text": "Der Anfahrweg ist zu kurz.",
+          "version": 1
+        },
+        "0C230010": {
+          "text": "Anfahrweg und Anhalteweg sind zu lang.",
+          "version": 1
+        },
+        "0C230011": {
+          "text": "Die Achse hat keine Leistung.",
           "version": 1
         }
       }
@@ -4607,6 +4637,20 @@
         },
         "0C230031": {
           "text": "Nullzeiger",
+          "version": 1
+        }
+      }
+    },
+    "0A0F011C": {
+      "text": "Fehler in der Bibliothek CXA_MBus",
+      "version": 1
+    },
+    "0A0F011D": {
+      "text": "Fehler in der Bibliothek CXA_ScriptInterpreter",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C230001": {
+          "text": "Skriptinstanz mit unterschiedlichem Spracheintrag vorhanden.",
           "version": 1
         }
       }

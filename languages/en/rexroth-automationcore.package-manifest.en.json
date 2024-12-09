@@ -10,5 +10,22 @@
   "configuration.script.description": "Scripts configurations",
   "configuration.scripts.description": "Scripts will be executed by script runner",
   "configuration.trace.description": "Trace: Enabling states - messages, warnings, errors",
-  "documentation.datalayer.description": "Provides Data Layer functionalities of the ctrlX CORE"
+  "documentation.datalayer.description": "Provides Data Layer functionalities of the ctrlX CORE",
+  "scopes.datalayerglobal.create.name": "Create Data Layer resources",
+  "scopes.datalayerglobal.view.name": "View Data Layer resources",
+  "scopes.datalayerglobal.modify.name": "Modify Data Layer resources",
+  "scopes.item.diagnosis.name": "Diagnosis",
+  "scopes.diagnosis.view.name": "View diagnosis",
+  "scopes.diagnosis.operate.name": "Operate diagnosis",
+  "scopes.diagnosis.manage.name": "Manage diagnosis",
+  "scopes.trace.view.name": "View Trace",
+  "scopes.trace.manage.name": "Manage Trace",
+  "scopes.scheduler.view.name": "View Scheduler",
+  "scopes.scheduler.operate.name": "Operate Scheduler",
+  "scopes.scheduler.manage.name": "Manage Scheduler",
+  "scopes.systemhandler.view.name": "View System Handler",
+  "scopes.systemhandler.operate.name": "Operate System Handler",
+  "scopes.nvram.view.name": "View NVRam",
+  "scopes.datalayer.view.name": "View Data Layer",
+  "scopes.datalayer.manage.name": "Manage Data Layer"
 }

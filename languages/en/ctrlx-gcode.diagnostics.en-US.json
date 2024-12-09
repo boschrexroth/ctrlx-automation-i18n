@@ -1,12 +1,12 @@
 {
-  "product": "GCO-V-0206",
+  "product": "GCO-V-0302",
   "mainDiagnostics": {
     "100A0040": {
-      "text": "General gcode system message",
+      "text": "General G-code system message",
       "version": 1
     },
     "100A0050": {
-      "text": "General gcode configuration system message",
+      "text": "General G-code configuration system message",
       "version": 1,
       "detailedDiagnostics": {
         "0C290006": {
@@ -112,6 +112,14 @@
         "0C290200": {
           "text": "General runtime error",
           "version": 1
+        },
+        "0C290209": {
+          "text": "error occurred while evaluating an expression in brackets in current NC block",
+          "version": 1
+        },
+        "0C29020A": {
+          "text": "User defined error in function 'SETERR()'",
+          "version": 1
         }
       }
     },
@@ -191,6 +199,28 @@
         }
       }
     },
+    "100F0064": {
+      "text": "System function error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C290300": {
+          "text": "Unknown function name",
+          "version": 1
+        },
+        "0C290301": {
+          "text": "Argument count error",
+          "version": 1
+        },
+        "0C290302": {
+          "text": "Argument type error",
+          "version": 1
+        },
+        "0C290303": {
+          "text": "Argument value error",
+          "version": 1
+        }
+      }
+    },
     "100F0070": {
       "text": "General error in the script syntax",
       "version": 1,
@@ -226,6 +256,18 @@
         "0C290107": {
           "text": "Overflow of the jump offset. Specify the jump target or the body size of the control structure.",
           "version": 1
+        },
+        "0C290108": {
+          "text": "program 'BREAK' outside loop",
+          "version": 1
+        },
+        "0C290109": {
+          "text": "No visual label programmed for GOTO",
+          "version": 1
+        },
+        "0C29010A": {
+          "text": "Duplicate label",
+          "version": 1
         }
       }
     },
@@ -235,6 +277,18 @@
       "detailedDiagnostics": {
         "0C290102": {
           "text": "Error in the data type of the argument",
+          "version": 1
+        },
+        "0C29010B": {
+          "text": "Invalid address word data type",
+          "version": 1
+        },
+        "0C29010C": {
+          "text": "Invalid M-Code value",
+          "version": 1
+        },
+        "0C29010D": {
+          "text": "The value of expression between '[' and ']' is not valid NC program words",
           "version": 1
         }
       }
@@ -249,6 +303,10 @@
         },
         "0C290013": {
           "text": "All address words of the main axis (X, Y, Z) should be programmed in one NC block (will be fixed in next version)",
+          "version": 1
+        },
+        "0C29001A": {
+          "text": "invalid address word programming",
           "version": 1
         }
       }

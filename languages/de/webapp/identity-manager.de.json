@@ -5,6 +5,8 @@
     "save.button": "Speichern",
     "close.button": "Schließen",
     "discard.button": "Verwerfen",
+    "add.button": "Hinzufügen",
+    "remove.button": "Entfernen",
 
     "edit.tooltip": "Bearbeiten",
     "delete.tooltip": "Löschen",
@@ -17,7 +19,8 @@
 
     "systemUserExt": "(Systembenutzer)",
     "remoteUserExt": "(Remote)",
-    "confirmationDoesNotMatchPassword": "Die Bestätigung stimmt nicht mit dem Passwort überein"
+    "confirmationDoesNotMatchPassword": "Die Bestätigung stimmt nicht mit dem Passwort überein",
+    "deprecated": "(veralted)"
   },
 
   "idm.startpage": {
@@ -112,6 +115,7 @@
   },
 
   "idm.groupDetailsDialog": {
+    "group": "Gruppe",
     "usersTab": "Benutzer",
     "permissionsTab": "Berechtigungen"
   },
@@ -122,7 +126,9 @@
     "permission": "Berechtigung",
     "identifier": "Scope-Bezeichner",
     "showScopeIds.tooltip": "Scope-Bezeichner anzeigen",
-    "hideScopeIds.tooltip": "Scope-Bezeichner verbergen"
+    "hideScopeIds.tooltip": "Scope-Bezeichner verbergen",
+    "orphanedPermissionsName": "Verwaiste Berechtigungen",
+    "orphanedPermissionsDescription": "Berechtigungen, deren zugehörige Anwendung nicht installiert ist"
   },
 
   "idm.groups": {
@@ -151,6 +157,7 @@
     "caCert": "CA-Zertifikat",
     "clientCert": "Client-Zertifikat",
     "clientKey": "Client-Schlüssel",
+    "clearSelection": "Auswahl löschen", 
     "uploadCaCert": "CA-Zertifikat hochladen",
     "uploadClientCert": "Client-Zertifikat hochladen",
     "uploadClientKey": "Client-Schlüssel hochladen",
@@ -234,7 +241,12 @@
 
   "idm.permissionDetailsDialog": {
     "authorizedUsers": "Berechtigte Benutzer",
-    "authorizedGroups": "Berechtigte Gruppen"
+    "authorizedGroups": "Berechtigte Gruppen",
+    "requiredScopeNotAutoAddedHint": "Beachten Sie, dass folgende erforderlichen Berechtigungen den autorisierten Benutzern und Gruppen manuell zugewiesen werden müssen:",
+    "identifier": "Scope-Bezeichner",
+    "category": "Kategorie",
+    "permission": "Berechtigung",
+    "appNotInstalled": "App ist nicht installiert"
   },
 
   "idm.permissions": {
@@ -325,6 +337,7 @@
   },
 
   "idm.userDetailsDialog": {
+    "user": "Benutzer",
     "details": "Details",
     "groups": "Gruppen",
     "individualPermissions": "Individuelle Berechtigungen",
@@ -348,16 +361,25 @@
     "uploadUserAssertionFile.tooltip": "Lädt \"system user assertion\" hoch"
   },
 
-  "idm.alertBoxFactoryService": {
-    "title": "Nicht gespeicherte Änderungen an {{param}}",
-    "saveDiscardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen.",
-    "discardCancelDescription": "Sie haben Änderungen an diesem Element vorgenommen. Sie können Ihre Änderungen verwerfen oder abbrechen, um die Bearbeitung fortzusetzen."
-  },
-
   "idm.easyServiceAccessSettingsDialog": {
     "title": "Einfacher Service-Zugang",
     "grantEasyServiceAccess": "Einfachen Servicezugang gestatten",
     "grantEasyServiceAccessHint": "Aktivieren Sie die Option \"Einfachen Servicezugang gestatten\", um unserem Kundenservice zu ermöglichen, einen Systembenutzer ohne vorherige Authentifizierung anzulegen."
+  },
+
+  "idm.requiredPermissionsConfirmationDialog": {
+    "addTitle": "Zusätzliche Berechtigungen erforderlich",
+    "removeTitle": "Berechtigung weiterhin erforderlich",
+    "addMsgLine1": "Sie haben die Berechtigung \"{{param}}\" hinzugefügt.",
+    "addMsgLine2": "Beachten Sie, dass die folgenden zusätzlichen Berechtigungen benötigt werden:",
+    "removeMsgLine1": "Sie sind dabei, die Berechtigung \"{{param}}\" zu entfernen.",
+    "removeMsgLine2": "Beachten Sie, dass diese Berechtigung noch von folgenden Berechtigungen benötigt wird:",
+    "identifier": "Scope-Bezeichner",
+    "category": "Kategorie",
+    "permission": "Berechtigung",
+    "appNotInstalled": "App ist nicht installiert",
+    "addRequiredScopes": "Wollen Sie die erforderlichen Berechtigungen hinzufügen?",
+    "removeRequiredScopeAnyway": "Wollen Sie die erforderliche Berechtigung trotzdem löschen?"
   }
 
 }

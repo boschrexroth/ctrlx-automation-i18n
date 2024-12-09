@@ -5,6 +5,8 @@
     "save.button": "Save",
     "close.button": "Close",
     "discard.button": "Discard",
+    "add.button": "Add",
+    "remove.button": "Remove",
 
     "edit.tooltip": "Edit",
     "delete.tooltip": "Delete",
@@ -17,7 +19,8 @@
 
     "systemUserExt": "(system user)",
     "remoteUserExt": "(remote)",
-    "confirmationDoesNotMatchPassword": "Confirmation does not match password"
+    "confirmationDoesNotMatchPassword": "Confirmation does not match password",
+    "deprecated": "(deprecated)"
   },
 
   "idm.startpage": {
@@ -112,6 +115,7 @@
   },
 
   "idm.groupDetailsDialog": {
+    "group": "group",
     "usersTab": "Users",
     "permissionsTab": "Permissions"
   },
@@ -122,7 +126,9 @@
     "permission": "Permission",
     "identifier": "Scope identifier",
     "showScopeIds.tooltip": "Show scope identifiers",
-    "hideScopeIds.tooltip": "Hide scope identifiers"
+    "hideScopeIds.tooltip": "Hide scope identifiers",
+    "orphanedPermissionsName": "Orphaned permissions",
+    "orphanedPermissionsDescription": "Permissions whose associated app is not installed"
   },
 
   "idm.groups": {
@@ -151,6 +157,7 @@
     "caCert": "CA certificate",
     "clientCert": "Client certificate",
     "clientKey": "Client key",
+    "clearSelection": "Clear selection", 
     "uploadCaCert": "Upload CA certificate",
     "uploadClientCert": "Upload client certificate",
     "uploadClientKey": "Upload client key",
@@ -234,7 +241,12 @@
 
   "idm.permissionDetailsDialog": {
     "authorizedUsers": "Authorized users",
-    "authorizedGroups": "Authorized groups"
+    "authorizedGroups": "Authorized groups",
+    "requiredScopeNotAutoAddedHint": "Note that the following required permissions must be assigned manually to authorized users and groups:",
+    "identifier": "Scope identifier",
+    "category": "Category",
+    "permission": "Permission",
+    "appNotInstalled": "App not installed"
   },
 
   "idm.permissions": {
@@ -325,6 +337,7 @@
   },
 
   "idm.userDetailsDialog": {
+    "user": "user",
     "details": "Details",
     "groups": "Groups",
     "individualPermissions": "Individual permissions",
@@ -348,16 +361,25 @@
     "uploadUserAssertionFile.tooltip": "Uploads \"system user assertion\""
   },
 
-  "idm.alertBoxFactoryService": {
-    "title": "Unsaved changes on {{param}}",
-    "saveDiscardCancelDescription": "You made changes to this item. You can save your changes, discard your changes or cancel to continue editing.",
-    "discardCancelDescription": "You made changes to this item. You can discard your changes or cancel to continue editing."
-  },
-
   "idm.easyServiceAccessSettingsDialog": {
     "title": "Easy service access",
     "grantEasyServiceAccess": "Allow easy service access",
     "grantEasyServiceAccessHint": "Enable the option \"Allow easy service access\" to allow our customer support to create a system user without previous authentication."
+  },
+
+  "idm.requiredPermissionsConfirmationDialog": {
+    "addTitle": "Additional permissions required",
+    "removeTitle": "Permission still required",
+    "addMsgLine1": "You added the permission \"{{param}}\".",
+    "addMsgLine2": "Note that the following additional permissions are required:",
+    "removeMsgLine1": "You are about to remove the permission \"{{param}}\".",
+    "removeMsgLine2": "Note that this permission is still required by the following permissions:",
+    "identifier": "Scope identifier",
+    "category": "Category",
+    "permission": "Permission",
+    "appNotInstalled": "App not installed",
+    "addRequiredScopes": "Do you want to add the required permissions?",
+    "removeRequiredScopeAnyway": "Do you want to remove the required permission anyway?"
   }
 
 }

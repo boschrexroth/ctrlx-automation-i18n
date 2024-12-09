@@ -7,8 +7,8 @@
 	"scopes-declaration.rexroth-3dviewer.web.description" :"Permissions",
 	"scopes-declaration.rexroth-3dviewer.models.r.name":"View Models",
 	"scopes-declaration.rexroth-3dviewer.models.r.description":"View Model Library",
-	"scopes-declaration.rexroth-3dviewer.models.rw.name":"Upload Models",
-	"scopes-declaration.rexroth-3dviewer.models.rw.description":"Upload Models into ctrlX",
-	"scopes-declaration.rexroth-3dviewer.axis.rw.name":"Configure Axis",
+	"scopes-declaration.rexroth-3dviewer.models.rw.name":"Manage Models",
+	"scopes-declaration.rexroth-3dviewer.models.rw.description":"Upload models into the ctrlX and delete",
+	"scopes-declaration.rexroth-3dviewer.axis.rw.name":"Configure Models",
 	"scopes-declaration.rexroth-3dviewer.axis.rw.description":"View and modify Axis configuration"
 }

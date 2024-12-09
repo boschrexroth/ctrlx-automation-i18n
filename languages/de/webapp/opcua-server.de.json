@@ -13,7 +13,14 @@
     "clickHereForDetails.text": "Klicken Sie hier um Details anzuzeigen",
     "restart.button": "Neustart",
     "later.button": "Später",
-    "Delete.button": "Löschen und neu starten"
+    "Delete.button": "Löschen und neu starten",
+    "reset.button": "Zurücksetzen und neu starten",
+    "delete.text": "Löschen",
+    "download.text": "Herunterladen",
+    "upload.button": "Hochladen",
+    "edit.tooltip": "Bearbeiten",
+    "emptyText.text": "Keine Artikel zum Anzeigen.",
+    "enterValidValue.text": "Geben Sie einen gültigen Wert ein"
   },
   "uas.configuration": {
     "serverConfiguration.title": "OPC UA Server-Konfiguration",
@@ -26,8 +33,10 @@
     "startTime.text": "Startzeit:",
     "restartInitiated.text": "Neustart der Server-App wurde erfolgreich gestartet",
     "restartServer.text": "Neustart des servers",
-    "restartServerDesc.text": "Möchten Sie den Server wirklich neu starten? Durch den Neustart werden alle OPC UA-Sitzungen geschlossen."
-
+    "restartServerDesc.text": "Möchten Sie den Server wirklich neu starten? Durch den Neustart werden alle OPC UA-Sitzungen geschlossen.",
+    "resetServer.text": "Setzen Sie die Konfiguration zurück und starten Sie sie neu",
+    "resetServerDesc.text": "Möchten Sie die Konfiguration wirklich zurücksetzen und neu starten?",
+    "resetInitiated.text": "Die Konfigurationen wurden erfolgreich zurückgesetzt"
   },
   "uas.certificate": {
     "enterValidValue.text": "Geben Sie einen gültigen Wert ein",
@@ -43,10 +52,11 @@
     "allowDeprecatedPolicies.tooltip": "Erlaubt die Verwendung veralteter 'Security Policies' für die 'Secure Channels' und 'User Token'",
     "allowDeprecatedPolicies.text": "Erlaubt die Verwendung veralteter 'Security Policies'",
     "securityConfigurations.title": "'Security'-Konfigurationen",
+    "securityConfigDisabledAdd.tooltip": "Bitte aktualisieren Sie die leere Zeile mit den erforderlichen Details",
     "userTokenConfigurations.title": "'User Token'-Konfigurationen",
     "action.header": "Aktion",
-    "deactivated.tooltip": "Deaktiviert",
-    "activated.tooltip": "Aktiviert",
+    "deactivate.tooltip": "Deaktivieren",
+    "activate.tooltip": "Aktivieren",
     "type.header": "Typ",
     "deactivate.description": "Wollen Sie wirklich {{value}} deaktivieren?",
     "activate.description": "Wollen Sie wirklich {{value}} aktivieren?",
@@ -56,11 +66,15 @@
     "deactivateTokenConfig.text": "'User Token'-Konfiguration deaktivieren",
     "activatedSuccessfully.text": "{{value}} erfolgreich aktiviert",
     "deactivatedSuccessfully.text": "{{value}} erfolgreich deaktiviert",
-    "deleteSecurityConfig.text": "'Security'-Konfiguration löschen",
-    "delete.description": "Wollen Sie wirklich {{value}} löschen?", 
+    "deleteSecurityConfig.text": "Löschen der Sicherheitskonfiguration '{{value}}'",
+    "delete.description": "Diese Sicherheitskonfiguration wird sofort gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
     "delete.text": "Löschen",
     "deletedSuccessfully.text": "{{value}} erfolgreich gelöscht",
-    "deleteUserTokenConfig.text": "'User Token'-Konfiguration löschen"
+    "deleteUserTokenConfig.text": "Löschen der Konfiguration des Benutzertokens '{{value}}'",
+    "signEncrypt.text": "Signieren und Verschlüsseln",
+    "sign.text": "Signieren",
+    "policy.text": "Politik",
+    "none.text": "Keiner"
   },
   "uas.serverDetails": {
     "setup.title": "Setup {{value}}",
@@ -147,8 +161,41 @@
     "refresh": "Aktualisieren",
     "servicemode": "Der 'Service-Modus' ist gerade aktiv. Bitte gehen Sie zu {{value}}, wechseln Sie in den 'Operation-Modus' und versuchen Sie es erneut.",
     "servicemode.appManagerLink": "Apps-Manager",
-    "details_1":"Bitte überprüfen Sie die ",
-    "details_2":" für mehr Details",
-    "Logbook":"Logbuch"
+    "details_1": "Bitte überprüfen Sie die ",
+    "details_2": " für mehr Details",
+    "Logbook": "Logbuch"
+  },
+  "uas.infoModel": {
+    "uploadInfoModel.text": "Informationsmodell hochladen",
+    "noInfoModel.text": "Keine Informationen Modell konfiguriert",
+    "name.text": "Name",
+    "size.text": "Größe",
+    "action.text": "Aktion",
+    "downloadSuccuessful.text": "Datei erfolgreich heruntergeladen",
+    "deleteSuccuessful.text": "{{value}} erfolgreich gelöscht",
+    "deleteInfo.text": "Information Model Datei löschen?",
+    "deleteInfoDesc.text": "Möchten Sie wirklich löschen {{value}}",
+    "uploadFiles.text": "Dateien hochladen",
+    "restartInfo.text": "Server neu starten, um die Informationsmodelle zu laden"
+  },
+  "uas.mappings": {
+    "action.text": "Aktion",
+    "addMapping.text": "Mapping hinzufügen",
+    "addMappingResult.tooltip": "Mapping-Ergebnis hinzufügen",
+    "deleteMappingTableDesc.text": "Möchten Sie Mapping Table wirklich löschen?",
+    "deleteMappingTable.text": "Mapping-Tabelle löschen",
+    "deleteMappingSuccess.text": "{{value}} erfolgreich gelöscht",
+    "mappingSuccess.text": "Mapping erfolgreich aktualisiert",
+    "mappingResultDeleteSuccess.text": "Mapping Table erfolgreich gelöscht",
+    "mappingDeleteSuccess.text": "Mapping erfolgreich gelöscht",
+    "deleteMappingDesc.text": "Möchten Sie wirklich löschen {{value}}",
+    "deleteMapping.text": "Löschen {{value}}?",
+    "noMappingConfig.text": "Kein Mapping Konfiguriert",
+    "addMappingTable.text": "Mapping-Tabelle hinzufügen",
+    "mappingTableSuccess.text": "Erfolgreich hinzugefügt {{value}}",
+    "mappingAddSuccess.text": "Mapping erfolgreich hinzugefügt",
+    "setupMapping.text": "Setup Mapping",
+    "properties.text": "Eigenschaften",
+    "editMppingTable.text": "Mapping-Tabelle bearbeiten"
   }
 }

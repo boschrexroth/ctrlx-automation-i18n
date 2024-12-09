@@ -7,7 +7,6 @@
       "ok.button": "OK",
       "licenseStatus.text": "Lizenz ist nicht verfügbar",
       "viewLicense.text": "Aktuelle Lizenzen anzeigen"
-
     },
 
     "overview": {
@@ -24,15 +23,15 @@
 
     "client": {
       "opcUaClient.title": "OPC UA Client",
-      "configuration/status.button": "Konfiguration/Status",
+      "configuration/status.button": "Konfiguration",
       "opcUaClientSubtitle.text": "OPC UA Client verwalten",
       "clientStatus.title": "OPC UA Client-Status öffnen",
-      "clientConnections.text": "Client-Verbindungen"
+      "clientConnections.text": "Client-Sitzungen"
     },
 
     "server": {
       "opcUaServer.title": "OPC UA Server",
-      "configuration/status.button": "Konfiguration/Status",
+      "configuration/status.button": "Konfiguration",
       "certificateConfig.title": "Zertifikatskonfiguration",
       "opcUaServerSubtitle.text": "OPC UA Server verwalten",
       "serverStatus.title": "OPC UA Server-Status öffnen",
@@ -43,14 +42,14 @@
 
     "pubsub": {
       "opcUaPubSub.title": "OPC UA Pub/Sub",
-      "configuration/status.button": "Konfiguration/Status",
+      "configuration/status.button": "Konfiguration",
       "opcUaPubSubSubtitle.text": "OPC UA Pub/Sub verwalten",
       "pubsubStatus.title": "OPC UA Pub/Sub-Status öffnen",
       "publishMessages.text": "Gesendete Nachrichten",
       "receiveMessages.text": "Empfangene Nachrichten"
     },
 
-    "datalayer":{
+    "datalayer": {
       "datalayerBrowser.title": "Data Layer Browser"
     }
   }

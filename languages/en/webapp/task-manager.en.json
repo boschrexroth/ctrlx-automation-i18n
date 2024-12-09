@@ -160,7 +160,8 @@
       "netUsageMsg": "Only connected and enabled network interfaces are shown.",
       "cpuUsage": "Reserved to process a real-time task",
       "coreReservedBySystem": "Reserved by system",
-      "coreReservedByUser": "Reserved for real-time processing by user"
+      "coreReservedByUser": "Reserved for real-time processing by user",
+      "coreReservedHelpText": "Core 0 cannot be used for real-time processing"
     },
     "memory": {
       "dialogTitle": "Memory reservation",

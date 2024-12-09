@@ -1,6 +1,6 @@
 {
 	"overview": {
-		"title": "Systemübersicht",
+		"title": "Übersicht",
 		"refresh": "Aktualisieren",
     "resetHilight": "Hervorhebung zurücksetzen",
     "hilightErrors": "Fehler hervorheben",
@@ -12,28 +12,36 @@
 			"type": "Typ",
 			"status": "Status",
 			"diagnosis": "Diagnosen",
-			"details": "Details"
+			"actions": "Actions"
 		}
 	},
 	"sysinfo": {
 		"etherSlavesTable": {
 		},
 		"table": {
-			"etherCatAddress": "Adr.",
+			"ethercatAddress": "Adr.",
 			"slaveName": "Name",
+      "hardware": "Hardware",
+      "firmware": "Firmware",
+      "partNumber": "MNR",
+      "hardwareind": "Än-In",
+      "serialNumber": "SN",
 			"vendor": "Hersteller",
+      "VendorId": "Her. Code",
 			"productCode": "Pr. Code",
-			"revisionNumber": "Rev.Nr.",
-			"serialNumber": "SN",
-			"hardwareind": "Än-In",
-			"partNumber": "Mat.Nr.",
-			"firmware": "Firmware",
-			"hardware": "Hardware",
-			"VendorId": "Her. Code"
+			"revisionNumber": "Rev.Nr."
 		},
+    "dialog": {
+      "title":"Speichern von Systemkomponenten",
+      "headerOne": "Header Konfiguration",
+      "fileName": "Dateiname",
+      "freeText": "Freitext",
+      "createButton": "Erstelle HTML",
+      "cancelButton": "Abbrechen"
+    },
     "tooltip":
     {
-      "etherCatAddress": "Adresse",
+      "ethercatAddress": "Adresse",
       "slaveName": "Name / Details",
       "productCode": "Produkt Code",
       "revisionNumber": "Revisionsnummer",
@@ -46,16 +54,37 @@
 			"address": "Adresse",
 			"givenName": "Name",
 			"type": "Typ",
+      "changeIndex": "Änderungsindex",
 			"serialNumber": "Serienr.",
-			"partNumber": "Teilenr."
+			"partNumber": "Teilenr.",
+      "operatingHours": "Betriebsstunden"
 		},
-		"title": "Systeminformationen",
+    "message":{
+      "success":{
+        "createHtml":"Die Datei wurde erfolgreich heruntergeladen",
+        "uploadHtml":"Die Datei wurde erfolgreich hochgeladen"
+      },
+      "error":{
+        "createHtml":"Fehler beim Herunterladen der Datei",
+        "uploadHtml":"Fehler beim Hochladen der Datei"
+      }
+    },
+		"title": "Komponenten",
 		"axlist": "Achsen",
 		"kinlist": "Kinematiken",
 		"save": "Speichern",
-		"save-data-to-file": "Speichere Systemdaten in eine Datei",
-		"save-detail-to-file": "Speichere Systemdetail in eine Datei",
+		"save-data-to-file": "Komponentendaten herunterladen",
+		"save-detail-to-file": "Systemdetail herunterladen",
+    "save-all-to-file": "Alles herunterladen",
+    "upload-data-to-file": "Systemdaten hochladen",
+		"upload-detail-to-file": "Systemdetail hochladen",
 		"config-columns": "Spalten konfigurieren",
-    "reset-columns": "Spalten zurücksetzen"
+    "reset-columns": "Spalten zurücksetzen",
+		"expandTable": "Tabelle expandieren",
+		"collapseTable": "Tabelle zusammenklappen",
+    "topology": "Topologie nicht OK",
+    "callout":{
+      "tooltip": "Achtung! Es sind keine Daten für die Komponenten verfügbar!"
+    }
 	}
 }

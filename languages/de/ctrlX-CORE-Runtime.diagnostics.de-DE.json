@@ -1,5 +1,5 @@
 {
-  "product": "XCR-V-0206",
+  "product": "XCR-V-0304",
   "mainDiagnostics": {
     "080A000E": {
       "text": "Trace Nachricht script.manager",
@@ -120,6 +120,10 @@
         "0C66600A": {
           "text": "Das Kommando \"Löschen eines bestimmten Fehlers\" wurde ausgeführt",
           "version": 4
+        },
+        "0C666013": {
+          "text": "Das Kommando \"Löschen eines bestimmten Objekts\" wurde ausgeführt",
+          "version": 1
         }
       }
     },
@@ -129,6 +133,10 @@
     },
     "080A0103": {
       "text": "Kommando \"Rücksetzen anstehender Diagnosen\" ausgeführt",
+      "version": 1
+    },
+    "080A0104": {
+      "text": "Kommando \"Rücksetzen anstehender Objektdiagnosen\" ausgeführt",
       "version": 1
     },
     "080A0110": {
@@ -617,6 +625,78 @@
         }
       }
     },
+    "080A0700": {
+      "text": "Synchronisation ist initialisiert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8000": {
+          "text": "Die ursprüngliche Data Layer-Struktur konnte nicht erstellt werden.",
+          "version": 1
+        }
+      }
+    },
+    "080A0701": {
+      "text": "Synchronisierungskonfiguration geändert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8001": {
+          "text": "phc2sys-Instanz wurde angelegt",
+          "version": 1
+        },
+        "0C7B8002": {
+          "text": "phc2sys-Instanz wurde entfernt",
+          "version": 1
+        },
+        "0C7B8003": {
+          "text": "ptp4l-Instanz wurde angelegt",
+          "version": 1
+        },
+        "0C7B8004": {
+          "text": "ptp4l-Instanz wurde entfernt",
+          "version": 1
+        },
+        "0C7B8005": {
+          "text": "real2mono-Instanz wurde angelegt",
+          "version": 1
+        },
+        "0C7B8006": {
+          "text": "real2mono-Instanz wurde entfernt",
+          "version": 1
+        }
+      }
+    },
+    "080A0702": {
+      "text": "Instanzbetrieb",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8030": {
+          "text": "Instanz gestartet",
+          "version": 1
+        },
+        "0C7B8031": {
+          "text": "Instanz gestoppt",
+          "version": 1
+        }
+      }
+    },
+    "080A0703": {
+      "text": "Prozessbetrieb",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8045": {
+          "text": "Vorgang gestartet",
+          "version": 1
+        },
+        "0C7B8046": {
+          "text": "Vorgang gestoppt",
+          "version": 1
+        }
+      }
+    },
+    "080A077F": {
+      "text": "Synchronisation: Meldung",
+      "version": 1
+    },
     "080A0822": {
       "text": "Überbrückte Schnittstelle erfolgreich aktualisiert",
       "version": 1
@@ -881,6 +961,16 @@
         }
       }
     },
+    "080E0280": {
+      "text": "Vebindung Data Layer-Provider unterbrochen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C340000": {
+          "text": "Der Data Layer-Provider wurde aufgrund von Inaktivität abgemeldet.",
+          "version": 1
+        }
+      }
+    },
     "080E0300": {
       "text": "Security: Warnung bezüglich Nutzerverwaltung",
       "version": 1,
@@ -1036,6 +1126,18 @@
         "0C660042": {
           "text": "Verfügbarer Onboard-Speicher der Steuerung niedrig",
           "version": 1
+        },
+        "0C660044": {
+          "text": "Hohe Steuerungstemperatur (CPU)",
+          "version": 1
+        },
+        "0C660045": {
+          "text": "Hohe Steuerungstemperatur (Board)",
+          "version": 1
+        },
+        "0C660046": {
+          "text": "Hohe Steuerungstemperatur (Flash)",
+          "version": 1
         }
       }
     },
@@ -1095,6 +1197,20 @@
       "text": "Trace Warnung app.automationframework",
       "version": 2
     },
+    "080E0700": {
+      "text": "Synchronisation konnte nicht initialisiert werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B802A": {
+          "text": "Interner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "080E077F": {
+      "text": "Fehler im Subsystem der Synchronisation",
+      "version": 1
+    },
     "080E0825": {
       "text": "Netzwerk-Konfigurationsdaten erfolgreich geändert",
       "version": 1
@@ -1123,6 +1239,14 @@
         },
         "0C641116": {
           "text": "Systemneustart aufgrund von Änderungen der Echtzeiteinstellungen erforderlich",
+          "version": 1
+        },
+        "0C64112A": {
+          "text": "System-Neustart erforderlich aufgrund von Änderungen der Proxy-Einstellungen",
+          "version": 1
+        },
+        "0C64112D": {
+          "text": "Neustart des Systems erforderlich, da der Watchdog aktiviert wurde",
           "version": 1
         }
       }
@@ -1323,6 +1447,10 @@
         },
         "0C7B4285": {
           "text": "Fehler bei der Umschaltung des Systemzustands",
+          "version": 1
+        },
+        "0C7B4291": {
+          "text": "Das Anlegen einer Task ist fehlgeschlagen",
           "version": 1
         }
       }
@@ -2805,6 +2933,132 @@
         }
       }
     },
+    "080F0700": {
+      "text": "Instanzbetrieb ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8010": {
+          "text": "Instanzbetrieb konnte nicht gestartet werden",
+          "version": 1
+        },
+        "0C7B8011": {
+          "text": "Instanzbetrieb konnte nicht gestoppt werden",
+          "version": 1
+        },
+        "0C7B8012": {
+          "text": "Abonnieren des Statusknotens ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B8013": {
+          "text": "Abmelden vom Statusknoten ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B802A": {
+          "text": "Interner Fehler",
+          "version": 1
+        }
+      }
+    },
+    "080F0701": {
+      "text": "Instanzkonfiguration ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8020": {
+          "text": "Fehlende Eigenschaften in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8021": {
+          "text": "Fehlender Name in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8022": {
+          "text": "Fehlende Quelle in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8023": {
+          "text": "Fehlendes Ziel in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8024": {
+          "text": "Fehlender Modus in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8025": {
+          "text": "Fehlende phc2sys-Optionen in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8026": {
+          "text": "Fehlende ptp4l-Optionen in der Instanzkonfiguration",
+          "version": 1
+        },
+        "0C7B8027": {
+          "text": "Instanzkonfiguration hat ungültiges Ziel",
+          "version": 1
+        },
+        "0C7B8028": {
+          "text": "Instanzkonfiguration hat ungültigen Namen",
+          "version": 1
+        },
+        "0C7B8029": {
+          "text": "Instanzkonfiguration ist fehlgeschlagen, da die Instanz bereits gestartet wurde",
+          "version": 1
+        },
+        "0C7B802A": {
+          "text": "Interner Fehler",
+          "version": 1
+        },
+        "0C7B802B": {
+          "text": "Fehlende real2mono-Optionen",
+          "version": 1
+        }
+      }
+    },
+    "080F0702": {
+      "text": "Synchronisierung der Initialisierung ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8012": {
+          "text": "Abonnieren des Statusknotens ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C7B802A": {
+          "text": "Interner Fehler",
+          "version": 1
+        },
+        "0C7B8040": {
+          "text": "Interner Daemon-Fehler",
+          "version": 1
+        }
+      }
+    },
+    "080F0703": {
+      "text": "Starten des Prozessbetriebs ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B802A": {
+          "text": "Interner Fehler",
+          "version": 1
+        },
+        "0C7B8040": {
+          "text": "Interner Daemon-Fehler",
+          "version": 1
+        },
+        "0C7B8041": {
+          "text": "Speicherbelegung fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F0704": {
+      "text": "Synchronisierung Daemon-Initialisierung ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B8042": {
+          "text": "Interner Fehler",
+          "version": 1
+        }
+      }
+    },
     "080F0800": {
       "text": "Fehler im AppManager",
       "version": 1,
@@ -3127,6 +3381,10 @@
         },
         "0C64107B": {
           "text": "Aktualisierung nicht möglich. Version ist leer",
+          "version": 1
+        },
+        "0C641130": {
+          "text": "Die Installation der Device Admin App (rexroth-deviceadmin) aus unbekannter Quelle wird nicht unterstützt.",
           "version": 1
         }
       }
@@ -3536,6 +3794,10 @@
         "0C64111C": {
           "text": "Aufgabe existiert bereits",
           "version": 1
+        },
+        "0C64112C": {
+          "text": "Image-Update ist für dieses Gerät nicht verfügbar",
+          "version": 1
         }
       }
     },
@@ -3701,6 +3963,20 @@
         }
       }
     },
+    "080F082C": {
+      "text": "Lesen der Sprachdatei ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64103D": {
+          "text": "Die angeforderte Sprachdatei wurde nicht gefunden.",
+          "version": 1
+        },
+        "0C64103E": {
+          "text": "Fehler beim Lesen der angeforderten Sprachdatei",
+          "version": 1
+        }
+      }
+    },
     "080F0833": {
       "text": "Befehl zum Firmware-Update fehlgeschlagen",
       "version": 1,
@@ -3753,6 +4029,10 @@
         },
         "0C641128": {
           "text": "Keine Aktualisierung verfügbar",
+          "version": 1
+        },
+        "0C641129": {
+          "text": "System-Neustart erforderlich aufgrund von Änderungen in den  Einstellungen der Speicherreservierung",
           "version": 1
         }
       }
@@ -3947,6 +4227,10 @@
         },
         "0C6410AE": {
           "text": "Schnittstelle existiert bereits",
+          "version": 1
+        },
+        "0C64112F": {
+          "text": "Keine Lizenz zum Erstellen einer Schnittstelle gefunden.",
           "version": 1
         },
         "0C641247": {
@@ -5040,6 +5324,10 @@
         "0C6410CA": {
           "text": "NTP-Information ist ungültig",
           "version": 1
+        },
+        "0C64112E": {
+          "text": "Persistenzintervall außerhalb des Bereichs",
+          "version": 1
         }
       }
     },
@@ -5689,6 +5977,48 @@
         }
       }
     },
+    "080F089B": {
+      "text": "Starten des RDA-Kommando-Handlers ist fehlgeschlagen",
+      "version": 1
+    },
+    "080F089C": {
+      "text": "Setzen des Watchdogs auf aktiv ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F089D": {
+      "text": "Abrufen von Watchdogs ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F089E": {
+      "text": "Einhängen der NFS-Freigabe ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64111F": {
+          "text": "Aktion der Medienaufgabe ist fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F089F": {
+      "text": "Lesen von Firewall-Tabellen fehlgeschlagen.",
+      "version": 1
+    },
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
       "version": 1,
@@ -6097,6 +6427,16 @@
         }
       }
     },
+    "080F8650": {
+      "text": "Start des ctrlX-Frameworks abgebrochen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7C0107": {
+          "text": "Siehe dynamische Beschreibung für die konkrete Ursache",
+          "version": 1
+        }
+      }
+    },
     "080F9540": {
       "text": "Kritischer Fehler während der Steuerungsüberwachung",
       "version": 1,
@@ -6475,6 +6815,38 @@
       "detailedDiagnostics": {
         "0C6F002A": {
           "text": "Keine Zertifikate für den Rexroth Remote Agent gefunden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011C": {
+      "text": "Abrufen der Setup-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011D": {
+      "text": "Einstellen der Setup-Konfiguration fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641044": {
+          "text": "Daten können nicht in die HTTP-Antwort geschrieben werden",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
           "version": 1
         }
       }
