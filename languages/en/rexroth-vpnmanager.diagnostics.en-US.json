@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
   "product": "VPN-V-0114",
   "mainDiagnostics": {
     "080A0303": {

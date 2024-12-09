@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
   "product": "PND-V-0202",
   "mainDiagnostics": {
     "080F0E00": {

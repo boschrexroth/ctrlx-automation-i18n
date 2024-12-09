@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
   "product": "OSC-V-0304",
   "mainDiagnostics": {
     "100A0032": {

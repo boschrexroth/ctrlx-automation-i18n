@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
   "product": "UAC-V-0206",
   "mainDiagnostics": {
     "0D0A0200": {
