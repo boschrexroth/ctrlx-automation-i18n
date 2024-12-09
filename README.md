@@ -1,6 +1,6 @@
 # ctrlx-automation-i18n
 
-The Repository ctrlx-automation-i18n aggregates translation files of the ctrlX OS system that can be used to translate ctrlX OS into different languages. The repository cotains the currently available languages english (en) and (de) for apps provided by Bosch Rexroth.
+The Repository ctrlx-automation-i18n aggregates translation files of the ctrlX OS system that can be used to translate ctrlX OS into different languages. The repository contains the currently available languages English (en) and German (de) for apps provided by Bosch Rexroth.
 
 ## Intended use
 
@@ -18,12 +18,12 @@ The folder contains three types of language files:
 
 ### Versioning
 
-The content of these folder might change for each release, including the key names, e.g. because the UI changed or elements get removed or added. Therefor it is important to notice that the language files are pinned to a specific release milestone version.
-Diagnostic messages are versioned by themself, see schema. Each version update to this repository will be reflected by a specific git tag.
+The content of these folders might change for each release, including the key names, e.g. because the UI changed or elements get removed or added. Therefore it is important to notice that the language files are pinned to a specific release milestone version.
+Diagnostic messages are versioned by themselves, see schema. Each version update to this repository will be reflected by a specific git tag.
 
 ### Format
 
-All files are in json format but with a different interal schema. While the `Diagnostic Messages` follow the json-schema documented in [diagnostics.v1.schema.json](https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json), the `App Meta Data` uses a simple key-value JSON file with namespaces in key (Flat JSON) and the `UI Elements` uses either a JSON file with namespaces in key (Flat JSON) or nested namespaces (Namespaced JSON).
+All files are in json format but with a different internal schema. While the `Diagnostic Messages` follow the json-schema documented in [diagnostics.v1.schema.json](https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json), the `App Meta Data` uses a simple key-value JSON file with namespaces in key (Flat JSON) and the `UI Elements` uses either a JSON file with namespaces in key (Flat JSON) or nested namespaces (Namespaced JSON).
 
 #### JSON with nested namespaces (Namespaced JSON)
 
@@ -68,10 +68,10 @@ package-assets/
     └── snap.yaml
 ```
 
-As you can see the internal structure of the files is basically the content of the language folder in this repository. To make the system aware of the content in the snap, the you will find the example `snapcraft.yaml` used above here:
+As you can see, the internal structure of the files is basically the content of the language folder in this repository. To make the system aware of the content in the snap, you will find the example `snapcraft.yaml` used above here:
 
 ```yaml
-name: example-language-pack-fr # The name of the app, a single language pack app should only contain one lan
+name: example-language-pack-fr # The name of the app, a single language pack app should only contain one language
 base: bare # the base snap is the execution environment for this snap
 version: "2.6.0" # The version of the app
 title: Example language pack FR # A meaningful title of the app
