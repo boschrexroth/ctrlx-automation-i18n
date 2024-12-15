@@ -1,0 +1,15 @@
+{
+  "drive.engineering.overview.title": "Übersicht",
+  "drive.engineering.overview.description": "Übersicht aller verbundenen Antriebe",
+  "drive.engineering.title": "Drive Engineering",
+  "drive.engineering.backup.title": "Antriebe sichern",
+  "drive.engineering.backup.description": "Funktion zum Backup von Antrieben",
+  "drive.engineering.replacement.title": "Gerätetausch",
+  "drive.engineering.replacement.description": "Unterstützung beim Gerätetausch von Antrieben",  
+  "drive.engineering.restore.title": "Antriebe wiederherstellen",
+  "drive.engineering.restore.description": "Funktion zum Wiederherstellen von Antrieben",
+  "drive.engineering.firmwareupdate.title": "Firmware aktualisieren",
+  "drive.engineering.firmwareupdate.description": "Firmware Update für Antriebe durchführen",
+  "drive.engineering.panel.title": "Panel deaktivieren",
+  "drive.engineering.panel.description": "Panel-Nutzung für Antrieb deaktivieren"
+}

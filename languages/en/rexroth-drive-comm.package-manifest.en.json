@@ -1,0 +1,15 @@
+{
+  "drive.engineering.title": "Drive Engineering",
+  "drive.engineering.overview.title": "Overview",
+  "drive.engineering.overview.description": "Overview of all reachable drives",
+  "drive.engineering.backup.title": "Drive Backup",
+  "drive.engineering.backup.description": "Backup functionality for drives",
+  "drive.engineering.replacement.title": "Device Replacement",
+  "drive.engineering.replacement.description": "Support for replacement of drives",
+  "drive.engineering.restore.title": "Drive Restore",
+  "drive.engineering.restore.description": "Support for restoring of drives",
+  "drive.engineering.firmwareupdate.title": "Firmware Update",
+  "drive.engineering.firmwareupdate.description": "Firmware Update functionality for drives",
+  "drive.engineering.panel.title": "Panel Deactivation",
+  "drive.engineering.panel.description": "Disable panel functionality for drives"    
+}
