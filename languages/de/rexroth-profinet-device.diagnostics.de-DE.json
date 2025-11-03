@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "PND-V-0202",
+  "product": "PND-V-0306",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -21,7 +20,7 @@
       }
     },
     "0C0A0200": {
-      "text": "Profinet Device: Status",
+      "text": "PROFINET Device: Status",
       "version": 1,
       "detailedDiagnostics": {
         "0C780004": {
@@ -38,6 +37,10 @@
         },
         "0C780007": {
           "text": "Operational",
+          "version": 1
+        },
+        "0C780254": {
+          "text": "Reset to Factory",
           "version": 1
         },
         "0C780255": {
@@ -59,11 +62,11 @@
       }
     },
     "0C0E0200": {
-      "text": "Profinet Device: Warnung",
+      "text": "PROFINET Device: Warnung",
       "version": 1,
       "detailedDiagnostics": {
         "0C780001": {
-          "text": "Profinet Device Lizenz fehlt",
+          "text": "Lizenz fehlt",
           "version": 1
         },
         "0C780255": {
@@ -81,7 +84,7 @@
       }
     },
     "0C0F0200": {
-      "text": "Fehler im Profinet Device",
+      "text": "Fehler im PROFINET Device",
       "version": 1,
       "detailedDiagnostics": {
         "0C780104": {
@@ -89,7 +92,7 @@
           "version": 1
         },
         "0C780105": {
-          "text": "Maximallänge der zyklischen Daten vom Profinet Controller überschritten",
+          "text": "Maximallänge der zyklischen Empfangsdaten überschritten",
           "version": 1
         },
         "0C780106": {
@@ -97,7 +100,7 @@
           "version": 1
         },
         "0C780107": {
-          "text": "Maximallänge der zyklischen Daten zum Profinet Controller überschritten",
+          "text": "Maximallänge der zyklischen Sendedaten überschritten",
           "version": 1
         },
         "0C780108": {
@@ -133,7 +136,11 @@
           "version": 1
         },
         "0C780140": {
-          "text": "Initialisierungsfehler PROFINET device Hardware",
+          "text": "Initialisierungsfehler der Kommunikations-Hardware",
+          "version": 1
+        },
+        "0C780141": {
+          "text": "Fehlerhafte Protokolleinstellung erkannt! Die Protokolleinstellung wurde korrigiert. Bitte Neustart durchführen.",
           "version": 1
         },
         "0C780147": {

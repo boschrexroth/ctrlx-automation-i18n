@@ -4,7 +4,7 @@
       "command": {
         "refresh": "Aktualisiert Daten",
         "resetAll": "Alles zurücksetzen",
-        "deleteAllFilters": "Löscht alle Filter",
+        "deleteAllFilters": "Löscht Tabellenspaltenfilter",
         "deleteAllBookmarks": "Löscht alle Lesezeichen",
         "nextBookmark": "Nächstes Lesezeichen",
         "previousBookmark": "Vorhergehendes Lesezeichen",
@@ -156,7 +156,9 @@
         "dynamicSourceUnitname": "Einheit",
         "dynamicSourceFilename": "Dateiname",
         "dynamicSourceFunctionname": "Funktionsname",
-        "dynamicSourceLinenumber": "Zeilennummer"
+        "dynamicSourceLinenumber": "Zeilennummer",
+        "messageType": "Meldungstyp",
+        "journalDate": "Journaldatum"
       }
     },
     "remote": {

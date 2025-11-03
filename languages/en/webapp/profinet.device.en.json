@@ -27,12 +27,6 @@
         "add": "Add PROFINET device",
         "info": "The PROFINET device provides an I/O interface to a PROFINET field bus"
       },
-      "switchToSetup": {
-        "text": "The app is currently in '{{schedulerState}}' state. Please switch to 'Setup' to add a device."
-      },
-      "switchToSetupOrOperating": {
-        "text": "The app is currently in '{{schedulerState}}' state. Please switch to 'Setup' or 'Operating' state to manage devices."
-      },
       "noPermission":{
         "text":"You do not have the required permissions to see this page."
       },

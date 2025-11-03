@@ -28,7 +28,9 @@
     "Failure Prob. Motor": "Ausfall-Wahrsch. Motor",
     "Lifetime Estimator Motor": "Used Lifetime Est. Motor",
     "Lifetime Estimator Drive": "Used Lifetime Est. Drive",
-    "emptyState": "Keine anzuzeigenden Elemente"
+    "emptyState": "Keine anzuzeigenden Elemente",
+    "histogramSum": "Hist.-Summe",
+    "opHours": "OP-Stunden"
   },
   "selectorWindow": {
     "header": "Spalten zum Ausblenden/Anzeigen wählen",

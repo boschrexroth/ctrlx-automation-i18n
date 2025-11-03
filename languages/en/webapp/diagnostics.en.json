@@ -4,7 +4,7 @@
       "command": {
         "refresh": "Refreshes data",
         "resetAll": "Resets all",
-        "deleteAllFilters": "Deletes all filters",
+        "deleteAllFilters": "Deletes table column filters",
         "deleteAllBookmarks": "Deletes all bookmarks",
         "nextBookmark": "Next bookmark",
         "previousBookmark": "Previous bookmark",
@@ -156,7 +156,9 @@
         "dynamicSourceUnitname": "Unit",
         "dynamicSourceFilename": "File name",
         "dynamicSourceFunctionname": "Function name",
-        "dynamicSourceLinenumber": "Line number"
+        "dynamicSourceLinenumber": "Line number",
+        "messageType": "Messagetype",
+        "journalDate": "Journal date"
       }
     },
     "remote": {

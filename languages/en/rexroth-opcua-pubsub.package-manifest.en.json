@@ -2,9 +2,11 @@
   "configuration.appDirectories.opcuapubsub.description": "OPC UA Pub/Sub: Communication configuration",
   "licenses.SWL-XCx-UAP-OPCUAPUBSUBxx-NNNN.title": "ctrlX OS License - OPC UA Pub/Sub",
   "licenses.SWL-XCx-UAP-OPCUAPUBSUBxx-NNNN.description": "OPC UA Pub/Sub is the OPC extension for real-time C2C communication for ctrlX OS",
-  "scopes-declaration.rexroth-opcua-pubsub.name": "OPC UA Pub/Sub",
-  "scopes-declaration.rexroth-opcua-pubsub.description": "Permissions for the OPC UA Pub/Sub app",
-  "scopes-declaration.rexroth-opcua-pubsub.opcua.x.name": "OPC UA Pub/Sub configuration access",
-  "scopes-declaration.rexroth-opcua-pubsub.opcua.x.description": "Access to configuration for OPC UA Pub/Sub communication via the OPC UA Server",
+  "scopes-declaration.opcuapubsub.name": "OPC UA Pub/Sub",
+  "scopes-declaration.opcuapubsub.description": "Permissions for OPC UA Pub/Sub",
+  "scopes-declaration.opcuapubsub.view.name": "View",
+  "scopes-declaration.opcuapubsub.view.description": "- Read access to all OPC UA Pub/Sub related Data Layer nodes. \n- View web UI with OPC UA Pub/Sub configurations and states.",
+  "scopes-declaration.opcuapubsub.manage.name": "Manage",
+  "scopes-declaration.opcuapubsub.manage.description": "Read and Write access to all OPC UA Pub/Sub related Data Layer nodes.",
   "sidebar.opcua.1-PubSub.title": "Pub/Sub"
 }

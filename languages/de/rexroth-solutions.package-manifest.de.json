@@ -2,8 +2,9 @@
     "menus.overview.title": "App-Daten verwalten",
     "documentation.solutions.description": "Stellt Funktionalitäten zum Speichern und Verwalten von App-Daten für ctrlX OS bereit.",
     "commands.activeConfiguration.subject": "Konfigurationskontext",
-    "scopes.manage.name": "Konfigurationen bearbeiten",
-    "scopes.manage.description": "Erlaubt das Bearbeiten und Verwalten von Konfigurationen",
-    "scopes.view.name": "Konfigurationen lesen",
-    "scopes.view.description": "Erlaubt das Lesen von Konfigurationen"
+    "scopes.name": "Konfigurationen",
+    "scopes.manage.name": "Verwalten",
+    "scopes.manage.description": "Konfigurationen laden und speichern. Konfigurationsarchive hoch- und herunterladen. Konfigurationsinhalte bearbeiten",
+    "scopes.view.name": "Anzeigen",
+    "scopes.view.description": "Konfigurationen anzeigen, vergleichen und herunterladen"
 }

@@ -63,7 +63,7 @@
   },
   "core.login": {
     "welcome": "Willkommen bei ctrlX OS",
-    "operationalUse": "Die Verwendung von {{param}} beschränkt sich auf Entwicklung, Evaluierung und Simulation. Eine operative Verwendung ist nicht vorgesehen.",
+    "operationalUse": "Die Verwendung von {{param}} beschränkt sich auf Entwicklung und Evaluierung. Eine operative Verwendung ist nicht vorgesehen.",
     "title": "Anmeldung",
     "user": "Benutzername",
     "initUser": "Initialbenutzername:",
@@ -108,5 +108,9 @@
     "warning": "Warnung",
     "error": "Fehler",
     "info": "Info"
+  },
+  "core.monitoring": {
+    "title": "Netzwerkverbindung unterbrochen",
+    "message": "Überprüfen Sie die Netzwerkverbindung (WiFi, Kabel, Router, Switches) und stellen Sie sie wieder her. Prüfen Sie bei einer virtuellen Steuerung, ob diese noch läuft und starten Sie sie gegebenenfalls neu."
   }
 }

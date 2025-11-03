@@ -42,7 +42,8 @@
     "serialnumber": "Identifier",
     "available": "Available",
     "registerDevice.tooltip": "Opens create device page in licensing center",
-    "goToLicensePortal.tooltip": "Opens ctrlX Device Portal",
+    "goToStore.tooltip": "Visit App Store",
+    "goToLicensePortal.tooltip": "Get licenses in ctrlX Device Portal",
     "uploadLicenseFile.tooltip": "Uploads license file (Capability Response)",
     "downloadLicenseReturnFile.tooltip": "Downloads license return file (Capability Request)",
     "registerDevice.button": "Register this PC (Device)",
@@ -67,7 +68,8 @@
     "name": "Name",
     "id": "Id",
     "licenses": "Licenses",
-    "reservations": "Reservations"
+    "reservations": "Reservations",
+    "willBeStartedOnX": "Not yet active.\nWill be started on {{param}}"
   },
 
   "lcm.servedDeviceDetails": {
@@ -119,8 +121,8 @@
 
   "lcm.serverSettingsDialog": {
     "title": "Server settings",
-    "borrowInterval": "Borrow interval (hours)",
-    "renewalInterval": "Renewal interval (hours, recommended 80% of borrow interval)",
+    "borrowInterval": "Borrow interval (minutes)",
+    "renewalInterval": "Renewal interval (minutes, recommended 80% of borrow interval)",
     "enterValueFromXToYMessage": "Enter a value between {{param1}} and {{param2}}",
     "renewalMustBeSmallerThanBorrow": "Renewal interval must be smaller than borrow interval",
     "enableClientAuth": "Enable client authentication via mutual TLS",

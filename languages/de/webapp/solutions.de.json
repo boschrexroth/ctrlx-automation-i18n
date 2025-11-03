@@ -2,6 +2,7 @@
     "sol": {
         "appdata": {
             "content.title": "Inhalt",
+            "openFileView.button": "Dateiansicht öffnen",
             "saveToArchive.button": "Ins Archiv speichern",
             "moreActions.button": "Weitere Aktionen...",
             "viewFiles.menuitem": "Dateiansicht",
@@ -23,6 +24,7 @@
             "switchApp.text": "Bringen Sie die App '{{param}}' in den benötigten Zustand und versuchen Sie es erneut.",
             "notReadyForLoading.text": "Apps nicht bereit fürs Laden.",
             "notReadyForResetting.text": "Apps nicht bereit fürs Zurücksetzen.",
+            "noConfigurationForComparison.text": "Keine Konfiguration zum Vergleichen im Archiv",
             "load.title": "Laden bestätigen",
             "patch.title": "Laden des Patches bestätigen",
             "reset.title": "Zurücksetzen bestätigen",
@@ -76,6 +78,7 @@
             "compareConfiguration.tooltip": "Vergleicht die Konfiguration",
             "uploadFile.tooltip": "Lädt Datei oder Dateiinhalt hoch",
             "createElement.tooltip": "Erstellt Verzeichnis oder Datei",
+            "copying.tooltip": "Kopiere Element",
             "downloadDirectory.tooltip": "Lädt den Verzeichnisinhalt herunter",
             "downloadFile.tooltip": "Lädt die Datei herunter",
             "moreActions.tooltip": "Zeigt weitere Aktionen an...",
@@ -267,7 +270,7 @@
             "download.tooltip": "Lädt die Konfiguration herunter",
             "moreActions.tooltip": "Zeigt weitere Aktionen an...",
             "copying.tooltip": "Kopiert die Konfiguration",
-            "actions.viewFiles.submenu": "Dateiansicht",
+            "actions.viewFiles.submenu": "Dateiansicht öffnen",
             "actions.compare.submenu": "Vergleichen",
             "actions.edit.submenu": "Bearbeiten",
             "actions.copy.submenu": "Kopieren",

@@ -7,6 +7,7 @@
     "ok.button": "OK"
    },
   "datalayer":{
-    "datalayerBrowser.title": "Data Layer Browser"
+    "datalayerBrowser.title": "Data Layer Browser",
+    "datalayerBrowser.noData": "Knoten existiert nicht im Data Layer."
   }
 }

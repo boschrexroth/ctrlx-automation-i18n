@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "PLC-V-0304",
+  "product": "PLC-V-0306",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
@@ -4652,6 +4651,14 @@
       "detailedDiagnostics": {
         "0C230001": {
           "text": "Script instance with different language entry available.",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "Script instance with invalid names",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "Failed to create script instance (e.g. invalid instance name or invalid language type)",
           "version": 1
         }
       }

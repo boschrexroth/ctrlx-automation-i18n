@@ -42,7 +42,8 @@
     "serialnumber": "Kennung",
     "available": "Verfügbar",
     "registerDevice.tooltip": "Öffnet Geräteseite im Lizenz-Center",
-    "goToLicensePortal.tooltip": "Öffnet ctrlX Device Portal",
+    "goToStore.tooltip": "App Store besuchen",
+    "goToLicensePortal.tooltip": "Lizenzen im ctrlX Device Portal holen",
     "uploadLicenseFile.tooltip": "Lädt Lizenzdatei hoch (Capability Response)",
     "downloadLicenseReturnFile.tooltip": "Lädt eine Lizenz-Rückgabe-Datei herunter (Capability Request)",
     "registerDevice.button": "Diesen PC registrieren (Device)",
@@ -67,7 +68,8 @@
     "name": "Name",
     "id": "Id",
     "licenses": "Lizenzen",
-    "reservations": "Reservierungen"
+    "reservations": "Reservierungen",
+    "willBeStartedOnX": "Noch nicht aktiv.\nWird am {{param}} gestartet"
   },
 
   "lcm.servedDeviceDetails": {
@@ -119,8 +121,8 @@
 
   "lcm.serverSettingsDialog": {
     "title": "Server-Einstellungen",
-    "borrowInterval": "Ausleihintervall (Stunden)",
-    "renewalInterval": "Erneuerungsintervall (Stunden, 80% des Ausleihintervall empfohlen)",
+    "borrowInterval": "Ausleihintervall (Minuten)",
+    "renewalInterval": "Erneuerungsintervall (Minuten, 80% des Ausleihintervall empfohlen)",
     "enterValueFromXToYMessage": "Geben Sie einen Wert zwischen {{param1}} und {{param2}} ein",
     "renewalMustBeSmallerThanBorrow": "Das Erneuerungsintervall muss kleiner sein als das Ausleihintervall",
     "enableClientAuth": "Client-Authentifizierung via Mutual-TLS aktivieren",

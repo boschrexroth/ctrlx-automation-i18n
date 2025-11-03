@@ -2,6 +2,7 @@
     "sol": {
         "appdata": {
             "content.title": "Content",
+            "openFileView.button": "Open file view",
             "saveToArchive.button": "Save to archive",
             "moreActions.button": "More actions...",
             "viewFiles.menuitem": "File view",
@@ -23,6 +24,7 @@
             "switchApp.text": "Switch the '{{param}}' app to the required state and try again.",
             "notReadyForLoading.text": "Apps not ready for loading.",
             "notReadyForResetting.text": "Apps not ready for resetting.",
+            "noConfigurationForComparison.text": "No configuration for comparison in archive",
             "load.title": "Confirm loading",
             "patch.title": "Confirm loading patch",
             "reset.title": "Confirm resetting",
@@ -76,6 +78,7 @@
             "compareConfiguration.tooltip": "Compares the configuration",
             "uploadFile.tooltip": "Uploads file or file content",
             "createElement.tooltip": "Creates directory or file",
+            "copying.tooltip": "Copying element",
             "downloadDirectory.tooltip": "Downloads the directory content",
             "downloadFile.tooltip": "Downloads the file",
             "moreActions.tooltip": "Shows more actions...",
@@ -267,7 +270,7 @@
             "download.tooltip": "Downloads the configuration",
             "moreActions.tooltip": "Shows more actions...",
             "copying.tooltip": "Copies the configuration",
-            "actions.viewFiles.submenu": "File view",
+            "actions.viewFiles.submenu": "Open file view",
             "actions.compare.submenu": "Compare",
             "actions.edit.submenu": "Edit",
             "actions.copy.submenu": "Copy",

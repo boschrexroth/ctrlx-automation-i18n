@@ -8,15 +8,19 @@
     "Actions.label": "Actions",
     "Edit.label": "Edit",
     "Delete.label": "Delete",
-    "Enable.label": "Enable"
+    "Enable.label": "Enable",
+    "Publisher.title": "Publisher",
+    "Subscriber.title": "Subscriber"
   },
   "pubsub.addPubsub": {
     "AddPubsub.label": "Add Publisher",
     "Connection.label": "Connection",
-    "WriterGroup.label": "WriterGroup",
+    "WriterGroup.label": "Writer Group",
     "Writer.label": "Writer",
-    "DataSet.label": "DataSet",
-    "Setup.label": "Setup"
+    "DataSet.label": "Data Set",
+    "Setup.label": "Setup",
+    "Reader.label": "Reader",
+    "ReaderGroup.label": "Reader Group"
   },
   "pubsub.config": {
     "Publisher.label": "Publisher",
@@ -25,7 +29,7 @@
   },
   "pubsub.publisher": {
     "AddPublisher.label": "Add Publisher",
-    "NoPublisher.label": "No publisher configured",
+    "NoPublisher.label": "No Publisher configured",
     "Name.label": "Name",
     "Connection.label": "Connection",
     "PublishingInertval.label": "Publishing Interval",
@@ -47,7 +51,9 @@
     "enable.Confirmation": "Are you sure you want to enable {{value}}?",
     "enablePublisher": "Enable Publisher",
     "pubsubConfiguration.title": "OPC UA Pub/Sub configuration",
-    "readOnlyPermission": "You don't have permissions to perform this operation"
+    "readOnlyPermission": "You don't have permissions to perform this operation",
+    "id.label": "IDs",
+    "id.toolTip": "Publisher ID, Data Set Writer ID"
   },
   "pubsub.addConnection": {
     "AddConnection.label": "Add Connection",
@@ -67,30 +73,30 @@
     "Address.label": "Address"
   },
   "pubsub.writerGroup": {
-    "WriterGroupName.label": "WriterGroup Name",
-    "WriterGroupId.label": "WriterGroup Id",
+    "WriterGroupName.label": "Writer Group Name",
+    "WriterGroupId.label": "Writer Group ID",
     "PublishingInterval.label": "Publishing Interval",
     "SecurityMode.label": "Security Mode",
     "MaxNetworkMessageSize.label": "Max Network Message Size",
     "KeepAliveTime.label": "Keep Alive Time",
     "HeaderLayout.label": "Header Layout",
-    "AddWriterGroup.label": "Add WriterGroup"
+    "AddWriterGroup.label": "Add Writer Group"
   },
   "pubsub.writer": {
     "WriterName.label": "Writer Name",
-    "DataSetWriterId.label": "DataSet Writer Id",
-    "DataSetEncoding.label": "DataSet Encoding"
+    "DataSetWriterId.label": "Data Set Writer ID",
+    "DataSetEncoding.label": "Data Set Encoding"
   },
   "pubsub.dataSet": {
-    "NoDataSetConfigured.label": "No DataSet Configured",
-    "AddDataSet.label": "Add DataSet",
+    "NoDataSetConfigured.label": "No Data Set Configured",
+    "AddDataSet.label": "Add Data Set",
     "FieldName.label": "Field Name",
     "PublishedNodePath.label": "Published Node Path",
     "DataType.label": "Data Type"
   },
   "pubsub.AdddataSet": {
-    "AddDataSet.label": "Add item to DataSet",
-    "EditDataSet.label": "Edit DataSet Item",
+    "AddDataSet.label": "Add item to Data Set",
+    "EditDataSet.label": "Edit Data Set Item",
     "PathError.label": "Path is mandatory",
     "Path.label": "Path"
   },
@@ -98,9 +104,9 @@
     "NoSubscriber.label": "No subscriber configured",
     "AddSubscriber.label": "Add Subscriber",
     "Name.label": "Name",
-    "TargetedPublisherId.label": "Targeted Publisher Id",
-    "TargetedWriterGroupId.label": "Targeted Writer Group Id",
-    "TargetedDataSetWriterId.label": "Targeted DataSet Writer Id",
+    "TargetedPublisherId.label": "Targeted Publisher ID",
+    "TargetedWriterGroupId.label": "Targeted Writer Group ID",
+    "TargetedDataSetWriterId.label": "Targeted Data Set Writer ID",
     "Address.label": "Address",
     "ReceivedMessages.label": "Received Messages",
     "State.label": "State",
@@ -110,18 +116,29 @@
     "delete.Confirmation": "Are you sure you want to delete {{value}}?",
     "deleteSubscriber": "Delete Subscriber",
     "enable.Confirmation": "Are you sure you want to enable {{value}}?",
-    "enableSubscriber": "Enable Subscriber"
+    "enableSubscriber": "Enable Subscriber",
+    "id.toolTip": "Publisher ID, Writer Group ID, Data Set Writer ID"
   },
   "pubsub.appNotInit": {
     "appInitializing": "The app is currently being initialized. This may take a while, please {{value}} the page.",
     "description": "This is most likely due to one of the following reasons:",
-    "error.header": "The OPC UA Pub-Sub app is currently not available.",
+    "error.header": "The OPC UA Pub/Sub app is currently not available.",
     "noPermission": "You do not have the required permissions to see this page.",
     "refresh": "Refresh",
-    "servicemode": "The 'Service mode' is currently active. Please go to the {{value}} switch to 'Operation mode' and try again.",
+    "servicemode": "The mode 'Service' is currently active. Please go to the {{value}} switch to 'Operation mode' and try again.",
     "servicemode.appManagerLink": "Apps manager",
     "details_1": "Please check the ",
     "details_2": " for more details",
     "Logbook": "Logbook"
+  },
+  "pubsub.readerGroup": {
+    "Name.label": "Name",
+    "writerGroupId.label": "Writer Group ID",
+    "dataSetWriterId.label": "Data Set Writer ID",
+    "publishingInterval.label": "Publishing Interval"
+  },
+  "pubsub.reader": {
+    "Name.label": "Name",
+    "maxNetworkMessageSize.label": "Max Network Message Size"
   }
 }

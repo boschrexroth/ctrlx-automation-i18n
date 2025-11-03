@@ -5,5 +5,6 @@
   "auc.logbook": "Diagnostic logbook",
   "auc.close": "Close",
 
-  "auc.systemState.progressTitle": "Switching state to '{{state}}' ..."
+  "auc.systemState.progress": "Switches state ...",
+  "auc.systemState.progressTitle": "Switches state to '{{state}}' ..."
 }

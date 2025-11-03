@@ -8,7 +8,9 @@
     "Actions.label": "Aktionen",
     "Edit.label": "Redigieren",
     "Delete.label": "Löschen",
-    "Enable.label": "Ermöglichen"
+    "Enable.label": "Ermöglichen",
+    "Publisher.title": "Verleger",
+    "Subscriber.title": "Abonnent"
   },
   "pubsub.addPubsub": {
     "AddPubsub.label": "Publisher hinzufügen",
@@ -16,7 +18,9 @@
     "WriterGroup.label": "Autorengruppe",
     "Writer.label": "Schriftsteller",
     "DataSet.label": "Datensatz",
-    "Setup.label": "Einrichtung"
+    "Setup.label": "Einrichtung",
+    "Reader.label": "Leser",
+    "ReaderGroup.label": "Lesergruppe"
   },
   "pubsub.config": {
     "Publisher.label": "Verlag",
@@ -47,7 +51,9 @@
     "enable.Confirmation": "Sind Sie sicher, dass Sie aktivieren möchten {{value}}?",
     "enablePublisher": "Publisher aktivieren",
     "pubsubConfiguration.title": "OPC UA Pub/Sub Konfiguration",
-    "readOnlyPermission": "Sie haben keine Berechtigung diese Operation durchzuführen"
+    "readOnlyPermission": "Sie haben keine Berechtigung diese Operation durchzuführen",
+    "id.label": "ID's",
+    "id.toolTip": "Herausgeber-ID, DataSet Verfasser ID"
   },
   "pubsub.addConnection": {
     "AddConnection.label": "Verbindung hinzufügen",
@@ -110,7 +116,8 @@
     "delete.Confirmation": "Möchten Sie wirklich löschen {{value}}?",
     "deleteSubscriber": "Abonnenten löschen",
     "enable.Confirmation": "Sind Sie sicher, dass Sie aktivieren möchten {{value}}?",
-    "enableSubscriber": "Abonnenten aktivieren"
+    "enableSubscriber": "Abonnenten aktivieren",
+    "id.toolTip": "Herausgeber-ID, WriterGroup-ID, DataSet Verfasser-ID"
   },
   "pubsub.appNotInit": {
     "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{value}} Sie die Seite",
@@ -123,5 +130,15 @@
     "details_1": "Bitte überprüfen Sie die ",
     "details_2": " für mehr Details",
     "Logbook": "Logbuch"
+  },
+  "pubsub.readerGroup": {
+    "Name.label": "Name",
+    "writerGroupId.label": "Writer Group ID",
+    "dataSetWriterId.label": "DataSet Writer ID",
+    "publishingInterval.label": "Veröffentlichungsintervall"
+  },
+  "pubsub.reader": {
+    "Name.label": "Name",
+    "maxNetworkMessageSize.label": "Maximale Größe der Netzwerknachricht"
   }
 }

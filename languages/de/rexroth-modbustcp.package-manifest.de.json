@@ -2,15 +2,14 @@
     "appDirectories.description": "Modbus TCP: Client und Server Einstellungen",
     "licenses.SWL-XCx-MBT-MODBUSTCPxxxx-NNNN.description": "Verbinden mit Geräten die Modbus TCP unterstützen",
     "appDirectories.modbustcp.description": "Modbus TCP: Client und Server Einstellungen",
-    "licenses.SWL-XCx-MBT-MODBUSTCPxxxx-NNNN.description": "Verbinden mit Geräten die Modbus TCP unterstützen",
+    "licenses.SWL-XCx-MBT-MODBUSTCPxxxx-NNFN.description": "Verbinden mit Geräten die Modbus TCP unterstützen",
     "scopes-declaration.rexroth-modbustcp.name":"Modbus TCP",
     "scopes-declaration.rexroth-modbustcp.description":"Modbus TCP Berechtigungen",
-    "scopes-declaration.rexroth-modbustcp.config.rwx.name":"Erstellen und bearbeiten von Konfigurationen",
-    "scopes-declaration.rexroth-modbustcp.config.rwx.description":"Erstellen und bearbeiten Konfiguratione - Vollzugriff",
-    "scopes-declaration.rexroth-modbustcp.registerData.rw.name":"Lesen und Schreiben Register",
-    "scopes-declaration.rexroth-modbustcp.registerData.rw.description":"Lesender Zugriff auf die Konfiguration und Schreibend auf Register",
-    "scopes-declaration.rexroth-modbustcp.r.name":"Nur lesend",
-    "scopes-declaration.rexroth-modbustcp.r.description":"Lesend (but not modify) configurations and registers",
-    "scopes-declaration.datalayer.modbustcp.name":"Data Layer Zugriff für Modbus TCP (notwendig)",
-    "scopes-declaration.datalayer.modbustcp.description":"Data Layer Zugriff für Modbus TCP (notwendig)"
+    "scopes-declaration.rexroth-modbustcp.config.rwx.name":"Verwalten",
+    "scopes-declaration.rexroth-modbustcp.config.rwx.description":"Uneingeschränkter Zugriff auf Konfigurationen und Register",
+    "scopes-declaration.rexroth-modbustcp.registerData.rw.name":"Bedienen",
+    "scopes-declaration.rexroth-modbustcp.registerData.rw.description":"Konfigurationen anzeigen und Register schreiben",
+    "scopes-declaration.rexroth-modbustcp.r.name":"Ansehen",
+    "scopes-declaration.rexroth-modbustcp.r.description":"Konfigurationen und Register anzeigen",
+    "documentation.modbustcp.description": "Stellt Modbus TCP Funktionalitäten für ctrlX OS bereit"
 }

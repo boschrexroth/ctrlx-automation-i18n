@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "UAS-V-0206",
+  "product": "UAS-V-0306",
   "mainDiagnostics": {
     "0D0A0000": {
       "text": "Trace message OPC UA",
@@ -39,7 +38,7 @@
           "version": 1
         },
         "0C761013": {
-          "text": "Server SDK internal error",
+          "text": "Server SDK: Internal error",
           "version": 1
         }
       }
@@ -99,7 +98,7 @@
           "version": 1
         },
         "0C761013": {
-          "text": "Server SDK internal error",
+          "text": "Server SDK: Internal error",
           "version": 1
         }
       }

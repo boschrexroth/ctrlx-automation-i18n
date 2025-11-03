@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "PLC-V-0304",
+  "product": "PLC-V-0306",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -4652,6 +4651,14 @@
       "detailedDiagnostics": {
         "0C230001": {
           "text": "Skriptinstanz mit unterschiedlichem Spracheintrag vorhanden.",
+          "version": 1
+        },
+        "0C230002": {
+          "text": "Skriptinstanz mit ungültigem Namen",
+          "version": 1
+        },
+        "0C230003": {
+          "text": "Skriptinstanz konnte nicht erstellt werden (z. B. ungültiger Instanzname oder ungültiger Sprachtyp)",
           "version": 1
         }
       }

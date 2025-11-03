@@ -54,7 +54,7 @@
       "cmdbar": {
         "back": "Back to...",
         "up": "Up to...",
-        "refresh": "Refreshes selected node",
+        "refresh": "Refreshes nodes",
         "home": "Top level node",
         "copypath": "Copies address",
         "addToWatchlist": "Adds to watchlist",

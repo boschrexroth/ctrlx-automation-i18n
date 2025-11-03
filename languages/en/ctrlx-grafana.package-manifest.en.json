@@ -7,6 +7,8 @@
     "scopes.grafana.viewer.name": "IoT Dashboard Viewer",
     "scopes.grafana.viewer.description": "Enables view dashboards and playlists",
     "licenses.SWL-XCx-GDB-GRAFANAxDBxxx-NNNN.title": "ctrlX OS License - IoT Dashboard",
-    "licenses.SWL-XCx-GDB-GRAFANAxDBxxx-NNNN.description": "Dynamic IoT Dasboards based on Grafana® adapted for ctrlX OS",
-    "configuration.grafana.description" : "IoT Dashboard configuration"
+    "licenses.SWL-XCx-GDB-GRAFANAxDBxxx-NNNN.description": "Dynamic IoT Dashboards based on Grafana® adapted for ctrlX OS",
+    "licenses.SWL-XOV-GDB-GRAFANAxDBxxx-Y1F1.title": "ctrlX OS License - IoT Dashboard (Floating/1 Year)",
+    "licenses.SWL-XOV-GDB-GRAFANAxDBxxx-Y1F1.description": "Dynamic IoT Dashboards based on Grafana® adapted for ctrlX OS (Floating/1 Year)",
+    "configuration.grafana.description": "IoT Dashboard configuration"
 }

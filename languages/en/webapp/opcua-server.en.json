@@ -20,7 +20,11 @@
     "upload.button": "Upload",
     "edit.tooltip": "Edit",
     "emptyText.text": "No items to display",
-    "enterValidValue.text": "Enter a valid value"
+    "enterValidValue.text": "Enter a valid value",
+    "serverConfig.title": "Server Configuration",
+    "infoModel.title": "Information Model",
+    "mappings.title": "Mappings",
+    "serverConfiguration.title": "OPC UA Server configuration"
   },
   "uas.configuration": {
     "serverConfiguration.title": "OPC UA Server configuration",

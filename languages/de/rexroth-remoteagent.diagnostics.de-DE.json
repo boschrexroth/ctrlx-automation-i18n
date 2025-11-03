@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "RMA-V-0304",
+  "product": "RMA-V-0306",
   "mainDiagnostics": {
     "0B0A0100": {
       "text": "Remote Agent Information",

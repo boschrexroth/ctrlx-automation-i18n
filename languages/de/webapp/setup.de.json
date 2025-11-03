@@ -19,7 +19,10 @@
       "error.text": "Fehler: {{errText}}",
       "title": "Sichern & Wiederherstellen",
       "device.title": "Gerät",
-      "file.title": "Sicherungsdatei"
+      "file.title": "Sicherungsdatei",
+      "name.label": "Name",
+      "version.label": "Version",
+      "description.label": "Beschreibung"
     },
     "apply": {
       "restore.button": "Start",
@@ -41,6 +44,16 @@
       "setup-file.label": "Sicherungsdatei",
       "setup-file.placeholder": "Sicherungsdatei auswählen",
       "summary.text": "Die Geräteeinstellungen aus der Sicherungsdatei \"{{param}}\" werden übernommen.",
+      "architecture.warning": {
+        "mismatch": {
+          "text": "CPU-Architektur unterschiedlich",
+          "description": "Das Backup wurde mit der CPU-Architektur \"{{backup}}\" erstellt, das Gerät basiert jedoch auf der \"{{device}}\" Architektur. Teile des Backups, wie z. B. das kompilierte SPS-Programm, werden nicht ausgeführt, wenn die CPU-Architekturen von Backup und Gerät nicht übereinstimmen. Bei Apps, die nicht mit dem Gerät kompatibel sind, wird während der Installation ein Fehler gemeldet."
+        },
+        "in-backup-unknown": {
+          "text": "CPU-Architektur im Backup unbekannt",
+          "description": "Das Backup enthält keine Information zur CPU-Architektur mit der es erstellt wurde. Teile des Backups, wie z. B. das kompilierte SPS-Programm, werden nicht ausgeführt, wenn die CPU-Architekturen von Backup und Gerät (\"{{device}}\") nicht übereinstimmen. Bei Apps, die nicht mit dem Gerät kompatibel sind, wird während der Installation ein Fehler gemeldet."
+        }
+      },
       "notice.general": {
         "item1": "Apps werden gegebenenfalls installiert oder deinstalliert. Geräteeinstellungen werden aktualisiert, hinzugefügt oder gelöscht.",
         "item2": "Das Gerät startet bei Bedarf automatisch neu.",
@@ -57,7 +70,8 @@
         "select.label": "Ausgewählte Apps und Einstellungen werden aktualisiert, hinzugefügt oder gelöscht."
       },
       "tab.label": "Wiederherstellen",
-      "tile.description": "Stellen Sie Apps und Einstellungen aus einer Sicherung wieder her"
+      "tile.description": "Stellen Sie Apps und Einstellungen aus einer Sicherung wieder her",
+      "error.hint": "Fehler beim Wiederherstellen lassen sich häufig beheben, indem der Vorgang nach einer kurzen Wartezeit oder einem Neustart des Geräts wiederholt wird. Bereits erfolgreich durchgeführte Aktionen werden dabei nicht wiederholt."
     },
     "create": {
       "action.button": "Erstellen",
@@ -92,7 +106,9 @@
         "item2": "Deaktivierte Apps, Lizenzen und das Logbuch sind nicht in der Sicherung enthalten."
       },
       "tab.label": "Sicherung",
-      "tile.description": "Erstellen Sie eine Sicherung mit benutzerdefinierten Inhalten"
+      "tile.description": "Erstellen Sie eine Sicherung mit benutzerdefinierten Inhalten",
+      "metadata.title": "Weitere Einstellungen",
+      "forceReboot.checkbox": "Neustart nach Wiederherstellen erzwingen"
     },
     "options-table": {
       "select.filter.label": "Filter",
@@ -102,6 +118,7 @@
       "button.addSelectedOrFiltered.filtered.tooltip": "Alle Elemente hinzufügen",
       "button.removeSelectedOrFiltered.selected.tooltip": "Ausgewählte Elemente entfernen",
       "button.removeSelectedOrFiltered.filtered.tooltip": "Alle Elemente entfernen",
+      "button.tree.tooltip": "Wechselt zur Baumansicht",
       "header.filters": "Filter",
       "header.description": "Beschreibung",
       "filter.settings": "Einstellungen",
@@ -113,6 +130,16 @@
       "filter.settings.usersAndPermissions": "Einstellungen: Benutzer und Berechtigungen",
       "filter.settings.network": "Einstellungen: Netzwerk",
       "filter.settings.system": "Einstellungen: System"
+    },
+    "options-tree": {
+      "button.expand.tooltip": "Blendet alle Details ein",
+      "button.collapse.tooltip": "Blendet alle Details aus",
+      "button.list.tooltip": "Wechselt zur Listenansicht",
+      "node.appSpecificSettings": "App-spezifische Einstellungen",
+      "node.appData": "App-Daten",
+      "node.network": "Netzwerkeinstellungen",
+      "node.security": "Sicherheitseinstellungen",
+      "node.system": "Systemeinstellungen"
     },
     "restore-operations-table": {
       "title": "Unterschiede zwischen Sicherungsdatei und Gerät gefunden. Wählen sie die auszuführenden Wiederherstellungsoperationen aus.",
@@ -152,6 +179,8 @@
       "title": "Sicherungsdateien",
       "tile.description": "Sicherungsdateien anzeigen, die aktuell auf dem Gerät gespeichert sind",
       "table.file.header": "Dateiname",
+      "table.modified.header": "Geändert",
+      "table.size.header": "Größe",
       "table.action.header": "Aktionen",
       "table.empty": "Keine Sicherungsdateien vorhanden",
       "delete.confirm.button": "Löschen",

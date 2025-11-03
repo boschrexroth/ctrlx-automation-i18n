@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "MOC-V-0304",
+  "product": "MOC-V-0306",
   "mainDiagnostics": {
     "100A0101": {
       "text": "Model status has changed",
@@ -133,6 +132,14 @@
         "0C6D8031": {
           "text": "Failed to access the memory of the Data Layer to retrieve information.",
           "version": 2
+        },
+        "0C6D803A": {
+          "text": "Failed to access the FMU model variable, cannot proceed execution",
+          "version": 1
+        },
+        "0C6D804C": {
+          "text": "The configured size of the connected node does not match the size of the target node.",
+          "version": 1
         },
         "0C6D804F": {
           "text": "Failed to access the real-time Data Layer node.",

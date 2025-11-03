@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "GCO-V-0302",
+  "product": "GCO-V-0306",
   "mainDiagnostics": {
     "100A0040": {
       "text": "Allgemeine G-Code-Systemmeldung",
@@ -115,11 +114,11 @@
           "version": 1
         },
         "0C290209": {
-          "text": "",
+          "text": "Fehler bei der Auswertung eines Ausdrucks in Klammern im aktuellen NC-Satz",
           "version": 1
         },
         "0C29020A": {
-          "text": "",
+          "text": "Benutzerdefinierter Fehler in der Funktion \"SETERR()\"",
           "version": 1
         }
       }
@@ -201,23 +200,23 @@
       }
     },
     "100F0064": {
-      "text": "",
+      "text": "Fehler in der Systemfunktion",
       "version": 1,
       "detailedDiagnostics": {
         "0C290300": {
-          "text": "",
+          "text": "Unbekannter Funktionsname",
           "version": 1
         },
         "0C290301": {
-          "text": "",
+          "text": "Fehler bei der Zählung der Argumente",
           "version": 1
         },
         "0C290302": {
-          "text": "",
+          "text": "Fehler beim Typ des Arguments",
           "version": 1
         },
         "0C290303": {
-          "text": "",
+          "text": "Fehler beim Wert des Arguments",
           "version": 1
         }
       }
@@ -259,15 +258,15 @@
           "version": 1
         },
         "0C290108": {
-          "text": "",
+          "text": "Programm \"BREAK\" außerhalb der Schleife",
           "version": 1
         },
         "0C290109": {
-          "text": "",
+          "text": "Keine visuelle Kennzeichnung für GOTO programmiert",
           "version": 1
         },
         "0C29010A": {
-          "text": "",
+          "text": "Doppelte Kennzeichnung",
           "version": 1
         }
       }
@@ -281,15 +280,15 @@
           "version": 1
         },
         "0C29010B": {
-          "text": "",
+          "text": "Ungültiger Datentyp des Adressworts",
           "version": 1
         },
         "0C29010C": {
-          "text": "",
+          "text": "Ungültiger M-Code-Wert",
           "version": 1
         },
         "0C29010D": {
-          "text": "",
+          "text": "Wert des Ausdrucks zwischen \"[\" und \"]\" ist kein gültiges NC-Programmwort",
           "version": 1
         }
       }
@@ -307,7 +306,7 @@
           "version": 1
         },
         "0C29001A": {
-          "text": "",
+          "text": "Programmierung eines ungültigen Adressworts",
           "version": 1
         }
       }

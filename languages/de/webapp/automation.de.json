@@ -35,7 +35,7 @@
 
       "settings": {
         "title": "Einstellungen",
-        "showLastNode": "Letzen Baumknoten beim Öffnen anzeigen",
+        "showLastNode": "Letzten Baumknoten beim Öffnen anzeigen",
         "useTreeWidth": "Letzte Baumbreite beim Öffnen verwenden",
         "showDisplayname": "Anzeigename im Baum anzeigen",
         "showWarnings": "Unvollständige Konfiguration vom Data Layer-Knoten anzeigen",
@@ -54,7 +54,7 @@
       "cmdbar": {
         "back": "Zurück zu...",
         "up": "Hoch nach...",
-        "refresh": "Aktualisiert ausgewählten Knoten",
+        "refresh": "Aktualisiert die Knoten",
         "home": "Oberster Knoten",
         "copypath": "Kopiert Adresse",
         "addToWatchlist": "Fügt zur Watchlist hinzu",

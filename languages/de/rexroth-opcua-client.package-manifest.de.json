@@ -3,10 +3,14 @@
   "configuration.appDirectories.opcuaclient.description": "OPC UA Client: Sitzungskonfiguration und allgemeine App-Konfiguration",
   "licenses.SWL-XCx-UAC-OPCUACLIENTxx-NNNN.title": "ctrlX OS License - OPC UA Client",
   "licenses.SWL-XCx-UAC-OPCUACLIENTxx-NNNN.description": "OPC UA Client zur Kommunikation mit OPC UA Servern für ctrlX OS",
-  "scopes-declaration.rexroth-opcua-client.name": "OPC UA Client",
-  "scopes-declaration.rexroth-opcua-client.description": "Berechtigungen für die OPC UA Client-App",
-  "scopes-declaration.rexroth-opcua-client.opcua.x.name": "OPC UA Client-Zugriff",
-  "scopes-declaration.rexroth-opcua-client.opcua.x.description": "Zugriff auf Daten, die von der OPC UA Client-App über den Data Layer bereitgestellt werden",
+  "scopes-declaration.opcuaclient.name": "OPC UA Client",
+  "scopes-declaration.opcuaclient.description": "Berechtigungen für den OPC UA Client",
+  "scopes-declaration.opcuaclient.view.name": "Ansehen",
+  "scopes-declaration.opcuaclient.view.description": "- Lesezugriff auf alle den OPC UA Client betreffenden Data Layer-Knoten. \n- Ansehen der Web-Benutzeroberfläche des OPC UA Clients.",
+  "scopes-declaration.opcuaclient.operate.name": "Bedienen",
+  "scopes-declaration.opcuaclient.operate.description": "Lesezugriff auf alle den OPC UA Client betreffenden Data Layer-Knoten. \n- Vollzugriff auf die Web-Benutzeroberfläche des OPC UA Clients. \n- Vollzugriff auf OPC UA Client-Sitzungen im Data Layer.",
+  "scopes-declaration.opcuaclient.manage.name": "Verwalten",
+  "scopes-declaration.opcuaclient.manage.description": "Vollzugriff auf alle den OPC UA Client betreffenden Data Layer-Knoten.",
   "sidebar.opcua.1-Client.title": "Client",
   "sidebar.opcua.2-FlatC.title": "FlatC Generation"
 }

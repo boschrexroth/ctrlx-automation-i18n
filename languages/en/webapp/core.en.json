@@ -63,7 +63,7 @@
   },
   "core.login": {
     "welcome": "Welcome to ctrlX OS",
-    "operationalUse": "The usage of the {{param}} is limited to development, evaluation and simulation. Operative usage is not intended.",
+    "operationalUse": "The usage of the {{param}} is limited to development and evaluation. Operative usage is not intended.",
     "title": "Login",
     "user": "Username",
     "initUser": "The initial username is:",
@@ -108,5 +108,9 @@
     "warning": "Warning",
     "error": "Error",
     "info": "Info"
+  },
+  "core.monitoring": {
+    "title": "Network connection interrupted",
+    "message": "Check the network connection (WiFi, cable, router, switches) and restore it. In the case of a virtual control, check whether it is still running and restart it if necessary."
   }
 }

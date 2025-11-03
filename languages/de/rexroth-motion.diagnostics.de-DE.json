@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "MOT-V-0304",
+  "product": "MOT-V-0306",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -322,6 +321,10 @@
           "text": "Funktion nicht unterstützt",
           "version": 1
         },
+        "0C580600": {
+          "text": "Fehler beim Lesen von Parameterinformationen aus dem Gerät über Feldbus mit Data Layer-Leseanforderung",
+          "version": 1
+        },
         "0C580700": {
           "text": "Warte auf benötigte Feldbus-Master-Instanzen",
           "version": 1
@@ -399,6 +402,14 @@
           "version": 1
         }
       }
+    },
+    "090A0FFA": {
+      "text": "Trace Nachricht motion.robotics",
+      "version": 1
+    },
+    "090A0FFB": {
+      "text": "Trace Nachricht motion.drivecommands",
+      "version": 1
     },
     "090A0FFC": {
       "text": "Trace Nachricht motion.sync",
@@ -669,6 +680,14 @@
           "version": 1
         }
       }
+    },
+    "090E0FFA": {
+      "text": "Trace Warnung motion.robotics",
+      "version": 1
+    },
+    "090E0FFB": {
+      "text": "Trace Warnung motion.drivecommands",
+      "version": 1
     },
     "090E0FFC": {
       "text": "Trace Warnung motion.sync",
@@ -1075,6 +1094,10 @@
         "0C560212": {
           "text": "Eine installierte Lizenz benötigt eine andere Lizenz als Basis. Weil die Basislizenz nicht installiert ist, kann die installierte Lizenz nicht genutzt werden.",
           "version": 1
+        },
+        "0C560213": {
+          "text": "Laufzeitlizenz für Funktionen, die mit dem Motion-SDK entwickelt wurden, ist nicht installiert",
+          "version": 1
         }
       }
     },
@@ -1118,6 +1141,14 @@
           "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart Position",
           "version": 1
         },
+        "0C550248": {
+          "text": "Fehler im Achsprofil",
+          "version": 1
+        },
+        "0C550293": {
+          "text": "Ungültiger Wert für die Filtergrenzfrequenz",
+          "version": 1
+        },
         "0C550501": {
           "text": "Ungültige Flatbuffer-Struktur",
           "version": 1
@@ -1128,6 +1159,10 @@
         },
         "0C560200": {
           "text": "Motion-Objekt mit unbekanntem Typ erkannt",
+          "version": 1
+        },
+        "0C560214": {
+          "text": "Validierung fehlgeschlagen",
           "version": 1
         },
         "0C560230": {
@@ -1214,6 +1249,14 @@
         },
         "0C550272": {
           "text": "Fehler bei der Konfiguration der Geberachse",
+          "version": 1
+        },
+        "0C56020F": {
+          "text": "Aktuelle Motion-Konfiguration ungültig - Lizenz fehlt",
+          "version": 1
+        },
+        "0C560214": {
+          "text": "Validierung fehlgeschlagen",
           "version": 1
         },
         "0C560230": {
@@ -1316,6 +1359,66 @@
           "text": "Der Konfigurationsparameter wurde nicht gefunden.",
           "version": 1
         },
+        "0C5602B0": {
+          "text": "Basis-Achstransformation darf keine Orientierungsanteile beinhalten, wenn auch eine Orientierungstransformation konfiguriert ist",
+          "version": 1
+        },
+        "0C5602B1": {
+          "text": "Konfiguration der Kinematik-Achse konnte nicht gelesen werden",
+          "version": 1
+        },
+        "0C5602B2": {
+          "text": "Es konnte nicht ausgelesen werden, ob die Achs-Transformation auch einen Orientierungsanteil hat",
+          "version": 1
+        },
+        "0C5602B3": {
+          "text": "Für eine eindeutige Konfiguration muss entweder genau ein MCS-Set oder genau zwei MCS-Sets konfiguriert sein",
+          "version": 1
+        },
+        "0C5602B4": {
+          "text": "Die Konfiguration der Richtung der Kinematik-Achse enthält einen ungültigen Wert",
+          "version": 1
+        },
+        "0C5602B5": {
+          "text": "Der konfigurierte Achs-Index der Kinematik-Achse ist ungültig",
+          "version": 1
+        },
+        "0C5602B6": {
+          "text": "Mehrere Achsen sind auf den gleichen Achs-Index in der Kinematik konfiguriert",
+          "version": 1
+        },
+        "0C5602B7": {
+          "text": "Eine Achse der Achs-Transformation ist auf einen Achs-Index in der Kinematik konfiguriert, der mehreren Achsen zugeordnet ist",
+          "version": 1
+        },
+        "0C5602B8": {
+          "text": "Eine Achse der Achs-Transformation enthält eine ungültige Konfiguration für den Achs-Index in der Kinematik",
+          "version": 1
+        },
+        "0C5602B9": {
+          "text": "Unerwarteter Typ der Achstransformation im MCS-Set",
+          "version": 1
+        },
+        "0C5602BA": {
+          "text": "Wenn 2 MCS-Sets konfiguriert sind, muss eins vom Type BASE sein und das andere vom Typ ORIENTATION, damit die Konfiguration eindeutig ist",
+          "version": 1
+        },
+        "0C5602BB": {
+          "text": "Konfiguration der Kinematik-Achsen ist mehrdeutig",
+          "version": 1
+        },
+        "0C5602BC": {
+          "text": "Konfiguration der Achstransformationen ist mehrdeutig",
+          "version": 1
+        },
+        "0C5602BD": {
+          "text": "Automatisches Aktivieren von eindeutigen Achs-Transformationen ist durch die Konfiguration abgeschaltet",
+          "version": 1
+        },
+        "0C5602BE": {
+          "text": "Automatisches Nutzen der Achs-Ist-Werte bei eindeutiger Konfiguration der Kinematik-Achsen ist durch die Konfiguration abgeschaltet",
+          "version": 1
+        },
         "0C570002": {
           "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
           "version": 1
@@ -1390,8 +1493,16 @@
           "text": "Der Versuch, die Achsenkategorie zu ändern ist fehlgeschlagen, weil sich die Achse nicht im richtigen Zustand befindet",
           "version": 1
         },
+        "0C560214": {
+          "text": "Validierung fehlgeschlagen",
+          "version": 1
+        },
         "0C570101": {
           "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "Allgemeiner Fehler",
           "version": 1
         }
       }
@@ -1458,6 +1569,48 @@
         }
       }
     },
+    "090F0055": {
+      "text": "Lizenzen schließen sich gegenseitig aus",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560215": {
+          "text": "Eine ausschließende Lizenz ist installiert, daher wird nur diese primäre Lizenz verwendet.",
+          "version": 1
+        }
+      }
+    },
+    "090F0056": {
+      "text": "Lizenz auf diesem System nicht erlaubt",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560216": {
+          "text": "Die Engineering Floating License ist nur auf einer virtuellen Steuerung erlaubt.",
+          "version": 1
+        }
+      }
+    },
+    "090F0060": {
+      "text": "Fehler beim Filtern der Ist-Werte",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550290": {
+          "text": "Interner Fehler - Filter wurde deaktiviert",
+          "version": 1
+        },
+        "0C550291": {
+          "text": "Keine IST-Position verfügbar - Filter wurde deaktiviert",
+          "version": 1
+        },
+        "0C550292": {
+          "text": "Initialisierung des Filters fehlgeschlagen",
+          "version": 1
+        },
+        "0C550293": {
+          "text": "Ungültiger Wert für die Filtergrenzfrequenz",
+          "version": 1
+        }
+      }
+    },
     "090F0070": {
       "text": "Fehler bei der Extrapolation der Ist-Werte",
       "version": 1,
@@ -1498,6 +1651,16 @@
         },
         "0C560295": {
           "text": "Das Handle ist ungültig.",
+          "version": 1
+        }
+      }
+    },
+    "090F0072": {
+      "text": "Unkritischer Fehler in AxsPower-Kommando",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560460": {
+          "text": "Keine Unterstützung für die Überprüfung des Referenzpunktzustands der Achse",
           "version": 1
         }
       }
@@ -2017,6 +2180,10 @@
         "0C550629": {
           "text": "Die referenzierte Kurvenscheibe existiert nicht.",
           "version": 1
+        },
+        "0C550633": {
+          "text": "Im FlexProfile wurden unzulässige Einheiten konfiguriert.",
+          "version": 1
         }
       }
     },
@@ -2060,6 +2227,14 @@
         }
       }
     },
+    "090F0FFA": {
+      "text": "Trace Fehler motion.robotics",
+      "version": 1
+    },
+    "090F0FFB": {
+      "text": "Trace Fehler motion.drivecommands",
+      "version": 1
+    },
     "090F0FFC": {
       "text": "Trace Fehler motion.sync",
       "version": 1
@@ -2082,6 +2257,10 @@
       "detailedDiagnostics": {
         "0C550001": {
           "text": "Fehler Feldgerät",
+          "version": 1
+        },
+        "0C550004": {
+          "text": "Fehler Feldgerät (keine Feldgerät-Diagnose vorhanden)",
           "version": 1
         },
         "0C550102": {
@@ -2358,6 +2537,14 @@
         },
         "0C560107": {
           "text": "Maximaler Grenzwert von TargetPos überschritten",
+          "version": 1
+        },
+        "0C56010C": {
+          "text": "Drehmomentgrenzwert überschritten",
+          "version": 1
+        },
+        "0C56010D": {
+          "text": "Drehmoment Rampengrenzwert überschritten",
           "version": 1
         },
         "0C56024A": {
@@ -2888,6 +3075,26 @@
         },
         "0C560050": {
           "text": "Kinematik für Kinematikbefehl wurde nicht gefunden",
+          "version": 1
+        },
+        "0C56010E": {
+          "text": "Geschwindigkeitsgrenzwert einer Achse überschritten",
+          "version": 1
+        },
+        "0C56010F": {
+          "text": "Beschleunigungsgrenzwert einer Achse überschritten",
+          "version": 1
+        },
+        "0C560201": {
+          "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
+          "version": 1
+        },
+        "0C560276": {
+          "text": "Positionssprung in der Interpolation der Kinematik erkannt",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Befehl für Motion-Objekt (Achse oder Kinematik) fehlgeschlagen",
           "version": 1
         },
         "0C570007": {
@@ -3560,12 +3767,66 @@
       "text": "Fehler beim Ausführen von move-to-point",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550234": {
+          "text": "Kommandierte Achsbedeutung wird für die Kinematik nicht unterstützt",
+          "version": 1
+        },
         "0C550410": {
           "text": "Das angegebene Referenzsystem wird nicht unterstützt.",
           "version": 1
         },
         "0C550411": {
           "text": "Es existiert kein Punkt unter dem angegebenen Punktnamen.",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2024": {
+      "text": "Fehler im Kinematikbefehl \"PathSmooth\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570107": {
+          "text": "Befehl nicht erlaubt",
+          "version": 1
+        },
+        "0C570230": {
+          "text": "Ungültiger Parameter \"roundingType\"",
+          "version": 1
+        },
+        "0C570231": {
+          "text": "PathSmooth \"end\" wird ohne vorherigen PathSmooth \"start\" ausgeführt",
+          "version": 1
+        },
+        "0C570232": {
+          "text": "PathSmooth \"start\" nicht erlaubt, wenn Befehle \"Contour\", \"ContMotion\", \"PolyTrans\" aktiv sind",
+          "version": 1
+        },
+        "0C570233": {
+          "text": "PathSmooth ist beim internen Aufruf von \"Contour\", \"ContMotion\", \"PolyTrans\" fehlgeschlagen. Bitte überprüfen Sie den zuvor angezeigten Diagnosecode, um die Ursache zu ermitteln.",
+          "version": 1
+        },
+        "0C570234": {
+          "text": "Parameter \"roundingType\" weicht vom aktiven Wert ab, wenn er erneut aufgerufen wird",
+          "version": 1
+        },
+        "0C570235": {
+          "text": "Parameter \"prepCmds\" weicht vom aktiven Wert ab, wenn er erneut aufgerufen wird",
+          "version": 1
+        },
+        "0C570236": {
+          "text": "Konturbefehl nicht zulässig, wenn \"PathSmooth\" aktiv ist",
+          "version": 1
+        },
+        "0C570237": {
+          "text": "\"ContMotion\" nicht zulässig, wenn \"PathSmooth\" aktiv ist",
+          "version": 1
+        },
+        "0C570238": {
+          "text": "\"PolyTrans\" nicht erlaubt, wenn \"PathSmooth\" aktiv ist",
           "version": 1
         }
       }
@@ -3647,6 +3908,14 @@
         "0C550314": {
           "text": "Von der Achstransformation benötigte Achse besitzt den falschen Achstyp.",
           "version": 1
+        },
+        "0C550316": {
+          "text": "Ausgewähltes MCS-Set enthält ungültige/inkonsistente Daten",
+          "version": 1
+        },
+        "0C550317": {
+          "text": "Die Orientierungs-Achstransformation wird von der Basis-Achstransformation nicht unterstützt.",
+          "version": 1
         }
       }
     },
@@ -3684,6 +3953,10 @@
       "text": "Fehler in Kommandooption \"PolyTrans\"",
       "version": 1,
       "detailedDiagnostics": {
+        "0C570107": {
+          "text": "Befehl nicht erlaubt",
+          "version": 1
+        },
         "0C5701B1": {
           "text": "Parameter für Befehlsoption ist ungültig",
           "version": 1
@@ -3698,6 +3971,34 @@
       "text": "Fehler in Kommandooption \"BeltSync\"",
       "version": 1,
       "detailedDiagnostics": {
+        "0C5502E1": {
+          "text": "\"PCS\"-Set/Gruppe ist bereits aktiv",
+          "version": 1
+        },
+        "0C550420": {
+          "text": "In der Kinematikkonfiguration für Bandsynchron ist der Abstand zur Endebene kleiner als die Synchronisationslänge konfiguriert.",
+          "version": 1
+        },
+        "0C550421": {
+          "text": "Beim Aufsynchronisieren wurde die maximale Synchronisationslänge überschritten.",
+          "version": 1
+        },
+        "0C550422": {
+          "text": "Der maximale Abstand zur Endebene wurde während der synchronen Fahrbewegung überschritten.",
+          "version": 1
+        },
+        "0C550423": {
+          "text": "Die Startebene wurde aus negativer Richtung überschritten.",
+          "version": 1
+        },
+        "0C550424": {
+          "text": "Kommandierte Bandachse ist Teil der eigenen Kinematik",
+          "version": 1
+        },
+        "0C550425": {
+          "text": "Band-synchron unterstützt keine Punkt-zu-Punkt Bewegungen (wie MoveDirect)",
+          "version": 1
+        },
         "0C560201": {
           "text": "Motion-Objekt mit vorgegebenem Namen wurde nicht gefunden",
           "version": 1
@@ -3750,6 +4051,16 @@
         },
         "0C5701B2": {
           "text": "Es ist eine Kommandooption vom selben Typ aktiv, von welcher keine Daten gelesen werden konnten",
+          "version": 1
+        }
+      }
+    },
+    "090F2038": {
+      "text": "Fehler in der Befehlsoption \"ContMotion\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570107": {
+          "text": "Befehl nicht erlaubt",
           "version": 1
         }
       }
@@ -4138,6 +4449,18 @@
         },
         "0C550186": {
           "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
+        "0C550187": {
+          "text": "Kommandierter Antrieb unterstützt Betriebsart \"Drehmoment-/Kraftregelung\" nicht",
+          "version": 1
+        },
+        "0C550188": {
+          "text": "Gerät ist nicht korrekt konfiguriert für Betriebsart \"Drehmoment-/Kraftregelung\"",
+          "version": 1
+        },
+        "0C550189": {
+          "text": "Zyklische Daten für Betriebsart \"Drehmoment-/Kraftregelung\" sind im Achsprofil nicht konfiguriert",
           "version": 1
         }
       }
@@ -5490,6 +5813,10 @@
         },
         "0C550630": {
           "text": "Interner Fehler: Kein Zugriff auf FlexProfile-Daten.",
+          "version": 1
+        },
+        "0C550636": {
+          "text": "Sollgeschwindigkeit zu hoch für Zykluszeit (Shannon-Theorem wurde verletzt)",
           "version": 1
         },
         "0C570007": {

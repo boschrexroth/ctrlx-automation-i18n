@@ -1,9 +1,11 @@
 ﻿{
-  "ovlib": {
-    "common": {
-      "noItems": "No items to display.",
-      "input": "Input",
-      "output": "Output"
-    }
+  "onlinevariables": {
+    "table": {
+      "noItems": "Keine Elemente zum Anzeigen.",
+      "input": "Eingang",
+      "output": "Ausgang",
+      "enterValue": "Wert eingeben"
+    },
+    "notification.save": "Werte wurden geschrieben"
   }
 }

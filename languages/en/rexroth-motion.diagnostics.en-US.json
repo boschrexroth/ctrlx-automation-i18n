@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "MOT-V-0304",
+  "product": "MOT-V-0306",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
@@ -322,6 +321,10 @@
           "text": "Function not supported",
           "version": 1
         },
+        "0C580600": {
+          "text": "Error while reading parameter information from the device via field bus with Data Layer read request",
+          "version": 1
+        },
         "0C580700": {
           "text": "Waiting for required field bus master instances",
           "version": 1
@@ -399,6 +402,14 @@
           "version": 1
         }
       }
+    },
+    "090A0FFA": {
+      "text": "Trace message motion.robotics",
+      "version": 1
+    },
+    "090A0FFB": {
+      "text": "Trace message motion.drivecommands",
+      "version": 1
     },
     "090A0FFC": {
       "text": "Trace message motion.sync",
@@ -669,6 +680,14 @@
           "version": 1
         }
       }
+    },
+    "090E0FFA": {
+      "text": "Trace warning motion.robotics",
+      "version": 1
+    },
+    "090E0FFB": {
+      "text": "Trace warning motion.drivecommands",
+      "version": 1
     },
     "090E0FFC": {
       "text": "Trace warning motion.sync",
@@ -1075,6 +1094,10 @@
         "0C560212": {
           "text": "An installed license requires another license as basis. Because the basis license is not installed, the installed license cannot be used.",
           "version": 1
+        },
+        "0C560213": {
+          "text": "Runtime license for functions developed with the Motion SDK is not installed",
+          "version": 1
         }
       }
     },
@@ -1118,6 +1141,14 @@
           "text": "Device is not correctly configured for operation mode Position",
           "version": 1
         },
+        "0C550248": {
+          "text": "Error in the axis profile",
+          "version": 1
+        },
+        "0C550293": {
+          "text": "Invalid value for filter cut-off frequency",
+          "version": 1
+        },
         "0C550501": {
           "text": "Invalid Flatbuffer structure",
           "version": 1
@@ -1128,6 +1159,10 @@
         },
         "0C560200": {
           "text": "Detected a motion object with unknown type",
+          "version": 1
+        },
+        "0C560214": {
+          "text": "Validation failed",
           "version": 1
         },
         "0C560230": {
@@ -1214,6 +1249,14 @@
         },
         "0C550272": {
           "text": "Error while configuring the encoder axis",
+          "version": 1
+        },
+        "0C56020F": {
+          "text": "Current motion configuration invalid - License missing",
+          "version": 1
+        },
+        "0C560214": {
+          "text": "Validation failed",
           "version": 1
         },
         "0C560230": {
@@ -1316,6 +1359,66 @@
           "text": "The configuration parameter was not found.",
           "version": 1
         },
+        "0C5602B0": {
+          "text": "Basic axis transformation must not contain any orientation components if an orientation transformation is also configured",
+          "version": 1
+        },
+        "0C5602B1": {
+          "text": "Cannot read configuration of kinematic axis",
+          "version": 1
+        },
+        "0C5602B2": {
+          "text": "Could not retrieve whether the axis transformation has an orientation component as well",
+          "version": 1
+        },
+        "0C5602B3": {
+          "text": "For an unambiguous configuration, either exactly one MCS set or exactly two MCS sets have to be configured",
+          "version": 1
+        },
+        "0C5602B4": {
+          "text": "The configuration of the direction of the kinematic axis contains an invalid value",
+          "version": 1
+        },
+        "0C5602B5": {
+          "text": "The configured axis index of the kinematic axis is invalid",
+          "version": 1
+        },
+        "0C5602B6": {
+          "text": "Multiple axes are configured to the same axis index in the kinematics",
+          "version": 1
+        },
+        "0C5602B7": {
+          "text": "An axis of the axis transformation is configured to an axis index in the kinematics that is assigned to multiple axes",
+          "version": 1
+        },
+        "0C5602B8": {
+          "text": "An axis of the axis transformation contains an invalid configuration for the axis index in the kinematics",
+          "version": 1
+        },
+        "0C5602B9": {
+          "text": "Unexpected type of axis transformation in MCS set",
+          "version": 1
+        },
+        "0C5602BA": {
+          "text": "If 2 MCS sets are configured, one has to be of type BASE and the other of type ORIENTATION so that the configuration is unambiguous",
+          "version": 1
+        },
+        "0C5602BB": {
+          "text": "Configuration of kinematic axes is ambiguous",
+          "version": 1
+        },
+        "0C5602BC": {
+          "text": "Configuration of axis transformations is ambiguous",
+          "version": 1
+        },
+        "0C5602BD": {
+          "text": "Automatic activation of unambiguous axis transformations is disabled by the configuration",
+          "version": 1
+        },
+        "0C5602BE": {
+          "text": "Automatic use of the actual axis values with unambiguous configuration of the kinematic axes is disabled by the configuration",
+          "version": 1
+        },
         "0C570002": {
           "text": "Motion object (axis or kinematics) command failed",
           "version": 1
@@ -1390,8 +1493,16 @@
           "text": "The attempt to change the axis category failed, as the axis is not in the correct state",
           "version": 1
         },
+        "0C560214": {
+          "text": "Validation failed",
+          "version": 1
+        },
         "0C570101": {
           "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C57010E": {
+          "text": "General error",
           "version": 1
         }
       }
@@ -1458,6 +1569,48 @@
         }
       }
     },
+    "090F0055": {
+      "text": "Licenses mutually exclude each other",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560215": {
+          "text": "An excluding license is installed, therefore only this primary license is used.",
+          "version": 1
+        }
+      }
+    },
+    "090F0056": {
+      "text": "License not allowed on this system",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560216": {
+          "text": "The engineering floating license is only allowed on a virtual control.",
+          "version": 1
+        }
+      }
+    },
+    "090F0060": {
+      "text": "Error when filtering the actual values",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550290": {
+          "text": "Internal error - Filter disabled",
+          "version": 1
+        },
+        "0C550291": {
+          "text": "No ACTUAL position available - Filter disabled",
+          "version": 1
+        },
+        "0C550292": {
+          "text": "Failed to initialize filter",
+          "version": 1
+        },
+        "0C550293": {
+          "text": "Invalid value for filter cut-off frequency",
+          "version": 1
+        }
+      }
+    },
     "090F0070": {
       "text": "Error during extrapolation of the actual values",
       "version": 1,
@@ -1498,6 +1651,16 @@
         },
         "0C560295": {
           "text": "The handle is invalid.",
+          "version": 1
+        }
+      }
+    },
+    "090F0072": {
+      "text": "Non-critical error in AxsPower command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560460": {
+          "text": "No support to check the homed status of the axis",
           "version": 1
         }
       }
@@ -2017,6 +2180,10 @@
         "0C550629": {
           "text": "The referenced cam does not exist.",
           "version": 1
+        },
+        "0C550633": {
+          "text": "Invalid units were configured in the FlexProfile.",
+          "version": 1
         }
       }
     },
@@ -2060,6 +2227,14 @@
         }
       }
     },
+    "090F0FFA": {
+      "text": "Trace error motion.robotics",
+      "version": 1
+    },
+    "090F0FFB": {
+      "text": "Trace error motion.drivecommands",
+      "version": 1
+    },
     "090F0FFC": {
       "text": "Trace error motion.sync",
       "version": 1
@@ -2082,6 +2257,10 @@
       "detailedDiagnostics": {
         "0C550001": {
           "text": "Field device error",
+          "version": 1
+        },
+        "0C550004": {
+          "text": "Field device error (no field device diagnostics available)",
           "version": 1
         },
         "0C550102": {
@@ -2358,6 +2537,14 @@
         },
         "0C560107": {
           "text": "TargetPos max limit exceeded",
+          "version": 1
+        },
+        "0C56010C": {
+          "text": "Torque limit value exceeded",
+          "version": 1
+        },
+        "0C56010D": {
+          "text": "Torque ramp limit value exceeded",
           "version": 1
         },
         "0C56024A": {
@@ -2888,6 +3075,26 @@
         },
         "0C560050": {
           "text": "Kinematics for kinematics command was not found",
+          "version": 1
+        },
+        "0C56010E": {
+          "text": "Acceleration limit value of an axis exceeded",
+          "version": 1
+        },
+        "0C56010F": {
+          "text": "Acceleration limit value of an axis exceeded",
+          "version": 1
+        },
+        "0C560201": {
+          "text": "Motion object with given name was not found",
+          "version": 1
+        },
+        "0C560276": {
+          "text": "Position gap in the interpolation of the kinematics detected",
+          "version": 1
+        },
+        "0C570002": {
+          "text": "Motion object (axis or kinematics) command failed",
           "version": 1
         },
         "0C570007": {
@@ -3560,12 +3767,66 @@
       "text": "Error when executing move-to-point",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550234": {
+          "text": "Commanded axis meaning is not supported for the kinematics",
+          "version": 1
+        },
         "0C550410": {
           "text": "The specified reference system is not supported.",
           "version": 1
         },
         "0C550411": {
           "text": "There is no point under the specified point name.",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2024": {
+      "text": "Error in \"PathSmooth\" kinematic command",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570107": {
+          "text": "Command is not allowed",
+          "version": 1
+        },
+        "0C570230": {
+          "text": "Invalid parameter \"roundingType\"",
+          "version": 1
+        },
+        "0C570231": {
+          "text": "PathSmooth \"end\" is executed without previous PathSmooth \"start\"",
+          "version": 1
+        },
+        "0C570232": {
+          "text": "PathSmooth \"start\" not allowed if \"Contour\", \"ContMotion\", \"PolyTrans\" commands are active",
+          "version": 1
+        },
+        "0C570233": {
+          "text": "PathSmooth failed when calling \"Contour\", \"ContMotion\", \"PolyTrans\" internally. Please check the previously displayed diagnostic code to determine the cause.",
+          "version": 1
+        },
+        "0C570234": {
+          "text": "Parameter \"roundingType\" differs from the active value when it is called again",
+          "version": 1
+        },
+        "0C570235": {
+          "text": "Parameter \"prepCmds\" differs from the active value when it is called again",
+          "version": 1
+        },
+        "0C570236": {
+          "text": "Contour command not allowed if \"PathSmooth\" is active",
+          "version": 1
+        },
+        "0C570237": {
+          "text": "\"ContMotion\" not allowed if \"PathSmooth\" is active",
+          "version": 1
+        },
+        "0C570238": {
+          "text": "\"PolyTrans\" not allowed if \"PathSmooth\" is active",
           "version": 1
         }
       }
@@ -3647,6 +3908,14 @@
         "0C550314": {
           "text": "The axis required by the axis transformation has the wrong axis type.",
           "version": 1
+        },
+        "0C550316": {
+          "text": "Selected MCS set contains invalid/inconsistent data",
+          "version": 1
+        },
+        "0C550317": {
+          "text": "The orientation axis transformation is not supported by the basic axis transformation.",
+          "version": 1
         }
       }
     },
@@ -3684,6 +3953,10 @@
       "text": "Error in command option \"PolyTrans\"",
       "version": 1,
       "detailedDiagnostics": {
+        "0C570107": {
+          "text": "Command is not allowed",
+          "version": 1
+        },
         "0C5701B1": {
           "text": "Given parameter for command option is invalid",
           "version": 1
@@ -3698,6 +3971,34 @@
       "text": "Error in command option \"BeltSync\"",
       "version": 1,
       "detailedDiagnostics": {
+        "0C5502E1": {
+          "text": "\"PCS\" set/group already active",
+          "version": 1
+        },
+        "0C550420": {
+          "text": "In the kinematic configuration for belt synchronization, the distance to the end plane is configured to be smaller than the synchronization length.",
+          "version": 1
+        },
+        "0C550421": {
+          "text": "The maximum synchronization length was exceeded during synchronization.",
+          "version": 1
+        },
+        "0C550422": {
+          "text": "The maximum distance to the end plane was exceeded during synchronous motion.",
+          "version": 1
+        },
+        "0C550423": {
+          "text": "The start plane was exceeded from negative direction.",
+          "version": 1
+        },
+        "0C550424": {
+          "text": "Commanded belt axis is part of its own kinematics",
+          "version": 1
+        },
+        "0C550425": {
+          "text": "Belt-synchronization does not support point-to-point motion (like MoveDirect)",
+          "version": 1
+        },
         "0C560201": {
           "text": "Motion object with given name was not found",
           "version": 1
@@ -3750,6 +4051,16 @@
         },
         "0C5701B2": {
           "text": "Another command option with the same identifier is active, but the data could not be read",
+          "version": 1
+        }
+      }
+    },
+    "090F2038": {
+      "text": "Error in \"ContMotion\" command option",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570107": {
+          "text": "Command is not allowed",
           "version": 1
         }
       }
@@ -4138,6 +4449,18 @@
         },
         "0C550186": {
           "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
+        "0C550187": {
+          "text": "Commanded drive does not support \"Torque/force control\" mode",
+          "version": 1
+        },
+        "0C550188": {
+          "text": "Device is not correctly configured for \"Torque/force control\" mode",
+          "version": 1
+        },
+        "0C550189": {
+          "text": "Cyclic data for \"Torque/force control\" mode is not configured in axis profile",
           "version": 1
         }
       }
@@ -5490,6 +5813,10 @@
         },
         "0C550630": {
           "text": "Internal error: No access to FlexProfile data.",
+          "version": 1
+        },
+        "0C550636": {
+          "text": "Velocity too high for cycletime (Shannon theorem has been violated)",
           "version": 1
         },
         "0C570007": {

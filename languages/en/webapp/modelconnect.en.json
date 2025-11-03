@@ -16,6 +16,7 @@
     "fileAccepted.title": "File accepted",
     "connection.networkerror": "Network error: the connection was lost; please check whether the ctrlX OS is still operational",
     "dl_action_notfound.networkerror": "Network error: the connection has failed, and the system could not perform or conclude the requested action",
+    "dl_action_forbiden.error":"You do not have the required permissions",
     "dl_subscription.networkerror": "Network error: the connection to the datalayer has failed; please refresh the page",
     "oauthtoken.error": "Your session has been closed or is expired...",
     "session.networkerror": "Network error: the session was finished; please refresh the page and log in again",
@@ -54,6 +55,7 @@
     "dragItHere.label": "Drag & Drop packages here",
     "or.label": "or",
     "ChooseFiles.button": "Select files",
-    "cannotUpload.tooltip": "UPLOAD (You do not have the required permissions)"
+    "cannotUpload.tooltip": "UPLOAD (You do not have the required permissions)",
+    "upload.tooltip": "UPLOAD"
   }
 }

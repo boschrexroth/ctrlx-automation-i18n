@@ -164,7 +164,8 @@
         "error": "Fehler beim Hinzufügen der Task",
         "prio.error1": "Bitte wählen Sie einen Wert zwischen 11 (hoch) - 139 (niedrig) aus",
         "name.error1": "Der Name hat mehr als 15 Zeichen",
-        "name.error2": "Der Name ist erforderlich"
+        "name.error2": "Der Name ist erforderlich",
+        "nonRealtimePriority": "Dies ist keine Echtzeitpriorität"
       },
       "delete": {
         "title": "Task löschen '{{name}}'",
@@ -240,8 +241,8 @@
         "filter.title.status": "Filter Status",
         "filter.all.task": "Alle Tasken",
         "filter.all.status": "Alle Status",
-        "filter.status.active": "Activ",
-        "filter.status.stopped": "Gestoppt",
+        "filter.status.active": "gestartet",
+        "filter.status.stopped": "gestoppt",
         "filter.delete.all": "Löscht alle Filter",
         "select.title": "Ausgewählte Widgets",
         "select.text": "{{count}} von {{maxcount}}",

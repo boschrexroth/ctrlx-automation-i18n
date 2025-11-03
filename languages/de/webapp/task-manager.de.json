@@ -101,7 +101,8 @@
       "tpm": "TPM",
       "maxFreq": "Max. Frequenz (CPU)",
       "networkInterface": "Netzwerkschnittstellen",
-      "storage": "Speicher"
+      "storage": "Speicher",
+      "installationId": "Installations-ID"
     },
     "resources": {
       "resourcestitle": "Ressourcen",

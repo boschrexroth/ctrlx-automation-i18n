@@ -1,14 +1,16 @@
 {
-    "configuration.firewall.description": "Firewall configuration data",
+    "configuration.firewall.description": "Konfigurationsdaten der Firewall",
     "settings.firewall.title": "Firewall",
-    "settings.firewall.description": "Manage firewall settings",
-    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-NNNN.title": "ctrlX OS License - Firewall",
-    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-NNNN.description": "Industrial firewall for ctrlX OS",
+    "settings.firewall.description": "Firewall-Einstellungen verwalten",
+    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-NNNN.title": "ctrlX OS Lizenz - Advanced Firewall",
+    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-NNNN.description": "Industrielle Firewall für ctrlX OS - Advanced Version",
+    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-BANN.title": "ctrlX OS Lizenz - Basic Firewall",
+    "licenses.SWL-XCx-FRW-FIREWALLxxxxx-BANN.description": "Industrielle Firewall für ctrlX OS - Basic Version",
 	"scopes-declaration.rexroth-firewall.web.name": "Firewall",
-	"scopes-declaration.rexroth-firewall.web.description": "Permissions for the Firewall",
-	"scopes-declaration.rexroth-firewall.web.r.name": "View the firewall configuration",
-	"scopes-declaration.rexroth-firewall.web.r.description": "View the firewall configuration",
-	"scopes-declaration.rexroth-firewall.web.rw.name": "Modify the firewall configuration",
-	"scopes-declaration.rexroth-firewall.web.rw.description": "Modify the firewall configuration",
-	"documentation.firewall.description": "Provides firewall management functionalities of ctrlX OS."
+	"scopes-declaration.rexroth-firewall.web.description": "Firewall-Berechtigungen",
+	"scopes-declaration.rexroth-firewall.web.r.name": "View",
+	"scopes-declaration.rexroth-firewall.web.r.description": "Firewall-Konfiguration ansehen",
+	"scopes-declaration.rexroth-firewall.web.rw.name": "Manage",
+	"scopes-declaration.rexroth-firewall.web.rw.description": "Firewall-Konfiguration bearbeiten",
+	"documentation.firewall.description": "Stellt Funktionalitäten für ctrlX OS zur Firewallverwaltung bereit."
 }

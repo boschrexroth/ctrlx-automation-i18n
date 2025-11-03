@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "OSC-V-0304",
+  "product": "OSC-V-0306",
   "mainDiagnostics": {
     "100A0032": {
       "text": "Bundle booting",
@@ -502,6 +501,10 @@
         },
         "0C310932": {
           "text": "Failed to retrieve the configured channel source.",
+          "version": 1
+        },
+        "0C310933": {
+          "text": "Error in data format of continue mode",
           "version": 1
         }
       }

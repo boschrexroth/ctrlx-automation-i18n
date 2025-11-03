@@ -20,7 +20,8 @@
     "systemUserExt": "(system user)",
     "remoteUserExt": "(remote)",
     "confirmationDoesNotMatchPassword": "Confirmation does not match password",
-    "deprecated": "(deprecated)"
+    "deprecated": "(deprecated)",
+    "notAvailable": "not available"
   },
 
   "idm.startpage": {
@@ -121,14 +122,18 @@
   },
 
   "idm.permissionDetails": {
+    "deviceAdministration": "Device administration",
     "fullAccess": "Full access (This will grant all permissions as well as additional administrative access to the system)",
     "category": "Category",
     "permission": "Permission",
     "identifier": "Scope identifier",
+    "showOnlyGrantedPermissions": "Show only granted permissions",
     "showScopeIds.tooltip": "Show scope identifiers",
     "hideScopeIds.tooltip": "Hide scope identifiers",
     "orphanedPermissionsName": "Orphaned permissions",
-    "orphanedPermissionsDescription": "Permissions whose associated app is not installed"
+    "orphanedPermissionsDescription": "Permissions whose associated app is not installed",
+    "requiredPermissionsAreMissing": "Required permissions are missing",
+    "selectMissingRequiredPermissions": "Select missing required permissions"
   },
 
   "idm.groups": {
@@ -250,6 +255,9 @@
   },
 
   "idm.permissions": {
+    "deviceAdministration": "Device administration",
+    "fullAccess": "Full access",
+    "fullAccessHint": "(This will grant all permissions as well as additional administrative access to the system)",
     "title": "Permissions",
     "category": "Category",
     "permission": "Permission",
@@ -299,7 +307,9 @@
   },
 
   "idm.totalPermissions": {
+    "deviceAdministration": "Device administration",
     "fullAccess": "Full access (This will grant all permissions of all categories)",
+    "showOnlyGrantedPermissions": "Show only granted permissions",
     "category": "Category",
     "permission": "Permission",
     "providedBy": "Obtained from",
@@ -367,19 +377,24 @@
     "grantEasyServiceAccessHint": "Enable the option \"Allow easy service access\" to allow our customer support to create a system user without previous authentication."
   },
 
-  "idm.requiredPermissionsConfirmationDialog": {
-    "addTitle": "Additional permissions required",
-    "removeTitle": "Permission still required",
-    "addMsgLine1": "You added the permission \"{{param}}\".",
-    "addMsgLine2": "Note that the following additional permissions are required:",
-    "removeMsgLine1": "You are about to remove the permission \"{{param}}\".",
-    "removeMsgLine2": "Note that this permission is still required by the following permissions:",
-    "identifier": "Scope identifier",
-    "category": "Category",
-    "permission": "Permission",
-    "appNotInstalled": "App not installed",
-    "addRequiredScopes": "Do you want to add the required permissions?",
-    "removeRequiredScopeAnyway": "Do you want to remove the required permission anyway?"
+  "idm.requiredScopesConfirmationDialog": {
+    "deselectPermissionTitle": "Deselect \"{{param}}\"",
+    "permissionIsStillRequired": "Note that \"{{param}}\" is required for the following permissions:",
+    "deselectRequiredScopeAnyway": "Do you want to deselect \"{{param}}\" anyway?",
+    "deselect.button": "Deselect"
+  },
+
+  "idm.requiredScopesSelectionDialog": {
+    "selectPermissionTitle": "\"{{param}}\" selected",
+    "deselectPermissionTitle": "\"{{param}}\" deselected",
+    "selectMissingRequiredPermissionsTitle": "Select missing required permissions",
+    "selectDependantLine1": "Further permissions are required for the full functionality of \"{{param}}\".",
+    "selectDependantLine2": "If only the API is used, the selection may be adjusted.",
+    "deselectDependantLine1": "The following permissions may no longer be required when you deselect \"{{param}}\".",
+    "deselectDependantLine2": "Review and adapt the permission selection according to your requirements.",
+    "theFollowingPermissionsAreRequired": "The following permissions are required:",
+    "purpose": "Purpose:",
+    "applySelection.button": "Apply selection"
   }
 
 }

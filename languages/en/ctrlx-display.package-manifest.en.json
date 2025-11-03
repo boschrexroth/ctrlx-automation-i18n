@@ -1,0 +1,9 @@
+{
+    "scopes.ctrlx-display.web.name": "Display",
+    "scopes.ctrlx-display.web.description": "Display permissions",
+    "scopes.manage-ctrlx-display.web.name": "Manage configuration",
+    "scopes.manage-ctrlx-display.web.description": "Enables manage and modify of the configuration",
+    "licenses.SWL-XOH-RUN-xxxxxxxxxxxxx-NNNN.title": "ctrlX OS License - Display License",
+    "licenses.SWL-XOH-RUN-xxxxxxxxxxxxx-NNNN.description": "Unlocks the Display",
+    "configuration-ctrlx-display.web.description": "Display configuration"
+}

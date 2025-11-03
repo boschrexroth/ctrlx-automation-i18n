@@ -19,7 +19,10 @@
       "error.text": "Error: {{errText}}",
       "title": "Backup & Restore",
       "device.title": "Device",
-      "file.title": "Backup file"
+      "file.title": "Backup file",
+      "name.label": "Name",
+      "version.label": "Version",
+      "description.label": "Description"
     },
     "apply": {
       "restore.button": "Start",
@@ -41,6 +44,16 @@
       "setup-file.label": "Backup file",
       "setup-file.placeholder": "Select backup file",
       "summary.text": "The device settings are applied from backup file \"{{param}}\".",
+      "architecture.warning": {
+        "mismatch": {
+          "text": "CPU architecture mismatch",
+          "description": "The backup was created with CPU architecture \"{{backup}}\", but the device is based on architecture \"{{device}}\". Parts of the backup, such as the compiled PLC program, will not run if the CPU architectures of backup and device do not match. For apps that are not compatible with the device, an error is reported during installation."
+        },
+        "in-backup-unknown": {
+          "text": "CPU architecture in backup unknown",
+          "description": "The backup does not contain the information about the CPU architecture with which it was created. Parts of the backup, such as the compiled PLC program, will not run if the CPU architectures of backup and device (\"{{device}}\") do not match. For apps that are not compatible with the device, an error is reported during installation."
+        }
+      },
       "notice.general": {
         "item1": "Apps might be installed or uninstalled. Device settings are updated, added or deleted.",
         "item2": "The device reboots automatically if required.",
@@ -57,7 +70,8 @@
         "select.label": "Selected apps and settings will be updated, added or removed."
       },
       "tab.label": "Restore",
-      "tile.description": "Restore apps and settings from a backup"
+      "tile.description": "Restore apps and settings from a backup",
+      "error.hint": "Restore errors can often be resolved by repeating the process after a short wait or restarting the device. This will not repeat actions that have already been successfully performed."
     },
     "create": {
       "action.button": "Create",
@@ -92,7 +106,9 @@
         "item2": "Disabled apps, licenses and the logbook are not included in the backup."
       },
       "tab.label": "Backup",
-      "tile.description": "Create a backup with customized content"
+      "tile.description": "Create a backup with customized content",
+      "metadata.title": "Additional settings",
+      "forceReboot.checkbox": "Force reboot after restore"
     },
     "options-table": {
       "select.filter.label": "Filter",
@@ -102,6 +118,7 @@
       "button.addSelectedOrFiltered.filtered.tooltip": "Add all elements",
       "button.removeSelectedOrFiltered.selected.tooltip": "Remove selected elements",
       "button.removeSelectedOrFiltered.filtered.tooltip": "Remove all elements",
+      "button.tree.tooltip": "Switches to tree view",
       "header.filters": "Filters",
       "header.description": "Description",
       "filter.settings": "Settings",
@@ -113,6 +130,16 @@
       "filter.settings.usersAndPermissions": "Settings: Users and permissions",
       "filter.settings.network": "Settings: Network",
       "filter.settings.system": "Settings: System"
+    },
+    "options-tree": {
+      "button.expand.tooltip": "Expands all details",
+      "button.collapse.tooltip": "Collapses all details",
+      "button.list.tooltip": "Switches to list view",
+      "node.appSpecificSettings": "App-specific settings",
+      "node.appData": "App data",
+      "node.network": "Network settings",
+      "node.security": "Security settings",
+      "node.system": "System settings"
     },
     "restore-operations-table": {
       "title": "Differences between backup file and device found. Select the restore operations to be performed.",
@@ -152,6 +179,8 @@
       "title": "Backup files",
       "tile.description": "Show the backup files which are currently stored on the device",
       "table.file.header": "File name",
+      "table.modified.header": "Modified",
+      "table.size.header": "Size",
       "table.action.header": "Actions",
       "table.empty": "No backup files available",
       "delete.confirm.button": "Delete",

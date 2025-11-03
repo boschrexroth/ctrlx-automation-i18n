@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "XCR-V-0304",
+  "product": "XCR-V-0306",
   "mainDiagnostics": {
     "080A000E": {
       "text": "Trace Nachricht script.manager",
@@ -30,6 +29,16 @@
       "text": "Linux-Watchdog-Framework Identität",
       "version": 1
     },
+    "080A0019": {
+      "text": "Verbleibende Wartezustände aufgehoben",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4700": {
+          "text": "Booten in den Zielbetriebszustand wird fortgesetzt",
+          "version": 1
+        }
+      }
+    },
     "080A0023": {
       "text": "Anstehende Aufgaben werden pausiert.",
       "version": 1,
@@ -44,6 +53,16 @@
         }
       }
     },
+    "080A0029": {
+      "text": "Zielbetriebszustand SERVICE auf Grund von F8-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4802": {
+          "text": "Der Zielbetriebszustand wurde auf Grund eines F8-Fehler-Neustarts durch eine kritische CPU-Kernauslastung auf SERVICE gesetzt.",
+          "version": 1
+        }
+      }
+    },
     "080A0033": {
       "text": "Hardware-Neustart durch Linux-Watchdog-Framework ausgelöst",
       "version": 1,
@@ -54,6 +73,24 @@
         },
         "0C7B4232": {
           "text": "Interne Meldung",
+          "version": 1
+        }
+      }
+    },
+    "080A0041": {
+      "text": "Erreichen des Wartezustands vor dem Schalten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4701": {
+          "text": "Wartezustand SERVICE",
+          "version": 1
+        },
+        "0C7B4702": {
+          "text": "Wartezustand SETUP",
+          "version": 1
+        },
+        "0C7B4703": {
+          "text": "Wartezustand OPERATING",
           "version": 1
         }
       }
@@ -76,6 +113,24 @@
         }
       }
     },
+    "080A0043": {
+      "text": "Verlassen des Wartezustands vor dem Schalten",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4701": {
+          "text": "Wartezustand SERVICE",
+          "version": 1
+        },
+        "0C7B4702": {
+          "text": "Wartezustand SETUP",
+          "version": 1
+        },
+        "0C7B4703": {
+          "text": "Wartezustand OPERATING",
+          "version": 1
+        }
+      }
+    },
     "080A0068": {
       "text": "Laden der administrativen Einstellung unvollständig",
       "version": 1,
@@ -85,6 +140,26 @@
           "version": 1
         }
       }
+    },
+    "080A0071": {
+      "text": "Abmeldung einer Komponente bzgl. Wartezustands",
+      "version": 1
+    },
+    "080A0073": {
+      "text": "Anmeldung einer Komponente bzgl. Wartezustands",
+      "version": 1
+    },
+    "080A0077": {
+      "text": "Verweilzeit einer Komponente im Wartezustand abgelaufen",
+      "version": 1
+    },
+    "080A0079": {
+      "text": "Entfernen einer Komponente bzgl. Wartezustands",
+      "version": 1
+    },
+    "080A0083": {
+      "text": "Aktualisierung einer Komponente bzgl. Wartezustands",
+      "version": 1
     },
     "080A00A0": {
       "text": "Konvertierung des Scheduler-Programms",
@@ -378,6 +453,20 @@
         }
       }
     },
+    "080A0310": {
+      "text": "Geräteregistrierung: Information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00D0": {
+          "text": "Geräteregistrierung gestartet",
+          "version": 1
+        },
+        "0C7A00D1": {
+          "text": "Geräteregistrierung erfolgreich",
+          "version": 1
+        }
+      }
+    },
     "080A0400": {
       "text": "Laden der Konfiguration gestartet",
       "version": 1
@@ -628,13 +717,7 @@
     },
     "080A0700": {
       "text": "Synchronisation ist initialisiert",
-      "version": 1,
-      "detailedDiagnostics": {
-        "0C7B8000": {
-          "text": "Die ursprüngliche Data Layer-Struktur konnte nicht erstellt werden.",
-          "version": 1
-        }
-      }
+      "version": 1
     },
     "080A0701": {
       "text": "Synchronisierungskonfiguration geändert",
@@ -662,6 +745,14 @@
         },
         "0C7B8006": {
           "text": "real2mono-Instanz wurde entfernt",
+          "version": 1
+        },
+        "0C7B8007": {
+          "text": "chronyd-Instanz wurde erstellt",
+          "version": 1
+        },
+        "0C7B8008": {
+          "text": "chronyd-Instanz wurde entfernt",
           "version": 1
         }
       }
@@ -790,6 +881,20 @@
       "text": "Task erfolgreich abgeschlossen",
       "version": 1
     },
+    "080A083E": {
+      "text": "Hochladen der App ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641132": {
+          "text": "Architektur der hochgeladenen App wird nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "080A0840": {
+      "text": "UEFI-Firmware-Update erfolgreich",
+      "version": 1
+    },
     "080A0877": {
       "text": "Zeiteinstellungen erfolgreich geändert",
       "version": 1
@@ -820,6 +925,10 @@
     },
     "080A088E": {
       "text": "Speichermedien erfolgreich ausgehängt",
+      "version": 1
+    },
+    "080A088F": {
+      "text": "Fehler beim Mounten des SMB-Freigabeverzeichnisses",
       "version": 1
     },
     "080A0FFF": {
@@ -866,6 +975,16 @@
         },
         "0C7B2327": {
           "text": "Die Task-Watchdogs wurden auf Grund unzureichender Hardware-Unterstützung (fehlende Unterstützung des Linux-Watchdog-Frameworks) deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        }
+      }
+    },
+    "080E0019": {
+      "text": "CPU-Kern-Auslastung im kritischen Bereich \"WARNING\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4800": {
+          "text": "Der CPU-Kern kann auf Grund der Auslastung nicht mehr alle Aufgaben bearbeiten",
           "version": 1
         }
       }
@@ -1054,6 +1173,10 @@
         }
       }
     },
+    "080E0310": {
+      "text": "Geräteregistrierung: Warnung",
+      "version": 1
+    },
     "080E0410": {
       "text": "Trace Warnung",
       "version": 2
@@ -1138,6 +1261,10 @@
         },
         "0C660046": {
           "text": "Hohe Steuerungstemperatur (Flash)",
+          "version": 1
+        },
+        "0C660048": {
+          "text": "App(s) installiert mit Auswirkungen auf das Echtzeit (RT) Systemverhalten",
           "version": 1
         }
       }
@@ -1292,6 +1419,18 @@
         },
         "0C270005": {
           "text": "Nicht unterstützter Sprachtyp",
+          "version": 1
+        },
+        "0C270006": {
+          "text": "Skriptinstanz mit angegebenem Namen existiert bereits",
+          "version": 1
+        },
+        "0C270007": {
+          "text": "Name der Skriptinstanz ist ungültig",
+          "version": 1
+        },
+        "0C270008": {
+          "text": "Skriptinstanz mit angegebenem Namen, aber anderer Skriptsprache existiert bereits",
           "version": 1
         }
       }
@@ -1546,6 +1685,52 @@
         },
         "0C7B4328": {
           "text": "Laden des Wertes für den Programm-Konfigurationsmodus fehlgeschlagen (programConfigurationMode; scheduler/admin/cfg/program-configuration)",
+          "version": 1
+        }
+      }
+    },
+    "080F0071": {
+      "text": "Abmeldung von Komponente bzgl. Wartezustands fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4720": {
+          "text": "Wartezustand nicht verfügbar",
+          "version": 1
+        },
+        "0C7B4721": {
+          "text": "Komponente nicht verfügbar",
+          "version": 1
+        }
+      }
+    },
+    "080F0073": {
+      "text": "Anmeldung von Komponente bzgl. Wartezustands fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4710": {
+          "text": "Name der Komponente nicht gesetzt",
+          "version": 1
+        },
+        "0C7B4711": {
+          "text": "Wartezustand ungültig",
+          "version": 1
+        },
+        "0C7B4712": {
+          "text": "Name der Komponente für Wartezustand bereits angemeldet",
+          "version": 1
+        }
+      }
+    },
+    "080F0079": {
+      "text": "Entfernen von Komponente bzgl. Wartezustands fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4720": {
+          "text": "Wartezustand nicht verfügbar",
+          "version": 1
+        },
+        "0C7B4721": {
+          "text": "Komponente nicht verfügbar",
           "version": 1
         }
       }
@@ -1934,6 +2119,16 @@
         },
         "0C7A0082": {
           "text": "Remote Logging abgebrochen",
+          "version": 1
+        }
+      }
+    },
+    "080F0310": {
+      "text": "Geräteregistrierung: Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00D2": {
+          "text": "Geräteregistrierung fehlerhaft",
           "version": 1
         }
       }
@@ -3667,6 +3862,10 @@
         "0C64106D": {
           "text": "Repository nicht gefunden",
           "version": 1
+        },
+        "0C641132": {
+          "text": "Architektur der hochgeladenen App wird nicht unterstützt",
+          "version": 1
         }
       }
     },
@@ -3778,6 +3977,10 @@
         },
         "0C64108D": {
           "text": "Body-Daten können nicht aus der Anfrage gelesen werden",
+          "version": 1
+        },
+        "0C641090": {
+          "text": "Vorbedingungen nicht erfüllt",
           "version": 1
         },
         "0C6410C6": {
@@ -3974,6 +4177,44 @@
         },
         "0C64103E": {
           "text": "Fehler beim Lesen der angeforderten Sprachdatei",
+          "version": 1
+        }
+      }
+    },
+    "080F0831": {
+      "text": "UEFI-Firmware-Update fehlgeschlagen",
+      "version": 1
+    },
+    "080F0832": {
+      "text": "Hochladen der Firmware auf das Gerät ist fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64104D": {
+          "text": "Leere Content-Length im Header",
+          "version": 1
+        },
+        "0C64104E": {
+          "text": "Freier Speicherplatz des Geräts kann nicht ermittelt werden",
+          "version": 1
+        },
+        "0C641050": {
+          "text": "Nicht genügend freier Speicherplatz auf dem Gerät vorhanden",
+          "version": 1
+        },
+        "0C641054": {
+          "text": "Daten können nicht in einer temporären Datei gespeichert werden",
+          "version": 1
+        },
+        "0C641059": {
+          "text": "Nicht unterstützter Medientyp",
+          "version": 1
+        },
+        "0C641072": {
+          "text": "Temporäres Verzeichnis kann nicht erstellt werden",
+          "version": 1
+        },
+        "0C64113A": {
+          "text": "Validierung fehlgeschlagen",
           "version": 1
         }
       }
@@ -5137,6 +5378,10 @@
         "0C6410A7": {
           "text": "Aktualisieren der schreibgeschützten Netzwerkschnittstelle nicht möglich",
           "version": 1
+        },
+        "0C641131": {
+          "text": "Schnittstelle in Brücken nicht erlaubt",
+          "version": 1
         }
       }
     },
@@ -6020,6 +6265,110 @@
       "text": "Lesen von Firewall-Tabellen fehlgeschlagen.",
       "version": 1
     },
+    "080F08A0": {
+      "text": "tcpdump fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641136": {
+          "text": "Parameter für die Geräteabfrage erforderlich",
+          "version": 1
+        }
+      }
+    },
+    "080F08A1": {
+      "text": "Herunterladen des tcpdump-Archivs fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641133": {
+          "text": "Download des tcpdump-Archivs fehlgeschlagen",
+          "version": 1
+        },
+        "0C641134": {
+          "text": "Öffnen der ZIP-Datei fehlgeschlagen",
+          "version": 1
+        },
+        "0C641135": {
+          "text": "Senden der ZIP-Datei fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F08A2": {
+      "text": "Löschen des tcpdump-Archivs fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641137": {
+          "text": "Löschen der tcpdump-Datei fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F08A3": {
+      "text": "Überprüfen tcpdump-Datei auf Verfügbarkeit fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641138": {
+          "text": "Überprüfen der tcpdump-Datei auf Verfügbarkeit fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F08A4": {
+      "text": "Aktualisierung der tcpdump-Einstellungen fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641139": {
+          "text": "Aktualisierung der tcpdump-Einstellungen fehlgeschlagen",
+          "version": 1
+        }
+      }
+    },
+    "080F08A5": {
+      "text": "Erstellen von tcpdump fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641142": {
+          "text": "Etwas Unerwartetes ist aufgetreten, das Erstellen von tcpdump ist fehlgeschlagen",
+          "version": 1
+        },
+        "0C641143": {
+          "text": "Unzureichender Speicherplatz, tcpdump konnte nicht erstellt werden",
+          "version": 1
+        },
+        "0C641144": {
+          "text": "Ungültiger Gerätename",
+          "version": 1
+        }
+      }
+    },
+    "080F08A6": {
+      "text": "tcpdump fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641140": {
+          "text": "Es ist etwas Unerwartetes passiert, tcpdump konnte nicht ausgeführt werden.",
+          "version": 1
+        },
+        "0C641141": {
+          "text": "tcpdump wurde nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F08A7": {
+      "text": "tcpdump konnte nicht gestoppt werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641145": {
+          "text": "tcpdump konnte nicht gestoppt werden",
+          "version": 1
+        },
+        "0C641146": {
+          "text": "Ungültige Anforderung zum Stoppen von tcpdump",
+          "version": 1
+        }
+      }
+    },
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
       "version": 1,
@@ -6376,6 +6725,16 @@
         }
       }
     },
+    "080F8023": {
+      "text": "CPU-Kern-Auslastung im kritischen Bereich \"ERROR\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4801": {
+          "text": "Der CPU-Kern kann auf Grund der Auslastung nicht mehr alle Aufgaben bearbeiten, die Applikation verbleibt nach einem Neustart im Betriebsmodus \"SERVICE\".",
+          "version": 1
+        }
+      }
+    },
     "080F8042": {
       "text": "Fehler im Scheduler-System",
       "version": 1,
@@ -6424,6 +6783,16 @@
       "detailedDiagnostics": {
         "0C7B4302": {
           "text": "Exception vor dem Neustart der App Automation Core festgestellt. Siehe Exception-Log oder generieren Sie den ctrlX CORE Systembericht für die verursachende Exception",
+          "version": 1
+        }
+      }
+    },
+    "080F8280": {
+      "text": "NVRam nicht verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C340004": {
+          "text": "Hardware-NVRam-Initialisierung fehlgeschlagen",
           "version": 1
         }
       }
@@ -6526,6 +6895,10 @@
       "text": "Servicemodus erfolgreich geändert",
       "version": 1
     },
+    "0B0A0112": {
+      "text": "Gerätekategorien erfolgreich eingerichtet",
+      "version": 1
+    },
     "0B0E0102": {
       "text": "Aktualisieren des Befehlsstatus fehlgeschlagen",
       "version": 1,
@@ -6566,6 +6939,10 @@
       "detailedDiagnostics": {
         "0C641022": {
           "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641046": {
+          "text": "Kommando-ID existiert bereits",
           "version": 1
         },
         "0C64106E": {
@@ -6851,6 +7228,20 @@
           "version": 1
         }
       }
+    },
+    "0B0F011E": {
+      "text": "Gerätekategorien konnten nicht abgerufen werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002D": {
+          "text": "Kategorien für Gerät nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011F": {
+      "text": "Einstellen der Gerätekategorien ist fehlgeschlagen",
+      "version": 1
     },
     "100A0FFF": {
       "text": "Trace Nachricht <userUnitName>",

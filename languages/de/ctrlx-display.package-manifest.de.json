@@ -1,0 +1,9 @@
+{
+    "scopes.ctrlx-display.web.name": "Display",
+    "scopes.ctrlx-display.web.description": "Display Berechtigungen",
+    "scopes.manage-ctrlx-display.web.name": "Konfiguration bearbeiten",
+    "scopes.manage-ctrlx-display.web.description": "Erlaubt das Bearbeiten und Verwalten der Konfiguration",
+    "licenses.SWL-XOH-RUN-xxxxxxxxxxxxx-NNNN.title": "ctrlX OS Lizenz - Display Lizenz",
+    "licenses.SWL-XOH-RUN-xxxxxxxxxxxxx-NNNN.description": "Schaltet das Display frei",
+    "configuration-ctrlx-display.web.description": "Display Konfiguration"
+}

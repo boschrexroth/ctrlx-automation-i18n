@@ -2,8 +2,9 @@
     "menus.overview.title": "Manage app data",
     "documentation.solutions.description": "Provides functionalities for persisting and managing app data on ctrlX OS devices.",
     "commands.activeConfiguration.subject": "configuration context",
-    "scopes.manage.name": "Manage configurations",
-    "scopes.manage.description": "Manage and modify configurations",
-    "scopes.view.name": "View configurations",
-    "scopes.view.description": "View configurations"
+    "scopes.name": "Configurations",
+    "scopes.manage.name": "Manage",
+    "scopes.manage.description": "Load and save configurations. Upload and download configuration archives. Edit configuration content.",
+    "scopes.view.name": "View",
+    "scopes.view.description": "View, compare and download configurations"
 }

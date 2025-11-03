@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "XCR-V-0304",
+  "product": "XCR-V-0306",
   "mainDiagnostics": {
     "080A000E": {
       "text": "Trace message script.manager",
@@ -30,6 +29,16 @@
       "text": "Linux watchdog framework identity",
       "version": 1
     },
+    "080A0019": {
+      "text": "Remaining waiting states canceled",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4700": {
+          "text": "Booting to target operating state continues",
+          "version": 1
+        }
+      }
+    },
     "080A0023": {
       "text": "Pending tasks are paused.",
       "version": 1,
@@ -44,6 +53,16 @@
         }
       }
     },
+    "080A0029": {
+      "text": "Target operating state SERVICE due to F8 error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4802": {
+          "text": "The target operating state was set to SERVICE due to an F8 error restart caused by a critical CPU core utilization.",
+          "version": 1
+        }
+      }
+    },
     "080A0033": {
       "text": "Hardware reboot triggered by Linux watchdog framework",
       "version": 1,
@@ -54,6 +73,24 @@
         },
         "0C7B4232": {
           "text": "Internal Message",
+          "version": 1
+        }
+      }
+    },
+    "080A0041": {
+      "text": "Reaching waiting state before switching",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4701": {
+          "text": "Waiting state SERVICE",
+          "version": 1
+        },
+        "0C7B4702": {
+          "text": "Waiting state SETUP",
+          "version": 1
+        },
+        "0C7B4703": {
+          "text": "Waiting state OPERATING",
           "version": 1
         }
       }
@@ -76,6 +113,24 @@
         }
       }
     },
+    "080A0043": {
+      "text": "Leaving waiting state before switching",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4701": {
+          "text": "Waiting state SERVICE",
+          "version": 1
+        },
+        "0C7B4702": {
+          "text": "Waiting state SETUP",
+          "version": 1
+        },
+        "0C7B4703": {
+          "text": "Waiting state OPERATING",
+          "version": 1
+        }
+      }
+    },
     "080A0068": {
       "text": "Loading the administrative setting incomplete",
       "version": 1,
@@ -85,6 +140,26 @@
           "version": 1
         }
       }
+    },
+    "080A0071": {
+      "text": "Unregistering a component with regard to waiting state",
+      "version": 1
+    },
+    "080A0073": {
+      "text": "Registering a component with regard to waiting state",
+      "version": 1
+    },
+    "080A0077": {
+      "text": "Dwell time of a component in waiting state expired",
+      "version": 1
+    },
+    "080A0079": {
+      "text": "Removing a component with regard to waiting state",
+      "version": 1
+    },
+    "080A0083": {
+      "text": "Updating a component with regard to waiting state",
+      "version": 1
     },
     "080A00A0": {
       "text": "Converting the Scheduler program",
@@ -378,6 +453,20 @@
         }
       }
     },
+    "080A0310": {
+      "text": "Device registration: Information",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00D0": {
+          "text": "Device registration started",
+          "version": 1
+        },
+        "0C7A00D1": {
+          "text": "Device registration successful",
+          "version": 1
+        }
+      }
+    },
     "080A0400": {
       "text": "Loading configuration started",
       "version": 1
@@ -628,13 +717,7 @@
     },
     "080A0700": {
       "text": "Synchronization initialized",
-      "version": 1,
-      "detailedDiagnostics": {
-        "0C7B8000": {
-          "text": "The original Data Layer structure could not be created.",
-          "version": 1
-        }
-      }
+      "version": 1
     },
     "080A0701": {
       "text": "Synchronization configuration changed",
@@ -662,6 +745,14 @@
         },
         "0C7B8006": {
           "text": "real2mono instance was removed",
+          "version": 1
+        },
+        "0C7B8007": {
+          "text": "chronyd instance was created",
+          "version": 1
+        },
+        "0C7B8008": {
+          "text": "chronyd instance was removed",
           "version": 1
         }
       }
@@ -790,6 +881,20 @@
       "text": "Task completed successfully",
       "version": 1
     },
+    "080A083E": {
+      "text": "Failed to upload app",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641132": {
+          "text": "Architecture of uploaded app not supported",
+          "version": 1
+        }
+      }
+    },
+    "080A0840": {
+      "text": "UEFI firmware update successful",
+      "version": 1
+    },
     "080A0877": {
       "text": "Time settings changed successfully",
       "version": 1
@@ -820,6 +925,10 @@
     },
     "080A088E": {
       "text": "Storage media unmounted successfully",
+      "version": 1
+    },
+    "080A088F": {
+      "text": "Error when mounting the SMB share",
       "version": 1
     },
     "080A0FFF": {
@@ -866,6 +975,16 @@
         },
         "0C7B2327": {
           "text": "The task watchdogs were disabled due to insufficient hardware support (missing support of the Linux watchdog framework). A secure machine operation cannot be ensured.",
+          "version": 1
+        }
+      }
+    },
+    "080E0019": {
+      "text": "CPU core utilization in critical range \"WARNING\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4800": {
+          "text": "The CPU core can no longer process all tasks due to utilization",
           "version": 1
         }
       }
@@ -1054,6 +1173,10 @@
         }
       }
     },
+    "080E0310": {
+      "text": "Device registration: Warning",
+      "version": 1
+    },
     "080E0410": {
       "text": "Trace warning",
       "version": 2
@@ -1138,6 +1261,10 @@
         },
         "0C660046": {
           "text": "High control temperature (Flash)",
+          "version": 1
+        },
+        "0C660048": {
+          "text": "App(s) installed with effects on real-time (RT) system behavior",
           "version": 1
         }
       }
@@ -1292,6 +1419,18 @@
         },
         "0C270005": {
           "text": "Language type not supported",
+          "version": 1
+        },
+        "0C270006": {
+          "text": "Script instance with specified name already exists",
+          "version": 1
+        },
+        "0C270007": {
+          "text": "Name of the script instance is invalid",
+          "version": 1
+        },
+        "0C270008": {
+          "text": "Script instance with specified name but different script language already exists",
           "version": 1
         }
       }
@@ -1546,6 +1685,52 @@
         },
         "0C7B4328": {
           "text": "Failed to load the value for the program configuration mode (programConfigurationMode; scheduler/admin/cfg/program-configuration)",
+          "version": 1
+        }
+      }
+    },
+    "080F0071": {
+      "text": "Failed to unregister a component regarding to waiting state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4720": {
+          "text": "Waiting state not available",
+          "version": 1
+        },
+        "0C7B4721": {
+          "text": "Component not available",
+          "version": 1
+        }
+      }
+    },
+    "080F0073": {
+      "text": "Failed to register a component with regard to waiting state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4710": {
+          "text": "Name of component not set",
+          "version": 1
+        },
+        "0C7B4711": {
+          "text": "Waiting state invalid",
+          "version": 1
+        },
+        "0C7B4712": {
+          "text": "Name of component already registered for waiting state",
+          "version": 1
+        }
+      }
+    },
+    "080F0079": {
+      "text": "Failed to remove a component with regard to waiting state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4720": {
+          "text": "Waiting state not available",
+          "version": 1
+        },
+        "0C7B4721": {
+          "text": "Component not available",
           "version": 1
         }
       }
@@ -1934,6 +2119,16 @@
         },
         "0C7A0082": {
           "text": "Remote logging aborted",
+          "version": 1
+        }
+      }
+    },
+    "080F0310": {
+      "text": "Device registration: Error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00D2": {
+          "text": "Device registration faulty",
           "version": 1
         }
       }
@@ -3667,6 +3862,10 @@
         "0C64106D": {
           "text": "Repository not found",
           "version": 1
+        },
+        "0C641132": {
+          "text": "Architecture of uploaded app not supported",
+          "version": 1
         }
       }
     },
@@ -3778,6 +3977,10 @@
         },
         "0C64108D": {
           "text": "Cannot read body data from request",
+          "version": 1
+        },
+        "0C641090": {
+          "text": "Preconditions not met",
           "version": 1
         },
         "0C6410C6": {
@@ -3974,6 +4177,44 @@
         },
         "0C64103E": {
           "text": "Error when reading the requested language file",
+          "version": 1
+        }
+      }
+    },
+    "080F0831": {
+      "text": "Failed to update UEFI firmware",
+      "version": 1
+    },
+    "080F0832": {
+      "text": "Failed to upload firmware to device",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64104D": {
+          "text": "Empty content length in header",
+          "version": 1
+        },
+        "0C64104E": {
+          "text": "Cannot determine free memory space of the device",
+          "version": 1
+        },
+        "0C641050": {
+          "text": "Not sufficient free memory space available on device",
+          "version": 1
+        },
+        "0C641054": {
+          "text": "Cannot save data to temporary file",
+          "version": 1
+        },
+        "0C641059": {
+          "text": "Media type not supported",
+          "version": 1
+        },
+        "0C641072": {
+          "text": "Cannot create temporary directory",
+          "version": 1
+        },
+        "0C64113A": {
+          "text": "Validation failed",
           "version": 1
         }
       }
@@ -5137,6 +5378,10 @@
         "0C6410A7": {
           "text": "Cannot update read-only network interface",
           "version": 1
+        },
+        "0C641131": {
+          "text": "Interface not allowed in bridges",
+          "version": 1
         }
       }
     },
@@ -6020,6 +6265,110 @@
       "text": "Failed to read firewall tables.",
       "version": 1
     },
+    "080F08A0": {
+      "text": "tcpdump failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641136": {
+          "text": "Parameter required for device query",
+          "version": 1
+        }
+      }
+    },
+    "080F08A1": {
+      "text": "Failed to download tcpdump archive",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641133": {
+          "text": "Failed to download tcpdump archive",
+          "version": 1
+        },
+        "0C641134": {
+          "text": "Failed to open ZIP file",
+          "version": 1
+        },
+        "0C641135": {
+          "text": "Failed to send ZIP file",
+          "version": 1
+        }
+      }
+    },
+    "080F08A2": {
+      "text": "Failed to delete tcpdump archive",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641137": {
+          "text": "Failed to delete tcpdump file",
+          "version": 1
+        }
+      }
+    },
+    "080F08A3": {
+      "text": "Failed to check tcpdump file for availability",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641138": {
+          "text": "Failed to check tcpdump file for availability",
+          "version": 1
+        }
+      }
+    },
+    "080F08A4": {
+      "text": "Failed to update tcpdump settings",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641139": {
+          "text": "Failed to update tcpdump settings",
+          "version": 1
+        }
+      }
+    },
+    "080F08A5": {
+      "text": "Create tcpdump failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641142": {
+          "text": "Something unexpected happened, create tcpdump failed",
+          "version": 1
+        },
+        "0C641143": {
+          "text": "Insufficient storage, tcpdump could not be created",
+          "version": 1
+        },
+        "0C641144": {
+          "text": "Invalid device name",
+          "version": 1
+        }
+      }
+    },
+    "080F08A6": {
+      "text": "tcpdump failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641140": {
+          "text": "Something unexpected happened, get tcpdump failed.",
+          "version": 1
+        },
+        "0C641141": {
+          "text": "tcpdump not found",
+          "version": 1
+        }
+      }
+    },
+    "080F08A7": {
+      "text": "Stop tcpdump failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641145": {
+          "text": "Stop tcpdump failed",
+          "version": 1
+        },
+        "0C641146": {
+          "text": "Invalid stop tcpdump request",
+          "version": 1
+        }
+      }
+    },
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
       "version": 1,
@@ -6376,6 +6725,16 @@
         }
       }
     },
+    "080F8023": {
+      "text": "CPU core utilization in critical range \"ERROR\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4801": {
+          "text": "The CPU core can no longer process all tasks due to utilization. The application remains in \"SERVICE\" mode after restart.",
+          "version": 1
+        }
+      }
+    },
     "080F8042": {
       "text": "Error in Scheduler system",
       "version": 1,
@@ -6424,6 +6783,16 @@
       "detailedDiagnostics": {
         "0C7B4302": {
           "text": "Exception detected before restarting the Automation Core app. See exception log or generate the ctrlX CORE system report for the causing exception",
+          "version": 1
+        }
+      }
+    },
+    "080F8280": {
+      "text": "NVRam not available",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C340004": {
+          "text": "Failed to initialize hardware NVRam",
           "version": 1
         }
       }
@@ -6526,6 +6895,10 @@
       "text": "Service mode changed successfully",
       "version": 1
     },
+    "0B0A0112": {
+      "text": "Device categories set successfully",
+      "version": 1
+    },
     "0B0E0102": {
       "text": "Failed to update command status",
       "version": 1,
@@ -6566,6 +6939,10 @@
       "detailedDiagnostics": {
         "0C641022": {
           "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641046": {
+          "text": "Command ID already exists",
           "version": 1
         },
         "0C64106E": {
@@ -6851,6 +7228,20 @@
           "version": 1
         }
       }
+    },
+    "0B0F011E": {
+      "text": "Failed to retrieve device categories",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C6F002D": {
+          "text": "Categories for device not found",
+          "version": 1
+        }
+      }
+    },
+    "0B0F011F": {
+      "text": "Failed to set device categories",
+      "version": 1
     },
     "100A0FFF": {
       "text": "Trace message <userUnitName>",

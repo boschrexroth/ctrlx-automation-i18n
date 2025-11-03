@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "GCO-V-0302",
+  "product": "GCO-V-0306",
   "mainDiagnostics": {
     "100A0040": {
       "text": "General G-code system message",
@@ -115,11 +114,11 @@
           "version": 1
         },
         "0C290209": {
-          "text": "error occurred while evaluating an expression in brackets in current NC block",
+          "text": "Error while evaluating an expression in brackets in the current NC block",
           "version": 1
         },
         "0C29020A": {
-          "text": "User defined error in function 'SETERR()'",
+          "text": "User-defined error in the \"SETERR()\" function",
           "version": 1
         }
       }
@@ -209,7 +208,7 @@
           "version": 1
         },
         "0C290301": {
-          "text": "Argument count error",
+          "text": "Error when counting arguments",
           "version": 1
         },
         "0C290302": {
@@ -259,7 +258,7 @@
           "version": 1
         },
         "0C290108": {
-          "text": "program 'BREAK' outside loop",
+          "text": "\"BREAK\" program outside loop",
           "version": 1
         },
         "0C290109": {
@@ -281,15 +280,15 @@
           "version": 1
         },
         "0C29010B": {
-          "text": "Invalid address word data type",
+          "text": "Invalid data type of the address word",
           "version": 1
         },
         "0C29010C": {
-          "text": "Invalid M-Code value",
+          "text": "Invalid M-code value",
           "version": 1
         },
         "0C29010D": {
-          "text": "The value of expression between '[' and ']' is not valid NC program words",
+          "text": "Value of the expression between \"[\" and \"]\" is not a valid NC program word",
           "version": 1
         }
       }
@@ -307,7 +306,7 @@
           "version": 1
         },
         "0C29001A": {
-          "text": "invalid address word programming",
+          "text": "Programming of an invalid address word",
           "version": 1
         }
       }

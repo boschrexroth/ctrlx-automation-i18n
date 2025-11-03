@@ -11,6 +11,11 @@
   "scopes-declaration.rexroth-opcua-server.description": "Berechtigungen für den OPC UA Server",
   "scopes-declaration.rexroth-opcua-server.opcua.x.name": "OPC UA Server-Zugriff",
   "scopes-declaration.rexroth-opcua-server.opcua.x.description": "Zugriff auf Gerätedaten über OPC UA-Protokoll",
+  "scopes-declaration.opcuaserver.view.name": "Ansehen",
+  "scopes-declaration.opcuaserver.view.description": "- Lesezugriff auf alle den OPC UA Server betreffenden Data Layer-Knoten. \n- Ansehen der Web-Benutzeroberfläche des OPC UA Servers.",
+  "scopes-declaration.opcuaserver.manage.name": "Verwalten",
+  "scopes-declaration.opcuaserver.manage.description": "Lese- und Schreibzugriff auf alle den OPC UA Server betreffenden Data Layer-Knoten.",
+  "scopes-declaration.opcuaserver.manage.requiredScopes.packagemanager.all.rw.purpose": "Neustart des OPC UA Servers",
   "sidebar.opcua.1-Overview.title": "Übersicht",
   "sidebar.opcua.2-Server.title": "Server"
 }

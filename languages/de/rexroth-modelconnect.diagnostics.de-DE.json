@@ -1,6 +1,5 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
-  "product": "MOC-V-0304",
+  "product": "MOC-V-0306",
   "mainDiagnostics": {
     "100A0101": {
       "text": "Modellstatus hat sich geändert",
@@ -133,6 +132,14 @@
         "0C6D8031": {
           "text": "Es konnte nicht auf den Speicher des Data Layer zugegriffen werden, um Informationen abzurufen.",
           "version": 2
+        },
+        "0C6D803A": {
+          "text": "",
+          "version": 1
+        },
+        "0C6D804C": {
+          "text": "Die konfigurierte Größe des verbundenen Knotens stimmt nicht mit der Größe des Zielknotens überein.",
+          "version": 1
         },
         "0C6D804F": {
           "text": "Der Zugriff auf den Echtzeit-Data Layer-Knoten ist fehlgeschlagen.",
@@ -355,7 +362,7 @@
           "version": 1
         },
         "0C6DC00B": {
-          "text": "",
+          "text": "Fehler bei der Verarbeitung der Datei modelDescription.xml",
           "version": 1
         }
       }

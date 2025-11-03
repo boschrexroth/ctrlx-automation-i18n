@@ -80,11 +80,18 @@
 		"upload-detail-to-file": "Systemdetail hochladen",
 		"config-columns": "Spalten konfigurieren",
     "reset-columns": "Spalten zurücksetzen",
+    "download-file": "Herunterladen",
+    "upload-file": "Hochladen",
 		"expandTable": "Tabelle expandieren",
 		"collapseTable": "Tabelle zusammenklappen",
     "topology": "Topologie nicht OK",
     "callout":{
       "tooltip": "Achtung! Es sind keine Daten für die Komponenten verfügbar!"
     }
-	}
+	},
+  "loadingScreen": {
+    "title": "Lade Komponentendaten",
+    "initialStatus": "Bitte warten",
+    "done": "Fertig"
+  }
 }

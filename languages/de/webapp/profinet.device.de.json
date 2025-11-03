@@ -27,12 +27,6 @@
         "add": "PROFINET-Gerät hinzufügen",
         "info": "Das PROFINET-Gerät bietet eine E/A-Schnittstelle zu einem PROFINET-Feldbus"
       },
-      "switchToSetup": {
-        "text": "Der {{schedulerState}}-Modus ist gerade aktiv. Wechseln Sie in den Setup-Modus und versuchen Sie es erneut."
-      },
-      "switchToSetupOrOperating": {
-        "text": "Der {{schedulerState}}-Modus ist gerade aktiv. Wechseln Sie in den Setup- oder Operation-Modus und versuchen Sie es erneut."
-      },
       "noPermission": {
         "text": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen."
       },

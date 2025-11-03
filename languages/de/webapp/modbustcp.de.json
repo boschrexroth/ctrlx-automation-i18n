@@ -52,7 +52,7 @@
     "ipAddress.label": "IP-Adresse",
     "port.label": "Port",
     "unitid.label": "Unit Id",
-    "ipRequired.error": "Geräte IP ist erforderlich",
+    "ipRequired.error": "IP-Adresse ist erforderlich",
     "nameRequired.error": "Name ist erforderlich",
     "portRequired.error": "Port ist erforderlich",
     "unitIdRequired.error": "Unit Id ist erforderlich",
@@ -86,7 +86,22 @@
       "addServerConfig": "Serverkonfiguration hinzufügen",
       "addInstance": "Instanz hinzufügen",
       "noSubConfig": "Kein Abonnement konfiguriert",
-      "AddSub": "Abonnement hinzufügen"
+      "AddSub": "Abonnement hinzufügen",
+      "subscriptionConfiguration": "Subskription Konfiguration",
+      "configureSubscription": "Subskription konfigurieren",
+      "configureAddressRange": "Adressbereich konfigurieren",
+      "instanceConfiguration": "Instanz hinzufügen",
+      "inputRegister": "Input Register",
+      "holdingRegister": "Holding Register",
+      "quantity": "Anzahl",
+      "registerAddress": "Registeradresse",
+      "type": "Typ",
+      "size": "Größe",
+      "back": "Zurück",
+      "next": "Vor",
+      "typeIsAlreadySelected": "Typ bereits verwendet",
+      "regAddressRequired": "Registeradresse ist erforderlich",
+      "sizeIsRequired": "Größe ist erforderlich"
     },
     "table": {
       "header": {

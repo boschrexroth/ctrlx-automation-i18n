@@ -20,7 +20,11 @@
     "upload.button": "Hochladen",
     "edit.tooltip": "Bearbeiten",
     "emptyText.text": "Keine Artikel zum Anzeigen.",
-    "enterValidValue.text": "Geben Sie einen gültigen Wert ein"
+    "enterValidValue.text": "Geben Sie einen gültigen Wert ein",
+    "serverConfig.title": "Server-Konfiguration",
+    "infoModel.title": "Informationsmodell",
+    "mappings.title": "Mappings",
+    "serverConfiguration.title": "OPC UA Server-Konfiguration"
   },
   "uas.configuration": {
     "serverConfiguration.title": "OPC UA Server-Konfiguration",

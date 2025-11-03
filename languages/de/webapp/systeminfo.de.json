@@ -32,7 +32,7 @@
       "invalidTime.error": "Ungültige Zeit - Eingegebener Wert außerhalb des gültigen Bereiches",
       "timeSynchonization.label": "Zeitsynchronisation",
       "timeSynchonization.tooltip": "Wähle Zeitsynchronisation oder manuelle Zeiteinstellungen",
-      "sync.button": "Zu ctrlX OS zuordnen",
+      "sync.button": "Zu ctrlX OS zuweisen",
       "ntpServers": "NTP-Server",
       "ntpServer.input": "NTP-Servername oder IP-Adresse",
       "ntpServer.tooltip": "NTP-Servername oder IP-Adresse",

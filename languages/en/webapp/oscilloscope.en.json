@@ -44,7 +44,8 @@
         "servicemode.appManagerLink": "Apps manager",
         "appInitializing": "The app is currently being initialized. This may take a while, please refresh the page.",
         "refresh": "Refresh",
-        "noPermission": "You do not have the required permissions to see this page."
+        "noPermission": "You do not have the required permissions to see this page.",
+        "permission.list1": "Oscilloscope scopes: Oscilloscope View"
     },
     "button": {
         "ok": "OK",
@@ -61,13 +62,12 @@
         "add": "Adds oscilloscope instance",
         "delete": "Delete",
         "edit": "Edits configuration",
-        "load": "Imports recording or configuration",
-        "loadFromDB": "Imports recording from InfluxDB",
+        "load": "Uploads recording or configuration",
+        "loadFromDB": "Downloads recording from InfluxDB",
         "disableInfluxdb": "Only available after installing InfluxDB",
-        "load_signal": "Loads configuration",
         "more": "More...",
         "open": "Diagram",
-        "save": "Exports recording or configuration",
+        "save": "Downloads recording or configuration",
         "save_signal": "Saves configuration",
         "save_all": "Saves all configurations",
         "start": "Starts recording",
@@ -82,6 +82,8 @@
         "zoom_to_intercept": "Zooms to intercept area",
         "configure_diagram": "Diagram configuration",
         "analyze_signal": "Signal analyze configuration",
+        "disableAnalyze": "Only available in 'SINGLESHOT' mode",
+        "disableBitAnalyze": "Only available for Drive type signals",
         "storage_setting": "Edits recorded data storage configurations"
     },
     "warn": {
@@ -89,9 +91,12 @@
     },
     "error": {
         "signal_remove": "Reconfigure signals(over 20 in length, all removed)",
-        "no_drive_signal": "No available Drive signals, Please check {{name}}'s state.",
+        "no_drive_signal": "No available Drive signals, Please check the status of {{name}} and EtherCAT Master App.",
+        "drive_error_list":"Please verify that DRIVE Connect App and EtherCAT Master App are properly installed, have the required permissions, and are correctly configured.",
         "check_state": "Please check {{name}}'s state.",
+        "check_permission":"Please check {{name}}'s permission.",
         "check_app_status": "Please check the installation status of {{name}}",
+        "check_dca_version": "The version of DRIVE Connect App is not matched",
         "signal_limit_20": "Cannot add more than 20 signals",
         "signal_limit_10": "Cannot add more than 10 signals",
         "signal_limit_8": "Cannot add more than 8 signals",
@@ -99,6 +104,7 @@
         "signal_limit_axis": "Cannot add multi-axis signal",
         "instance_limit": "Cannot add more than 10 instances",
         "config_incomplete": "Configuration info incomplete",
+        "file_error": "Files do not match, please check",
         "config_invalid": "Configuration invalid",
         "unable_to_delete": "Cannot delete oscilloscope instance during recording",
         "unable_to_edit": "Cannot edit configuration during recording",
@@ -112,7 +118,9 @@
         "state_triggered": "{{name}} was triggered",
         "cycle_time_multiple": "Time period must be an integer multiple of scheduler cycletime",
         "signal_add_error": "The signal for the correct path has been added, and the others are not processed!",
-        "no_drive_manual": "No Drive signal is selected, only manual mode is supported"
+        "no_drive_manual": "No Drive signal is selected, only manual mode is supported",
+        "required": "Alias is required",
+        "exists": "Alias already exists"
     },
     "zoom": {
         "adjust_signal": "Adjust signals in display area",
@@ -217,7 +225,9 @@
             "min": "Min.",
             "max": "Max.",
             "cursor": "Cursor",
-            "unit": "Unit"
+            "unit": "Unit",
+            "name": "Name",
+            "diagram": "Diagram"
         }
     },
     "add": {
@@ -270,7 +280,7 @@
             "titleTree": "Signal tree",
             "selected": "Selected signals",
             "search": "Search",
-            "drive": "Please check whether EtherCAT Master App is configured correctly",
+            "drive": "Please check whether the Drive device is connected correctly and the EtherCAT Master App is configured correctly?",
             "RT": "Real-time signal",
             "NRT": "Non-real-time signal",
             "addPath": "Add signal path",
@@ -441,39 +451,74 @@
     "analyze": {
         "title": "Define computation",
         "mode": {
-            "title": "Analyze mode",
-            "header": "Mode",
-            "list": {
-                "Addition": "Addition",
-                "Subtraction": "Subtraction",
-                "Multiplication": "Multiplication",
-                "Division": "Division"
+            "header": "Computation",
+            "arithmetic": {
+                "name": "Arithmetic",
+                "constants": {
+                    "title": "Constants (c1/c2)",
+                    "header1": "c1",
+                    "header2": "c2"
+                },
+                "signal": {
+                    "title": "(Real-time signals and Drive signals)",
+                    "header1": "Signal 1",
+                    "header2": "Signal 2",
+                    "placeholder": "Select a signal",
+                    "error": {
+                        "no_signal": "No signal available",
+                        "no_selection": "Select a signal"
+                    }
+                },
+                "mode": {
+                    "title": "Analyze mode",
+                    "header": "Mode",
+                    "list": {
+                        "Addition": "Addition",
+                        "Subtraction": "Subtraction",
+                        "Multiplication": "Multiplication",
+                        "Division": "Division"
+                    }
+                },
+                "error": {
+                    "sameUnit": "The selected signal units must be the same",
+                    "sameDatatype": "The selected signal data type must be the same",
+                    "sameType": "The selected signal type must be the same",
+                    "no_zero": "Division by 0 is not permissible",
+                    "no_range": "The value c1/c2 is not within the valid value range: Min.: -1000000, Max.: 1000000",
+                    "no_value": "Constant cannot be empty"
+                }
+            },
+            "bit-analyze": {
+                "name": "Bit analysis",
+                "signal": {
+                    "title": "(Only binary Drive signals can be selected)",
+                    "header": "Signal",
+                    "placeholder": "Select a signal",
+                    "error": {
+                        "no_signal": "No signal available",
+                        "no_selection": "Select a signal"
+                    }
+                },
+                "bit": {
+                    "name": "Bit list",
+                    "title": "(A maximum 16 bits can be selected and displayed)",
+                    "header": "bit",
+                    "placeholder": "bit"
+                },
+                "error": {
+                    "no_checked": "Please activate at least one bit!",
+                    "no_description": "Description can not be empty",
+                    "alert_description": "For every bit to be displayed, the associated checkbox must be activated."
+                },
+                "checkbox": {
+                    "selecte-all": "Select all",
+                    "cancel-all": "Deselect all",
+                    "invert": "Select invert"
+                }
             }
-        },
-        "constants": {
-            "title": "Constants (c1/c2)",
-            "header1": "c1",
-            "header2": "c2"
-        },
-        "signal": {
-            "title": "(Real-time signals and Drive signals)",
-            "header1": "Signal 1",
-            "header2": "Signal 2",
-            "placeholder": "Select a signal",
-            "error": {
-                "no_signal": "No signal available",
-                "no_selection": "Select a signal"
-            }
-        },
-        "error": {
-            "sameUnit": "The selected signal units must be the same",
-            "sameType": "The selected signal type must be the same",
-            "no_zero": "Division by 0 is not permissible",
-            "no_range": "The value c1/c2 is not within the valid value range: Min.: -1000000, Max.: 1000000",
-            "no_value": "Constant cannot be empty"
         }
     },
     "svg": {
-        "time_axis": "Time axis [s]"
+        "time_axis": "Time axis [ms]"
     }
 }

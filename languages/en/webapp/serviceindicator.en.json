@@ -28,7 +28,9 @@
     "Failure Prob. Motor": "Failure Prob. Motor",
     "Lifetime Estimator Motor": "Used Lifetime Est. Motor",
     "Lifetime Estimator Drive": "Used Lifetime Est. Drive",
-    "emptyState": "No items to display"
+    "emptyState": "No items to display",
+    "histogramSum": "Hist. sum",
+    "opHours": "OP hours"
   },
   "selectorWindow": {
     "header": "Select columns to hide/display",

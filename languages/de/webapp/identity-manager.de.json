@@ -20,7 +20,8 @@
     "systemUserExt": "(Systembenutzer)",
     "remoteUserExt": "(Remote)",
     "confirmationDoesNotMatchPassword": "Die Bestätigung stimmt nicht mit dem Passwort überein",
-    "deprecated": "(veralted)"
+    "deprecated": "(veraltet)",
+    "notAvailable": "nicht verfügbar"
   },
 
   "idm.startpage": {
@@ -121,14 +122,18 @@
   },
 
   "idm.permissionDetails": {
+    "deviceAdministration": "Geräteverwaltung",
     "fullAccess": "Vollzugriff (Dadurch werden alle Berechtigungen sowie zusätzlicher administrativer Zugriff auf das System gewährt)",
     "category": "Kategorie",
     "permission": "Berechtigung",
     "identifier": "Scope-Bezeichner",
+    "showOnlyGrantedPermissions": "Nur gewährte Berechtigungen anzeigen",
     "showScopeIds.tooltip": "Scope-Bezeichner anzeigen",
     "hideScopeIds.tooltip": "Scope-Bezeichner verbergen",
     "orphanedPermissionsName": "Verwaiste Berechtigungen",
-    "orphanedPermissionsDescription": "Berechtigungen, deren zugehörige Anwendung nicht installiert ist"
+    "orphanedPermissionsDescription": "Berechtigungen, deren zugehörige Anwendung nicht installiert ist",
+    "requiredPermissionsAreMissing": "Erforderliche Berechtigungen fehlen",
+    "selectMissingRequiredPermissions": "Fehlende erforderliche Berechtigungen auswählen"
   },
 
   "idm.groups": {
@@ -250,6 +255,9 @@
   },
 
   "idm.permissions": {
+    "deviceAdministration": "Geräteverwaltung",
+    "fullAccess": "Vollzugriff",
+    "fullAccessHint": "(Dadurch werden alle Berechtigungen sowie zusätzlicher administrativer Zugriff auf das System gewährt)",
     "title": "Berechtigungen",
     "category": "Kategorie",
     "permission": "Berechtigung",
@@ -299,7 +307,9 @@
   },
 
   "idm.totalPermissions": {
+    "deviceAdministration": "Geräteverwaltung",
     "fullAccess": "Vollzugriff (damit werden alle Berechtigungen für alle Kategorien gewährt)",
+    "showOnlyGrantedPermissions": "Nur gewährte Berechtigungen anzeigen",
     "category": "Kategorie",
     "permission": "Berechtigung",
     "providedBy": "Erhalten von",
@@ -367,19 +377,24 @@
     "grantEasyServiceAccessHint": "Aktivieren Sie die Option \"Einfachen Servicezugang gestatten\", um unserem Kundenservice zu ermöglichen, einen Systembenutzer ohne vorherige Authentifizierung anzulegen."
   },
 
-  "idm.requiredPermissionsConfirmationDialog": {
-    "addTitle": "Zusätzliche Berechtigungen erforderlich",
-    "removeTitle": "Berechtigung weiterhin erforderlich",
-    "addMsgLine1": "Sie haben die Berechtigung \"{{param}}\" hinzugefügt.",
-    "addMsgLine2": "Beachten Sie, dass die folgenden zusätzlichen Berechtigungen benötigt werden:",
-    "removeMsgLine1": "Sie sind dabei, die Berechtigung \"{{param}}\" zu entfernen.",
-    "removeMsgLine2": "Beachten Sie, dass diese Berechtigung noch von folgenden Berechtigungen benötigt wird:",
-    "identifier": "Scope-Bezeichner",
-    "category": "Kategorie",
-    "permission": "Berechtigung",
-    "appNotInstalled": "App ist nicht installiert",
-    "addRequiredScopes": "Wollen Sie die erforderlichen Berechtigungen hinzufügen?",
-    "removeRequiredScopeAnyway": "Wollen Sie die erforderliche Berechtigung trotzdem löschen?"
+  "idm.requiredScopesConfirmationDialog": {
+    "deselectPermissionTitle": "\"{{param}}\" abwählen",
+    "permissionIsStillRequired": "Beachten Sie dass \"{{param}}\" für folgende Berechtigungen benötigt wird:",
+    "deselectRequiredScopeAnyway": "Wollen Sie \"{{param}}\" trotzdem abwählen?",
+    "deselect.button": "Abwählen"
+  },
+
+  "idm.requiredScopesSelectionDialog": {
+    "selectPermissionTitle": "\"{{param}}\" ausgewählt",
+    "deselectPermissionTitle": "\"{{param}}\" abgewählt",
+    "selectMissingRequiredPermissionsTitle": "Fehlende erforderliche Berechtigungen auswählen",
+    "selectDependantLine1": "Für den vollen Funktionsumfang von \"{{param}}\" sind weitere Berechtigungen erforderlich.",
+    "selectDependantLine2": "Falls ausschließlich die API genutzt wird, kann die Auswahl angepasst werden.",
+    "deselectDependantLine1": "Folgende Berechtigungen sind möglicherweise nicht mehr erforderlich, wenn Sie \"{{param}}\" abwählen.",
+    "deselectDependantLine2": "Überprüfen Sie die Auswahl der Berechtigungen und passen Sie sie an Ihre Anforderungen an.",
+    "theFollowingPermissionsAreRequired": "Folgende Berechtigungen sind erforderlich:",
+    "purpose": "Zweck:",
+    "applySelection.button": "Auswahl anwenden"
   }
 
 }

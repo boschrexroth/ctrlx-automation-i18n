@@ -164,7 +164,8 @@
         "error": "Error when adding task",
         "prio.error1": "Please select a value between 11 (high) - 139 (low)",
         "name.error1": "The name has more then 15 characters",
-        "name.error2": "The name is invalid"
+        "name.error2": "The name is invalid",
+        "nonRealtimePriority": "This is not a realtime priority"
       },
       "delete": {
         "title": "Delete task '{{name}}'",
@@ -240,8 +241,8 @@
         "filter.title.status": "Filter status",
         "filter.all.task": "All tasks",
         "filter.all.status": "All status",
-        "filter.status.active": "Active",
-        "filter.status.stopped": "Stopped",
+        "filter.status.active": "started",
+        "filter.status.stopped": "stopped",
         "filter.delete.all": "Deletes all filters",
         "select.title": "Selected Widgets",
         "select.text": "{{count}} of {{maxcount}}",

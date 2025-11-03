@@ -16,6 +16,7 @@
     "fileAccepted.title": "Datei akzeptiert",
     "connection.networkerror": "Netzwerkfehler: die Verbindung wurde unterbrochen; bitte überprüfen Sie, ob das ctrlX OS noch betriebsbereit ist",
     "dl_action_notfound.networkerror": "Netzwerkfehler: die Verbindung ist fehlgeschlagen, die angeforderte Aktion kann nicht ausgeführt oder abgeschlossen werden",
+    "dl_action_forbiden.error":"Sie verfügen nicht über die erforderlichen Berechtigungen",
     "dl_subscription.networkerror": "Netzwerkfehler: die Verbindung zum Datenlayer ist fehlgeschlagen; bitte aktualisieren Sie die Seite",
     "oauthtoken.error": "Ihre Sitzung ist abgelaufen oder wurde geschlossen...",
     "session.networkerror": "Netzwerkfehler: die Sitzung wurde beendet; bitte aktualisieren Sie die Seite und melden Sie sich erneut an",
@@ -54,6 +55,7 @@
     "dragItHere.label": "Ziehen Sie die Dateien hier hin",
     "or.label": "oder",
     "ChooseFiles.button": "Dateien auswählen",
-    "cannotUpload.tooltip": "HOCHLADEN (Sie verfügen nicht über die erforderlichen Berechtigungen)"
+    "cannotUpload.tooltip": "HOCHLADEN (Sie verfügen nicht über die erforderlichen Berechtigungen)",
+    "upload.tooltip": "HOCHLADEN"
   }
 }

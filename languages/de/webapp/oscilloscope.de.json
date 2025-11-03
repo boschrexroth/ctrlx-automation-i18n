@@ -44,7 +44,8 @@
         "servicemode.appManagerLink": "Apps-Manager",
         "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte Aktualisieren Sie die Seite",
         "refresh": "Aktualisieren",
-        "noPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen."
+        "noPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen.",
+        "permission.list1": "Oszilloskop-Bereiche: Oszilloskop Ansicht"
     },
     "button": {
         "ok": "OK",
@@ -61,13 +62,12 @@
         "add": "Hinzufügen einer Oszilloskop-Instanz",
         "delete": "Löschen",
         "edit": "Bearbeitet Konfiguration",
-        "load": "Importieren Aufzeichnung oder Konfiguration",
-        "loadFromDB": "Importiert Aufzeichnungen aus InfluxDB",
+        "load": "lädt Aufzeichnung oder Konfiguration",
+        "loadFromDB": "Downloads Aufzeichnungen aus InfluxDB",
         "disableInfluxdb": "Nur verfügbar nach der Installation von InfluxDB",
-        "load_signal": "Lädt Konfiguration",
         "more": "Mehr...",
         "open": "Diagramm",
-        "save": "Export Aufzeichnung oder Konfiguration",
+        "save": "Downloads Aufzeichnung oder Konfiguration",
         "save_signal": "Speichert Konfiguration",
         "save_all": "Speichert alle Konfigurationen",
         "start": "Startet Aufzeichnung",
@@ -82,6 +82,8 @@
         "zoom_to_intercept": "Vergrößert auf Abfangbereich",
         "configure_diagram": "Diagrammkonfiguration",
         "analyze_signal": "Signalanalysekonfiguration",
+        "disableAnalyze": "Nur im Modus „SINGLESHOT“ verfügbar",
+        "disableBitAnalyze": "Nur für Signale vom Typ „Antrieb“ verfügbar",
         "storage_setting": "Editiert aufgezeichnete Datenspeicherkonfigurationen"
     },
     "warn": {
@@ -89,9 +91,12 @@
     },
     "error": {
         "signal_remove": "Signale neu konfigurieren(über 20 in der Länge, alle entfernt)",
-        "no_drive_signal": "Keine verfügbaren Antriebssignale, Bitte überprüfen Sie den Status {{name}}.",
+        "no_drive_signal": "Keine verfügbaren Antriebssignale, Bitte überprüfen Sie den Statusvon {{name}} und der EtherCAT Master App.",
+        "drive_error_list":"Bitte überprüfen Sie, ob DRIVE Connect App und EtherCAT Master App ordnungsgemäß installiert, die erforderlichen Berechtigungen vorhanden und korrekt konfiguriert sind.",
         "check_state": "Bitte überprüfen Sie den Status {{name}}.",
+        "check_permission":"Bitte überprüfen Sie die Berechtigung von {{name}}.",
         "check_app_status": "Bitte überprüfen Sie den Installationsstatus von {{name}}",
+        "check_dca_version": "Die Version der DRIVE Connect App stimmt nicht überein",
         "signal_limit_20": "Kann nicht mehr als 20 Signale hinzufügen",
         "signal_limit_10": "Kann nicht mehr als 10 Signale hinzufügen",
         "signal_limit_8": "Kann nicht mehr als 8 Signale hinzufügen",
@@ -99,6 +104,7 @@
         "signal_limit_axis": "Mehrachssignal kann nicht hinzugefügt werden",
         "instance_limit": "Kann nicht mehr als 10 Oszilloskop",
         "config_incomplete": "Konfigurationsinformationen unvollständig",
+        "file_error": "Dateien stimmen nicht überein, bitte überprüfen",
         "config_invalid": "Konfiguration ungültig",
         "unable_to_delete": "Die Oszilloskop-Instanz kann während der Aufzeichnung nicht gelöscht werden",
         "unable_to_edit": "Kann Konfiguration während einer laufenden Aufzeichnung nicht bearbeiten",
@@ -112,7 +118,9 @@
         "state_triggered": "{{name}} wurde ausgelöst",
         "cycle_time_multiple": "Der Zeitraum muss ein ganzzahliges Vielfaches der Scheduler-Zykluszeit sein",
         "signal_add_error": "Das Signal für den richtigen Weg wurde hinzugefügt, die anderen werden nicht verarbeitet!",
-        "no_drive_manual": "Es ist kein Antriebssignal ausgewählt, nur der manuelle Modus wird unterstützt"
+        "no_drive_manual": "Es ist kein Antriebssignal ausgewählt, nur der manuelle Modus wird unterstützt",
+        "required": "Alias ist erforderlich",
+        "exists": "Alias ​​existiert bereits"
     },
     "zoom": {
         "adjust_signal": "Signale im Anzeigebereich einstellen",
@@ -217,7 +225,9 @@
             "min": "Min.",
             "max": "Max.",
             "cursor": "Cursor",
-            "unit": "Einheit"
+            "unit": "Einheit",
+            "name": "Name",
+            "diagram": "Diagramm"
         }
     },
     "add": {
@@ -270,7 +280,7 @@
             "titleTree": "Signalbaum",
             "selected": "Ausgewählte Signale",
             "search": "Suche",
-            "drive": "Bitte überprüfen Sie, ob die EtherCAT Master-App richtig konfiguriert ist",
+            "drive": "Bitte überprüfen Sie, ob das Antriebsgerät richtig angeschlossen und die EtherCAT Master App richtig konfiguriert ist",
             "RT": "Echtzeit signal",
             "NRT": "Nicht-Echtzeit signal",
             "addPath": "Signalpfad hinzufügen",
@@ -441,39 +451,74 @@
     "analyze": {
         "title": "Berechnung definieren",
         "mode": {
-            "title": "Analysemodus",
-            "header": "Modus",
-            "list": {
-                "Addition": "Addition",
-                "Subtraction": "Subtraktion",
-                "Multiplication": "Multiplikation",
-                "Division": "Division"
+            "header": "Berechnung",
+            "arithmetic": {
+                "name": "Arithmetik",
+                "constants": {
+                    "title": "Konstanten (c1/c2)",
+                    "header1": "c1",
+                    "header2": "c2"
+                },
+                "signal": {
+                    "title": "(Echtzeitsignale und Antriebssignale)",
+                    "header1": "Signal 1",
+                    "header2": "Signal 2",
+                    "placeholder": "Ein Signal auswählen",
+                    "error": {
+                        "no_signal": "Kein Signal vorhanden",
+                        "no_selection": "Ein Signal auswählen"
+                    }
+                },
+                "mode": {
+                    "title": "Analysemodus",
+                    "header": "Modus",
+                    "list": {
+                        "Addition": "Zusatz",
+                        "Subtraction": "Subtraktion",
+                        "Multiplication": "Multiplikation",
+                        "Division": "Division"
+                    }
+                },
+                "error": {
+                    "sameUnit": "Die ausgewählten Signaleinheiten müssen gleich sein",
+                    "sameDatatype": "Die ausgewählten Signaldatentyp müssen gleich sein",
+                    "sameType": "Der gewählte Signaltyp muss gleich sein",
+                    "no_zero": "Division durch 0 ist nicht zulässig",
+                    "no_range": "Der Wert c1/c2 liegt nicht im gültigen Wertebereich: Min.: -1000000, Max.: 1000000",
+                    "no_value": "Konstante kann nicht leer sein"
+                }
+            },
+            "bit-analyze": {
+                "name": "Bit analyse",
+                "signal": {
+                    "title": "(Es können nur binäre Antriebssignale ausgewählt werden)",
+                    "header": "Signal",
+                    "placeholder": "Ein Signal auswählen",
+                    "error": {
+                        "no_signal": "Kein Signal vorhanden",
+                        "no_selection": "Ein Signal auswählen"
+                    }
+                },
+                "bit": {
+                    "name": "Bitliste",
+                    "title": "(Es können maximal 16 Bit ausgewählt und angezeigt werden)",
+                    "header": "bit",
+                    "placeholder": "bit"
+                },
+                "error": {
+                    "no_checked": "Bitte aktivieren Sie mindestens ein Bit!",
+                    "no_description": "Beschreibung kann nicht leer sein",
+                    "alert_description": "Für jedes anzuzeigende Bit muss die zugehörige Checkbox aktiviert werden."
+                },
+                "checkbox": {
+                    "selecte-all": "Alle auswählen",
+                    "cancel-all": "Alle abwählen",
+                    "invert": "Auswahl invertieren"
+                }
             }
-        },
-        "constants": {
-            "title": "Konstanten (c1/c2)",
-            "header1": "c1",
-            "header2": "c2"
-        },
-        "signal": {
-            "title": "(Echtzeitsignale und Antriebssignale)",
-            "header1": "Signal 1",
-            "header2": "Signal 2",
-            "placeholder": "Ein Signal auswählen",
-            "error": {
-                "no_signal": "Kein Signal vorhanden",
-                "no_selection": "Ein Signal auswählen"
-            }
-        },
-        "error": {
-            "sameUnit": "Die ausgewählten Signaleinheiten müssen gleich sein",
-            "sameType": "Der gewählte Signaltyp muss gleich sein",
-            "no_zero": "Division durch 0 ist nicht zulässig",
-            "no_range": "Der Wert c1/c2 liegt nicht im gültigen Wertebereich: Min.: -1000000, Max.: 1000000",
-            "no_value": "Konstante kann nicht leer sein"
         }
     },
     "svg": {
-        "time_axis": "Zeitachse [s]"
+        "time_axis": "Zeitachse [ms]"
     }
 }

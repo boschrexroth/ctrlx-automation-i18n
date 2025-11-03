@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
   "product": "ECM-V-0206",
   "mainDiagnostics": {
     "080F0E00": {
@@ -155,8 +154,8 @@
           "version": 1
         },
         "0C85001F": {
-          "text": "Ecat: Error in reading config file",
-          "version": 1
+          "text": "Ecat: Error in reading configuration",
+          "version": 2
         },
         "0C850020": {
           "text": "Ecat: Invalid state requested",
@@ -463,12 +462,12 @@
           "version": 1
         },
         "0C850074": {
-          "text": "Ecat: Invalid input offset in cyc cmd",
-          "version": 1
+          "text": "Ecat: Invalid input offset in cyclic command",
+          "version": 2
         },
         "0C850075": {
-          "text": "Ecat: Invalid output offset in cyc cmd",
-          "version": 1
+          "text": "Ecat: Invalid output offset in cyclic command",
+          "version": 2
         },
         "0C850076": {
           "text": "Ecat: Resource error (port close)",
@@ -867,8 +866,8 @@
           "version": 1
         },
         "0C85014B": {
-          "text": "Ecat AoE: Syntax error in comand or file",
-          "version": 1
+          "text": "Ecat AoE: Syntax error in command or file",
+          "version": 2
         },
         "0C85014C": {
           "text": "Ecat AoE: Objects do not match",
@@ -1151,8 +1150,8 @@
           "version": 1
         },
         "0C8601C2": {
-          "text": "Ecat DC: Synchronisation out of limit",
-          "version": 1
+          "text": "Ecat DC: Synchronization out of limit",
+          "version": 2
         },
         "0C8601C3": {
           "text": "Ecat DC: Out of memory",
@@ -1368,6 +1367,10 @@
         },
         "0C870032": {
           "text": "Ecat: Connection problem",
+          "version": 1
+        },
+        "0C870033": {
+          "text": "Ecat: Inconsistent content in configuration",
           "version": 1
         },
         "0C880000": {

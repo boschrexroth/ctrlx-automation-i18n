@@ -80,11 +80,18 @@
 		"upload-detail-to-file": "Upload system details",
 		"config-columns": "Configure columns",
     "reset-columns": "Reset columns",
+    "download-file": "Download",
+    "upload-file": "Upload",
     "expandTable": "Expand table",
     "collapseTable": "Collapse table",
     "topology": "Topology not OK",
     "callout":{
       "tooltip": "Attention! There is no data available for components!"
     }
+  },
+  "loadingScreen": {
+    "title": "Loading components data",
+    "initialStatus": "Please wait",
+    "done": "Done"
   }
 }

@@ -8,5 +8,7 @@
     "scopes.telegraf.view.description": "Erlaubt das Lesen der Telegraf Konfiguration",
     "licenses.SWL-XCx-TSA-TELEGRAFxxxxx-NNNN.title": "ctrlX OS Lizenz - Telegraf",
     "licenses.SWL-XCx-TSA-TELEGRAFxxxxx-NNNN.description": "Server Agent zur Verarbeitung von Informationen basierend auf Telegraf® optimiert für ctrlX OS",
-    "configuration.telegraf.description" : "Telegraf Konfiguration"
+    "licenses.SWL-XOV-TSA-TELEGRAFxxxxx-Y1F1.title": "ctrlX OS Lizenz - Telegraf (Floating/1 Jahr)",
+    "licenses.SWL-XOV-TSA-TELEGRAFxxxxx-Y1F1.description": "Server Agent zur Verarbeitung von Informationen basierend auf Telegraf® optimiert für ctrlX OS (Floating/1 Jahr)",
+    "configuration.telegraf.description": "Telegraf Konfiguration"
 }

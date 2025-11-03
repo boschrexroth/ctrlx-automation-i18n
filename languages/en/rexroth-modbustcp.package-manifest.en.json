@@ -2,15 +2,14 @@
     "appDirectories.description": "Modbus TCP: Client and Server settings",
     "licenses.SWL-XCx-MBT-MODBUSTCPxxxx-NNNN.description": "Connect to devices that support Modbus TCP",
     "appDirectories.modbustcp.description": "Modbus TCP: Client and Server settings",
-    "licenses.SWL-XCx-MBT-MODBUSTCPxxxx-NNNN.description": "Connect to devices that support Modbus TCP",
+    "licenses.SWL-XCx-MBT-MODBUSTCPxxxx-NNFN.description": "Connect to devices that support Modbus TCP",
     "scopes-declaration.rexroth-modbustcp.name":"Modbus TCP",
     "scopes-declaration.rexroth-modbustcp.description":"Modbus TCP permissions to access configurations",
-    "scopes-declaration.rexroth-modbustcp.config.rwx.name":"Create and modify configurations",
-    "scopes-declaration.rexroth-modbustcp.config.rwx.description":"Create and modify configurations - full access",
-    "scopes-declaration.rexroth-modbustcp.registerData.rw.name":"Modify register values",
-    "scopes-declaration.rexroth-modbustcp.registerData.rw.description":"Read (but not modify) configurations and write registers",
-    "scopes-declaration.rexroth-modbustcp.r.name":"Read only",
-    "scopes-declaration.rexroth-modbustcp.r.description":"Read (but not modify) configurations and registers",
-    "scopes-declaration.datalayer.modbustcp.name":"Data Layer access for Modbus TCP (required)",
-    "scopes-declaration.datalayer.modbustcp.description":"Data Layer access for Modbus TCP (required)"
+    "scopes-declaration.rexroth-modbustcp.config.rwx.name":"Manage",
+    "scopes-declaration.rexroth-modbustcp.config.rwx.description":"Unrestricted access to configurations and registers",
+    "scopes-declaration.rexroth-modbustcp.registerData.rw.name":"Operate",
+    "scopes-declaration.rexroth-modbustcp.registerData.rw.description":"View configurations and write registers",
+    "scopes-declaration.rexroth-modbustcp.r.name":"View",
+    "scopes-declaration.rexroth-modbustcp.r.description":"View configurations and registers",
+    "documentation.modbustcp.description": "Provides Modbus TCP functionalities for ctrlX OS"
 }

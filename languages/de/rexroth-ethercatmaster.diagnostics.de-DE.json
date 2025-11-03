@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json-schema.boschrexroth.com/ctrlx-automation/ctrlx-os/diagnostics/diagnostics.v1.schema.json",
   "product": "ECM-V-0206",
   "mainDiagnostics": {
     "080F0E00": {
@@ -156,7 +155,7 @@
         },
         "0C85001F": {
           "text": "Ecat: Fehler beim Einlesen der Konfiguration",
-          "version": 1
+          "version": 2
         },
         "0C850020": {
           "text": "Ecat: Ungültiger Zustand angefordert",
@@ -464,11 +463,11 @@
         },
         "0C850074": {
           "text": "Ecat: Falscher Offset in zyklischem Kommando (Input)",
-          "version": 1
+          "version": 2
         },
         "0C850075": {
           "text": "Ecat: Falscher Offset in zyklischem Kommando (Output)",
-          "version": 1
+          "version": 2
         },
         "0C850076": {
           "text": "Ecat: Ressource nicht verfügbar (Port close)",
@@ -868,7 +867,7 @@
         },
         "0C85014B": {
           "text": "Ecat AoE: Syntax-Fehler in Kommando oder Datei",
-          "version": 1
+          "version": 2
         },
         "0C85014C": {
           "text": "Ecat AoE: Objekte stimmen nicht überein",
@@ -1152,7 +1151,7 @@
         },
         "0C8601C2": {
           "text": "Ecat DC: Synchronisation außerhalb erlaubter Grenzen",
-          "version": 1
+          "version": 2
         },
         "0C8601C3": {
           "text": "Ecat DC: Kein freier Speicher",
@@ -1368,6 +1367,10 @@
         },
         "0C870032": {
           "text": "Ecat: Verbindungsproblem",
+          "version": 1
+        },
+        "0C870033": {
+          "text": "Ecat: Inhalt der Konfiguration inkonsistent",
           "version": 1
         },
         "0C880000": {
