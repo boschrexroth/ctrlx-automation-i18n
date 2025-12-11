@@ -1,5 +1,5 @@
 {
-  "product": "MOT-V-0306",
+  "product": "MOT-V-0404",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -76,6 +76,10 @@
         "0C570006": {
           "text": "Fehlerstufe, die durch Aufrufen des Befehls SetErrorLevel festgelegt wurde",
           "version": 1
+        },
+        "0C570010": {
+          "text": "Fehlerstufe durch Aufruf des Befehls \"NOT-HALT\" gesetzt",
+          "version": 1
         }
       }
     },
@@ -110,6 +114,38 @@
         "0C550147": {
           "text": "Tippen wurde beendet, weil der Grenzwert der Position erreicht wurde",
           "version": 1
+        },
+        "0C55014A": {
+          "text": "Die Kinematik hat die Achspositionsgrenzen erreicht.",
+          "version": 1
+        },
+        "0C55014B": {
+          "text": "Der Tippbefehl hat die mechanische Grenze der Kinematik erreicht.",
+          "version": 1
+        },
+        "0C55014D": {
+          "text": "Allgemeiner Fehler im Tippbefehl.",
+          "version": 1
+        },
+        "0C55014E": {
+          "text": "Mathematischer Fehler im Tippbefehl.",
+          "version": 1
+        },
+        "0C560140": {
+          "text": "Ein Teil der kommandierten Bewegung wird nicht durch aktive inklusive Arbeitsbereiche abgedeckt.",
+          "version": 1
+        },
+        "0C560141": {
+          "text": "Die kommandierte Bewegung verletzt einen Schutzbereich.",
+          "version": 1
+        },
+        "0C560142": {
+          "text": "Die kommandierte Bewegung verlässt den Basis-Arbeitsbereich.",
+          "version": 1
+        },
+        "0C560143": {
+          "text": "Die kommandierte Bewegung verlässt einen der exklusiven Arbeitsbereiche.",
+          "version": 1
         }
       }
     },
@@ -117,6 +153,30 @@
       "text": "Meldung in der Achskonfiguration",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550175": {
+          "text": "Kommandierter Antrieb unterstützt die zyklische Betriebsart nicht.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "Die Betriebsart ist nicht in den zyklischen Achsprofildaten vorhanden.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Gerät ist nicht korrekt für zyklische Betriebsartenvorgabe konfiguriert.",
+          "version": 1
+        },
+        "0C550178": {
+          "text": "Zyklischer Referenzierstatus  wird vom Antrieb nicht unterstützt",
+          "version": 1
+        },
+        "0C550179": {
+          "text": "Zyklische Daten für den Referenzierstatus im Achsprofil sind nicht konfiguriert",
+          "version": 1
+        },
+        "0C55017A": {
+          "text": "Gerät ist für das zyklische Referenzierstatussignal nicht korrekt konfiguriert",
+          "version": 1
+        },
         "0C56024A": {
           "text": "Ruckgrenzwerte der Achsen nur teilweise gesetzt",
           "version": 1
@@ -293,6 +353,20 @@
         }
       }
     },
+    "090A0026": {
+      "text": "Statussignal ist für diese Achse nicht verfügbar",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Funktion noch nicht in Steuerung implementiert",
+          "version": 1
+        }
+      }
+    },
     "090A0030": {
       "text": "Achse folgt nicht den Sollwerten",
       "version": 1,
@@ -372,6 +446,14 @@
         "0C58070B": {
           "text": "Profilinitialisierung beendet",
           "version": 1
+        },
+        "0C58070D": {
+          "text": "Dieses Profil wurde durch die Überprüfungsfunktion eines anderen Bundles deaktiviert.",
+          "version": 1
+        },
+        "0C58070E": {
+          "text": "Homing-Status vom Gerät kann nicht abgerufen werden",
+          "version": 1
         }
       }
     },
@@ -402,6 +484,10 @@
           "version": 1
         }
       }
+    },
+    "090A0FF9": {
+      "text": "Trace Nachricht motion.somo",
+      "version": 1
     },
     "090A0FFA": {
       "text": "Trace Nachricht motion.robotics",
@@ -538,6 +624,10 @@
         "0C56024E": {
           "text": "Achskonfiguration ist so eingestellt, dass Achsprofil ignoriert wird (Achse wird virtuell)",
           "version": 1
+        },
+        "0C56024F": {
+          "text": "Userspezifische Fehlerreaktion ist eingestellt, aber der Fehlerocde des Gerätes ist nicht zyklisch konfiguriert",
+          "version": 1
         }
       }
     },
@@ -563,6 +653,16 @@
         }
       }
     },
+    "090E0006": {
+      "text": "Sehr starke Nutzung des Kommandopuffers",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570240": {
+          "text": "ContMotion Kommandooption nutzt mehr als 80% des konfigurierten Kommandopuffers",
+          "version": 1
+        }
+      }
+    },
     "090E0010": {
       "text": "Warnung im Tippkommando der Achse",
       "version": 1,
@@ -580,6 +680,38 @@
         "0C550145": {
           "text": "Position befindet sich außerhalb oder am Grenzwert und soll sich weiter nach außen bewegen",
           "version": 1
+        },
+        "0C55014A": {
+          "text": "Die Kinematik hat die Achspositionsgrenzen erreicht.",
+          "version": 1
+        },
+        "0C55014B": {
+          "text": "Der Tippbefehl hat die mechanische Grenze der Kinematik erreicht.",
+          "version": 1
+        },
+        "0C55014D": {
+          "text": "Allgemeiner Fehler im Tippbefehl.",
+          "version": 1
+        },
+        "0C55014E": {
+          "text": "Mathematischer Fehler im Tippbefehl.",
+          "version": 1
+        },
+        "0C560140": {
+          "text": "Ein Teil der kommandierten Bewegung wird nicht durch aktive inklusive Arbeitsbereiche abgedeckt.",
+          "version": 1
+        },
+        "0C560141": {
+          "text": "Die kommandierte Bewegung verletzt einen Schutzbereich.",
+          "version": 1
+        },
+        "0C560142": {
+          "text": "Die kommandierte Bewegung verlässt den Basis-Arbeitsbereich.",
+          "version": 1
+        },
+        "0C560143": {
+          "text": "Die kommandierte Bewegung verlässt einen der exklusiven Arbeitsbereiche.",
+          "version": 1
         }
       }
     },
@@ -589,6 +721,16 @@
       "detailedDiagnostics": {
         "0C57010F": {
           "text": "Achse kann den Sollwerten der Steuerung nicht (mehr) folgen.",
+          "version": 1
+        }
+      }
+    },
+    "090E0031": {
+      "text": "Überwachung von \"Antrieb-folgt-Sollwerten\" abgeschaltet",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570111": {
+          "text": "Überwachungsfunktion per Kommando deaktiviert",
           "version": 1
         }
       }
@@ -680,6 +822,10 @@
           "version": 1
         }
       }
+    },
+    "090E0FF9": {
+      "text": "Trace Warnung motion.somo",
+      "version": 1
     },
     "090E0FFA": {
       "text": "Trace Warnung motion.robotics",
@@ -823,8 +969,20 @@
           "text": "Ungültiger Flatbuffer",
           "version": 1
         },
+        "0C580201": {
+          "text": "Speicherzuordnung des Data Layer konnte nicht abgerufen werden",
+          "version": 1
+        },
         "0C580500": {
           "text": "Der Hochlauf wurde abgebrochen",
+          "version": 1
+        },
+        "0C580502": {
+          "text": "Feldbus-Master ist nicht vorhanden beim Booten des Achsprofils",
+          "version": 1
+        },
+        "0C580507": {
+          "text": "Feldbus stimmt nicht mit der Konfiguration überein",
           "version": 1
         },
         "0C580704": {
@@ -837,6 +995,10 @@
         },
         "0C580708": {
           "text": "Warten, bis der Profilmanager verfügbar ist",
+          "version": 1
+        },
+        "0C58070C": {
+          "text": "Protokoll zwischen Motion und dem Feldbusgerät ist inkonsistent",
           "version": 1
         }
       }
@@ -982,6 +1144,10 @@
         "0C580301": {
           "text": "Die Geräteserie ist nicht definiert",
           "version": 1
+        },
+        "0C580306": {
+          "text": "Die Funktion wird vom Gerät nicht unterstützt.",
+          "version": 1
         }
       }
     },
@@ -1043,12 +1209,44 @@
       "text": "Befehlsfehler für Achsprofil",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580035": {
+          "text": "Funktion nicht unterstützt",
+          "version": 1
+        },
         "0C580102": {
           "text": "Ausführung des Achsprofil-Befehls fehlgeschlagen",
           "version": 1
         },
+        "0C580103": {
+          "text": "Feedbackwert ist ungültig, comm.axisprofile befindet sich nicht im Status OPERATION oder StatusWord ist 0",
+          "version": 1
+        },
         "0C580302": {
           "text": "Möglicherweise liegt ein Konfigurationsfehler auf dem Gerät vor.",
+          "version": 1
+        },
+        "0C580303": {
+          "text": "Eingangsposition außerhalb des Verfahrbereichs des Geräts",
+          "version": 1
+        },
+        "0C580304": {
+          "text": "Geber (oder Geber-ID) ist im Gerät nicht vorhanden",
+          "version": 1
+        },
+        "0C580305": {
+          "text": "Geräte-Referenzparameter ungültig",
+          "version": 1
+        },
+        "0C580307": {
+          "text": "Typfehler des Geber-Messsystems",
+          "version": 1
+        },
+        "0C580308": {
+          "text": "Drehmomentgrenzwert überschritten",
+          "version": 1
+        },
+        "0C580309": {
+          "text": "Statusfehler im Gerät",
           "version": 1
         }
       }
@@ -1249,6 +1447,22 @@
         },
         "0C550272": {
           "text": "Fehler bei der Konfiguration der Geberachse",
+          "version": 1
+        },
+        "0C550338": {
+          "text": "Konfiguration des Basis-Arbeitsbereichs ungültig - Kein Arbeitsbereich mit konfiguriertem Namen gefunden",
+          "version": 1
+        },
+        "0C550339": {
+          "text": "Konfiguration des Basis-Arbeitsbereichs ungültig - Arbeitsbereich muss von Typ \"exklusiver Arbeitsbereich\" sein",
+          "version": 1
+        },
+        "0C55033A": {
+          "text": "Konfiguration des Basis-Arbeitsbereichs ungültig - Arbeitsbereich muss in MCS oder WCS definiert sein",
+          "version": 1
+        },
+        "0C55033B": {
+          "text": "Konfiguration der Arbeitsbereiche und Schutzzonen nach Reset ungültig - Konfigurierter Name gehört zu keinem Arbeitsbereich bzw. zu keiner Schutzzone",
           "version": 1
         },
         "0C56020F": {
@@ -1665,6 +1879,26 @@
         }
       }
     },
+    "090F0073": {
+      "text": "Achse ist deaktiviert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55024A": {
+          "text": "Fähigkeiten wurden nicht ermittelt",
+          "version": 1
+        }
+      }
+    },
+    "090F0074": {
+      "text": "Kinematik ist deaktiviert",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55024A": {
+          "text": "Fähigkeiten wurden nicht ermittelt",
+          "version": 1
+        }
+      }
+    },
     "090F0080": {
       "text": "Allgemeiner Fehler der Geberachse",
       "version": 1,
@@ -1679,6 +1913,10 @@
       "text": "Fehler bei der Funktion der Geberachse",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550246": {
+          "text": "Feldbusgerät unterstützt den Wert nicht",
+          "version": 1
+        },
         "0C550273": {
           "text": "Interpolation wird von der Geberachse nicht unterstützt",
           "version": 1
@@ -1693,6 +1931,16 @@
         },
         "0C550362": {
           "text": "Drehmomentmodus wird nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "090F0082": {
+      "text": "Allgemeiner Fehler beim Fehlermanager",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560237": {
+          "text": "Die Initialisierung des Fehlermanagers hat nicht funktioniert.",
           "version": 1
         }
       }
@@ -2184,6 +2432,14 @@
         "0C550633": {
           "text": "Im FlexProfile wurden unzulässige Einheiten konfiguriert.",
           "version": 1
+        },
+        "0C550634": {
+          "text": "Der Interpolationstyp der referenzierten Kurvenscheibe passt nicht zu dem vorgegebenen Bewegungsgesetz.",
+          "version": 1
+        },
+        "0C550635": {
+          "text": "FlexProfile muss wegen einer Änderung der referenzierten Punktetabelle neu validiert werden.",
+          "version": 1
         }
       }
     },
@@ -2226,6 +2482,10 @@
           "version": 1
         }
       }
+    },
+    "090F0FF9": {
+      "text": "Trace Fehler motion.somo",
+      "version": 1
     },
     "090F0FFA": {
       "text": "Trace Fehler motion.robotics",
@@ -2395,6 +2655,10 @@
           "text": "Achse kann den Sollwerten der Steuerung nicht (mehr) folgen.",
           "version": 1
         },
+        "0C570112": {
+          "text": "Deaktivierte Achse kann nicht kommandiert werden",
+          "version": 1
+        },
         "0C570153": {
           "text": "In der Ausführung eines Zusatzkommandos ist ein Fehler in der Gleitkommaberechnung aufgetreten.",
           "version": 1
@@ -2429,6 +2693,10 @@
           "text": "Mehrfache Achszuordnung",
           "version": 1
         },
+        "0C550115": {
+          "text": "Achse kann nicht zu deaktivierter Kinematik gruppiert werden",
+          "version": 1
+        },
         "0C550120": {
           "text": "Achse oder Kinematik sind aktuell noch in Bewegung",
           "version": 1
@@ -2459,6 +2727,10 @@
         },
         "0C550186": {
           "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
+        "0C560464": {
+          "text": "Die Achse ist aktuell nicht referenziert. Dies ist aus Sicherheitsgründen zwingend für absolute Verfahrbefehle nötig.",
           "version": 1
         },
         "0C570100": {
@@ -2621,6 +2893,10 @@
           "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
           "version": 1
         },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
+          "version": 1
+        },
         "0C570160": {
           "text": "Nicht unterstützte Einheit für Kommandoparameter konfiguriert",
           "version": 1
@@ -2683,6 +2959,10 @@
         },
         "0C550158": {
           "text": "Achse oder Gantry bewegen sich noch",
+          "version": 1
+        },
+        "0C55015C": {
+          "text": "Achse kann nicht zu deaktivierter Gantry-Achse hinzugefügt werden",
           "version": 1
         },
         "0C550180": {
@@ -3144,6 +3424,10 @@
         "0C5701A2": {
           "text": "Kinematik-Motion-Objekt hat einen Fehler, der in die Kinematikachse kopiert wird",
           "version": 1
+        },
+        "0C5701A3": {
+          "text": "Deaktivierte Kinematik kann nicht kommandiert werden",
+          "version": 1
         }
       }
     },
@@ -3257,6 +3541,14 @@
           "text": "Jog-Richtungsvektor beinhaltet ausschließlich nicht vorhandene Achsen/Koordinaten.",
           "version": 1
         },
+        "0C550149": {
+          "text": "Tippbefehl ist nicht erlaubt, wenn noch Kommandos im Vorbereitungspuffer sind",
+          "version": 1
+        },
+        "0C55014C": {
+          "text": "Fehler bei der Kinematiktransformation. Tippvorgang angehalten.",
+          "version": 1
+        },
         "0C550230": {
           "text": "Positionierachse wurde mehrfach kommandiert",
           "version": 1
@@ -3299,6 +3591,10 @@
         },
         "0C55023A": {
           "text": "Kommandierte Orientierung wird nicht unterstützt",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Ungültiger Zustand",
           "version": 1
         },
         "0C570160": {
@@ -3479,6 +3775,10 @@
         },
         "0C570221": {
           "text": "Kontur-\"Ende\" ohne vorherigen Kontur-\"Start\" kommandiert",
+          "version": 1
+        },
+        "0C570222": {
+          "text": "Parameter \"prepCmds\" muss kleiner sein als die Begrenzung des kinematischen Befehlspuffers beim Konturstart",
           "version": 1
         }
       }
@@ -3831,6 +4131,94 @@
         }
       }
     },
+    "090F2025": {
+      "text": "Fehler im Kinematikkommando \"CyclicSetPointPCS\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570101": {
+          "text": "Ungültiger Parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Ungültige Einheit für Kommandoparameter konfiguriert",
+          "version": 1
+        }
+      }
+    },
+    "090F2026": {
+      "text": "Fehler im Kinematikkommando \"MoveJump\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550211": {
+          "text": "Ungültiges Koordinatensystem für die Zielposition",
+          "version": 1
+        },
+        "0C550230": {
+          "text": "Positionierachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Zusatzachse wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientierung wurde mehrfach kommandiert",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Verschiedene Orientierungen wurden kommandiert",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Kommandierte Achsbedeutung wird für die Kinematik nicht unterstützt",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Kommandierte Zusatzachse ist der Kinematik nicht zugewiesen",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Kommandierte Positionsachse ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Kommandierte Orientierung ist im ACS nicht erlaubt",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Kommandierte Positionierachse wird von der Achstransformation nicht unterstützt",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variante der Zusatzachse wird nicht unterstützt",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Kommandierte Orientierung wird nicht unterstützt",
+          "version": 1
+        },
+        "0C55023B": {
+          "text": "Mehrfache Kommandierung eines Richtungsattributs für die Orientierungsbewegung.",
+          "version": 1
+        },
+        "0C550332": {
+          "text": "Die kommandierte Bewegung verletzt einen Schutzbereich",
+          "version": 1
+        },
+        "0C550370": {
+          "text": "Ungültige Höhe kommandiert.",
+          "version": 1
+        },
+        "0C550371": {
+          "text": "Start- und Endpunkt liegen zu nahe beieinander oder sind gleich.",
+          "version": 1
+        },
+        "0C550372": {
+          "text": "Inkompatible Kommandooption(en) aktiviert.",
+          "version": 1
+        }
+      }
+    },
     "090F2030": {
       "text": "Fehler in Kommandooptionen",
       "version": 1,
@@ -3841,6 +4229,10 @@
         },
         "0C570100": {
           "text": "Ungültiger Zustand",
+          "version": 1
+        },
+        "0C5701A3": {
+          "text": "Deaktivierte Kinematik kann nicht kommandiert werden",
           "version": 1
         },
         "0C5701B0": {
@@ -3946,6 +4338,14 @@
         "0C550335": {
           "text": "Arbeitsbereich bzw. Schutzbereich nicht in Konfiguration gefunden",
           "version": 1
+        },
+        "0C550336": {
+          "text": "Die kommandierte Bewegung verlässt den Basis-Arbeitsbereich",
+          "version": 1
+        },
+        "0C550337": {
+          "text": "Überwachung des Basis-Arbeitsbereichs kann nicht abgeschaltet werden",
+          "version": 1
         }
       }
     },
@@ -3997,6 +4397,10 @@
         },
         "0C550425": {
           "text": "Band-synchron unterstützt keine Punkt-zu-Punkt Bewegungen (wie MoveDirect)",
+          "version": 1
+        },
+        "0C550426": {
+          "text": "Fehler beim Auf- oder Umsynchronisieren. Das Auf- oder Umsynchronisieren wurde nicht rechtzeitig beendet.",
           "version": 1
         },
         "0C560201": {
@@ -4071,6 +4475,10 @@
       "detailedDiagnostics": {
         "0C550315": {
           "text": "Angefragtes Koordinatensystem ist nicht verfügbar",
+          "version": 1
+        },
+        "0C560206": {
+          "text": "Gleitkommafehler während der Motion-Kommandoausführung",
           "version": 1
         },
         "0C560270": {
@@ -4243,6 +4651,10 @@
         },
         "0C550186": {
           "text": "Umschalten der Antriebsbetriebsart während einer aktiven Umschaltung der Antriebsbetriebsart nicht erlaubt.",
+          "version": 1
+        },
+        "0C560464": {
+          "text": "Die Achse ist aktuell nicht referenziert. Dies ist aus Sicherheitsgründen zwingend für absolute Verfahrbefehle nötig.",
           "version": 1
         }
       }
@@ -4465,6 +4877,40 @@
         }
       }
     },
+    "090F2067": {
+      "text": "Fehler im Kommando \"FixedStop\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550103": {
+          "text": "Gerätebefehlsfreigabe fehlgeschlagen",
+          "version": 1
+        },
+        "0C550104": {
+          "text": "Zeitüberschreitung bei Gerätebefehlsfreigabe",
+          "version": 1
+        },
+        "0C550105": {
+          "text": "Gerätebefehl erhält Fehlerstatus",
+          "version": 1
+        },
+        "0C550106": {
+          "text": "Gerätebefehl-Ausführungsfehler im Gerät",
+          "version": 1
+        },
+        "0C550107": {
+          "text": "Deaktivieren des Gerätebefehls fehlgeschlagen",
+          "version": 1
+        },
+        "0C550108": {
+          "text": "Zeitüberschreitung beim Deaktivieren des Gerätebefehls",
+          "version": 1
+        },
+        "0C560241": {
+          "text": "Konfigurierter Achstyp passt nicht zum Gerätetyp",
+          "version": 1
+        }
+      }
+    },
     "090F20A0": {
       "text": "Fehler bei Befehlsübertragung vom Motion-Extension-Paket",
       "version": 1,
@@ -4621,6 +5067,10 @@
         },
         "0C550519": {
           "text": "Unzulässiger Achstyp",
+          "version": 1
+        },
+        "0C55051A": {
+          "text": "Achse kann keiner deaktivierten Leitachse zugeordnet werden",
           "version": 1
         },
         "0C550520": {
@@ -4937,6 +5387,10 @@
         },
         "0C550537": {
           "text": "Die Folgeachse ist im Fehlerzustand LIGHT",
+          "version": 1
+        },
+        "0C550542": {
+          "text": "Achskommando mit absoluter Aufsynchronisierung ungültig für nicht referenzierte Achse",
           "version": 1
         }
       }

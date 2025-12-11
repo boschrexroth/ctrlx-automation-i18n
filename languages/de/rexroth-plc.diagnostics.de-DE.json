@@ -1,5 +1,5 @@
 {
-  "product": "PLC-V-0306",
+  "product": "PLC-V-0404",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -595,6 +595,54 @@
       "text": "Fehler in der Bibliothek CXA_PLCOpen",
       "version": 1,
       "detailedDiagnostics": {
+        "0C232B00": {
+          "text": "Ungültiges Koordinatensystem",
+          "version": 1
+        },
+        "0C232B01": {
+          "text": "Ungültiger Kin-PLCopen-Status",
+          "version": 1
+        },
+        "0C232B02": {
+          "text": "Größe der Eingabevariable \"Outputs\" ist zu klein",
+          "version": 1
+        },
+        "0C232B03": {
+          "text": "Task-Handle konnte nicht erkannt werden",
+          "version": 1
+        },
+        "0C232B04": {
+          "text": "Eigenschaften der Task konnten nicht erkannt werden",
+          "version": 1
+        },
+        "0C232B05": {
+          "text": "Ungültiger Task-Typ",
+          "version": 1
+        },
+        "0C232B06": {
+          "text": "Ungültiges externes Ereignis",
+          "version": 1
+        },
+        "0C232B07": {
+          "text": "Abtastrate für Zykluszeit zu hoch (Abtastlänge muss mindestens 10 us betragen)",
+          "version": 1
+        },
+        "0C232B08": {
+          "text": "Feldbus und Motion-Zykluszeit sind unterschiedlich",
+          "version": 1
+        },
+        "0C232B09": {
+          "text": "Fehler Zustandsmaschine",
+          "version": 1
+        },
+        "0C232B0A": {
+          "text": "Berechnete Byte-Anzahl ist größer als Größe der Eingabevariable \"outputs\"",
+          "version": 1
+        },
+        "0C232B0B": {
+          "text": "Ungültiger Oversampling-Faktor",
+          "version": 1
+        },
         "0C238004": {
           "text": "Vorabanfrage für Tippen nicht verfügbar",
           "version": 1
@@ -1141,6 +1189,26 @@
         },
         "0C2301F0": {
           "text": "TE_ExportKinIfDebug: Fehler im Ablauf",
+          "version": 1
+        },
+        "0C238010": {
+          "text": "Der Datentyp für die Funktionalität CyclicStatusData existiert nicht",
+          "version": 1
+        },
+        "0C238011": {
+          "text": "Die Anzahl der für die Funktionalität CyclicStatusData übertragenen Bytes ist nicht korrekt",
+          "version": 1
+        },
+        "0C238012": {
+          "text": "Die Anzahl der Variablen für die Funktionalität CyclicStatusData ist nicht korrekt",
+          "version": 1
+        },
+        "0C238013": {
+          "text": "Die Anzahl der Bytes im Speicher für die Funktionalität CyclicStatusData ist nicht korrekt.",
+          "version": 1
+        },
+        "0C238015": {
+          "text": "Ungültiger Variablenname für die Funktionalität CyclicStatusData",
           "version": 1
         }
       }
@@ -4426,6 +4494,98 @@
         "0C230011": {
           "text": "Die Achse hat keine Leistung.",
           "version": 1
+        },
+        "0C230012": {
+          "text": "Die Einheit ist ungültig.",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "Eingang \"ControlMode\" wird nicht gesteuert oder es liegt eine Störung vor.",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "\"MaterialParameter.MaterialType\" muss zwischen 1 und 10 liegen",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "Eingabe von \"StandstillVelDeadband\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "Eingabe von \"MaterialParameter.WebWidth\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "Eingabe von \"MaterialParameter.WebThickness\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "Eingabe von \"MaterialParameter.MaterialEModule\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "Eingabe von \"Grammage\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C23001A": {
+          "text": "\"DampingFactor\" muss zwischen 20 und 200 liegen",
+          "version": 1
+        },
+        "0C23001B": {
+          "text": "Eingabe von \"Circumference\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "Eingabe von \"DistanceRoll1To2\" ist negativ oder 0",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "Ungültige Zustandsmaschine der Masterachse",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Ungültiger Handle der atuellen IEC-Task",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "Fehler beim Abrufen der Informationen zur aktuellen IEC-Task",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "Ungültiger Task-Typ",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "Ungültiges externes Ereignis",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "Die Master/Slave-Achse ist keine Modulo-Achse.",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "Der Modulo-Wert der Achse ist nicht 360 Grad.",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "Ungültiger Provider-Typ",
+          "version": 1
+        },
+        "0C23002A": {
+          "text": "Eingang \"Stopdistance\" zu klein",
+          "version": 1
+        },
+        "0C23002B": {
+          "text": "Eingabe von \"Startdistance\" zu klein",
+          "version": 1
+        },
+        "0C23002C": {
+          "text": "Eingabe von \"Startdistance\" und \"Stopdistance\" zu hoch",
+          "version": 1
+        },
+        "0C23002D": {
+          "text": "Ungültige Zustandsmaschine der Slaveachse",
+          "version": 1
         }
       }
     },
@@ -4662,6 +4822,18 @@
           "version": 1
         }
       }
+    },
+    "0A0F011E": {
+      "text": "Fehler in der Bibliothek  CXA_ctrlXIO_KNX",
+      "version": 1
+    },
+    "0A0F011F": {
+      "text": "Fehler in der Bibliothek  CXA_ctrlXIO_DALI",
+      "version": 1
+    },
+    "0A0F0120": {
+      "text": "Fehler in der Bibliothek  CXA_ctrlXIO_CAN",
+      "version": 1
     },
     "0A0F0FF0": {
       "text": "Trace Fehler plc.cmp.datalayer",

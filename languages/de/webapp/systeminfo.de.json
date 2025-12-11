@@ -21,8 +21,8 @@
     "datetime": {
       "headlineBrowser": "Ihr Browser",
       "headlineCtrlxCore": "ctrlX OS",
-      "date.tooltip": "Datumssyntax: mm/dd/yyyy",
-      "invalidDate.error": "Ungültiges Datum - Erwartete Datumssyntax: mm/dd/yyyy",
+      "date.tooltip": "Datumssyntax: {{dateFormat}}",
+      "invalidDate.error": "Ungültiges Datum - Erwartete Datumssyntax: {{dateFormat}}",
       "time.tooltip": "Zeitsyntax: hh:mm:ss",
       "timeRequired.error": "Zeit erforderlich - Erwartete Syntax: hh:mm:ss",
       "timezone.tooltip": "Lokale Zeitzone",
@@ -45,7 +45,6 @@
       "notificationDeviceName.error": "Fehler beim Lesen des Gerätedatums: ",
       "notificationTime.success": "Zeiteinstellungen erfolgreich gespeichert",
       "notificationTime.error": "Speichern der Zeiteinstellungen fehlgeschlagen",
-      "differBrowserCtrlx": "Datum oder Zeit von ctrlX OS unterscheidet sich von Ihrem Browser um mehr als eine Minute",
       "saveError": "Speichern nicht möglich wegen ungültiger Benutzereingabe",
       "clockWindbackHint": "Bitte beachten Sie, dass durch Zurückstellen der Uhr um mehr als 24 Stunden zeitbasierte Lizenzen ungültig werden.",
       "clockWindbackHint2": "Kontaktieren Sie Ihren Support-Vertreter, um die Lizenzen wieder zu aktivieren.",
@@ -120,37 +119,37 @@
       "shutDownHint2": "Das System ist nicht mehr erreichbar. Sie können dieses Browser-Fenster jetzt schließen."
     },
     "firmware-update": {
-      "info1": "Um die Firmware dieses Geräts zu aktualisieren, stellen Sie eine System-Abbild-Datei bereit.",
-      "info2": "Stellen Sie optional eine Sicherungsdatei bereit, um das Gerät nach dem Update mit Einstellungen und Ressourcen zu initialisieren.",
+      "info1": "Stellen Sie eine Systemabbilddatei bereit.",
+      "info2": "Zusätzlich können Sie eine Sicherungsdatei bereitstellen, um das Gerät nach dem Flashen mit Einstellungen und Ressourcen zu initialisieren.",
       "info3": "Die Dateien werden auf das Gerät hochgeladen und dort temporär auf einem externen Speichermedium gespeichert.",
       "info5": "Dieses Medium wird bootfähig gemacht und neu partitioniert. Alle Daten auf diesem Medium gehen verloren!",
-      "info4": "Nach dem Hochladen startet das Gerät automatisch neu, um das Update durchzuführen.",
-      "firmware-file.label": "System-Image",
+      "info4": "Nach dem Hochladen startet das Gerät automatisch neu, um das Systemabbild zu flashen.",
+      "firmware-file.label": "Systemabbild",
       "firmware-file.error": "Bitte wählen Sie eine Systemabbilddatei aus",
       "backup-file.label": "Sicherungsdatei (optional)",
       "backup-file.password": "Passwort der Sicherungsdatei (optional)",
       "target.label": "Medium zur Zwischenspeicherung",
       "target.placeholder": "Es ist kein Medium angeschlossen",
-      "target.error": "Für das Update muss ein externes Speichermedium angeschlossen sein",
+      "target.error": "Für das Flashen muss ein externes Speichermedium angeschlossen sein",
       "target.hint": "Für dieses Gerät muss das Medium an den USB-Port XF01C angeschlossen werden",
       "file.placeholder": "Klicken Sie hier, um eine Datei auszuwählen",
-      "start.button": "Firmware-Update starten",
+      "start.button": "Systemabbild flashen",
       "password.placeholder": "Passwort eingeben",
-      "warning.title": "Firmware-Update durchführen?",
+      "warning.title": "Systemabbild flashen?",
       "warning.text": "Wenn Sie fortfahren, gehen alle Einstellungen, Apps und Daten auf dem Gerät und auf der Erweiterung der Systemdaten (falls vorhanden) verloren! Medien, die zum Datenaustausch eingehängt sind, sind nicht betroffen.",
       "warning.text2": "Alle Daten auf dem externen Speichermedium \"{{media}}\" gehen verloren!",
-      "progress.title": "Firmware-Update wird vorbereitet",
+      "progress.title": "Flashen des Systemabbilds wird vorbereitet",
       "progress.checksums": "Prüfsummen werden berechnet",
       "progress.prepareMedium": "Medium wird zur Zwischenspeicherung vorbereitet. Dies kann einige Minuten dauern",
       "progress.upload": "Dateien hochladen",
-      "service-state.callout": "Das System ist gerade im Zustand {{state}}. Um die Firmware zu aktualisieren, wechseln Sie in den Zustand \"Service\" im Header.",
-      "not-supported": "Dieses Gerät unterstützt keine Firmware-Aktualisierung",
+      "service-state.callout": "Das System ist gerade im Zustand {{state}}. Um das Systemabbild zu flashen, wechseln Sie in der Kopfzeile in den Zustand \"Service\".",
+      "not-supported": "Dieses Gerät unterstützt das Flashen von Systemabbildern nicht",
       "updating": {
-        "title": "Firmware wird aktualisiert...",
-        "text1": "Das Gerät startet jetzt neu und aktualisiert die Firmware. Dies kann bis zu 30 Minuten dauern.",
+        "title": "Systemabbild wird geflasht...",
+        "text1": "Das Gerät startet jetzt neu und flasht das Systemabbild. Dies kann bis zu 30 Minuten dauern.",
         "text2": "Schalten Sie das Gerät nicht aus bis der Vorgang beendet ist!",
-        "text3": "Das Gerät ist während der Aktualisierung nicht erreichbar.",
-        "text4": "Verwenden Sie nach der Aktualisierung die Standardnetzwerkeinstellungen oder die von der Setup-Datei bereitgestellten, um das Gerät zu erreichen.",
+        "text3": "Das Gerät ist während des Flashens nicht erreichbar.",
+        "text4": "Verwenden Sie nach dem Flashen die Standardnetzwerkeinstellungen oder die von der Setup-Datei bereitgestellten Einstellungen, um das Gerät zu erreichen.",
         "text5": "Wir versuchen die Verbindung automatisch wiederherzustellen.",
         "text6": "Falls dies nicht funktioniert, verbinden Sie sich bitte manuell, entweder über",
         "textConnectByDefIP": "die Standard-IP-Adresse",
@@ -159,9 +158,10 @@
       }
     },
     "factoryReset": {
+      "service-state.callout": "Das System ist gerade im Zustand {{state}}. Um die Gerätedaten zurückzusetzen, wechseln Sie in der Kopfzeile in den Zustand \"Service\".",
       "noMediumMounted": "Kein geeignetes Medium eingehängt",
       "goToStorageHint": "Klicken Sie | hier |, um Medien zu formatieren und einzuhängen",
-      "target.error": "Um das Gerät zurückzusetzen, hängen Sie ein FAT32-formatiertes Medium mit genügend freiem Speicher zum Datenaustausch ein.",
+      "target.error": "Um die Gerätedaten zurückzusetzen, hängen Sie ein FAT32-formatiertes Medium mit genügend freiem Speicher zum Datenaustausch ein.",
       "target.hint": "Für dieses Gerät sollte das Medium nicht an den USB-Port XF01C angeschlossen werden",
       "text1": "Hierdurch wird das Gerät auf seinen ursprünglichen Zustand zurückgesetzt:",
       "text2": "Alle Einstellungen werden auf ihre Standardwerte zurückgesetzt.",
@@ -182,11 +182,11 @@
       "processHint2": "Das Gerät startet neu und führt das Zurücksetzen durch. Dies kann bis zu 30 Minuten dauern.",
       "processHint3": "Schalten Sie das Gerät nicht aus, bis das Zurücksetzen beendet ist!",
       "reset": {
-        "button": "Gerät zurücksetzen"
+        "button": "Gerätedaten zurücksetzen"
       },
       "resetWarning": {
-        "title": "Gerät zurücksetzen?",
-        "description": "Wenn Sie fortfahren, wird das Gerät zurückgesetzt und alle Ihre Apps und Einstellungen gehen verloren. Dies kann nicht rückgängig gemacht werden."
+        "title": "Gerätedaten zurücksetzen?",
+        "description": "Wenn Sie fortfahren, werden die Gerätedaten zurückgesetzt und alle Ihre Apps und Einstellungen gehen verloren. Dies kann nicht rückgängig gemacht werden."
       },
       "progress": {
         "title": "Zurücksetzen der Gerätedaten wird vorbereitet..."

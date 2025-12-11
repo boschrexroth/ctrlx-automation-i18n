@@ -21,8 +21,8 @@
     "datetime": {
       "headlineBrowser": "Your browser",
       "headlineCtrlxCore": "ctrlX OS",
-      "date.tooltip": "Date syntax: mm/dd/yyyy",
-      "invalidDate.error": "Invalid date - expected date syntax: mm/dd/yyyy",
+      "date.tooltip": "Date syntax: {{dateFormat}}",
+      "invalidDate.error": "Invalid date - expected date syntax: {{dateFormat}}",
       "time.tooltip": "Time syntax: hh:mm:ss",
       "timeRequired.error": "Time required - expected syntax: hh:mm:ss",
       "timezone.tooltip": "Local timezone",
@@ -45,7 +45,6 @@
       "notificationDeviceName.error": "Error while reading device date: ",
       "notificationTime.success": "Time settings saved successfully",
       "notificationTime.error": "Saving time settings failed",
-      "differBrowserCtrlx": "Date or time of ctrlX OS differs from your browser by more than one minute",
       "saveError": "Saving not possible because of invalid user input",
       "clockWindbackHint": "Please note that setting the clock back for more than 24 hours invalidates time-based licenses.",
       "clockWindbackHint2": "To reactivate the licenses, contact your support representative.",
@@ -120,37 +119,37 @@
       "shutDownHint2": "The system can't be reached anymore. You can close this browser window now."
     },
     "firmware-update": {
-      "info1": "To update the device firmware, provide a system image file.",
-      "info2": "Optionally provide a backup file to initialize the device with settings and resources after the update.",
+      "info1": "Provide a system image file.",
+      "info2": "Additionally you can provide a backup file to initialize the device with settings and resources after flashing.",
       "info3": "The files are uploaded to the device and temporarily stored on an external storage medium.",
       "info5": "This medium is made bootable and repartitioned. All data on this medium is lost!",
-      "info4": "After the upload the device reboots automatically to perform the update.",
+      "info4": "After the upload, the device reboots automatically to flash the system image.",
       "firmware-file.label": "System image",
       "firmware-file.error": "Please select a system image file",
       "backup-file.label": "Backup file (optional)",
       "backup-file.password": "Backup file password (optional)",
       "target.label": "Medium for temporary storage",
       "target.placeholder": "No medium attached",
-      "target.error": "The update requires an external storage medium to be attached",
+      "target.error": "For flashing, an external storage medium to be attached",
       "target.hint": "For this device, the medium has to be attached to USB port XF01C",
       "file.placeholder": "Click here to select a file",
-      "start.button": "Start firmware update",
+      "start.button": "Flash system image",
       "password.placeholder": "Enter password",
-      "warning.title": "Perform firmware update?",
+      "warning.title": "Flash system image?",
       "warning.text": "If you continue, all your settings, apps and data on the device and on the extension of the system data (if present) are lost! Media mounted for data exchange are not affected.",
       "warning.text2": "All data on the external storage \"{{media}}\" is lost!",
-      "progress.title": "Preparing firmware update",
+      "progress.title": "Preparing to flash the system image",
       "progress.checksums": "Calculating checksums",
       "progress.prepareMedium": "Preparing medium for temporary storage. This might take several minutes",
       "progress.upload": "Uploading files",
-      "service-state.callout": "The system is currently in the state {{state}}. To update the firmware, switch to the state \"Service\" in the header.",
-      "not-supported": "This device does not support firmware updates",
+      "service-state.callout": "The system is currently in the state {{state}}. To flash the system image, switch to the state \"Service\" in the header.",
+      "not-supported": "This device does not support flashing system images",
       "updating": {
-        "title": "Updating firmware...",
-        "text1": "The device is now rebooting and updating the firmware. This may take up to 30 minutes.",
+        "title": "Flashing system image...",
+        "text1": "The device is now rebooting and flashing the system image. This may take up to 30 minutes.",
         "text2": "Do not power off the device until the process is finished!",
-        "text3": "The device is not reachable during the update.",
-        "text4": "After the update, use the default network settings or the ones provided by the setup file to reach the device.",
+        "text3": "The device is not reachable during flashing.",
+        "text4": "After flashing, use the default network settings or the ones provided by the setup file to reach the device.",
         "text5": "We are trying to reconnect automatically.",
         "text6": "If this does not work, please connect manually either by using",
         "textConnectByDefIP": "the default IP address",
@@ -159,9 +158,10 @@
       }
     },
     "factoryReset": {
+      "service-state.callout": "The system is currently in the state {{state}}. To reset device data, switch to the state \"Service\" in the header.",
       "noMediumMounted": "No suitable medium mounted",
       "goToStorageHint": "Click | here | to format and mount media",
-      "target.error": "To reset the device, mount a FAT32-formatted medium with sufficient space for data exchange.",
+      "target.error": "To reset the device data, mount a FAT32-formatted medium with sufficient space for data exchange.",
       "target.hint": "For this device, the medium should not be connected to the USB port XF01C",
       "text1": "This will reset the device to its initial state:",
       "text2": "All settings are reset to their default values.",
@@ -182,11 +182,11 @@
       "processHint2": "The device will reboot and perform the reset. This may take up to 30 minutes.",
       "processHint3": "Do not power off the device until the reset is finished!",
       "reset": {
-        "button": "Reset device"
+        "button": "Reset device data"
       },
       "resetWarning": {
-        "title": "Reset device?",
-        "description": "If you continue, the device is reset and all your apps and settings are lost. This cannot be undone."
+        "title": "Reset device data?",
+        "description": "If you continue, the device data is reset and all your apps and settings are lost. This cannot be undone."
       },
       "progress": {
         "title": "Preparing reset of device data..."

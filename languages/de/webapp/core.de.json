@@ -5,7 +5,8 @@
     "close.button": "Schließen",
     "save.button": "Speichern",
     "discard.button": "Verwerfen",
-    "refresh.button": "Aktualisieren"
+    "refresh.button": "Aktualisieren",
+    "continue.button": "Weiter"
   },
   "core.fileselect": {
     "accepted": "Nur Dateien vom Typ {{param}} werden akzeptiert"
@@ -32,6 +33,10 @@
     "title": "Seite nicht gefunden",
     "message": "Unter dem angegebenen Pfad {{param}} wurde keine Seite gefunden.",
     "back.button": "Zurück"
+  },
+  "core.redirect": {
+    "title": "Umleitung auf externe Seite bestätigen",
+    "message": "Sie werden zu '{{param}}' umgeleitet. Dies könnte ein Sicherheitsproblem sein. Sie sollten nur fortfahren, wenn Sie keine Bedenken hinsichtlich dieser Seite haben."
   },
   "core.fossinfo": {
     "title": "Open-Source-Komponenten",
@@ -85,7 +90,8 @@
     "applyingSetup": "Stelle wieder her...",
     "applySetupWithWarnings": "Wiederherstellung erfolgreich, jedoch mit Warnungen",
     "applySetupFailed": "Wiederherstellung fehlgeschlagen",
-    "applySetupReportHint": "Details können unter 'Einstellungen - Sichern & Wiederherstellen - ... - Bericht' eingesehen werden."
+    "applySetupReportHint": "Details können unter 'Einstellungen - Sichern & Wiederherstellen - ... - Bericht' eingesehen werden.",
+    "separatorOr": "oder"
   },
   "core.unsavedMessage": {
     "title": "Nicht gespeicherte Änderungen an {{param}}",
@@ -112,5 +118,24 @@
   "core.monitoring": {
     "title": "Netzwerkverbindung unterbrochen",
     "message": "Überprüfen Sie die Netzwerkverbindung (WiFi, Kabel, Router, Switches) und stellen Sie sie wieder her. Prüfen Sie bei einer virtuellen Steuerung, ob diese noch läuft und starten Sie sie gegebenenfalls neu."
+  },
+  "core.settings.categories": {
+    "apps": "Apps",
+    "device": "Gerät",
+    "system": "System",
+    "security": "Sicherheit",
+    "network": "Netzwerk"
+  },
+  "core.timeMismatch": {
+    "timeSettings.link": "Zeiteinstellungen öffnen",
+    "message": "Die Zeit auf dem Gerät scheint falsch eingestellt zu sein. Dies kann zu Problemen mit Lizenzen, Zertifikaten und anderem führen."
+  },
+  "core.shared.searchableSelect": {
+    "noEntriesFound": "Keine passenden Einträge gefunden",
+    "searchPlaceholder": "Suche"
+  },
+  "core.shared.iconPicker": {
+    "label": "Symbol",
+    "noIcon": "Kein Symbol"
   }
 }

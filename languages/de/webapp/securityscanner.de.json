@@ -33,7 +33,7 @@
     "customDescr": "Spezifischen Scan über die NMAP-Befehlszeile definieren",
 
     "selectAOption": "Wählen Sie eine Option aus",
-    
+
     "scanJobItemType": "Scanjob"
   },
   "secscan.scanjobs": {
@@ -53,7 +53,9 @@
     "stopScan.title": "Stop Scan",
     "stopScan.confirmation": "Sind Sie sicher, dass Sie den Scan '{{param}}' stoppen wollen?",
     "stop.button": "Stop",
-    "downloadAsTemplate.tooltip": "Als Vorlage herunterladen"
+    "downloadAsTemplate.tooltip": "Als Vorlage herunterladen",
+    "progress": "Scan-Fortschritt",
+    "starting": "Scan wird gestartet ..."
   },
   "secscan.addScanJobDialog": {
     "title": "Neuen Scanjob hinzufügen",
@@ -63,7 +65,8 @@
     "fileName": "Name der Vorlagendatei",
     "selectTemplateFile.tooltip": "Vorlagendatei auswählen",
     "selectTemplateFileMessage": "Wählen Sie eine Vorlagendatei aus",
-    "templateFileContentInvalidMessage": "Ungültiger Dateiinhalt"
+    "templateFileContentInvalidMessage": "Ungültiger Dateiinhalt",
+    "removeNetInterface": "Netzwerkschnittstelle nicht aus Vorlage importieren"
   },
   "secscan.nameValidator": {
      "errMinLen": "Name darf nicht leer sein",
@@ -132,7 +135,8 @@
   "secscan.customNmapScanEditor": {
     "commandLine": "Nmap Kommandozeilenargumente",
     "commandLineExample": "z.B. -sP 192.168.0.1/24",
-    "enterCommandLineArgs": "Geben Sie Kommandozeilenargumente ein"
+    "enterCommandLineArgs": "Geben Sie Kommandozeilenargumente ein",
+    "forbiddenCharacters": "Verbotene Zeichen erkannt: ; | & > < ` $ ( ) { } [ ] * ? ~ \\"
   },
   "secscan.targetsTabPage": {
     "addTarget.tooltip": "Target hinzufügen",
@@ -145,7 +149,7 @@
   },
   "secscan.scanResults": {
     "scanResultsTitle": "Scanergebnisse results ({{param}})",
-    "start": "Start (UTC)",
+    "start": "Start",
     "duration": "Dauer",
     "status": "Status",
     "download.tooltip": "Bericht herunterladen...",

@@ -6,11 +6,13 @@
     "close.button": "Close",
     "discard.button": "Discard",
     "add.button": "Add",
+    "apply.button": "Apply",
     "remove.button": "Remove",
 
     "edit.tooltip": "Edit",
     "delete.tooltip": "Delete",
     "copy.tooltip": "Copy",
+    "copyToClipboard.tooltip": "Copy to clipboard",
 
     "delete.confirmation": "Are you sure you want to delete {{param}}?",
     "delete.button": "Delete",
@@ -25,38 +27,39 @@
   },
 
   "idm.startpage": {
+    "managementTilesTitle": "Management",
+    "monitoringTilesTitle": "Monitoring",
+    "settingsTilesTitle": "Settings",
+
     "usersTileTitle": "Users",
-    "usersTileDescription": "Create, edit and manage users.",
-    "usersDetailsButtonLabel": "Show users...",
+    "usersTileDescription": "Create, edit and manage users",
 
     "groupsTileTitle": "Groups",
-    "groupsTileDescription": "Create, edit and manage groups.",
-    "groupsDetailsButtonLabel": "Show groups...",
+    "groupsTileDescription": "Create, edit and manage groups",
 
     "permissionsTileTitle": "Permissions",
-    "permissionsTileDescription": "Assign permissions to users and groups.",
-    "permissionsDetailsButtonLabel": "Show permissions...",
+    "permissionsTileDescription": "Assign permissions to users and groups",
+
+    "ssoTileTitle": "Single Sign On",
+    "ssoTileDescription": "Edit roles and identity providers for single sign on",
 
     "sessionsTileTitle": "Sessions",
-    "sessionsTileDescription": "View and terminate running sessions.",
-    "sessionsDetailsButtonLabel": "Show sessions...",
+    "sessionsTileDescription": "View and terminate running sessions",
 
-    "moreSettingsTileTitle": "More settings",
-    "moreSettingsTileDescription": "Policies, banner, remote authentication, service access",
-    "moreSettingsDetailsButtonLabel": "Show more settings..."
-  },
-
-  "idm.settingsBottomMenu": {
-    "passwordPoliciesTitle": "Password policies",
-    "passwordPoliciesDescription": "Edit rules for passwords",
-    "sessionPoliciesTitle": "Session policies",
-    "sessionPoliciesDescription": "Edit rules for sessions",
-    "loginBannerTitle": "Login banner",
-    "loginBannerDescription": "Configure login banner text",
-    "remoteAuthSetupTitle": "Remote authentication",
-    "remoteAuthSetupDescription": "Edit remote authentication settings",
-    "easyServiceAccessTitle": "Easy service access",
-    "easyServiceAccessDescription": "Edit easy service access settings"
+    "passwordPoliciesTileTitle": "Password policies",
+    "passwordPoliciesTileDescription": "Edit rules for passwords",
+    
+    "sessionPoliciesTileTitle": "Session policies",
+    "sessionPoliciesTileDescription": "Edit rules for sessions",
+    
+    "loginBannerTileTitle": "Login banner",
+    "loginBannerTileDescription": "Configure login banner text",
+    
+    "remoteAuthSetupTileTitle": "LDAP / RADIUS",
+    "remoteAuthSetupTileDescription": "Edit remote authentication settings",
+    
+    "easyServiceAccessTileTitle": "Easy service access",
+    "easyServiceAccessTileDescription": "Edit easy service access settings"
   },
 
   "idm.addGroupDialog": {
@@ -100,7 +103,8 @@
     "groupNameMayContain": "Group name may contain lower case letters [a-z], digits [0-9], '_' or '-'. It may end with '$'.",
     "groupNameAlreadyExisting": "This group name already exists.",
     "groupNameReserved": "This group name is reserved.",
-    "groupNameReservedInternal": "This group name is reserved for internal use."
+    "groupNameReservedInternal": "This group name is reserved for internal use.",
+    "errUserWithThisNameExists": "A user with this name already exists."
   },
 
   "idm.changePasswordDialog": {
@@ -146,7 +150,8 @@
     "error": "Error: {{param}}",
     "changesSavedMsg": "Changes have been saved. Some changes are only applied upon the next login.",
     "passwordChangedMsg": "Password has been changed.",
-    "missingPermissionsMsg": "You do not have the required permissions."
+    "missingPermissionsMsg": "You do not have the required permissions.",
+    "callbackUrlCopiedMsg": "Callback URL copied to clipboard."
   },
 
   "idm.remoteAuthSettings": {
@@ -395,6 +400,85 @@
     "theFollowingPermissionsAreRequired": "The following permissions are required:",
     "purpose": "Purpose:",
     "applySelection.button": "Apply selection"
+  },
+
+  "idm.ssoComponent": {
+    "roles": "Roles",
+    "identityProviders": "Identity providers"
+  },
+
+  "idm.rolesComponent": {
+    "noRolesMsg": "No roles available",
+    "add.button": "Add role",
+    "name": "Name",
+    "deleteRole.title": "Delete role"
+  },
+
+  "idm.roleEditor": {
+    "role": "Role",
+    "permissionsTab": "Permissions"
+  },
+
+  "idm.identityProvidersComponent": {
+    "oidcTilesTitle": "OpenID Connect identity providers",
+    "noIdentityProvidersMsg": "No identity providers available",
+    "add.button": "Add identity provider",
+    "name": "Name",
+    "deleteIdentityProvider.title": "Delete identity provider"
+  },
+
+  "idm.addIdentityProviderDialog": {
+    "title": "Add identity provider",
+    "protocol": "Protocol",
+    "name": "Name",
+    "nameRequiredMsg": "Enter a name",
+    "namePatternMsg": "Name may contain a-z, A-Z, 0-9, '_', '-'",
+    "nameMaxLengthMsg": "Name may not exceed {{param}} characters",
+    "nameExistsMsg": "This name is already taken"
+  },
+
+  "idm.oidcProviderEditor": {
+    "issuerUrl": "Issuer URL",
+    "callbackUrl": "Callback URL",
+    "clientId": "Client ID",
+    "clientSecret": "Client secret",
+    "confirmClientSecret": "Confirm client secret",
+    "roleClaimPath": "Role claim path (JSONPath notation)",
+    "roleClaimSeparator": "Role claim separator",
+    "issuerUrlHelp": "Enter the URL that uniquely identifies the OIDC provider. Consult your OIDC provider's administrator for more information.",
+    "callbackUrlHelp": "Enter the URL that the OIDC provider requires for redirection after authentication.",
+    "clientIdHelp": "Enter the ID that the OIDC provider will use to identify your device. Consult your OIDC provider's administrator for more information.",
+    "clientSecretHelp": "Enter the secret that the OIDC provider will use to authenticate your device. Consult your OIDC provider's administrator for more information.",
+    "confirmClientSecretHelp": "Confirm the client secret entered above.",
+    "roleClaimPathHelp": "Enter the JSONPath expression that addresses the role claim in the token. Consult your OIDC provider's administrator for more information.",
+    "roleClaimSeparatorHelp": "Enter the delimiter character that separates role names if they are provided in a single string. Consult your OIDC provider's administrator for more information.",
+    "oidcProvider": "OIDC provider",
+    "enterUrl": "Enter a URL",
+    "errMaxLength": "Enter maximum {{param}} characters",
+    "enterValidUrl": "Enter a valid URL",
+    "enterClientId": "Enter a client ID",
+    "enterClientSecret": "Enter a client secret",
+    "enterClientSecretConfirmation": "Enter client secret confirmation",
+    "errClientSecretMismatch": "Client secret confirmation does not match",
+    "errRoleClaimPathPattern": "Enter a role claim path in JSONPath notation"
+  },
+
+  "idm.addRoleDialog": {
+    "title": "Add role",
+    "name": "Name",
+    "nameRequiredMsg": "Enter a name",
+    "namePatternMsg": "Name may contain a-z, A-Z, 0-9, '@', '.', '_', '-'",
+    "nameMaxLengthMsg": "Name may not exceed {{param}} characters",
+    "nameExistsMsg": "This name is already taken"
+  },
+
+  "idm.nameEditorDialog": {
+    "title": "Edit name",
+    "name": "Name",
+    "errRequired": "Enter a name",
+    "errMaxLen": "Name may not exceed {{param}} characters",
+    "errExisting": "This name is already existing",
+    "errInvalid": "This name is not valid. Valid characters are: {{param}}"
   }
 
 }

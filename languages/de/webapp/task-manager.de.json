@@ -64,10 +64,10 @@
       "cpuSettings": "CPU-Einstellungen",
       "high": "Aktualisiert jede Sekunde",
       "normal": "Aktualisiert alle 5 Sekunden",
-      "low": "Aktualsiert alle 10 Sekunden"
+      "low": "Aktualisiert alle 10 Sekunden"
     },
     "information": {
-      "general": "Allgemeines",
+      "general": "Allgemein",
       "hardware": "Hardware",
       "hostname": "Host-Name",
       "operatingSystem": "Betriebssystem",
@@ -78,6 +78,8 @@
       "virtualized": "Virtualisiert",
       "secureBoot": "Sicheres booten",
       "kernelModules": "Kernel-Module",
+      "model": "CPU-Modell",
+      "ctrlxOsVersion": "ctrlX OS-Version",
       "typePlate": "Typenschild",
       "typePlate.serialNumber": "Seriennummer",
       "typePlate.materialNumber": "Materialnummer",
@@ -90,9 +92,9 @@
       "typePlate.storeBrandId": "Store brand ID",
       "typePlate.storeModelId": "Store model ID",
       "typePlate.storeSerialId": "Store serial ID",
-      "typePlate.hardwareRevision": "Hardware version",
+      "typePlate.hardwareRevision": "Hardwareversion",
       "typePlate.uuid": "UUID",
-      "typePlate.biosVersion": "BIOS version",
+      "typePlate.biosVersion": "BIOS-Version",
       "typePlate.ctrlXDeviceId": "ctrlX Device ID",
       "totMemory": "Gesamtspeicher",
       "swapMemory": "Swap-Speicher",
@@ -107,12 +109,12 @@
     "resources": {
       "resourcestitle": "Ressourcen",
       "ramusage": "RAM-Auslastung",
-      "cpuusage": "CPU-Verwendung",
-      "cores": "Cores",
+      "cpuusage": "CPU-Auslastung",
+      "cores": "Kerne",
       "memory": "Speicher",
       "reservedCores": "Reserviert für Echtzeitverarbeitung",
       "reservedMemory": "Reservierter Speicher für Echtzeitverarbeitung",
-      "networkusage": "Netzwerkverwendung",
+      "networkusage": "Netzwerkauslastung",
       "sensors": "Sensoren",
       "sensors.emmclifetimeused": "Verwendete eMMC-Lebensdauer",
       "sensors.temperature": "Temperatur",
@@ -149,7 +151,7 @@
       "state.stoppedByJob": "Beendet durch Job-Steuersignal",
       "state.stoppedByDebug": "Beendet durch Debugger während Trace",
       "state.zombie": "Zombie",
-      "lastUsedCpuCore": "CPU core",
+      "lastUsedCpuCore": "CPU-Kern",
       "searchErrorNotification": "Kein Prozess passt zu den angegebenen Suchkriterien!",
       "searchThreadErrorNotification": "Keiner der Threads passt zu den angegeben Suchkriterien!",
       "filterErrorNotification": "Keiner der Threads passt zu den angegeben Filterkriterien!"
@@ -157,7 +159,7 @@
     "tooltip": {
       "averageloadMsg": "Die Durchschnittslast ist die durchschnittliche Systemlast, die über eine Zeitspanne von 1, 5 oder 15 Minuten berechnet wird.",
       "memoryInBytes": "Speicher ist identisch für alle Threads in einem Prozess",
-      "lastUsedCpuCore": "Letzter verwendeter CPU core",
+      "lastUsedCpuCore": "Letzter verwendeter CPU-Kern",
       "netUsageMsg": "Nur verbundene und aktivierte Netzwerkschnittstellen werden angezeigt.",
       "cpuUsage": "Reserviert für die Bearbeitung einer Echtzeit-Task",
       "coreReservedBySystem": "Vom System reserviert",
@@ -170,6 +172,13 @@
       "value.error": "Speicherwert muss im Bereich sein von",
       "decimalvalue.error": "Dezimalwert ist nicht erlaubt. Geben Sie einen gültigen Wert ein.",
       "ramMemoryReserved": "für Echtzeit-Apps reserviert"
+    },
+    "energyProfile": {
+      "tabLabel": "Energieprofil",
+      "dialogTitle": "Energieprofil auswählen",
+      "performance": "Performance",
+      "balanced": "Balanced",
+      "generalInfo": "Performance: Konfiguriert das System so, dass es durch maximale Ressourcenzuweisung eine maximale Verarbeitungsgeschwindigkeit und Reaktionsfähigkeit bietet. Empfohlen bei der Verwendung von Echtzeitanwendungen\n\nBalanced: Optimiert die Systemeinstellungen, um eine gute Mischung aus Leistung und Energieeffizienz zu bieten, die für allgemeine Arbeitslasten geeignet ist, die Reaktionsfähigkeit ohne übermäßigen Stromverbrauch erfordern. Nicht empfohlen bei der Verwendung von Echtzeitanwendungen"
     }
   }
 }

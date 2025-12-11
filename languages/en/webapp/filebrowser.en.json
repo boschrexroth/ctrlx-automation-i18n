@@ -7,18 +7,18 @@
     "elementExists.message": "'{{param}}' already exists in different spelling.",
     "fileNotFound.message": "File '{{param}}' not found.",
     "forbidden.message": "You do not have the required permissions",
-    "redirectingToHomepage.message": "Redirecting to homepage.",
+    "redirectingToHomepage.message": "You have been redirected to the homepage.",
     "refreshView.message": "Please refresh the view.",
     "refreshingFailed.message": "Refreshing '{{param}}' failed.",
     "rootNotFound.message": "'{{param}}' not found.",
     "uploadingFailed.message": "Uploading failed",
-    "writingFileFailed.message": "Writing file failed. Please check if enough free storage is available on the device.",
+    "writingFileFailed.message": "Writing file failed. Please check if you have the required permissions and if there is enough free storage on the device.",
 
     "downloadingFile.title": "Downloading file...",
     "uploadingFile.title": "Uploading file...",
 
     "readonly.tooltip": "Element is write-protected",
-    "refresh.tooltip": "Refreshes view"
+    "refresh.tooltip": "Refreshes the view"
   },
   "filebrowser.file-browser": {
     "delete.button": "Delete",
@@ -31,6 +31,9 @@
     "actions.copy.submenu": "Copy",
     "actions.move.submenu": "Move",
     "actions.delete.submenu": "Delete",
+    "actions.showDetails.submenu": "Show details",
+    "actions.hideDetails.submenu": "Hide details",
+    "actions.refresh.submenu": "Refresh",
 
     "uploadFile.tooltip": "Uploads file",
     "createElement.tooltip": "Creates directory or file",
@@ -65,7 +68,9 @@
     "unsavedChanges.tooltip": "Unsaved changes",
     "unsavedChangesWithErrors.text": "You can save (with validation errors!) or discard your changes. Cancel to continue editing.",
     "unsupportedFileFormat.text": "Preview not supported for this file format",
-    "unsupportedFileSize.text": "Preview not supported due to file size"
+    "unsupportedFileSize.text": "Preview not supported due to file size",
+    "expandView.tooltip": "Expands view",
+    "reduceView.tooltip": "Reduces view"
   },
   "filebrowser.file-name-dialog": {
     "copyDirectory.title": "Copy directory",
@@ -82,6 +87,9 @@
     "move.button": "Move",
     "rename.button": "Rename",
     "upload.button": "Upload",
+    "upload.extract.checkbox": "Extract content to",
+    "upload.extract.dataExists": "Contained files replace existing files or directories.",
+    "upload.extract.hint": "<current directory>",
     "directory.label": "Directory",
     "file.label": "File",
     "targetName.label": "Target name",

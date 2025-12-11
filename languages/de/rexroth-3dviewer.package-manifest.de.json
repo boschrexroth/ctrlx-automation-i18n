@@ -16,5 +16,7 @@
 	"scopes-declaration.rexroth-3dviewer.axis.rw.name": "Modelle konfigurieren",
 	"scopes-declaration.rexroth-3dviewer.axis.rw.description": "Konfiguration einsehen und ändern",
 	"scopes-declaration.3dviewer.axis.rw.requiredScopes.rexroth-automation.datalayer.r.name": "Leseberechtigung für Data Layer",
-	"scopes-declaration.3dviewer.axis.rw.requiredScopes.rexroth-automation.datalayer.r.description": "Leseberechtigung für alle Data Layer Knoten"
+	"scopes-declaration.3dviewer.axis.rw.requiredScopes.rexroth-automation.datalayer.r.description": "Leseberechtigung für alle Data Layer Knoten",
+	"widget-uiextensions.3dviewer.name": "3D Viewer",
+	"widget-uiextensions.3dviewer.description": "Zeigt die Modellansicht"
 }

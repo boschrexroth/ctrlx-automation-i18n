@@ -9,13 +9,19 @@
         "diagnostics": "Diagnosen",
         "netId": "NetID",
         "status": "Status",
-        "dcSupport": "DC-Unterstützung"
+        "dcSupport": "DC-Unterstützung",
+        "dataLength": "Datenlänge",
+        "displayFormat": "Anzeigeformat",
+        "unit": "Einheit",
+        "value": "Wert",
+        "channel": "Kanal"
       },
       "identity": {
         "vendor": "Hersteller",
         "productCode": "Produktcode",
         "revisionNumber": "Revision",
-        "serialNumber": "Seriennummer"
+        "serialNumber": "Seriennummer",
+        "vendorId": "Hersteller-ID"
       },
       "add.button": "Hinzufügen",
       "cancel.button": "Abbrechen",
@@ -32,35 +38,49 @@
         "add": "ctrlX I/O Engineering starten",
         "info1": "ctrlX I/O Engineering ist eine Windows Desktop-Anwendung um ein EtherCAT-Netzwerk zu konfigurieren und diagnostizieren.",
         "info2": "ctrlX I/O Engineering ist Teil von ctrlX WORKS. Für ctrlX WORKS, gehen Sie zum {{ ctrlXStore }}."
-      }
+      },
+      "noRequiredPermission": "Sie haben nicht die notwendigen Berechtigungen für diese Funktionalität"
     },
     "masteroverview": {
       "tabs": {
         "label.overview": "Slaves",
         "label.slavestatistics": "Slave-Statistik",
         "label.aoe": "AoE",
-        "label.eoe": "EoE"
+        "label.eoe": "EoE",
+        "label.coe": "CoE",
+        "label.voe": "VoE"
       }
     },
     "ecm": {
+      "distributedclock": {
+        "title": "Distributed Clock"
+      },
       "distributedclocks": {
+        "header": {
+          "syncShift": "Sync-Offset",
+          "sendOffset": "Offset senden",
+          "settings": "Einstellungen",
+          "timing": "Timing"
+        },
+        "label": {
+          "continuousDelayCompensation": "Kontinuierliche Laufzeitkompensation",
+          "cycleTime": "Zykluszeit",
+          "deviationLimit": "Grenzwert",
+          "shiftTime": "Shift time",
+          "syncMode": "DC-Modus",
+          "syncWindowMonitoring": "Sync-Fensterüberwachung",
+          "systemTime": "Systemzeit"
+        },
+        "text": {
+          "active": "Aktiv",
+          "notActive": "Inaktiv"
+        },
         "title": "Distributed Clocks",
-        "label.syncMode": "DC-Modus",
-        "label.cycleTime": "Zykluszeit",
-        "unit.cycleTime": "µs",
-        "header.syncShift": "Sync-Offset",
-        "label.syncShiftTimeToCycleTimePercent": "Prozent der Zykluszeit",
-        "label.syncShiftTime": "Sync-Offset-Zeit",
-        "unit.syncShiftTime": "µs",
-        "header.syncWindow": "Sync-Fenster",
-        "label.syncWindowMonitoring": "Sync-Fensterüberwachung",
-        "label.deviationLimit": "Grenzwert",
-        "unit.deviationLimit": "µs",
-        "label.continuousDelayCompensation": "Kontinuierliche Laufzeitkompensation",
-        "text.yes": "Ja",
-        "text.no": "Nein",
-        "text.active": "Aktiv",
-        "text.notActive": "Inaktiv"
+        "unit": {
+          "cycleTime": "µs",
+          "deviationLimit": "µs",
+          "syncShiftTime": "µs"
+        }
       },
       "statistics": {
         "tabHeader": "Master-Statistik",
@@ -91,7 +111,7 @@
       "label.linkAvailable": "Link vorhanden",
       "label.topologyOk": "Topologie OK",
       "label.masterInTargetState": "Master im Zielzustand",
-      "label.slavesinMasterState": "Slaves im Master-Zustand",
+      "label.slavesinMasterState": "Slaves in Master-Zustand",
       "label.slavesWithoutError": "Slaves ohne Fehler",
       "label.masterInOp": "Master in OP",
       "label.dcInSync": "DC in-sync",
@@ -114,7 +134,7 @@
           "NoEthernetLink": "Link vorhanden",
           "TopologyNotOk": "Topologie OK",
           "NotInRequestedState": "Master im angeforderten Zustand",
-          "SlavesNotInMasterState": "Slaves im Master-Zustand",
+          "SlavesNotInMasterState": "Slaves in Master-Zustand",
           "SlavesError": "Slaves ohne Fehler",
           "NotInStateOp": "Master in OP",
           "SettingsInvalid": "Einstellungen gültig",
@@ -146,26 +166,39 @@
       "noDatalayerPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen.",
       "componentInServiceMode": "Die App ist gerade im Zustand 'Service'. Bitte schalten Sie in den 'Setup'- oder 'Operating'-Zustand",
       "schedulerTaskNotConfigured": "Keine Scheduler-Tasks für diese EtherCAT Master-Instanz konfiguriert. Gehe zu 'Einstellungen' > 'Scheduler' um eine Task zu konfigurieren",
+      "invalidSlaveState": "Slave ist im ungültigen Zustand - {{slaveState}}",
       "instanceDoesNotExist": {
         "header": "Der EtherCAT Master '{{ masterInstance }}' existiert nicht",
         "addText": "Gehen Sie auf die Seite 'EtherCAT Master', um einen anderen Master auszuwählen oder einen neuen zu erstellen.",
         "info": "Ein EtherCAT-Master wird als Software-Gerät erstellt und verwendet eine physikalische Ethernet-Schnittstelle der ctrlX CORE.\nDadurch kann auf E/As und Antriebe über EtherCAT zugegriffen werden. EtherCAT ist ein Ethernet-basierter Realtime-Feldbus."
-      }
+      },
+      "switchToSetupMode": "Schalten Sie das System zunächst nach 'Setup\".",
+      "timeout": "Beim Warten darauf, dass der Master auf 'init' umschaltet, wurde die Zeit überschritten."
     },
     "configuration": {
       "add-master": {
         "title": "EtherCAT Master hinzufügen",
-        "name.required": "Geben Sie einen Namen ein",
-        "name.maxlength": "Der Name hat mehr als 15 Zeichen",
         "name.pattern": "Ungültiger Name",
         "msg.noLicense": "Keine Lizenz für den EtherCAT Master verfügbar.",
-        "msg.noInterface": "Es gibt keine EtherCAT-fähige Schnittstelle"
+        "msg.noInterface": "Keine EtherCAT-fähige Schnittstelle verfügbar.",
+        "name.duplicate": "Der Name wird bereits verwendet",
+        "task": "Task",
+        "coreIndex": "RT-Kernindex",
+        "priority": "Priorität",
+        "beforeSyncPoints": "Vor SyncPoints",
+        "afterSyncPoints": "Nach SyncPoints",
+        "required": "Erforderliches Feld",
+        "maxlength": "Der Name hat mehr als 16 Zeichen",
+        "noCoreAvailable": "Kein CPU-Kern verfügbar",
+        "onlyNumber": "RT-Kernindex kann nur Zahlen enthalten",
+        "advancedSettings": "Erweiterte Einstellungen"
       },
       "del-master": {
         "title": "EtherCAT Master löschen",
         "info1": "Der EtherCAT Master '{{instanceName}}' wird gelöscht.",
         "info2": "Die Feldbuskommunikation wird gestoppt und die Konfiguration entfernt.",
-        "warning": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren."
+        "warning": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren.",
+        "success": "EtherCAT Master '{{name}}' gelöscht."
       },
       "port.header": "Port",
       "redundancy": "Redundanz",
@@ -191,21 +224,143 @@
       "button.resetCounters": "Zähler zurücksetzen"
     },
     "slave": {
-      "general": {
-        "tabHeader": "Allgemeines"
+      "foe": {
+        "details": {
+          "panelTitle": "Details",
+          "password": "Passwort",
+          "requiredState": "Erforderlicher Zustand",
+          "timeout": "Timeout",
+          "selectState": "Zustand auswählen",
+          "selectTimeout": "Timeout auswählen",
+          "enterWithPassword": "Passwort eingeben"
+        },
+        "dialog": {
+          "foe": {
+            "confirmButton": "{{ dataType }}",
+            "body": "Aktion kann nicht rückgängig gemacht werden. Wollen Sie fortfahren?",
+            "title": "{{ data.type }} Datei"
+          },
+          "requiredState": {
+            "confirmButton": "Ja",
+            "body": "Wollen Sie zu {{ data.type }} wechseln und den Download starten?",
+            "title": "Slave befindet sich nicht im erforderlichen Zustand"
+          }
+        },
+        "filename": {
+          "error": {
+            "required": "Dateiname kann nicht leer sein",
+            "maxLength": "Die maximale Länge des Dateinamens beträgt 64 Zeichen",
+            "invalidChar": "Geben Sie gültige Zeichen ein (ungültige Zeichen: /, \\, :, *, ?, \", <, >, |)"
+          }
+        },
+        "inputFile": {
+          "button": "Datei auswählen",
+          "placeholder": "Keine Datei ausgewählt"
+        },
+        "notify": {
+          "error": {
+            "changeStateTimeout": "Fehler beim Umschalten in den gewünschten Zustand: Timeout. Bitte erneut versuchen.",
+            "downloadFailed": "Fehler beim Download: Download fehlgeschlagen. Bitte erneut versuchen.",
+            "message": "Fehler in {{ error.name }} ({{ error.status }}: {{ error.statusText }}); {{ error.error.detail }}",
+            "transferAlreadyRunning": "Fehler beim {{ transferLC }}: Es findet bereits eine Übertragung statt. Bitte versuchen Sie es später nochmal.",
+            "transferFailed": "Fehler: unbekannt",
+            "uploadFailed": "Fehler beim Upload: Hochladen fehlgeschlagen. Bitte erneut versuchen."
+          },
+          "success": {
+            "downloadFinished": "Datei \"{{ filename }}\" erfolgreich heruntergeladen",
+            "downloadFinishedWithNoFilename": "Datei erfolgreich heruntergeladen",
+            "uploadFinished": "Datei \"{{ filename }}\" erfolgreich hochgeladen"
+          }
+        },
+        "loadingScreen": {
+          "download.title": "Datei wird heruntergeladen...",
+          "initialStatus": "Schalten Sie das Gerät NICHT aus.",
+          "upload.title": "Datei wird hochgeladen..."
+        },
+        "localFilename": "Lokaler Dateiname",
+        "noPermissionForFoe": "Sie haben nicht die erforderlichen Berechtigungen um FoE zu nutzen",
+        "password": {
+          "error": {
+            "nan": "Geben Sie gültige Zeichen ein: 0-9, x, A-F, +, -",
+            "notInteger": "Geben Sie gültige Zeichen ein: 0-9, x, A-F, +, -",
+            "maxValue": "Geben Sie einen Wert zwischen 0/0x0 und 4294967295/0xFFFFFFFF ein",
+            "minValue": "Geben Sie einen Wert zwischen 0/0x0 und 4294967295/0xFFFFFFFF ein"
+          }
+        },
+        "slaveFilename": "Dateiname des Slaves",
+        "timeout": {
+          "error": {
+            "nan": "Geben Sie gültige Zeichen ein: 0-9, +, -",
+            "notInteger": "Geben Sie gültige Zeichen ein: 0-9, +, -",
+            "maxValue": "Geben Sie einen Wert zwischen 0 und 32768 ein",
+            "minValue": "Geben Sie einen Wert zwischen 0 und 32768 ein"
+          },
+          "info": "Um die Eingabe zu übernehmen, drücken Sie Enter oder Komma"
+        }
+      },
+      "soe": {
+        "error": {
+          "required": "inen Wert eingeben",
+          "idnFormatError": "Geben Sie einen Wert im IDN-Format ein: S-#-xxxx/P-#-xxxx (#=0-7; xxxx=0000-4095)",
+          "notAllowedChar": "Geben Sie gültige Zeichen ein: Code-Seite 850",
+          "notBinary": "Geben Sie einen Wert im binär-Format ein: 0b.xxxx.xxxx/xxxxxxxx (x=0-1)",
+          "notHex": "Geben Sie einen Wert im hexadezimalen Format ein: 0x0000-0xFFFF",
+          "nanError": "Geben Sie gültige Zeichen ein: 0-9, ., +, -",
+          "decimalPointError": "Geben Sie bis zu {{ decimalPlaces }} Dezimalstellen ein",
+          "minValueError": "Geben Sie einen Wert zwischen {{ minValue }} und {{ maxValue }} ein",
+          "maxValueError": "Geben Sie einen Wert zwischen {{ minValue }} und {{ maxValue }} ein",
+          "unknownError": "Geben Sie einen gültigen Wert ein"
+        },
+        "label": {
+          "searchIdn": "Suche IDN",
+          "edit-parameter": "Parameter bearbeiten",
+          "actionWrite": "Schreiben",
+          "actionClose": "Schließen",
+          "addParameter": "Parameter hinzufügen",
+          "deleteParameter": "Parameter löschen"
+        },
+        "parameterList": {
+          "allOperationData": "Alle Betriebsdaten",
+          "allProcedureCommands": "Alle Kommandos",
+          "allOperationDataBackup": "Sicherung von Betriebsdaten",
+          "configurableDataInMdt": "Konfigurierbare Daten im MDT",
+          "configurableDataInAt": "Konfigurierbare Daten im AT"
+        },
+        "emptyStateMessage": "Keine Elemente zum Anzeigen."
       },
       "identity": {
         "title": "Identität"
       },
+      "address": {
+        "title": "Adresse",
+        "ethercatAddress": "EtherCAT-Adresse",
+        "autoIncAddress": "AutoIncrement-Adresse"
+      },
       "mailbox": {
         "title": "Mailbox",
         "protocols": "Protokolle",
-        "mbxStandard": "Standard Out / Standard In",
-        "mbxBootstrap": "Bootstrap Out / Bootstrap In"
+        "mbxStandard": "Standard-Ausgang/Eingang",
+        "mbxBootstrap": "Bootstrap-Ausgang/Eingang"
+      },
+      "identification": {
+        "title": "Identifikation",
+        "type": "Typ",
+        "ado": "ADO",
+        "identifyValue": "Wert",
+        "disabled": "Deaktiviert"
+      }
+    },
+    "slaveoverview": {
+      "tabs.label": {
+        "foe": "FoE",
+        "general": "Allgemein",
+        "soeAxisStatus": "Achsstatus",
+        "soeParameters": "SoE",
+        "onlineVariables": "E/A-Variablen"
       }
     },
     "slaveStatus": {
-      "text":{
+      "text": {
         "set.NotOnline": "Nicht verbunden",
         "unset.NotOnline": "Verbunden",
         "set.Error": " Siehe 'AL Status'",
@@ -225,12 +380,57 @@
           "ipAddress": "IP-Adresse",
           "subnetMask": "Subnetzmaske",
           "defaultGateway": "Standard-Gateway"
-        }
+        },
+        "emptyStateMessage": "Keine Slaves, die EoE unterstützen, verfügbar."
       }
     },
     "ecm-aoe-config": {
       "masterConfiguration": {
         "header": "Master-Konfiguration"
+      },
+      "emptyStateMessage": "Keine Slaves, die AoE unterstützen, verfügbar.",
+      "slaveConfiguration": "Slave-Konfiguration"
+    },
+    "ecm-coe-config": {
+      "header": {
+        "index": "Index",
+        "name": "Name",
+        "value": "Wert",
+        "access": "Zugriff",
+        "type": "Typ"
+      },
+      "download": {
+        "tooltip": "Liste herunterladen als .csv"
+      },
+      "write-coe": {
+        "actionWrite": "Schreiben",
+        "actionClose": "Schließen",
+        "actionEdit": "Schreiben Sie den Objektwert"
+      },
+      "noItems": "Keine Elemente zum Anzeigen."
+    },
+    "ecm-foe-overview": {
+      "table": {
+        "progress": "Fortschritt",
+        "emptyStateMessage": "Keine Slaves, die FoE unterstützen, verfügbar."
+      }
+    },
+    "ec-voe": {
+      "emptyStateMessage": "Keine Slaves, die VoE unterstützen, verfügbar.",
+      "supportMessage": "Slave {{ slaveName }} unterstützt VoE."
+    },
+    "ecm-sync-units": {
+      "slaveHeader": "Slaves",
+      "slavesColumnHeaders": {
+        "name": "Name",
+        "state": "Zustand",
+        "diagnostics": "Diagnose"
+      },
+      "syncUnitsHeader": "Sync Units",
+      "syncUnitsColumnHeaders": {
+        "name": "Name",
+        "inputsValid": "Eingänge gültig",
+        "outputsValid": "Ausgänge gültig"
       }
     }
   }

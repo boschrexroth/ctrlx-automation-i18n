@@ -1,5 +1,5 @@
 {
-  "product": "MOT-V-0306",
+  "product": "MOT-V-0404",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
@@ -76,6 +76,10 @@
         "0C570006": {
           "text": "Error level set by calling command SetErrorLevel",
           "version": 1
+        },
+        "0C570010": {
+          "text": "Error level set by calling the \"EMERGENCY STOP\" command",
+          "version": 1
         }
       }
     },
@@ -110,6 +114,38 @@
         "0C550147": {
           "text": "Jog motion ended, as the limit value of the position was reached",
           "version": 1
+        },
+        "0C55014A": {
+          "text": "The kinematics reached axis position limits.",
+          "version": 1
+        },
+        "0C55014B": {
+          "text": "Jog command reached mechanical limit of the kinematics.",
+          "version": 1
+        },
+        "0C55014D": {
+          "text": "Generic error in jog command.",
+          "version": 1
+        },
+        "0C55014E": {
+          "text": "Math error in jog command.",
+          "version": 1
+        },
+        "0C560140": {
+          "text": "A part of the commanded motion is not covered by any active inclusive work areas.",
+          "version": 1
+        },
+        "0C560141": {
+          "text": "The commanded motion violates a safe zone.",
+          "version": 1
+        },
+        "0C560142": {
+          "text": "The commanded motion left the basic work area.",
+          "version": 1
+        },
+        "0C560143": {
+          "text": "The commanded motion left one of the exclusive work areas.",
+          "version": 1
         }
       }
     },
@@ -117,6 +153,30 @@
       "text": "Message in the axis configuration",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550175": {
+          "text": "Commanded drive does not support the cyclic operation mode.",
+          "version": 1
+        },
+        "0C550176": {
+          "text": "The operation mode is not available in the cyclic axis profile data.",
+          "version": 1
+        },
+        "0C550177": {
+          "text": "Device is not correctly configured for cyclic operation mode specification.",
+          "version": 1
+        },
+        "0C550178": {
+          "text": "Cyclic homing status is not supported by the drive",
+          "version": 1
+        },
+        "0C550179": {
+          "text": "Cyclic data for homing status in the axis profile is not configured",
+          "version": 1
+        },
+        "0C55017A": {
+          "text": "Device is not correctly configured for the cyclic homing status signal",
+          "version": 1
+        },
         "0C56024A": {
           "text": "Axis jerk limit only partly set",
           "version": 1
@@ -293,6 +353,20 @@
         }
       }
     },
+    "090A0026": {
+      "text": "Status signal is not available for this axis",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
+        "0C550247": {
+          "text": "Function not yet implemented in the control",
+          "version": 1
+        }
+      }
+    },
     "090A0030": {
       "text": "Axis does not follow command values (setpoints)",
       "version": 1,
@@ -372,6 +446,14 @@
         "0C58070B": {
           "text": "Profile initialization finished",
           "version": 1
+        },
+        "0C58070D": {
+          "text": "This profile has been disabled by the checking function of another bundle.",
+          "version": 1
+        },
+        "0C58070E": {
+          "text": "Unable to retrieve homing status from device",
+          "version": 1
         }
       }
     },
@@ -402,6 +484,10 @@
           "version": 1
         }
       }
+    },
+    "090A0FF9": {
+      "text": "Trace message motion.somo",
+      "version": 1
     },
     "090A0FFA": {
       "text": "Trace message motion.robotics",
@@ -538,6 +624,10 @@
         "0C56024E": {
           "text": "Axis configuration is set to ignore the axis profile (axis becomes virtual)",
           "version": 1
+        },
+        "0C56024F": {
+          "text": "user specific error reaction is configured, but the error code of the device is not cyclic configured",
+          "version": 1
         }
       }
     },
@@ -563,6 +653,16 @@
         }
       }
     },
+    "090E0006": {
+      "text": "Very intense usage of command buffer",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570240": {
+          "text": "ContMotion command option uses more than 80% of the configured command buffer",
+          "version": 1
+        }
+      }
+    },
     "090E0010": {
       "text": "Warning in jog command of the axis",
       "version": 1,
@@ -580,6 +680,38 @@
         "0C550145": {
           "text": "Position is outside or at the limit value and is commanded to move further out",
           "version": 1
+        },
+        "0C55014A": {
+          "text": "The kinematics reached axis position limits.",
+          "version": 1
+        },
+        "0C55014B": {
+          "text": "Jog command reached mechanical limit of the kinematics.",
+          "version": 1
+        },
+        "0C55014D": {
+          "text": "Generic error in jog command.",
+          "version": 1
+        },
+        "0C55014E": {
+          "text": "Math error in jog command.",
+          "version": 1
+        },
+        "0C560140": {
+          "text": "A part of the commanded motion is not covered by any active inclusive work areas.",
+          "version": 1
+        },
+        "0C560141": {
+          "text": "The commanded motion violates a safe zone.",
+          "version": 1
+        },
+        "0C560142": {
+          "text": "The commanded motion left the basic work area.",
+          "version": 1
+        },
+        "0C560143": {
+          "text": "The commanded motion left one of the exclusive work areas.",
+          "version": 1
         }
       }
     },
@@ -589,6 +721,16 @@
       "detailedDiagnostics": {
         "0C57010F": {
           "text": "Axis cannot (or can no longer) follow the command values of the control.",
+          "version": 1
+        }
+      }
+    },
+    "090E0031": {
+      "text": "Monitoring of drive-follows-setpoints disabled",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570111": {
+          "text": "Monitoring function deactivated per command",
           "version": 1
         }
       }
@@ -680,6 +822,10 @@
           "version": 1
         }
       }
+    },
+    "090E0FF9": {
+      "text": "Trace warning motion.somo",
+      "version": 1
     },
     "090E0FFA": {
       "text": "Trace warning motion.robotics",
@@ -823,8 +969,20 @@
           "text": "Invalid flat buffer",
           "version": 1
         },
+        "0C580201": {
+          "text": "Failed to get memory map of the Data Layer",
+          "version": 1
+        },
         "0C580500": {
           "text": "Booting aborted",
+          "version": 1
+        },
+        "0C580502": {
+          "text": "Field bus master not available when booting the axis profile",
+          "version": 1
+        },
+        "0C580507": {
+          "text": "Field bus does not match the configuration",
           "version": 1
         },
         "0C580704": {
@@ -837,6 +995,10 @@
         },
         "0C580708": {
           "text": "Wait until the profile manager is available",
+          "version": 1
+        },
+        "0C58070C": {
+          "text": "Protocol between Motion and the field bus device is inconsistent",
           "version": 1
         }
       }
@@ -982,6 +1144,10 @@
         "0C580301": {
           "text": "The device series is not defined",
           "version": 1
+        },
+        "0C580306": {
+          "text": "The function is not supported by the device.",
+          "version": 1
         }
       }
     },
@@ -1043,12 +1209,44 @@
       "text": "Command error for axis profile",
       "version": 1,
       "detailedDiagnostics": {
+        "0C580035": {
+          "text": "Function not supported",
+          "version": 1
+        },
         "0C580102": {
           "text": "Failed to execute the axis profile command",
           "version": 1
         },
+        "0C580103": {
+          "text": "Feedback value is invalid, comm.axisprofile is not in OPERATION status or StatusWord is 0",
+          "version": 1
+        },
         "0C580302": {
           "text": "There might be a configuration error on the device.",
+          "version": 1
+        },
+        "0C580303": {
+          "text": "Input position beyond the traversing range of the device",
+          "version": 1
+        },
+        "0C580304": {
+          "text": "Encoder (or encoder ID) does not exist in the device",
+          "version": 1
+        },
+        "0C580305": {
+          "text": "Device reference parameters invalid",
+          "version": 1
+        },
+        "0C580307": {
+          "text": "Type error of the encoder measuring system",
+          "version": 1
+        },
+        "0C580308": {
+          "text": "Torque limit value exceeded",
+          "version": 1
+        },
+        "0C580309": {
+          "text": "Status error in the device",
           "version": 1
         }
       }
@@ -1249,6 +1447,22 @@
         },
         "0C550272": {
           "text": "Error while configuring the encoder axis",
+          "version": 1
+        },
+        "0C550338": {
+          "text": "Configuration of basic work area invalid - No work area defined with configured name",
+          "version": 1
+        },
+        "0C550339": {
+          "text": "Configuration of basic work area invalid - Work area must be of type \"exclusive work area\"",
+          "version": 1
+        },
+        "0C55033A": {
+          "text": "Configuration of basic work area invalid - Work area must be defined in MCS or WCS",
+          "version": 1
+        },
+        "0C55033B": {
+          "text": "Configuration of work areas and safe zones after reset invalid - There is no work area or safe zone with the configured name",
           "version": 1
         },
         "0C56020F": {
@@ -1665,6 +1879,26 @@
         }
       }
     },
+    "090F0073": {
+      "text": "Axis is deactivated",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55024A": {
+          "text": "Capabilities are not evaluated",
+          "version": 1
+        }
+      }
+    },
+    "090F0074": {
+      "text": "Kinematics is deactivated",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C55024A": {
+          "text": "Capabilities are not evaluated",
+          "version": 1
+        }
+      }
+    },
     "090F0080": {
       "text": "General error of the encoder axis",
       "version": 1,
@@ -1679,6 +1913,10 @@
       "text": "Error in the function of the encoder axis",
       "version": 1,
       "detailedDiagnostics": {
+        "0C550246": {
+          "text": "Field bus device does not support the value",
+          "version": 1
+        },
         "0C550273": {
           "text": "Encoder axis does not support the interpolation",
           "version": 1
@@ -1693,6 +1931,16 @@
         },
         "0C550362": {
           "text": "Torque mode is not supported",
+          "version": 1
+        }
+      }
+    },
+    "090F0082": {
+      "text": "General error in the error manager",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C560237": {
+          "text": "Error manager initialization failed.",
           "version": 1
         }
       }
@@ -2184,6 +2432,14 @@
         "0C550633": {
           "text": "Invalid units were configured in the FlexProfile.",
           "version": 1
+        },
+        "0C550634": {
+          "text": "The interpolation type of the referenced cam does not match the specified motion law.",
+          "version": 1
+        },
+        "0C550635": {
+          "text": "FlexProfile must be re-validated due to a change in the referenced cam.",
+          "version": 1
         }
       }
     },
@@ -2226,6 +2482,10 @@
           "version": 1
         }
       }
+    },
+    "090F0FF9": {
+      "text": "Trace error motion.somo",
+      "version": 1
     },
     "090F0FFA": {
       "text": "Trace error motion.robotics",
@@ -2395,6 +2655,10 @@
           "text": "Axis cannot (or can no longer) follow the command values of the control.",
           "version": 1
         },
+        "0C570112": {
+          "text": "Deactivated axis cannot be commanded",
+          "version": 1
+        },
         "0C570153": {
           "text": "FPU exception detected in the execution of an additional command.",
           "version": 1
@@ -2429,6 +2693,10 @@
           "text": "Multiple axis assignment",
           "version": 1
         },
+        "0C550115": {
+          "text": "Axis cannot be added to deactivated kinematics",
+          "version": 1
+        },
         "0C550120": {
           "text": "Axis or kinematic is still moving",
           "version": 1
@@ -2459,6 +2727,10 @@
         },
         "0C550186": {
           "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
+        "0C560464": {
+          "text": "The axis is not yet homed. For safety reasons, this is required for absolute positioning commands.",
           "version": 1
         },
         "0C570100": {
@@ -2621,6 +2893,10 @@
           "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
           "version": 1
         },
+        "0C570100": {
+          "text": "Invalid state",
+          "version": 1
+        },
         "0C570160": {
           "text": "Unsupported unit configured for command parameter",
           "version": 1
@@ -2683,6 +2959,10 @@
         },
         "0C550158": {
           "text": "Axis or gantry is still moving",
+          "version": 1
+        },
+        "0C55015C": {
+          "text": "Axis cannot be added to deactivated gantry axis",
           "version": 1
         },
         "0C550180": {
@@ -3144,6 +3424,10 @@
         "0C5701A2": {
           "text": "The kinematic Motion object has an error copied to the kinematic axis",
           "version": 1
+        },
+        "0C5701A3": {
+          "text": "Deactivated kinematics cannot be commanded",
+          "version": 1
         }
       }
     },
@@ -3257,6 +3541,14 @@
           "text": "Jog direction vector contains only non-existing axes/coordinates.",
           "version": 1
         },
+        "0C550149": {
+          "text": "Jog command is not allowed, when there are commands in the preparation buffer",
+          "version": 1
+        },
+        "0C55014C": {
+          "text": "Error in kinematics transformation. Jogging stopped.",
+          "version": 1
+        },
         "0C550230": {
           "text": "Positioning axis was commanded multiple times",
           "version": 1
@@ -3299,6 +3591,10 @@
         },
         "0C55023A": {
           "text": "Commanded orientation is not supported",
+          "version": 1
+        },
+        "0C570100": {
+          "text": "Invalid state",
           "version": 1
         },
         "0C570160": {
@@ -3479,6 +3775,10 @@
         },
         "0C570221": {
           "text": "Contour \"end\" without prior contour \"start\" commanded",
+          "version": 1
+        },
+        "0C570222": {
+          "text": "Parameter \"prepCmds\" has to be smaller than the limit of the kinematic command buffer upon contour start",
           "version": 1
         }
       }
@@ -3831,6 +4131,94 @@
         }
       }
     },
+    "090F2025": {
+      "text": "Error in the kinematic command \"CyclicSetPointPCS\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C570101": {
+          "text": "Invalid parameter",
+          "version": 1
+        },
+        "0C570164": {
+          "text": "Invalid unit for command parameter configured",
+          "version": 1
+        }
+      }
+    },
+    "090F2026": {
+      "text": "Error in kinematic command \"MoveJump\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550211": {
+          "text": "Invalid coordinate system for the target position",
+          "version": 1
+        },
+        "0C550230": {
+          "text": "Positioning axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550231": {
+          "text": "Additional axis was commanded multiple times",
+          "version": 1
+        },
+        "0C550232": {
+          "text": "Orientation was commanded multiple times",
+          "version": 1
+        },
+        "0C550233": {
+          "text": "Different orientations were commanded",
+          "version": 1
+        },
+        "0C550234": {
+          "text": "Commanded axis meaning is not supported for the kinematics",
+          "version": 1
+        },
+        "0C550235": {
+          "text": "Commanded additional axis is not assigned to the kinematics",
+          "version": 1
+        },
+        "0C550236": {
+          "text": "Commanded positioning axis is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550237": {
+          "text": "Commanded orientation is not permitted in the ACS",
+          "version": 1
+        },
+        "0C550238": {
+          "text": "Commanded positioning axis is not supported by the axis transformation",
+          "version": 1
+        },
+        "0C550239": {
+          "text": "Variant of the additional axis is not supported",
+          "version": 1
+        },
+        "0C55023A": {
+          "text": "Commanded orientation is not supported",
+          "version": 1
+        },
+        "0C55023B": {
+          "text": "Multiple commanding of a direction attribute for the orientation motion.",
+          "version": 1
+        },
+        "0C550332": {
+          "text": "The commanded motion violates a safe zone",
+          "version": 1
+        },
+        "0C550370": {
+          "text": "Invalid height commanded.",
+          "version": 1
+        },
+        "0C550371": {
+          "text": "Start and end point are too close together or are equal.",
+          "version": 1
+        },
+        "0C550372": {
+          "text": "Incompatible command option(s) enabled.",
+          "version": 1
+        }
+      }
+    },
     "090F2030": {
       "text": "Error in command options",
       "version": 1,
@@ -3841,6 +4229,10 @@
         },
         "0C570100": {
           "text": "Invalid state",
+          "version": 1
+        },
+        "0C5701A3": {
+          "text": "Deactivated kinematics cannot be commanded",
           "version": 1
         },
         "0C5701B0": {
@@ -3946,6 +4338,14 @@
         "0C550335": {
           "text": "Safe zone/work area not found in configuration",
           "version": 1
+        },
+        "0C550336": {
+          "text": "Commanded motion left the basic work area",
+          "version": 1
+        },
+        "0C550337": {
+          "text": "Monitoring of basic work area cannot be disabled",
+          "version": 1
         }
       }
     },
@@ -3997,6 +4397,10 @@
         },
         "0C550425": {
           "text": "Belt-synchronization does not support point-to-point motion (like MoveDirect)",
+          "version": 1
+        },
+        "0C550426": {
+          "text": "Error during synchronization or resynchronization. The synchronization or resynchronization was not completed on time.",
           "version": 1
         },
         "0C560201": {
@@ -4071,6 +4475,10 @@
       "detailedDiagnostics": {
         "0C550315": {
           "text": "Requested coordinate system is not available",
+          "version": 1
+        },
+        "0C560206": {
+          "text": "Floating point error during the motion command execution",
           "version": 1
         },
         "0C560270": {
@@ -4243,6 +4651,10 @@
         },
         "0C550186": {
           "text": "Switching the drive mode during an active switching of the drive mode is not permitted.",
+          "version": 1
+        },
+        "0C560464": {
+          "text": "The axis is not yet homed. For safety reasons, this is required for absolute positioning commands.",
           "version": 1
         }
       }
@@ -4465,6 +4877,40 @@
         }
       }
     },
+    "090F2067": {
+      "text": "Error in command \"FixedStop\"",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C550103": {
+          "text": "Device command enable failed",
+          "version": 1
+        },
+        "0C550104": {
+          "text": "Device command enable timeout",
+          "version": 1
+        },
+        "0C550105": {
+          "text": "Device command gets an error state",
+          "version": 1
+        },
+        "0C550106": {
+          "text": "Device command exection error in the device",
+          "version": 1
+        },
+        "0C550107": {
+          "text": "Device command disable failed",
+          "version": 1
+        },
+        "0C550108": {
+          "text": "Device command disable timeout",
+          "version": 1
+        },
+        "0C560241": {
+          "text": "Configured axis type does not fit to the device configuration",
+          "version": 1
+        }
+      }
+    },
     "090F20A0": {
       "text": "Commanding error from a Motion Extension bundle",
       "version": 1,
@@ -4621,6 +5067,10 @@
         },
         "0C550519": {
           "text": "Invalid axis type",
+          "version": 1
+        },
+        "0C55051A": {
+          "text": "Axis cannot be added to a deactivated master axis",
           "version": 1
         },
         "0C550520": {
@@ -4937,6 +5387,10 @@
         },
         "0C550537": {
           "text": "The slave axis in the error state LIGHT",
+          "version": 1
+        },
+        "0C550542": {
+          "text": "Axis command with absolute synchronization invalid for not homed axis",
           "version": 1
         }
       }

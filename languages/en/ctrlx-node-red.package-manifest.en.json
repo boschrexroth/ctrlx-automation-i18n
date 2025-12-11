@@ -7,8 +7,8 @@
     "scopes.view-ctrlx-node-red.web.description": "Enables view of the configuration",
     "licenses.SWL-XCx-RED-NODExREDxxxxx-NNNN.title": "ctrlX OS License - Node-RED License",
     "licenses.SWL-XCx-RED-NODExREDxxxxx-NNNN.description": "Unlock the Node-RED App",
-    "licenses.SWL-XOV-RED-NODExREDxxxxx-Y1F1.title": "ctrlX OS License (floating) - Node-RED License",
-    "licenses.SWL-XOV-RED-NODExREDxxxxx-Y1F1.description": "Unlock the Node-RED App (floating License)",
+    "licenses.SWL-XOV-RED-NODExREDxxxxx-Y1F1.title": "ctrlX OS License - Node-RED License (Floating/1 Year)",
+    "licenses.SWL-XOV-RED-NODExREDxxxxx-Y1F1.description": "Unlock the Node-RED App (Floating/1 Year)",
     "configuration-ctrlx-node-red.web.description": "Node-RED configuration",
     "certificatestores.ctrlx-node-red.title": "Node-RED",
     "certificatestores.ctrlx-node-red.description": "Keys and certificates of Node-RED"

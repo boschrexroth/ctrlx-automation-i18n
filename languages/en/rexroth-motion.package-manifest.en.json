@@ -20,7 +20,7 @@
   "licenses.basic10.title": "ctrlX OS License - STP - Motion Standard 10 Axes",
   "licenses.basic10.description": "Basic Motion functions for 10 axes.",
   "licenses.axis.title": "ctrlX OS License - STP - Motion 1 additional Axis (add-on)",
-  "licenses.axis.description": "1 further axis (license is is e.g. part of a standard or multi axes package).",
+  "licenses.axis.description": "1 further axis (license is is e.g. part of a standard or 5 axes package).",
   "licenses.axis20.title": "ctrlX OS License - STP - Motion 20 axes package (add-on)",
   "licenses.axis20.description": "Extension of max. axes count of the ctrlX MOTION app to 20 axes total.",
   "licenses.axis40.title": "ctrlX OS License - STP - Motion 40 axes package (add-on)",

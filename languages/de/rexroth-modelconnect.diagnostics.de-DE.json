@@ -1,5 +1,5 @@
 {
-  "product": "MOC-V-0306",
+  "product": "MOC-V-0404",
   "mainDiagnostics": {
     "100A0101": {
       "text": "Modellstatus hat sich geändert",
@@ -134,12 +134,12 @@
           "version": 2
         },
         "0C6D803A": {
-          "text": "",
+          "text": "Zugriff auf FMU-Modellvariable fehlgeschlagen, Ausführung kann nicht fortgesetzt werden",
           "version": 1
         },
         "0C6D804C": {
-          "text": "Die konfigurierte Größe des verbundenen Knotens stimmt nicht mit der Größe des Zielknotens überein.",
-          "version": 1
+          "text": "Größenunterschied zwischen dem verbundenen Knoten in der Funktion/dem Modell und dem Zielknoten",
+          "version": 3
         },
         "0C6D804F": {
           "text": "Der Zugriff auf den Echtzeit-Data Layer-Knoten ist fehlgeschlagen.",
@@ -199,6 +199,18 @@
         },
         "0C6D8060": {
           "text": "Fehler während des FMU-Initialisierungsprozesses",
+          "version": 1
+        },
+        "0C6D8063": {
+          "text": "Typ des verbundenen Knotens in der Funktion/im Modell stimmt nicht mit dem Zielknoten überein.",
+          "version": 1
+        },
+        "0C6D8064": {
+          "text": "Die Kodierung beim Schreiben in den Knoten ist fehlgeschlagen.",
+          "version": 1
+        },
+        "0C6D8065": {
+          "text": "Das Dekodieren beim Lesen vom Knoten ist fehlgeschlagen",
           "version": 1
         }
       }
@@ -280,8 +292,8 @@
           "version": 2
         },
         "0C6D8048": {
-          "text": "Verbundener Knoten enthält nicht unterstützten Datentyp.",
-          "version": 2
+          "text": "Der Datentyp des Knotens wird nicht unterstützt.",
+          "version": 3
         }
       }
     },

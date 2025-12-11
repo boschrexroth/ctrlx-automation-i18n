@@ -3,7 +3,11 @@
   "failureProbMedium": "Erhöhte Ausfallwahrscheinlichkeit",
   "failureProbHigh": "Hohe Ausfallwahrscheinlichkeit",
   "info": {
-    "qrCodesDCA": "QR-Codes (für die Digital Service Assistant App)",
+    "qrCodes": {
+      "heading": "QR-Codes (für die Digital Service Assistant App)",
+      "noDrivesSelected": "Bitte wählen Sie Drives in der Tabelle aus, um QR-Codes zu generieren.",
+      "noDrivesConnected": "Derzeit werden keine QR-Codes generiert, da keine verbundenen Drives erkannt wurden."
+    },
     "contactTable": {
       "contactUs": "Kontaktieren Sie uns",
       "DSA.app.top": "Digital Service Assistant App",
@@ -30,7 +34,7 @@
     "Lifetime Estimator Drive": "Used Lifetime Est. Drive",
     "emptyState": "Keine anzuzeigenden Elemente",
     "histogramSum": "Hist.-Summe",
-    "opHours": "OP-Stunden"
+    "opHours": "OP-Stunden (in AF/Motion/TMax)"
   },
   "selectorWindow": {
     "header": "Spalten zum Ausblenden/Anzeigen wählen",
@@ -61,9 +65,12 @@
     "noDrivesFound": "Warnung! Es können keine Drives gefunden werden. Stellen Sie sicher, dass die Drives korrekt angeschlossen und erreichbar sind."
   },
   "commandBar": {
+    "numberOfEntries": "Elemente",
+    "axesLimitExceededTooltip": "Die aktuelle Lizenz unterstützt das Überwachen von maximal 50 Achsen.",
     "hideColumns.hidden": "Spalte(n) sind ausgeblendet",
     "hideColumns.nohidden": "Blende statische Spalten aus",
-    "manageDevicesTooltip": "Remote devices verwalten",
+    "addDevicesTooltip": "Remote devices hinzufügen",
+    "removeDevicesTooltip": "Remote devices entfernen",
     "loggingConfigTooltip": "Logging konfigurieren"
   },
   "export": {
@@ -81,20 +88,23 @@
     "cancel": "Abbrechen"
   },
   "addDevice": {
-    "headline": "Remote devices verwalten",
-    "addDevices": "Device(s) hinzufügen",
-    "removeDevices": "Device(s) entfernen",
-    "singleDevice": "Einzelnes device",
-    "multipleDevices": "Mehrere devices",
+    "headline": "Remote devices hinzufügen",
+    "multipleDevices": "Mehrere devices hinzufügen",
     "IP": "IP-Adresse",
     "to": "bis",
     "ipMax": "IP",
-    "singleAxis": "Einzelachse",
-    "doubleAxis": "Doppelachse",
-    "save": "Speichern",
+    "numberAxes": "Anzahl Achsen",
+    "save": "Hinzufügen",
     "cancel": "Abbrechen",
     "errorInvalidIP": "IP-Adresse hat ungültiges Format",
     "errorInvalidIPMax": "Maximale IP-Adresse hat ungültiges Format",
+    "errorTooManyAxes": "Die maximale Anzahl von Achsen, die von dieser Lizenz unterstützt wird, ist 50. Es können keine weiteren Achsen hinzugefügt werden.",
+    "toastSuccessfullyAdded": "Anfrage erfolgreich gesendet. Die Tabelle wird in Kürze aktualisiert."
+  },
+  "removeDevice": {
+    "headline": "Remote devices entfernen",
+    "save": "Entfernen",
+    "cancel": "Abbrechen",
     "toastSuccessfullyAdded": "Anfrage erfolgreich gesendet. Die Tabelle wird in Kürze aktualisiert."
   },
   "configModal": {

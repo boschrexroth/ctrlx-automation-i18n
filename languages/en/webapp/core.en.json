@@ -5,7 +5,8 @@
     "close.button": "Close",
     "save.button": "Save",
     "discard.button": "Discard",
-    "refresh.button": "Refresh"
+    "refresh.button": "Refresh",
+    "continue.button": "Continue"
   },
   "core.fileselect": {
     "accepted": "Only files of type {{param}} are accepted"
@@ -32,6 +33,10 @@
     "title": "Page not found",
     "message": "There is no page available under the path {{param}}.",
     "back.button": "Go back"
+  },
+  "core.redirect": {
+    "title": "Confirm redirection to external site",
+    "message": "You will be redirected to '{{param}}'. This could be a security issue. You should only continue if you have no concerns about this site."
   },
   "core.fossinfo": {
     "title": "Open Source Components",
@@ -85,7 +90,8 @@
     "applyingSetup": "Restoring...",
     "applySetupWithWarnings": "Restore operation successful, but with warnings",
     "applySetupFailed": "Restore operation failed",
-    "applySetupReportHint": "Details are available under 'Settings - Backup & Restore - ... - Report'."
+    "applySetupReportHint": "Details are available under 'Settings - Backup & Restore - ... - Report'.",
+    "separatorOr": "or"
   },
   "core.unsavedMessage": {
     "title": "Unsaved changes on {{param}}",
@@ -112,5 +118,24 @@
   "core.monitoring": {
     "title": "Network connection interrupted",
     "message": "Check the network connection (WiFi, cable, router, switches) and restore it. In the case of a virtual control, check whether it is still running and restart it if necessary."
+  },
+  "core.settings.categories": {
+    "apps": "Apps",
+    "device": "Device",
+    "system": "System",
+    "security": "Security",
+    "network": "Network"
+  },
+  "core.timeMismatch": {
+    "timeSettings.link": "Open time settings",
+    "message": "The time on the device seems to be set incorrectly. This may cause problems with licenses, certificates and more."
+  },
+  "core.shared.searchableSelect": {
+    "noEntriesFound": "No matching entries found",
+    "searchPlaceholder": "Search"
+  },
+  "core.shared.iconPicker": {
+    "label": "Icon",
+    "noIcon": "No icon"
   }
 }

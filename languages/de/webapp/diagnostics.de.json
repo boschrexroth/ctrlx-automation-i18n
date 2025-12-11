@@ -31,6 +31,7 @@
         "notSet": "Kein Filter gesetzt",
         "selectAll": "Alle auswählen",
         "isActive": "Filter is aktiv",
+        "levelTitle": "Level auswählen",
         "level": {
           "emerg": "Notfall",
           "alert": "Alarm",
@@ -63,6 +64,10 @@
           "placeholder": "Beliebige Optionen auswählen oder Text eingeben" ,
           "combineWith": "Verknüpfe Felder mit: ",
           "tooltipCombineInfo": "Suchbegriffe innerhalb eines Eingabefeldes sind mit 'OR' verknüpft"
+        },
+        "bookmark": {
+          "viewBookmarkOnly": "Nur Lesezeichen anzeigen",
+          "viewsOnlyBookmarks": "Zeigt nur Lesezeichen an"
         }
       },
       "settings": {
@@ -113,7 +118,10 @@
         "reset": "Zurücksetzen",
         "apply": "Übernehmen",
         "confirm": "Löscht Fehler",
+        "confirmObject": "Setzt das Objekt zurück und löscht diesen Fehler",
+        "confirmObjectDone": "Zurücksetzen und Löschen des Objekts abgeschlossen",
         "confirmAll": "Setzt alle Fehler zurück und löscht sie",
+        "confirmAllDone": "Zurücksetzen und Löschen aller Fehler abgeschlossen",
         "confirmNot": "Fehler löschen nicht möglich",
         "navigateTo": "Navigiert zum Alarm in der Verlaufsansicht",
         "navigateToAlarmPage": "Navigiert zur Alarmansicht des Logbuchs",
@@ -122,7 +130,6 @@
       },
       "text": {
         "settings": "Zeigt Einstellungen an",
-        "timeoffset": "Datums-/Zeitangabe stimmen nicht überein: {{offset}}! Um diese Diskrepanz zu beheben, gehen Sie zu <a href='/system/datetime'> Settings > Date & Time</a>\"",
         "noDataTitle": "Mit diesen Filtereinstellungen sind keine Daten verfügbar!",
         "noDataDescDef": "Bitte wählen Sie andere Filtereinstellungen aus.",
         "noDataDescDev": "Bitte wählen Sie andere Filtereinstellungen und/oder einen anderen Meldungstyp aus.",
@@ -131,7 +138,8 @@
         "mainDiag": "Hauptdiagnosecode",
         "detailDiag": "Detaildiagnosecode",
         "remoteLogging": "Remote-Protokollierung",
-        "filterTitle": "Geben Sie einen Suchtext in der Kategorie '{{colName}}' ein"
+        "filterTitle": "Geben Sie einen Suchtext in der Kategorie '{{colName}}' ein",
+        "deviceTimezoneFailed": "Das Lesen der Gerätezeitzone ist fehlgeschlagen"
       },
       "attr": {
         "pos": "Pos",

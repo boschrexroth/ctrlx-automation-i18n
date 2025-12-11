@@ -1,6 +1,16 @@
 {
-  "product": "XCR-V-0306",
+  "product": "XCR-V-0404",
   "mainDiagnostics": {
+    "080A000D": {
+      "text": "User script log of message",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "User script log",
+          "version": 1
+        }
+      }
+    },
     "080A000E": {
       "text": "Trace message script.manager",
       "version": 1
@@ -318,6 +328,30 @@
         "0C7A0056": {
           "text": "Configuration of remote authentication changed",
           "version": 1
+        },
+        "0C7A0058": {
+          "text": "New role created",
+          "version": 1
+        },
+        "0C7A0059": {
+          "text": "Role deleted",
+          "version": 1
+        },
+        "0C7A005A": {
+          "text": "Configuration of role changed",
+          "version": 1
+        },
+        "0C7A005B": {
+          "text": "New OIDC provider created",
+          "version": 1
+        },
+        "0C7A005C": {
+          "text": "OIDC provider deleted",
+          "version": 1
+        },
+        "0C7A005D": {
+          "text": "Configuration of OIDC provider changed",
+          "version": 1
         }
       }
     },
@@ -449,6 +483,16 @@
         },
         "0C7A0077": {
           "text": "Filter configuration successfully updated",
+          "version": 1
+        }
+      }
+    },
+    "080A0308": {
+      "text": "Firmware update successful",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A3": {
+          "text": "TPM firmware",
           "version": 1
         }
       }
@@ -935,6 +979,16 @@
       "text": "Trace message common.scheduler",
       "version": 1
     },
+    "080E000D": {
+      "text": "User script log of warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "User script log",
+          "version": 1
+        }
+      }
+    },
     "080E000E": {
       "text": "Trace warning script.manager",
       "version": 1
@@ -975,6 +1029,16 @@
         },
         "0C7B2327": {
           "text": "The task watchdogs were disabled due to insufficient hardware support (missing support of the Linux watchdog framework). A secure machine operation cannot be ensured.",
+          "version": 1
+        }
+      }
+    },
+    "080E0012": {
+      "text": "System restart required",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4205": {
+          "text": "Affinity of system tasks was changed",
           "version": 1
         }
       }
@@ -1091,6 +1155,16 @@
         }
       }
     },
+    "080E0281": {
+      "text": "Data Layer remote connection interrupted",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C340005": {
+          "text": "Data Layer remote connection could not be established",
+          "version": 1
+        }
+      }
+    },
     "080E0300": {
       "text": "Security: User management warning",
       "version": 1,
@@ -1119,6 +1193,10 @@
       "detailedDiagnostics": {
         "0C7A0060": {
           "text": "Certificate will expire soon",
+          "version": 1
+        },
+        "0C7A0064": {
+          "text": "Method deprecated",
           "version": 1
         }
       }
@@ -1169,6 +1247,20 @@
         },
         "0C7A009A": {
           "text": "The time-based license will expire within one day.",
+          "version": 1
+        }
+      }
+    },
+    "080E0308": {
+      "text": "Warning during firmware update",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A3": {
+          "text": "TPM firmware",
+          "version": 1
+        },
+        "0C7A00A4": {
+          "text": "TPM firmware update error",
           "version": 1
         }
       }
@@ -1337,7 +1429,13 @@
     },
     "080E077F": {
       "text": "Error in synchronization subsystem",
-      "version": 1
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B802A": {
+          "text": "Internal error",
+          "version": 1
+        }
+      }
     },
     "080E0825": {
       "text": "Network configuration data changed successfully",
@@ -1376,6 +1474,10 @@
         "0C64112D": {
           "text": "System restart required, as the watchdog was activated",
           "version": 1
+        },
+        "0C64113E": {
+          "text": "System restart required due to changes in the energy profile",
+          "version": 1
         }
       }
     },
@@ -1385,6 +1487,30 @@
       "detailedDiagnostics": {
         "0C641117": {
           "text": "Memory reservation is activated but not supported",
+          "version": 1
+        }
+      }
+    },
+    "080E0878": {
+      "text": "Energy profile warning",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64113F": {
+          "text": "The selected energy profile is not recommended when using real-time applications.",
+          "version": 1
+        }
+      }
+    },
+    "080E08AE": {
+      "text": "Failed to retrieve manifests",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Cannot validate data",
+          "version": 1
+        },
+        "0C641045": {
+          "text": "No manifest files found",
           "version": 1
         }
       }
@@ -1465,6 +1591,16 @@
         },
         "0C270106": {
           "text": "Not able to write single configuration to \"Data Layer\" node",
+          "version": 1
+        }
+      }
+    },
+    "080F000D": {
+      "text": "User script log of F0 error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "User script log",
           "version": 1
         }
       }
@@ -2119,6 +2255,20 @@
         },
         "0C7A0082": {
           "text": "Remote logging aborted",
+          "version": 1
+        }
+      }
+    },
+    "080F0308": {
+      "text": "Error during firmware update",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A3": {
+          "text": "TPM firmware",
+          "version": 1
+        },
+        "0C7A00A4": {
+          "text": "TPM firmware update error",
           "version": 1
         }
       }
@@ -5865,6 +6015,10 @@
           "text": "Something unexpected occurred",
           "version": 1
         },
+        "0C641090": {
+          "text": "Preconditions not met",
+          "version": 1
+        },
         "0C6410D5": {
           "text": "Configuration of real-time cores invalid",
           "version": 1
@@ -6369,6 +6523,106 @@
         }
       }
     },
+    "080F08A8": {
+      "text": "Adding network share failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64113B": {
+          "text": "Network share already exists",
+          "version": 1
+        }
+      }
+    },
+    "080F08A9": {
+      "text": "Changing network share failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "One of the provided arguments is invalid",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64113B": {
+          "text": "Network share already exists",
+          "version": 1
+        },
+        "0C64113C": {
+          "text": "Network share not found",
+          "version": 1
+        },
+        "0C64113D": {
+          "text": "Network share is mounted",
+          "version": 1
+        }
+      }
+    },
+    "080F08AA": {
+      "text": "Removing network share failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64113C": {
+          "text": "Network share not found",
+          "version": 1
+        },
+        "0C64113D": {
+          "text": "Network share is mounted",
+          "version": 1
+        }
+      }
+    },
+    "080F08AB": {
+      "text": "Getting network share failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        },
+        "0C64113C": {
+          "text": "Network share not found",
+          "version": 1
+        }
+      }
+    },
+    "080F08AC": {
+      "text": "Getting network shares failed",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Something unexpected occurred",
+          "version": 1
+        }
+      }
+    },
+    "080F08AD": {
+      "text": "Error in health state",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641435": {
+          "text": "App in error state detected",
+          "version": 1
+        }
+      }
+    },
+    "080F08AE": {
+      "text": "Setting device characteristics failed",
+      "version": 1
+    },
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
       "version": 1,
@@ -6515,6 +6769,16 @@
       "detailedDiagnostics": {
         "0C270500": {
           "text": "Error in handling a motion request",
+          "version": 1
+        }
+      }
+    },
+    "080F200D": {
+      "text": "User script log of F2 error",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "User script log",
           "version": 1
         }
       }

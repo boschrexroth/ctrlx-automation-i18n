@@ -1,5 +1,5 @@
 {
-  "product": "PLC-V-0306",
+  "product": "PLC-V-0404",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Loading configuration not possible in current state",
@@ -595,6 +595,54 @@
       "text": "Error in the library CXA_PLCOpen",
       "version": 1,
       "detailedDiagnostics": {
+        "0C232B00": {
+          "text": "Invalid coordinate system",
+          "version": 1
+        },
+        "0C232B01": {
+          "text": "Invalid Kin PLCopen state",
+          "version": 1
+        },
+        "0C232B02": {
+          "text": "Size of input variable \"Outputs\" is too small",
+          "version": 1
+        },
+        "0C232B03": {
+          "text": "Task handle could not be detected",
+          "version": 1
+        },
+        "0C232B04": {
+          "text": "Properties of task could not be detected",
+          "version": 1
+        },
+        "0C232B05": {
+          "text": "Invalid type of task",
+          "version": 1
+        },
+        "0C232B06": {
+          "text": "Invalid external event",
+          "version": 1
+        },
+        "0C232B07": {
+          "text": "Sample rate is too high for cycle time (sample length must be at least 10 us)",
+          "version": 1
+        },
+        "0C232B08": {
+          "text": "Fieldbus and motion cycle time are different",
+          "version": 1
+        },
+        "0C232B09": {
+          "text": "State machine error",
+          "version": 1
+        },
+        "0C232B0A": {
+          "text": "Calculated number of bytes is greater than the size of the input variable \"outputs\"",
+          "version": 1
+        },
+        "0C232B0B": {
+          "text": "Invalid oversampling factor",
+          "version": 1
+        },
         "0C238004": {
           "text": "Prerequest not available for jogging",
           "version": 1
@@ -1141,6 +1189,26 @@
         },
         "0C2301F0": {
           "text": "TE_ExportKinIfDebug: Sequence error",
+          "version": 1
+        },
+        "0C238010": {
+          "text": "The data type for the CyclicStatusData functionality does not exist",
+          "version": 1
+        },
+        "0C238011": {
+          "text": "The number of bytes transmitted for the CyclicStatusData functionality is not correct",
+          "version": 1
+        },
+        "0C238012": {
+          "text": "The number of variables for the CyclicStatusData functionality is not correct",
+          "version": 1
+        },
+        "0C238013": {
+          "text": "The number of bytes in memory for the CyclicStatusData functionality is not correct",
+          "version": 1
+        },
+        "0C238015": {
+          "text": "Invalid variable name for the CyclicStatusData functionality",
           "version": 1
         }
       }
@@ -4426,6 +4494,98 @@
         "0C230011": {
           "text": "Axis has no power.",
           "version": 1
+        },
+        "0C230012": {
+          "text": "The unit is invalid.",
+          "version": 1
+        },
+        "0C230013": {
+          "text": "\"ControlMode\" input is not commanded or disturbance.",
+          "version": 1
+        },
+        "0C230014": {
+          "text": "\"MaterialParameter.MaterialType\" must be between 1 and 10",
+          "version": 1
+        },
+        "0C230015": {
+          "text": "\"StandstillVelDeadband\" input is negative or 0",
+          "version": 1
+        },
+        "0C230016": {
+          "text": "\"MaterialParameter.WebWidth\" input is negative or 0",
+          "version": 1
+        },
+        "0C230017": {
+          "text": "\"MaterialParameter.WebThickness\" input is negative or 0",
+          "version": 1
+        },
+        "0C230018": {
+          "text": "\"MaterialParameter.MaterialEModule\" input is negative or 0",
+          "version": 1
+        },
+        "0C230019": {
+          "text": "\"Grammage\" input is negative or 0",
+          "version": 1
+        },
+        "0C23001A": {
+          "text": "\"DampingFactor\" must be between 20 and 200",
+          "version": 1
+        },
+        "0C23001B": {
+          "text": "\"Circumference\" input is negative or 0",
+          "version": 1
+        },
+        "0C23001C": {
+          "text": "\"DistanceRoll1To2\" input is negative or 0",
+          "version": 1
+        },
+        "0C230021": {
+          "text": "Invalid state machine of master axis",
+          "version": 1
+        },
+        "0C230022": {
+          "text": "Invalid handle of actual IEC task",
+          "version": 1
+        },
+        "0C230023": {
+          "text": "Error when getting information of actual IEC task",
+          "version": 1
+        },
+        "0C230024": {
+          "text": "Invalid task type",
+          "version": 1
+        },
+        "0C230025": {
+          "text": "Invalid external event",
+          "version": 1
+        },
+        "0C230026": {
+          "text": "The master/slave axis is not a modulo axis.",
+          "version": 1
+        },
+        "0C230027": {
+          "text": "The modulo value of the axis is not 360 degrees.",
+          "version": 1
+        },
+        "0C230028": {
+          "text": "Invalid provider type",
+          "version": 1
+        },
+        "0C23002A": {
+          "text": "Input \"Stopdistance\" too low",
+          "version": 1
+        },
+        "0C23002B": {
+          "text": "\"Startdistance\" input too low",
+          "version": 1
+        },
+        "0C23002C": {
+          "text": "Input of \"Startdistance\" and \"Stopdistance\" too high",
+          "version": 1
+        },
+        "0C23002D": {
+          "text": "Invalid state machine of slave axis",
+          "version": 1
         }
       }
     },
@@ -4662,6 +4822,18 @@
           "version": 1
         }
       }
+    },
+    "0A0F011E": {
+      "text": "Error in the library CXA_ctrlXIO_KNX",
+      "version": 1
+    },
+    "0A0F011F": {
+      "text": "Error in the library CXA_ctrlXIO_DALI",
+      "version": 1
+    },
+    "0A0F0120": {
+      "text": "Error in the library CXA_ctrlXIO_CAN",
+      "version": 1
     },
     "0A0F0FF0": {
       "text": "Trace error plc.cmp.datalayer",

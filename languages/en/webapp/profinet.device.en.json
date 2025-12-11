@@ -27,13 +27,13 @@
         "add": "Add PROFINET device",
         "info": "The PROFINET device provides an I/O interface to a PROFINET field bus"
       },
-      "noPermission":{
-        "text":"You do not have the required permissions to see this page."
+      "noPermission": {
+        "text": "You do not have the required permissions to see this page."
       },
       "appNotAvailable": {
         "heading": "The PROFINET device app is currently not available (Error: {{status}}).",
         "line2": "This is most likely due to one of the following reasons:",
-        "appBeingInitialized" : "The app is currently initialized. This may take a while, please {{linkText}} the page",
+        "appBeingInitialized": "The app is currently initialized. This may take a while, please {{linkText}} the page",
         "appBeingInitialized.linkText": "refresh"
       },
       "add-instance": {
@@ -49,7 +49,7 @@
         "warning": "Ensure that all appliances are in safe state before proceeding."
       },
       "details": {
-        "title": "Configuration",
+        "title": "Configuration for",
         "active-configuration": "Active configuration:",
         "template.label": "Template",
         "template.placeholder": "Select a template",
@@ -60,7 +60,14 @@
         "textLabel.content": "File contents (first 10000 characters)",
         "uploadButton": "Upload",
         "fileinfo": "The file has a size of {{humanSize}}",
-        "fileTooLarge": "Select a file smaller than {{humanSizeMax}}."
+        "fileTooLarge": "Select a file smaller than {{humanSizeMax}}.",
+        "format": "Format",
+        "clear": "Clear",
+        "contentChanged": "There are unsaved changes to the configuration",
+        "replaceContent": "Replace all content?",
+        "clearContent": "Clear all content?",
+        "replace": "Replace",
+        "cancel": "Cancel"
       },
       "name.header": "Name",
       "port.header": "Port",

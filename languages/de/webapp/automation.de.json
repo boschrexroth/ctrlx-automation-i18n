@@ -8,6 +8,7 @@
         "write": "Schreiben",
         "discard": "Verwerfen",
         "create": "Anlegen",
+        "createWithFile": "Anlegen mit Datei",
         "delete": "Löschen",
         "apply": "Übernehmen",
         "reset": "Zurücksetzen",
@@ -35,12 +36,28 @@
 
       "settings": {
         "title": "Einstellungen",
+        "tabTree": "Baum",
+        "tabNodeValue": "Knoten-Wert",
         "showLastNode": "Letzten Baumknoten beim Öffnen anzeigen",
+        "showLastNodeHint": "Beim erneuten Öffnen des Data Layers wird der zuletzt ausgewählte Knoten wieder selektiert.",
         "useTreeWidth": "Letzte Baumbreite beim Öffnen verwenden",
+        "useTreeWidthHint": "Beim erneuten Öffnen des Data Layers wird die zuvor gewählte Baum-Breite wiederhergestellt.",
         "showDisplayname": "Anzeigename im Baum anzeigen",
-        "showWarnings": "Unvollständige Konfiguration vom Data Layer-Knoten anzeigen",
+        "showDisplaynameHint": "Die Metadaten eines Knotens können einen 'Display name' enthalten. Falls vorhanden, wird dieser anstelle des eigentlichen Knotennamens im Baum angezeigt.",
+        "showTimestamp": "Zeitstempel vom Wert anzeigen",
+        "showTimestampHint": "Anzeigen von Datum und Uhrzeit der letzten Änderung eines Wertes.",
+        "showWarnings": "Unvollständige Konfiguration vom Data Layer Knoten anzeigen",
+        "showWarningsHint": "Fehlerhaft oder unvollständig definierte Knoten werden am jeweiligen Knoten als Fehler oder Warnung dargestellt (Symbol + Tooltip).",
         "animateValues": "Dynamische Änderungen der Werte von Knoten animieren",
-        "rangeSubnodes": "Mögliche Kindknoten (min: {{min}} - max: {{max}})"
+        "animateValuesHint": "Werte, welche sich gerade geändert haben, werden farblich hervorgehoben.",
+        "showFormattedValues": "Werte formatiert anzeigen",
+        "showFormattedValuesHint": "Werte von den Datentypen 'INT' und 'UINT' werden formatiert in Blöcken mit jeweils 4 Ziffern angezeigt, wenn in dem 'Display format' der Metadaten die Formate 'Bin', 'Oct' oder 'Hex' gesetzt sind.",
+        "rangeSubnodes": "Maximal mögliche Anzahl an Kindknoten im Baum",
+        "rangeSubnodesHint": "(min: {{min}} - max: {{max}})",
+        "timezone": "Zeitzone",
+        "browser": "Browser",
+        "device": "Gerät",
+        "utc": "UTC"
       },
 
       "dialogs": {
@@ -90,7 +107,8 @@
          },
 
          "header": {
-           "info": "Keine Beschreibung verfügbar"
+           "info": "Keine Beschreibung verfügbar",
+           "showHelp": "Zeigt die Beschreibung vom Knoten"
          },
 
          "input": {
@@ -110,6 +128,7 @@
            "title": "Kindknoten",
            "colName": "Name",
            "colValue": "Wert",
+           "colTimestamp": "Zeitstempel",
            "colUnit": "Einheit",
            "colType": "Typ"
          },
@@ -129,6 +148,18 @@
           "colSourcename": "Quellenname",
           "colValue": "Wert",
           "copyEvents": "Ereignisse in die Zwischenablage kopieren"
+         },
+         "histogram": {
+          "title": "Histogramm",
+          "recording": "Aufzeichnung der Messwerte ist aktiv"
+        },
+        "contextInfo": {
+          "line1": "Für diesen Datentyp sind unterschiedliche Eingabeformate möglich. (Beispiel für die Eingabe vom Dezimalwert '10'",
+          "li0d": "Dezimal",
+          "li0b": "Binär",
+          "li0o": "Oktal",
+          "li0x": "Hexadezimal",
+          "line2": "Die Anzeige der Werte erfolgt entsprechend dem gesetzten 'Display format' in den Metadaten."
          }
       },
 
@@ -152,7 +183,7 @@
           "ttEdit": "Bearbeitet Element",
           "ttHideActions": "Blendet Aktionen aus",
           "ttShowActions": "Zeigt Aktionen an",
-          "ttInvalidPath": "Ungültige Adresse: Adresse existiert nicht im Datalayer"
+          "ttInvalidPath": "Ungültige Adresse: Adresse existiert nicht im Data Layer"
         },
         
         "viewer": {
@@ -163,7 +194,6 @@
             "copyTitle": "Watchlist-Element kopieren '{{name}}'"
           }
         }
-
       }
     }
   },
@@ -171,7 +201,91 @@
   "widgets": {
     "confirmdialog": {
       "title": "Schalte auf Zustand '{{state}}'",
-      "desc": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren."
+      "desc": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren!"
+    },
+    "node": {
+      "default": {
+        "title": "Data Layer Knoten",
+        "desc": "Zeigt den Wert eines Data Layer Knoten" 
+      }
+    },
+    "nodeSettings": {
+      "msg": {
+        "unsupportedType": "Nicht unterstützter Datentyp: '{{type}}'"
+      },
+      "common": {
+        "labPath": "Pfad zum Data Layer Knoten",
+        "placeholderPath": "Klicken Sie auf das Symbol, um den Pfad aus dem Data Layer zu kopieren",
+        "ttPath": "Öffnet den Data Layer in einer separaten Registerkarte",
+        "title": "Allgemein",
+        "cbName": "Name im Widget sichtbar",
+        "labName": "Name",
+        "cbDesc": "Beschreibung im Widget sichtbar",
+        "labDesc": "Beschreibung",
+        "cbIcon": "Symbol in Widget sichtbar",
+        "labIcon": "Symbol",
+        "cbAdjustBackColor": "Hintergrundfarbe anpassen",
+        "labBackColor": "Hintergrundfarbe",
+        "cbAdjustFont": "Schrift anpassen",
+        "cbAdjustIcon": "Symbol anpassen"
+      },
+      "numeric": {
+        "title": "Numerisch",
+        "labVisu": "Visualisierung",
+        "visu": {
+          "number": "Zahl",
+          "gauge": "Gauge"
+        },
+        "cbDecimalPlaces": "Nachkommastellen anpassen",
+        "labDecimalPlaces": "Stellen",
+        "labMin": "Min - Wertebereich",
+        "labMax": "Max - Wertebereich",
+        "cbUnit": "Einheit im Widget sichtbar",
+        "cbMinMax": "Min/Max Werte in Widget sichtbar",
+        "cbThreshold": "Schwellenwerte in Widget sichtbar",
+        "labWarn": "Warnschwelle",
+        "labErr": "Fehlerschwelle",
+        "labTarget": "Zielwert",
+        "cbInvert": "Invertierte Schwellenwerte",
+        "ttEnterValues": "Bitte geben Sie unterschiedliche Minimal- und Maximalwerte ein"
+      },
+      "string": {
+        "title": "Zeichenfolge"
+      },
+      "boolean": {
+        "title": "Boolean",
+        "cbAlias": "Im Widget sichtbarer Aliastext",
+        "labTextTrue": "Text wenn TRUE",
+        "labTextFalse": "Text wenn FALSE",
+        "cbBackColorExt": "Hintergrundfarbe abhängig vom Status anpassen",
+        "cbTextColor": "Textfarbe abhängig vom Status anpassen",
+        "labColorTrue": "Farbe wenn TRUE",
+        "labColorFalse": "Farbe wenn FALSE",
+        "visu": {
+          "text": "Text",
+          "icon": "Symbol"
+        },
+        "labIconTrue": "Symbol wenn TRUE",
+        "labIconFalse": "Symbol wenn FALSE",
+        "labIconSize": "Symbol Größe",
+        "labIconAlign": "Symbol Ausrichtung",
+        "labIconColor": "Symbol Farbe"
+      },
+      "font": {
+        "labFontSize": "Schriftgröße",
+        "labFontStyle": "Schriftklasse",
+        "cbNormal": "normal",
+        "cbItalic": "kursiv",
+        "cbBold": "fett",
+        "labFontWeight": "Schriftstärke",
+        "labFontAlign": "Ausrichtung",
+        "cbAlignCenter": "mitte",
+        "cbAlignLeft": "links",
+        "cbAlignRight": "rechts",
+        "labFontColor": "Schriftfarbe",
+        "ttTextcolorNotTaken": "Wird nicht berücksichtigt, wenn 'Textfarbe abhängig vom Status anpassen' gesetzt ist!",
+        "ttBackcolorNotTaken": "Wird nicht berücksichtigt, wenn 'Hintergrundfarbe abhängig vom Status anpassen' gesetzt ist!"
+      }
     }
   }
 }

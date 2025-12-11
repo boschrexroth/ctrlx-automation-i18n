@@ -1,5 +1,5 @@
 {
-  "product": "MOC-V-0306",
+  "product": "MOC-V-0404",
   "mainDiagnostics": {
     "100A0101": {
       "text": "Model status has changed",
@@ -138,8 +138,8 @@
           "version": 1
         },
         "0C6D804C": {
-          "text": "The configured size of the connected node does not match the size of the target node.",
-          "version": 1
+          "text": "Size mismatch between the connected node in the function/model and the target node",
+          "version": 3
         },
         "0C6D804F": {
           "text": "Failed to access the real-time Data Layer node.",
@@ -199,6 +199,18 @@
         },
         "0C6D8060": {
           "text": "Error during the FMU initialization",
+          "version": 1
+        },
+        "0C6D8063": {
+          "text": "Type mismatch between the connected node in the function/model and the target node.",
+          "version": 1
+        },
+        "0C6D8064": {
+          "text": "Encoding failed while writing to the node.",
+          "version": 1
+        },
+        "0C6D8065": {
+          "text": "Decoding failed while reading from the node",
           "version": 1
         }
       }
@@ -280,8 +292,8 @@
           "version": 2
         },
         "0C6D8048": {
-          "text": "Connected node contains unsupported data type.",
-          "version": 2
+          "text": "The data type of the node is not supported.",
+          "version": 3
         }
       }
     },

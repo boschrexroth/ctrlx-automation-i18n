@@ -2,9 +2,10 @@
     "menus.overview.title": "App-Daten verwalten",
     "documentation.solutions.description": "Stellt Funktionalitäten zum Speichern und Verwalten von App-Daten für ctrlX OS bereit.",
     "commands.activeConfiguration.subject": "Konfigurationskontext",
-    "scopes.name": "Konfigurationen",
+    "certificatestores.git.description": "SSH-Authentifizierungsschlüssel für den Zugriff auf Git-Remote-Repositories",
+    "scopes.name": "App-Daten",
     "scopes.manage.name": "Verwalten",
-    "scopes.manage.description": "Konfigurationen laden und speichern. Konfigurationsarchive hoch- und herunterladen. Konfigurationsinhalte bearbeiten",
+    "scopes.manage.description": "Konfigurationen laden und speichern (erlaubt das Einsehen und Ändern aller enthaltenen App-Daten). Konfigurationsarchive hoch- und herunterladen. Konfigurationsinhalte bearbeiten",
     "scopes.view.name": "Anzeigen",
     "scopes.view.description": "Konfigurationen anzeigen, vergleichen und herunterladen"
 }

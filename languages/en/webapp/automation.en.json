@@ -8,6 +8,7 @@
         "write": "Write",
         "discard": "Discard",
         "create": "Create",
+        "createWithFile": "Create with file",
         "delete": "Delete",
         "apply": "Apply",
         "reset": "Reset",
@@ -35,12 +36,28 @@
 
       "settings": {
         "title": "Settings",
+        "tabTree": "Tree",
+        "tabNodeValue": "Node value",
         "showLastNode": "Show last tree node when opening",
+        "showLastNodeHint": "When you reopen the Data Layer, the last selected node will be selected again.",
         "useTreeWidth": "Use last tree width when opening",
+        "useTreeWidthHint": "When you reopen the Data Layer, the previously selected tree width is restored.",
         "showDisplayname": "Show displayname in tree",
+        "showDisplaynameHint": "A node's metadata may contain a 'Display name'. If present, this will be displayed in the tree instead of the actual node name.",
+        "showTimestamp": "Show timestamp of value",
+        "showTimestampHint": "Display the date and time a value was last changed.",
         "showWarnings": "Show incomplete configuration from Data Layer node",
+        "showWarningsHint": "Incorrectly or incompletely defined nodes are displayed as errors or warnings at the respective node (symbol + tooltip).",
         "animateValues": "Animate dynamic changes in values of nodes",
-        "rangeSubnodes": "Possible subnodes (min: {{min}} - max: {{max}})"
+        "animateValuesHint": "Values that have just changed are highlighted in color.",
+        "showFormattedValues": "Display formatted values",
+        "showFormattedValuesHint": "Values of the data types 'INT' and 'UINT' are displayed formatted in blocks of 4 digits each if the formats 'Bin', 'Oct' or 'Hex' are set in the 'Display format' of the metadata.",
+        "rangeSubnodes": "Maximum possible number of child nodes in the tree",
+        "rangeSubnodesHint": "(min: {{min}} - max: {{max}})",
+        "timezone": "Timezone",
+        "browser": "Browser",
+        "device": "Device",
+        "utc": "UTC"
       },
 
       "dialogs": {
@@ -90,7 +107,8 @@
          },
 
          "header": {
-           "info": "No description available"
+           "info": "No description available",
+           "showHelp": "Shows description from node"
          },
 
          "input": {
@@ -110,6 +128,7 @@
            "title": "Child nodes",
            "colName": "Name",
            "colValue": "Value",
+           "colTimestamp": "Timestamp",
            "colUnit": "Unit",
            "colType": "Type"
          },
@@ -129,7 +148,19 @@
           "colSourcename": "Sourcename",
           "colValue": "Value",
           "copyEvents": "Copy events to clipboard"
-         }
+         },
+         "histogram": {
+           "title": "Histogram",
+           "recording": "Recording of measurements is active"
+         },
+         "contextInfo": {
+          "line1": "Different input formats are possible for this data type. (Example for entering the decimal value '10')",
+          "li0d": "Decimal",
+          "li0b": "Binary",
+          "li0o": "Octal",
+          "li0x": "Hexadecimal",
+          "line2": "The values ​​are displayed according to the 'Display format' set in the metadata."
+        }
       },
 
       "watchlist": {
@@ -152,7 +183,7 @@
           "ttEdit": "Edits item",
           "ttHideActions": "Hides actions",
           "ttShowActions": "Shows actions",
-          "ttInvalidPath": "Invalid address: Address does not exist in datalayer"
+          "ttInvalidPath": "Invalid address: Address does not exist in Data Layer"
         },
         
         "viewer": {
@@ -163,7 +194,6 @@
             "copyTitle": "Copy watchlist item '{{name}}'"
           }
         }
-
       }
     }
   },
@@ -171,7 +201,91 @@
   "widgets": {
     "confirmdialog": {
       "title": "Switching to '{{state}}' state",
-      "desc": "Ensure that appliances are in a safe state before proceeding"
+      "desc": "Ensure that appliances are in a safe state before proceeding!"
+    },
+    "node": {
+      "default": {
+        "title": "Data Layer Node",
+        "desc": "Displays the value of a Data Layer Node" 
+      }
+    },
+    "nodeSettings": {
+      "msg": {
+        "unsupportedType": "Unsupported data type: '{{type}}'"
+      },
+      "common": {
+        "labPath": "Path to Data Layer node",
+        "placeholderPath": "Click the icon to copy the path from Data Layer",
+        "ttPath": "Opens the Data Layer in a seperat tabpage",
+        "title": "General",
+        "cbName": "Name visible in widget",
+        "labName": "Name",
+        "cbDesc": "Description visible in widget",
+        "labDesc": "Description",
+        "cbIcon": "Icon visible in widget",
+        "labIcon": "Icon",
+        "cbAdjustBackColor": "Adjust background color",
+        "labBackColor": "Background color",
+        "cbAdjustFont": "Adjust Font",
+        "cbAdjustIcon": "Adjust Icon"
+      },
+      "numeric": {
+        "title": "Numeric",
+        "labVisu": "Visualization",
+        "visu": {
+          "number": "Number",
+          "gauge": "Gauge"
+        },
+        "cbDecimalPlaces": "Adjust decimal places",
+        "labDecimalPlaces": "Places",
+        "labMin": "Min - value range",
+        "labMax": "Max - value range",
+        "cbUnit": "Unit visible in widget",
+        "cbMinMax": "Min/Max values visible in widget",
+        "cbThreshold": "Thresholds visible in widget",
+        "labWarn": "Warn threshold",
+        "labErr": "Error threshold",
+        "labTarget": "Target value",
+        "cbInvert": "Inverted thresholds",
+        "ttEnterValues": "Please enter different minimum and maximum values"
+      },
+      "string": {
+        "title": "String"
+      },
+      "boolean": {
+        "title": "Boolean",
+        "cbAlias": "Alias text visible in widget",
+        "labTextTrue": "Text when TRUE",
+        "labTextFalse": "Text when FALSE",
+        "cbBackColorExt": "Adjust background color depending on status",
+        "cbTextColor": "Adjust text color depending on status",
+        "labColorTrue": "Color when TRUE",
+        "labColorFalse": "Color when FALSE",
+        "visu": {
+          "text": "Text",
+          "icon": "Icon"
+        },
+        "labIconTrue": "Icon when TRUE",
+        "labIconFalse": "Icon when FALSE",
+        "labIconSize": "Icon size",
+        "labIconAlign": "Icon align",
+        "labIconColor": "Icon color"
+      },
+      "font": {
+        "labFontSize": "Font size",
+        "labFontStyle": "Font style",
+        "cbNormal": "normal",
+        "cbItalic": "italic",
+        "cbBold": "bold",
+        "labFontWeight": "Font weight",
+        "labFontAlign": "Font align",
+        "cbAlignCenter": "center",
+        "cbAlignLeft": "left",
+        "cbAlignRight": "right",
+        "labFontColor": "Font color",
+        "ttTextcolorNotTaken": "Not taken into account if 'Adjust text color depending on status' is set!",
+        "ttBackcolorNotTaken": "Not taken into account if 'Adjust background color depending on status' is set!"
+      }
     }
   }
 }

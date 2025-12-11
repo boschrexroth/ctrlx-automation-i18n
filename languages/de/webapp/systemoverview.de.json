@@ -1,46 +1,98 @@
 {
-	"overview": {
-		"title": "Übersicht",
-		"refresh": "Aktualisieren",
+  "overview": {
+    "title": "Topologie",
+    "refresh": "Aktualisieren",
     "resetHilight": "Hervorhebung zurücksetzen",
     "hilightErrors": "Fehler hervorheben",
     "expand": "Expandieren",
-		"collapse": "Zusammenklappen",
-		"table": {
-			"name": "Name",
-			"state": "Zustand",
-			"type": "Typ",
-			"status": "Status",
-			"diagnosis": "Diagnosen",
-			"actions": "Actions"
-		}
-	},
-	"sysinfo": {
-		"etherSlavesTable": {
-		},
-		"table": {
-			"ethercatAddress": "Adr.",
-			"slaveName": "Name",
+    "collapse": "Zusammenklappen",
+    "settings": "Konfiguration",
+    "goEcatConfig": "Gehe zur EtherCAT Konfiguration",
+    "table": {
+      "name": "Geräte",
+      "state": "Zustand",
+      "class": "Klasse",
+      "status": "Status",
+      "diagnosis": "Diagnosen",
+      "actions": "Actions"
+    },
+    "backup": {
+      "backup": "Sichern",
+      "cardTitle": "Sicherung erstellen...",
+      "discardBackup": "Verwerfen",
+      "startButton": "Start",
+      "cancelButton": "Abbrechen",
+      "startBackup": "Sichern starten",
+      "processed": "ausgeführt",
+      "downloaded": "heruntergeladen",
+      "downloadReport": "Report herunterladen",
+      "downloadBackup": "Sicherung herunterladen",
+      "devicesProcessed": "Gerät(e) ausgeführt",
+      "supportedBackup": "Nur Sichern von ctrlX Core und Drives werden unterstützt.",
+      "onlyWithAppBackup": "Die Sicherung von Laufwerken funktioniert nur, wenn die Drive Engineering App installiert ist.",
+      "fileFormat": "Dateiformat",
+      "fileSelect": "Auswählen",
+      "zip": "Zip",
+      "zipEncrypted": "Zip (Verschlüsselt)",
+      "password": "Passwort",
+      "passwordPlaceholder": "Passwort eingeben",
+      "fileStorage": "Sicherungsdateispeicher",
+      "name": "Name",
+      "options": "Optionen",
+      "withApps": "mit Apps",
+      "withoutApps": "ohne Apps",
+      "onlyBackup": "Nur backup Parameter",
+      "allParameters": "Alle Parameter",
+      "pending": "Ausstehend",
+      "running": "Sichern läuft",
+      "done": "Sichern abgeschlossen",
+      "failed": "Sichern fehlgeschlagen",
+      "finish": "Beenden"
+    },
+    "restore": {
+      "restore": "Wiederherstellen",
+      "pending": "Ausstehend",
+      "running": "Wiederherstellen läuft",
+      "done": "Wiederherstellen abgeschlossen",
+      "failed": "Wiederherstellen fehlgeschlagen",
+      "changes": "Änderungen",
+      "drives": "Drives",
+      "controls": "Steuerungen",
+      "modified": "geändert",
+      "passwordHint": "Geben Sie das Passwort ein, das zum Erstellen der Sicherungsdatei verwendet wurde",
+      "uploadHint": "Datei hierher ziehen oder zum Hochladen klicken",
+      "backupFile": "Sicherungsdatei",
+      "backupFileStorage": "Ablagerort von Sicherungsdateien",
+      "selectBackupFile": "Sicherungsdatei auswählen"
+    },
+    "error": {
+      "clearError": "Fehler bereinigen"
+      }
+  },
+  "sysinfo": {
+    "etherSlavesTable": {},
+    "table": {
+      "ethercatAddress": "Adr.",
+      "slaveName": "Name",
       "hardware": "Hardware",
       "firmware": "Firmware",
       "partNumber": "MNR",
       "hardwareind": "Än-In",
       "serialNumber": "SN",
-			"vendor": "Hersteller",
+      "vendor": "Hersteller",
       "VendorId": "Her. Code",
-			"productCode": "Pr. Code",
-			"revisionNumber": "Rev.Nr."
-		},
+      "productCode": "Pr. Code",
+      "revisionNumber": "Rev.Nr."
+    },
     "dialog": {
-      "title":"Speichern von Systemkomponenten",
+      "title": "Speichern von Systemkomponenten",
       "headerOne": "Header Konfiguration",
       "fileName": "Dateiname",
       "freeText": "Freitext",
       "createButton": "Erstelle HTML",
       "cancelButton": "Abbrechen"
     },
-    "tooltip":
-    {
+    "tooltip": {
       "ethercatAddress": "Adresse",
       "slaveName": "Name / Details",
       "productCode": "Produkt Code",
@@ -50,45 +102,45 @@
       "partNumber": "Materialnummer",
       "VendorId": "Hersteller Code"
     },
-		"details": {
-			"address": "Adresse",
-			"givenName": "Name",
-			"type": "Typ",
+    "details": {
+      "address": "Adresse",
+      "givenName": "Name",
+      "type": "Typ",
       "changeIndex": "Änderungsindex",
-			"serialNumber": "Serienr.",
-			"partNumber": "Teilenr.",
+      "serialNumber": "Serienr.",
+      "partNumber": "Teilenr.",
       "operatingHours": "Betriebsstunden"
-		},
-    "message":{
-      "success":{
-        "createHtml":"Die Datei wurde erfolgreich heruntergeladen",
-        "uploadHtml":"Die Datei wurde erfolgreich hochgeladen"
+    },
+    "message": {
+      "success": {
+        "createHtml": "Die Datei wurde erfolgreich heruntergeladen",
+        "uploadHtml": "Die Datei wurde erfolgreich hochgeladen"
       },
-      "error":{
-        "createHtml":"Fehler beim Herunterladen der Datei",
-        "uploadHtml":"Fehler beim Hochladen der Datei"
+      "error": {
+        "createHtml": "Fehler beim Herunterladen der Datei",
+        "uploadHtml": "Fehler beim Hochladen der Datei"
       }
     },
-		"title": "Komponenten",
-		"axlist": "Achsen",
-		"kinlist": "Kinematiken",
-		"save": "Speichern",
-		"save-data-to-file": "Komponentendaten herunterladen",
-		"save-detail-to-file": "Systemdetail herunterladen",
+    "title": "Komponenten",
+    "axlist": "Achsen",
+    "kinlist": "Kinematiken",
+    "save": "Speichern",
+    "save-data-to-file": "Komponentendaten herunterladen",
+    "save-detail-to-file": "Systemdetail herunterladen",
     "save-all-to-file": "Alles herunterladen",
     "upload-data-to-file": "Systemdaten hochladen",
-		"upload-detail-to-file": "Systemdetail hochladen",
-		"config-columns": "Spalten konfigurieren",
+    "upload-detail-to-file": "Systemdetail hochladen",
+    "config-columns": "Spalten konfigurieren",
     "reset-columns": "Spalten zurücksetzen",
     "download-file": "Herunterladen",
     "upload-file": "Hochladen",
-		"expandTable": "Tabelle expandieren",
-		"collapseTable": "Tabelle zusammenklappen",
+    "expandTable": "Tabelle expandieren",
+    "collapseTable": "Tabelle zusammenklappen",
     "topology": "Topologie nicht OK",
-    "callout":{
+    "callout": {
       "tooltip": "Achtung! Es sind keine Daten für die Komponenten verfügbar!"
     }
-	},
+  },
   "loadingScreen": {
     "title": "Lade Komponentendaten",
     "initialStatus": "Bitte warten",

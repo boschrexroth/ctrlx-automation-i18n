@@ -3,7 +3,11 @@
   "failureProbMedium": "Increased failure probability",
   "failureProbHigh": "Strongly increased failure probability",
   "info": {
-    "qrCodesDCA": "QR-Codes (for the Digital Service Assistant App)",
+    "qrCodes": {
+      "heading": "QR-Codes (for the Digital Service Assistant App)",
+      "noDrivesSelected": "Please select drives in the table to generate QR codes.",
+      "noDrivesConnected": "Currently no QR codes are generated, because no drives are detected."
+    },
     "contactTable": {
       "contactUs": "Contact us",
       "DSA.app.top": "Digital Service Assistant App",
@@ -30,7 +34,7 @@
     "Lifetime Estimator Drive": "Used Lifetime Est. Drive",
     "emptyState": "No items to display",
     "histogramSum": "Hist. sum",
-    "opHours": "OP hours"
+    "opHours": "OP hours (in AF/Motion/TMax)"
   },
   "selectorWindow": {
     "header": "Select columns to hide/display",
@@ -61,9 +65,12 @@
     "noDrivesFound": "Warning! Service Indicator cannot detect any drives. Please make sure that the drives are correctly attached and reachable."
   },
   "commandBar": {
+    "numberOfEntries": "items",
+    "axesLimitExceededTooltip": "The current licence supports monitoring a maximum of 50 axes.",
     "hideColumns.hidden": "column(s) are hidden",
     "hideColumns.nohidden": "Hide static columns",
-    "manageDevicesTooltip": "Manage Remote Devices",
+    "addDevicesTooltip": "Add Remote Devices",
+    "removeDevicesTooltip": "Remove Remote Devices",
     "loggingConfigTooltip": "Configure logging"
   },
   "export": {
@@ -81,20 +88,23 @@
     "cancel": "Cancel"
   },
   "addDevice": {
-    "headline": "Manage Remote Devices",
-    "addDevices": "Add device(s)",
-    "removeDevices": "Remove device(s)",
-    "singleDevice": "Single device",
-    "multipleDevices": "Multiple devices",
+    "headline": "Add Remote Devices",
+    "multipleDevices": "Add multiple devices",
     "IP": "IP",
     "to": "to",
     "ipMax": "IP",
-    "singleAxis": "Single axis",
-    "doubleAxis": "Double axis",
+    "numberAxes": "Number of axes",
     "save": "Save",
     "cancel": "Cancel",
     "errorInvalidIP": "IP address has invalid format",
     "errorInvalidIPMax": "Maximum IP address has invalid format",
+    "errorTooManyAxes": "The maximum number of axes supported by this license is 50. It is not possible to add more axes.",
+    "toastSuccessfullyAdded": "Request executed successfully. The table will be updated shortly."
+  },
+  "removeDevice": {
+    "headline": "Remove Remote Devices",
+    "save": "Save",
+    "cancel": "Cancel",
     "toastSuccessfullyAdded": "Request executed successfully. The table will be updated shortly."
   },
   "configModal": {

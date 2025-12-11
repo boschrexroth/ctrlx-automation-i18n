@@ -1,5 +1,5 @@
 {
-  "product": "GCO-V-0306",
+  "product": "GCO-V-0404",
   "mainDiagnostics": {
     "100A0040": {
       "text": "Allgemeine G-Code-Systemmeldung",
@@ -307,6 +307,40 @@
         },
         "0C29001A": {
           "text": "Programmierung eines ungültigen Adressworts",
+          "version": 1
+        },
+        "0C29001B": {
+          "text": "Ungültige Verweilzeit",
+          "version": 1
+        },
+        "0C29001C": {
+          "text": "Nicht definierte Verweilzeit",
+          "version": 1
+        },
+        "0C29001D": {
+          "text": "Ungültiger Parameter LAX",
+          "version": 1
+        }
+      }
+    },
+    "100F0081": {
+      "text": "Fehler der NC-Funktion einer einzelnen Achse (RAX, GAX, WAX)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C29001E": {
+          "text": "Einzelne Achse wird nicht zur Kinematik hinzugefügt bei Aufruf der Funtion RAX()",
+          "version": 1
+        },
+        "0C29001F": {
+          "text": "Motion-Befehl zum Entfernen der Achse aus der Kinematik fehlgeschlagen",
+          "version": 1
+        },
+        "0C290020": {
+          "text": "Motion-Befehl \"Achse zur Kinematik hinzufügen\" fehlgeschlagen",
+          "version": 1
+        },
+        "0C290021": {
+          "text": "NC-Funktion WAX() wartet, bis die Achse das Leerlauf-Zeitlimit erreicht hat",
           "version": 1
         }
       }

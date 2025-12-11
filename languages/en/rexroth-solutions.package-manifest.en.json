@@ -2,9 +2,10 @@
     "menus.overview.title": "Manage app data",
     "documentation.solutions.description": "Provides functionalities for persisting and managing app data on ctrlX OS devices.",
     "commands.activeConfiguration.subject": "configuration context",
-    "scopes.name": "Configurations",
+    "certificatestores.git.description": "SSH authentication keys for accessing Git remote repositories",
+    "scopes.name": "App Data",
     "scopes.manage.name": "Manage",
-    "scopes.manage.description": "Load and save configurations. Upload and download configuration archives. Edit configuration content.",
+    "scopes.manage.description": "Load and save configurations (allows viewing and modifying all contained app data). Upload and download configuration archives. Edit configuration content.",
     "scopes.view.name": "View",
     "scopes.view.description": "View, compare and download configurations"
 }

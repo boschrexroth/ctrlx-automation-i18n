@@ -1,5 +1,5 @@
 {
-  "product": "OSC-V-0306",
+  "product": "OSC-V-0404",
   "mainDiagnostics": {
     "100A0032": {
       "text": "Bundle booting",
@@ -505,6 +505,10 @@
         },
         "0C310933": {
           "text": "Error in data format of continue mode",
+          "version": 1
+        },
+        "0C310934": {
+          "text": "The current drive type is not supported.",
           "version": 1
         }
       }

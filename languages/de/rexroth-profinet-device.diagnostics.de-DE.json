@@ -1,5 +1,5 @@
 {
-  "product": "PND-V-0306",
+  "product": "PND-V-0402",
   "mainDiagnostics": {
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
@@ -40,7 +40,7 @@
           "version": 1
         },
         "0C780254": {
-          "text": "Reset to Factory",
+          "text": "\"Reset-To-Factory\"-Kommando",
           "version": 1
         },
         "0C780255": {
@@ -57,6 +57,14 @@
         },
         "0C780259": {
           "text": "PN-Device: AR closed",
+          "version": 1
+        },
+        "0C780261": {
+          "text": "Modul(e) aktiv",
+          "version": 1
+        },
+        "0C780262": {
+          "text": "Modul(e) gestoppt",
           "version": 1
         }
       }
@@ -149,6 +157,10 @@
         },
         "0C780148": {
           "text": "Zustandswechsel nicht möglich: Callable ist nicht aktiv",
+          "version": 1
+        },
+        "0C780149": {
+          "text": "FW-Update COM.2 fehlgeschlagen",
           "version": 1
         },
         "0C780199": {

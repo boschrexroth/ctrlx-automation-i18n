@@ -1,5 +1,5 @@
 {
-  "product": "OSC-V-0306",
+  "product": "OSC-V-0404",
   "mainDiagnostics": {
     "100A0032": {
       "text": "Bundle startet",
@@ -505,6 +505,10 @@
         },
         "0C310933": {
           "text": "Fehler im Datenformat des Fortsetzungsmodus",
+          "version": 1
+        },
+        "0C310934": {
+          "text": "Der aktuelle Antriebstyp wird nicht unterstützt.",
           "version": 1
         }
       }

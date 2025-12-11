@@ -16,5 +16,7 @@
 	"scopes-declaration.rexroth-3dviewer.axis.rw.name": "Configure Models",
 	"scopes-declaration.rexroth-3dviewer.axis.rw.description": "View and modify configuration",
 	"scopes-declaration.3dviewer.axis.rw.requiredScopes.rexroth-automation.datalayer.r.name": "Data Layer full read access",
-	"scopes-declaration.3dviewer.axis.rw.requiredScopes.rexroth-automation.datalayer.r.description": "Full read access to all Data Layer nodes"
+	"scopes-declaration.3dviewer.axis.rw.requiredScopes.rexroth-automation.datalayer.r.description": "Full read access to all Data Layer nodes",
+	"widget-uiextensions.3dviewer.name": "3D Viewer",
+	"widget-uiextensions.3dviewer.description": "Shows the model view"
 }

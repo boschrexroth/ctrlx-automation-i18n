@@ -5,10 +5,12 @@
     "cancel.button": "Cancel",
     "ok.button": "Ok",
     "save.button": "Save",
+    "apply.button": "Apply Changes",
     "Actions.label": "Actions",
     "Edit.label": "Edit",
     "Delete.label": "Delete",
     "Enable.label": "Enable",
+    "Configuration.title":"Configuration",
     "Publisher.title": "Publisher",
     "Subscriber.title": "Subscriber"
   },
@@ -53,7 +55,7 @@
     "pubsubConfiguration.title": "OPC UA Pub/Sub configuration",
     "readOnlyPermission": "You don't have permissions to perform this operation",
     "id.label": "IDs",
-    "id.toolTip": "Publisher ID, Data Set Writer ID"
+    "id.toolTip": "Publisher ID, Writer Group ID, Data Set Writer ID"
   },
   "pubsub.addConnection": {
     "AddConnection.label": "Add Connection",
@@ -65,7 +67,18 @@
     "AddressNetworkInterface.label": "Address Network Interface",
     "ExpertProperties.label": "Expert Properties"
   },
-  "pubsub.calloutNotification": {},
+  "pubsub.calloutNotification": {
+    "publisherUpdateSuccess.text": "OPC UA Publisher details updated successfully",
+    "subscriberUpdateSuccess.text": "OPC UA Subscriber details updated successfully",
+    "AppliedChangesSuccess.text": "Publisher and Subscriber data saved successfully",
+    "NoConfigLoaded.text": "No Configuration data loaded",
+    "NoSessionData.text": "No Session data found",
+    "ReaderGroupNotFound.text": "ReaderGroup {{value}} not found",
+    "ReaderNotFound.text": "Reader {{value}} not found",
+    "WriterNotFound.text": "Writer {{value}} not found",
+    "WriterGroupNotFound.text": "WriterGroup {{value}} not found",
+    "ConnectionNotFound.text": "Connection {{value}} not found"
+  },
   "pubsub.addPublisher": {
     "AddPubsub.label": "Add Publisher",
     "Connection.label": "Connection Name",
@@ -112,6 +125,7 @@
     "State.label": "State",
     "Status.label": "Status",
     "TargetNodePath.label": "Target Node Path",
+    "MirroredNodePath.label": "Mirrored Node Path",
     "DataType.label": "Data Type",
     "delete.Confirmation": "Are you sure you want to delete {{value}}?",
     "deleteSubscriber": "Delete Subscriber",
@@ -140,5 +154,24 @@
   "pubsub.reader": {
     "Name.label": "Name",
     "maxNetworkMessageSize.label": "Max Network Message Size"
+  },
+  "pubsub.ConfigTab": {
+    "ID.header": "ID",
+    "State.header": "State",
+    "Progress.header": "Progress",
+    "Diagnosis.header": "Diagnosis",
+    "Action.header":"Action",
+    "View.tooltip": "View Configuration",
+    "Delete.tooltip": "Delete Configuration",
+    "Add.tooltip": "Add Configuration",
+    "deleteConfig.text": "Delete '{{value}}'",
+    "deletedConfig.text": "Configuration '{{value}}' successfully deleted",
+    "delete.description": "This Configuration node will be deleted immediately. This action cannot be undone.",
+    "loadConfiguration.label": "Load Configuration",
+    "validJSON.label" : "valid JSON",
+    "inValidJSON.label" : "Invalid JSON",
+    "configurationSuccess.label" : "configuration saved successfully",
+    "configuratioFailure.label" : "Failed to save configuration"
+
   }
 }

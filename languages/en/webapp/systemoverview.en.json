@@ -1,24 +1,77 @@
 {
   "overview": {
-    "title": "Overview",
+    "title": "Topology",
     "refresh": "Refresh",
     "resetHilight": "Reset Highlight",
     "hilightErrors": "Highlight Errors",
     "expand": "Expand",
-		"collapse": "Collapse",
-		"table": {
-			"name": "Name",
-			"state": "State",
-			"type": "Type",
-			"status": "Status",
-			"diagnosis": "Diagnosis",
-			"actions": "Actions"
-		}
-  },
-  "sysinfo" : {
-    "etherSlavesTable" : {
+    "collapse": "Collapse",
+    "settings": "Settings",
+    "goEcatConfig": "Go to EtherCAT configuration",
+    "table": {
+      "name": "Devices",
+      "state": "State",
+      "class": "Class",
+      "status": "Status",
+      "diagnosis": "Diagnosis",
+      "actions": "Actions"
     },
-    "table" : {
+    "backup": {
+      "backup": "Backup",
+      "cardTitle": "Creating backup...",
+      "discardBackup": "Discard",
+      "startButton": "Start",
+      "cancelButton": "Cancel",
+      "startBackup": "Start backup",
+      "processed": "processed",
+      "downloaded": "downloaded",
+      "downloadReport": "Download report",
+      "downloadBackup": "Download backup",
+      "devicesProcessed": "device(s) processed",
+      "supportedBackup": "Only backup of ctrlX Core and Drives are supported.",
+      "onlyWithAppBackup": "Backup of drives only works if the Drive Engeering App is installed.",
+      "fileFormat": "File format",
+      "fileSelect": "Select",
+      "zip": "Zip",
+      "zipEncrypted": "Zip (Encrypted)",
+      "password": "Password",
+      "passwordPlaceholder": "Enter a password",
+      "fileStorage": "Backup file storage",
+      "name": "Name",
+      "options": "Options",
+      "withApps": "with Apps",
+      "withoutApps": "without Apps",
+      "onlyBackup": "Only backup parameters",
+      "allParameters": "All parameters",
+      "pending": "Pending",
+      "running": "Backup in progress",
+      "done": "Backup completed",
+      "failed": "Backup failed",
+      "finish": "Finish"
+    },
+    "restore": {
+      "restore": "Restore",
+      "pending": "pending",
+      "running": "Restore in progress",
+      "done": "Restore completed",
+      "failed": "Restore failed",
+      "changes": "Changes",
+      "drives": "Drives",
+      "controls": "Controls",
+      "modified": "modified",
+      "passwordHint": "Enter the password used to create the backup file",
+      "uploadHint": "Drag file here or click to upload",
+      "backupFile": "Backup file",
+      "backupFileStorage": "Backup file storage",
+      "selectBackupFile": "Select backup file"
+    },
+    "error": {
+      "clearError": "Clear error"
+      }
+  },
+  "sysinfo": {
+    "etherSlavesTable": {},
+    "table": {
       "ethercatAddress": "Addr.",
       "slaveName": "Name",
       "hardware": "Hardware",
@@ -32,15 +85,14 @@
       "revisionNumber": "Rev.Nr."
     },
     "dialog": {
-      "title":"Save system components",
+      "title": "Save system components",
       "headerOne": "Header configuration",
       "fileName": "File name",
       "freeText": "Free text",
       "createButton": "Create HTML",
       "cancelButton": "Cancel"
     },
-    "tooltip":
-    {
+    "tooltip": {
       "ethercatAddress": "Address",
       "slaveName": "Name / Details",
       "productCode": "Product Code",
@@ -51,21 +103,21 @@
       "VendorId": "Vendor ID"
     },
     "details": {
-			"address": "Address",
-			"givenName": "Given name",
-			"type": "Type",
+      "address": "Address",
+      "givenName": "Given name",
+      "type": "Type",
       "changeIndex": "Change index",
-			"serialNumber": "Serial Nr.",
-			"partNumber": "Mat.Nr.",
+      "serialNumber": "Serial Nr.",
+      "partNumber": "Mat.Nr.",
       "operatingHours": "Operating hours"
-		},
-    "message":{
-      "success":{
-        "createHtml":"The file has been downloaded successfully",
-        "uploadHtml":"The file has been uploaded successfully"
+    },
+    "message": {
+      "success": {
+        "createHtml": "The file has been downloaded successfully",
+        "uploadHtml": "The file has been uploaded successfully"
       },
-      "error":{
-        "createHtml":"Error downloading the file",
+      "error": {
+        "createHtml": "Error downloading the file",
         "uploadHtml": "Error uploading the file"
       }
     },
@@ -73,19 +125,19 @@
     "axlist": "Axes",
     "kinlist": "Kinematics",
     "save": "Save",
-		"save-data-to-file": "Download components data",
-		"save-detail-to-file": "Download system details",
+    "save-data-to-file": "Download components data",
+    "save-detail-to-file": "Download system details",
     "save-all-to-file": "Download all",
     "upload-data-to-file": "Upload components data",
-		"upload-detail-to-file": "Upload system details",
-		"config-columns": "Configure columns",
+    "upload-detail-to-file": "Upload system details",
+    "config-columns": "Configure columns",
     "reset-columns": "Reset columns",
     "download-file": "Download",
     "upload-file": "Upload",
     "expandTable": "Expand table",
     "collapseTable": "Collapse table",
     "topology": "Topology not OK",
-    "callout":{
+    "callout": {
       "tooltip": "Attention! There is no data available for components!"
     }
   },

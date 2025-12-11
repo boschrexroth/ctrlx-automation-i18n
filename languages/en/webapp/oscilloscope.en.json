@@ -38,11 +38,11 @@
         }
     },
     "noAccess": {
-        "error.header": "The Oscilloscope App is currently not available.",
+        "error.header": "The Oscilloscope App is currently not available(Error: {{errorCode}}).",
         "description": "This is most likely due to one of the following reasons:",
-        "servicemode": "The 'Service mode' is currently active. Please switch to 'Operation mode' and try again.",
+        "servicemode": "The 'Service mode' is currently active. Please go to the {{value}} switch to 'Operation mode' and try again.",
         "servicemode.appManagerLink": "Apps manager",
-        "appInitializing": "The app is currently being initialized. This may take a while, please refresh the page.",
+        "appInitializing": "The app is currently being initialized. This may take a while, please {{value}} the page.",
         "refresh": "Refresh",
         "noPermission": "You do not have the required permissions to see this page.",
         "permission.list1": "Oscilloscope scopes: Oscilloscope View"
@@ -50,11 +50,16 @@
     "button": {
         "ok": "OK",
         "cancel": "Cancel",
+        "submit": "Submit",
         "add": "Add",
         "delete": "Delete",
         "discard": "Discard",
         "save": "Save",
+        "apply": "Apply",
+        "forward": "Forward",
+        "backward": "Backward",
         "reset": "Reset",
+        "offset": "Offset",
         "manual": "Manual",
         "continue": "Continue"
     },
@@ -62,12 +67,15 @@
         "add": "Adds oscilloscope instance",
         "delete": "Delete",
         "edit": "Edits configuration",
-        "load": "Uploads recording or configuration",
-        "loadFromDB": "Downloads recording from InfluxDB",
+        "editOffset": "Edits offset",
+        "loadCfg": "Uploads configuration",
+        "load": "Uploads measurement",
+        "loadFromDB": "Uploads recording from InfluxDB",
         "disableInfluxdb": "Only available after installing InfluxDB",
         "more": "More...",
         "open": "Diagram",
-        "save": "Downloads recording or configuration",
+        "save": "Downloads recording and configuration",
+        "saveCfg": "Downloads configuration",
         "save_signal": "Saves configuration",
         "save_all": "Saves all configurations",
         "start": "Starts recording",
@@ -84,7 +92,11 @@
         "analyze_signal": "Signal analyze configuration",
         "disableAnalyze": "Only available in 'SINGLESHOT' mode",
         "disableBitAnalyze": "Only available for Drive type signals",
-        "storage_setting": "Edits recorded data storage configurations"
+        "storage_setting": "Edits recorded data storage configurations",
+        "fileRender": "Reading file",
+        "query": "Loading data",
+        "pause": "Pause",
+        "continue": "Continue"
     },
     "warn": {
         "drive_no_data": "Drive has not provided data for a long time (P-0-0280, Oscilloscope: Trend mode, list of measured values)"
@@ -92,9 +104,9 @@
     "error": {
         "signal_remove": "Reconfigure signals(over 20 in length, all removed)",
         "no_drive_signal": "No available Drive signals, Please check the status of {{name}} and EtherCAT Master App.",
-        "drive_error_list":"Please verify that DRIVE Connect App and EtherCAT Master App are properly installed, have the required permissions, and are correctly configured.",
+        "drive_error_list": "Please verify that DRIVE Connect App and EtherCAT Master App are properly installed, have the required permissions, and are correctly configured.",
         "check_state": "Please check {{name}}'s state.",
-        "check_permission":"Please check {{name}}'s permission.",
+        "check_permission": "Please check {{name}}'s permission.",
         "check_app_status": "Please check the installation status of {{name}}",
         "check_dca_version": "The version of DRIVE Connect App is not matched",
         "signal_limit_20": "Cannot add more than 20 signals",
@@ -104,7 +116,10 @@
         "signal_limit_axis": "Cannot add multi-axis signal",
         "instance_limit": "Cannot add more than 10 instances",
         "config_incomplete": "Configuration info incomplete",
-        "file_error": "Files do not match, please check",
+        "data_incomplete": "Measurement info incomplete",
+        "file_empty": "Failed to read the file, please check the file data content.",
+        "file_error": "Failed to read the file.",
+        "file_no": "No file selected.",
         "config_invalid": "Configuration invalid",
         "unable_to_delete": "Cannot delete oscilloscope instance during recording",
         "unable_to_edit": "Cannot edit configuration during recording",
@@ -120,7 +135,8 @@
         "signal_add_error": "The signal for the correct path has been added, and the others are not processed!",
         "no_drive_manual": "No Drive signal is selected, only manual mode is supported",
         "required": "Alias is required",
-        "exists": "Alias already exists"
+        "exists": "Alias already exists",
+        "influxdbdata_long": "The selected data is too large. Please reconfigure the query."
     },
     "zoom": {
         "adjust_signal": "Adjust signals in display area",
@@ -227,11 +243,13 @@
             "cursor": "Cursor",
             "unit": "Unit",
             "name": "Name",
-            "diagram": "Diagram"
+            "diagram": "Diagram",
+            "action": "Action"
         }
     },
     "add": {
         "title": "Add oscilloscope instance",
+        "titleImport": "Import oscilloscope instance",
         "header": {
             "name": "Name",
             "type": "Type"
@@ -249,15 +267,37 @@
     "diagram": {
         "title": "Diagram configuration",
         "titleTree": "Diagram",
-        "options": "{{currentDiagram}} signal options"
+        "options": "{{currentDiagram}} signal options",
+        "add": "Add historical data",
+        "multi_dia": "Current data comparison",
+        "multi_dia_detail": "Supports up to two diagrams(except 'Diagram_bit')",
+        "multi_Measurement": "Historical data comparison",
+        "multi_Measurement_detail": "Imports historical data for comparison",
+        "multi_Measurement_warn": "The imported historical data will be removed form diagram upon closing the browser, switching to {{name}}, or navigating to another instance",
+        "local": "Local",
+        "influxDB": "InfluxDB",
+        "mode": {
+            "fft": "FFT diagram",
+            "time": "Time diagram"
+        }
     },
     "channel": {
         "title": "View configuration",
         "color": "Color",
+        "info": "The configuration of analysis signals is only valid for the current diagram.",
         "visible": {
             "title": "Visible",
             "hide": "Hide",
             "show": "Show"
+        },
+        "alias": {
+            "title": "Alias"
+        },
+        "lineType": {
+            "line": "LINEAR",
+            "step": "STEP",
+            "none": "NONE",
+            "title": "Line type"
         }
     },
     "config": {
@@ -295,6 +335,8 @@
                 "influxInfo": "Save to InfluxDB automatically"
             },
             "error": {
+                "historical_limit": "Only two historical data can be imported!",
+                "noSubmit": "Please submit the query first!",
                 "no_app": "Please install InfluxDB app and ensure it is available!",
                 "no_config": "Please config the InfluxDB query!",
                 "restart_infor": "Local storage and Influxdb storage will be reset to inactive state after the device is restarted!"
@@ -358,7 +400,8 @@
             "field": {
                 "header": "Field",
                 "error": "Field is required",
-                "errorTime": "No field found in the current time range"
+                "errorTime": "No field found in the current time range",
+                "errorOverlap": "No filed overlap in the current time range"
             }
         },
         "recording": {
@@ -402,6 +445,7 @@
                     "manual": "Manual",
                     "rising_edge": "Rising edge",
                     "falling_edge": "Falling edge",
+                    "autoTrigger": "AutoTrigger",
                     "rising_or_falling_edge": "Rising edge/Falling edge",
                     "value": "Value"
                 }
@@ -451,7 +495,8 @@
     "analyze": {
         "title": "Define computation",
         "mode": {
-            "header": "Computation",
+            "header_computation": "Computation",
+            "header_fft": "FFT",
             "arithmetic": {
                 "name": "Arithmetic",
                 "constants": {
@@ -459,6 +504,7 @@
                     "header1": "c1",
                     "header2": "c2"
                 },
+                "infor": "Two signals can be added, substracted, multiplied or divided element by element.<br>The result is multiplied with the constant factor c1/c2.",
                 "signal": {
                     "title": "(Real-time signals and Drive signals)",
                     "header1": "Signal 1",
@@ -466,17 +512,18 @@
                     "placeholder": "Select a signal",
                     "error": {
                         "no_signal": "No signal available",
-                        "no_selection": "Select a signal"
+                        "no_selection": "Select a signal",
+                        "no_mode": "Select a mode"
                     }
                 },
                 "mode": {
                     "title": "Analyze mode",
                     "header": "Mode",
                     "list": {
-                        "Addition": "Addition",
-                        "Subtraction": "Subtraction",
-                        "Multiplication": "Multiplication",
-                        "Division": "Division"
+                        "Addition": "+ Addition",
+                        "Subtraction": "- Subtraction",
+                        "Multiplication": "* Multiplication",
+                        "Division": "/ Division"
                     }
                 },
                 "error": {
@@ -499,6 +546,7 @@
                         "no_selection": "Select a signal"
                     }
                 },
+                "infor": "The bit analysis extracts individual bits from a signal and displays the bits.",
                 "bit": {
                     "name": "Bit list",
                     "title": "(A maximum 16 bits can be selected and displayed)",
@@ -515,10 +563,47 @@
                     "cancel-all": "Deselect all",
                     "invert": "Select invert"
                 }
+            },
+            "universal": {
+                "function": {
+                    "abs": "Abs(f(t))",
+                    "first-order-diff-min": "d/dt [1/min]",
+                    "first-order-diff-s": "d/dt [1/s]",
+                    "integr": "Integr f(t)dt [min]",
+                    "second-order-diff-min": "d²/dt² [1/min²]",
+                    "second-order-diff-s": "d²/dt² [1/s²]",
+                    "sqrt-abs": "Sqrt(Abs(f(t)))",
+                    "square": "f(t)²",
+                    "title1": "Function1",
+                    "title2": "Function2"
+                },
+                "infor": "The following calculation formula is used for a signal: cs=c1⁄c2*(f1(f2(Signal))).",
+                "name": "Universal Computation",
+                "signal": {
+                    "header": "Signal",
+                    "title": "(Real-time signals and Drive signals)"
+                }
+            },
+            "moving-average": {
+                "infor": "Calculates the floating mean value of a signal.",
+                "factor": {
+                    "header": "Smoothing factor",
+                    "error": {
+                        "outLimit": "A value between 3 and 31 can be selected for the smoothing factor!",
+                        "no-factor": "Input a factor"
+                    }
+                },
+                "name": "Moving Average"
+            },
+            "fft-analysis": {
+                "infor": "Calculates the Fourier transformation of a signal.",
+                "dB": "Amplitude in dB",
+                "name": "FFT Analysis"
             }
         }
     },
     "svg": {
-        "time_axis": "Time axis [ms]"
+        "time_axis": "Time axis [ms]",
+        "freq_axis": "Frequency axis [Hz]"
     }
 }

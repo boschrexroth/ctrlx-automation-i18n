@@ -38,11 +38,11 @@
         }
     },
     "noAccess": {
-        "error.header": "Die App Oszilloskop ist momentan nicht verfügbar.",
-        "description": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
-        "servicemode": "Der 'Service-Modus' ist gerade aktiv. wechseln Sie in den 'Operation-Modus' und versuchen Sie es erneut.",
+        "error.header": "Die App Oszilloskop ist momentan nicht verfügbar (Fehler: {{errorCode}}).",
+        "description": "Höchstwahrscheinlich aus einem der nachfolgenden Gründe:",
+        "servicemode": "Der 'Service-Modus' ist gerade aktiv. Bitte gehen Sie zu {{value}}, wechseln Sie in den 'Operation-Modus' und versuchen Sie es erneut.",
         "servicemode.appManagerLink": "Apps-Manager",
-        "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte Aktualisieren Sie die Seite",
+        "appInitializing": "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{value}} Sie die Seite",
         "refresh": "Aktualisieren",
         "noPermission": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen.",
         "permission.list1": "Oszilloskop-Bereiche: Oszilloskop Ansicht"
@@ -50,11 +50,16 @@
     "button": {
         "ok": "OK",
         "cancel": "Abbrechen",
+        "submit": "Einreichen",
         "add": "Hinzufügen",
         "delete": "Löschen",
         "discard": "Verwerfen",
         "save": "Speichern",
+        "apply": "Anwenden",
+        "forward": "Nach vorne",
+        "backward": "Rückwärts",
         "reset": "Zurücksetzen",
+        "offset": "Versatz",
         "manual": "Handbuch",
         "continue": "fortsetzen "
     },
@@ -62,12 +67,15 @@
         "add": "Hinzufügen einer Oszilloskop-Instanz",
         "delete": "Löschen",
         "edit": "Bearbeitet Konfiguration",
-        "load": "lädt Aufzeichnung oder Konfiguration",
-        "loadFromDB": "Downloads Aufzeichnungen aus InfluxDB",
+        "editOffset": "Bearbeitet den Versatz",
+        "loadCfg": "lädt Konfiguration",
+        "load": "lädt Aufzeichnung",
+        "loadFromDB": "lädt Aufzeichnungen aus InfluxDB",
         "disableInfluxdb": "Nur verfügbar nach der Installation von InfluxDB",
         "more": "Mehr...",
         "open": "Diagramm",
-        "save": "Downloads Aufzeichnung oder Konfiguration",
+        "save": "Aufzeichnung und Konfiguration von Herunterladen",
+        "saveCfg": "Herunterladen der Konfiguration",
         "save_signal": "Speichert Konfiguration",
         "save_all": "Speichert alle Konfigurationen",
         "start": "Startet Aufzeichnung",
@@ -84,7 +92,11 @@
         "analyze_signal": "Signalanalysekonfiguration",
         "disableAnalyze": "Nur im Modus „SINGLESHOT“ verfügbar",
         "disableBitAnalyze": "Nur für Signale vom Typ „Antrieb“ verfügbar",
-        "storage_setting": "Editiert aufgezeichnete Datenspeicherkonfigurationen"
+        "storage_setting": "Editiert aufgezeichnete Datenspeicherkonfigurationen",
+        "fileRender": "Datei wird geladen",
+        "query": "Daten werden abgefragt",
+        "pause": "Pause",
+        "continue": "Continue"
     },
     "warn": {
         "drive_no_data": "Antrieb hat längere Zeit keine Daten geliefert (P-0-0280, Oszilloskop: Trendmodus, Messwertliste)"
@@ -92,9 +104,9 @@
     "error": {
         "signal_remove": "Signale neu konfigurieren(über 20 in der Länge, alle entfernt)",
         "no_drive_signal": "Keine verfügbaren Antriebssignale, Bitte überprüfen Sie den Statusvon {{name}} und der EtherCAT Master App.",
-        "drive_error_list":"Bitte überprüfen Sie, ob DRIVE Connect App und EtherCAT Master App ordnungsgemäß installiert, die erforderlichen Berechtigungen vorhanden und korrekt konfiguriert sind.",
+        "drive_error_list": "Bitte überprüfen Sie, ob DRIVE Connect App und EtherCAT Master App ordnungsgemäß installiert, die erforderlichen Berechtigungen vorhanden und korrekt konfiguriert sind.",
         "check_state": "Bitte überprüfen Sie den Status {{name}}.",
-        "check_permission":"Bitte überprüfen Sie die Berechtigung von {{name}}.",
+        "check_permission": "Bitte überprüfen Sie die Berechtigung von {{name}}.",
         "check_app_status": "Bitte überprüfen Sie den Installationsstatus von {{name}}",
         "check_dca_version": "Die Version der DRIVE Connect App stimmt nicht überein",
         "signal_limit_20": "Kann nicht mehr als 20 Signale hinzufügen",
@@ -104,7 +116,10 @@
         "signal_limit_axis": "Mehrachssignal kann nicht hinzugefügt werden",
         "instance_limit": "Kann nicht mehr als 10 Oszilloskop",
         "config_incomplete": "Konfigurationsinformationen unvollständig",
-        "file_error": "Dateien stimmen nicht überein, bitte überprüfen",
+        "data_incomplete": "Messinformationen unvollständig",
+        "file_empty": "Das Lesen der Datei ist fehlgeschlagen. Bitte überprüfen Sie den Dateninhalt der Datei.",
+        "file_error": "Die Datei konnte nicht gelesen werden.",
+        "file_no": "Keine Datei ausgewählt.",
         "config_invalid": "Konfiguration ungültig",
         "unable_to_delete": "Die Oszilloskop-Instanz kann während der Aufzeichnung nicht gelöscht werden",
         "unable_to_edit": "Kann Konfiguration während einer laufenden Aufzeichnung nicht bearbeiten",
@@ -120,7 +135,8 @@
         "signal_add_error": "Das Signal für den richtigen Weg wurde hinzugefügt, die anderen werden nicht verarbeitet!",
         "no_drive_manual": "Es ist kein Antriebssignal ausgewählt, nur der manuelle Modus wird unterstützt",
         "required": "Alias ist erforderlich",
-        "exists": "Alias ​​existiert bereits"
+        "exists": "Alias existiert bereits",
+        "influxdbdata_long": "Die ausgewählten Daten sind zu umfangreich. Bitte konfigurieren Sie die Abfrage neu."
     },
     "zoom": {
         "adjust_signal": "Signale im Anzeigebereich einstellen",
@@ -227,11 +243,13 @@
             "cursor": "Cursor",
             "unit": "Einheit",
             "name": "Name",
-            "diagram": "Diagramm"
+            "diagram": "Diagramm",
+            "action": "Aktion"
         }
     },
     "add": {
         "title": "Hinzufügen einer Oszilloskop-Instanz",
+        "titleImport": "Oszilloskop-Instanz importieren",
         "header": {
             "name": "Name",
             "type": "Type"
@@ -249,15 +267,37 @@
     "diagram": {
         "title": "Diagrammkonfiguration",
         "titleTree": "Diagramm",
-        "options": "{{currentDiagram}}-Signaloptionen"
+        "options": "{{currentDiagram}}-Signaloptionen",
+        "add": "Historische Daten hinzufügen",
+        "multi_dia": "Aktueller Datenvergleich",
+        "multi_dia_detail": "Unterstützt bis zu zwei Diagramme(außer „Diagram_bit“)",
+        "multi_Measurement": "Historischer Datenvergleich",
+        "multi_Measurement_detail": "Importiert historische Daten zum Vergleich",
+        "multi_Measurement_warn": "Die importierten historischen Daten werden aus dem Diagramm entfernt, wenn Sie den Browser schließen, zu {{name}} wechseln oder zu einer anderen Instanz navigieren.",
+        "local": "Lokal",
+        "influxDB": "InfluxDB",
+        "mode": {
+            "fft": "FFTdiagramm",
+            "time": "Zeitdiagramm"
+        }
     },
     "channel": {
         "title": "Konfiguration ansehen",
         "color": "Farbe",
+        "info": "Die Konfiguration der Analysesignale ist nur für das aktuelle Diagramm gültig.",
         "visible": {
             "title": "Sichtbar",
             "hide": "Ausblenden",
             "show": "Einblenden"
+        },
+        "alias": {
+            "title": "Alias"
+        },
+        "lineType": {
+            "line": "LINEAR",
+            "step": "SCHRITT",
+            "none": "KEINER",
+            "title": "Linientyp"
         }
     },
     "config": {
@@ -295,6 +335,8 @@
                 "influxInfo": "Automatisch in InfluxDB speichern"
             },
             "error": {
+                "historical_limit": "Es können nur zwei historische Datensätze importiert werden!",
+                "noSubmit": "Bitte zuerst die Anfrage abschicken!",
                 "no_app": "Bitte installieren Sie die InfluxDB-App und stellen Sie sicher, dass sie verfügbar ist!",
                 "no_config": "Bitte konfigurieren Sie die InfluxDB App!",
                 "restart_infor": "Lokaler Speicher und InfluxDB Speicher würden nach dem Neustart des Geräts in den inaktiven Zustand zurückgesetzt!"
@@ -358,7 +400,8 @@
             "field": {
                 "header": "Feld",
                 "error": "Feld ist erforderlich",
-                "errorTime": "Kein Feld im aktuellen Zeitbereich gefunden"
+                "errorTime": "Kein Feld im aktuellen Zeitbereich gefunden",
+                "errorOverlap": "Keine Feldüberschneidung im aktuellen Zeitbereich"
             }
         },
         "recording": {
@@ -402,6 +445,7 @@
                     "manual": "Manuell",
                     "rising_edge": "Steigende Flanke",
                     "falling_edge": "Fallende Flanke",
+                    "autoTrigger": "AutoTrigger",
                     "rising_or_falling_edge": "Steigende Flanke/Fallende Flanke",
                     "value": "Wert"
                 }
@@ -451,7 +495,8 @@
     "analyze": {
         "title": "Berechnung definieren",
         "mode": {
-            "header": "Berechnung",
+            "header_computation": "Berechnung",
+            "header_fft": "FFT",
             "arithmetic": {
                 "name": "Arithmetik",
                 "constants": {
@@ -459,6 +504,7 @@
                     "header1": "c1",
                     "header2": "c2"
                 },
+                "infor": "Zwei Signale können addiert, subtrahiert, multipliziert oder dividiert werden.<br>Das Ergebnis wird mit dem konstanten Faktor c1/c2 multipliziert.",
                 "signal": {
                     "title": "(Echtzeitsignale und Antriebssignale)",
                     "header1": "Signal 1",
@@ -466,17 +512,18 @@
                     "placeholder": "Ein Signal auswählen",
                     "error": {
                         "no_signal": "Kein Signal vorhanden",
-                        "no_selection": "Ein Signal auswählen"
+                        "no_selection": "Ein Signal auswählen",
+                        "no_mode": "Ein Modus auswählen"
                     }
                 },
                 "mode": {
                     "title": "Analysemodus",
                     "header": "Modus",
                     "list": {
-                        "Addition": "Zusatz",
-                        "Subtraction": "Subtraktion",
-                        "Multiplication": "Multiplikation",
-                        "Division": "Division"
+                        "Addition": "+ Zusatz",
+                        "Subtraction": "- Subtraktion",
+                        "Multiplication": "* Multiplikation",
+                        "Division": "/ Division"
                     }
                 },
                 "error": {
@@ -499,6 +546,7 @@
                         "no_selection": "Ein Signal auswählen"
                     }
                 },
+                "infor": "Die Bit-Analyse extrahiert einzelne Bits aus einem Signal und zeigt diese an.",
                 "bit": {
                     "name": "Bitliste",
                     "title": "(Es können maximal 16 Bit ausgewählt und angezeigt werden)",
@@ -515,10 +563,47 @@
                     "cancel-all": "Alle abwählen",
                     "invert": "Auswahl invertieren"
                 }
+            },
+            "universal": {
+                "function": {
+                    "abs": "Abs(f(t))",
+                    "first-order-diff-min": "d/dt [1/min]",
+                    "first-order-diff-s": "d/dt [1/s]",
+                    "integr": "Integr f(t)dt [min]",
+                    "second-order-diff-min": "d²/dt² [1/min²]",
+                    "second-order-diff-s": "d²/dt² [1/s²]",
+                    "sqrt-abs": "Sqrt(Abs(f(t)))",
+                    "square": "f(t)²",
+                    "title1": "Funktion1",
+                    "title2": "Funktion2"
+                },
+                "infor": "Auf ein Signal wird die folgende Berechnungsfomel angewendet: cs=c1⁄c2*(f1(f2(Signal)))",
+                "name": "Universelle Berechnung",
+                "signal": {
+                    "header": "Signal",
+                    "title": "(Es können nur binäre Antriebssignale ausgewählt werden)"
+                }
+            },
+            "moving-average": {
+                "infor": "Berechnet den gleitenden Mittelwert eines Signals.",
+                "factor": {
+                    "header": "Glättungsfaktor",
+                    "error": {
+                        "outLimit": "Der Glättungsfaktor kann zwischen 3 und 31 gewählt werden!",
+                        "no-factor": "Geben Sie einen Faktor ein"
+                    }
+                },
+                "name": "Gleitender Mittelwert"
+            },
+            "fft-analysis": {
+                "infor": "Berechnet die Fouriertransformierte eines Signals.",
+                "dB": "Amplitude in dB",
+                "name": "FFT Analyse"
             }
         }
     },
     "svg": {
-        "time_axis": "Zeitachse [ms]"
+        "time_axis": "Zeitachse [ms]",
+        "freq_axis": "Frequenzachse [Hz]"
     }
 }

@@ -78,6 +78,8 @@
       "virtualized": "Virtualized",
       "secureBoot": "Secure boot",
       "kernelModules": "Kernel modules",
+      "model": "CPU model",
+      "ctrlxOsVersion": "ctrlX OS version",
       "typePlate": "Type plate",
       "typePlate.serialNumber": "Serial number",
       "typePlate.materialNumber": "Material number",
@@ -170,6 +172,13 @@
       "value.error": "Memory value must be within range of",
       "decimalvalue.error": "Decimal value is not allowed. Please enter valid value.",
       "ramMemoryReserved": "reserved for real-time apps"
+    },
+    "energyProfile": {
+      "tabLabel": "Energy profile",
+      "dialogTitle": "Select energy profile",
+      "performance": "Performance",
+      "balanced": "Balanced",
+      "generalInfo": "Performance: Configures the system to deliver peak processing speed and responsiveness by maximizing resource allocation. Recommended when using real-time applications\n\nBalanced: Optimizes system settings to provide a good mix of performance and energy efficiency, suitable for general-purpose workloads that require responsiveness without excessive power use. Not recommended when using real-time applications"
     }
   }
 }

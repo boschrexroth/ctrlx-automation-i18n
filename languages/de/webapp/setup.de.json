@@ -47,11 +47,11 @@
       "architecture.warning": {
         "mismatch": {
           "text": "CPU-Architektur unterschiedlich",
-          "description": "Das Backup wurde mit der CPU-Architektur \"{{backup}}\" erstellt, das Gerät basiert jedoch auf der \"{{device}}\" Architektur. Teile des Backups, wie z. B. das kompilierte SPS-Programm, werden nicht ausgeführt, wenn die CPU-Architekturen von Backup und Gerät nicht übereinstimmen. Bei Apps, die nicht mit dem Gerät kompatibel sind, wird während der Installation ein Fehler gemeldet."
+          "description": "Das Backup wurde mit der CPU-Architektur \"{{backup}}\" erstellt. Das Gerät basiert jedoch auf der \"{{device}}\"-Architektur. Teile des Backups, wie z. B. das kompilierte SPS-Programm, werden nicht ausgeführt, wenn die CPU-Architekturen von Backup und Gerät nicht übereinstimmen. Bei Apps, die nicht mit dem Gerät kompatibel sind, wird während der Installation ein Fehler gemeldet."
         },
         "in-backup-unknown": {
           "text": "CPU-Architektur im Backup unbekannt",
-          "description": "Das Backup enthält keine Information zur CPU-Architektur mit der es erstellt wurde. Teile des Backups, wie z. B. das kompilierte SPS-Programm, werden nicht ausgeführt, wenn die CPU-Architekturen von Backup und Gerät (\"{{device}}\") nicht übereinstimmen. Bei Apps, die nicht mit dem Gerät kompatibel sind, wird während der Installation ein Fehler gemeldet."
+          "description": "Das Backup enthält keine Informationen zur CPU-Architektur mit der es erstellt wurde. Teile des Backups, wie z. B. das kompilierte SPS-Programm, werden nicht ausgeführt, wenn die CPU-Architekturen von Backup und Gerät (\"{{device}}\") nicht übereinstimmen. Bei Apps, die nicht mit dem Gerät kompatibel sind, wird während der Installation ein Fehler gemeldet."
         }
       },
       "notice.general": {
@@ -107,7 +107,7 @@
       },
       "tab.label": "Sicherung",
       "tile.description": "Erstellen Sie eine Sicherung mit benutzerdefinierten Inhalten",
-      "metadata.title": "Weitere Einstellungen",
+      "metadata.title": "Zusätzliche Einstellungen",
       "forceReboot.checkbox": "Neustart nach Wiederherstellen erzwingen"
     },
     "options-table": {
@@ -127,8 +127,8 @@
       "filter.certsAndKeys": "Zertifikate und Schlüssel",
       "filter.activeAppData": "Aktive App-Daten",
       "filter.archivedAppData": "Archivierte App-Daten",
-      "filter.settings.usersAndPermissions": "Einstellungen: Benutzer und Berechtigungen",
       "filter.settings.network": "Einstellungen: Netzwerk",
+      "filter.settings.usersAndPermissions": "Einstellungen: Sicherheit",
       "filter.settings.system": "Einstellungen: System"
     },
     "options-tree": {
@@ -154,7 +154,6 @@
     "categories": {
       "systemApps.description": "System-App: {{app}} ({{size}})",
       "customApps.description": "Anwender-App: {{app}} ({{size}})",
-      "appManagementSettings.description": "App-Verwaltungseinstellungen",
       "appSpecificSettings.description": "App-spezifische Einstellungen: {{app}}",
       "activeAppData.description": "Aktive App-Daten",
       "archivedAppData.description": "Archivierte App-Daten: {{name}}",
@@ -162,18 +161,21 @@
       "keys.description": "{{app}} Schlüssel: '{{path5}}', Kategorie: {{category}}",
       "certificateRevocationLists.description": "{{app}} Zertifikatsperrliste: '{{path4}}'",
       "pkcs12Containers.description": "{{app}} PKCS12 Container: '{{path4}}'",
+      "networkInterface.description": "Netzwerkschnittstelle: {{name}}",
+      "networkInterfaceSettings.description": "Netzwerkschnittstelleneinstellungen",
+      "networkDiscovery.description": "Netzwerkerkennung: LLMNR, MDNS,...",
       "groups.description": "Gruppe: {{name}}",
       "users.description": "Benutzer: {{name}}",
       "ldap_radius_remoteAuth.description": "LDAP, RADIUS, Remote-Authentifizierung",
       "policiesAndPermissions.description": "Richtlinien und Berechtigungen",
       "namedPasswordPolicies.description": "Benannte Passwortrichtlinie: Name: '{{nppName}}', ID: {{name}}",
-      "networkInterface.description": "Netzwerkschnittstelle: {{name}}",
-      "networkInterfaceSettings.description": "Netzwerkschnittstelleneinstellungen",
-      "networkDiscovery.description": "Netzwerkerkennung: LLMNR, MDNS,...",
+      "singleSignOn.description": "Single-Sign-On: Rollen, Identity-Provider",
+      "appManagementSettings.description": "App-Verwaltungseinstellungen",
+      "licenseManagement.description": "Lizenzierungseinstellungen",
       "hostname.description": "Host-Name",
-      "typePlate_appVersionInfo.description": "Typenschild, App-Versionsinfo,...",
       "dateAndTime.description": "Datum und Uhrzeit",
-      "licenseManagement.description": "Lizenzierungseinstellungen"
+      "storage.description": "Speicher",
+      "typePlate_appVersionInfo.description": "Typenschild, App-Versionsinfo,..."
     },
     "last-created-setup": {
       "title": "Sicherungsdateien",
@@ -206,6 +208,10 @@
       "delete.title": "Eintrag löschen",
       "delete.description": "Der Verlaufseintrag von {{param}} wird gelöscht.",
       "summaryText": "{{err}} Fehler, {{warn}} Warnung(en)"
+    },
+    "no-response": {
+      "hint": "Das Gerät antwortet nicht. Falls die Netzwerkeinstellungen des Geräts wie z.B. Hostname oder IP-Adresse durch Anwenden des Backups geändert wurden, schließen Sie bitte die aktuelle Seite und öffnen Sie eine Neue unter Verwendung der neuen Adresse",
+      "last-response": "Daten zuletzt empfangen vor: {{minutes}} Minuten, {{seconds}} Sekunde(n)"
     }
   }
 }

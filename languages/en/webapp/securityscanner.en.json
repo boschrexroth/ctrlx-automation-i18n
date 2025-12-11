@@ -33,7 +33,7 @@
     "customDescr": "Define a specific scan using the NMAP command line",
 
     "selectAOption": "Select a option",
-    
+
     "scanJobItemType": "scan job"
   },
   "secscan.scanjobs": {
@@ -53,7 +53,9 @@
     "stopScan.title": "Stop scan",
     "stopScan.confirmation": "Are you sure to stop the scan '{{param}}'?",
     "stop.button": "Stop",
-    "downloadAsTemplate.tooltip": "Download as template"
+    "downloadAsTemplate.tooltip": "Download as template",
+    "progress": "Scan progress",
+    "starting": "Starting scan ..."
   },
   "secscan.addScanJobDialog": {
     "title": "Add a new scan job",
@@ -63,7 +65,8 @@
     "fileName": "Template file name",
     "selectTemplateFile.tooltip": "Select template file",
     "selectTemplateFileMessage": "Select a template file",
-    "templateFileContentInvalidMessage": "Invalid file content"
+    "templateFileContentInvalidMessage": "Invalid file content",
+    "removeNetInterface": "Do not import network interface from template"
   },
   "secscan.nameValidator": {
      "errMinLen": "Name must not be empty",
@@ -132,7 +135,8 @@
   "secscan.customNmapScanEditor": {
     "commandLine": "Nmap command line arguments",
     "commandLineExample": "e.g. -sP 192.168.0.1/24",
-    "enterCommandLineArgs": "Enter command line arguments"
+    "enterCommandLineArgs": "Enter command line arguments",
+    "forbiddenCharacters": "Forbidden characters detected: ; | & > < ` $ ( ) { } [ ] * ? ~ \\"
   },
   "secscan.targetsTabPage": {
     "addTarget.tooltip": "Add target",
@@ -145,7 +149,7 @@
   },
   "secscan.scanResults": {
     "scanResultsTitle": "Scan results ({{param}})",
-    "start": "Start (UTC)",
+    "start": "Start",
     "duration": "Duration",
     "status": "Status",
     "download.tooltip": "Download report...",

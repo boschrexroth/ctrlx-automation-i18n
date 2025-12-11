@@ -7,18 +7,18 @@
     "elementExists.message": "'{{param}}' existiert bereits in anderer Schreibweise.",
     "fileNotFound.message": "Datei '{{param}}' nicht gefunden.",
     "forbidden.message": "Sie haben nicht die erforderlichen Berechtigungen",
-    "redirectingToHomepage.message": "Sie werden zur Startseite weitergeleitet.",
+    "redirectingToHomepage.message": "Sie wurden zur Startseite weitergeleitet.",
     "refreshView.message": "Bitte aktualisieren Sie die Ansicht.",
     "refreshingFailed.message": "Aktualisierung von '{{param}}' fehlgeschlagen.",
     "rootNotFound.message": "'{{param}}' nicht gefunden.",
     "uploadingFailed.message": "Hochladen fehlgeschlagen",
-    "writingFileFailed.message": "Schreiben der Datei fehlgeschlagen. Bitte prüfen Sie, ob genügend freier Speicher auf dem Gerät vorhanden ist.",
+    "writingFileFailed.message": "Schreiben der Datei fehlgeschlagen. Bitte prüfen Sie, ob Sie die nötigen Berechtigungen haben und genügend freier Speicher auf dem Gerät vorhanden ist.",
 
     "downloadingFile.title": "Datei wird heruntergeladen...",
     "uploadingFile.title": "Datei wird hochgeladen...",
 
     "readonly.tooltip": "Element ist schreibgeschützt",
-    "refresh.tooltip": "Aktualisiert Ansicht"
+    "refresh.tooltip": "Aktualisiert die Ansicht"
   },
   "filebrowser.file-browser": {
     "delete.button": "Löschen",
@@ -31,6 +31,9 @@
     "actions.copy.submenu": "Kopieren",
     "actions.move.submenu": "Verschieben",
     "actions.delete.submenu": "Löschen",
+    "actions.showDetails.submenu": "Details anzeigen",
+    "actions.hideDetails.submenu": "Details ausblenden",
+    "actions.refresh.submenu": "Aktualisieren",
 
     "uploadFile.tooltip": "Lädt Datei hoch",
     "createElement.tooltip": "Erstellt Verzeichnis oder Datei",
@@ -55,17 +58,19 @@
     "save.button": "Speichern",
     "conflictingChanges.title": "Parallele Änderungen in '{{param}}'",
     "conflictingChanges.text": "Datei wurde auf dem Gerät und im Editor geändert. Sie können Ihre Änderungen speichern, verwerfen oder abbrechen, um die Bearbeitung fortzusetzen.",
-    "conflictingChangesWithErrors.text": "Datei wurde auf dem Gerät und im Editor geändert. Sie können Ihre Änderungen (mit Validierungsfehlern!) speichern oder verwerfen. Wählen Sie 'Abbrechen', um die Bearbeitung fortzusetzen.",
+    "conflictingChangesWithErrors.text": "Datei wurde auf dem Gerät und im Editor geändert. Sie können Ihre Änderungen (mit Validierungsfehlern!) speichern oder verwerfen. Wählen Sie Abbrechen, um die Bearbeitung fortzusetzen.",
     "loading.text": "Wird geladen...",
     "loadingSchemaFilesFailed.text": "Laden der Schema-Datei oder einer ihrer Abhängigkeiten fehlgeschlagen.",
     "saveWithErrors.title": "Speichern bestätigen",
     "saveWithErrors.text": "Fehler bei der Validierung. Trotzdem speichern?",
     "unsavedChanges.title": "Nicht gespeicherte Änderungen in '{{param}}'",
-    "unsavedChanges.text": "Sie können Ihre Änderungen speichern oder verwerfen. Wählen Sie 'Abbrechen', um die Bearbeitung fortzusetzen.",
+    "unsavedChanges.text": "Sie können Ihre Änderungen speichern oder verwerfen. Wählen Sie Abbrechen, um die Bearbeitung fortzusetzen.",
     "unsavedChanges.tooltip": "Nicht gespeicherte Änderungen",
-    "unsavedChangesWithErrors.text": "Sie können Ihre Änderungen (mit Validierungsfehlern!) speichern oder verwerfen. Wählen Sie 'Abbrechen', um die Bearbeitung fortzusetzen.",
+    "unsavedChangesWithErrors.text": "Sie können Ihre Änderungen (mit Validierungsfehlern!) speichern oder verwerfen. Wählen Sie Abbrechen, um die Bearbeitung fortzusetzen.",
     "unsupportedFileFormat.text": "Vorschau für dieses Dateiformat nicht unterstützt",
-    "unsupportedFileSize.text": "Vorschau aufgrund der Dateigröße nicht unterstützt"
+    "unsupportedFileSize.text": "Vorschau aufgrund der Dateigröße nicht unterstützt",
+    "expandView.tooltip": "Vergrößert die Ansicht",
+    "reduceView.tooltip": "Verkleinert die Ansicht"
   },
   "filebrowser.file-name-dialog": {
     "copyDirectory.title": "Verzeichnis kopieren",
@@ -82,6 +87,9 @@
     "move.button": "Verschieben",
     "rename.button": "Umbenennen",
     "upload.button": "Hochladen",
+    "upload.extract.checkbox": "Inhalt auspacken in",
+    "upload.extract.dataExists": "Enthaltene Dateien ersetzen vorhandene Dateien oder Verzeichnisse.",
+    "upload.extract.hint": "<Aktuelles Verzeichnis>",
     "directory.label": "Verzeichnis",
     "file.label": "Datei",
     "targetName.label": "Zielname",

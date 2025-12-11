@@ -1,6 +1,16 @@
 {
-  "product": "XCR-V-0306",
+  "product": "XCR-V-0404",
   "mainDiagnostics": {
+    "080A000D": {
+      "text": "Benutzerskript-Protokoll Meldung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "Benutzerskript-Protokoll",
+          "version": 1
+        }
+      }
+    },
     "080A000E": {
       "text": "Trace Nachricht script.manager",
       "version": 1
@@ -318,6 +328,30 @@
         "0C7A0056": {
           "text": "Konfiguration der Fernauthentifizierung geändert",
           "version": 1
+        },
+        "0C7A0058": {
+          "text": "Neue Rolle erzeugt",
+          "version": 1
+        },
+        "0C7A0059": {
+          "text": "Rolle gelöscht",
+          "version": 1
+        },
+        "0C7A005A": {
+          "text": "Konfiguration der Rolle geändert",
+          "version": 1
+        },
+        "0C7A005B": {
+          "text": "Neuer OIDC-Anbieter erstellt",
+          "version": 1
+        },
+        "0C7A005C": {
+          "text": "OIDC-Anbieter gelöscht",
+          "version": 1
+        },
+        "0C7A005D": {
+          "text": "Konfiguration des OIDC-Anbieters geändert",
+          "version": 1
         }
       }
     },
@@ -449,6 +483,16 @@
         },
         "0C7A0077": {
           "text": "Filterkonfiguration erfolgreich aktualisert",
+          "version": 1
+        }
+      }
+    },
+    "080A0308": {
+      "text": "Firmware-Update erfolgreich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A3": {
+          "text": "TPM-Firmware",
           "version": 1
         }
       }
@@ -935,6 +979,16 @@
       "text": "Trace Nachricht common.scheduler",
       "version": 1
     },
+    "080E000D": {
+      "text": "Benutzerskript-Protokoll Warnung",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "Benutzerskript-Protokoll",
+          "version": 1
+        }
+      }
+    },
     "080E000E": {
       "text": "Trace Warnung script.manager",
       "version": 1
@@ -975,6 +1029,16 @@
         },
         "0C7B2327": {
           "text": "Die Task-Watchdogs wurden auf Grund unzureichender Hardware-Unterstützung (fehlende Unterstützung des Linux-Watchdog-Frameworks) deaktiviert. Ein sicherer Betrieb der Maschine kann nicht gewährleistet werden.",
+          "version": 1
+        }
+      }
+    },
+    "080E0012": {
+      "text": "Neustart des Systems erforderlich",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B4205": {
+          "text": "Affinität von Systemtasks wurde geändert",
           "version": 1
         }
       }
@@ -1091,6 +1155,16 @@
         }
       }
     },
+    "080E0281": {
+      "text": "Verbindung Data Layer-Remote unterbrochen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C340005": {
+          "text": "Data Layer-Remote-Verbindung konnte nicht hergestellt werden",
+          "version": 1
+        }
+      }
+    },
     "080E0300": {
       "text": "Security: Warnung bezüglich Nutzerverwaltung",
       "version": 1,
@@ -1119,6 +1193,10 @@
       "detailedDiagnostics": {
         "0C7A0060": {
           "text": "Zertifikatsgültigkeit läuft bald ab",
+          "version": 1
+        },
+        "0C7A0064": {
+          "text": "Methode veraltet",
           "version": 1
         }
       }
@@ -1169,6 +1247,20 @@
         },
         "0C7A009A": {
           "text": "Die zeitbasierte Lizenz wird innerhalb eines Tages ablaufen.",
+          "version": 1
+        }
+      }
+    },
+    "080E0308": {
+      "text": "Warnung während des Firmware-Updates",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A3": {
+          "text": "TPM-Firmware",
+          "version": 1
+        },
+        "0C7A00A4": {
+          "text": "TPM-Firmware-Update-Fehler",
           "version": 1
         }
       }
@@ -1337,7 +1429,13 @@
     },
     "080E077F": {
       "text": "Fehler im Subsystem der Synchronisation",
-      "version": 1
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7B802A": {
+          "text": "Interner Fehler",
+          "version": 1
+        }
+      }
     },
     "080E0825": {
       "text": "Netzwerk-Konfigurationsdaten erfolgreich geändert",
@@ -1376,6 +1474,10 @@
         "0C64112D": {
           "text": "Neustart des Systems erforderlich, da der Watchdog aktiviert wurde",
           "version": 1
+        },
+        "0C64113E": {
+          "text": "Systemneustart aufgrund von Änderungen im Energieprofil erforderlich",
+          "version": 1
         }
       }
     },
@@ -1385,6 +1487,30 @@
       "detailedDiagnostics": {
         "0C641117": {
           "text": "Speicherreservierung ist aktiviert, wird aber nicht unterstützt",
+          "version": 1
+        }
+      }
+    },
+    "080E0878": {
+      "text": "Warnung Energieprofil",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64113F": {
+          "text": "Das ausgewählte Energieprofil wird bei Verwendung von Echtzeitanwendungen nicht empfohlen.",
+          "version": 1
+        }
+      }
+    },
+    "080E08AE": {
+      "text": "Abruf der Manifeste fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641022": {
+          "text": "Daten konnten nicht validiert werden",
+          "version": 1
+        },
+        "0C641045": {
+          "text": "Keine Manifest-Dateien gefunden",
           "version": 1
         }
       }
@@ -1465,6 +1591,16 @@
         },
         "0C270106": {
           "text": "Keine einzelne Konfiguration konnte auf den \"Data Layer\" Knoten geschrieben werden",
+          "version": 1
+        }
+      }
+    },
+    "080F000D": {
+      "text": "Benutzerskript-Protokoll F0-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "Benutzerskript-Protokoll",
           "version": 1
         }
       }
@@ -2119,6 +2255,20 @@
         },
         "0C7A0082": {
           "text": "Remote Logging abgebrochen",
+          "version": 1
+        }
+      }
+    },
+    "080F0308": {
+      "text": "Fehler während des Firmware-Updates",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C7A00A3": {
+          "text": "TPM-Firmware",
+          "version": 1
+        },
+        "0C7A00A4": {
+          "text": "TPM-Firmware-Update-Fehler",
           "version": 1
         }
       }
@@ -5865,6 +6015,10 @@
           "text": "Etwas Unerwartetes ist aufgetreten",
           "version": 1
         },
+        "0C641090": {
+          "text": "Vorbedingungen nicht erfüllt",
+          "version": 1
+        },
         "0C6410D5": {
           "text": "Konfiguration der Echtzeitkerne ist ungültig",
           "version": 1
@@ -6369,6 +6523,106 @@
         }
       }
     },
+    "080F08A8": {
+      "text": "Hinzufügen der Netzwerkfreigabe fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64113B": {
+          "text": "Netzwerkfreigabe existiert bereits",
+          "version": 1
+        }
+      }
+    },
+    "080F08A9": {
+      "text": "Ändern der Netzwerkfreigabe fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64101E": {
+          "text": "Eines der bereitgestellten Argumente ist ungültig",
+          "version": 1
+        },
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64113B": {
+          "text": "Netzwerkfreigabe existiert bereits",
+          "version": 1
+        },
+        "0C64113C": {
+          "text": "Netzwerkfreigabe nicht gefunden",
+          "version": 1
+        },
+        "0C64113D": {
+          "text": "Netzwerkfreigabe ist eingehängt",
+          "version": 1
+        }
+      }
+    },
+    "080F08AA": {
+      "text": "Entfernen der Netzwerkfreigabe fehlgeschlagen",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64113C": {
+          "text": "Netzwerkfreigabe nicht gefunden",
+          "version": 1
+        },
+        "0C64113D": {
+          "text": "Netzwerkfreigabe ist eingehängt",
+          "version": 1
+        }
+      }
+    },
+    "080F08AB": {
+      "text": "Netzwerkfreigabe konnte nicht abgerufen werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        },
+        "0C64113C": {
+          "text": "Netzwerkfreigabe nicht gefunden",
+          "version": 1
+        }
+      }
+    },
+    "080F08AC": {
+      "text": "Netzwerkfreigaben konnten nicht abgerufen werden",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C64106E": {
+          "text": "Etwas Unerwartetes ist aufgetreten",
+          "version": 1
+        }
+      }
+    },
+    "080F08AD": {
+      "text": "Fehler im Integritätszustand",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C641435": {
+          "text": "App im Fehlerzustand erkannt",
+          "version": 1
+        }
+      }
+    },
+    "080F08AE": {
+      "text": "Einstellung der Geräteeigenschaften fehlgeschlagen",
+      "version": 1
+    },
     "080F0E00": {
       "text": "Laden der Konfiguration im aktuellen Zustand nicht möglich",
       "version": 1,
@@ -6515,6 +6769,16 @@
       "detailedDiagnostics": {
         "0C270500": {
           "text": "Fehler bei der Bearbeitung einer Motion-Anfrage",
+          "version": 1
+        }
+      }
+    },
+    "080F200D": {
+      "text": "Benutzerskript-Protokoll F2-Fehler",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C270700": {
+          "text": "Benutzerskript-Protokoll",
           "version": 1
         }
       }

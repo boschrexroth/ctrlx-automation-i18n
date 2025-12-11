@@ -3,6 +3,8 @@
   "configuration.appDirectories.opcuaclient.description": "OPC UA Client: Sitzungskonfiguration und allgemeine App-Konfiguration",
   "licenses.SWL-XCx-UAC-OPCUACLIENTxx-NNNN.title": "ctrlX OS License - OPC UA Client",
   "licenses.SWL-XCx-UAC-OPCUACLIENTxx-NNNN.description": "OPC UA Client zur Kommunikation mit OPC UA Servern für ctrlX OS",
+  "licenses.SWL-XCx-UAC-OPCUAxCLTxSDx-Y1F1.title": "ctrlX OS License - OPC UA Client (Floating / 1 Year)",
+  "licenses.SWL-XCx-UAC-OPCUAxCLTxSDx-Y1F1.description": "OPC UA Client zur Kommunikation mit OPC UA Servern für ctrlX OS",
   "scopes-declaration.opcuaclient.name": "OPC UA Client",
   "scopes-declaration.opcuaclient.description": "Berechtigungen für den OPC UA Client",
   "scopes-declaration.opcuaclient.view.name": "Ansehen",

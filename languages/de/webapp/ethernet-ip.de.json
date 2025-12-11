@@ -1,0 +1,62 @@
+﻿{
+  "eia": {
+    "common": {
+      "add.button": "Hinzufügen",
+      "cancel.button": "Abbrechen",
+      "delete.button": "Löschen",
+      "save.button": "Speichern",
+      "license.error": "Lizenz nicht verfügbar",
+      "status.ok": "OK",
+      "status.unknown": "Unbekannt",
+      "device": "Gerät",
+      "states": {
+        "op": "Op",
+        "preop": "Pre-OP",
+        "safeop": "Safe-OP",
+        "init": "Init",
+        "unknown": "Unbekannt"
+      }
+    },
+    "overview": {
+      "noinstance": {
+        "text": "Kein Adapter konfiguriert",
+        "add": "Adapter hinzufügen"
+      },
+      "switchToSetup": {
+        "text": "Der {{schedulerState}}-Modus ist gerade aktiv. Wechseln Sie in den Setup-Modus und versuchen Sie es erneut."
+      },
+      "switchToSetupOrOperating": {
+        "text": "Der {{schedulerState}}-Modus ist gerade aktiv. Wechseln Sie in den Setup- oder Operation-Modus und versuchen Sie es erneut."
+      },
+      "noPermission": {
+        "text": "Sie haben nicht die erforderliche Berechtigung, um diese Seite zu sehen."
+      },
+      "appNotAvailable": {
+        "heading": "Die Geräteapp ist momentan nicht verfügbar (Fehler: (Error: {{status}}).",
+        "line2": "Wahrscheinlich aus einem der nachfolgenden Gründe:",
+        "appBeingInitialized" : "Die App wird gerade initialisiert. Dies kann eine Weile dauern, bitte {{linkText}} Sie die Seite",
+        "appBeingInitialized.linkText": "aktualisieren"
+      },
+      "add-instance": {
+        "title": "Adapter hinzufügen",
+        "name.required": "Geben Sie einen Namen ein",
+        "name.maxlength": "Der Name hat mehr als 15 Zeichen",
+        "name.pattern": "Ungültiger Name"
+      },
+      "del-instance": {
+        "title": "Adapter löschen",
+        "info1": "Der Adapter '{{instanceName}}' wird gelöscht.",
+        "info2": "Die Feldbuskommunikation wird gestoppt und die Konfiguration entfernt.",
+        "warning": "Stellen Sie sicher, dass sich Ihre Anlage in einem sicheren Zustand befindet bevor Sie fortfahren."
+      },
+      "name.header": "Name",
+      "state.header": "Zustand",
+      "actions.header": "Aktionen",
+      "action": {
+        "delete": "Adapter löschen",
+        "run": "Schalten Sie den Zustand auf RUN",
+        "stop": "Schalten Sie den Zustand auf CONFIG"
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "product": "GCO-V-0306",
+  "product": "GCO-V-0404",
   "mainDiagnostics": {
     "100A0040": {
       "text": "General G-code system message",
@@ -307,6 +307,40 @@
         },
         "0C29001A": {
           "text": "Programming of an invalid address word",
+          "version": 1
+        },
+        "0C29001B": {
+          "text": "invalid dwell time",
+          "version": 1
+        },
+        "0C29001C": {
+          "text": "Undefine dwell time",
+          "version": 1
+        },
+        "0C29001D": {
+          "text": "invalid parameter LAX",
+          "version": 1
+        }
+      }
+    },
+    "100F0081": {
+      "text": "Single axis NC function error (RAX,GAX,WAX)",
+      "version": 1,
+      "detailedDiagnostics": {
+        "0C29001E": {
+          "text": "Single axis is not added to the kinematics when calling the RAX() function",
+          "version": 1
+        },
+        "0C29001F": {
+          "text": "Motion command to remove the axis from the kinematics returns failed",
+          "version": 1
+        },
+        "0C290020": {
+          "text": "Motion command \"Adding the axis to kinematics\" failed",
+          "version": 1
+        },
+        "0C290021": {
+          "text": "NC function WAX() waits for axis to idle state timeout",
           "version": 1
         }
       }

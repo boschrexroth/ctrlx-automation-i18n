@@ -31,6 +31,7 @@
         "notSet": "No filter set",
         "selectAll": "Select all",
         "isActive": "Filter is active",
+        "levelTitle": "Select level",
         "level": {
           "emerg": "Emergency",
           "alert": "Alert",
@@ -63,6 +64,10 @@
           "placeholder": "Select any options or enter text",
           "combineWith": "Combine fields with: ",
           "tooltipCombineInfo": "Search terms within an input field are linked with 'OR'"
+        },
+        "bookmark": {
+          "viewBookmarkOnly": "View bookmark only",
+          "viewsOnlyBookmarks": "Shows only bookmarks"
         }
       },
       "settings": {
@@ -113,7 +118,10 @@
         "reset": "Reset",
         "apply": "Apply",
         "confirm": "Clears error",
+        "confirmObject": "Resets and clears object",
+        "confirmObjectDone": "Resetting and clearing of object done",
         "confirmAll": "Resets and clears all errors",
+        "confirmAllDone": "Resetting and clearing of all errors done",
         "confirmNot": "Clearing error not possible",
         "navigateTo": "Navigates to alarm in history page",
         "navigateToAlarmPage": "Navigates to alarm page of the logbook",
@@ -122,7 +130,6 @@
       },
       "text": {
         "settings": "Shows settings",
-        "timeoffset": "Date/Time mismatch: {{offset}}! To solve this mismatch, go to  <a href='/system/datetime'> Settings > Date & Time</a>",
         "noDataTitle": "With this filter settings, no data is available!",
         "noDataDescDef": "Please select other filter settings.",
         "noDataDescDev": "Please select other filter settings and/or another message type.",
@@ -131,7 +138,8 @@
         "mainDiag": "Main diagnostic code",
         "detailDiag": "Detailed diagnostic code",
         "remoteLogging": "Remote Logging",
-        "filterTitle": "Enter search text in the '{{colName}}' category"
+        "filterTitle": "Enter search text in the '{{colName}}' category",
+        "deviceTimezoneFailed": "Reading the device timezone failed"
       },
       "attr": {
         "pos": "Pos",

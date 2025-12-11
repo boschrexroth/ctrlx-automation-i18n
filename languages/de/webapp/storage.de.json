@@ -19,6 +19,7 @@
   "storage.mediaTile.mediaUsed": "Verwendet",
   "storage.mediaTile.mountingState": "Hänge ein...",
   "storage.mediaTile.unmountingState": "Hänge aus...",
+  "storage.mediaTile.notFormattable.tooltip": "Formatierung ist nicht möglich. Aufgrund von Systembeschränkungen können nur die ersten vier Partitionen formatiert werden.",
   "storage.mountDialog.canMount.title": "\"{{mediumName}}\" einhängen?",
   "storage.mountDialog.cannotMount.title": "Kann \"{{mediumName}}\" nicht einhängen!",
   "storage.mountDialog.dataExchange.radiobutton": "Zum Datenaustausch",
@@ -101,6 +102,7 @@
   "storage.shared.format.button": "Formatieren",
   "storage.shared.mediumInternal": "Systemdaten",
   "storage.shared.mount.button": "Einhängen",
+  "storage.shared.save.button": "Speichern",
   "storage.shared.noSpaceInfo": "Keine Speicherplatzinformationen verfügbar",
   "storage.shared.removeSafely.button": "Sicher entfernen",
   "storage.shared.restartLater.button": "Später neu starten",
@@ -114,8 +116,10 @@
   "storage.shared.browse.button": "Datei-Browser öffnen",
   "storage.shared.validationMessage.required": "Dieses Feld ist erforderlich",
   "storage.storage.hintNoMedia": "Kein Wechseldatenträger angeschlossen",
-  "storage.netShare.title": "Netzwerkfreigabe einhängen",
-  "storage.netShare.mountSmb.title": "SMB-Freigabe \"{{share}}\" einhängen",
+  "storage.netShare.add.title": "Netzwerkfreigabe hinzufügen",
+  "storage.netShare.add.button": "Hinzufügen",
+  "storage.netShare.addAndMount.button": "Hinzufügen und einhängen",
+  "storage.netShare.edit.title": "Netzwerkfreigabe bearbeiten",
   "storage.netShare.type.label": "Typ",
   "storage.netShare.server.label": "Server",
   "storage.netShare.share.label": "Freigabe",
@@ -134,5 +138,5 @@
   "storage.netShare.notMounted": "Nicht eingehängt",
   "storage.netShare.tooltip.mount": "Netzwerkfreigabe einhängen",
   "storage.netShare.tooltip.unmount": "Netzwerkfreigabe aushängen",
-  "storage.netShare.automount.label": "Beim Start einhängen"
+  "storage.netShare.automount.label": "Beim Starten einhängen"
 }

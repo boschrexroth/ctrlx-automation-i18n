@@ -90,6 +90,7 @@
     "yes": "Ja",
     "no": "Nein",
     "status": "Status",
+    "deprecatedUsePkcs12Containers.tooltip": "Veraltet, verwenden Sie stattdessen PKCS12 Container",
     "more.tooltip": "Mehr...",
     "rename.menu": "Umbenennen",
     "trust.menu": "Vertrauen",

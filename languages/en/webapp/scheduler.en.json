@@ -59,7 +59,7 @@
       },
       "validator": {
         "numbers": "Only numbers are valid",
-        "cycletime": "Only integer multiples of 1ms or the value 500µs are valid",
+        "cycletime": "Only integer multiples of 1ms or the values 50µs, 100µs, 125µs, 200µs, 250µs or 500µs are valid",
         "priority": "Please select a value between {{min}} (high) - {{max}} (low)",
         "stacksize": "Please select a value between 16.384 - 2.097.152",
         "name": "The name is invalid",
@@ -125,7 +125,7 @@
         "measurement.histogram.hide": "Hides empty columns in histogram"
       },
       "info": {
-        "callout": "Automatic program configuration\nUpon app installation tasks are adjusted by the system. Only a few count of parameters can be changed individually.\nDisable the feature for a full custom configuration."
+        "callout": "Automatic program configuration is active\nWhen an app is installed, tasks are automatically configured by the system. Only a small number of parameters can be adjusted manually.\nTo enable full customization, disable this feature."
       },
       "reset": {
         "title": "Resets the scheduler configuration to default",

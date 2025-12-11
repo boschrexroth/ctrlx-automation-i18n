@@ -6,11 +6,13 @@
     "close.button": "Schließen",
     "discard.button": "Verwerfen",
     "add.button": "Hinzufügen",
+    "apply.button": "Anwenden",
     "remove.button": "Entfernen",
 
     "edit.tooltip": "Bearbeiten",
     "delete.tooltip": "Löschen",
     "copy.tooltip": "Kopieren",
+    "copyToClipboard.tooltip": "Kopieren in die Zwischenablage",
 
     "delete.confirmation": "Sind Sie sicher, dass Sie {{param}} löschen möchten?",
     "delete.button": "Löschen",
@@ -25,38 +27,39 @@
   },
 
   "idm.startpage": {
+    "managementTilesTitle": "Verwaltung",
+    "monitoringTilesTitle": "Monitoring",
+    "settingsTilesTitle": "Einstellungen",
+
     "usersTileTitle": "Benutzer",
-    "usersTileDescription": "Benutzer anlegen, bearbeiten und verwalten.",
-    "usersDetailsButtonLabel": "Benutzer anzeigen...",
+    "usersTileDescription": "Benutzer anlegen, bearbeiten und verwalten",
 
     "groupsTileTitle": "Gruppen",
-    "groupsTileDescription": "Gruppen anlegen, bearbeiten and verwalten.",
-    "groupsDetailsButtonLabel": "Gruppen anzeigen...",
+    "groupsTileDescription": "Gruppen anlegen, bearbeiten and verwalten",
 
     "permissionsTileTitle": "Berechtigungen",
-    "permissionsTileDescription": "Berechtigungen an Benutzer und Gruppen zuweisen.",
-    "permissionsDetailsButtonLabel": "Berechtigungen anzeigen...",
+    "permissionsTileDescription": "Berechtigungen an Benutzer und Gruppen zuweisen",
+
+    "ssoTileTitle": "Single Sign On",
+    "ssoTileDescription": "Rollen und Identity-Provider für Single Sign On bearbeiten",
 
     "sessionsTileTitle": "Sitzungen",
-    "sessionsTileDescription": "Laufende Sitzungen anzeigen und beenden.",
-    "sessionsDetailsButtonLabel": "Sitzungen anzeigen...",
+    "sessionsTileDescription": "Laufende Sitzungen anzeigen und beenden",
 
-    "moreSettingsTileTitle": "Weitere Einstellungen",
-    "moreSettingsTileDescription": "Richtlinien, Banner, Remote-Authentifizierung, Service-Zugang",
-    "moreSettingsDetailsButtonLabel": "Weitere Einstellungen"
-  },
+    "passwordPoliciesTileTitle": "Passwortrichtlinien",
+    "passwordPoliciesTileDescription": "Passwortrichtlinien bearbeiten",
 
-  "idm.settingsBottomMenu": {
-    "passwordPoliciesTitle": "Passwortrichtlinien",
-    "passwordPoliciesDescription": "Passwortregeln bearbeiten",
-    "sessionPoliciesTitle": "Sitzungsrichtlinien",
-    "sessionPoliciesDescription": "Sitzungsregeln bearbeiten",
-    "loginBannerTitle": "Anmelde-Banner",
-    "loginBannerDescription": "Text des Anmelde-Banners konfigurieren",
-    "remoteAuthSetupTitle": "Remote-Authentifizierung",
-    "remoteAuthSetupDescription": "Remote-Authentifizierungseinstellungen bearbeiten",
-    "easyServiceAccessTitle": "Einfacher Service-Zugang",
-    "easyServiceAccessDescription": "Einfache Service-Zugangseinstellungen bearbeiten"
+    "sessionPoliciesTileTitle": "Sitzungsrichtlinien",
+    "sessionPoliciesTileDescription": "Sitzungsrichtlinien bearbeiten",
+
+    "loginBannerTileTitle": "Anmelde-Banner",
+    "loginBannerTileDescription": "Text des Anmelde-Banners konfigurieren",
+
+    "remoteAuthSetupTileTitle": "LDAP / RADIUS",
+    "remoteAuthSetupTileDescription": "Remote-Authentifizierungseinstellungen bearbeiten",
+
+    "easyServiceAccessTileTitle": "Einfacher Service-Zugang",
+    "easyServiceAccessTileDescription": "Einfache Service-Zugangseinstellungen bearbeiten"
   },
 
   "idm.addGroupDialog": {
@@ -100,7 +103,8 @@
     "groupNameMayContain": "Der Gruppenname darf Kleinbuchstaben [a-z], Ziffern [0-9], '_' oder '-' enthalten. Er darf mit '$‘ enden.",
     "groupNameAlreadyExisting": "Dieser Gruppenname ist bereits vorhanden.",
     "groupNameReserved": "Dieser Gruppenname ist reserviert.",
-    "groupNameReservedInternal": "Dieser Gruppenname ist für den internen Gebrauch reserviert."
+    "groupNameReservedInternal": "Dieser Gruppenname ist für den internen Gebrauch reserviert.",
+    "errUserWithThisNameExists": "Ein Benutzer mit diesem Namen existiert bereits."
   },
 
   "idm.changePasswordDialog": {
@@ -146,7 +150,8 @@
     "error": "Fehler: {{param}}",
     "changesSavedMsg": "Änderungen wurden gespeichert. Manche Änderungen werden erst beim nächsten Anmelden übernommen.",
     "passwordChangedMsg": "Das Passwort wurde geändert.",
-    "missingPermissionsMsg": "Sie haben nicht die erforderlichen Berechtigungen."
+    "missingPermissionsMsg": "Sie haben nicht die erforderlichen Berechtigungen.",
+    "callbackUrlCopiedMsg": "Callback-URL in die Zwischenablage kopiert."
   },
 
   "idm.remoteAuthSettings": {
@@ -395,6 +400,86 @@
     "theFollowingPermissionsAreRequired": "Folgende Berechtigungen sind erforderlich:",
     "purpose": "Zweck:",
     "applySelection.button": "Auswahl anwenden"
+  },
+
+  "idm.ssoComponent": {
+    "roles": "Rollen",
+    "identityProviders": "Identity-Provider"
+  },
+
+  "idm.rolesComponent": {
+    "noRolesMsg": "Keine Rollen verfügbar",
+    "add.button": "Rolle hinzufügen",
+    "name": "Name",
+    "deleteRole.title": "Rolle löschen"
+  },
+
+  "idm.roleEditor": {
+    "role": "Rolle",
+    "permissionsTab": "Berechtigungen"
+  },
+
+  "idm.identityProvidersComponent": {
+    "oidcTilesTitle": "OpenID Connect Identity-Provider",
+    "noIdentityProvidersMsg": "Keine Identity-Provider verfügbar",
+    "add.button": "Identity-Provider hinzufügen",
+    "name": "Name",
+    "deleteIdentityProvider.title": "Identity-Provider löschen"
+  },
+
+  "idm.addIdentityProviderDialog": {
+    "title": "Identity-Provider hinzufügen",
+    "protocol": "Protokoll",
+    "name": "Name",
+    "nameRequiredMsg": "Geben Sie einen Namen ein",
+    "namePatternMsg": "Der Name darf a-z, A-Z, 0-9, '_', '-' enthalten",
+    "nameMaxLengthMsg": "Der Name darf {{param}} Zeichen nicht überschreiten",
+    "nameExistsMsg": "Dieser Name ist bereits vergeben"
+  },
+
+  "idm.oidcProviderEditor": {
+    "issuerUrl": "Aussteller-URL",
+    "callbackUrl": "Callback-URL",
+    "clientId": "Client-ID",
+    "clientSecret": "Client-Geheimnis",
+    "confirmClientSecret": "Client-Geheimnis bestätigen",
+    "roleClaimPath": "Rollen-Claim-Pfad (JSONPath-Notation)",
+    "roleClaimSeparator": "Rollen-Claim-Trennzeichen",
+    "issuerUrlHelp": "Geben Sie die URL ein, die den OIDC-Anbieter eindeutig identifiziert. Wenden Sie sich für weitere Informationen an den Administrator Ihres OIDC-Anbieters.",
+    "callbackUrlHelp": "Geben Sie die URL ein, die der OIDC-Anbieter für die Weiterleitung nach der Authentifizierung benötigt.",
+    "clientIdHelp": "Geben Sie die ID ein, die der OIDC-Anbieter zur Identifizierung Ihres Geräts verwenden wird. Wenden Sie sich für weitere Informationen an den Administrator Ihres OIDC-Anbieters.",
+    "clientSecretHelp": "Geben Sie das Geheimnis ein, das der OIDC-Anbieter zur Authentifizierung Ihres Geräts verwenden wird. Wenden Sie sich für weitere Informationen an den Administrator Ihres OIDC-Anbieters.",
+    "confirmClientSecretHelp": "Bestätigen Sie das oben eingegebene Client-Geheimnis.",
+    "roleClaimPathHelp": "Geben Sie den JSONPath-Ausdruck ein, der den Rollen-Claim im Token adressiert. Wenden Sie sich für weitere Informationen an den Administrator Ihres OIDC-Anbieters.",
+    "roleClaimSeparatorHelp": "Geben Sie das Trennzeichen ein, das die Rollennamen trennt, falls sie als einzelne Zeichenkette bereitgestellt werden. Wenden Sie sich für weitere Informationen an den Administrator Ihres OIDC-Anbieters.",
+    "oidcProvider": "OIDC-Anbieter",
+    "enterUrl": "Geben Sie eine URL ein",
+    "errMaxLength": "Geben Sie maximal {{param}} Zeichen ein",
+    "enterValidUrl": "Geben Sie eine gültige URL ein",
+    "enterClientId": "Geben Sie eine Client-ID ein",
+    "enterClientSecret": "Geben Sie ein Client-Geheimnis ein",
+    "enterClientSecretConfirmation": "Geben Sie die Bestätigung des Client-Geheimnisses ein",
+    "errClientSecretMismatch": "Bestätigung des Client-Geheimnisses stimmt nicht überein",
+    "errRoleClaimPathPattern": "Geben Sie einen Rollen-Claim-Pfad in JSONPath-Notation ein"
+  },
+
+  "idm.addRoleDialog": {
+    "title": "Rolle hinzufügen",
+    "name": "Name",
+    "nameRequiredMsg": "Geben Sie einen Namen ein",
+    "namePatternMsg": "Der Name darf a-z, A-Z, 0-9, '@', '.', '_', '-' enthalten",
+    "nameMaxLengthMsg": "Der Name darf {{param}} Zeichen nicht überschreiten",
+    "nameExistsMsg": "Dieser Name ist bereits vergeben"
+  },
+
+  "idm.nameEditorDialog": {
+    "title": "Name bearbeiten",
+    "name": "Name",
+    "errRequired": "Geben sie einen Namen ein",
+    "errMaxLen": "Name darf {{param}} Zeichen nicht überschreiten",
+    "errExisting": "Dieser Name ist bereits vergeben",
+    "errInvalid": "Dieser Name ist nicht gültig. Gültige Zeichen sind: {{param}}"
   }
+
 
 }

@@ -9,13 +9,19 @@
         "diagnostics": "Diagnostics",
         "netId": "NetID",
         "status": "Status",
-        "dcSupport": "DC support"
+        "dcSupport": "DC support",
+        "dataLength": "Data length",
+        "displayFormat": "Display format",
+        "unit": "Unit",
+        "value": "Value",
+        "channel": "Channel"
       },
       "identity": {
         "vendor": "Vendor",
         "productCode": "Product code",
         "revisionNumber": "Revision",
-        "serialNumber": "Serial number"
+        "serialNumber": "Serial number",
+        "vendorId": "Vendor ID"
       },
       "add.button": "Add",
       "cancel.button": "Cancel",
@@ -32,35 +38,49 @@
         "add": "Start ctrlX I/O Engineering",
         "info1": "ctrlX I/O Engineering is a Windows Desktop application used to configure and diagnose an EtherCAT network.",
         "info2": "ctrlX I/O Engineering is part of ctrlX WORKS which can be obtained from the  {{ ctrlXStore }}."
-      }
+      },
+      "noRequiredPermission": "You do not have all the necessary permissions for this functionality"
     },
     "masteroverview": {
       "tabs": {
         "label.overview": "Slaves",
         "label.slavestatistics": "Slave statistics",
         "label.aoe": "AoE",
-        "label.eoe": "EoE"
+        "label.eoe": "EoE",
+        "label.coe": "CoE",
+        "label.voe": "VoE"
       }
     },
     "ecm": {
+      "distributedclock": {
+        "title": "Distributed Clock"
+      },
       "distributedclocks": {
+        "header": {
+          "syncShift": "Sync offset",
+          "sendOffset": "Send offset",
+          "settings": "Settings",
+          "timing": "Timing"
+        },
+        "label": {
+          "continuousDelayCompensation": "Continuous propagation compensation",
+          "cycleTime": "Cycle time",
+          "deviationLimit": "Limit value",
+          "shiftTime": "Shift time",
+          "syncMode": "DC mode",
+          "syncWindowMonitoring": "Sync window monitoring",
+          "systemTime": "System time"
+        },
+        "text": {
+          "active": "Active",
+          "notActive": "Not active"
+        },
         "title": "Distributed Clocks",
-        "label.syncMode": "DC mode",
-        "label.cycleTime": "Cycle time",
-        "unit.cycleTime": "µs",
-        "header.syncShift": "Sync offset",
-        "label.syncShiftTimeToCycleTimePercent": "Percent of cycle time",
-        "label.syncShiftTime": "Sync offset time",
-        "unit.syncShiftTime": "µs",
-        "header.syncWindow": "Sync window",
-        "label.syncWindowMonitoring": "Sync window monitoring",
-        "label.deviationLimit": "Limit value",
-        "unit.deviationLimit": "µs",
-        "label.continuousDelayCompensation": "Continuous propagation compensation",
-        "text.yes": "Yes",
-        "text.no": "No",
-        "text.active": "Active",
-        "text.notActive": "Not active"
+        "unit": {
+          "cycleTime": "µs",
+          "deviationLimit": "µs",
+          "syncShiftTime": "µs"
+        }
       },
       "statistics": {
         "tabHeader": "Master statistics",
@@ -146,26 +166,39 @@
       "noDatalayerPermission": "You do not have the required permissions to see this page.",
       "componentInServiceMode": "The app is currently in 'Service' state. Please switch to 'Setup' or 'Operating' state.",
       "schedulerTaskNotConfigured": "No Scheduler tasks configured for this EtherCAT Master instance. Go to 'Settings' > 'Scheduler' to configure a task",
+      "invalidSlaveState": "Slave is in invalid state - {{slaveState}}",
       "instanceDoesNotExist": {
         "header": "The EtherCAT Master '{{ masterInstance }}' does not exist",
         "addText": "Go to the 'EtherCAT Master' page to select a different master or to create a new one.",
         "info": "An EtherCAT Master is created as software device and uses a physical Ethernet interface of the ctrlX CORE.\nThis allows to access I/Os and drives via EtherCAT. EtherCAT is an Ethernet-based real-time field bus."
-      }
+      },
+      "switchToSetupMode": "Please switch system to 'Setup' first.",
+      "timeout": "A timeout occurred while waiting for the master to switch to 'init'."
     },
     "configuration": {
       "add-master": {
         "title": "Add EtherCAT Master",
-        "name.required": "Enter a name",
-        "name.maxlength": "The name is longer than 15 characters",
         "name.pattern": "Invalid name",
         "msg.noLicense": "No EtherCAT Master license available.",
-        "msg.noInterface": "There is no EtherCAT-capable interface available"
+        "msg.noInterface": "No EtherCAT-capable interface available.",
+        "name.duplicate": "The name is already in use",
+        "task": "Task",
+        "coreIndex": "RT core index",
+        "priority": "Priority",
+        "beforeSyncPoints": "Before SyncPoints",
+        "afterSyncPoints": "After SyncPoints",
+        "required": "Required field",
+        "maxlength": "The name is longer than 16 characters",
+        "noCoreAvailable": "No CPU core available",
+        "onlyNumber": "RT core index can only contain numbers",
+        "advancedSettings": "Advanced settings"
       },
       "del-master": {
         "title": "Delete EtherCAT Master",
         "info1": "The EtherCAT Master '{{instanceName}}' will be deleted.",
         "info2": "The field bus communication will be stopped and the configuration will be deleted.",
-        "warning": "Ensure that all appliances are in safe state before proceeding."
+        "warning": "Ensure that all appliances are in safe state before proceeding.",
+        "success": "EtherCAT Master '{{name}}' deleted."
       },
       "port.header": "Port",
       "redundancy": "Redundancy",
@@ -191,21 +224,143 @@
       "button.resetCounters": "Reset counters"
     },
     "slave": {
-      "general": {
-        "tabHeader": "General"
+      "foe": {
+        "details": {
+          "panelTitle": "Details",
+          "password": "Password",
+          "requiredState": "Required state",
+          "timeout": "Timeout",
+          "selectState": "Select state",
+          "selectTimeout": "Select timeout",
+          "enterWithPassword": "Enter password"
+        },
+        "dialog": {
+          "foe": {
+            "confirmButton": "{{ dataType }}",
+            "body": "Action cannot be undone. Do you want to proceed?",
+            "title": "{{ data.type }} file"
+          },
+          "requiredState": {
+            "confirmButton": "Yes",
+            "body": "Do you want to switch to {{ data.type }} and start the download?",
+            "title": "Slave is not in the required state"
+          }
+        },
+        "filename": {
+          "error": {
+            "required": "File name cannot be empty",
+            "maxLength": "The maximum length of the file name is 64 characters",
+            "invalidChar": "Enter valid characters (invalid characters: /, \\, :, *, ?, \", <, >, |)"
+          }
+        },
+        "inputFile": {
+          "button": "Choose file",
+          "placeholder": "No file chosen"
+        },
+        "notify": {
+          "error": {
+            "changeStateTimeout": "Error when switching to required state: timeout. Please retry.",
+            "downloadFailed": "Error during download: download failed. Please retry.",
+            "message": "Error in {{ error.name }} ({{ error.status }}: {{ error.statusText }}); {{ error.error.detail }}",
+            "transferAlreadyRunning": "Error during {{ transferLC }}: Another transfer is already running. Please try again later.",
+            "transferFailed": "Error: unknown.",
+            "uploadFailed": "Error during upload: Upload failed. Please retry."
+          },
+          "success": {
+            "downloadFinished": "File \"{{ filename }}\" downloaded successfully",
+            "downloadFinishedWithNoFilename": "File downloaded successfully",
+            "uploadFinished": "File \"{{ filename }}\" uploaded successfully"
+          }
+        },
+        "loadingScreen": {
+          "download.title": "Downloading file...",
+          "initialStatus": "Do NOT power off the device.",
+          "upload.title": "Uploading file..."
+        },
+        "localFilename": "Local file name",
+        "noPermissionForFoe": "You do not have the required permissions to use FoE",
+        "password": {
+          "error": {
+            "nan": "Enter valid characters: 0-9, x, A-F, +, -",
+            "notInteger": "Enter valid characters: 0-9, x, A-F, +, -",
+            "maxValue": "Enter a value between 0/0x0 and 4294967295/0xFFFFFFFF",
+            "minValue": "Enter a value between 0/0x0 and 4294967295/0xFFFFFFFF"
+          }
+        },
+        "slaveFilename": "Slave file name",
+        "timeout": {
+          "error": {
+            "nan": "Enter valid characters: 0-9, +, -",
+            "notInteger": "Enter valid characters: 0-9, +, -",
+            "maxValue": "Enter a value between 0 and 32768",
+            "minValue": "Enter a value between 0 and 32768"
+          },
+          "info": "To apply the input, press Enter or comma"
+        }
+      },
+      "soe": {
+        "error": {
+          "required": "Enter a value",
+          "idnFormatError": "Enter a value in IDN format: S-#-xxxx/P-#-xxxx (#=0-7; xxxx=0000-4095)",
+          "notAllowedChar": "Enter valid characters: Code page 850",
+          "notBinary": "Enter a value in binary format: 0b.xxxx.xxxx/xxxxxxxx (x=0-1)",
+          "notHex": "Enter a value in hexadecimal format: 0x0000-0xFFFF",
+          "nanError": "Enter valid characters: 0-9, ., +, -",
+          "decimalPointError": "Enter up to {{ decimalPlaces }} decimal places",
+          "minValueError": "Enter a value between {{ minValue }} and {{ maxValue }}",
+          "maxValueError": "Enter a value between {{ minValue }} and {{ maxValue }}",
+          "unknownError": "Enter a valid value"
+        },
+        "label": {
+          "searchIdn": "Search IDN",
+          "edit-parameter": "Edit parameter",
+          "actionWrite": "Write",
+          "actionClose": "Close",
+          "addParameter": "Add parameter",
+          "deleteParameter": "Delete parameter"
+        },
+        "parameterList": {
+          "allOperationData": "All operation data",
+          "allProcedureCommands": "All procedure commands",
+          "allOperationDataBackup": "Backup for operation data",
+          "configurableDataInMdt": "Configurable data in the MDT",
+          "configurableDataInAt": "Configurable data in the AT"
+        },
+        "emptyStateMessage": "No items to display."
       },
       "identity": {
         "title": "Identity"
+      },
+      "address": {
+        "title": "Address",
+        "ethercatAddress": "EtherCAT address",
+        "autoIncAddress": "AutoIncrement address"
       },
       "mailbox": {
         "title": "Mailbox",
         "protocols": "Protocols",
         "mbxStandard": "Standard Out / Standard In",
         "mbxBootstrap": "Bootstrap Out / Bootstrap In"
+      },
+      "identification": {
+        "title": "Identification",
+        "type": "Type",
+        "ado": "ADO",
+        "identifyValue": "Value",
+        "disabled": "Disabled"
+      }
+    },
+    "slaveoverview": {
+      "tabs.label": {
+        "foe": "FoE",
+        "general": "General",
+        "soeAxisStatus": "Axis status",
+        "soeParameters": "SoE",
+        "onlineVariables": "I/O variables"
       }
     },
     "slaveStatus": {
-      "text":{
+      "text": {
         "set.NotOnline": "Not connected",
         "unset.NotOnline": "Connected",
         "set.Error": " See 'AL Status'",
@@ -225,12 +380,57 @@
           "ipAddress": "IP address",
           "subnetMask": "Subnet mask",
           "defaultGateway": "Default gateway"
-        }
+        },
+        "emptyStateMessage": "No slaves available that support EoE."
       }
     },
     "ecm-aoe-config": {
       "masterConfiguration": {
         "header": "Master configuration"
+      },
+      "emptyStateMessage": "No slaves available that support AoE.",
+      "slaveConfiguration": "Slave configuration"
+    },
+    "ecm-coe-config": {
+      "header": {
+        "index": "Index",
+        "name": "Name",
+        "value": "Value",
+        "access": "Access",
+        "type": "Type"
+      },
+      "download": {
+        "tooltip": "Download list as .csv"
+      },
+      "write-coe": {
+        "actionWrite": "Write",
+        "actionClose": "Close",
+        "actionEdit": "Write the object value"
+      },
+      "noItems": "No items to display."
+    },
+    "ecm-foe-overview": {
+      "table": {
+        "progress": "Progress",
+        "emptyStateMessage": "No slaves available that support FoE."
+      }
+    },
+    "ec-voe": {
+      "emptyStateMessage": "No slaves available that support VoE.",
+      "supportMessage": "Slave {{ slaveName }} supports VoE."
+    },
+    "ecm-sync-units": {
+      "slaveHeader": "Slaves",
+      "slavesColumnHeaders": {
+        "name": "Name",
+        "state": "State",
+        "diagnostics": "Diagnostics"
+      },
+      "syncUnitsHeader": "Sync Units",
+      "syncUnitsColumnHeaders": {
+        "name": "Name",
+        "inputsValid": "Inputs Valid",
+        "outputsValid": "Outputs Valid"
       }
     }
   }

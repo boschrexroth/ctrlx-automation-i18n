@@ -12,6 +12,8 @@
     "error.text": "Error",
     "clickHereForDetails.text": "Click here for details",
     "restart.button": "Restart",
+    "certificateConfig.title": "Certificate configuration",
+    "rejectedCertificate.text": "Certificate configuration (one or more rejected certificates)",
     "later.button": "Later",
     "Delete.button": "Delete & Restart",
     "reset.button": "Reset & Restart",
@@ -24,6 +26,7 @@
     "serverConfig.title": "Server Configuration",
     "infoModel.title": "Information Model",
     "mappings.title": "Mappings",
+    "mirrorMapping.title": "Mirror-Mapping",
     "serverConfiguration.title": "OPC UA Server configuration"
   },
   "uas.configuration": {
@@ -48,6 +51,7 @@
     "ipAddresses.tooltip": "Comma-separated list of IP addresses",
     "selectIp.text": "Select IPs",
     "selectAnyIp.text": "Select any options or type something"
+   
   },
   "uas.endpoint": {
     "portNumber.tooltip": "Port number",
@@ -185,21 +189,29 @@
   "uas.mappings": {
     "action.text": "Action",
     "addMapping.text": "Add Mapping",
+    "addMirrorMapping.text": "Add Mirror Mapping",
     "addMappingResult.tooltip": "Add Mapping Result",
     "deleteMappingTableDesc.text": "Do you really want to delete Mapping Table?",
+    "deleteMirrorMappingTableDesc.text": "Do you really want to delete Mirror Mapping Table?",
     "deleteMappingTable.text": "Delete Mapping Table",
+    "deleteMirrorMappingTable.text": "Delete Mirror Mapping Table",
     "deleteMappingSuccess.text": "{{value}} successfully deleted",
     "mappingSuccess.text": "Mapping successfully updated",
     "mappingResultDeleteSuccess.text": "Mapping Table successfully deleted",
     "mappingDeleteSuccess.text": "Mapping successfully deleted",
+    "mirrorMappingDeleteSuccess.text": "Mirror Mapping successfully deleted",
     "deleteMappingDesc.text": "Do you really want to delete {{value}}",
     "deleteMapping.text": "Delete {{value}}?",
     "noMappingConfig.text": "No Mapping Configured",
     "addMappingTable.text": "Add Mapping Table",
+    "addMirrorMappingTable.text": "Add Mirror Mapping Table",
     "mappingTableSuccess.text": "Succuessfully added {{value}}",
     "mappingAddSuccess.text": "Mapping successfully added",
     "setupMapping.text": "Setup Mapping",
+    "setupMirrorMapping.text": "Setup Mirror Mapping",
     "properties.text": "Properties",
-    "editMppingTable.text": "Edit Mapping Table"
+    "editMappingTable.text": "Edit Mapping Table",
+    "editmirrorMappingTable.text": "Edit Mirror Mapping Table",
+    "predefinedMapping.text": "Predefined mappings can not be edit or delete"
   }
 }

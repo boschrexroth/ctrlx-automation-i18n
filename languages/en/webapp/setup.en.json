@@ -127,8 +127,8 @@
       "filter.certsAndKeys": "Certificates and keys",
       "filter.activeAppData": "Active app data",
       "filter.archivedAppData": "Archived app data",
-      "filter.settings.usersAndPermissions": "Settings: Users and permissions",
       "filter.settings.network": "Settings: Network",
+      "filter.settings.usersAndPermissions": "Settings: Security",
       "filter.settings.system": "Settings: System"
     },
     "options-tree": {
@@ -154,7 +154,6 @@
     "categories": {
       "systemApps.description": "System app: {{app}} ({{size}})",
       "customApps.description": "User app: {{app}} ({{size}})",
-      "appManagementSettings.description": "App management settings",
       "appSpecificSettings.description": "App-specific settings: {{app}}",
       "activeAppData.description": "Active app data",
       "archivedAppData.description": "Archived app data: {{name}}",
@@ -162,18 +161,21 @@
       "keys.description": "{{app}} key: '{{path5}}', category: {{category}}",
       "certificateRevocationLists.description": "{{app}} certificate revocation list: '{{path4}}'",
       "pkcs12Containers.description": "{{app}} PKCS12 container: '{{path4}}'",
+      "networkInterface.description": "Network interface: {{name}}",
+      "networkInterfaceSettings.description": "Network interface settings",
+      "networkDiscovery.description": "Network discovery: LLMNR, MDNS, ...",
       "groups.description": "Group: {{name}}",
       "users.description": "User: {{name}}",
       "ldap_radius_remoteAuth.description": "LDAP, RADIUS, remote authentication",
       "policiesAndPermissions.description": "Policies and permission settings",
       "namedPasswordPolicies.description": "Named password policy: Name: '{{nppName}}', ID: {{name}}",
-      "networkInterface.description": "Network interface: {{name}}",
-      "networkInterfaceSettings.description": "Network interface settings",
-      "networkDiscovery.description": "Network discovery: LLMNR, MDNS, ...",
+      "singleSignOn.description": "Single Sign On: roles, identity providers",
+      "appManagementSettings.description": "App management settings",
+      "licenseManagement.description": "Licensing settings",
       "hostname.description": "Hostname",
-      "typePlate_appVersionInfo.description": "Type plate, app version info, ...",
       "dateAndTime.description": "Date and time",
-      "licenseManagement.description": "Licensing settings"
+      "storage.description": "Storage",
+      "typePlate_appVersionInfo.description": "Type plate, app version info, ..."
     },
     "last-created-setup": {
       "title": "Backup files",
@@ -206,6 +208,10 @@
       "delete.title": "Delete entry",
       "delete.description": "History entry from {{param}} will be deleted.",
       "summaryText": "{{err}} error(s), {{warn}} warning(s)"
+    },
+    "no-response": {
+      "hint": "The device is not responding. If the network settings of the device like hostname or IP address have been changed by applying the backup, close the current page and open a new one with the new address",
+      "last-response": "Last response: {{minutes}} minutes, {{seconds}} second(s) ago"
     }
   }
 }

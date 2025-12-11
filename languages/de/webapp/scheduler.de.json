@@ -59,7 +59,7 @@
       },
       "validator": {
         "numbers": "Nur Zahlen sind gültig",
-        "cycletime": "Es sind nur ganzzahlige Vielfache von 1ms oder der Wert 500µs gültig",
+        "cycletime": "Es sind nur ganzzahlige Vielfache von 1ms oder die Werte 50µs, 100µs, 125µs, 200µs, 250µs oder 500µs gültig",
         "priority": "Bitte wählen Sie einen Wert zwischen {{min}} (hoch) - {{max}} (niedrig) aus",
         "stacksize": "Bitte wählen Sie einen Wert zwischen 16.384 - 2.097.152 aus",
         "name": "Der Name ist erforderlich",
@@ -125,7 +125,7 @@
         "measurement.histogram.hide": "Blendet leere Spalten im Histogramm aus"
       },
       "info": {
-        "callout": "Automatische Programmkonfiguration\nBei einer App-Installation werden die Tasken vom System angepasst. Nur wenige Parameter können individuell geändert werden.\nDeaktivieren sie die Funktion für eine vollständige benutzerdefinierte Konfiguration."
+        "callout": "Automatische Programmkonfiguration ist aktiviert.\nBei der Installation einer App werden Tasken automatisch vom System konfiguriert. Nur wenige Parameter können manuell angepasst werden.\nUm die vollständige benutzerdefinierte Anpassung zu ermögliche, deaktivieren sie die Funktion."
       },
       "reset": {
         "title": "Setzt die Scheduler-Konfiguration auf die Default-Konfiguration zurück",
